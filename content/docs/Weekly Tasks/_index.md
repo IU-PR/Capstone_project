@@ -63,25 +63,23 @@ Embrace this incredible opportunity to showcase your skills, creativity, and pro
 Below, you can find a PDF explaining project goals, deliverables and grading scheme:
 
 <div class="wrapper" style="max-width: 100%; overflow: hidden;">
-  <!-- The padding-bottom value is calculated by dividing the height by the width of the iframe and multiplying by 100 -->
-  <!-- For example, if the iframe is 800px by 600px, then the padding-bottom is 600 / 800 * 100 = 75% -->
-  <div class="iframe-container" style="padding-bottom: 75%; position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
-    <iframe id="pdfIframe" src="/PDF/capstone.pdf" style="height: 100%; width: 100%; border: none; position: absolute; top: 0; left: 0; border-radius: 10px;" title="Iframe Example"></iframe>
+    <div class="pdf-container" style="padding-bottom: 75%; position: relative; overflow: auto; border-radius: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+    <embed src="/PDF/capstone.pdf" type="application/pdf" style="height: 100%; width: 100%; border: none; position: absolute; top: 0; left: 0; border-radius: 10px;">
   </div>
   <button onclick="toggleFullScreen()" style="margin-top: 10px;">Fullscreen</button>
 </div>
 
 <script>
   function toggleFullScreen() {
-    var iframe = document.getElementById("pdfIframe");
-    if (iframe.requestFullscreen) {
-      iframe.requestFullscreen();
-    } else if (iframe.mozRequestFullScreen) { /* Firefox */
-      iframe.mozRequestFullScreen();
-    } else if (iframe.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-      iframe.webkitRequestFullscreen();
-    } else if (iframe.msRequestFullscreen) { /* IE/Edge */
-      iframe.msRequestFullscreen();
+    var container = document.querySelector(".pdf-container");
+    if (container.requestFullscreen) {
+      container.requestFullscreen();
+    } else if (container.mozRequestFullScreen) { /* Firefox */
+      container.mozRequestFullScreen();
+    } else if (container.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+      container.webkitRequestFullscreen();
+    } else if (container.msRequestFullscreen) { /* IE/Edge */
+      container.msRequestFullscreen();
     }
   }
 </script>

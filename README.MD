@@ -16,7 +16,7 @@ If you **do not have** the repo on your machine:
 - Make sure you have [git](https://git-scm.com/downloads), [hugo](https://gohugo.io/installation/), and any code editor installed ([VSCode](https://code.visualstudio.com/) is recommended, but you may use the one you prefer)
 - Clone the repository **with submodules**: 
   ```
-  $ git clone --recursive https://github.com/TCS-IU/TCS_labs.git
+  $ git clone --recursive https://github.com/IU-PR/Capstone_project.git
   ```
   (Note) If you have already clone this repo without submodules, run this from the source directory
   ```

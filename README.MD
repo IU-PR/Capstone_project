@@ -73,6 +73,8 @@ Make sure to run [`git pull`](https://git-scm.com/docs/git-pull) before you make
 - Once done, press "Create pull request"
 - Done! Admins will review your work and merge your changes into the main repo soon  
 
+**To upload images into your report .md file**
+ Please, create a folder with your group name in /static/your_group_folder/your_images.png
 
   
 ## Shortcodes

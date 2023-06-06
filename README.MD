@@ -1,5 +1,5 @@
 # Capstone project at Innopolis University:
-This is a repo of the [Capstone project at the Innopolis University](https://tcs-labs.netlify.app/)
+This is a repo of the [Capstone project at the Innopolis University](https://capstone-pr.netlify.app/) - https://capstone-pr.netlify.app/
 
 Table of contents
 - [How to contribute](#how-to-contribute)

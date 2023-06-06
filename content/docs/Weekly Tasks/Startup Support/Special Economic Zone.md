@@ -2,15 +2,8 @@
 weight: 2
 ---
 
-# 3th Level of Menu
+# **Special Economic Zone**
 
-## Caesorum illa tu sentit micat vestes papyriferi
+As many of you know, Innopolis is home to a Special Economic Zone (SEZ) that offers a range of benefits and services for IT companies and R&D projects. Whether you are a student start-up, a small or medium enterprise, or a large corporation, there are suitable office spaces, tax incentives, recruitment support, and access to a talented pool of specialists. Once you've gained a recognition from the University Startup Board - you can apply for support from the SEZ and use their network and resources to gain additional momentum on your startup
 
-Inde aderam facti; Theseus vis de tauri illa peream. Oculos **uberaque** non
-regisque vobis cursuque, opus venit quam vulnera. Et maiora necemque, lege modo;
-gestanda nitidi, vero? Dum ne pectoraque testantur.
-
-Venasque repulsa Samos qui, exspectatum eram animosque hinc, [aut
-manes](http://www.creveratnon.net/apricaaetheriis), Assyrii. Cupiens auctoribus
-pariter rubet, profana magni super nocens. Vos ius sibilat inpar turba visae
-iusto! Sedes ante dum superest **extrema**.
+For more information, visit the website - https://sezinnopolis.ru/en/

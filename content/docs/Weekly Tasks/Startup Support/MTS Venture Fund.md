@@ -3,15 +3,8 @@ weight: 5
 title: MTS Venture Fund
 ---
 
-# 3th Level of Menu
+# **MTS Venture Fund**
 
-## Caesorum illa tu sentit micat vestes papyriferi
+MTS Venture Fund is a venture capital fund that invests in early-stage startups in various sectors such as fintech, edtech, entertainment, IoT, and cloud. The fund is managed by MTS StartUp Hub, a division of MTS, Russia’s largest mobile phone-carrier and AI research center. The fund aims to help startups grow faster with unique access to the MTS ecosystem and its expertise in artificial intelligence, data analysis, and digital solutions. The fund typically invests between $0.5 to $5 million in seed, round A, and round A+ stages12. Some of its portfolio companies include Rubles, LogicLike, Bartello, and Kneron
 
-Inde aderam facti; Theseus vis de tauri illa peream. Oculos **uberaque** non
-regisque vobis cursuque, opus venit quam vulnera. Et maiora necemque, lege modo;
-gestanda nitidi, vero? Dum ne pectoraque testantur.
-
-Venasque repulsa Samos qui, exspectatum eram animosque hinc, [aut
-manes](http://www.creveratnon.net/apricaaetheriis), Assyrii. Cupiens auctoribus
-pariter rubet, profana magni super nocens. Vos ius sibilat inpar turba visae
-iusto! Sedes ante dum superest **extrema**.
+For more information, visit the website - https://startup.mts.ru/cvc?lang=en

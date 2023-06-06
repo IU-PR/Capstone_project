@@ -4,159 +4,89 @@ bookFlatSection: true
 title: "Introduction"
 ---
 
-# **Week #1**
 
-# **Introduction**
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/Capstone_logo1.png" alt="Astroniology" width="700" style="padding: 5px; border-radius: 5px; box-shadow: 0 0px 0px rgba(0,0,0,0.45);">
+</div>
 
-{{< hint danger >}}
-**Important Note**  
-This blog serves as a central platform for important updates and information regarding our project journey. It is vital that you regularly check this blog for the latest updates and announcements. The content provided on this blog is intended for informational purposes only and may be subject to change without prior notice.
-{{< /hint >}}
-
-**Week #1 is the most crucial week of the entire semester as it sets the foundation for your project**. During this week, your primary tasks are to form your team and select a project. The team formation process should carefully consider the skills, expertise, and compatibility of team members to ensure effective collaboration.
-
-Once your team is formed, it is essential to pitch and discuss project ideas among yourselves. Select a project that aligns with one of the three tiers: web, mobile, or ML (machine learning). The chosen project should be well-defined, feasible, and have a clear problem statement.
-
-Additionally, we expect each team to maintain a weekly progress report blog. These reports are a crucial means of tracking the progress of your projects. Each team is required to submit a report no later than Friday 18:00 of each week. The reports should be informative, substantive, and provide a detailed account of your progress. It is important to clearly explain what you have accomplished, how you have achieved it, and any obstacles or challenges you have encountered.
-
-These weekly reports will be evaluated, and feedback will be provided to assist you in the successful completion of your projects. Therefore, it is crucial to submit your reports on time and ensure they reflect the substantial progress you have made throughout the week.
-
-We encourage you to use this blog as a platform to share your accomplishments, insights, and challenges. It is a valuable opportunity to communicate your ideas, seek feedback, and engage with your peers. By actively participating and sharing your experiences, you contribute to the collaborative learning environment we aim to foster.
 {{< hint info >}}
-Remember, the success of your projects depends on your commitment, dedication, and effective teamwork. Embrace this opportunity to showcase your skills, innovate, and create impactful projects. Good luck, and let's make this semester a remarkable journey of growth and accomplishment!
+**Important Information!**  
+Please note that all the actual and updated information will be located on this website. It is recommended to refer to this website regularly for the most accurate and up-to-date information.
+
+If you have any questions or concerns about the information provided on this website, please contact us for clarification.  
 {{< /hint >}}
-Should you have any questions or require further guidance, please do not hesitate to reach out to us. We are here to support and guide you through this exhilarating process.
 
-## **Team Formation and Project Proposal**
+# **Introduction** 
 
-Please provide the following information for your team members and answer the questions listed below. This information will help us understand your team composition and project proposal better.
+**Welcome** to the exciting and challenging world of the Capstone project! Over the next 7 weeks, you will embark on a remarkable academic journey that will push the boundaries of your knowledge and skills in the realm of technology and innovation.
 
-### Team Members
+In today's rapidly evolving technological landscape, artificial intelligence (AI) has become an integral part of our daily lives. From personalized recommendations on streaming platforms to autonomous vehicles, AI has transformed the way we interact with technology. As future leaders in the field, it is essential for us to not only understand the capabilities of AI but also learn how to harness its potential to build innovative software projects.
 
-Please list the names and contact details (Telegram and email) of your team members:
-{{< expand "Important Note" >}}
+AI is not just a passing trend; it is here to stay. As AI continues to advance, it is crucial for us to adapt and acquire the skills necessary to effectively utilize this powerful technology. This project aims to provide you with the opportunity to not only gain technical expertise in AI but also develop essential soft skills required for successful collaboration, working towards a shared vision, and creating meaningful projects.
 
-When building a team for a software project consisting of 5-7 people, it is crucial to pay attention to the following:
+----
 
-1. **Skills and Expertise**: Ensure that the team members possess the necessary skills and expertise required for the project. Consider their technical knowledge, programming languages, frameworks, and any specific domain expertise relevant to the project.
+# **What this project is about?** 
 
-2. **Collaboration and Communication**: Look for individuals who can effectively collaborate and communicate with one another. Strong teamwork and clear communication channels are essential for seamless coordination and successful project execution.
+## **The Capstone project** 
+This is a unique opportunity for you to collaborate with a team of talented individuals and bring your ideas to life. The goal is to build a tech product that showcases your creativity, problem-solving abilities, and technical expertise. The project also aims to further develop your soft skill and practice effective communication to achieve a shared group vision. You will be tasked to develop a project vision, decompose it into smaller subparts and execute on the predefined plan.
 
-3. **Roles and Responsibilities**: Clearly define roles and responsibilities for each team member. Assign tasks based on their strengths and expertise to optimize productivity and ensure a well-rounded team composition.
+## **Team Formation**
 
-4. **Diversity**: Seek a diverse mix of skills, perspectives, and backgrounds within the team. This can foster creativity, innovation, and a broader range of problem-solving approaches.
+To kickstart this project, you will form a team consisting of either 5 or 7 individuals. Collaborating with diverse perspectives and skill sets will enrich your project and contribute to its success. Choose your team members wisely and ensure a balance of complementary talents.
 
-5. **Leadership**: Identify a capable team lead or project manager who can provide guidance, set clear goals, and facilitate decision-making processes. Leadership skills are crucial to keeping the team motivated and on track.
+## **Project Scope and Tiers**
 
-6. **Flexibility and Adaptability**: Select team members who are adaptable and comfortable working in a dynamic environment. Software projects often encounter changes, and team members should be open to adjusting their approaches and strategies as required.
+Your project should be loosely defined within three tiers: **WEB, MOBILE, or ML (Machine Learning)**. This classification will help you focus your efforts and align your project's goals with the chosen tier. You will have the opportunity to explore and apply cutting-edge technologies specific to your selected tier. You can collaborate with other teams to build complementary projects - i.e, one group is doing WEB, other team MOBILE and third works on ML and backend. 
 
-7. **Problem-solving Abilities**: Look for individuals with strong problem-solving skills. They should be able to analyze complex issues, propose effective solutions, and work well under pressure.
+## **Embracing AI**
 
-8. **Team Dynamics**: Consider the overall team dynamics and ensure compatibility among team members. A cohesive and supportive team environment can enhance productivity and foster a positive work culture.
+We strongly encourage you to explicitly incorporate AI into your project. Aim to plan, utilize, and build using AI technologies. By harnessing the power of AI, you can enhance the functionality and user experience of your tech product. Be innovative and think of unique ways to leverage AI in your project.
 
-9. **Shared Vision**: Ensure that all team members understand and align with the project's vision and goals. A shared sense of purpose can foster motivation, commitment, and a unified approach to project delivery.
+## **Leveraging Open-Source**
 
-Remember, building a successful software project team goes beyond individual skills. It requires a combination of technical expertise, effective communication, collaboration, and a shared commitment to achieving project goals. By paying attention to these aspects, you can lay a strong foundation for your team's success.
+Open-source resources are invaluable for your project's success. Embrace the power of open-source technologies and frameworks to accelerate your development process and tap into the vast knowledge and support of the open-source community. Remember, we do not check for plagiarism; instead, we value your ability to utilize open-source effectively.
 
+## **Engaging Experts**
 
-{{< /expand >}}
-| Team Member            | Telegram ID   | Email Address       |
-|------------------------|---------------|---------------------|
-| Team Member (Lead) 1          | [Telegram ID] | [Email address]     |
-| Team Member 2          | [Telegram ID] | [Email address]     |
-| Team Member 3          | [Telegram ID] | [Email address]     |
-| Team Member 4          | [Telegram ID] | [Email address]     |
-| Team Member 5          | [Telegram ID] | [Email address]     |
-| (Optional) Team Member 6 | [Telegram ID] | [Email address]     |
-| (Optional) Team Member 7 | [Telegram ID] | [Email address]     |
+Take advantage of every opportunity to seek guidance and assistance from experts in relevant domains. Experts can provide valuable insights, mentorship, and help you navigate through technical challenges. Don't hesitate to reach out to them and convince them to contribute to the success of your project.
 
+## **Build With a Vision**:
 
-### Value Proposition
+Aim to develop a project with the potential to evolve into a fully-fledged product after the Capstone project. Choose the project that you think will be feasible to work on after the course will end. The Capstone project aims to give you the initial momentum, that can be carried further. Seek out individuals who possess expertise in relevant domains, as they can offer insights, mentorship, and assistance in overcoming technical hurdles. Once the prototype is ready - you and your team can iteratively improve, reaching a level of the finished product. 
+## **Project Evaluation**
 
-The value proposition of your software project defines the unique benefits and advantages it offers to its users. It highlights the problem your project aims to solve and the positive outcomes it brings. Here's an expanded explanation to help you craft a compelling value proposition:
+Your project will be evaluated solely on its merit and functionality. We will focus on whether your solution effectively solves the stated problem and if all the features are fully operational. Demonstrating a well-executed and functional tech product will be the key to achieving a good grade in this Capstone project.
 
-- Identify the Problem:
-Clearly define the problem or pain point that your software project addresses. Analyze the challenges or inefficiencies faced by users in the targeted domain. Consider the specific pain points, bottlenecks, or limitations they encounter.
+Embrace this incredible opportunity to showcase your skills, creativity, and problem-solving abilities. The Capstone project is your chance to make a lasting impact in the world of technology. Good luck, and may your journey be filled with growth, innovation, and success!
+  
+Below, you can find a PDF explaining project goals, deliverables and grading scheme:
 
-- Solution Description:
-Explain how your software project provides a solution to the identified problem. Outline the key features, functionalities, or services that directly tackle the pain points. Emphasize the unique aspects of your solution that set it apart from existing alternatives.
+<div class="wrapper" style="max-width: 100%; overflow: hidden;">
+  <!-- The padding-bottom value is calculated by dividing the height by the width of the iframe and multiplying by 100 -->
+  <!-- For example, if the iframe is 800px by 600px, then the padding-bottom is 600 / 800 * 100 = 75% -->
+  <div class="iframe-container" style="padding-bottom: 75%; position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
+    <iframe id="pdfIframe" src="PDF/Capstone_project.pdf" style="height: 100%; width: 100%; border: none; position: absolute; top: 0; left: 0; border-radius: 10px;" title="Iframe Example"></iframe>
+  </div>
+  <button onclick="toggleFullScreen()" style="margin-top: 10px;">Fullscreen</button>
+</div>
 
-- Benefits to Users:
-Describe the benefits that users will experience by using your software project. Highlight how it enhances their productivity, efficiency, or effectiveness. Identify the positive outcomes, cost savings, time savings, or improved experiences they can expect.
+<script>
+  function toggleFullScreen() {
+    var iframe = document.getElementById("pdfIframe");
+    if (iframe.requestFullscreen) {
+      iframe.requestFullscreen();
+    } else if (iframe.mozRequestFullScreen) { /* Firefox */
+      iframe.mozRequestFullScreen();
+    } else if (iframe.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+      iframe.webkitRequestFullscreen();
+    } else if (iframe.msRequestFullscreen) { /* IE/Edge */
+      iframe.msRequestFullscreen();
+    }
+  }
+</script>
 
-- Differentiation:
-Discuss what sets your software project apart from competing solutions. Identify the unique selling points, innovative features, or competitive advantages that make it a superior choice for users. Clearly articulate why users should choose your solution over others available in the market.
+If you have any questions, please, contacts us through links below:
 
-- User Impact:
-Explain the broader impact your software project has on users and potentially the society or industry as a whole. Highlight any positive changes, transformative effects, or advancements that result from the adoption of your solution. Consider how it improves workflows, empowers users, or drives positive change.
-
-- User Testimonials or Use Cases:
-Whenever possible, provide real-world examples, user testimonials, or case studies that demonstrate the value and benefits of your software project. Showcasing tangible results and success stories adds credibility and reinforces the value proposition.
-
-Remember to keep your value proposition concise, clear, and compelling. Focus on the most significant benefits and outcomes that resonate with your target users. A well-crafted value proposition effectively communicates the value and impact of your software project, making it more appealing and compelling to users.
-
-[Your answer here]
-
-## Lean Startup Questionnaire
-
-Please answer the following questions related to the lean startup methodology:
-
-1. What problem or need does your software project address?
-2. Who are your target users or customers?
-3. How will you validate and test your assumptions about the project?
-4. What metrics will you use to measure the success of your project?
-5. How do you plan to iterate and pivot if necessary based on user feedback?
-
-[Your answers to the lean startup questionnaire here]
-
-## Leveraging AI, Open-Source, and Experts
-
-Explain how your team plans to leverage the following resources for the development and success of your project:
-
-- AI (Artificial Intelligence):
-- Open-Source:
-- Experts in relevant domains:
-
-[Your answers on leveraging AI, open-source, and experts here]
-
-## Inviting Other Students
-
-Are you open to inviting other students to join your project? If so, it's great to foster collaboration and expand your team. Feel free to discuss the project with your peers and encourage them to join if they are interested and motivated.
-
-When considering inviting other students, you can think about the roles you are looking for and any specific requirements. Be open to diverse skills and expertise that can contribute to the success of your project. Collaboration and teamwork can lead to innovative solutions and a richer learning experience.
-
-Remember, talking to other students and finding potential team members to join your project is not only allowed but also encouraged. Embrace the opportunity to collaborate and create a strong team that can achieve great results together.
-
-
-**[Your answer regarding drafting other students here]**
-
-## Defining the Vision for Your Project
-
-A clear and compelling vision is crucial for successful project planning. When you have a well-defined concept and a shared vision of what you aim to achieve, executing on that vision becomes significantly easier. Therefore, after thorough discussions and settling on a promising idea, it is essential to craft a comprehensive vision with your team. This vision should be detailed, encompassing your chosen tech stack, and anticipate potential future challenges. Below, describe your project using schematic drawings and provide elaborate explanations of all significant components.
-
-- Overview:
-Provide a concise summary of your project, highlighting its purpose and value proposition.
-Explain how your project addresses a specific problem or need in the chosen domain.
-Clearly state the intended benefits and impact on users or stakeholders.
-
-- Schematic Drawings:
-Use visual representations such as diagrams, flowcharts, or wireframes to illustrate the structure and flow of your project.
-Include all essential components, modules, and interactions within the system.
-Ensure the drawings are clear, labeled, and easily understandable by both technical and non-technical stakeholders.
-
-- Tech Stack:
-Specify the technologies, frameworks, and programming languages you plan to utilize in your project.
-Justify your tech stack choices based on their suitability for the project requirements and team expertise.
-Consider scalability, performance, security, and ease of development when selecting your tech stack.
-
-- Anticipating Future Problems:
-Foresee potential challenges and obstacles that may arise during the project development and deployment phases.
-Identify risks related to technical complexities, resource limitations, time constraints, or external dependencies.
-Propose mitigation strategies or alternative approaches to address these anticipated problems.
-
-- Elaborate Explanations:
-Provide detailed descriptions of critical components, algorithms, or methodologies employed in your project.
-Explain the core functionalities and how they contribute to achieving the project goals.
-Highlight any innovative or unique aspects of your solution that differentiate it from existing alternatives.
-
-[Your vision for the project here]
+{{< button relref="/" >}}Get Home{{< /button >}}
+{{< button href="https://github.com/Lukmanovr/TCS_labs" >}}Contribute{{< /button >}}

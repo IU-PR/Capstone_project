@@ -4,7 +4,7 @@ headless: true
 
 - **Groups**
 - [**Week #1**]({{< relref "/docs/Weekly Tasks" >}})
-- [Table of Contents]({{< relref "/docs/example/table-of-contents" >}})
+- [Weekly Tasks]({{< relref "/docs/example/table-of-contents" >}})
   - [With ToC]({{< relref "/docs/example/table-of-contents/with-toc" >}})
   - [Without ToC]({{< relref "/docs/example/table-of-contents/without-toc" >}})
 - [Collapsed]({{< relref "/docs/example/collapsed" >}})

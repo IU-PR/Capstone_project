@@ -66,7 +66,7 @@ Below, you can find a PDF explaining project goals, deliverables and grading sch
   <!-- The padding-bottom value is calculated by dividing the height by the width of the iframe and multiplying by 100 -->
   <!-- For example, if the iframe is 800px by 600px, then the padding-bottom is 600 / 800 * 100 = 75% -->
   <div class="iframe-container" style="padding-bottom: 75%; position: relative; overflow: hidden; border-radius: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
-    <iframe id="pdfIframe" src="PDF/Capstone_project_1.pdf" style="height: 100%; width: 100%; border: none; position: absolute; top: 0; left: 0; border-radius: 10px;" title="Iframe Example"></iframe>
+    <iframe id="pdfIframe" src="/PDF/capstone.pdf" style="height: 100%; width: 100%; border: none; position: absolute; top: 0; left: 0; border-radius: 10px;" title="Iframe Example"></iframe>
   </div>
   <button onclick="toggleFullScreen()" style="margin-top: 10px;">Fullscreen</button>
 </div>

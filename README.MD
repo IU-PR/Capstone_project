@@ -1,9 +1,8 @@
-# Theoretical Computer Science course at Innopolis University:
-This is a repo of [TCS course at the Innopolis University website](https://tcs-labs.netlify.app/). Feel free to contribute!
+# Capstone project at Innopolis University:
+This is a repo of [Capstone project at the Innopolis University](https://tcs-labs.netlify.app/)
 
 Table of contents
-- [Theoretical Computer Science course at Innopolis University:](#theoretical-computer-science-course-at-innopolis-university)
-  - [How to contribute](#how-to-contribute)
+- [How to contribute](#how-to-contribute)
   - [Pull requests](#pull-requests)
   - [Shortcodes](#shortcodes)
     - [LaTeX](#latex)
@@ -11,9 +10,8 @@ Table of contents
     - [Other shortcodes](#other-shortcodes)
   - [Familiarize yourself with our techstack](#familiarize-yourself-with-our-techstack)
 
-
 ## How to contribute
-If you ***do not have*** the repo on your machine:
+If you **do not have** the repo on your machine:
 
 - Make sure you have [git](https://git-scm.com/downloads), [hugo](https://gohugo.io/installation/), and any code editor installed ([VSCode](https://code.visualstudio.com/) is recommended, but you may use the one you prefer)
 - Clone the repository **with submodules**: 
@@ -34,17 +32,20 @@ Now you can start contributing:
   Web Server is available at //localhost:some-port-number/ (bind address 127.0.0.1)
   ```
   Visit `localhost:some-port-number` in your browser to access your local instance of the website. Now all of you changes in the website's source code should be propageted automatically.
-- You are ready to rock!!! Make changes and contribute!
+
 - After you feel you have made enough changes, run <br> 
   [`git add .`](https://git-scm.com/docs/git-add),<br>
    then <br>
-  [`git commit -m "Your very informative message that describes the changes you've made"`](https://git-scm.com/docs/git-commit). 
+  [`git commit -m "Your very informative progress report that describes the changes you've made"`](https://git-scm.com/docs/git-commit). 
 
-  Note that this saves and documents changes on your machine only.
+Note that this saves and documents changes on your machine only.
 
 **Important note!**
 
-Make sure to run [`git pull`](https://git-scm.com/docs/git-pull) before you make any new changes after you've pushed, so that you avoid creating merge conflicts.
+- Group leads and personal track participants have to be collaborators to do changes in this repo. We will collect a list with your Github ID's and give you the rights
+- You need to open your own branch to start making your progress report contributions! Name of the branch should be "**group_name/family_name"
+- After project is over, we will ask you to make a pull request into a master branch, so we can collect all reports ito a single document/blog
+- Don't forget to pull changes from the master branch, we will be publishing weekly tasks and updated information!
 
 ## Pull requests
 Now that you have made your changes, you will need to properly submit them so that no merge conficts happen.<br>
@@ -53,21 +54,25 @@ Now that you have made your changes, you will need to properly submit them so th
   ```
   $ git checkout -b <branch>
   ```
-  Ex: `git checkout -b lab11`
-- If you have any changes left uncommited, commit them as ususal
+  Ex: `git checkout -b My_Cool_Project_Group_Name`
+- If you have any changes left uncommited, commit them as usual
 - Push your new branch to the server
   ```
   $ git push origin <branch>
   ```
-  It should push the branch normally. If not, send the error to the group.
-- Now go to the [github repo](https://github.com/TCS-IU/TCS_labs)
-- Press ["Pull requests"](https://github.com/TCS-IU/TCS_labs/pulls)
-- Press ["New pull requests"](https://github.com/TCS-IU/TCS_labs/compare)
-- Select the **master** branch on the left, and **<branch>** on the right. Make sure **base** & **head** repos are the same *(that is TCS-IU/TCS_labs)*
+**Instructions to merge your branch with the master branch**
+
+It should push the branch normally. If not, send the error to the group.
+Make sure to run [`git pull`](https://git-scm.com/docs/git-pull) before you make any new changes after you've pushed, so that you avoid creating merge conflicts.
+
+- Now go to the [github repo](https://github.com/IU-PR/Capstone_project)
+- Press ["Pull requests"](https://github.com/IU-PR/Capstone_project/pulls)
+- Press ["New pull requests"](https://github.com/IU-PR/Capstone_project/compare)
 - Press "Create pull request"
 - Describe what have you modified, maybe provide some suggestions for future imporvements
 - Once done, press "Create pull request"
 - Done! Admins will review your work and merge your changes into the main repo soon  
+
 
   
 ## Shortcodes
@@ -118,12 +123,4 @@ This project's shortcodes and their descriptions can be found in `layouts/shortc
 ...stuff/..
 {{</shortcode>}}
 ```
-Try them out and see what you can build.
-
-## Familiarize yourself with our techstack
-- [The world’s fastest framework for building websites | Hugo (gohugo.io)](https://gohugo.io/) - static website generator
-- [Introduction | Hugo Book (hugo-book-demo.netlify.app)](https://hugo-book-demo.netlify.app/) - Hugo book theme
-- [KaTeX – The fastest math typesetting library for the web](https://katex.org/) - LaTeX compiler
-- [PyScript | Run Python in your HTML](https://pyscript.net/) - Client-side python runner embedded in the browser
-- [Pynecone: The easiest way to build web apps.](https://pynecone.io/) - Helps us create interactive features with python (WIP)
-- [Develop and deploy websites and apps in record time | Netlify](https://www.netlify.com/) - Server host
+Try them out if you think they are useful in your progress reports.

@@ -86,7 +86,6 @@ Below, you can find a PDF explaining project goals, deliverables and grading sch
   }
 </script>
 
-If you have any questions, please, contacts us through links below:
+If you have any questions, please, contacts us
 
 {{< button relref="/" >}}Get Home{{< /button >}}
-{{< button href="https://github.com/Lukmanovr/TCS_labs" >}}Contribute{{< /button >}}

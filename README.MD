@@ -1,5 +1,5 @@
 # Capstone project at Innopolis University:
-This is a repo of [Capstone project at the Innopolis University](https://tcs-labs.netlify.app/)
+This is a repo of the [Capstone project at the Innopolis University](https://tcs-labs.netlify.app/)
 
 Table of contents
 - [How to contribute](#how-to-contribute)
@@ -43,7 +43,7 @@ Note that this saves and documents changes on your machine only.
 **Important note!**
 
 - Group leads and personal track participants have to be collaborators to do changes in this repo. We will collect a list with your Github ID's and give you the rights
-- You need to open your own branch to start making your progress report contributions! Name of the branch should be "**group_name/family_name"
+- You need to open your own branch to start making your progress report contributions! Name of the branch should be "**group_name/family_name**"
 - After project is over, we will ask you to make a pull request into a master branch, so we can collect all reports ito a single document/blog
 - Don't forget to pull changes from the master branch, we will be publishing weekly tasks and updated information!
 
@@ -76,7 +76,7 @@ Make sure to run [`git pull`](https://git-scm.com/docs/git-pull) before you make
 
   
 ## Shortcodes
-This projects uses a handful of shortcodes. Shortcode *(in a nutshell)* is "mark" inside your markdown code that enables certain features within its code block. For example, you can define a codeblock of LaTeX code that renders LaTeX formulas. You can also define a codeblock that describes a structure of a graph. Below are example of these two.
+This blog template uses a handful of shortcodes. Shortcode *(in a nutshell)* is "mark" inside your markdown code that enables certain features within its code block. For example, you can define a codeblock of LaTeX code that renders LaTeX formulas. You can also define a codeblock that describes a structure of a graph. Below are example of these two.
 
 ### LaTeX
 How to write in LaTeX:

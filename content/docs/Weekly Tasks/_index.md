@@ -62,27 +62,7 @@ Embrace this incredible opportunity to showcase your skills, creativity, and pro
   
 Below, you can find a PDF explaining project goals, deliverables and grading scheme:
 
-<div class="wrapper" style="max-width: 100%; overflow: hidden;">
-    <div class="pdf-container" style="padding-bottom: 75%; position: relative; overflow: auto; border-radius: 10px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);">
-    <embed src="/PDF/capstone.pdf" type="application/pdf" style="height: 100%; width: 100%; border: none; position: absolute; top: 0; left: 0; border-radius: 10px;">
-  </div>
-  <button onclick="toggleFullScreen()" style="margin-top: 10px;">Fullscreen</button>
-</div>
-
-<script>
-  function toggleFullScreen() {
-    var container = document.querySelector(".pdf-container");
-    if (container.requestFullscreen) {
-      container.requestFullscreen();
-    } else if (container.mozRequestFullScreen) { /* Firefox */
-      container.mozRequestFullScreen();
-    } else if (container.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-      container.webkitRequestFullscreen();
-    } else if (container.msRequestFullscreen) { /* IE/Edge */
-      container.msRequestFullscreen();
-    }
-  }
-</script>
+{{< embed-pdf url="/PDF/capstone2.pdf" >}}
 
 If you have any questions, please, contacts us
 

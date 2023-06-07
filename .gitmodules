@@ -1,3 +1,6 @@
 [submodule "themes/hugo-book"]
 	path = themes/hugo-book
 	url = https://github.com/alex-shpak/hugo-book.git
+[submodule "themes/hugo-embed-pdf-shortcode"]
+	path = themes/hugo-embed-pdf-shortcode
+	url = https://github.com/anvithks/hugo-embed-pdf-shortcode.git

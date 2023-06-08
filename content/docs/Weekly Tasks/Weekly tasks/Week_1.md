@@ -66,9 +66,9 @@ Remember, building a successful software project goes beyond individual skills. 
 | Team Member 2          | @mintnova | a.smirnova@innopolis.university    |
 | Team Member 3          | @amirlansharipov | a.sharipov@innopolis.university     |
 | Team Member 4          | @EveryoneHATEme | y.dementyev@innopolis.university   |
-| Team Member 5          | @Guzel_Zakirova | [Email address]     |
+| Team Member 5          | @Guzel_Zakirova | guz.zakirova@innopolis.university    |
 | (Optional) Team Member 6 | @sundariam | d.merzakreeva@innopolis.university     |
-| (Optional) Team Member 7 | @shredding8 | [Email address]     |
+| (Optional) Team Member 7 | @shredding8 | e.zavrazhnov@innopolis.university     |
 
 
 ### **Value Proposition**

@@ -77,7 +77,7 @@ The project is about creating mock job interviews with an AI that functions as a
 
 - Schematic Drawing:
 #
-![Schematic Drawing](/MockMentor/schematic_drawing.svg)
+![Schematic Drawing](../../../static/MockMentor/schematic_drawing.svg)
 
 - Tech Stack:
 For now, we decided to use these stacks/frameworks for our project:

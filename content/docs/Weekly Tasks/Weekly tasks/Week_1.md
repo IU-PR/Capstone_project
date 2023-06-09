@@ -62,7 +62,7 @@ Remember, building a successful software project goes beyond individual skills. 
 {{< /expand >}}
 | Team Member            | Telegram ID   | Email Address       |
 |------------------------|---------------|---------------------|
-| Muhammadjon Hokimioyn (Lead)          | [Muhammad_Hokimiyon](https://t.me/Muhammad_Hokimiyon) | m.hokimiyon@innopolis.university     |
+| Muhammadjon Hokimiyon (Lead)          | [Muhammad_Hokimiyon](https://t.me/Muhammad_Hokimiyon) | m.hokimiyon@innopolis.university     |
 | Sadi Toirov          | [Toirov Sadi](https://t.me/Toirov_Sadi) | s.toirov@innopolis.university     |
 
 

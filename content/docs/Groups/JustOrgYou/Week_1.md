@@ -56,5 +56,6 @@ The main **pain points**:
 - UI is too distrupting, hard to quickly add thing
 - process of sorting is too long
 - process of sorting is too complicated
-
-
+- too complicated for newcommer to set up environment
+- no unified way to work on desktop and on mobile device
+- inbox processing on mobile device is very painful (due to device specific)

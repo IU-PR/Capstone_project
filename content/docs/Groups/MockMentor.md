@@ -21,7 +21,7 @@ title: "Week #1"
 ### **Value Proposition**
 
 - Identifying the Problem:
-People who are looking for a job face a problem, they do not know what to expect and how to prepare for an interview. Even with tools like leetcode, which allows them to prepare for test questions, candidates still do not know the whole process of the interview and lack the experience of a real interview.
+While tools like leetcode allows people to prepare for test questions in job interviews, candidates still do not know the whole process of the interview and lack the experience of a real interview. They often feel stress and nervousness. The lack of experience is one of the main reasons for these emotions.
 
 - Solution Description:
 Our project allows candidates not only to solve practice questions, the main function is ability to pass mock interviews with an AI. Questions that are similar to those that are usually asked in real interviews and then provided with feedback. Moreover, to imitate the real interview, the candidate will be able to answer through his microphone and receive questions via audio too.

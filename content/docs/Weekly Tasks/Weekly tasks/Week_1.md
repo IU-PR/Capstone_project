@@ -62,14 +62,10 @@ Remember, building a successful software project goes beyond individual skills. 
 {{< /expand >}}
 | Team Member            | Telegram ID   | Email Address       |
 |------------------------|---------------|---------------------|
-| Team Member (Lead) 1          | [Telegram ID] | [Email address]     |
-| Team Member 2          | [Telegram ID] | [Email address]     |
-| Team Member 3          | [Telegram ID] | [Email address]     |
-| Team Member 4          | [Telegram ID] | [Email address]     |
-| Team Member 5          | [Telegram ID] | [Email address]     |
-| (Optional) Team Member 6 | [Telegram ID] | [Email address]     |
-| (Optional) Team Member 7 | [Telegram ID] | [Email address]     |
-
+| Ahmad Alhussin         | AhmadAlhusein | a.alhussin@innopolis.university     |
+| Ahmad Sarhan          | Ahmad_Sarhan | a.sarhan@innopolis.university     |
+| Ghadeer Akleh          | Ghadeer_akleh | g.akleh@innopolis.university     |
+| Vladislav Lopatovskii          | vlad_sup | v.lopatovskii@innopolis.university     |
 
 ### **Value Proposition**
 
@@ -95,7 +91,27 @@ Whenever possible, provide real-world examples, user testimonials, or case studi
 
 Remember to keep your value proposition concise, clear, and compelling. Focus on the most significant benefits and outcomes that resonate with your target users. A well-crafted value proposition effectively communicates the value and impact of your software project, making it more appealing and compelling to users.
 
-[Your answer here]
+
+- ####  The problem we are solving
+    Our website addresses the challenges that freelancers commonly face, providing solutions for payment methods, dealing with scammers, and combating the pervasive issue of racism. Freelancing platforms often exhibit discriminatory practices, such as offering different hourly rates based on nationality. Additionally, certain geographical locations may be barred from accessing these platforms due to sanctions and political considerations. Our platform aims to create a fair and inclusive environment, eliminating these barriers and fostering equal opportunities for all freelancers.
+
+- #### Solution description
+    Our solution combines the advantages of peer-to-peer architecture with centralized control to effectively address the aforementioned problems. While peer-to-peer architecture helps mitigate many issues, it falls short in dealing with scammers and ensuring website content remains safe. To overcome these challenges, our platform adopts a centralized approach. We prioritize user privacy by not requiring or allowing the disclosure of nationalities. Additionally, we facilitate payments using cryptocurrencies for enhanced security and convenience.
+
+    To prevent fraud and disputes, we employ a unique approach. Initially, the platform securely holds the cryptocurrency within its wallet until both the freelancer and job owner reach an agreement on the project. In case of conflicts, our dedicated administrators step in to manually assess the project's completion and determine the appropriate distribution of funds. This ensures fair resolution and minimizes the risk of financial loss for both parties involved.
+
+- #### Benefits to Users    
+    At our website, freelancers and service providers enjoy a multitude of benefits. We prioritize inclusivity by removing nationality-based restrictions, ensuring equal opportunities for all users based solely on their skills and expertise. Additionally, our payment system significantly reduces transfer fees, allowing freelancers to retain a higher portion of their earned income. By offering these advantages, we enhance the overall experience, making freelancing more rewarding and convenient for our valued users.
+
+- #### Differentiation
+    Unlike many platforms, we do not ask for or restrict users based on their nationality. Furthermore, our platform supports payment with cryptocurrencies, offering enhanced security and convenience for users. By securely holding funds in our website's wallet until project agreements are reached, we provide a fair and transparent process for resolving conflicts
+
+- #### User Impact
+    The adoption of our new payment method brings a significant positive impact on users. It eliminates numerous limitations that currently exist in the industry, transforming the way freelancers and service providers operate. Unlike existing websites that impose restrictions based on specific locations and pay discrepancies based on nationalities, our platform fosters equal opportunities for all.
+
+- #### User Testimonials or Use Cases
+    
+
 
 ## **Lean Startup Questionnaire**
 

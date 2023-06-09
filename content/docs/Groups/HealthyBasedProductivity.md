@@ -86,6 +86,8 @@ By using our solution, users can avoid the mistakes and unrealistic expectations
 
 2. Schematic Drawings
 
+General workflow of the project
+
 ![](https://github.com/IU-PR/Capstone_project/blob/HealthyBasedProductivity/static/HealthyBasedProductivity/workflow.png)
 
 3. Tech Stack

@@ -123,7 +123,7 @@ title: "InnTime"
 
     >***Table parsing:*** The project's core consists of a set of algorithms that can combine the data from several tables into a single format. No matter how many tables are there, this capability enables users to examine their schedules in real-time.
 
-    >***Group selection:*** The program gives users the option to choose their favorite study group, thereby enhancing the user experience. This function selects the pertinent information from the parsed tables and only shows what is crucial to the chosen group.
+    >***Group selection:*** The program gives users the option to choose their study group, thereby enhancing the user experience. This function selects the pertinent information from the parsed tables and only shows what is crucial to the chosen group.
 
     >***Selection of electives:*** Choosing electives for each study group is another project component. Students can select available electives for their specific degree using this function and add them to their timetable.
 

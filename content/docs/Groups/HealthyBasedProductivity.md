@@ -86,7 +86,7 @@ By using our solution, users can avoid the mistakes and unrealistic expectations
 
 2. Schematic Drawings
 
-![image](https://github.com/sofi12321/healthy-based-productivity/assets/71354878/4a568260-ac67-479b-9bb0-ab2a8b4c415a)
+![](https://github.com/IU-PR/Capstone_project/blob/HealthyBasedProductivity/static/HealthyBasedProductivity/workflow.png)
 
 3. Tech Stack
 

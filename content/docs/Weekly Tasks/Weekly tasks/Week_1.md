@@ -123,7 +123,36 @@ Please answer the following questions related to the lean startup methodology:
 4. What metrics will you use to measure the success of your project?
 5. How do you plan to iterate and pivot if necessary based on user feedback?
 
-[Your answers to the lean startup questionnaire here]
+- #### The need our software project addresses 
+    This software project addresses the problem of connecting people in need of specific services with qualified service providers. It aims to simplify the process of finding and hiring freelancers by providing a platform where users can easily post their service requirements and receive applications from interested service providers. In addition, we are planning to address the need for secure and efficient payment solutions in the freelancing industry. By using cryptocurrency payments, we aim to reduce the risk of scams and provide a decentralized and transparent method for financial transactions.
+
+- #### Target users
+    The target users or customers of the website are individuals or businesses seeking specific services, such as graphic design, web development, writing, marketing, etc. They could be entrepreneurs, small business owners, project managers, or individuals in need of specialized skills.
+    
+- #### Validating and testing our assumptions about the project.
+    -- Conduct market research to understand the demand for freelancing services in your target market.
+
+    -- Run surveys or interviews with potential users to gather their feedback and understand their points of view about missing technologies, features and functionalities in currently available freelanding platforms.
+
+    -- Create a minimum viable product (MVP) with basic functionality to test the initial response and collect user feedback.
+
+- #### Metrics for measure success
+    -- Feedback and ratings: Collect feedback from users and track their satisfaction levels through ratings and reviews.
+
+    -- User engagement: Track the frequency and duration of user interactions on the website.
+
+    -- Monitor the percentage of users who successfully hire a service provider through the platform.
+
+    -- Transaction volume: Measure the number and value of transactions conducted using cryptocurrencies on the platform.
+
+- #### Iterate and pivot based on user feedback
+    -- Implement changes or new features based on user feedback and iterate the product accordingly.
+
+    -- Continuously gather feedback through surveys, user interviews, and monitoring user behavior to identify further areas for improvement or potential pivots.
+
+    -- Remain flexible and open to making significant changes to the platform if user feedback indicates a need for a different approach or additional features.
+
+    -- Address any usability or security issues identified by users and make iterative improvements to the cryptocurrency payment functionality.
 
 ## **Leveraging AI, Open-Source, and Experts**
 
@@ -133,7 +162,20 @@ Explain how your team plans to leverage the following resources for the developm
 - Open-Source:
 - Experts in relevant domains:
 
-[Your answers on leveraging AI, open-source, and experts here]
+- #### AI (Artificial Intelligence)
+    -- Taking into account AI suggestion about functionalities and sturcture of the project
+
+    -- For future deployment, we can use AI algorithms to help detect and prevent fraudulent activities by analyzing user behavior patterns, transaction history, and other relevant data.
+
+    -- AI techniques such as NLP (Natural language processing) can be used to improve search functionalities and enable users to find the relevant services or posts more effectively
+
+- #### Open-Source 
+    -- Open-source frameworks and libraries provide a solid foundation for building web applications. By utilizing these resources, we can accelerate development, reduce costs, and benefit from the contributions and support of the open-source community.
+
+    -- Analyze relevant open source existing-platforms functionalities and compare performance of our functionalities with them in order to enhance it. 
+
+- #### Experts in relevant domains
+    -- We will try to make discussion with experts about testing and implementation, collect their feedback and advices.
 
 ## **Inviting Other Students**
 
@@ -144,7 +186,12 @@ When considering inviting other students, you can think about the roles you are 
 Remember, talking to other students and finding potential team members to join your project is not only allowed but also encouraged. Embrace the opportunity to collaborate and create a strong team that can achieve great results together.
 
 
-**[Your answer regarding drafting other students here]**
+- #### Inviting new members
+
+    -- Since now we have few members, new members are welcome to discuss with us about the idea of the project and join our team.
+
+    -- Also we might invite new members from front-end course to help us to design the front-end interface of our website.
+ 
 
 ## **Defining the Vision for Your Project**
 
@@ -175,4 +222,18 @@ Provide detailed descriptions of critical components, algorithms, or methodologi
 Explain the core functionalities and how they contribute to achieving the project goals.
 Highlight any innovative or unique aspects of your solution that differentiate it from existing alternatives.
 
-[Your vision for the project here]
+## **Fairlance platform**  
+
+The project aims to create a comprehensive freelancing platform that connects individuals and businesses seeking specific services with qualified service providers globally. By leveraging advanced technologies and a user-friendly interface, the platform revolutionizes the way people find and hire freelancers while removing limitations imposed by geographic location or nationality.
+
+- #### Intended Benefits and Impact:
+
+    -- Service Seekers: Users seeking services can easily post their requirements, review the profiles and portfolios of service providers, and select the most suitable candidates. They benefit from a broader range of skilled professionals, faster response times, and access to a global talent pool.
+
+    -- Service Providers: Freelancers gain increased exposure and opportunities to showcase their skills and expertise. They can connect with clients globally, expanding their client base and potentially earning more income.
+
+    Efficiency and Convenience: The platform streamlines the entire process of finding, hiring, and collaborating with freelancers. Users can easily manage projects, track progress, and make secure payments, resulting in improved efficiency and convenience.
+
+    Trust and Security: By incorporating cryptocurrency payments and implementing fraud detection measures, the platform ensures secure transactions and builds trust between users and service providers.
+
+    Global Collaboration: The project fosters international collaboration by connecting individuals and businesses across different countries and cultures, facilitating the exchange of knowledge and expertise on a global scale.

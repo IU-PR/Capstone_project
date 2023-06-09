@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Week #1"
+title: "fairlance"
 ---
 
 # **Week #1**
@@ -69,29 +69,6 @@ Remember, building a successful software project goes beyond individual skills. 
 
 ### **Value Proposition**
 
-The value proposition of your software project defines the unique benefits and advantages it offers to its users. It highlights the problem your project aims to solve and the positive outcomes it brings. Here's an expanded explanation to help you craft a compelling value proposition:
-
-- Identify the Problem:
-Clearly define the problem or pain point that your software project addresses. Analyze the challenges or inefficiencies faced by users in the targeted domain. Consider the specific pain points, bottlenecks, or limitations they encounter.
-
-- Solution Description:
-Explain how your software project provides a solution to the identified problem. Outline the key features, functionalities, or services that directly tackle the pain points. Emphasize the unique aspects of your solution that set it apart from existing alternatives.
-
-- Benefits to Users:
-Describe the benefits that users will experience by using your software project. Highlight how it enhances their productivity, efficiency, or effectiveness. Identify the positive outcomes, cost savings, time savings, or improved experiences they can expect.
-
-- Differentiation:
-Discuss what sets your software project apart from competing solutions. Identify the unique selling points, innovative features, or competitive advantages that make it a superior choice for users. Clearly articulate why users should choose your solution over others available in the market.
-
-- User Impact:
-Explain the broader impact your software project has on users and potentially the society or industry as a whole. Highlight any positive changes, transformative effects, or advancements that result from the adoption of your solution. Consider how it improves workflows, empowers users, or drives positive change.
-
-- User Testimonials or Use Cases:
-Whenever possible, provide real-world examples, user testimonials, or case studies that demonstrate the value and benefits of your software project. Showcasing tangible results and success stories adds credibility and reinforces the value proposition.
-
-Remember to keep your value proposition concise, clear, and compelling. Focus on the most significant benefits and outcomes that resonate with your target users. A well-crafted value proposition effectively communicates the value and impact of your software project, making it more appealing and compelling to users.
-
-
 - ####  The problem we are solving
     Our website addresses the challenges that freelancers commonly face, providing solutions for payment methods, dealing with scammers, and combating the pervasive issue of racism. Freelancing platforms often exhibit discriminatory practices, such as offering different hourly rates based on nationality. Additionally, certain geographical locations may be barred from accessing these platforms due to sanctions and political considerations. Our platform aims to create a fair and inclusive environment, eliminating these barriers and fostering equal opportunities for all freelancers.
 
@@ -118,122 +95,138 @@ Remember to keep your value proposition concise, clear, and compelling. Focus on
 Please answer the following questions related to the lean startup methodology:
 
 1. What problem or need does your software project address?
-2. Who are your target users or customers?
-3. How will you validate and test your assumptions about the project?
-4. What metrics will you use to measure the success of your project?
-5. How do you plan to iterate and pivot if necessary based on user feedback?
 
-- #### The need our software project addresses 
     This software project addresses the problem of connecting people in need of specific services with qualified service providers. It aims to simplify the process of finding and hiring freelancers by providing a platform where users can easily post their service requirements and receive applications from interested service providers. In addition, we are planning to address the need for secure and efficient payment solutions in the freelancing industry. By using cryptocurrency payments, we aim to reduce the risk of scams and provide a decentralized and transparent method for financial transactions.
 
-- #### Target users
+2. Who are your target users or customers?
+
     The target users or customers of the website are individuals or businesses seeking specific services, such as graphic design, web development, writing, marketing, etc. They could be entrepreneurs, small business owners, project managers, or individuals in need of specialized skills.
-    
-- #### Validating and testing our assumptions about the project.
-    -- Conduct market research to understand the demand for freelancing services in your target market.
 
-    -- Run surveys or interviews with potential users to gather their feedback and understand their points of view about missing technologies, features and functionalities in currently available freelanding platforms.
+3. How will you validate and test your assumptions about the project?
 
-    -- Create a minimum viable product (MVP) with basic functionality to test the initial response and collect user feedback.
+    - Conduct market research to understand the demand for freelancing services in your target market.
 
-- #### Metrics for measure success
-    -- Feedback and ratings: Collect feedback from users and track their satisfaction levels through ratings and reviews.
+    - Run surveys or interviews with potential users to gather their feedback and understand their points of view about missing technologies, features and functionalities in currently available freelanding platforms.
 
-    -- User engagement: Track the frequency and duration of user interactions on the website.
+    - Create a minimum viable product (MVP) with basic functionality to test the initial response and collect user feedback.
 
-    -- Monitor the percentage of users who successfully hire a service provider through the platform.
+4. What metrics will you use to measure the success of your project?
 
-    -- Transaction volume: Measure the number and value of transactions conducted using cryptocurrencies on the platform.
+    - Feedback and ratings: Collect feedback from users and track their satisfaction levels through ratings and reviews.
 
-- #### Iterate and pivot based on user feedback
-    -- Implement changes or new features based on user feedback and iterate the product accordingly.
+    - User engagement: Track the frequency and duration of user interactions on the website.
 
-    -- Continuously gather feedback through surveys, user interviews, and monitoring user behavior to identify further areas for improvement or potential pivots.
+    - Monitor the percentage of users who successfully hire a service provider through the platform.
 
-    -- Remain flexible and open to making significant changes to the platform if user feedback indicates a need for a different approach or additional features.
+    - Transaction volume: Measure the number and value of transactions conducted using cryptocurrencies on the platform.
 
-    -- Address any usability or security issues identified by users and make iterative improvements to the cryptocurrency payment functionality.
+5. How do you plan to iterate and pivot if necessary based on user feedback?
+
+    - Implement changes or new features based on user feedback and iterate the product accordingly.
+
+    - Continuously gather feedback through surveys, user interviews, and monitoring user behavior to identify further areas for improvement or potential pivots.
+
+    - Remain flexible and open to making significant changes to the platform if user feedback indicates a need for a different approach or additional features.
+
+    - Address any usability or security issues identified by users and make iterative improvements to the cryptocurrency payment functionality.
 
 ## **Leveraging AI, Open-Source, and Experts**
 
 Explain how your team plans to leverage the following resources for the development and success of your project:
 
 - AI (Artificial Intelligence):
+    - Taking into account AI suggestion about functionalities and sturcture of the project
+
+    - For future deployment, we can use AI algorithms to help detect and prevent fraudulent activities by analyzing user behavior patterns, transaction history, and other relevant data.
+
+    - AI techniques such as NLP (Natural language processing) can be used to improve search functionalities and enable users to find the relevant services or posts more effectively. (also for future deployment)
+
 - Open-Source:
+    - Open-source frameworks and libraries provide a solid foundation for building web applications. By utilizing these resources, we can accelerate development, reduce costs, and benefit from the contributions and support of the open-source community.
+
+    - Analyze relevant open source existing-platforms functionalities and compare performance of our functionalities with them in order to enhance it. 
+
 - Experts in relevant domains:
-
-- #### AI (Artificial Intelligence)
-    -- Taking into account AI suggestion about functionalities and sturcture of the project
-
-    -- For future deployment, we can use AI algorithms to help detect and prevent fraudulent activities by analyzing user behavior patterns, transaction history, and other relevant data.
-
-    -- AI techniques such as NLP (Natural language processing) can be used to improve search functionalities and enable users to find the relevant services or posts more effectively
-
-- #### Open-Source 
-    -- Open-source frameworks and libraries provide a solid foundation for building web applications. By utilizing these resources, we can accelerate development, reduce costs, and benefit from the contributions and support of the open-source community.
-
-    -- Analyze relevant open source existing-platforms functionalities and compare performance of our functionalities with them in order to enhance it. 
-
-- #### Experts in relevant domains
-    -- We will try to make discussion with experts about testing and implementation, collect their feedback and advices.
+    - We will try to make discussion with experts about testing and implementation, collect their feedback and advices.
+    - As stated in lectures one of the founders of Kazan Express will be a guest lecture, we will try to learn a lot of things from him, since both of our project is similar in some aspects.
 
 ## **Inviting Other Students**
 
-Are you open to inviting other students to join your project? If so, it's great to foster collaboration and expand your team. Feel free to discuss the project with your peers and encourage them to join if they are interested and motivated.
+- Since now we have few members, new members are welcome to discuss with us about the idea of the project and join our team.
 
-When considering inviting other students, you can think about the roles you are looking for and any specific requirements. Be open to diverse skills and expertise that can contribute to the success of your project. Collaboration and teamwork can lead to innovative solutions and a richer learning experience.
-
-Remember, talking to other students and finding potential team members to join your project is not only allowed but also encouraged. Embrace the opportunity to collaborate and create a strong team that can achieve great results together.
-
-
-- #### Inviting new members
-
-    -- Since now we have few members, new members are welcome to discuss with us about the idea of the project and join our team.
-
-    -- Also we might invite new members from front-end course to help us to design the front-end interface of our website.
+- Also we might invite new members from front-end course to help us to design the front-end interface of our website.
  
 
 ## **Defining the Vision for Your Project**
 
-A clear and compelling vision is crucial for successful project planning. When you have a well-defined concept and a shared vision of what you aim to achieve, executing on that vision becomes significantly easier. Therefore, after thorough discussions and settling on a promising idea, it is essential to craft a comprehensive vision with your team. This vision should be detailed, encompassing your chosen tech stack, and anticipate potential future challenges. Below, describe your project using schematic drawings and provide elaborate explanations of all significant components.
+- ###  **Overview**:
 
-- Overview:
-Provide a concise summary of your project, highlighting its purpose and value proposition.
-Explain how your project addresses a specific problem or need in the chosen domain.
-Clearly state the intended benefits and impact on users or stakeholders.
+    **FairLance platform**: The project aims to create a comprehensive freelancing platform that connects individuals and businesses seeking specific services with qualified service providers globally. By leveraging advanced technologies and a user-friendly interface, the platform revolutionizes the way people find and hire freelancers while removing limitations imposed by geographic location or nationality.
 
-- Schematic Drawings:
-Use visual representations such as diagrams, flowcharts, or wireframes to illustrate the structure and flow of your project.
-Include all essential components, modules, and interactions within the system.
-Ensure the drawings are clear, labeled, and easily understandable by both technical and non-technical stakeholders.
+    - #### Intended Benefits and Impact:
 
-- Tech Stack:
-Specify the technologies, frameworks, and programming languages you plan to utilize in your project.
-Justify your tech stack choices based on their suitability for the project requirements and team expertise.
-Consider scalability, performance, security, and ease of development when selecting your tech stack.
+        - Service Seekers: Users seeking services can easily post their requirements, review the profiles and portfolios of service providers, and select the most suitable candidates. They benefit from a broader range of skilled professionals, faster response times, and access to a global talent pool.
 
-- Anticipating Future Problems:
-Foresee potential challenges and obstacles that may arise during the project development and deployment phases.
-Identify risks related to technical complexities, resource limitations, time constraints, or external dependencies.
-Propose mitigation strategies or alternative approaches to address these anticipated problems.
+        - Service Providers: Freelancers gain increased exposure and opportunities to showcase their skills and expertise. They can connect with clients globally, expanding their client base and potentially earning more income.
 
-- Elaborate Explanations:
-Provide detailed descriptions of critical components, algorithms, or methodologies employed in your project.
-Explain the core functionalities and how they contribute to achieving the project goals.
-Highlight any innovative or unique aspects of your solution that differentiate it from existing alternatives.
+        - Efficiency and Convenience: The platform streamlines the entire process of finding, hiring, and collaborating with freelancers. Users can easily manage projects, track progress, and make secure payments, resulting in improved efficiency and convenience.
 
-## **Fairlance platform**  
+        - Trust and Security: By incorporating cryptocurrency payments and implementing fraud detection measures, the platform ensures secure transactions and builds trust between users and service providers.
 
-The project aims to create a comprehensive freelancing platform that connects individuals and businesses seeking specific services with qualified service providers globally. By leveraging advanced technologies and a user-friendly interface, the platform revolutionizes the way people find and hire freelancers while removing limitations imposed by geographic location or nationality.
+        - Global Collaboration: The project fosters international collaboration by connecting individuals and businesses across different countries and cultures, facilitating the exchange of knowledge and expertise on a global scale.
 
-- #### Intended Benefits and Impact:
+- ### **Schematic Drawings**:
 
-    -- Service Seekers: Users seeking services can easily post their requirements, review the profiles and portfolios of service providers, and select the most suitable candidates. They benefit from a broader range of skilled professionals, faster response times, and access to a global talent pool.
+    ![Use Case](../../../static/fairlance/usecase.jpg)
 
-    -- Service Providers: Freelancers gain increased exposure and opportunities to showcase their skills and expertise. They can connect with clients globally, expanding their client base and potentially earning more income.
+- ###  **Tech Stack**:
+    Our platform will use many frameworks and technologies. They can not all be defined from the start, since our view will be developing and we might need different frameworks to do different tasks. However, we will mainly focus on the following technologies:
 
-    Efficiency and Convenience: The platform streamlines the entire process of finding, hiring, and collaborating with freelancers. Users can easily manage projects, track progress, and make secure payments, resulting in improved efficiency and convenience.
+    - Flask: we will mainly use flask for the backend part of our project to deal with customers, manage the database, and support mechanism. 
+    - MySQL: will be our data base management system
+    - React: for the front-end part 
+    - Brownie/hardhat: for intaracting with solidity
+    - Solidity: for writing smart contracts
+    - Moralis: for wallet managemnt (front-end part of intaracting with solidity)
 
-    Trust and Security: By incorporating cryptocurrency payments and implementing fraud detection measures, the platform ensures secure transactions and builds trust between users and service providers.
 
-    Global Collaboration: The project fosters international collaboration by connecting individuals and businesses across different countries and cultures, facilitating the exchange of knowledge and expertise on a global scale.
+- ### **Anticipating Future Problems**:
+    1. Technical complexities: we need to develop a robust and scalable platform with features such as user management, job posting, payment processing, and messaging.
+    Mitigation: break the whole project into smaller modules and develop them iteratively.
+    2. Resource limitations: we may face server capacity, memory limitations. In addition, we may not have the necessary skill set for some parts of the project.
+    Mitigation: upgrade the server and/or use optimized data structures/algorithms. Delegate some parts of the project to another team that specializes in that particular area.
+    3. Time constraints: meet project deadlines and provide a functional platform within the specified time frame.
+    Mitigation: we will make a project plan with milestones and deadlines. we will follow it and adjust it as needed.
+    4.  External dependencies: using third-party services or APIs for some functionality.
+    Mitigation: choosing the most reliable services or developing your own.
+
+- ### **Elaborate Explanations**:
+
+    We will divide into two teams. One for front-end and the other for backend. Howver, it is not strict We will collaborate on some issues arrise along the way. 
+
+    Also, we will conduct regular team meating to discuss any issues. 
+1. User Management:
+-  Description: This component allows users to create accounts, log in and manage their profiles
+-  Functionality: It enables secure access to the platform and the ability to track user activities(job posting, bidding and payment history)
+-  Contribution: Building trust and maintaining professional environment
+
+2. Job Posting and Bidding:
+-  Description: This component allows client to post job requirements, while freelancers can submit bids
+-  Functionality: Job posting and bidding facilitate the matching of clients with suitable freelancers. It provides a platform for clients to describe their project requirements and for freelancers to showcase their skills and propose their services. 
+-  Contribution: This process enables efficient communication and collaboration between clients and freelancers.
+
+3. Payment Processing
+-  Description: Payment processing is a crucial functionality that allows clients to pay freelancers securely and freelancers to receive their earnings.
+-  Functionality: By integrating crypto payment options, our platform can offer fast, secure, and transparent transactions. Cryptocurrencies can streamline cross-border payments, reduce fees, and provide an additional layer of privacy.
+-  Contribution: Implementing robust encryption and security measures ensures the protection of sensitive financial information.
+    
+4. Messaging:
+-  Description: A messaging system allows clients and freelancers to communicate and collaborate on project details, clarifications, and updates.
+-  Functionality:  Effective messaging and communication features enable smooth collaboration, clarification of project requirements, and real-time feedback.
+-  Contribution: It helps to build trust and establish a productive working relationship between clients and freelancers.
+
+5. Review and Rating System:
+-  Description: A review and rating system allows clients to provide feedback and rate the quality of work delivered by freelancers.
+-  Functionality: The review and rating system promotes accountability, transparency, and quality control. 
+-  Contribution:  It helps clients make informed decisions when selecting freelancers and assists freelancers in building their reputation and credibility.
+

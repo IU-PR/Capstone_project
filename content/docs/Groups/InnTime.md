@@ -66,8 +66,14 @@ title: "InnTime"
 
 - **Schematic Drawings:**
 
+- *Flow of the Project*
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/static/InnTime/graph.png">
+    <img src="/InnTime/graph.png">
+</div>
+
+- *Structure of the Project*
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/architecture.png">
 </div>
 
 - **Tech Stack** For our project we choose the next list of the languages and frameworks:

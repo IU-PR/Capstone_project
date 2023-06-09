@@ -128,6 +128,7 @@ Please answer the following questions related to the lean startup methodology:
 4. What metrics will you use to measure the success of your project?
 5. How do you plan to iterate and pivot if necessary based on user feedback?
 
+### Answers
 1. The need for rapid and accurate recognition of pipeline and metal marking based on photo images.
 2. Workers of Gazstroyprom.
 3. Gathering feedback from company, validation on dataset.
@@ -192,7 +193,7 @@ The project aims to develop an automated pipeline marking recognition system bas
 The backend of the application will be developed using Python, leveraging its powerful libraries for image processing and machine learning, such as OpenCV and PyTorch or TensorFlow. The frontend will be built using a JavaScript framework React for its efficiency and flexibility. PostgreSQL will serve as the database management system due to its robustness and excellent performance. The neural network will be trained using YOLO, which is an efficient and effective object detection model.
 
 - Anticipating Future Problems:
-Potential challenges may include obtaining enough quality data for training the neural network, ensuring the system can handle a large number of users or requests simultaneously, and ensuring the recognition accuracy is high enough to be useful in a real-world setting. Strategies to address these challenges could include data augmentation techniques, using a scalable backend framework, and continually improving and updating the neural network model based on user feedback and new data.
+Obtaining sufficient high-quality data to train the neural network, ensuring the system can handle a large number of users or requests simultaneously, and ensuring the recognition accuracy is high enough to be useful in a real-world setting. Strategies to address these challenges could include data augmentation techniques, using a scalable backend framework, and continually improving and updating the neural network model based on user feedback and new data.
 
 - Elaborate Explanations:
 Our application can be divided into four main components: the frontend interface, the backend server, the database, and the neural network.

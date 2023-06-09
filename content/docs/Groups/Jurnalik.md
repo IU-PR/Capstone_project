@@ -87,7 +87,8 @@ Our app offers a number of meaningful benefits. First, it helps users reduce the
 	 - SQL
  - DevOps
 	- GitHub Actions
-	- VPS
+	- Docker
+	- Kubernetes
 ### Anticipating Future Problems
 Now we've already found some possible problems that we should overcome during development.
 1. Services integration
@@ -101,4 +102,4 @@ Now we've already found some possible problems that we should overcome during de
 
 ### Elaborate Explanations
 
-In our team we will use AGILE-workflow.
+We divided responsibilities between teammates. There are similar divisions in our team: frontend, backend, ML and devops. There are 1-2 people in each unit. Also we will use agile practices and Notion for developing and communicating.

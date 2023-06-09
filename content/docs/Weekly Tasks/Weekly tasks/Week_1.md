@@ -62,118 +62,101 @@ Remember, building a successful software project goes beyond individual skills. 
 {{< /expand >}}
 | Team Member            | Telegram ID   | Email Address       |
 |------------------------|---------------|---------------------|
-| Nikita Grigorenko      | n1kgrigorenko | n.grigorenko@innopolis.university  |
-| Evgeny Gerasimov       | dzendos       | e.gerasimov@innopolis.university   |
-| Boris Zarubin          | Poseidondon   | b.zarubin@innopolis.university     |
-| Vladimir Ryabenko      | Vldmr11       | v.ryabenko@innopolis.university    |
-| Insaf Yusupov          | yuzsx         | i.yusupov@innopolis.university     |
-| Ivan Chebykin          | doechon       | i.chebykin@innopolis.university    |
+| Team Member (Lead) 1          | [Telegram ID] | [Email address]     |
+| Team Member 2          | [Telegram ID] | [Email address]     |
+| Team Member 3          | [Telegram ID] | [Email address]     |
+| Team Member 4          | [Telegram ID] | [Email address]     |
+| Team Member 5          | [Telegram ID] | [Email address]     |
+| (Optional) Team Member 6 | [Telegram ID] | [Email address]     |
+| (Optional) Team Member 7 | [Telegram ID] | [Email address]     |
 
 
 ### **Value Proposition**
 
-**Identify the Problem:**
-- The main problem of the existing shedule is the difficulty of finding the right schedule for a particular group. In case of many electives and subjects which students want to choose for the semester it is hard to find a propriate schedule for individual student. The bottleneck of the existing google sheets schedules is not comfortable search of the study year, main group #, electives and group of the electives.  
+The value proposition of your software project defines the unique benefits and advantages it offers to its users. It highlights the problem your project aims to solve and the positive outcomes it brings. Here's an expanded explanation to help you craft a compelling value proposition:
 
-**Solution Description:**
-- Our project will allow you to simply upload existing Google tables with a schedule. And make your schedule for each group, subgroup, and each selected elective. All this will be displayed on the website. And then the end user can simply select his group, electives, and groups of electives. The schedule administrators will also be able to make changes to it. For example, to change the audience for a couple or to change its time. However, the main difference of our tool will be the following thing: the administrator will be able to simply enter a new event in the field in any form. Our tool will understand by itself what information to get from there and where to insert it into the schedule. Secondly, the compiled schedule can be exported to Excel or Google format.
+- Identify the Problem:
+Clearly define the problem or pain point that your software project addresses. Analyze the challenges or inefficiencies faced by users in the targeted domain. Consider the specific pain points, bottlenecks, or limitations they encounter.
 
-**Benefits to Users:** 
-- Thanks to the use of our tool, the user will be able to reduce the time of searching and drawing up their schedule, especially in those semesters when electives exist. Moreover, an administrator (for example, a professor) will be able to easily make changes to the couples' schedule and they will be displayed in real-time. Also, many people like to make their schedules in Google or Excel format. Our solution will do it for them.
+- Solution Description:
+Explain how your software project provides a solution to the identified problem. Outline the key features, functionalities, or services that directly tackle the pain points. Emphasize the unique aspects of your solution that set it apart from existing alternatives.
 
-**Differentiation:** 
-- Users should prefer our solution to others because our solution offers the ability to export schedules in Google and Excel format. And also easily make changes to the schedule without using unnecessary telegram channels or bots. However, the project itself will bring convenience to viewing the schedule at the university.
+- Benefits to Users:
+Describe the benefits that users will experience by using your software project. Highlight how it enhances their productivity, efficiency, or effectiveness. Identify the positive outcomes, cost savings, time savings, or improved experiences they can expect.
 
-**User Impact:** 
-- Students will be able to get their full schedule faster. And also export it in a convenient format for further editing. However, now teachers do not have to spend a lot of time searching for a specific chat to warn students about changes in the schedule. All this will be done on one site.
+- Differentiation:
+Discuss what sets your software project apart from competing solutions. Identify the unique selling points, innovative features, or competitive advantages that make it a superior choice for users. Clearly articulate why users should choose your solution over others available in the market.
 
-**User Testimonials or Use Cases:**
-- In our course, some people often try to make a schedule themselves so that it is more convenient to use it. Moreover, many complain that the schedule is quite inconvenient in the format presented. Therefore, we decided to make a project that will make a schedule for you.
+- User Impact:
+Explain the broader impact your software project has on users and potentially the society or industry as a whole. Highlight any positive changes, transformative effects, or advancements that result from the adoption of your solution. Consider how it improves workflows, empowers users, or drives positive change.
 
+- User Testimonials or Use Cases:
+Whenever possible, provide real-world examples, user testimonials, or case studies that demonstrate the value and benefits of your software project. Showcasing tangible results and success stories adds credibility and reinforces the value proposition.
+
+Remember to keep your value proposition concise, clear, and compelling. Focus on the most significant benefits and outcomes that resonate with your target users. A well-crafted value proposition effectively communicates the value and impact of your software project, making it more appealing and compelling to users.
+
+[Your answer here]
 
 ## **Lean Startup Questionnaire**
 
-1. The project solves the problem with the existing schedule at the university. Thanks to the project, it will become much more convenient and faster to work with a schedule.
-2. Students and Instructors.
-3. When we have the prototype of the project ready, we will be able to test the beta version of the project on some students.
-4. The number of students and instructors who will use it.
-5. After receiving the user's comment, we need to get together as a team and discuss and analyze his comments. To understand whether his remarks make sense or not. If so, we will fix it.
+Please answer the following questions related to the lean startup methodology:
 
+1. What problem or need does your software project address?
+2. Who are your target users or customers?
+3. How will you validate and test your assumptions about the project?
+4. What metrics will you use to measure the success of your project?
+5. How do you plan to iterate and pivot if necessary based on user feedback?
+
+[Your answers to the lean startup questionnaire here]
 
 ## **Leveraging AI, Open-Source, and Experts**
 
-- **AI (Artificial Intelligence):** We are going to use AI to write small pieces of code that take time, but do not require mental investment.
-- **Open-Source:** We can use open sources for any large projects to gain knowledge about elegant solutions to problems. And also to simplify writing code (not to reinvent the wheel)
-- **Experts in relevant domains:** There are people in our circles who work in the areas that we will use in our project. Therefore, for additional information that can help us add some new tools to our project, we can refer to them.
+Explain how your team plans to leverage the following resources for the development and success of your project:
 
+- AI (Artificial Intelligence):
+- Open-Source:
+- Experts in relevant domains:
+
+[Your answers on leveraging AI, open-source, and experts here]
 
 ## **Inviting Other Students**
 
-- We are going to survey students to clarify points regarding the usability of the current schedule. We will also ask them what they want to see in the new tool, and what are the requirements for it. And what they think is superfluous. After creating a prototype, we will invite several students to test our project. We will wait for feedback from them.
+Are you open to inviting other students to join your project? If so, it's great to foster collaboration and expand your team. Feel free to discuss the project with your peers and encourage them to join if they are interested and motivated.
+
+When considering inviting other students, you can think about the roles you are looking for and any specific requirements. Be open to diverse skills and expertise that can contribute to the success of your project. Collaboration and teamwork can lead to innovative solutions and a richer learning experience.
+
+Remember, talking to other students and finding potential team members to join your project is not only allowed but also encouraged. Embrace the opportunity to collaborate and create a strong team that can achieve great results together.
+
+
+**[Your answer regarding drafting other students here]**
 
 ## **Defining the Vision for Your Project**
 
-- **Overview:** Our project provides students and instructors with a schedule that can be easily found on one site, without using multiple telegram groups, tables, and so on. The user will be able to easily specify their groups, and electives and see a ready-made schedule for him, as well as export it to Google or Excel format. Our project solves the problem of speed and ease of use of the existing schedule. You don't have to look for a schedule in different places and open incomprehensible tables every time. Also, the schedule can be updated in real-time directly on the website, so that instructors do not have to write information somewhere in different places every time. As a benefit for users, our project provides the ability to quickly schedule in one place, as well as make changes in real-time.
+A clear and compelling vision is crucial for successful project planning. When you have a well-defined concept and a shared vision of what you aim to achieve, executing on that vision becomes significantly easier. Therefore, after thorough discussions and settling on a promising idea, it is essential to craft a comprehensive vision with your team. This vision should be detailed, encompassing your chosen tech stack, and anticipate potential future challenges. Below, describe your project using schematic drawings and provide elaborate explanations of all significant components.
 
-- **Schematic Drawings: TODO**
-<span style="color:red">Use visual representations such as diagrams, flowcharts, or wireframes to illustrate the structure and flow of your project.
+- Overview:
+Provide a concise summary of your project, highlighting its purpose and value proposition.
+Explain how your project addresses a specific problem or need in the chosen domain.
+Clearly state the intended benefits and impact on users or stakeholders.
+
+- Schematic Drawings:
+Use visual representations such as diagrams, flowcharts, or wireframes to illustrate the structure and flow of your project.
 Include all essential components, modules, and interactions within the system.
-Ensure the drawings are clear, labeled, and easily understandable by both technical and non-technical stakeholders.</span>.
+Ensure the drawings are clear, labeled, and easily understandable by both technical and non-technical stakeholders.
 
-- **Tech Stack** For our project we choose the next list of the languages and frameworks:
-    - Backend: Python
-    - Frontend: HTML, CSS, JavaScript, React
-    > ***Scalability***:
-    React's component-based architecture makes it easy to modularize the code and build reusable UI components. Because it is the main one on the market, it is supported by Facebook (which, by the way, is extremist in the territory of the Russian Federation). This is a library and it is lightweight compared to the Angular framework. A huge community around the world. React cross-platform (react native for mobile phones) 
-    JavaScript has a large ecosystem of libraries and frameworks.
-    HTML provides a clear structure to the web pages, making it easier to maintain and update them as needed.
-    Python has a large ecosystem of libraries and frameworks that can be leveraged to add new functionality to the application as needed.
-    >
-    > ***Performance***:
-    React's virtual DOM allows it to efficiently update only the parts of the page that need to be changed, resulting in faster rendering times.
-    JavaScript's event-driven architecture allows for asynchronous processing, which can further improve performance by preventing the browser from becoming unresponsive.
-    CSS can be optimized for better performance through techniques such as minification and compression.
-    >
-    > ***Security***:
-    React's use of a virtual DOM can help prevent certain types of attacks, such as cross-site scripting (XSS).
-    JavaScript has built-in security features, such as strict mode, that can help prevent common security vulnerabilities.
-    HTML and CSS provide a clear separation of content and presentation, which can help prevent certain types of attacks, such as SQL injection. 
-    Python has a built-in set of security features, including modules for encryption, hashing, and secure socket communication.
-    Python's strong type checking and error handling features can help prevent common security vulnerabilities, such as SQL injection and cross-site scripting (XSS).
-    >
-    > ***Ease of development***:
-    React's declarative programming model makes it easier to reason about your code and can lead to fewer bugs.
-    JavaScript's dynamic typing and flexible syntax make it easy to write and modify code quickly.
-    HTML and CSS are easy to learn and use, and provide clear guidelines for structuring and styling web pages. 
-    Python's large standard library and extensive third-party package ecosystem provide many pre-built tools and solutions for common problems, further accelerating development.
-    Python's interactive shell and support for functional programming paradigms make it well-suited for rapid prototyping and experimentation.
+- Tech Stack:
+Specify the technologies, frameworks, and programming languages you plan to utilize in your project.
+Justify your tech stack choices based on their suitability for the project requirements and team expertise.
+Consider scalability, performance, security, and ease of development when selecting your tech stack.
 
-- **Anticipating Future Problems:**
-    > ***Technical complexity:*** The project involves parsing multiple tables and displaying them in a unified format on a web page. Depending on the structure and formatting of the tables, this process could be quite complex. Additionally, real-time editing functionality will require careful consideration of concurrency issues.
-    Mitigation strategy: we can break down the project into smaller, more manageable tasks and implement them incrementally. also use best practices for database design and table parsing to ensure a robust and scalable solution. And test the project early and often to identify and address any concurrency issues.
-    >
-    > ***Resource limitations:*** The project may require significant server resources in case of updating information and saving the schedule for each user. 
-    Mitigation strategy: we can try to develop the application using a scalable architecture that can accommodate growing user numbers over time. Also, we need to consider using cloud-based hosting services that allow scaling up or down based on demand.
-    >
-    > ***Also, it can be hard for us to parse the Excel tables into one database. In case of that, we need to read more information in this field and ask experts about it.***
+- Anticipating Future Problems:
+Foresee potential challenges and obstacles that may arise during the project development and deployment phases.
+Identify risks related to technical complexities, resource limitations, time constraints, or external dependencies.
+Propose mitigation strategies or alternative approaches to address these anticipated problems.
 
-- **Elaborate Explanations:** <span style="color:red">algorithms, or methodologies employed in your project.</span>.
+- Elaborate Explanations:
+Provide detailed descriptions of critical components, algorithms, or methodologies employed in your project.
+Explain the core functionalities and how they contribute to achieving the project goals.
+Highlight any innovative or unique aspects of your solution that differentiate it from existing alternatives.
 
-    We have two main critical components in the project: 
-    1. Parsing tables into usable format for the database
-    2. Real-time updates could lead to concurrency issues
-
-    **Core functionalities of the project:**
-
-    >***Table parsing:*** The project's core consists of a set of algorithms that can combine the data from several tables into a single format. No matter how many tables are there, this capability enables users to examine their schedules in real-time.
-
-    >***Group selection:*** The program gives users the option to choose their favorite study group, thereby enhancing the user experience. This function selects the pertinent information from the parsed tables and only shows what is crucial to the chosen group.
-
-    >***Selection of electives:*** Choosing electives for each study group is another project component. Students can select available electives for their specific degree using this function and add them to their timetable.
-
-    >***Real-time editing:*** The program also enables users to make changes to their schedules in real-time. The database is automatically updated and stored whenever the schedule is modified. All users have easy access to current information thanks to this feature.
-    
-
-    **Unique technologies:**
-    
-    >Real-time updates and real-time editing that is completely connected with data saving are two unique features of this system. Our Schedule project is the perfect option for students who want to efficiently arrange their time because it also makes it simple to filter by groups and electives.
+[Your vision for the project here]

@@ -176,6 +176,7 @@ Highlight any innovative or unique aspects of your solution that differentiate i
 
 #### Schematic Drawings: 
 
+![](/static/ComplianceGuard/week1capstonediagram.png)
 #### Tech stack: 
 ##### Desight: Figma
 ##### Frontend: Javascript, HTML, CSS, ReactJS

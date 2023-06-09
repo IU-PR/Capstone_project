@@ -64,7 +64,7 @@ Our project may have both technical and user-related assumptions. First of all, 
 
 First of all, the output of our system should be an adequate resulting schedule, i.e. no overlapping, no shifts for fixed tasks or events (such as lectures, meetings, etc.), and adjustments based on the experience of the user's previous activity. In addition, our project will be successful if it is useful and user-friendly, so we plan to test our solution among potential users. 
 
-6. How do you plan to iterate and pivot if necessary based on user feedback?
+5. How do you plan to iterate and pivot if necessary based on user feedback?
 
 Primarily, we plan to analyze user feedback and extract possible changes in the system. Then we will implement the modifications, test the system on the real data and evaluate changes by user feedback. If the improvements made the system more efficient, we will accept them, otherwise our team will find another way to realize user feedback.
 

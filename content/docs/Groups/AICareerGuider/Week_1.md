@@ -64,20 +64,20 @@ Use Cases: Administrations of schools can integrate our service into lectures ab
 
 3. How will you validate and test your assumptions about the project?
   - We can test assumptions for our application by measurement of metrics introduced below. We can perform these evaluations in schools on professional orientation classes.
-3. What metrics will you use to measure the success of your project?
+4. What metrics will you use to measure the success of your project?
   - Matching of found jobs/vacancies with user preferences.
   - Time spent by users on our site.
   - Decreased percent of school graduates who do not know what they want to do and what university/college they would like to enroll in.
-4. How do you plan to iterate and pivot if necessary based on user feedback?
+6. How do you plan to iterate and pivot if necessary based on user feedback?
 - We can change AI model for Web Scraping or even add more functional 
 ## Leveraging AI, Open-Source, and Experts
 
 1. AI (Artificial Intelligence):
 - ChatGPT for finding a job and creating a roadmap.
 - Web Scraping for searching for vacancies
-1. Open-Source:
+2. Open-Source:
 - Search for existing solutions (for inspiration) in fields of AI application for finding vacancies.
-1. Experts in relevant domains:
+3. Experts in relevant domains:
 - You can see our team distribution in the “Tech Stack” subsection below.
 ## Inviting Other Students
 We created our team based on every team member’s hard skills and stack. You can see our team distribution in the “Tech Stack” subsection below.

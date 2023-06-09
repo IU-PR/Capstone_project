@@ -86,8 +86,8 @@ We created our team based on every team member’s hard skills and stack. You ca
 
 The problem addressed by the application is the difficulty faced by people in finding a career path that matches their skills and preferences. The solution is to create an application that provides services such as finding a job, creating a roadmap for the job, and finding available vacancies. The application's uniqueness is that it provides all these services in one place. The benefits of the application are it saves time for users by providing all the information they need in one place. The application differentiates itself by integrating AI, which is used for finding a job and creating a roadmap, as well as web scraping for searching for vacancies. The application can help users save time by shortening the time it takes to find a suitable job and become a specialist in that field.
 
-### Schematic Drawings 
-![](/AICareerGuider/architecture.png)
+### Schematic Drawings [
+![](https://github.com/IU-PR/Capstone_project/blob/AICareerGuider/static/AICareerGuider/architecture.png)
 
 
 ### Tech Stack

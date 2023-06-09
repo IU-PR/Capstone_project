@@ -58,4 +58,32 @@ The main **pain points**:
 - process of sorting is too complicated
 - too complicated for newcommer to set up environment
 - no unified way to work on desktop and on mobile device
+- intenet is unreliable
 - inbox processing on mobile device is very painful (due to device specific)
+- no app that **keep in mind** GTD aspects
+
+
+## Solution - JustOrgYou
+
+We have concrete cases to work with. And we are in "the same boat" with customers. So, to solve the problems we developed application **designed** to work with any task management subsystem that we've defined earlier. It is quite a big deal to do, isn't it? Let's proceed to details.
+
+### Architecture
+
+We design system to be abstract from details of concrete formats and user flow. To do this, we split app into parts
+- `todo library` handle bare work task entries. Contain business logic of their merging in example.
+- `frontend` literally any module to interact with user. It does not "think" but keep user state and call `todo library`
+- `api server` simple web component that provide api abstraction over additional (mainly AI) features.
+- `AI models` contain hard to deploy locally business logic. App not depends from them so offline is not a problem. Like Copilot extention works.
+
+<!-- todo add image -->
+
+### Technologies stack
+
+We plan to write `todo library` on **Rust** to get performant solution what not require runtime (for web possible integration). Also, it's **Rust**, so definitely yes!
+
+`frontend` is going to be in several variations. _Mobile_ and _desktop_ apps on **Flutter**. Maybe _web_ too, we've tested, it is possible. And _cli_ client also on **Rust**.
+
+For `api server` we've chousen **Python**. Servers on it are simple to develop, easy to maintain and performant enough. 
+
+`AI models` are dependend from concrete case, but our code will be on **Python**. 
+

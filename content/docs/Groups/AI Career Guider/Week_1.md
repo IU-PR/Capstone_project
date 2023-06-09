@@ -99,7 +99,7 @@ The problem addressed by the application is the difficulty faced by people in fi
 |Damir Afliatonov|Python: FastAPI, SQLAlchemy, alembic, Airflow; Databases: PostgreSQL; Docker|
 |Said Kamalov|python, pandas, scikit-learn, numpy, pytorch, MySQL, postgreSQL; Docker|
 |Arseni Rusin|React|
-|Ivan Kornienko|<p>Python: pandas, pytorch, scikit-learn, numpy</p><p>Databases: PostgreSQL</p><p>Docker </p>|
+|Ivan Kornienko|Python: pandas, pytorch, scikit-learn, numpy; Databases: PostgreSQL; Docker|
 ### Anticipating Future Problems
 - High-load of our service.
 - Technical complexities related to integration of AI.

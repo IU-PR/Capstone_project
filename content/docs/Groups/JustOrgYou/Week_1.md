@@ -71,6 +71,7 @@ We have concrete cases to work with. And we are in "the same boat" with customer
 
 We design system to be abstract from details of concrete formats and user flow. To do this, we split app into parts
 - `todo library` handle bare work task entries. Contain business logic of their merging in example.
+  - Also low level dependecies for file format parsing included
 - `frontend` literally any module to interact with user. It does not "think" but keep user state and call `todo library`
 - `api server` simple web component that provide api abstraction over additional (mainly AI) features.
 - `AI models` contain hard to deploy locally business logic. App not depends from them so offline is not a problem. Like Copilot extention works.

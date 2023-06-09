@@ -85,7 +85,7 @@ For now, we decided to use these stacks/frameworks for our project:
         - React, react-dom, Redux - frameworks that our team is the most familiar with
     - Backend: 
         - FastAPI - simle and asynchronic, has a swagger and can integrate with pydantic
-        - PostgreSQ - because our have a simple structure 
+        - PostgreSQL - because our model have a clear and simple structure 
     - ML: 
         - Python - because its the easiest tool that our team is familiar with
         - Pytorch - because it is extremely popular and powerful and  our machine learning engineers are well known with this framework

@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "LogiFlex"
+title: "Week #1"
 ---
 
 # **LogiFlex - get more, using AI**

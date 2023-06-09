@@ -4,12 +4,12 @@
 
 | Team Member | Telegram Alias | Email Address |
 | --- | --- | --- |
-| Vladislav Deryabkin (Lead) | https://t.me/evermake | v.deryabkin@innopolis.university |
-| Yaroslav Kivaev | https://t.me/catdog905 | k.yaroslav@innopolis.university |
-| Koshmanova Ekaterina | http://t.me/k_koshmann | e.koshmanova@innopolis.university |
-| Vadim Zbarashchenko | http://t.me/metafates | v.zbarashchenko@innopolis.university |
-| Ruslan Bakirov | https://t.me/monyter | r.bakirov@innopolis.university |
-| Skorkin Anton | https://t.me/PozhiloyProger | a.skorkin@innopolis.university |
+| Vladislav Deryabkin (Lead) | [evermake](https://t.me/evermake) | v.deryabkin@innopolis.university |
+| Yaroslav Kivaev | [catdog905](https://t.me/catdog905) | k.yaroslav@innopolis.university |
+| Koshmanova Ekaterina | [k_koshmann](https://t.me/k_koshmann) | e.koshmanova@innopolis.university |
+| Vadim Zbarashchenko | [metafates](https://t.me/metafates) | v.zbarashchenko@innopolis.university |
+| Ruslan Bakirov | [monyter](https://t.me/monyter) | r.bakirov@innopolis.university |
+| Skorkin Anton | [PozhiloyProger](https://t.me/PozhiloyProger) | a.skorkin@innopolis.university |
 
 ## **Value Proposition**
 

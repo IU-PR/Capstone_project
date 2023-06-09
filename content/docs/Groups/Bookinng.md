@@ -6,10 +6,10 @@
 | --- | --- | --- |
 | Vladislav Deryabkin (Lead) | [evermake](https://t.me/evermake) | v.deryabkin@innopolis.university |
 | Yaroslav Kivaev | [catdog905](https://t.me/catdog905) | k.yaroslav@innopolis.university |
-| Koshmanova Ekaterina | [k_koshmann](https://t.me/k_koshmann) | e.koshmanova@innopolis.university |
+| Ekaterina Koshmanova | [k_koshmann](https://t.me/k_koshmann) | e.koshmanova@innopolis.university |
 | Vadim Zbarashchenko | [metafates](https://t.me/metafates) | v.zbarashchenko@innopolis.university |
 | Ruslan Bakirov | [monyter](https://t.me/monyter) | r.bakirov@innopolis.university |
-| Skorkin Anton | [PozhiloyProger](https://t.me/PozhiloyProger) | a.skorkin@innopolis.university |
+| Anton Skorkin | [PozhiloyProger](https://t.me/PozhiloyProger) | a.skorkin@innopolis.university |
 
 ## **Value Proposition**
 

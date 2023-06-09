@@ -115,7 +115,7 @@ Secondly, we will also open-source all our code, which is not intended to be pri
 
 ### **Experts in Relevant Domains**
 
-We have reached out to the individual involved with Innopolis current room booking system. They have given their approval for our proposal and will be available to assist us whenether any issues arise.
+We have reached out to the individual involved with Innopolis current room booking system. They have given their approval for our proposal and will be available to assist us whenever any issues arise.
 
 # **Inviting Other Students**
 We found out that there is a group of first year students who are working on a Software Project to create a Telegram bot for rooms booking. We have contacted them and plan to discuss combining our projects to add a Telegram bot to the system. If we will agree to work together, we can get the project done faster and better.
@@ -149,7 +149,7 @@ It is very likely that we will use some kind of data storage. We plan to use Pos
 
 We see 2 primary problems we can face in the future:
 
-1. **Obtaining the map of the university and making the interactable digital copy of it.** If this task turns out to be too complicated and time-consuming, we plan to implement it in a simpler way, such as using static photos to help people locate the rooms.
+1. **Obtaining the map of the university and making the interactive digital copy of it.** If this task turns out to be too complicated and time-consuming, we plan to implement it in a simpler way, such as using static photos to help people locate the rooms.
 2. **Finding a way to integrate our system into the life of the university, as this will most likely require working with the Microsoft Outlook API.** To solve this problem we are going to consult with people in university who are responsible for My University portal or can give us advice.
 
 ### **Elaborate Explanations**

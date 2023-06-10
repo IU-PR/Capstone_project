@@ -1,19 +1,3 @@
----
-weight: 1
-bookFlatSection: true
-title: "LogiFlex"
----
-
-# LogiFlex - Get More by Using AI
-
-## Introduction
-
-LogiFlex is a logistics project created to optimize space during cargo transportation. 
-
-![LogiFlex Logo](static/LogiFlex_images/LogiFlex_logo.png)
-
-The project idea was so successful that the team managed to attract investments from interested investors immediately after its inception. Just nine days later, the project team successfully negotiated with [the largest network of building materials in the Far East](https://999111.ru/), securing payment for the development process, project delivery, and obtaining copyrights. This partnership aims to address the network's own logistical problems and optimize their transport processes.
-
 ## Week 1
 
 During this week, our main tasks were team formation and project selection.

@@ -8,15 +8,23 @@ title: "LogiFlex"
 
 ## Introduction
 
-LogiFlex is a logistics project created to optimize space during cargo transportation. 
+***LogiFlex*** is a service specializing in the development of logistics algorithms for packaging goods in vehicles using laws and ideas that our AI finds. LogiFlex - Get More by Using AI!
 
-![LogiFlex Logo](static/LogiFlex_images/LogiFlex_logo.png)
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/LogiFlex_logo_rmv_bg.png" alt="LogiFlex Logo" width="300" height="300">
+</div>
 
 The project idea was so successful that the team managed to attract investments from interested investors immediately after its inception. Just nine days later, the project team successfully negotiated with [the largest network of building materials in the Far East](https://999111.ru/), securing payment for the development process, project delivery, and obtaining copyrights. This partnership aims to address the network's own logistical problems and optimize their transport processes.
 
-## Week 1
+***For collaboration inquiries or if you have any questions, feel free to reach out to me at: [@GeorgiyBudnik](https://t.me/GeorgiyBudnik) (Lead)***
 
-During this week, our main tasks were team formation and project selection.
+{{< expand "Week 1" >}}
+---
+Agenda:
+ - Team Formation
+ - Problem statement
+ - Consideration of the business component of the project
+ ---
 
 ### Team Formation
 
@@ -24,10 +32,10 @@ Our team was carefully selected based on their experience, participation, and wi
 
 | Team Member        | Telegram ID     | Email Address                   |
 | ------------------ | --------------- | ------------------------------- |
-| Georgii Budnik (Lead) | @GeorgiyBudnik | g.budnik@innopolis.university   |
-| Vladislav Urzhumov    | @V_Liker       | v.urzhumov@innopolis.university |
-| Igor Abramov         | @IG_ragon      | ig.abramov@innopolis.university |
-| Ruslan Abdullin     | @Fliegende_Rehe  | ru.abdullin@innopolis.university |
+| Georgii Budnik (Lead) | [@GeorgiyBudnik](https://t.me/GeorgiyBudnik) | g.budnik@innopolis.university   |
+| Vladislav Urzhumov    | [@V_Liker](https://t.me/V_Liker)       | v.urzhumov@innopolis.university |
+| Igor Abramov         | [@IG_ragon](https://t.me/IG_ragon)      | ig.abramov@innopolis.university |
+| Ruslan Abdullin     | [@Fliegende_Rehe](https://t.me/Fliegende_Rehe)  | ru.abdullin@innopolis.university |
 
 *(The number of team members is agreed upon with Rustam Lukmanov)*
 
@@ -116,3 +124,5 @@ The existing cargo distribution process at LogiFlex involves the manual placemen
 - Optimization Algorithms: Based on the predictions from the machine learning models, optimization algorithms will be employed to find the most optimal distribution of cargo across available vehicles while adhering to space constraints. These algorithms will consider factors such as cargo volume, weight, fragility, and customer priorities.
 
 Our solution differentiates itself by integrating machine learning and optimization algorithms to provide optimal cargo distribution solutions in limited spaces. The combination of predictive analytics, optimization, and automation will offer significant advantages over traditional manual processes, resulting in cost savings, faster information retrieval, and improved overall efficiency in cargo transportation.
+
+{{< /expand >}}

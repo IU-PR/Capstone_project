@@ -90,7 +90,7 @@ In collaboration with the customer, we have established twofold support, includi
 
 ### Inviting Other Students
 
-Our team currently consists of four second-year students from Innopolis University (The number of team members is agreed upon with Rustam Lukmanov). If required or if other students show interest in the project, we are open to involving them and providing compensation (possibly in the form of a salary).
+Our team currently consists of four second-year bachelor students from Innopolis University (The number of team members is agreed upon with Rustam Lukmanov). If required or if other students show interest in the project, we are open to involving them and providing compensation (possibly in the form of a salary). For example, Artem Batalov, a third-year bachelor student of Innopolis University, was involved in creating a LogiFlex business card site, as a DevOps specialist.
 
 ### Defining the Vision for Your Project
 

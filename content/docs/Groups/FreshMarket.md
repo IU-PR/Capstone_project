@@ -5,7 +5,7 @@ title: "FreshMarket"
 ---
 # **FreshMarket**
 # **Introduction**
-
+ 
 Fresh Market is a marketplace of farm products with the possibility of subscription. Customers see the assortment of regional farm products and collect products in the basket for ordering. Farmers post products with photos, descriptions, quantities and the possibility of subscribing to their products. When placing an order, the buyer chooses payment by card, cash or invoice for the organization and chooses the delivery method courier, pickup or transport company. The farmer receives his funds the next day after the delivery of the goods to the card attached to the profile.
 
 {{< hint danger >}}

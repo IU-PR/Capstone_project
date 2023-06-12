@@ -2,6 +2,15 @@
 
 We are doing a project called Stock Vision. The aim of this project is to develop an ML tool for traders that provides additional analysis and predictions for stock market / currency pair movements.
 
+{{< hint danger >}}
+
+**Feedback**  
+Your project description is concise and well-written. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
+As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of potential reader. 
+{{< /hint >}}
+
+---
+
 # **Week #1**
 
 ### **Team Members**
@@ -90,9 +99,6 @@ The purpose of our project is to develop a ML tool for traders that provides add
 **Feedback:** 
 
 {{< hint danger >}}
-Hi, your feedback rocks! You and your team did a great job!  
-However, your feedback can be even better if you would do:   
-1)...  
-2)...  
-3)...  
+Hi, this is a very interesting and potentially technically complicated project. I think it will be challenging to finish the project in confines of the Capstone as it currently stated. Consider scaling it down to a creating an app that does alpha/trading signal generation on one FX pair. Choose the platform from which you will be getting the FX data and try to focus on tech side of the project - to show that you can do it with one currency pair. Overall, I think this is a very in-demand product as lots of retail traders want more reliable signal apps. 
+ 
 {{< /hint >}}

@@ -1,5 +1,25 @@
-# Week #1
+---
+weight: 1
+bookFlatSection: true
+title: "Healthy Based Productivity"
+---
+# **Introduction**
+
+{{< hint danger >}}
+
+**Feedback**  
+Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
+As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
+{{< /hint >}}
+
+# **Week #1 report**
 ## Project: Healthy Based Productivity
+
+{{< hint danger >}}
+
+**Feedback**  
+Healthy Based Productivity - consider having a project name that directly tells what is it about. 
+{{< /hint >}}
 
 ### Team members
 
@@ -24,6 +44,12 @@ For this reason, people use planners to organize their work and personal time, h
 Our product offers the opportunity to optimize a person's schedule based on his or her activity history.
 Let's consider an example where the user systematically estimates his capabilities too optimistically and allocates less time to tasks than he or she actually spends on them. In this case, the system notes this issue and generates a more objective schedule for the day. The ability to create a schedule based on activity history is an innovation of our project.
 The project implementation will be a chatbot in Telegram. In it, users will be able to work with the list of tasks - add, modify, delete, as well as mark their execution and receive the generated day schedule.
+
+{{< hint danger >}}
+
+**Feedback**  
+I really like your idea, I think it is clever and innovative. 
+{{< /hint >}}
 
 ### Benefits to Users
 
@@ -88,7 +114,7 @@ By using our solution, users can avoid the mistakes and unrealistic expectations
 
 General workflow of the project
 
-![](https://github.com/IU-PR/Capstone_project/blob/HealthyBasedProductivity/static/HealthyBasedProductivity/workflow.png)
+![](/HealthyBasedProductivity/workflow.png)
 
 3. Tech Stack
 
@@ -109,6 +135,19 @@ So far, we have identified several potential future problems:
 - how to filter the output in case of “outlier” schedule;
 - user-unfriendly input.
 
+
+{{< hint danger >}}
+**Feedback**  
+Think of new innovative ways to generate initial data - perhaps, you can use language models to generate you fake user input to train your models? 
+{{< /hint >}}
+
 5. Elaborate Explanations
 
 Our project involves building an application to create a day's schedule based on the list of tasks entered by the user. We plan to use machine learning models, which will take into account not only the current tasks, but also the user's activity history, which is an innovative solution. In addition, we will implement our project in the form of a chatbot in Telegram, which is a cheap, but also simple and elegant solution.
+
+{{< hint danger >}}
+
+**Feedback**  
+You have a strong team and a very good project idea. It is also clear that you have a clear vision of the project. Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to creating a web app and a telegram client that does core/main things - something that you can build on and improve later. Outline main features of your project and focus on execution. I would also think about which particular parts you can strip down - for example UI can be very simple (remember, we have only 7 weeks). Put the main emphasis on the technology core that you need to showcase: the technology that takes user input and create a schedule.  
+{{< /hint >}}
+

@@ -1,8 +1,17 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Week #1"
+title: "MockMentor"
 ---
+# **MockMentor**
+# **Introduction**
+ 
+{{< hint danger >}}
+
+**Feedback**  
+Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
+As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
+{{< /hint >}}
 
 # **Week #1 Report**
 
@@ -76,8 +85,7 @@ For now, our team does not think it will need any collaboration in developing th
 The project is about creating mock job interviews with an AI that functions as an interviewer. It allows people to get ready to future job interviews via near-real job interview experience.
 
 - Schematic Drawing:
-#
-![Schematic Drawing](../../../static/MockMentor/schematic_drawing.svg)
+![Schematic Drawing](/MockMentor/schematic_drawing.svg)
 
 - Tech Stack:
 For now, we decided to use these stacks/frameworks for our project:
@@ -95,3 +103,13 @@ The testing and validating of an AI to successfully rate and give useful feedbac
 
 - Elaborate Explanations:
 Our team will use Scrum and Agile methodology. Core functionality of the project is to provide a client a mock interview with an AI with feedback. The unique aspect of our solution is that client is able to go through interview by talking and receiving a voiced answer from an AI.
+
+{{< hint danger >}}
+
+**Feedback**  
+It is an interesting project! Great job on identifying the problem that candidates face in job interviews and proposing a solution to address it. Your project aims to bridge the gap between traditional practice questions and real interview experience, providing users with an opportunity to simulate mock interviews with an AI. This approach can greatly benefit candidates by allowing them to practice in a more realistic setting and receive valuable feedback, and perhaps, will make Innopolis students the most in-demand among other University graduates.
+
+To further enhance your project, consider expanding on the specific features and functionalities that will be offered to users. How will the AI simulate real interview questions? Will it adapt based on the candidate's responses? Additionally, highlighting the personalized feedback aspect can emphasize the value users will gain from the platform.
+
+Will it be a language model with a dedicated persona? Which language model you want to use? In general, I think you can contact Vladimir Ivanov, as far as I know, he works on a similar topic
+{{< /hint >}}

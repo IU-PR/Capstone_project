@@ -2,6 +2,15 @@
 
 # **Introduction**
 
+
+{{< hint danger >}}
+
+**Feedback**  
+Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
+As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
+{{< /hint >}}
+
+
 ### **Team Members**
 | Team Member            | Telegram ID        | Email Address                      |
 |------------------------|--------------------|------------------------------------|
@@ -70,9 +79,7 @@ Answer: Our project is a platform that helps farmers sell their products directl
 Answer: For the backend part (API) we have chosen the Django framework because it provides convenient ORM. As a database we decided to use PostgreSQL. Also to authorize requests to the backend part we will use JWT tokens. Visual part of our platform will be  written using Flutter because of its cross-platform usage. For the beginning we will create the website but then it will not be difficult to convert it to the mobile app. All these parts are good in both performance and ease of development.
 
 4. **Anticipating Future Problems:** Foresee potential challenges and obstacles that may arise during the project development and deployment phases. Identify risks related to technical complexities, resource limitations, time constraints, or external dependencies. Propose mitigation strategies or alternative approaches to address these anticipated problems. 
-
 Developing a platform that caters to both farmers and customers can be technically complex. There may be issues related to compatibility, scalability, and security. Talking about resource limitations, the project may require a significant amount of resources, including human resources, financial resources, and technological resources. Finally, we have some time constraints: the project may face delays due to unforeseen circumstances such as technical glitches or changes in requirements, and still for creating a MVP we have only seven weeks.
-
 To deal with such problems, we should stick to following strategies: 
 – Create a detailed project plan that outlines the required resources and allocate them accordingly, 
 – Conduct regular testing and debugging to ensure the smooth functioning of the platform,
@@ -80,3 +87,14 @@ To deal with such problems, we should stick to following strategies:
 
 5. **Elaborate Explanations:** Provide detailed descriptions of critical components, algorithms, or methodologies employed in your project. Explain the core functionalities and how they contribute to achieving the project goals. Highlight any innovative or unique aspects of your solution that differentiate it from existing alternatives.
 Answer: Our project employs the MVC template, JWT tokens for security, and a REST API. The MVC pattern separates the application into Model, View, and Controller components. JWT tokens provide secure authentication, while the REST API enables communication with well-defined endpoints. Core functionalities include user authentication, product listing and management, subscription model, and order management. Our solution stands out by facilitating direct farmer-consumer interaction, offering a subscription model, and ensuring secure authentication.
+
+{{< hint danger >}}
+
+**Feedback**  
+I think, your project is really cool! A long needed service that will benefit us all - by making as healthier through delivering high-quality farmer produce. Your team's dedication and strong collaboration are evident, and it's great to see that you have a clear vision for the project.
+
+Considering that our course aims to achieve a minimal viable product (MVP) by the end of the semester, I would suggest, as to most teams, to focus on scaling down the project to create a web app that encompasses the core functionalities. This approach will allow you to build a solid foundation that can be expanded and enhanced in the future.
+
+To ensure efficient execution within our limited timeframe of already six weeks, I recommend outlining the main features of your project and prioritizing their development. It's essential to identify specific areas that can be streamlined or simplified without compromising the core functionality.
+
+Also, take a note that it is possible to utilize open-source as means of scaling down your project: for example, there is a multitude of open-source platforms for e-commerce: i.e. https://saleor.io/, https://strapi.io/ that you can use as a modular back-end. Although, I am not sure how rigid or flexible this solutions are. {{< /hint >}}

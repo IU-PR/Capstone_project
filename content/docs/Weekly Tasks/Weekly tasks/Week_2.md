@@ -52,14 +52,58 @@ Designing a robust and scalable architecture is crucial for the long-term succes
 
 Remember, your architecture design should be flexible enough to accommodate potential future changes or enhancements. Keep in mind the scalability, maintainability, and extensibility of your software solution.
 
+Additionally, we expect that you will **cover all mentioned** topics above in your weekly progress report.
+
+## **Week 2 questionnaire:**  
+
+1) Tech Stack Resources: Are you utilizing any **project-based books** that specifically cover your tech stack and help you build your project? If yes, please provide the names of these books (name at least 3). How do you anticipate utilizing these materials to enhance your knowledge and expertise in your tech stack?
+
+[Your answers here]
+
+2) Mentorship Support: Do you currently have a mentor actively involved in your project? If yes, kindly share the name of your mentor and explain how their guidance has positively influenced your project. If you don't have a mentor yet, have you considered seeking one? How do you believe having a mentor could contribute to the success of your project? Remember, having an experienced mentor that can guide you and your team is your responsibility.
+
+[Your answers here]
+
+3) Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources
+
+[Your answers here]
+
+4) Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with **knowledge gaps**
+
+[Your answers here]
+
+5) Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack? This could involve participating in online forums and groups (telegram, discord or any other platform), attending local meetups (Kazan, Innopolis)? Do you have means to engage experts into critical tech stack problems through professional networks?
+
+[Your answers here]
+
+6) Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?
+
+[Your answers here]
+
+7) Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates? Have you organized any knowledge-sharing sessions or discussions to facilitate the exchange of insights and experiences related to your tech stack?
+
+[Your answers here]
+
+8) How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?
+
+[Your answers here]
+
+
+### **Tech Stack and Team Allocation**
+
+After finalizing the tech stack and team allocation, how did you ensure that each team member was effectively assigned to appropriate tasks and responsibilities within the project? Please provide a detailed explanation of how your project is structured, including the specific technologies being utilized and the corresponding team members responsible for each component. **Clearly outline the responsibilities of each team member in relation to their assigned parts**.
+
+---
+
 ### **Weekly Progress Report**
 
 We kindly remind you to continue maintaining your weekly progress report blog. These reports are an integral part of tracking the progress of your projects and ensuring effective communication. Each team is required to submit a detailed report by Friday 18:00 of each week.
 
-In your progress reports, provide informative and substantive accounts of your accomplishments, challenges faced, and the steps taken to overcome them. Clearly explain your achievements, the strategies you employed, and the lessons learned. These reports will be evaluated, and constructive feedback will be provided to support your project's successful completion.
+In your progress reports this week, provide informative and substantive accounts of your accomplishments, challenges faced, and the steps taken to overcome them. Clearly explain your achievements, the strategies you employed, and the lessons learned. These reports will be evaluated, and constructive feedback will be provided to support your project's successful completion.
 
 We encourage you to view the blog as a platform to share your accomplishments, insights, and challenges. Use it as an opportunity to engage with your peers, seek feedback, and showcase your growth throughout this journey.
 
-## **Important Note**
 
+{{< hint danger >}}
 Remember, the success of your project relies on effective teamwork, dedication, and commitment. Embrace this opportunity to showcase your skills, creativity, and problem-solving abilities. Collaborate closely with your team members, leverage each other's strengths, and foster a supportive environment that encourages innovation. By demonstrating your passion and determination, you can create a remarkable software solution that exceeds expectations. Let's embark on this journey together and make this project a shining example of what can be accomplished through collective effort and unwavering dedication.
+{{< /hint >}}

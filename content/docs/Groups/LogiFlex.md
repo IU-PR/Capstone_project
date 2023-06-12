@@ -4,11 +4,11 @@ bookFlatSection: true
 title: "LogiFlex"
 ---
 
-# LogiFlex - Get More by Using AI
+# **LogiFlex - Get More by Using AI**
 
-## Introduction
+## **Introduction**
 
-***LogiFlex*** is a service specializing in the development of logistics algorithms for packaging goods in vehicles using laws and ideas that our AI finds. LogiFlex - Get More by Using AI!
+**LogiFlex** is a service specializing in the development of logistics algorithms for packaging goods in vehicles using laws and ideas that our AI finds. LogiFlex - Get More by Using AI!
 
 <div style="text-align: center;">
   <img src="/LogiFlex_images/LogiFlex_logo_rmv_bg.png" alt="LogiFlex Logo" width="300" height="300">
@@ -16,9 +16,12 @@ title: "LogiFlex"
 
 The project idea was so successful that the team managed to attract investments from interested investors immediately after its inception. Just nine days later, the project team successfully negotiated with [the largest network of building materials in the Far East](https://999111.ru/), securing payment for the development process, project delivery, and obtaining copyrights. This partnership aims to address the network's own logistical problems and optimize their transport processes.
 
-***For collaboration inquiries or if you have any questions, feel free to reach out to me at: [@GeorgiyBudnik](https://t.me/GeorgiyBudnik) (Lead)***
+**For collaboration inquiries or if you have any questions, feel free to reach out to me at: [@GeorgiyBudnik](https://t.me/GeorgiyBudnik) (Team Lead)**
 
-{{< expand "Week 1" >}}
+
+# **Week One**
+
+## Progress report - Week 1
 ---
 Agenda:
  - Team Formation
@@ -36,8 +39,6 @@ Our team was carefully selected based on their experience, participation, and wi
 | Vladislav Urzhumov    | [@V_Liker](https://t.me/V_Liker)       | v.urzhumov@innopolis.university |
 | Igor Abramov         | [@IG_ragon](https://t.me/IG_ragon)      | ig.abramov@innopolis.university |
 | Ruslan Abdullin     | [@Fliegende_Rehe](https://t.me/Fliegende_Rehe)  | ru.abdullin@innopolis.university |
-
-*(The number of team members is agreed upon with Rustam Lukmanov)*
 
 ### Value Proposition
 
@@ -125,4 +126,10 @@ The existing cargo distribution process at LogiFlex involves the manual placemen
 
 Our solution differentiates itself by integrating machine learning and optimization algorithms to provide optimal cargo distribution solutions in limited spaces. The combination of predictive analytics, optimization, and automation will offer significant advantages over traditional manual processes, resulting in cost savings, faster information retrieval, and improved overall efficiency in cargo transportation.
 
-{{< /expand >}}
+{{< hint danger >}}
+**Feedback**
+I think this is a wonderful project and you have a strong team. To strengthen the proposal further, I recommend providing additional details on the specific AI techniques or algorithms utilized by LogiFlex. Elaborating on the underlying technology and how it enables efficient packaging of goods in vehicles will enhance the understanding of the project's unique value proposition.
+
+Also, try to estimate how much your algorithms can save in revenue for the company. Is it 10%, 20%? If yes, this is signifacnt advantage that you can provide to the company by ensuring their competitive edge on the market. 
+
+Additionally, it would be beneficial to outline the team's expertise and experience - think of unique abilities that your team posses. Highlighting the qualifications and track record of the team members involved will instill confidence in potential investors and clients, showcasing LogiFlex's ability to deliver effective solutions.{{< /hint >}}

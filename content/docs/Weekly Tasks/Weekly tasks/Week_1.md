@@ -62,13 +62,11 @@ Remember, building a successful software project goes beyond individual skills. 
 {{< /expand >}}
 | Team Member            | Telegram ID   | Email Address       |
 |------------------------|---------------|---------------------|
-| Team Member (Lead) 1          | [Telegram ID] | [Email address]     |
-| Team Member 2          | [Telegram ID] | [Email address]     |
-| Team Member 3          | [Telegram ID] | [Email address]     |
-| Team Member 4          | [Telegram ID] | [Email address]     |
-| Team Member 5          | [Telegram ID] | [Email address]     |
-| (Optional) Team Member 6 | [Telegram ID] | [Email address]     |
-| (Optional) Team Member 7 | [Telegram ID] | [Email address]     |
+| Danil Timofeev          | RND_RandoM | d.timofeev@innopolis.university     |
+| David Eje          | David_ej | [Email address]     |
+| Daria Lebedeva          | SwansOfApollo | [Email address]     |
+| Dima Batalov         | Legolass322 | [Email address]     |
+| Nikita Zorin          | nikznn | [Email address]     |
 
 
 ### **Value Proposition**

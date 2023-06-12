@@ -1,7 +1,12 @@
-# **Week #1**
-
+---
+weight: 1
+bookFlatSection: true
+title: "FreshMarket"
+---
+# **FreshMarket**
 # **Introduction**
 
+Fresh Market is a marketplace of farm products with the possibility of subscription. Customers see the assortment of regional farm products and collect products in the basket for ordering. Farmers post products with photos, descriptions, quantities and the possibility of subscribing to their products. When placing an order, the buyer chooses payment by card, cash or invoice for the organization and chooses the delivery method courier, pickup or transport company. The farmer receives his funds the next day after the delivery of the goods to the card attached to the profile.
 
 {{< hint danger >}}
 
@@ -10,6 +15,7 @@ Write concise and well-written project description here. To enhance it further, 
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
 {{< /hint >}}
 
+# **Week #1**
 
 ### **Team Members**
 | Team Member            | Telegram ID        | Email Address                      |

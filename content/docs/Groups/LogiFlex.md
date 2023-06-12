@@ -9,6 +9,7 @@ title: "LogiFlex"
 ## **Introduction**
 
 **LogiFlex** is a service specializing in the development of logistics algorithms for packaging goods in vehicles using laws and ideas that our AI finds. LogiFlex - Get More by Using AI!
+Check out our website - http://logiflex.ru
 
 <div style="text-align: center;">
   <img src="/LogiFlex_images/LogiFlex_logo_rmv_bg.png" alt="LogiFlex Logo" width="300" height="300">

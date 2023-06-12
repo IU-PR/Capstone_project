@@ -157,6 +157,6 @@ In Progress...
 
 **Feedback**  
 
-Hi, this is a very wonderful project, and I am sure it will have a lot of users once ready - hundreds of Innopolis students will be glad that you've spent time building this resource! Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to creating a web app that does core/main things. Outline main features of your project and focus on execution. I would also think about which particular parts you can strip down - for example UI can be very simple (I am saying all this because we have only 7 weeks). Overall, I think this is a very good project idea, that now requires a well-planned execution. Therefore, plan for simplified version that showcases main features.
+Hi, this is a wonderful project, and I am sure it will have a lot of users once ready - hundreds of Innopolis students will be glad that you've spent time building this resource! Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to creating a web app that does core/main things. Outline main features of your project and focus on execution. I would also think about which particular parts you can strip down - for example UI can be very simple (I am saying all this because we have only 7 weeks). Overall, I think this is a very good project idea, that now requires a well-planned execution. Therefore, plan for simplified version that showcases main features.
 
 {{< /hint >}}

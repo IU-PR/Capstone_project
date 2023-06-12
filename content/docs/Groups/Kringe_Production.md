@@ -1,3 +1,19 @@
+---
+weight: 1
+bookFlatSection: true
+title: "Kringe Production"
+---
+# **Introduction**
+
+{{< hint danger >}}
+
+**Feedback**  
+Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
+As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of a potential reader. 
+{{< /hint >}}
+
+# **Week #1**
+
 **Identify the Problem:**
 The problem that our project addresses is the lack of a centralized platform for university students to seek and offer mutual help. University students often face challenges and inefficiencies when it comes to finding assistance or resources related to their courses. Some of the pain points, bottlenecks, and limitations they encounter include:
 
@@ -135,3 +151,12 @@ During the project development and deployment phases, we anticipate the followin
 
 **Elaborate Explanations:**
 In Progress...
+
+
+{{< hint danger >}}
+
+**Feedback**  
+
+Hi, this is a very wonderful project, and I am sure it will have a lot of users once ready - hundreds of Innopolis students will be glad that you've spent time building this resource! Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to creating a web app that does core/main things. Outline main features of your project and focus on execution. I would also think about which particular parts you can strip down - for example UI can be very simple (I am saying all this because we have only 7 weeks). Overall, I think this is a very good project idea, that now requires a well-planned execution. Therefore, plan for simplified version that showcases main features.
+
+{{< /hint >}}

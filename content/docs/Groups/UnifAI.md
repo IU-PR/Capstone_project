@@ -3,10 +3,16 @@ weight: 1
 bookFlatSection: true
 title: "UnifAI"
 ---
+# **Introduction**
+
+{{< hint danger >}}
+
+**Feedback**  
+Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
+As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of potential reader. 
+{{< /hint >}}
 
 # **Week #1**
-
-# **Introduction**
 
 ## **Team Members**
 
@@ -150,3 +156,11 @@ accuracy will be also lower on average.
 * Independent microservices are used in our project for STT, TTS models and translation. 
 * STT model that we will use (whisper AI), is a multitasking model that performs multilingual speech recognition and language identification. We will choose one of the 5 available models of whisper (that differ in size, required vram and accuracy appropriately) on client-side based on the PC characteristics of the end user.
 * Our solution differentiates from others by providing a real-time translator for all connected users with proper models’ computing resources delegation and accuracy. 
+
+{{< hint danger >}}
+
+**Feedback**  
+
+Hi, this is a very wonderful project, and I am sure it will have a lot users once ready. Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to a creating an app that does one language translation, i.e, english to russian in near real time. I would also think about which particular parts you can strip down - for example UI can be very simple. Overall, I think this is a very in-demand product and idea, that now requires a well-planned execution. Therefore, plan for super simplified version that showcases the technology. 
+
+{{< /hint >}}

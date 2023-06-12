@@ -1,11 +1,20 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Week #1"
+title: "AI Career Guider"
 ---
 
-# Week #1
-## Project: AI Career Guider
+# **Project: AI Career Guider**
+
+# **Introduction**
+
+{{< hint danger >}}
+
+**Feedback**  
+Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
+As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
+{{< /hint >}}
+
 
 ### Team members
 
@@ -87,7 +96,7 @@ We created our team based on every team member’s hard skills and stack. You ca
 The problem addressed by the application is the difficulty faced by people in finding a career path that matches their skills and preferences. The solution is to create an application that provides services such as finding a job, creating a roadmap for the job, and finding available vacancies. The application's uniqueness is that it provides all these services in one place. The benefits of the application are it saves time for users by providing all the information they need in one place. The application differentiates itself by integrating AI, which is used for finding a job and creating a roadmap, as well as web scraping for searching for vacancies. The application can help users save time by shortening the time it takes to find a suitable job and become a specialist in that field.
 
 ### Schematic Drawings
-![](https://github.com/IU-PR/Capstone_project/blob/AICareerGuider/static/AICareerGuider/architecture.png)
+![](/AICareerGuider/architecture.png)
 
 
 ### Tech Stack
@@ -108,3 +117,12 @@ The problem addressed by the application is the difficulty faced by people in fi
 - Front-end and back-end parts will work with each other using Rest API. Also we have introduced a “Query Interface” component that will remove a dependency of the front-end from the backend.
 - All our ML-related parts will be processed in Airflow in order to pipeline them.
 - We are also going to collect data and store it into the database in order to create a statistics dashboard in Grafana and make some decisions based on it. 
+
+{{< hint danger >}}
+
+**Feedback**  
+It is an interesting project! Great job on identifying the problem that candidates face in job determination. Career paths can be complicated and I think it is important that your team tries to make it as straightforward as possible. Your app can greatly benefit career development by allowing users to see realistic track that is required for a given profession.
+
+To further enhance your project, consider expanding on the specific features and functionalities that will be offered to users. Will the AI simulate career paths? Will your app include only IT professionals or some other professions too?
+
+Overall, I think you have a great team and a very nice project. Try to scale it down to some core features and develop a detailed execution plan (as it currently stated it can be too big for 6 remaining weeks){{< /hint >}}

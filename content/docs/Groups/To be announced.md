@@ -1,12 +1,12 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "To be announced"
+title: "To be announced - Identification of organic compounds"
 ---
 
-# **To be announced**
+# **To be announced - Identification of organic compounds**
 
-## **Week #1**
+# **Week #1 Progress report**
 
 ### **Team Formation and Project Proposal**
 
@@ -121,3 +121,11 @@ Overall, by anticipating these potential challenges and proposing appropriate mi
 The core functionality of our application lies in its image processing and classification capabilities. By taking advantage of state-of-the-art machine learning techniques, we are able to achieve high levels of accuracy and speed, making the process of identifying chemical compounds as seamless as possible. Our mobile application has an intuitive user interface that makes it easy for anyone to use, regardless of technical background.
 
 One of the unique aspects of our solution compared to existing alternatives is its broad scope. Unlike other applications that are specific to organic compounds or have limited functionality, ours is designed to work with any type of molecule. Additionally, our application uses innovative techniques such as deep learning and image processing to provide accurate results quickly and efficiently. We believe that our solution will revolutionize the way people think about chemistry and make it accessible to a wider audience.
+
+{{< hint danger >}}
+**Feedback**  
+I think this is a wonderful project that can benefit a lot of professional chemists and students. Conversion of complicated graphical representations into name of the compound is an interesting technical project that involves a lot of different technologies. 
+
+Overall, your report effectively presents a problem-solution approach and conveys the potential impact and benefits of the proposed mobile application. It would be valuable to further elaborate on the implementation plan, including the technology stack, development roadmap, and potential challenges to be addressed. 
+
+{{< /hint >}}

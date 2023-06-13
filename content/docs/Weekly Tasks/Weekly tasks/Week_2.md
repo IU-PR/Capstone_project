@@ -13,9 +13,7 @@ We hope you had a fantastic start to the project and sailed through the first we
 # **Introduction**
 ## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
 
-Please, find below the PDF of the lecture slides from week 2 below: 
 {{< embed-pdf url="/PDF/Week_2.pdf" >}}
-
 
 Welcome to Week 2 of our project! This week holds immense value as we delve into two critical aspects that will shape the trajectory of our software solution: selecting the appropriate tech stack and designing a robust architecture.
 
@@ -62,35 +60,19 @@ Additionally, we expect that you will **cover all mentioned** topics above in yo
 
 1) Tech Stack Resources: Are you utilizing any **project-based books** that specifically cover your tech stack and help you build your project? If yes, please provide the names of these books (name at least 3). How do you anticipate utilizing these materials to enhance your knowledge and expertise in your tech stack?
 
-[Your answers here]
-
 2) Mentorship Support: Do you currently have a mentor actively involved in your project? If yes, kindly share the name of your mentor and explain how their guidance has positively influenced your project. If you don't have a mentor yet, have you considered seeking one? How do you believe having a mentor could contribute to the success of your project? Remember, having an experienced mentor that can guide you and your team is your responsibility.
-
-[Your answers here]
 
 3) Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources
 
-[Your answers here]
-
 4) Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with **knowledge gaps**
-
-[Your answers here]
 
 5) Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack? This could involve participating in online forums and groups (telegram, discord or any other platform), attending local meetups (Kazan, Innopolis)? Do you have means to engage experts into critical tech stack problems through professional networks?
 
-[Your answers here]
-
 6) Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?
-
-[Your answers here]
 
 7) Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates? Have you organized any knowledge-sharing sessions or discussions to facilitate the exchange of insights and experiences related to your tech stack?
 
-[Your answers here]
-
 8) How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?
-
-[Your answers here]
 
 
 ### **Tech Stack and Team Allocation**

@@ -13,6 +13,10 @@ We hope you had a fantastic start to the project and sailed through the first we
 # **Introduction**
 ## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
 
+Please, find below the PDF of the lecture slides from week 2 below: 
+{{< embed-pdf url="/PDF/Week_2.pdf" >}}
+
+
 Welcome to Week 2 of our project! This week holds immense value as we delve into two critical aspects that will shape the trajectory of our software solution: selecting the appropriate tech stack and designing a robust architecture.
 
 Choosing the right tech stack is essential for the success of our project. It empowers us to leverage the most suitable technologies, frameworks, and programming languages that align with our objectives and the expertise of our team members. By carefully evaluating scalability, performance, security, and development efficiency, we can ensure that our chosen tech stack provides a solid foundation for the development process.

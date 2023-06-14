@@ -88,3 +88,79 @@ Delete this section when finished, just for progress tracking
   - [ ] How did you ensure that each team member was effectively assigned to
         appropriate tasks and responsibilities within the project?
   - [ ] Provide detailed explanation of how team member responsibilities
+
+## Architecture
+
+### Component Breakdown
+
+![](/JustOrgYou/sequence_diagram.png)
+
+### Data Management
+
+### UI Design
+
+### Integration and APIs
+
+### Scalability and Performance
+
+### Security and Privacy
+
+### Error Handling and Resilience
+
+### Deployment and DevOps
+
+## Tech Stack
+
+### Requirements and Objectives of the Project
+
+### Chosen Technologies
+
+## Questionnaire
+
+1. **Tech Stack Resources**: Are you utilizing any **project-based books** that
+   specifically cover your tech stack and help you build your project? If yes,
+   please provide the names of these books (name at least 3). How do you
+   anticipate utilizing these materials to enhance your knowledge and expertise
+   in your tech stack?
+   > **Answer**:
+2. **Mentorship Support**: Do you currently have a mentor actively involved in your
+   project? If yes, kindly share the name of your mentor and explain how their
+   guidance has positively influenced your project. If you don't have a mentor
+   yet, have you considered seeking one? How do you believe having a mentor
+   could contribute to the success of your project? Remember, having an
+   experienced mentor that can guide you and your team is your responsibility.
+   > **Answer**:
+3. **Exploring Alternative Resources**: In addition to project-based books, what
+   other resources have you explored to expand your understanding of your tech
+   stack? This could include online courses, video tutorials, documentation, or
+   any other sources that have been valuable in filling knowledge gaps. Please,
+   name at least 3 resources
+   > **Answer**:
+4. **Identifying Knowledge Gaps**: Are there any specific areas within your tech
+   stack where you or your team feel there are knowledge gaps or expertise is
+   lacking? If so, how do you plan to address these gaps and ensure a
+   well-rounded understanding of your chosen technologies? Please name the tech
+   stack division in your team and outline how are you planning to deal with
+   **knowledge gaps**
+   > **Answer**:
+5. **Engaging with the Tech Community**: Have you actively engaged with the broader
+   tech community to seek guidance or learn from experienced professionals in
+   your tech stack? This could involve participating in online forums and groups
+   (telegram, discord or any other platform), attending local meetups (Kazan,
+   Innopolis)? Do you have means to engage experts into critical tech stack
+   problems through professional networks?
+   > **Answer**:
+6. **Learning Objectives**: What specific learning objectives have you set for
+   yourself and your team in relation to your tech stack this week? How do you
+   plan to achieve these objectives, and what strategies or resources will you
+   employ to deepen your understanding?
+   > **Answer**:
+7. **Sharing Knowledge with Peers**: How have you been sharing your knowledge and
+   expertise with your teammates? Have you organized any knowledge-sharing
+   sessions or discussions to facilitate the exchange of insights and
+   experiences related to your tech stack?
+   > **Answer**:
+8. **Laveraging AI**:How have you leveraged AI to compensate for any lacking expertise in your
+   tech stack? Have you utilized AI-powered tools or platforms to expedite the
+   process of acquiring knowledge and expertise in your tech stack?
+   > **Answer**:

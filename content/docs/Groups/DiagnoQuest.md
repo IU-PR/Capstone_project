@@ -16,9 +16,19 @@
 ### Problem Statement
 Our software project addresses the critical problem of efficiently diagnosing diseases and connecting individuals with the right doctors. Traditional healthcare systems often lack accessibility and can be time-consuming, leading to delayed or inaccurate diagnoses. These inefficiencies and challenges within the healthcare domain can cause significant stress, delay treatment, and undermine overall patient well-being
 
-
 ### Solution Description
 Our platform revolutionizes the healthcare experience by providing a comprehensive solution to the identified problem. Through an intuitive interface, users can input their symptoms, which initiates a guided question-and-answer process. The system collects relevant information to generate a preliminary diagnosis based on advanced algorithms and medical knowledge. Additionally, the platform recommends doctors who specialize in the relevant field, ensuring that users receive the most appropriate care.
+
+### Features list
+1- A bot for prelimintary diagnosis for the user
+2- Doctors Online Booking service for partner diagnostic centers
+3- Dataset with additional list of doctors
+4- Patient history tracking
+
+### Features to add
+* Chat with doctors
+* Video call with a doctor
+* Notificationf for the user related to its disease
 
 ### Benefits to Users
 1- Accurate and Efficient Diagnosis: Users can receive a preliminary diagnosis quickly, reducing anxiety and enabling them to take proactive steps toward treatment.
@@ -86,9 +96,10 @@ Our team has a strategic plan to leverage the following resources for the develo
 Our project aims to revolutionize the healthcare industry by providing an intelligent and user-friendly platform that enables accurate disease diagnosis and personalized doctor recommendations. By leveraging artificial intelligence (AI) and advanced algorithms, we address the problem of inefficient diagnosis and the challenge of finding suitable doctors for specific conditions. Our platform streamlines the healthcare process, saving time and effort for users while ensuring they receive the most relevant and effective medical care.
 
 ### Tech Stack
-* Frontend: HTML, CSS, JavaScript, React.js
-* Backend: Python, Scala
+* Frontend: React.js, TailwindCSS, nextJs
+* Backend: Python, Java, LUA
 * Database: PostgreSQL
+* Mobile: Flutter
 * AI: Infermedica Model
 
 ### Anticipation Future Problems

@@ -27,6 +27,7 @@ As we plan to promote your work, it's crucial to ensure that this file serves as
 |Said Kamalov|SaidKbshsb|s.kamalov@innopolis.university|
 |Arseni Rusin|Furry\_Lord|a.rusin@innopolis.university|
 |Ivan Kornienko|VanyaKo\_Keyboardist|I.kornienko@innopolis.university|
+|Sergey Milgram|MrFired|s.milgram@innopolis.university|
 ## Value Proposition 
 
 ### Identify the Problem 
@@ -109,6 +110,7 @@ The problem addressed by the application is the difficulty faced by people in fi
 |Said Kamalov|python, pandas, scikit-learn, numpy, pytorch, MySQL, postgreSQL; Docker|
 |Arseni Rusin|React|
 |Ivan Kornienko|Python: pandas, pytorch, scikit-learn, numpy; Databases: PostgreSQL; Docker|
+|Sergey Milgram|Python; GitLab CI/CD; Docker; Kubernetes|
 ### Anticipating Future Problems
 - High-load of our service.
 - Technical complexities related to integration of AI.

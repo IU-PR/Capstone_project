@@ -118,3 +118,35 @@ Secondly, we may encounter security issues as we store user data and sensitive i
 Thirdly, we will need a plan in place for unexpected technical issues, such as server or database failures or system crashes, which might disrupt the platform's operation. By developing a comprehensive disaster recovery plan that includes backup solutions and redundancy measures, we will be able to ensure that the system continues to operate smoothly even under difficult circumstances.
 
 Overall, we are committed to delivering a high-quality platform for our Linux courses and will work on overcoming any future challenges that may arise during the entire development and deployment phases.
+
+{{< hint danger >}}
+**Feedback**  
+
+**Value Proposition**
+Missing many requested details, like Differentiation and use cases .
+Beside can you finish the project within 7 weeks? 
+
+One drawback I see here, that not all travellers will welcome strangers. Beside groups that you mention have taxi driver deliver people. Maybe you should focus how can you incorporate them?
+
+Use case is a bit weak. Try to think of more uses cases your solution will be used and by whom?
+
+**Lean startup question**
+- Good metrics . But Try to use NPS, Retention rate, visitors, number of users… etc try to google metrics to measure success in building products 
+
+**AI** 
+We mean here will utilise AI applications in your solution. 
+Not what ai tools you used during development  
+
+What is this AI-powered chatbot ? How will you create it?
+
+Vision Of The Project 
+Very Good
+
+**Overall**
+Good report! But try to think more about value proposition and use cases
+And explain more on the use cases and how you differ from other solutions.
+ 
+ 4.5/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

@@ -3,9 +3,7 @@
 1. Programming languages:
 
 - Python for ML and back-end part
-
 - JavaScript for front-end part
-
 - SQL for databases
 
 2. Frameworks:

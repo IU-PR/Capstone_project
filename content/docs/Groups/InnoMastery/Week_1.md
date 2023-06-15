@@ -123,6 +123,7 @@ Overall, we are committed to delivering a high-quality platform for our Linux co
 **Feedback**  
 
 **Value Proposition**
+
 Missing many requested details, like Differentiation and use cases .
 Beside can you finish the project within 7 weeks? 
 
@@ -131,9 +132,11 @@ One drawback I see here, that not all travellers will welcome strangers. Beside 
 Use case is a bit weak. Try to think of more uses cases your solution will be used and by whom?
 
 **Lean startup question**
+
 - Good metrics . But Try to use NPS, Retention rate, visitors, number of users… etc try to google metrics to measure success in building products 
 
 **AI** 
+
 We mean here will utilise AI applications in your solution. 
 Not what ai tools you used during development  
 
@@ -143,6 +146,7 @@ Vision Of The Project 
 Very Good
 
 **Overall**
+
 Good report! But try to think more about value proposition and use cases
 And explain more on the use cases and how you differ from other solutions.
  

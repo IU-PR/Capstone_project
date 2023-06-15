@@ -16,7 +16,7 @@ Delete this section when finished, just for progress tracking
   - [ ] **Component Breakdown**: Identify the major components and modules that will
         form your software solution. Outline their responsibilities and interactions
         to ensure a cohesive structure.
-  - [ ] **Data Management**: Determine how data will be stored, accessed, and
+  - [x] **Data Management**: Determine how data will be stored, accessed, and
         manipulated within your application. Select appropriate databases or data
         storage solutions based on the project's requirements.
   - [ ] **User Interface (UI) Design**: Consider the user experience (UX) and design
@@ -97,6 +97,72 @@ Delete this section when finished, just for progress tracking
 
 ### Data Management
 
+#### Data Storage
+
+One of the main goals of our project is to be as future proof and open as
+possible, thus all data related to tasks will be stored in plain text files.
+Initially we will be using [Org Mode](https://orgmode.org/index.html) format for
+that but with the possibility of adding new modules to support other file types
+or even databases.
+
+And the main issue with plain text storage is not the size of files and thus
+speed of their processing (as our calculations suggest even having 10,000 tasks
+in a single file which is a really huge number, we would occupy only a few MB)
+but file edits by external sources while the app is running and conflicting
+versions of the same file.
+
+Usually this kind of problems are handled by DBMS, however, we don't want to use
+them for the reasons described earlier. To solve this issue we are planning to
+implement a smart merging tool for tasks. It would not only be useful inside our
+project, but also provide a handy way to resolve synchronization conflicts while
+using multiple devices + some way to synchronize them (e.g. cloud storage like
+DropBox or peer to peer solutions like Syncthing).
+
+#### Task Data Model
+
+`Task` is the the smallest core unit in our application. As an inspiration and
+guidlines we used [Org Mode's TODO item](https://orgmode.org/manual/TODO-Items.html).
+It contains the following fields(note that here `field_name: Type` notation is
+used):
+
+- `title: Line` a single line describing a task, usually it's enough to use only
+  it without a body.
+- `body: String` a multi line string that may contain anything, including
+  tables, code blocks and so on.
+- `children: Collection[Task]` a group of tasks each of which is a child of the
+  current note in the tree hierarchy.
+- `priority: Option[Unsigned Integer]` a priority indicator. The lower the number, the
+  higher the priority (0 - highest priority). It is usually displayed as A, B or
+  C in most todo apps.
+- `keyword: Word` a property that indicates state of the task. Usually it has
+  only 2 states: TODO and DONE. But in GTD there are other states such as
+  SOMEDAY and INBOX.
+- `tags: Collection[Word]` a collection of tags, that are usually used to
+  simplify searching for the information.
+- `scheduled: Option[PeriodicDateTime]` a periodic date time that represents when you are going to do this task.
+- `deadline: Option[PeriodicDateTime]` a periodic date time that represents when the deadline for the task.
+- `properties: Collection[String]` a list of other properties, that may be used
+  to extend task management system.
+
+Note that the following types are used as supporting ones:
+
+- `PeriodicDateTime` is a type for scheduling events. It is a point in time that
+  can be repeated. Refer to the
+  [Deadlines and Scheduling](https://orgmode.org/manual/Deadlines-and-Scheduling.html)
+  and [Repeated tasks](https://orgmode.org/manual/Repeated-tasks.html).
+- `Option[T]` is a container that may contain some value of type `T` or `None`. It
+  is used to signify presence/absence of something.
+- `Collection[T]` is a container containing a group of elements.
+- `Word` is a `String` without white space characters in it.
+- `Line` is a `String` without linebreaks in it.
+
+#### Notebook Data Model
+
+`Notebook` is simply a collection of tasks and is represented by a single file
+
+- `tasks: Collection[Task]` are all the top-level tasks in a file.
+- `keywords: Collection[Keywords]` are [per file keywords](https://orgmode.org/manual/Per_002dfile-keywords.html).
+
 ### UI Design
 
 ### Integration and APIs
@@ -123,6 +189,14 @@ Delete this section when finished, just for progress tracking
    anticipate utilizing these materials to enhance your knowledge and expertise
    in your tech stack?
    > **Answer**:
+   >
+   > - Book [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
+   >   provides great in-depth introduction into this language. Community
+   >   considers it as one of the best starting points. Thus we expect to learn
+   >   everything from basics to design patterns, that are specific for the
+   >   Rust.
+   > - ???
+   > - ???
 2. **Mentorship Support**: Do you currently have a mentor actively involved in your
    project? If yes, kindly share the name of your mentor and explain how their
    guidance has positively influenced your project. If you don't have a mentor
@@ -136,6 +210,11 @@ Delete this section when finished, just for progress tracking
    any other sources that have been valuable in filling knowledge gaps. Please,
    name at least 3 resources
    > **Answer**:
+   >
+   > - [No Boilerplate](https://www.youtube.com/@NoBoilerplate) is a great YouTube channel that has a lot of videos
+   >   about rust, for example consider [Rust tests are MAGIC](https://youtu.be/JIvKgSyvtxI?list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP)
+   > - ???
+   > - ???
 4. **Identifying Knowledge Gaps**: Are there any specific areas within your tech
    stack where you or your team feel there are knowledge gaps or expertise is
    lacking? If so, how do you plan to address these gaps and ensure a

@@ -45,6 +45,22 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
     
     These testimonials highlight the value and benefits of our software project, demonstrating its potential to enhance the bar experience for both bartenders and customers.
     
+  
+{{< hint danger >}}
+**Feedback**  
+  Can the bar use the ingredient you will advice? 
+  >Among the popular applications there is VIVINO.
+  
+  Why you decided to examine only this app? 
+  
+  Theses are not Uses cases rather than Imaginary dreams! 
+  Uses cases should reflect how users will use your app and in what cases.
+  You should reformulate them.
+ 
+  
+_Feedback by Moofiy_
+{{< /hint >}}  
+    
 ## **Lean Startup Questionnaire**
 
 1. What problem or need does your software project address?
@@ -67,6 +83,27 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
     
     *The high-rated combinations will be included to list of possible cocktails and will take account and suggested to other users*
 
+{{< hint danger >}}
+**Feedback**  
+
+This section has very short answers and it seems you nosed it super quickly without any consideration
+
+>We ask our users to estimate the result (cocktail)
+
+How, exactly? There is a lot of ways ad data can be gathered. 
+
+>Client satisfaction, time of performance
+How will you measure Client satisfaction.
+time of performance of what exactly?
+
+>The high-rated combinations will be included to list of possible cocktails…
+
+This is not a plan to pivot 
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
 ## **Leveraging AI, Open-Source, and Experts**
 
 - AI (Artificial Intelligence):
@@ -80,6 +117,18 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
 - Experts in relevant domains:
     
     *We decided to interview the employees of bar 108 as experts in this field.*
+    
+{{< hint danger >}}
+**Feedback**  
+
+>To do this task we will use NLP model for working with text.
+
+What exactly your model will do? What NLP technique will you use to build the model. 
+And how will use utilise text to create cocktails?
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
     
 ## **Inviting Other Students**
 
@@ -127,3 +176,14 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
     In out project we wil use NLP model to transform text data to the vectors. 
     
     Nowadays, there are no popular analogues of such idea that used in bar industry.
+    
+    
+{{< hint danger >}}
+**Feedback**  
+
+The report is good, but you should have spent more time answering lean startup section 
+4/5
+
+_Feedback by Moofiy_
+{{< /hint >}}
+

@@ -61,6 +61,15 @@ _Feedback by Moofiy_
 5. How do you plan to iterate and pivot if necessary based on user feedback?
 
 
+
+
+### Answers
+1. The need for rapid and accurate recognition of pipeline and metal marking based on photo images.
+2. Workers of Gazstroyprom.
+3. Gathering feedback from company, validation on dataset.
+4. Speed and accuracy of mark recognition, user satisfaction.
+5. Regularly conduct feedback sessions, and adjust our model and approach accordingly.
+
 {{< hint danger >}}
 **Feedback**  
 
@@ -70,12 +79,6 @@ better to think through this question again and re answer.
 _Feedback by Moofiy_
 {{< /hint >}}
 
-### Answers
-1. The need for rapid and accurate recognition of pipeline and metal marking based on photo images.
-2. Workers of Gazstroyprom.
-3. Gathering feedback from company, validation on dataset.
-4. Speed and accuracy of mark recognition, user satisfaction.
-5. Regularly conduct feedback sessions, and adjust our model and approach accordingly.
 
 ## **Leveraging AI, Open-Source, and Experts**
 - AI (Artificial Intelligence): Image recognition with neural networks.
@@ -111,7 +114,7 @@ Our application can be divided into four main components: the frontend interface
 
 I would say your report is strong in technical aspects but weak on business aspects
 
-4/5
+3/5
 
 _Feedback by Moofiy_
 {{< /hint >}}

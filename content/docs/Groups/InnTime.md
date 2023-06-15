@@ -7,8 +7,8 @@ title: "InnTime"
 
 InтTime is a project that will help students and professors save time searching for their schedules. Just go to the website, choose your group and the entire schedule will be in front of you in real time.
 
-<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/static/InnTime/logo.svg">
+<div class="wrapper" style="display: flex; justify-content: center; align-items: center;">
+    <img src="/InnTime/logo.svg" width="500" height="300">
 </div>
 
 
@@ -51,11 +51,23 @@ InтTime is a project that will help students and professors save time searching
 
 ## **Lean Startup Questionnaire**
 
-1. The project solves the problem with the existing schedule at the university. Thanks to the project, it will become much more convenient and faster to work with a schedule.
-2. Students and Instructors.
-3. When we have the prototype of the project ready, we will be able to test the beta version of the project on some students.
-4. The number of students and instructors who will use it.
-5. After receiving the user's comment, we need to get together as a team and discuss and analyze his comments. To understand whether his remarks make sense or not. If so, we will fix it.
+1. Our project solves the problem of inconvenient use of the existing schedule, aiming to provide quick access to the full schedule from all courses for students. The current schedule is presented in the form of several tables, among which it is rather inconvenient to look for the schedule you need for a certain year, course, elective. The project is aimed at automating scheduling, speeding up the schedule search time for each student.
+2. The target users or customers of the InnTime project are, first of all, university students who are searching for schedules on several tables and spend their precious time on it. They may also include teachers, instructors who do not want to spend a lot of time notifying all students through groups in a telegram about a change in the schedule.
+3. InnTime can confirm and test its assumptions about the project by several methods:
+Conducting interviews with users and surveys of schedule compilers about the usability of our tool in order to understand their pain points and collect feedback on the proposed solution.
+Creating a prototype or a minimally viable product (MVP) and conducting usability tests with target users to monitor their interaction and collect information.
+Conducting pilot tests with a selected group of customers to verify the effectiveness of the project in solving identified problems.
+Collecting and analyzing data on key performance indicators (KPIs), such as time savings and customer satisfaction.
+4. The success of the project can be measured using various indicators, including:
+Reduce Manual Processing time: Measure the time saved by automating the schedule search from different sources and compare it with the previous manual process.
+Customer Satisfaction: Collect customer feedback on their experience with the software, ease of use, and overall satisfaction with the solution.
+Implementation and Retention Metrics: Track the number of customers using the project and track their continued usage over time.
+5. InnTime plans to iterate and pivot based on user feedback in the following ways:
+Regularly gather feedback from customers through surveys, user interviews, and support channels to understand their needs and pain points.
+Prioritize and analyze feedback to identify areas of improvement and address any issues or shortcomings in the software.
+Continuously release updates and new features based on customer feedback.
+Controlle experiments to test different approaches or variations of the software to optimize performance and user satisfaction.
+Stay agile and flexible in adapting the software based on user feedback, and emerging technologies to ensure the solution remains relevant and competitive.
 
 
 ## **Leveraging AI, Open-Source, and Experts**
@@ -77,12 +89,12 @@ InтTime is a project that will help students and professors save time searching
 
 - *Flow of the Project*
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/static/InnTime/graph.png">
+    <img src="/InnTime/graph.png">
 </div>
 
 - *Structure of the Project*
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/static/InnTime/architecture.png">
+    <img src="/InnTime/architecture.png">
 </div>
 
 - **Tech Stack** For our project we choose the next list of the languages and frameworks:
@@ -144,6 +156,42 @@ InтTime is a project that will help students and professors save time searching
     >Real-time updates and real-time editing that is completely connected with data saving are two unique features of this system. Our Schedule project is the perfect option for students who want to efficiently arrange their time because it also makes it simple to filter by groups and electives.
 
 
+{{< hint danger >}}
+**Feedback**  
+
+**Value Proposition**
+
+Good, 
+But try to think more in the use cases section, think how will your product be used and by whom?
+
+**Lean startup question**
+
+Answers are short and doesn’t reflect that you took any consideration to answer them.
+Redo.
+
+Not real uses cases. 
+Use case is how users will use your app. And by whom
+
+**AI** 
+
+How will you use AI application  to empower your solution?
+
+
+**Vision Of The Project**
+
+Very Good, but the images doesn't appear 
+
+**Overall**
+The report is good
+But you need to re do the lean startup section
+
+4/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
 # **Week #2**
 
 ### **Tech Stack Selection**
@@ -177,29 +225,29 @@ The database will store all the information about the calendar, the user, and so
 
 We are ready to provide an initial version of our design. The design may change over the course of the project.
 
-- *The main page*
+***The main page***
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/static/InnTime/Main.png">
+    <img src="/InnTime/Main.png">
 </div>
 
-- *Page with courses and electives*
+***Page with courses and electives***
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/static/InnTime/schedule.png">
+    <img src="/InnTime/schedule.png">
 </div>
 
-- *The preview of the course*
+***The preview of the course***
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/static/InnTime/preview.png">
+    <img src="/InnTime/preview.png">
 </div>
 
-- *The full schedule*
+***The full schedule***
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/static/InnTime/calendar.png">
+    <img src="/InnTime/calendar.png">
 </div>
 
-- *404 error*
+***404 error***
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/static/InnTime/Error.png">
+    <img src="/InnTime/Error.png">
 </div>
 
 

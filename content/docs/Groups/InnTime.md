@@ -133,3 +133,38 @@ title: "InnTime"
     **Unique technologies:**
     
     >Real-time updates and real-time editing that is completely connected with data saving are two unique features of this system. Our Schedule project is the perfect option for students who want to efficiently arrange their time because it also makes it simple to filter by groups and electives.
+
+{{< hint danger >}}
+**Feedback**  
+
+**Value Proposition**
+
+Good, 
+But try to think more in the use cases section, think how will your product be used and by whom?
+
+**Lean startup question**
+
+Answers are short and doesn’t reflect that you took any consideration to answer them.
+Redo.
+
+Not real uses cases. 
+Use case is how users will use your app. And by whom
+
+**AI** 
+
+How will you use AI application  to empower your solution?
+
+
+**Vision Of The Project**
+
+Very Good
+
+**Overall**
+The report is good
+But you need to re do the lean startup section
+
+4/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

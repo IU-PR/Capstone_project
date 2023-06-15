@@ -46,7 +46,7 @@ InтTime is a project that will help students and professors save time searching
 - Students will be able to get their full schedule faster. And also export it in a convenient format for further editing. However, now teachers do not have to spend a lot of time searching for a specific chat to warn students about changes in the schedule. All this will be done on one site.
 
 **User Testimonials or Use Cases:**
-- In our course, some people often try to make a schedule themselves so that it is more convenient to use it. Moreover, many complain that the schedule is quite inconvenient in the format presented. Therefore, we decided to make a project that will make a schedule for you.
+- In our course, some people often try to make a schedule themselves so that it is more convenient to use it. Moreover, many complain that the schedule is quite inconvenient in the format presented. Therefore, we decided to make a project that will make a schedule for you. Our project will be used by students to speed up the process of finding their own schedule. We know that each student's schedule consists of contests, as well as electives. Everyone has different groups. It's difficult to look for your schedule every time among a large number of inconvenient tables. Teachers will also be able to use the service for more convenient work with schedule changes (classrooms, time pairs).
 
 
 ## **Lean Startup Questionnaire**

@@ -25,21 +25,35 @@
 ## Architecture Design
 
 1. Component Breakdown:
-	
+	![](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/architecture.png)
+
+	* Front-end and back-end are "agreeing" on an interface of REST API messages and work with each other using that.
+	* Backend trigger Airflow Directed Acyclic Graph in order to start processing the query of the user.
+	* In the Airflow DAG we are going to determine:
+	  	* Job title
+		* Roadmap for that
+		* Vacancies on the given job title
+	* Also in the Airflow DAG we are going to have a task for collecting the data; based on it we will create an internal or external statistics
 
 2. Data Management:
+	As we said, we are going to manage all our data in the Airflow DAG
 
 3. User Interface (UI) Design:
+	We have created ![a simple UI sketch](https://www.figma.com/file/fECQWJjZB6fJCJnE5aKjCo/ai-roadmap.com-(Copy)?type=design&node-id=1403-2224) in Figma on how it will look like
 
 4. Integration and APIs:
+   	* We are going to intergrate with OpenAI API for determination of job-related information.
 
-5. Scalability and Performance:
+6. Scalability and Performance:
+	* In order to make future changes more simple, we decided to use Airflow, since there it is simple to add new tasks in a graph of processes.
+	* We have booked a server in university: 8 GB RAM, 6 CPU cores; we believe that will be enough for our purposes
 
-6. Security and Privacy:
+7. Security and Privacy:
 
-7. Error Handling and Resilience:
+8. Error Handling and Resilience:
+   	* Errors will be logged in Airflow
 
-8. Deployment and DevOps:
+10. Deployment and DevOps:
 
 ## Week 2 questionnaire
 

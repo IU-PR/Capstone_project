@@ -137,4 +137,31 @@ The frontend will feature a main page with filtering options, allowing you to ch
 The Telegram bot will send you notifications regarding your request, whether you created it or responded to someone else's request. Additionally, it can serve as a convenient way to interact with the request. For example, you might receive a choice to join a driver who created a request.
 
 
+{{< hint danger >}}
+**Feedback**  
 
+**Value Proposition**
+Good, stating for the value proposition. But it would be better if you wrote the solution. It’s ok to repeat it in another section
+
+One drawback I see here, that not all travellers will welcome strangers. Beside groups that you mention have taxi driver deliver people. Maybe you should focus how can you incorporate them?
+
+Use case is a bit weak. Try to think of more uses cases your solution will be used and by whom?
+
+**Lean startup question**
+- Very weak metric . Try to use NPS, Retention rate, visitors, number of users… etc try to google metrics to measure success in building products 
+
+**AI** 
+We mean here will utilise AI applications in your solution. 
+Not what ai tools you used during development  
+
+Vision Of The Project 
+Good
+
+**Overall**
+Very good report! But try to think more about AI utilizing. 
+And explain more on the use cases 
+5/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

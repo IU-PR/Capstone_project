@@ -101,3 +101,33 @@ Firstly, we are currently suffer from problems above. If we stop, then project i
 
 > How do you plan to iterate and pivot if necessary based on user feedback?
 Architecture is modular and library handle most of basic operations (CRUD at least), so changing UI is not big deal. But any change should be meaningful. And welcome to fork)
+
+
+{{< hint danger >}}
+**Feedback**  
+**Value Proposition**
+
+How do you differentiate for mother solution? 
+Where are your uses cases, impact and user benefits? 
+When writing the report try to answer what in the template and don’t neglect them 
+
+**Lean startup question**
+
+Weak, you didn’t take any consideration while answering the questions.
+
+**AI** 
+
+Missing 
+
+
+**Vision Of The Project**
+
+Missing
+
+**Overall**
+The report is weak, and need to redo it. Beside half of the report is missing
+
+1/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

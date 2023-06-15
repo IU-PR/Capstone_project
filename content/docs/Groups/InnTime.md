@@ -157,7 +157,7 @@ How will you use AI application  to empower your solution?
 
 **Vision Of The Project**
 
-Very Good
+Very Good, but the images doesn't appear 
 
 **Overall**
 The report is good

@@ -252,3 +252,29 @@ their relations. But the core parts we are going to implement are the following:
   for rooms booking;
 - Mobile-friendly interface with focus on usability and simplicity;
 - Digital map or other way to help users find rooms location.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**Value Proposition**
+Very nice details and approach. Although we previously had an opportunity to book rooms though calendar in outlooks and it was very convenient. It will check which free rooms available at the desired time. 
+
+Also, the university does have a map to tell which room and where is it. You can contact me to sent it to you.
+
+**Lean startup question**
+- Only positive feedback? Why :) negative feedback is important also
+
+**AI** 
+I hardly see AI application in your product 
+
+Vision Of The Project 
+One very easy way to tell people where is meeting room. Is to tell them they are located next to what rooms? 
+Or maybe give description how to reach by description the road to take. 
+
+**Overall**
+Very good report! But try to think more about AI utilizing. 
+5/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

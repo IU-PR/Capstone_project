@@ -41,7 +41,17 @@ Furthermore, the increased accuracy provided by our software reduces the risk of
 At this early stage of the project, we might not have real-world examples or user testimonials due to no interaction with the customer. But there is hypothetical use case based on our understanding of the industry and the problem we’re addressing:
 "A pipeline construction company used our software to automatically recognize and catalog the markings on their pipeline components. They reported a 50% reduction in the time spent on these tasks, along with a significant decrease in recognition errors. This improvement allowed them to speed up their construction projects and reduce costs associated with errors."
 
+{{< hint danger >}}
+**Feedback**  
 
+- The problem is not clearly stated, you should give more details 
+- You say that your selling point is user friendly, where is it? And how can you make sure it is under friendly? 
+- Benefits to user needs better formulation? 
+- Yes, at this stage all your uses cases is hypothetical. And you should think what uses cases your product can be used in. Only one uses cases does not make your cases strong
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
 
 ## **Lean Startup Questionnaire**
 1. What problem or need does your software project address?
@@ -49,6 +59,16 @@ At this early stage of the project, we might not have real-world examples or use
 3. How will you validate and test your assumptions about the project?
 4. What metrics will you use to measure the success of your project?
 5. How do you plan to iterate and pivot if necessary based on user feedback?
+
+
+{{< hint danger >}}
+**Feedback**  
+
+It looks like you answer very short and quick. Hence this feedback!
+better to think through this question again and re answer.
+
+_Feedback by Moofiy_
+{{< /hint >}}
 
 ### Answers
 1. The need for rapid and accurate recognition of pipeline and metal marking based on photo images.
@@ -84,3 +104,14 @@ Our application can be divided into four main components: the frontend interface
     2. The backend server handles requests from the frontend, processes images using the trained neural network, stores results in the database, and sends results back to the frontend.
     3. The PostgreSQL database keeps track of recognition results, allowing users to view past results and providing a source of data for further improvement of the neural network.
     4. The neural network is the heart of our system, responsible for recognizing pipeline markings in the images.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+I would say your report is strong in technical aspects but weak on business aspects
+
+4/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

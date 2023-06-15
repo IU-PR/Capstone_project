@@ -3,6 +3,15 @@ weight: 1
 bookFlatSection: true
 title: "InnTime"
 ---
+# **InnTime**
+
+InтTime is a project that will help students and professors save time searching for their schedules. Just go to the website, choose your group and the entire schedule will be in front of you in real time.
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/static/InnTime/logo.svg">
+</div>
+
+
 
 # **Week #1**
 
@@ -133,3 +142,211 @@ title: "InnTime"
     **Unique technologies:**
     
     >Real-time updates and real-time editing that is completely connected with data saving are two unique features of this system. Our Schedule project is the perfect option for students who want to efficiently arrange their time because it also makes it simple to filter by groups and electives.
+
+
+# **Week #2**
+
+### **Tech Stack Selection**
+
+As a language for writing the **backend**, we will use *Python* together with Django. We use python because it allows us to implement a fairly extensible database that is easily maintained and distributed. Also, some guys from our team have already worked with this language to write any projects, so they are familiar with certain complexities of the language and framework.
+
+To implement the **frontend**, we will use a stack of *HTML, CSS, JavaScript, React*. The reason for their use was described in the report of the first week. We believe that their extensibility, reliability and maintainability will be enough for our project. We have two team members who have frontend skills.
+
+For the **design** of the project, we will use *Figma*, as it is a fairly simple and intuitive tool for the design of applications or websites. Moreover, last year at the SWP course we took a short course the Figma usage in the projects.
+
+Moreover, for controlling of a **progress** we will use *Trello*, which give us ability to make a todo list with all tasks.
+
+
+### **Architecture Design**
+
+**Component Breakdown:**
+
+In the form of a backend, we will have a database on the server with a rest framework and an admin panel. Our project will also be located on the server. We will use Docker to deploy it.
+
+In the form of a frontend, we will have a reaction. We also decided not to invent our own calendar, but to take a ready-made OpenSource project https://swipecalendar.io/ We will use cookies to store user information.
+
+Through Django's HTTP requests, we get access to the database. The front accesses the database through queries. The calendar will interact with data from the database.
+
+
+**Data Management:** 
+
+The database will store all the information about the calendar, the user, and so on. It will be accessed via HTTP requests and the admin panel. For a more convenient operation, Postgre will be used. We will contact you through the services that will be implemented on the back.
+
+
+**User Interface (UI) Design:**
+
+We are ready to provide an initial version of our design. The design may change over the course of the project.
+
+- *The main page*
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/static/InnTime/Main.png">
+</div>
+
+- *Page with courses and electives*
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/static/InnTime/schedule.png">
+</div>
+
+- *The preview of the course*
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/static/InnTime/preview.png">
+</div>
+
+- *The full schedule*
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/static/InnTime/calendar.png">
+</div>
+
+- *404 error*
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/static/InnTime/Error.png">
+</div>
+
+
+**Integration and APIs:**
+
+We will use third-party APIs to access the database (Django), as well as a third-party API https://swipecalendar.io / for more convenient work with the calendar.
+
+
+**Scalability and Performance:** 
+
+We won't store too much data on our server. But the architecture of our project will be designed so that we can easily move to another server to improve the performance of our tool. As for extensibility. Since we will think over the entire architecture of the project, then it will be possible to embed something new into our project with ease.
+
+
+**Security and Privacy:**
+ 
+If we concern security and privacy, implementing authorization and authorization tokens provides a robust shield for the project. By leveraging these mechanisms, we can establish a fortified fortress around your system's sensitive resources. The authorization ensures that only authenticated users with the appropriate privileges can access protected functionalities or data, effectively thwarting unauthorized access attempts. With authorization tokens, you add an extra layer of protection by securely transmitting and storing user credentials. These tokens, encrypted and signed, contain specific user permissions and expiration details, serving as digital passports to access authorized areas.
+
+
+**Error Handling and Resilience:** 
+
+For a better terror handling, we will keep logs with errors. And also handle possible program exceptions. For greater reliability of our project, we will also use unit tests.
+
+
+**Deployment and DevOps:** 
+
+The deployment will be due to the deployment of the docker container on the server.
+
+
+### **Week 2 questionnaire**
+- We do not use any additional project-based books in the project.
+
+ 
+**Mentorship Support**
+
+Yes, we considered the possibility of finding a mentor. At the moment we are considering several people. An experienced mentor could help us allocate time more efficiently to complete tasks, as well as better manage tasks between the team.
+
+
+**Exploring Alternative Resources**
+
+Django Documentation, Yandex internship, Ozon courses on backend development, [YouTube course of the React Tutorial](https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d&ab_channel=TheNetNinja)
+
+
+**Identifying Knowledge Gaps**
+
+Our knowledge of Django at the moment does not allow us to sit down and write a project, but it is a convenient interface for interacting with the database, and adiministration. With the help of additional materials and documentation, we will be able to understand this framework in more detail. We also met with an expert in the field of Django and clarified several questions from him regarding working with this framework (the expert wished to remain incognito). Of the problems still, we will need to read the documentation of a third-party API for the calendar.
+
+
+**Engaging with the Tech Community**
+
+We had a meeting with Master-Degree students of our university Anton Antonov. We showed him the idea of our project and told him about the technology stack and the key features of our project.
+He gave us a couple of tips on materials that are better to use for writing. I advised using Django instead of Flask. And also suggested adding a feature to the project that will show overlays in the schedule.
+
+
+**Learning Objectives**
+
+Of the current tasks for us, this is to learn Django, deal with the reaction, and understand whether we will parse the schedule or make it by hand. And also to understand how to work correctly and conveniently with a third-party API for the calendar.
+
+
+**Sharing Knowledge with Peers**
+
+Of course, we held at least two major meetings a week to discuss issues related to the project. We have also already held a knowledge exchange meeting with each other in order to better understand who can do this or that task. However, we plan to hold at least one more meeting with the project participants so that the teammates could share their knowledge about the organization of the project, building architecture and experience at code writing.
+
+
+**Leveraging of AI**
+
+As a use in our project, we will do the following: small pieces of our project will be generated using one of the existing AI.
+
+
+### **Tech Stack and Team Allocation**
+- Nikita - reports + product manager + textwriter + developer
+- Evgeny is the architecture manager of the entire project + techlid
+- Insaf - Data processing and markup specialist + tester
+- Vladimir - API development
+- Boris - Database design + devops
+- Ivan - design + development of the frontend part
+- Makar is an expert on the utilization of AI in the development process. Specialist in working with external resources
+
+Our project will be implemented as follows:
+
+The architecture of our project will be supported by Eugene. Data parsing, their entry into the database will be performed by Insaf. The database will work through the API, which Vladimir will work on. The database itself will be redesigned by Boris. The frontend component is written by Ivan, which will connect via HTTP requests to the backend. And Makar will help us recycle AI
+
+***Our project will be implemented as follows:***
+The architecture of our project will be supported by Eugene. Data parsing, and their entry into the database will be performed by Insaf. The database will work through the API, which Vladimir will work on. The database itself will be redesigned by Boris. The frontend component is written by Ivan, which will connect via HTTP requests to the backend. And Makar will help us recycle AI
+
+
+### **Report**
+
+This week, our team made significant progress in the project, focusing on the selection of the tech stack, architecture design, and team allocation. Here is a summary of our accomplishments, challenges faced, and the steps we took to overcome them:
+
+### ***Accomplishments:***
+
+Tech Stack Selection: We finalized the tech stack for our project. For the backend, we chose Python with Django due to its extensibility, maintainability, and familiarity among our team members. For the frontend, we opted for HTML, CSS, JavaScript, and React, considering their reliability and maintainability. We also decided to use Figma for design and Trello for progress tracking.
+
+**Architecture Design:** We performed a comprehensive breakdown of the project components. The backend will consist of a database, a REST framework, and an admin panel, deployed using Docker. The frontend will be built with React, and we decided to integrate a ready-made open-source calendar called "swipecalendar.io" for convenience. We will use Django's HTTP requests to access the database, while the calendar component will interact with the data.
+
+**Data Management:** We determined that the database will store all calendar and user-related information. To ensure convenient operations, we will utilize PostgreSQL and communicate with the database through backend services implemented with Django.
+
+**User Interface (UI) Design:** We have created an initial version of the UI design using Figma. Although the design may evolve throughout the project, we have a solid starting point.
+
+**Integration and APIs:** We identified the need to utilize third-party APIs for accessing the Django database. Additionally, we will integrate the "swipecalendar.io" API to enhance the calendar functionality.
+
+### ***Challenges Faced and Solutions:***
+
+**Knowledge Gaps:** We acknowledged that our current knowledge of Django is not sufficient to start writing the project. To address this, we plan to delve into additional materials, documentation, and leverage the expertise of an anonymous Django expert. We also anticipate the need to study the documentation of the third-party calendar API.
+
+**Mentorship Support:** We recognized the value of having a mentor to guide us and optimize task allocation and time management. We are currently exploring potential mentors who can provide us with guidance throughout the project.
+
+**Engaging with the Tech Community:** We encountered the challenge of finding the most relevant resources to enhance our skills. We consulted with Master's Degree student Anton Antonov, who provided valuable tips on using Django instead of Flask and suggested adding overlay features to the project. We will explore these recommendations further.
+
+### ***Lessons Learned:***
+
+**Effective Team Collaboration:** Holding regular meetings and knowledge exchange sessions proved crucial for effective collaboration among team members. These interactions facilitated a better understanding of each member's strengths, project organization, and architecture.
+
+**Resource Exploration:** Exploring alternative resources beyond the core project requirements, such as Django documentation, Yandex internships, Ozon courses, and YouTube tutorials, can provide valuable insights and knowledge for the team.
+
+**Continuous Learning:** Adapting to new technologies and frameworks, such as Django and React, requires continuous learning and the willingness to explore additional materials and external expertise.
+
+### ***Team Allocation:***
+
+To ensure the smooth execution of the project, we allocated specific roles and responsibilities within our team
+
+**Learning Objectives:** Our immediate tasks include learning Django, understanding React, and determining whether to parse the schedule or create it manually. We will also focus on effectively working with the third-party calendar API.
+
+**Sharing Knowledge with Peers:** We plan to organize a meeting with all project participants to foster knowledge sharing regarding project organization, architecture, and coding experiences.
+
+**Leveraging AI:** We intend to utilize AI for generating small components of our project, leveraging the expertise of Makar, who specializes in working with external resources.
+
+Overall, we are satisfied with our progress during the second week, and we look forward to further advancements in the upcoming weeks.
+
+
+### ***Team Collaboration and Meetings:***
+
+Our team understands the importance of effective collaboration and communication to ensure the success of the project. Throughout the second week, we engaged in regular meetings and discussions to align our goals, exchange knowledge, and make informed decisions. Here are the details of our team collaboration:
+
+**Meeting Frequency:** We held at least two major meetings each week to discuss project-related matters. These meetings allowed us to synchronize our progress, address any challenges or questions, and plan the next steps.
+
+**Meeting Format:** Our meetings were conducted both in-person and virtually, depending on the availability and location of team members. We utilized collaboration tools like video conferencing platforms to facilitate virtual meetings.
+
+**Agenda and Topics:** Each meeting had a pre-determined agenda to ensure a structured and productive discussion. The topics covered various aspects of the project, including:
+
+**Progress updates:** Each team member shared their accomplishments, challenges, and any assistance required.
+**Task allocation:** We discussed the distribution of tasks and responsibilities based on individual strengths and expertise.
+**Technical discussions:** We deliberated on the technical aspects of the project, such as the selection of the tech stack, architecture design, and integration with third-party APIs.
+**Knowledge sharing:** We encouraged team members to share their learnings, insights, and resources related to the project, which fostered a collaborative learning environment.
+**Problem-solving:** We collectively addressed any challenges or roadblocks encountered during the week, brainstorming solutions and seeking input from team members with relevant expertise.
+**Communication Channels:** In addition to our regular meetings, we maintained constant communication through various channels. We utilized instant messaging platforms, such as Slack, to exchange quick updates, seek clarifications, and share relevant resources. This ensured that our team remained connected and could promptly address any urgent matters.
+
+**Collaborative Decision Making:** Decisions related to the project were made through a collaborative process. We encouraged open discussions, actively listened to each other's viewpoints, and considered the expertise and insights of team members. This collaborative decision-making approach helped us in selecting the tech stack, architecture design, and other key aspects of the project.
+
+By fostering a culture of open communication, knowledge sharing, and collaborative decision-making, our team maximized the collective expertise and ensured that everyone was aligned towards achieving our project goals.

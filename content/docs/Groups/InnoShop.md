@@ -107,3 +107,37 @@ While developing and deploying the project, we anticipate several potential chal
 Our project's core functionalities revolve around seamless e-commerce, service booking, and project collaboration. The purchasing system ensures a hassle-free experience for students to avail services like room cleaning or accommodation discounts. The project collaboration module enables students to showcase their skills and expertise, allowing the university to hire them for real projects, fostering professional growth and industry experience.
 
 One unique aspect of our solution is not only solving the current problem but on top of that providing the students an opportunity to showcase their talent to the university board and gain some real industry experience that is very important for students to have a career in the STEM field.
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Value Proposition**
+
+Benefits to users you provided I don’t think users will care for them maybe the first one but you didn’t specify how easy browsing and purchasing  will you make it.
+
+**Lean startup question**
+
+Good
+
+Not real uses cases. 
+Use case is how users will use your app. And by whom
+
+**AI** 
+
+Very good
+
+
+Vision Of The Project 
+Very Good
+
+**Overall**
+
+The report is good
+But you need to think more in the value proposition section, provide more explanation to use cases and how will you differ form other solutions
+
+4.5/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

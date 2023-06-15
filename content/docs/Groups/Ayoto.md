@@ -42,7 +42,7 @@ Our platform revolutionizes the healthcare experience by providing a comprehensi
 5- Improved Patient Experience: With streamlined processes and personalized recommendations, our platform enhances overall patient satisfaction, leading to better healthcare outcomes.
 
 ## Differentiation from Existing Solutions
-1- AI-Driven Preliminary Diagnosis: By harnessing the power of artificial intelligence (AI), our platform provides users with a preliminary diagnosis for their symptoms. The utilization of advanced algorithms and machine learning techniques ensures a more accurate and efficient assessment, surpassing traditional symptom checkers.
+1- AI-Driven Preliminary Diagnosis: By harnessing the power of artificial intelligence (AI), our platform provides users with a preliminary diagnosis for their symptoms. The utilization of advanced algorithms and machine learning techniques ensures a more accurate and efficient assessment.
 
 2- Personalized Doctor Matching: Building upon the preliminary diagnosis, our platform goes beyond generic doctor directories. We take into account the specific condition identified by the AI analysis and match users with doctors who specialize in the relevant field. This personalized approach enhances the likelihood of successful treatment outcomes and fosters a stronger patient-doctor connection.
 
@@ -54,9 +54,7 @@ By empowering individuals with accurate diagnoses and personalized doctor recomm
 ## User Testimonials or Use Cases
 1- Self-Diagnosis: Users experiencing mild symptoms can utilize the platform to conduct a preliminary self-diagnosis. By inputting their symptoms and engaging in the guided question-and-answer process, they can receive insights and initial information about their condition.
 
-2- Symptom Validation: Individuals who have received a diagnosis from a healthcare professional can use the platform to validate their symptoms. This can help them gain a better understanding of their condition and reinforce the accuracy of their initial diagnosis.
-
-3- Access to Specialized Doctors: Patients with specific medical conditions or rare diseases can benefit from the platform's personalized doctor recommendations. By considering the preliminary diagnosis and the user's location, the platform connects them with doctors who specialize in their specific condition, ensuring they receive the most relevant and appropriate care.
+2- Access to Specialized Doctors: Patients with specific medical conditions or rare diseases can benefit from the platform's personalized doctor recommendations. By considering the preliminary diagnosis and the user's location, the platform connects them with doctors who specialize in their specific condition, ensuring they receive the most relevant and appropriate care.
 
 
 ## Lean Startup Questionnaire
@@ -100,7 +98,7 @@ Our project aims to revolutionize the healthcare industry by providing an intell
 * Backend: Python, Java, LUA
 * Database: PostgreSQL
 * Mobile: Flutter
-* AI: Infermedica Model
+* AI: NLP, Decision trees
 
 ### Anticipation Future Problems
 1- Data Privacy and Security: We anticipate the need for robust security measures to protect user data and comply with privacy regulations. Implementing encryption, secure data storage, and strict access controls will be essential.

@@ -1,10 +1,10 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "AI Career Guider"
+title: "AI Career Guide"
 ---
 
-# **Project: AI Career Guider**
+# **Project: AI Career Guide**
 
 # **Week 1**
 # **Introduction**

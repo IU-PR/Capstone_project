@@ -165,3 +165,120 @@ And explain more on the use cases
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+# **Week 2 - Choosing the Tech Stack, Designing the Architecture**
+
+
+## **Tech Stack Resources**
+Currently, we are not utilizing any project-based books for the implementation of our project. However, we have discovered a short book that caters specifically to beginner technical writers, aiming to improve the quality of our reports. The book is available at the following [link.](https://www.e-buc.com/portades/9788498803488_L33_23.pdf)
+
+
+## **Mentorship Support**
+Currently, we do not have an active mentor involved in our project. However, we are open to seeking a mentor in the later stages of our project. We believe that having a mentor would contribute to the success of our project by providing valuable guidance, experience, and insights. We understand that finding a mentor is our responsibility, and we are committed to actively seeking one to enhance our project's outcomes.
+
+## **Exploring Alternative Resources**
+- Tour of Go: We have utilized the Tour of Go, an interactive tutorial, to learn the Go programming language. It has been instrumental in building a strong foundation and understanding the core concepts of Go.
+- Free Code Camp YouTube videos: We have found the Free Code Camp YouTube channel's videos to be valuable resources. These videos provide practical explanations and demonstrations that have helped us fill knowledge gaps and deepen our understanding of various aspects of our tech stack.
+- Documentation: We have extensively relied on the official documentation of our tech stack. The documentation has been an invaluable resource, providing comprehensive explanations, usage examples, and references for specific functionalities, APIs, and best practices.
+
+## **Identifying Knowledge Gaps**
+- Report Writing:
+    In order to address the importance of report writing in representing our progress to Capstone project instructors, we have implemented the following strategies:
+    - Utilizing AI models to compensate for the lack of experience in creating effective reports.
+    - Assigning an entry-level book, as mentioned earlier, to guide us in improving our report writing skills.
+    - Seeking informative feedback from instructors to refine and enhance our report-writing process.
+- Golang:
+    To address the issue of a team member in the BackEnd team lacking experience with Golang, we have taken the following steps:
+    - Utilizing the "A Tour of Go" project to familiarize the team member with the syntax and fundamentals of Golang.
+    - Leveraging Free Code Camp videos to further deepen our understanding and knowledge of Golang.
+    - Assigning a team member who is already familiar with Golang to provide support, answer questions, and offer assistance as needed.
+    - Adjusting the workload to ensure that the team member can work on the code after their Backend teammate completes the initial skeleton. 
+
+## **Engaging with the Tech Community**
+While we understand the importance of engaging with the broader tech community, we have not actively sought guidance or learned from experienced professionals in our tech stack. At the current state of the project, we have not found it necessary to engage extensively with the tech community. However, we do have means to engage experts through professional networks if critical tech stack problems arise that require external expertise. We remain open to exploring online forums, groups, and attending local meetups in Kazan or Innopolis as the project progresses, should the need arise for further engagement with the tech community.
+
+## **Learning Objectives**
+Some of the problems we encountered and the methods we employed to resolve them were detailed in **Identifying Knowledge Gaps** section. In addition to those challenges, we are confident that we possess the necessary competences to commence development at this stage. The specific plan for our development process will be elaborated in the subsequent sections.
+
+## **Sharing Knowledge with Peers**
+We had two team meetings, and the reports from those meetings are provided below. Additionally, we maintained frequent communication within our small teams of two, allowing for detailed collaboration and knowledge sharing.
+
+## **How have you leveraged AI to compensate for any lacking expertise in your tech stack?** 
+Yes, we leveraged AI extensively. During the course of this week, we made use of AI and open-source solutions to test multiple implementations of different parts of our project. This allowed us to explore a range of potential solutions and evaluate their effectiveness. The integration of AI was particularly valuable in facilitating the evaluation and comparison process, empowering us to make well-informed decisions and select the most suitable tools for our project.
+
+## **Weekly Progress Report**
+
+During week 2, we as a team made 2 team meetings: 
+
+### **Team meeting 1**
+During our team meeting, we made the decision to divide into smaller teams of two people, each responsible for a specific part of our project. This approach proved to be highly efficient in terms of communication and knowledge sharing. By working closely with a designated team member, we were able to focus on our assigned tasks and share our expertise more effectively. Any questions that arose during the meeting were thoroughly discussed and addressed. In cases where additional questions emerged between meetings, we directed them to our team leader, who promptly resolved them. This division of responsibilities and streamlined communication process has contributed to our project's progress and overall productivity.
+
+#### Backend team (DB included)
+- Ikram Kamat i.kamat@innopolis.university
+- Alexander Kurdyukov a.kurdyukov@innopolis.university
+
+#### Frontend team
+- Dmitry Bannikov d.bannikov@innopolis.university
+- Azamat Alkuat a.alkuat@innopolis.university
+
+#### Telegram bot team
+- Dmitry Bannikov d.bannikov@innopolis.university
+- Ayaz Safin ay.safin@innopolis.university
+
+### **Team meeting 2**
+During our second meeting, we had a productive discussion where we shared and presented the work accomplished by each team between the meetings. We also conducted a feedback session, which highlighted the effectiveness of working in small teams during this early stage of project development.
+
+However, we discovered that there were some misconceptions regarding the overall vision of the project during our discussions. Fortunately, we were able to address and resolve these misconceptions.
+
+The main outcomes of the meeting are as follows:
+
+- We synchronized and clarified the vision of the project, ensuring that everyone has a shared understanding of the project's structure.
+- We decided on the specific tech stack to be used for each part of the project
+- We created a schematic representation of our project, providing a visual overview of its structure and components.
+- We defined the objectives and goals for sprint 1, setting clear targets to be achieved within the designated timeframe.
+
+#### Backend team (DB included)
+Go + Gin, Postgres
+
+#### Frontend team
+JS + React
+
+#### Telegram bot team
+Python + Flask
+
+#### Schematic architecture representation
+![](/InnoCoTravel/week2_architecture.png)
+
+## **Sprint 1**
+### **Objectives**
+The main objective of sprint 1 is to deploy all parts of our application, including the functionality we discussed, to the server. Additionally, our goal is to ensure that the different parts of the app communicate correctly. By achieving this objective, we aim to have a functional and integrated system that demonstrates the seamless interaction between the various components. This milestone is crucial as it allows us to test and validate the core functionality of our application, ensuring that it operates as intended and paves the way for further development and refinement in subsequent sprints.
+### **Timeframe**
+16.06 - 22.06 
+
+### **Functionality**
+#### Backend team (DB included)
+- Implement basic CRUD API for trips (creating + retrieval)
+- Save and retrieve data from DB
+- Implement [Telegram Webapp authorization verification](https://core.telegram.org/bots/webapps#validating-data-received-via-the-web-app) + token sytem (for backend access)
+- Save basic working version as container to DockerHub registry
+
+#### Frontend team
+- Implement basic filter bar for choosing time and filtering through trips
+- Visualize trips on the website
+- Connect to backend (retrieve and send data)
+- Setup Github Actions workflow for automatic Github Pages deployment
+
+
+
+#### Telegram bot team
+- Regsiter a Telegram bot that redirects the user to our frontend (rendered as [WebApp](https://core.telegram.org/bots/webapps#launching-web-apps-from-the-menu-button)) 
+- Implement basic proof-of-concept Flask server that accepts requests from both Telegram servers (using [webhooks](https://core.telegram.org/bots/webhooks)) and our backend (which will be deployed on the same machine in Docker container on the same Docker-compose network)
+- Save basic working version as container to DockerHub registry
+
+
+#### DevOps
+- Setup Docker-compose (containers+network) with references to our DockerHub images
+- Utilize rented cloud server to constantly poll DockerHub registry for new versions of our containers: update and restart the whole docker-compose network whenever needed
+
+### **End?** 
+We have scheduled a team meeting on 22.06 to discuss and assess the outcomes of Sprint 1. During this meeting, we will review the work that has been completed and evaluate its progress. Following the assessment, we will engage in discussions regarding the further development of our project and determine the objectives for Sprint 2. 

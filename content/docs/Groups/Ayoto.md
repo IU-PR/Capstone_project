@@ -1,4 +1,4 @@
-# Project Report
+# Week 1
 
 ## Team Members
 
@@ -106,3 +106,58 @@ Our project aims to revolutionize the healthcare industry by providing an intell
 2- Integration with External Systems: Ensuring seamless integration with external databases, medical resources, and location-based services may pose technical challenges. We will proactively address compatibility issues and potential API limitations.
 
 3- Scalability and Performance: As the user base grows, handling increased traffic and ensuring real-time response will require careful consideration. We will plan for scalability and performance optimization to maintain a smooth user experience.
+
+
+# Week 2 Report
+
+## Architecture Design
+
+### Component Breakdown
+1. AI Diagnosis Module: Utilizes advanced AI algorithms to analyze symptoms and provide preliminary diagnoses.
+2. Doctor Recommendation Engine: Matches users with suitable doctors.
+3. User Profile Management: We keep track of user profiles and their medical history.
+
+### Data Management
+The platform will employ a relational database management system. We will use PostgreSQL to store user profiles, symptom data, preliminary diagnoses, and doctor information.
+
+### User Interface(UI) Design:
+We have agreed on the main design for our website and mobile application. The designs are available on figma and can be accessed through the following links:
+* [Landing Page](https://www.figma.com/file/vfig3GqohPdEdZ9T5iobsG/Untitled?type=design&node-id=0%3A1&t=UuhiSCxQt9IUuGUc-1)
+* [Mobile Application](https://www.figma.com/file/yuFRxpkTyESOVsHQonAHRg/Untitled?type=design&node-id=0%3A1&t=DSkRwfnDLBPvE8Du-1)
+
+
+### Integration and APIs
+We will be using the following APIs:
+* Symptom Checker API
+* Auth0 API
+
+### Scalability & Performance
+Our platform will utilize Kubernetes (k8s) and Nginx to ensure scalability and optimal performance. Kubernetes allows for easy scaling by dynamically allocating resources based on demand, while Nginx serves as the load balancer, distributing traffic across multiple instances of the application. These technologies work together to handle increased user loads and deliver a high-performance experience.
+
+### Security and Privacy
+The platform will incorporate robust security measures to protect user data and ensure privacy. This includes implementing authentication and authorization mechanisms, encrypting sensitive data at rest and in transit, and adhering to relevant security standards and best practices.
+
+### Error Handling and Resilience
+We will employ unit tests for comprehensive code validation and utilize Grafana and Prometheus for effective monitoring and alerting. This approach ensures robust error handling, proactive issue identification, and enhances application resilience.
+
+### Deployment and DevOps
+We will implement CI/CD (Continuous Integration/Continuous Deployment) using Travis and Jenkins. These tools will automate the build, testing, and deployment process, ensuring efficient software delivery.
+
+
+## Questionnaire
+* We are not utilizing project-based books
+* We currently do not have a mentor
+* We expanded our understanding for the technical stack mainly by researching and reading articles online
+* We do not feel that we are facing knowledge gaps at the moment
+* We organized several meeting for for discussion and knowledge sharing
+* We utilized AI by using large language models for understanding some technical aspects that were not clear to us
+
+## Challenges
+We couldn't find mentors to guide us in developing the project.
+
+## Accomplishments
+* We have completed the architecture design for our platform
+* We have completed the UI design for our platform
+* We created a landing page
+* We found a potential investor for our startup
+* We communicated with one hospital to partner with us

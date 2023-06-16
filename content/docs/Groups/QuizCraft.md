@@ -1,7 +1,7 @@
 # **QuizCraft** 
 Good day! We are the team of "QuizCraft" and we can help you test your knowledge in a specific area.
 
-![alt text](/QuizCraft/QuizCraft.jpg)
+![QuizCraftLogo](/QuizCraft/QuizCraft.jpg)
 
 **QuizCraft** is a website where you can find plenty of quizes on different topics or create a new one from your text material. You can pass a quiz to check your knowledge, become smarter and compete with others.
 
@@ -176,7 +176,14 @@ In general, we have 4 major modules: REST server, database, language processing 
 The main data storage for our project is PostgreSQL. The data workflow will be the following: 1. (authorization) During the registration process the user will send login and password, the password will be **hashed**, and then both will be stored in a database; 2. The user sends data for quiz generation to the server, then data is stored in the database and redirected to the ML model, and then the model response is sent back to the user. The backend server provides endpoints to access the data or calls the ml-side with the necessary information.
 
 ### **User Interface (UI) Design**
-When designing, we took into account the following: the time to action (should be as small as possible), minimalism and simplicity, and light colors. When a user enters the website,he or she can immediately explore the existing quizzes or start creating of a new one. The palette is light-blue. The user should observe only a few things: a target page, a menu, and a header bar.
+When designing, we took into account the following: the time to action (should be as small as possible), minimalism, simplicity, and light colors. When a user enters the website, he or she can immediately explore the existing quizzes or start creating of a new one. We picked the blue palette. The user should observe only a few things: a target page, a menu, and a header bar. 
+
+Explore page
+![explore page](/QuizCraft/website/explore.jpg)
+Creation page
+![creation page](/QuizCraft/website/create.jpg)
+Search page
+![search page](/QuizCraft/website/search.jpg)
 
 ### **Integration and APIs**
 We may exploit OpenAI API to work with their language models. Additionally, we want to use oauth2 servers for fast authorization.

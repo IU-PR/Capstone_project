@@ -68,3 +68,37 @@ from a photo. It analyzes the shape, color, and texture of the mushroom to provi
 database provides information about different types of mushrooms, including their characteristics and toxicity levels.
 Our app is unique because it provides an accurate and reliable identification of mushrooms even in offline form, which
 is not available in existing alternatives.
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Value Proposition**
+
+Good stating for the problem. But 
+> Our app stands out from competing solutions because
+
+How did you know that you stand out? Did you make any market research?
+
+Uses cases stated are not correct. You need to give details how your product will be used and by whom exactly.
+
+**Lean startup question**
+
+The whole section very short, and you didn’t spent much time considering answering.
+How will you act on the feedback, how will you iterate on it?
+
+**AI** 
+
+What AI algorithm will you use?
+
+**Vision Of The Project**
+Missing Schematic Drawings
+
+**Overall**
+
+The report is weak. And I think it was made very fast. Without much consideration.
+
+2.5/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

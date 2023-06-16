@@ -113,3 +113,108 @@ To further enhance your project, consider expanding on the specific features and
 
 Will it be a language model with a dedicated persona? Which language model you want to use? In general, I think you can contact Vladimir Ivanov, as far as I know, he works on a similar topic
 {{< /hint >}}
+
+# **Week #2**
+
+{{< hint danger >}}
+## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
+
+### **Tech Stack Selection**
+
+- Tech Stack:
+For now, we decided to use these stacks/frameworks for our project:
+    - Frontend: 
+        - React, react-dom, Redux, Typescript - frameworks that our team is the most familiar with
+    - Backend: 
+        - FastAPI - simle and asynchronic, has a swagger and can integrate with pydantic
+        - PostgreSQL - because our model have a clear and simple structure 
+        - pydantic - fast and supports type annotation
+        - sqlMolde - new ORM that support type annotation, with total compatibility with pydantic and sqlAlchemy
+    - ML: 
+        - Python - and most of ML related libraries
+        - Pytorch - because it is extremely popular and powerful and  our machine learning engineers are well known with this framework
+
+### **Architecture Design**
+
+1. **Component Breakdown**: There're three major components that will form our software solution: frontend, backend and ML. As can be expected, 
+    - Frontend interacts with the user;
+    - Backend serves as a bridge between frontend and ML, focuses on API and back-end logic;
+    - ML performs three main functions: 
+        - Converts the questions and feedback of an interviewer text-to-speech;
+        - Converts the answers of the user speech-to-text;
+        - Using NLP model will rate the correctness of user's answer and highlight the errors of the user.
+
+2. **Data Management**: Data will be stored in a postrgres Database. There the questions, answers and a REFERENCE to audio files(questions and answers) will be stored.
+
+3. **User Interface (UI) Design**: Our UI will be a simple chat-looking page with additional feature to write and compile user's code. Below you can see how it will look like.
+![webpage_ex1](/MockMentor/webpage_ex1.jpg)
+![webpage_ex2](/MockMentor/webpage_ex2.jpg)
+
+4. **Integration and APIs**: RestAPI will be used for communication between frontend and backend. Backend and ML service will communicate through grpc. 
+
+5. **Scalability and Performance**: Our project is built on microsystems, therefore it will be easily scalable. For example, we can just increase the number of instances of ML service. As each part of the project is done separately, we can increase the power of each part distinctively.
+
+6. **Security and Privacy**: Right now, there is no security measures. There's no authentication, authorization and encryption. In future we are planning to add all of this and use jwt token.
+
+7. **Error Handling and Resilience**: For now, there is no monetoring system but in future we are planning to add sentry to monitor the errors. All important events in the system will be logged.
+
+8. **Deployment and DevOps**: Right now, there is now deployment and DevOps. In future, we are planning to add CI/CD and deploy via Kubernetes.
+
+## **Week 2 questionnaire:**  
+
+1) Tech Stack Resources: Are you utilizing any **project-based books** that specifically cover your tech stack and help you build your project? If yes, please provide the names of these books (name at least 3). How do you anticipate utilizing these materials to enhance your knowledge and expertise in your tech stack?
+Right now, we do not utilize any project-based books.
+
+2) Mentorship Support: Do you currently have a mentor actively involved in your project? If yes, kindly share the name of your mentor and explain how their guidance has positively influenced your project. If you don't have a mentor yet, have you considered seeking one? How do you believe having a mentor could contribute to the success of your project? Remember, having an experienced mentor that can guide you and your team is your responsibility.
+Right now, we do not feel a need in a mentor. However, if problems will arise, our team is planning on contacting professor Vladimir Ivanov for help as a mentor.
+
+3) Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources
+- Design: To create a decent 'material' style design, we used sites to browse palettes and find appropriate colors. Mainly, Design team followed the guide on https://m3.material.io/. Our designer also mastered the basics of working with Figma, including how to make prototypes and animations. To complete this task, they watched several videos on YouTube: https://www.youtube.com/watch?v=gofICZUqltY&t=155s and https://www.youtube.com/watch?v=20IfkyJigKg.
+- Frontend: For learning typescript and react frontend team watched videos on UlbiTV YouTube channel and read the official documentation. 
+- Backend: Stepik and hexplet is where our Backend learned their stack from. Official documentantion of frameworks and libraries also helped
+- ML: ML team used stepik course(https://stepik.org/course/92488/promo?search=2283969634) for a general understanding of neural networks and for working with audio. Also this course(https://stepik.org/course/54098/syllabus) was used understanding what is NLP and how it works. Our ML team used this documentation (https://huggingface.co/) to understand how transformers work.
+
+4) Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with **knowledge gaps**
+- Design: For now, our designer has no problems with working on project. However, if there will be any technical issues he is planning to use video guides and courses.
+- Frontend: Our team is planning to read the documentation, watch video guides and if error occurs - find answers via StackOverflow
+- Backend: Our backend team is struggling with working in a cloud. To deal with it, they are planning to pass the Yandex course about using their cloud service.
+- ML: There is need to deepen the understanding of some models and embeddings. To deal with this our team is planning to read some articles and documentation (https://huggingface.co/docs/transformers/model_doc/roberta
+https://www.kdnuggets.com/2021/11/guide-word-embedding-techniques-nlp.html
+https://medium.com/nlplanet/two-minutes-nlp-11-word-embeddings-models-you-should-know-a0581763b9a9)
+
+5) Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack? This could involve participating in online forums and groups (telegram, discord or any other platform), attending local meetups (Kazan, Innopolis)? Do you have means to engage experts into critical tech stack problems through professional networks?
+Not really, right now, we do not face any problems and see no need in such guidance.
+
+6) Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?
+There is a list of learning objectives and things that our team learned this week.
+- Design: How to design websites and use Figma for designing them. Also, basic animation skills in Figma
+- Front: How to work with components in react, how to make routing in react 18. 
+- ML: Our ML team have learnt how to work with TTS library (https://github.com/coqui-ai/TTS) and how to convert speech to text using different approaches. Now we want to learn about semantic comparison of 2 texts. (https://towardsdatascience.com/semantic-textual-similarity-83b3ca4a840e) (https://huggingface.co/tasks/sentence-similarity)
+- Backend: For now, backend team is building an architecture of our project and making and decomposing tasks
+
+7) Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates? Have you organized any knowledge-sharing sessions or discussions to facilitate the exchange of insights and experiences related to your tech stack?
+Yes, our team organizes several meetings throughout the week to discuss both objectives and results of each week and sessions to discuss every stack in particular.
+
+8) How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?
+Right now, we do not use any ChatGPT-like products. However, we use several AI libraries and open source materials that might help in our project including text-to-speech, speech-to-text and others.
+
+### **Tech Stack and Team Allocation**
+
+As mentioned above, our development process is divided into three major components: ML, frontend and backend. To ensure efficiency and responsibilities of each team member we host at least 2 online sessions each week to peer review each member of our team. Here are responsibilities of each member:
+- Elaman Turekulov - team lead and tech writer. Writes reports, hosts meetings, also functions as a PM asking every member of the team about their weekly goals, tasks and the result of work of each person in the end of each week.
+- Dmitry Naumov - Data Scientist, right now works on text-to-speech, later is going to work on NLP model with Albert Khazipov
+- Albert Khazipov - Data Scientist, right now works on speech-to-text, later is going to work on NLP model with Dmitry Naumov
+- Albert Avkhadeev - backend developer and PM
+- Ivan Orekhov - frontend developer. Develops the frontend for the whole project.
+- Oleg Hlopcev - Data Engineer and designer. Developed the design of our website through figma.com. Responsible for writing a PostgreSQL database. 
+- Maksim Oinoshev - backend developer.
+---
+
+### **Weekly Progress Report**
+
+Below you can see the tasks that we finished this week:
+
+ML - Discussed the process of synchronising with backend. Rough version of text-to-speech and speech-to-text model is done.
+Frontend - made the design for our website and wrote the frontend in Typescript from design made. 
+Backend - Chose the architecture(domen driving design) and got familiarized with documentation of libraries and frameworks. Formed and broke down the tasks.
+Design - made the design for the website, right now the logo is being made

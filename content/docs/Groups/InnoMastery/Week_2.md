@@ -11,11 +11,11 @@ title: "Week #2"
 1. **Component Breakdown:** \
 ![Architecture](/InnoMastery/architecture.svg) \
 According to the diagram above, we have 5 major components: Course platform’s frontend, Course platform’s backend, Coder platform, Database, and AI chatbot. Their functionality is as follows:
-The frontend provides a user-friendly interface for students of our courses (uses backend to build the UI, and our AI chatbot to help participants throughout the course)
-The backend connects all components together (fetches the necessary data from the database, provides this data to frontend, acts as an OpenID provider for Coder)
-Coder provides an online IDE and access to our grader for practical tasks (the grader is not part of our current project).
-The database reliably stores and provides access to data.
-The AI-powered chatbot suggests further reading and helps with task solving based on the current user progress.
+    - The frontend provides a user-friendly interface for students of our courses (uses backend to build the UI, and our AI chatbot to help participants throughout the course)
+    - The backend connects all components together (fetches the necessary data from the database, provides this data to frontend, acts as an OpenID provider for Coder)
+    - Coder provides an online IDE and access to our grader for practical tasks (the grader is not part of our current project).
+    - The database reliably stores and provides access to data.
+    - The AI-powered chatbot suggests further reading and helps with task solving based on the current user progress.
 
 2. **Data Management:** \
 We are going to use PostgreSQL as our main database to ensure high data security as well as scalability of our project. In Python, we use SLQAlchemy as an ORM.

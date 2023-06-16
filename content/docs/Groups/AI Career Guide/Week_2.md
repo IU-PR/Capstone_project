@@ -39,7 +39,7 @@
 	As we said, we are going to manage all our data in the Airflow DAG
 
 3. User Interface (UI) Design:
-	We have created ![a simple UI sketch](https://www.figma.com/file/fECQWJjZB6fJCJnE5aKjCo/ai-roadmap.com-(Copy)?type=design&node-id=1403-2224) in Figma on how it will look like
+	We have created [a simple UI sketch](https://www.figma.com/file/fECQWJjZB6fJCJnE5aKjCo/ai-roadmap.com-(Copy)?type=design&node-id=1403-2224) in Figma on how it will look like
 
 4. Integration and APIs:
    	* We are going to intergrate with OpenAI API for determination of job-related information.

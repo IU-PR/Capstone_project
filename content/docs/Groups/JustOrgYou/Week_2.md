@@ -19,7 +19,7 @@ Delete this section when finished, just for progress tracking
   - [x] **Data Management**: Determine how data will be stored, accessed, and
         manipulated within your application. Select appropriate databases or data
         storage solutions based on the project's requirements.
-  - [ ] **User Interface (UI) Design**: Consider the user experience (UX) and design
+  - [x] **User Interface (UI) Design**: Consider the user experience (UX) and design
         principles when planning your UI. Sketch wireframes or create mockups to
         visualize the layout and flow of your application.
   - [ ] **Integration and APIs**: Assess any external systems, services, or APIs that
@@ -164,6 +164,16 @@ Note that the following types are used as supporting ones:
 - `keywords: Collection[Keywords]` are [per file keywords](https://orgmode.org/manual/Per_002dfile-keywords.html).
 
 ### UI Design
+You can view our workflow and design [mockups](https://www.figma.com/file/gc679jQhRxzZi29xVcwOO0/ui-workflow?type=design&node-id=0%3A1&t=VvQUyZVxJ5F6pY9s-1).
+
+Here are main points and decisions of our design:
+- Seamless and Non-disruptive UI: Design a distraction-free interface for adding tasks without interrupting workflow.
+- Simplified and Efficient Sorting Process: Optimize task sorting with drag-and-drop options.
+- Consistent Cross-Platform Experience: Ensure a consistent UX across desktop and mobile platforms.
+- Offline Functionality and Reliability: Allow offline task management with automatic syncing.
+- Mobile Inbox Processing: Design a mobile-friendly interface for efficient task processing on mobile devices.
+- Performance and Speed: Optimize app performance for smooth and responsive user experience.
+- Integration-Friendly Design: Enable integration with various task management systems and offer import/export options.
 
 ### Integration and APIs
 

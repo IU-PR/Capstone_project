@@ -1,10 +1,10 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "To be announced - Identification of organic compounds"
+title: "To be announced - Identification of compounds"
 ---
 
-# **To be announced - Identification of organic compounds**
+# **To be announced - Identification of compounds**
 
 # **Week #1 Progress report**
 
@@ -129,3 +129,49 @@ I think this is a wonderful project that can benefit a lot of professional chemi
 Overall, your report effectively presents a problem-solution approach and conveys the potential impact and benefits of the proposed mobile application. It would be valuable to further elaborate on the implementation plan, including the technology stack, development roadmap, and potential challenges to be addressed. 
 
 {{< /hint >}}
+
+# **Week #2 Progress report**
+### **Tech Stack Selection**
+
+### **Architecture Design**
+
+1. **Component Breakdown**: There are two basic components: UI and AI, which interact in a request-response manner. The UI requests to analyze a taken photo, and the AI responds with the detected SMILES/InChl/IUPAC notations.
+
+2. **Data Management**: The UI module is supposed to store some user settings, which will be stored using *Hive*. We don't need any database for the AI component as it is self-sufficient.
+
+3. **User Interface (UI) Design**: Consider the user experience (UX) and design principles when planning your UI. Sketch wireframes or create mockups to visualize the layout and flow of your application.
+
+TODO
+
+4. **Integration and APIs**: Our application is designed to be fully autonomous, so we will not use any external APIs.
+
+5. **Scalability and Performance**: There is no scaling problem at all since each application is complete and does not require external resources, so there is nothing to scale. Also we will pay more attention to performance since we are working on mobile app without separated backend.
+
+6. **Security and Privacy**: Since the application is designed to be ready-to-use out of the box without any registration, we have no private data to store anywhere.
+
+7. **Error Handling and Resilience**: We plan to use Firebase Crashlytics to handle application crashes for further analysis and fixes.
+
+8. **Deployment and DevOps**: We plan to use CI/CD to automatically build and deploy new application versions to all distribution platforms, as well as registering new Crashlytics handlers for it on the push into the `main` branch. We will use the `dev` branch for application development.
+
+## **Week 2 questionnaire:**  
+
+1) Tech Stack Resources: Are you utilizing any **project-based books** that specifically cover your tech stack and help you build your project? If yes, please provide the names of these books (name at least 3). How do you anticipate utilizing these materials to enhance your knowledge and expertise in your tech stack? we are using research papers
+
+2) Mentorship Support: We are not seeking a mentor for our project.
+
+3) Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources
+
+4) Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with **knowledge gaps**
+
+5) Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack? This could involve participating in online forums and groups (telegram, discord or any other platform), attending local meetups (Kazan, Innopolis)? Do you have means to engage experts into critical tech stack problems through professional networks?
+
+6) Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?
+
+7) Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates? Have you organized any knowledge-sharing sessions or discussions to facilitate the exchange of insights and experiences related to your tech stack?
+
+8) How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?
+
+
+### **Tech Stack and Team Allocation**
+
+After finalizing the tech stack and team allocation, how did you ensure that each team member was effectively assigned to appropriate tasks and responsibilities within the project? Please provide a detailed explanation of how your project is structured, including the specific technologies being utilized and the corresponding team members responsible for each component. **Clearly outline the responsibilities of each team member in relation to their assigned parts**.

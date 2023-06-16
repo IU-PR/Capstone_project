@@ -180,6 +180,9 @@ Here are main points and decisions of our design:
 
 ### Integration and APIs
 
+We currently don't have any integrations with external services. Our architecture primarily revolves around internal components and modules that work together seamlessly to deliver the intended functionality.
+As our To-do app evolves, we remain open to exploring opportunities for integrating with external services when it aligns with our business objectives and security considerations, such as Google logging, and so on.
+
 ### Scalability and Performance
 
 Scalability and performance are crucial factors to consider when designing the architecture of a software solution.

@@ -133,3 +133,102 @@ However, I think success of your project will heavily depend on the availability
 
 Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to creating a model that does core/main things - perhaps 5-10 sign words, but does that with speed and can translate in real time. Therefore, I would advice you to focus on collecting a dataset of few signs, training a model and building the core of the web app (remember, we have only 7 weeks). Put the main emphasis on the technology core that you need to showcase: fast (near-real time) recognition of signs. Also, consider collaborating with relevant communities for data collection, i.e.: https://www.tatvog.ru/  
 {{< /hint >}}
+
+# **Week 2 report**
+
+## **Architecture Design**
+
+1. **Component Breakdown**
+
+  - Video Input (web development division). This module will take in the video (or, in prospect, capture it from the user’s device) and pass it on to the next module. 
+  - Image Processing (back-end division). This module will process the input and pass processed data further.
+  - Sign Language Recognition (machine learning division). This module will recognise the hand gestures and convert them into text.
+  - Captioning Module (web development division). This module will take recognised text and display it back as an output on the user’s side.
+
+2. **Data Management**
+
+In our project, there is no need to store data, because Pantomime only recognize sign language
+
+3. **User Interface (UI) Design**
+
+The main struggle in our product is ML and CV algorithms, to understand sign language. So, for UI we decided not to go too complicated. It will be a common 1-page web layout, with an explanation of our product, a window to send  a video or activate camera streaming for further translation and information related to our team.
+
+4. **Integration and APIs**
+
+We are not going to use anything external.
+
+5. **Scalability and Performance**
+
+For better scalability and performance, we plan to deploy all parts of the project on different servers. It allows simplifying scale or improve the performance of the Pantomime.
+
+6. **Security and Privacy**
+
+We are not going to store any user data, so we only need to have a secure connection to the web server which is provided by https.
+
+7. **Error Handling and Resilience**
+
+We plan to log results of the model’s inference in order to understand the quality of the model and calculate real metrics.
+
+8. **Deployment and DevOps**
+
+We have established development and operations processes as follows: in our GitHub page, we have three repositories for each team, and each team member has to create a new branch with their additions or changes to the main branch. After that goes pull request and review of changes by the team. If the pull request satisfies the corresponding team, they merge it.
+
+Changes of the backend and frontend could be seen automatically on the server, where we host the platform.
+
+
+## **Week 2 questionnaire**
+
+1. **Tech Stack Resources: Are you utilizing any project-based books that specifically cover your tech stack and help you build your project? If yes, please provide the names of these books (name at least 3). How do you anticipate utilizing these materials to enhance your knowledge and expertise in your tech stack?**
+
+No, we don’t use any project-based books.
+
+2. **Mentorship Support: Do you currently have a mentor actively involved in your project? If yes, kindly share the name of your mentor and explain how their guidance has positively influenced your project. If you don’t have a mentor yet, have you considered seeking one? How do you believe having a mentor could contribute to the success of your project? Remember, having an experienced mentor that can guide you and your team is your responsibility.**
+
+Now, we don’t have a mentor, but we consider seeking one. Having a mentor can provide valuable guidance and support, share their experiences and knowledge, and help you navigate challenges and roadblocks. A mentor can also provide a fresh perspective on your project and help you identify areas for improvement.
+
+3. **Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources**
+
+To expand our understanding of the technology stack, we have explored the following resources:
+  - Online courses. To refresh and brush up our knowledge on Python, CV, and NLP, we have explored some free courses on online platforms like YouTube, Coursera, Udemy, and edX.
+  - Video lectures and tutorials. We have watched video materials on YouTube to study basic ASL and RSL signs and how facial expressions, and body language are used.
+  - Documentation. We have read documentation of libraries and frameworks that we are using or going to use to understand capabilities of each one. So far, we have looked into docs of such libraries as OpenCV, TensorFlow, and PyTorch
+
+4. **Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with knowledge gaps**
+
+Our team consists of three divisions: machine learning, back-end, and web development.
+
+In the machine learning division, we feel that we yet lack expertise in advanced image and video processing and natural language processing. To address these gaps, we plan to use resources like free online courses, and video lectures and tutorials. We also plan to improve our understanding of ASL and RSL grammar and syntax by consulting ASL and RSL signers and studying available materials online.
+
+In the web development division, we feel that we need to improve our knowledge of async and real-time (in prospect) web applications. To address this gap, we plan to study available materials online.
+
+5. **Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack? This could involve participating in online forums and groups (telegram, discord or any other platform), attending local meetups (Kazan, Innopolis)? Do you have means to engage experts into critical tech stack problems through professional networks?**
+
+For now, we do not attend any community meetings or forums because our idea is new and not very common
+
+6. **Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?**
+
+Our ML engineers decided to learn how to create a model that can recognize sign languages in a real-time. For this purpose, they checked existed solution for ASL and took some data preprocessing features to our project.
+
+7. **Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates? Have you organized any knowledge-sharing sessions or discussions to facilitate the exchange of insights and experiences related to your tech stack?**
+
+Yes, we have organised team sessions, where each part of the team (frontend, backend, and ML) shared their ideas and knowledge and came up with a plan for making the final product.
+
+Moreover, at the end of each week we hold team sessions, where we discuss difficulties, thoughts, and any suggestions that one of us could come across during the week.
+
+8. **How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?**
+
+For the prototype version of our platform, we will be using a pre-existing model for Russian Sign Language (RSL) detection that was trained on over 16 GB of RGB videos. This approach allows us to test both the backend and frontend parts of our product without relying from the start on our own model. Furthermore, when our team was brainstorming project ideas, we used ChatGPT to consider more options to choose from.
+
+## **Tech Stack and Team Allocation**
+
+After our first team meeting, we divided the team into three groups: frontend, backend, and ML, taking into consideration each person's preferences and strengths. Each unit has a designated lead who is in charge of supervising its activities. Team members are not limited to those responsibilities alone, even if they tend to focus on those that are specific to their unit.
+
+| Team Member            | Role                           | 
+|------------------------|--------------------------------|
+| Alexander Kudasov          | Backend Developer              | 
+| Anastasia Palashkina      | Frontend Developer             | 
+| Daniel Satarov      | Frontend Developr, ML engineer |
+| Daria Verevkina     | Designer, Frontend Developer   | 
+| Ivan Chernakov       | Designer, ML engineer          | 
+| Vitaliy Alifanov       | ML engineer                    | 
+| Vladislav Kulikov     | Team Lead, ML engineer         | 

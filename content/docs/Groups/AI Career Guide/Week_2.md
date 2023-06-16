@@ -2,7 +2,7 @@
 
 1. Programming languages:
 
-	* Python for ML and back-end part
+  * Python for ML and back-end part
 	* JavaScript for front-end part
 	* SQL for databases
 
@@ -109,5 +109,7 @@ Again, distribution of our responsibilities is:
 |Arseni Rusin|React|
 |Ivan Kornienko|Python: pandas, pytorch, scikit-learn, numpy; Databases: PostgreSQL; Docker|
 |Sergey Milgram|Python; GitLab CI/CD; Docker; Kubernetes|
+|Arseni Rusin|React, JS|
+|Ivan Kornienko|Python: pandas, pytorch, scikit-learn; Databases: PostgreSQL; Docker|
 
 We ensure that each team member was effectively assigned to appropriate tasks and responsibilities within the project by assigning tasks and their status in Trello and providing regular meetings dedicated to each team member's progress.

@@ -5,10 +5,11 @@ title: "FreshMarket"
 ---
 # **FreshMarket**
 
-![icon](/FreshMarket/assets/icon.png)
 
-Website - https://innofreshmarket.github.io/flutter/
-Github - https://github.com/InnoFreshMarket/
+<img alt="icon" src="/FreshMarket/assets/icon.png" width="200">
+
+[Website](https://innofreshmarket.github.io/flutter/)  \
+[Github](https://github.com/InnoFreshMarket/)
 
 # **Introduction**
  

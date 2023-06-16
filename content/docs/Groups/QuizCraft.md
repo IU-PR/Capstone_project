@@ -101,3 +101,43 @@ The main functionality is generating questions from the text or its embeddings. 
 
 
 # **Feedback** 
+
+{{< hint danger >}}
+**Feedback** 
+
+
+**Value Proposition**
+
+Good Explanation. And a nice Idea. But have you consider the size of the material your app can handle. Beside how will you grade the quiz? What will be the format of the questions?
+
+Uses cases stated are not correct. You need to give details how your product will be used and by whom exactly.
+
+**Lean startup question**
+
+The whole section very short, and you didn’t spent much time considering answering.
+How will you act on the feedback, how will you iterate on it?
+
+Targeted user: 
+
+>Students, junior employees
+
+Why?
+
+
+**AI** 
+
+What ML algorithm/modles will you use? 
+
+**Vision Of The Project**
+
+Good
+
+**Overall**
+
+The report is good. You need to reflect more on the business and operational side. Beside think more how AI going to help.
+
+4/5
+ 
+
+_Feedback by Moofiy_
+{{< /hint >}}

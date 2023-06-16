@@ -150,7 +150,7 @@ Overall, I think you have a great team and a very nice project. Try to scale it 
 	* Web Scraping for vacancies searching
 	* OpenAI for interaction with ChatGPT queries
 	* PostgreSQL for databases
-	* Docker
+	* Docker and Kubernetes for deployment and monitoring
 
 
 ## Architecture Design

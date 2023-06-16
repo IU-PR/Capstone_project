@@ -1,6 +1,10 @@
 # **QuizCraft** 
 Good day! We are the team of "QuizCraft" and we can help you test your knowledge in a specific area.
 
+![alt text](/QuizCraft/QuizCraft.jpg)
+
+**QuizCraft** is a website where you can find plenty of quizes on different topics or create a new one from your text material. You can pass a quiz to check your knowledge, become smarter and compete with others.
+
 ## **Team Members**
 
 | Team Member               | Telegram ID   | Email Address                         |

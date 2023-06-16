@@ -100,7 +100,7 @@ We have well defined pain points and community to share solution with. So, we pl
 Firstly, we are currently suffer from problems above. If we stop, then project is successive at least for us. Secondly, open source community is free to fork, star and PR! Activity is a metric. And thirdly, we are going to get feedback from GTD community.
 
 > How do you plan to iterate and pivot if necessary based on user feedback?
-Architecture is modular and library handle most of basic operations (CRUD at least), so changing UI is not big deal. But any change should be meaningful. And welcome to fork)
+ is modular and library handle most of basic operations (CRUD at least), so changing UI is not big deal. But any change should be meaningful. And welcome to fork)
 
 
 {{< hint danger >}}

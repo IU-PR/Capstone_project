@@ -171,9 +171,25 @@ Note that the following types are used as supporting ones:
 
 ### Security and Privacy
 
+Our team is very sensitive to security and privacry issues.
+Firstly, our Web client would allow connections only via HTTPS, which will ensure security of transferring data via Internet.
+Secondly, we will use encryption and hashing algorithms for saving user passwords, which should help avoid data leakage in case of hacking.
+As for our servers, we will use ssh keys for connection, denying use of passwords, as it is vulnerable to attaks.
+
 ### Error Handling and Resilience
 
 ### Deployment and DevOps
+
+Deployment and DevOps:
+
+For the deployment and DevOps practices of our project, we will follow a set of strategies and use appropriate tools to ensure smooth and efficient deployment processes. Some key considerations and actions include:
+
+1. **Continuous Integration and Deployment**: We will implement a continuous integration (CI) and continuous deployment (CD) pipeline to automate the build, testing, and deployment processes. This pipeline will help us streamline development workflows and ensure that new features and bug fixes are deployed quickly and reliably.
+2. **Containerization**: We will utilize containerization technology, such as Docker, to package our application and its dependencies into lightweight and portable containers. This approach enables consistent deployment across different environments and simplifies the management of dependencies.
+3. **Version Control and Collaboration**: We will utilize version control systems like Git to manage our source code, track changes, and facilitate collaboration among team members. By following best practices for branching, merging, and code reviews, we can ensure a robust development workflow and maintain code quality.
+4. **Automated Testing**: We will implement automated testing practices, such as unit tests, to validate the functionality and reliability of our application. Automated testing allows us to catch bugs early, ensure code stability, and support confident deployments.
+
+By incorporating these deployment and DevOps practices, we aim to achieve efficient, reliable, and scalable deployments while maintaining a robust development workflow and ensuring the stability and performance of our application.
 
 ## Tech Stack
 

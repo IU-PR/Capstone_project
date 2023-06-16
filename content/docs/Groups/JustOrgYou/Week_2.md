@@ -118,6 +118,9 @@ project, but also provide a handy way to resolve synchronization conflicts while
 using multiple devices + some way to synchronize them (e.g. cloud storage like
 DropBox or peer to peer solutions like Syncthing).
 
+As described earlier, main functionality is available without network access, since all data is stored locally on user device. For data that is not tasks we are going to use NoSQL solutions Isar or Hive. Server part only perform ML actions, so we store credentials and user specific data in MongoDB. 
+Temporal storage is done in memory.
+
 #### Task Data Model
 
 `Task` is the the smallest core unit in our application. As an inspiration and
@@ -205,7 +208,11 @@ By incorporating these deployment and DevOps practices, we aim to achieve effici
 
 ### Requirements and Objectives of the Project
 
+We are aimed to share experience in different stacks and learn new. But main objective is to create task management system that keep GTD principles in mind. This solves not only our personal pain sources, but also a wide community of people.
+
 ### Chosen Technologies
+
+For app we choosed Flutter, since it is crossplatform and declarative. Todo library designed on Rust because of more functional paradigm, speed and no runtime enviroment. Runtime may lead to problems on cross platform app execution. Backend is using FastAPI, very extensible and easy to maintain fraimwork. ML part using transformers and a couple of open source models.
 
 ## Questionnaire
 
@@ -214,57 +221,58 @@ By incorporating these deployment and DevOps practices, we aim to achieve effici
    please provide the names of these books (name at least 3). How do you
    anticipate utilizing these materials to enhance your knowledge and expertise
    in your tech stack?
-   > **Answer**:
-   >
+
+   > We use variaty of sources for education. Not only books, but to name a few:
    > - Book [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
    >   provides great in-depth introduction into this language. Community
    >   considers it as one of the best starting points. Thus we expect to learn
    >   everything from basics to design patterns, that are specific for the
    >   Rust.
-   > - ???
-   > - ???
+   > - "Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)" by Rober Martin
+   > - "Getting Things Done: The Art of Stress-Free Productivity" by David Allen
 2. **Mentorship Support**: Do you currently have a mentor actively involved in your
    project? If yes, kindly share the name of your mentor and explain how their
    guidance has positively influenced your project. If you don't have a mentor
    yet, have you considered seeking one? How do you believe having a mentor
    could contribute to the success of your project? Remember, having an
    experienced mentor that can guide you and your team is your responsibility.
-   > **Answer**:
+   > We took a cource of Aleksandr Votyakov "9 lists" where author describes customized GTD setup. This helps a lot to focus on real problems
 3. **Exploring Alternative Resources**: In addition to project-based books, what
    other resources have you explored to expand your understanding of your tech
    stack? This could include online courses, video tutorials, documentation, or
    any other sources that have been valuable in filling knowledge gaps. Please,
    name at least 3 resources
-   > **Answer**:
-   >
+
+   > - [Boring flutter show](https://www.youtube.com/watch?v=yr8F2S3Amas&list=PLOU2XLYxmsIK0r_D-zWcmJ1plIcDNnRkK)
+   > - [FastAPI docs](https://fastapi.tiangolo.com/)
+   > - [Flutter docs](https://docs.flutter.dev/), [Rust docs](https://www.rust-lang.org/learn)
    > - [No Boilerplate](https://www.youtube.com/@NoBoilerplate) is a great YouTube channel that has a lot of videos
    >   about rust, for example consider [Rust tests are MAGIC](https://youtu.be/JIvKgSyvtxI?list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP)
-   > - ???
-   > - ???
+
 4. **Identifying Knowledge Gaps**: Are there any specific areas within your tech
    stack where you or your team feel there are knowledge gaps or expertise is
    lacking? If so, how do you plan to address these gaps and ensure a
    well-rounded understanding of your chosen technologies? Please name the tech
    stack division in your team and outline how are you planning to deal with
-   **knowledge gaps**
-   > **Answer**:
+   design approaches, flutter, rust
+   > Our team used open resources to close gaps and continue developing skills to achieve good project quality
 5. **Engaging with the Tech Community**: Have you actively engaged with the broader
    tech community to seek guidance or learn from experienced professionals in
    your tech stack? This could involve participating in online forums and groups
    (telegram, discord or any other platform), attending local meetups (Kazan,
    Innopolis)? Do you have means to engage experts into critical tech stack
    problems through professional networks?
-   > **Answer**:
+   > We participated in virtual meetups with our mentor (Aleksandr Votyakov). Since technical stack was not problem yet, we do by our own.
 6. **Learning Objectives**: What specific learning objectives have you set for
    yourself and your team in relation to your tech stack this week? How do you
    plan to achieve these objectives, and what strategies or resources will you
    employ to deepen your understanding?
-   > **Answer**:
+   > We want to evolve as a developers and learn new technical aspects of known technologies and new ones. So, project based learning is perfect choice!
 7. **Sharing Knowledge with Peers**: How have you been sharing your knowledge and
    expertise with your teammates? Have you organized any knowledge-sharing
    sessions or discussions to facilitate the exchange of insights and
    experiences related to your tech stack?
-   > **Answer**:
+   > We organize peer to peer and group meetings. Share our knowledge and experience. And do review for MR with helpful comments
 8. **Leveraging AI**:How have you leveraged AI to compensate for any lacking expertise in your
    tech stack? Have you utilized AI-powered tools or platforms to expedite the
    process of acquiring knowledge and expertise in your tech stack?

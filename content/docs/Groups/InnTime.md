@@ -226,29 +226,36 @@ The database will store all the information about the calendar, the user, and so
 We are ready to provide an initial version of our design. The design may change over the course of the project.
 
 ***The main page***
+When a user gets to our site, he sees this screen in front of him first of all. 
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
     <img src="/InnTime/Main.png">
 </div>
 
 ***Page with courses and electives***
+Then, when the user rewind down, he gets to a page with the ability to choose his courses and electives.
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
     <img src="/InnTime/schedule.png">
 </div>
 
 ***The preview of the course***
+When clicking on the course, the user is provided with a preview of the course with his personal schedule. He can view the schedule for each course like this.
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
     <img src="/InnTime/preview.png">
 </div>
 
 ***The full schedule***
+After the user adds courses to his schedule, he can go to the schedule page and see his full schedule for a certain period of time.
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
     <img src="/InnTime/calendar.png">
 </div>
 
 ***404 error***
+If a 404 error occurs on the site, then this page is shown to the user.
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
     <img src="/InnTime/Error.png">
 </div>
+
+Our design will be worked out depending on the feedback of end users and the usability of our site.
 
 
 **Integration and APIs:**

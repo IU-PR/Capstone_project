@@ -12,6 +12,27 @@ Good day! We are the team of "QuizCraft" and we can help you test your knowledge
 | Kiril Batyshchev          | kbatyshchev   | k.batyshchev@innopolis.university     |
 | Gleb Kirillov             | Gelbas        | g.kirillov@innopolis.university       |
 
+## **Schematic Drawings**
+{{<mermaid>}}
+stateDiagram-v2
+    You --> LearnignMaterial: have
+
+    You --> QuizGenerator : refer
+    LearnignMaterial --> QuizGenerator : upload
+
+    QuizGenerator --> Quiz : compose
+
+    Quiz --> QuizStorage : save for community
+
+    Quiz --> You : suggest to pass
+
+    You --> QuizStorage : examine public quizes
+
+    Quiz --> YourAccount : save your results
+{{</mermaid>}}
+
+{{< expand "Week 1" >}}
+
 ## **Value Proposition**
 ### **Problem**
 The learning material is exhaustive sometimes. If one wants to study it perfectly, he or she needs an assessment. A short quiz is a good choice to do so, but it is not always provided right after the text or somewhere on the web.
@@ -64,24 +85,7 @@ Of course, all this is a future and far ahead of MVP. That's why yes, we are ope
 ### **Overview**
 The project is a  website where a user can create a quiz or find a suitable one. If one needs more evaluation of the knowlendge in a specific topic, he/she cannot do anything but search for a quiz or test or google answers to open-ended questions from somewhere. That is not an easy task. That is why we provide a single place for all the quizes, which are generated **on demand**. You should **not search** anymore, just provide the material and here are the questions for you. Answer it or the site will provide the answers, and you'll be **better prepared** for the exam.
 
-### **Schematic Drawings**
-{{<mermaid>}}
-stateDiagram-v2
-    You --> LearnignMaterial: have
 
-    You --> QuizGenerator : refer
-    LearnignMaterial --> QuizGenerator : upload
-
-    QuizGenerator --> Quiz : compose
-
-    Quiz --> QuizStorage : save for community
-
-    Quiz --> You : suggest to pass
-
-    You --> QuizStorage : examine public quizes
-
-    Quiz --> YourAccount : save your results
-{{</mermaid>}}
 
 ### **Tech Stack**
 Main language - **Python**. Your project utilizes machine learning models, which integrates well in Python world. Also, Python is easier to write and work with. 
@@ -98,10 +102,7 @@ Language based models are not as fast as we want. However, the multithreading ma
 ### **Elaborate Explanations**
 The main functionality is generating questions from the text or its embeddings. To achieve a good result we should think of and strictly define a format of questions, a way of extraction and text splitting, its context refining and handling. In a simple way the text may be split into sections, and the language model will generate few questions within each section. In addition, a model for evaluation the response of this generative model should take some actions. All this will allow to display the desired quiz to the user on the website. The backend for the site is a way to get learning information from the user and its answers to a quiz and send to the language model for evaluation. The uniqueness is achieved by generating from almost scratch without supervising.  
 
-
-
-# **Feedback** 
-
+## **Feedback** 
 {{< hint danger >}}
 **Feedback** 
 
@@ -141,3 +142,102 @@ The report is good. You need to reflect more on the business and operational sid
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+{{< /expand >}}
+
+{{< expand "Week 2" >}}
+
+## **Tech Stack Selection**
+
+- _Backend_ - Python/Django/DRF. We use the Django because it is easier to start with it for MVP. Moreover, it has a lot of great features out of the box, such as database migrations, admin panel, database management and authorization. Django allows to grow the codebase easily because it has a standard structure for project. DRF will help us to make the Restful API. All this is popular and extensive and has a large community of developers.
+- _Frontend_ - Dart/Flutter. Flutter is a comprehensive UI toolkit that allows to create cross-platform mobile, web, and desktop applications from a single codebase. Several reasons:
+    - Performance: Flutter uses the Dart AOT (Ahead-of-Time) compiler to - generate highly optimized native code, resulting in excellent performance and smooth animations.
+    - Development efficiency: The single codebase for multiple platforms reduces the development effort and ensures consistent user experiences across devices.
+    - Increasing popularity and development: Big companies apply Flutter frameworks in their work and rewrite some modules.
+- _ML_ - Langchain, Transformers/Python. Those are the most popular libraries that include plenty of models and functions to work with. This helps constuctiong a pipeline of input processing, training and testing the models all together and allows handling different types of files.
+
+## **Architecture Design**
+
+### **Component Breakdown**
+In general, we have 4 major modules: REST server, database, language processing classes, and frontend pages. Splitting them we can have the following components:
+- Authorization service, admin panel. Coupled with a database and login page.
+- Search system, grouping quizzes. Processing on the ml-side and storing in DB.
+- Component with quiz creation: uploading files, setup settings. Web page and REST request.
+- Main view of quiz(es). Frontend view + REST API fetching from db.
+- System to pass quizzes and track the statistics. Backend process the incoming messages while the user clicks on the website.
+- ML **pipeline**: text splitter, filters, extra text processing, questions generator, answers generator.
+
+
+### **Data Management**
+The main data storage for our project is PostgreSQL. The data workflow will be the following: 1. (authorization) During the registration process the user will send login and password, the password will be **hashed**, and then both will be stored in a database; 2. The user sends data for quiz generation to the server, then data is stored in the database and redirected to the ML model, and then the model response is sent back to the user. The backend server provides endpoints to access the data or calls the ml-side with the necessary information.
+
+### **User Interface (UI) Design**
+When designing, we took into account the following: the time to action (should be as small as possible), minimalism and simplicity, and light colors. When a user enters the website,he or she can immediately explore the existing quizzes or start creating of a new one. The palette is light-blue. The user should observe only a few things: a target page, a menu, and a header bar.
+
+### **Integration and APIs**
+We may exploit OpenAI API to work with their language models. Additionally, we want to use oauth2 servers for fast authorization.
+
+### **Scalability and Performance**
+Unfortunately, so far we can generate only one quiz at a time so that several users will wait in a queue. In the future, we may deploy several models or use an external system to make the process parallel. However, the major outcome of the project is a quiz base (hub) so that users may explore other solutions while waiting. The functioning of other parts (exploring or quiz passing) is scaled easily and mainly done on the client side.
+
+### **Security and Privacy**
+Firstly, we store only encrypted (using Bcrypt) passwords in a database. Secondly, we will use the https protocol for sensitive data transportation. Thirdly, we do not expose the stored downloaded files to anyone but the user who uploaded them. Finally, we will use CSRF tokens to protect from unwanted redirections from external sources.
+
+### **Error Handling and Resilience**
+- _Error handling_:
+Django's built-in exception handling mechanisms, such as try-except blocks, to gracefully handle exceptions. Also, we will have custom error responses to provide informative messages to API clients.
+- _Reliability_:
+Fault-tolerant strategies using Django middleware to handle common errors. Use techniques like retrying failed requests or circuit breakers to prevent cascading failures and promote graceful error recovery.
+- _Logging_:
+We will configure error logging in a Django DRF application, define logging settings in settings.py to capture error messages and stack traces. For example, set up a logger that writes to a file or uses a centralized logging service like ELK.
+- _Monitoring_:
+We will integrate a monitoring system like Sentry or Datadog by installing their SDKs and following their documentation. That enables error and exception tracking, performance monitoring, and receiving alerts for critical errors.
+- _Prevention_:
+Unit test suite in Django's testing framework. Cover success and error scenarios, including expected exceptions, to identify and address issues early and ensure accurate error responses.
+
+### **Deployment and DevOps**
+The whole deployment will be in a docker container combining all the part of the project. The pipeline includes compilation of frontend pages, building server code and deploying it and then exposing to the web. All the code is split into modules on github.
+
+## **Questionnaire**
+
+- _Tech Stack Resources_: 
+    - Book - Django: The Practice of Creating Web Sites with Python by Vladimir Dronov. The knowledge from the book can help the developer to work with any part of development. For example, database management, migrations, working with admin panel and so on
+    - [Flutter Apprentice (Third Edition): Learn to Build Cross-Platform Apps](https://www.amazon.com/Flutter-Apprentice-Third-Learn-Cross-Platform/dp/1950325741/ref=sr_1_1?crid=3P18J8Y6YDPEA&keywords=flutter+programming&qid=1686753516&s=books&sprefix=flutter%2Cstripbooks-intl-ship%2C228&sr=1-1). This book covers a wide range of topics essential for building apps with Flutter. It provides guidance on using Flutter widgets for UI development, navigating between screens, handling networking and persistence, managing app state, utilizing Dart streams
+    - [Question Generation using Natural Language processing](https://www.udemy.com/course/question-generation-using-natural-language-processing/?referralCode=C8EA86A28F5398CBF763). We plan to use this course to find and learn NLP techniques for generating questions of various types.
+
+- _Mentorship Support_: A graduate student Daniil Arapov helps our ml engineers and consults on the future of development. His advices extend the learning outcome. We believe that he can open our mind for the unknown possible solutions.
+
+- _Exploring Alternative Resources_: 
+    - There are awesome official documentations for [Django Rest Framework](https://www.django-rest-framework.org/) and [Django](https://docs.djangoproject.com/en/4.2/)
+    - [Flutter documentation](https://api.flutter.dev/) includes short video guides for many widgets
+    - [Hugging Face](https://huggingface.co/) - documentation with tutorials.
+
+- _Identifying Knowledge Gaps_: 
+    - We do not know how to work with large files storage on the server side. We should learn about features of different databases or the ability of PostgreSQL for this purpose. We also have to fill the gap in some Django security handling.
+    - Bloc library is new for us. One commonly uses it for state-management in Flutter apps. We hope the found [tutorials](https://bloclibrary.dev/#/fluttercountertutorial) will help.
+    - We are not familliar with the variety of possible ways to generate questions from the language model perspective. We have to figure it out from the articles and courses.    
+
+- _Engaging with the Tech Community_: We are not engaged yet but will see what is possible to do.
+
+- _Learning Objectives_: The way we start the development highly correlates with the success of the project. We are exploring possible solutions, functionality and key components. From the tech perspective we will deepen into the implementation details and complexity of each framework and model by using the resources described above.
+
+- _Sharing Knowledge with Peers_: We meet to discuss the report and share the results of each week.
+
+- _How have you leveraged AI_: Before searching for the answer to any question, we refer to chatGPT or other large language models to assess the quick solution and then decide whether we take it into consideration or search more.
+
+
+
+## **Team Allocation**
+After the project revision at the team meeting, we identified the key responsibilities:
+- _Arsen Mutalapov_ - emphasizing the components of the project, its goals, and objectives. Website design. Control of quality and coupling of the team members. Identifying issues, and questions during the work and raising them in meetings.
+- _Viktor Kovalev_ - Frontend (Flutter). Developing functionality of the website, and pages. View, pass quizzes, generate and set up a quiz, search, and explore the quizzes.
+- _Nagim Isyanbaev_ & _Kirill Batyshchev_ - ML-engineers (Transformers, Langchain). Training and testing language models to extract questions from the text. Composing a pipeline of text processing.
+- _Kirill Korolev_ & _Glen Kirillov_ - Backend. Database handling. Authorization. Passing data to ML models and retrieving the result. REST API for the website. Error handling, monitoring, and logging.
+
+## **Weekly progress report**
+Besides all the given above we:
+- embarked on a research project to explore various existing NLP models and assess their effectiveness in question generation tasks. Despite being relatively unfamiliar with NLP models and the associated libraries, we overcame this challenge by delving into the documentation and watching tutorial videos. Additionally, our mentor, Daniil Arapov, played a vital role by providing us with a valuable Python library that offers a wide range of NLP models. With his guidance, we try to identify the most suitable models to address our specific problem. As a result of our efforts, we developed a temporary working solution capable of generating questions. Although our current solution may not be perfect, we have gained valuable insights and identified areas for improvement. Moving forward, we are now equipped with the knowledge and direction to continue our research and enhance the quality of the questions generated by our system.
+- prepared a simple design of the website described earlier.
+- created an initial architecture and a full-fledged user model for the database. In addition, we added and configured password hashing to the application pipeline.
+- built the base part of architecture and started to write a home page for our website. The main problems were choosing a library for state management and defining the architecture of the application. These problems are related to each other. So, we picked the Bloc library for state management, and with guidelines of Bloc documentation we came up with the architecture.
+{{< /expand >}}

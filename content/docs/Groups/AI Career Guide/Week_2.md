@@ -1,5 +1,4 @@
 ## Tech Stack Selection
-
 1. Programming languages:
 
   * Python for ML and back-end part
@@ -20,9 +19,10 @@
 	* PostgreSQL for databases
 	* Docker
 
-## Architecture Design
 
+## Architecture Design
 1. Component Breakdown:
+
 	![](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/architecture.png)
 
 	* Front-end and back-end are "agreeing" on an interface of REST API messages and work with each other using that.
@@ -54,9 +54,9 @@
    	* Errors will be logged in Airflow
 
 10. Deployment and DevOps:
+    * We will use GitLab as version control and for CI/CD. The app will be deployed as a Kubernetes cluster of Docker containers.
 
 ## Week 2 questionnaire
-
 1. Tech Stack Resources:
 
 	* We don't use any project-based books.
@@ -95,19 +95,14 @@
 	* We have Tech Lead in each team (Frond-end, Back-end, ML) who is responsible for sharing knowlegde.
 
 8. We used ChatGPT to expedite the process of acquiring knowledge.
-
-## Tech Stack and Team Allocation
-
+## Tech Stack and Team Allocation 
 Again, distribution of our responsibilities is:
-
 |Team member|Tech stack|
 | :- | :- |
 |Ilnar Khasanov (Lead)|Python: FastAPI, SQLAlchemy, alembic, Airflow; Databases: PostgreSQL; Docker|
 |Ruslan Kudinov|Python: pandas, pytorch, scikit-learn, numpy|
 |Damir Afliatonov|Python: FastAPI, SQLAlchemy, alembic, Airflow; Databases: PostgreSQL; Docker|
 |Said Kamalov|python, pandas, scikit-learn, numpy, pytorch, MySQL, postgreSQL; Docker|
-|Arseni Rusin|React|
-|Ivan Kornienko|Python: pandas, pytorch, scikit-learn, numpy; Databases: PostgreSQL; Docker|
 |Sergey Milgram|Python; GitLab CI/CD; Docker; Kubernetes|
 |Arseni Rusin|React, JS|
 |Ivan Kornienko|Python: pandas, pytorch, scikit-learn; Databases: PostgreSQL; Docker|

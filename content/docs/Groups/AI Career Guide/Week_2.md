@@ -50,6 +50,10 @@
 
 7. Security and Privacy:
 
+	* The code of the app will be analyzed for potential security issues as a part of CI pipeline.
+	* User can communicate with the app only through its web API. The internal parts of the app will be isolated in a different Docker containers.
+	* The app will not store any user's personal information, only the anonymous API request data for statistics and future improvements.
+
 8. Error Handling and Resilience:
    	* Errors will be logged in Airflow
 

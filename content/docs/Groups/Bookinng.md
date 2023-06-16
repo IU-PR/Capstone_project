@@ -572,7 +572,7 @@ our users.
 - **Yaroslav Kivaev** is responsible for DevOps, helping with Docker, k8s, etc.,
   designing architecture of the backend, managing team communication, helping
   with writing code for frontend and backend.
-- **Koshmanova Ekaterina** is responsible for designing all interfaces,
+- **Ekaterina Koshmanova** is responsible for designing all interfaces,
   creating diagrams and flowcharts for reports, making sure that design of our
   application is consistent with the style of Innopolis University, creating an
   SVG image of the map from the PDF drawing, which then will be used by Anton

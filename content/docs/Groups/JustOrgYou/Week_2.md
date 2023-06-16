@@ -29,22 +29,22 @@ Delete this section when finished, just for progress tracking
         scalability aspects when designing the architecture. Ensure that your
         application can handle increasing user loads and data volumes without
         compromising performance.
-  - [x] **Security and Privacy**: Incorporate appropriate security measures into your
+  - [ ] **Security and Privacy**: Incorporate appropriate security measures into your
         architecture to protect user data and safeguard against potential
         vulnerabilities. Consider authentication, authorization, encryption, and
         other relevant security practices.
   - [ ] **Error Handling and Resilience**: Plan for handling errors and exceptions to
         maintain a reliable and resilient application. Define strategies for error
         logging, monitoring, and graceful error recovery.
-  - [x] **Deployment and DevOps**: Consider the deployment process and DevOps
+  - [ ] **Deployment and DevOps**: Consider the deployment process and DevOps
         practices that align with your chosen tech stack. Automate deployment tasks,
         implement version control, and establish a robust development workflow.
 - [x] Choose tech stack
   - [x] Evaluate the requirements and objectives of the project
-  - [ ] Consider important factors (e.g. performance, security, scalability,
+  - [x] Consider important factors (e.g. performance, security, scalability,
         expertise of team members)
-  - [ ] Determine most suitable technologies
-- [ ] Questionnaire
+  - [x] Determine most suitable technologies
+- [x] Questionnaire
   - [x] **Tech Stack Resources**: Are you utilizing any **project-based books** that
         specifically cover your tech stack and help you build your project? If yes,
         please provide the names of these books (name at least 3). How do you
@@ -239,17 +239,32 @@ Here are main points and decisions of our design:
 
 ### Integration and APIs
 
-We currently don't have any integrations with external services. Our architecture primarily revolves around internal components and modules that work together seamlessly to deliver the intended functionality.
-As our To-do app evolves, we remain open to exploring opportunities for integrating with external services when it aligns with our business objectives and security considerations, such as Google logging, and so on.
+We currently don't have any integrations with external services. Our
+architecture primarily revolves around internal components and modules that work
+together seamlessly to deliver the intended functionality. As our To-do app
+evolves, we remain open to exploring opportunities for integrating with external
+services when it aligns with our objectives and security considerations, such as
+Google logging, and so on.
 
 ### Scalability and Performance
 
-Scalability and performance are crucial factors to consider when designing the architecture of a software solution.
-Here are some techniques to achieve scalability and optimize performance, that we plan to use in our project:
+Scalability and performance are crucial factors to consider when designing the
+architecture of a software solution. Here are some techniques to achieve
+scalability and optimize performance, that we plan to use in our project:
 
-1. **Horizontal Scaling**: First and most common approach is to scale horizontally by adding more servers or instances to distribute the workload. This can be achieved through load balancing techniques, where incoming requests are distributed across multiple servers, allowing for better resource utilization and improved performance
-2. **Content Delivery Networks** (CDNs): Utilizing CDNs can enhance the delivery speed and scalability of static assets, such as images, CSS files, and JavaScript libraries. CDNs cache these files in multiple locations worldwide, ensuring faster access for users across different geographical regions.
-3. **Asynchronous programming**: By offloading time-consuming tasks to background processes or queues, we will improve the responsiveness of our system. Asynchronous processing allows the main application to handle requests quickly while longer-running tasks are processed separately.
+1. **Horizontal Scaling**: First and most common approach is to scale
+   horizontally by adding more servers or instances to distribute the workload.
+   This can be achieved through load balancing techniques, where incoming
+   requests are distributed across multiple servers, allowing for better
+   resource utilization and improved performance
+2. **Content Delivery Networks** (CDNs): Utilizing CDNs can enhance the delivery
+   speed and scalability of static assets, such as images, CSS files, and
+   JavaScript libraries. CDNs cache these files in multiple locations worldwide,
+   ensuring faster access for users across different geographical regions.
+3. **Asynchronous programming**: By offloading time-consuming tasks to
+   background processes or queues, we will improve the responsiveness of our
+   system. Asynchronous processing allows the main application to handle
+   requests quickly while longer-running tasks are processed separately.
 
 ### Security and Privacy
 
@@ -262,22 +277,64 @@ denying use of passwords, as it is vulnerable to attaks.
 
 ### Error Handling and Resilience
 
-As for error handling and resilience, there are many techniques we are planning to use in our project to avoid errors and unexpected bugs.
-By incorporating these robust error handling and resilience techniques, we improve the reliability of our software, minimize downtime, and deliver a more seamless user experience. These practices contribute to the overall quality and stability of our application, ensuring it can handle unexpected situations and recover gracefully from failures
-1. **Graceful Error Handling**: We design our application to handle errors gracefully by providing meaningful error messages to users. Clear and informative error messages enable users to understand what went wrong and take appropriate actions. We avoid exposing sensitive information in error messages to maintain security.
-2. **Exception Handling**: We use exception handling techniques to catch and handle runtime errors in a structured manner. By catching exceptions at appropriate levels in our application's code, we can prevent unhandled exceptions from crashing the system and provide alternative paths or recovery options
+As for error handling and resilience, there are many techniques we are planning
+to use in our project to avoid errors and unexpected bugs. By incorporating
+these robust error handling and resilience techniques, we improve the
+reliability of our software, minimize downtime, and deliver a more seamless user
+experience. These practices contribute to the overall quality and stability of
+our application, ensuring it can handle unexpected situations and recover
+gracefully from failures
+
+1. **Graceful Error Handling**: We design our application to handle errors
+   gracefully by providing meaningful error messages to users. Clear and
+   informative error messages enable users to understand what went wrong and
+   take appropriate actions. We avoid exposing sensitive information in error
+   messages to maintain security.
+2. **Exception Handling**: We use exception handling techniques to catch and
+   handle runtime errors in a structured manner. By catching exceptions at
+   appropriate levels in our application's code, we can prevent unhandled
+   exceptions from crashing the system and provide alternative paths or recovery
+   options
+3. **Type-level errors**: Rich type systems allow encoding error information
+   into the type signature, which is a lot more secure and clearer than throwing
+   errors and hoping that they will be handeled appropriately. For example,
+   `Option[T]` described earlier is a lot better than using error codes (such as
+   -1 in many C/C++ applications) or null values because some functions are
+   always returning a value and some may return null.
 
 #### Network related errors
 
-Also, we recognize the importance of error handling and resilience expecially in the context of our microservices architecture. With modules distributed across different hosts communicating with each other via APIs, we place special emphasis on addressing errors related to API interactions, such as serialization and validation. Here's how we address these specific aspects:
+Also, we recognize the importance of error handling and resilience especially in
+the context of our microservices architecture. With modules distributed across
+different hosts communicating with each other via APIs, we place special
+emphasis on addressing errors related to API interactions, such as serialization
+and validation. Here's how we address these specific aspects:
 
-1. Serialization Errors: We ensure that data serialization between microservices is handled correctly to prevent errors during the conversion of data structures into a format suitable for transmission. We follow best practices and use well-established serialization techniques, such as JSON or Protocol Buffers, to ensure compatibility and minimize the chances of serialization-related errors.
+1. **Serialization Errors**: We ensure that data serialization between microservices
+   is handled correctly to prevent errors during the conversion of data
+   structures into a format suitable for transmission. We follow best practices
+   and use well-established serialization techniques, such as JSON or Protocol
+   Buffers, to ensure compatibility and minimize the chances of
+   serialization-related errors.
+2. **Validation Errors**: We pay close attention to data validation within our APIs
+   to maintain data integrity and prevent invalid or inconsistent data from
+   entering the system. We implement robust validation mechanisms at both the
+   API input and output levels, verifying that the received data adheres to
+   expected formats, constraints, and business rules. By validating inputs and
+   outputs, we can catch errors early and provide informative error messages to
+   guide users and developers in resolving any issues.
+3. **Error Responses and Status Codes**: In our API design, we establish a
+   consistent approach to error responses and status codes. We define clear
+   conventions for communicating errors, including appropriate HTTP status
+   codes, standardized error payloads, and error message formats. Consistency in
+   error responses helps in understanding and handling errors effectively, both
+   within our microservices ecosystem and for external consumers of our APIs.
 
-2. Validation Errors: We pay close attention to data validation within our APIs to maintain data integrity and prevent invalid or inconsistent data from entering the system. We implement robust validation mechanisms at both the API input and output levels, verifying that the received data adheres to expected formats, constraints, and business rules. By validating inputs and outputs, we can catch errors early and provide informative error messages to guide users and developers in resolving any issues.
-
-3. Error Responses and Status Codes: In our API design, we establish a consistent approach to error responses and status codes. We define clear conventions for communicating errors, including appropriate HTTP status codes, standardized error payloads, and error message formats. Consistency in error responses helps in understanding and handling errors effectively, both within our microservices ecosystem and for external consumers of our APIs.
-
-By considering these aspects within our microservices-like architecture, we effectively address errors related to API interactions. We prioritize proper serialization and validation to maintain data integrity and compatibility. These practices contribute to the overall stability, reliability, and resilience of our microservices ecosystem.
+By considering these aspects within our microservices-like architecture, we
+effectively address errors related to API interactions. We prioritize proper
+serialization and validation to maintain data integrity and compatibility. These
+practices contribute to the overall stability, reliability, and resilience of
+our microservices ecosystem.
 
 ### Deployment and DevOps
 
@@ -322,7 +379,8 @@ Project objectives:
 - Future-proof => open-format local data storage
 - AI-powered to automate routine tasks
 - Performance and responsiveness
-- Open source and easily extensible with new modules
+- Open source
+- Easily extensible with new modules
 
 ### Chosen Technologies
 

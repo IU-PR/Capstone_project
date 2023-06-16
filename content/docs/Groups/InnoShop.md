@@ -194,7 +194,8 @@ The selection of an appropriate database or data storage solution for an e-comme
 Regarding storing and managing images, documents, or other media files related to products or user profiles, it is recommended to adopt a dedicated file storage solution such as Amazon S3, Google Cloud Storage, or a self-hosted alternative. Such services provide scalable and reliable storage to manage file uploads and downloads.
 
 ## 3. UI Design
-The UI design is available at: https://www.figma.com/file/bFgXwmxt28EWI4U56yuBeN/innoshop?type=design&node-id=1-4&t=8AHWai60hAN3GSVq-0
+The UI design, which we created in Figma, currently contains the basic design outlet of how the improved innostore look like.
+The UI design is available at: https://www.figma.com/proto/bFgXwmxt28EWI4U56yuBeN/innoshop?type=design&node-id=8-32&scaling=min-zoom&page-id=1%3A4&starting-point-node-id=8%3A32
 
 
 ## 4. Integration and APIs

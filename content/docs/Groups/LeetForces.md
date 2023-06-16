@@ -137,3 +137,33 @@ open communication within the team, leverage scalable cloud services and priorit
     maintaining high standards of security and usability.
 
 {{< /expand >}}
+
+{{< hint danger >}}
+**Feedback**  
+
+
+
+**Value Proposition**
+
+Good explanation. But in the use cases you have to elaborate more. You need to give details cases how your app will be used and by whom?
+
+**Lean startup question**
+
+Good
+
+**AI**
+
+Good! But how will you do the plagiarism detection. What will you use 
+
+**Vision Of The Project**
+
+Very good
+
+**Overall**
+
+The report is great, short but to the point.  
+
+5/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

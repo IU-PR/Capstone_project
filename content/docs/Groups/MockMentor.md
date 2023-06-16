@@ -124,7 +124,10 @@ Will it be a language model with a dedicated persona? Which language model you w
 - Tech Stack:
 For now, we decided to use these stacks/frameworks for our project:
     - Frontend: 
-        - React, react-dom, Redux, Typescript - frameworks that our team is the most familiar with
+        - React — powerful JS/TS library for building UI based on components
+        - react-dom — simple library for creating routing on the website
+        - Redux — library for making and switching between states on the website
+        - Typescript — language that helps us prevent problems in JS and adds static typing
     - Backend: 
         - FastAPI - simle and asynchronic, has a swagger and can integrate with pydantic
         - PostgreSQL - because our model have a clear and simple structure 

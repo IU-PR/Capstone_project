@@ -1,4 +1,6 @@
-# InnoShop Weekly Task 1
+# InnoShop 
+
+# Weekly Task 1
 
 The task for week 1 of the Capstone Project.
 
@@ -141,3 +143,89 @@ But you need to think more in the value proposition section, provide more explan
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+# Weekly Task 2
+
+The task for week 2 of the Capstone Project.
+
+## Improvements upon the feedback provided on Week 1 Tasks:
+We will also try to improve on what you suggest every week so we will able to deliver a more better product. Here are our plans on how we will improve this week:
+
+ - **Value Proposition**: For the new experience we plan to make the site more robust. The current users must or has noted the bugs in site's functionality like not able to go back the page and not correct displaying of the product selected. For purchasing, the innopoints system will already be there, but in our project we plan to incorporate the real money which university can decide if they want or not.
+ - **Lean Startup Questions**: The real use cases that we defined in our project are limited to students' and university staff's uses. But we will work on it to introduce new use cases too.
+
+**Thanks for the amazing feedback, we are still considering new changes everyday as we are still learning. We will try our best to provide what we have proposed. Our MVP for sure will be a better InnoStore than the current one. But we also plan to add other services as we mentioned above which are students being able to create their profile and get hired by university on projects.**  
+
+**We would love to hear more of your feedback and discussions on our project so that we can improve more. Thanks a lot!**
+
+## 1. Component Breakdown
+
+### 1. User Interface (UI):
+ - Homepage: The main landing page that provides an overview of the website's offerings, featured products, and promotions.
+ - Product Listings: Pages displaying merchandise with relevant details, including images, descriptions, pricing, and availability.
+ - Special Services Section: A dedicated section to explore and access exclusive services offered by the university students.
+ - User Profile: Personalized user accounts to manage student profile, orders, preferences, and track shipment status.
+
+### 2. Merchandise Store Components
+ - Categories and Filters: Allows users to browse products by categories (e.g., clothing, accessories) and apply filters (e.g., size, color) for refined search results.
+ - Product Details: Individual pages displaying comprehensive information about each product, including multiple images, sizing charts, and customer reviews.
+ - Add to Cart and Checkout: Functionality to add selected products to a cart and proceed to the secure checkout process for payment.
+ - Secure Payment Gateway: Integration with trusted payment systems to ensure safe and convenient transactions.
+
+### 3. Special Services Component:
+ - Service Listings: Pages dedicated to showcasing and providing information about various special services available to students, such as event tickets, career services, or academic resources.
+ - Service Details: Detailed information about each service, including eligibility requirements, pricing (if applicable), and registration processes.
+ - Booking and Confirmation: Capability to book services, reserve tickets, or access resources, with automated confirmation or issuance of digital tickets.
+
+### 4. User Management and Account Features:
+ - Registration and Login: User registration process with authentication to create personalized accounts.
+ - User Profile Management: Ability for users to update personal information, manage payment methods, and save preferences.
+ - Order History and Status: Access to order history and the current order status that it is ready to pick up or not.
+
+### 5. Admin Backend:
+ - Inventory Management: Backend system to manage product inventory, update stock levels, and add/remove products.
+ - Analytics and Reporting: Tracking and reporting tools to monitor website performance, sales metrics, and user engagement.
+
+
+## 2. Data Management
+The selection of an appropriate database or data storage solution for an e-commerce website catering to Innopolis University would be determined by the project's unique requirements. In this instance, it is being contemplated to implement MongoDB, which is a NoSQL database suitable for handling flexible and unstructured data. NoSQL databases are particularly advantageous in situations where the data model is subject to change, and fast read/write operations are essential. They offer significant benefits for managing product reviews, ratings, and user-generated content.
+
+Regarding storing and managing images, documents, or other media files related to products or user profiles, it is recommended to adopt a dedicated file storage solution such as Amazon S3, Google Cloud Storage, or a self-hosted alternative. Such services provide scalable and reliable storage to manage file uploads and downloads.
+
+## 3. UI Design
+The UI design is available at: 
+
+
+## 4. Integration and APIs
+In the process of developing the e-commerce website for Innopolis University, the incorporation of various external systems, services, or APIs may be advantageous in augmenting functionality and enhancing user experience, like:
+ - Payment Gateway Integration: Integrating with the popular payment gateway which is Stripe would allow users to make secure online payments using various methods like credit cards, digital wallets, or bank transfers. (At first, we will use innopoints).
+ - Authentication and Single-sign on (SSO) services: Leveraging authentication services like JWT, OAuth or OpenID Connect can streamline user registration and login processes by allowing users to authenticate using their existing accounts from platforms like Google and Facebook.
+ - Email services: We will be using Node mailer and integration with email service providers Send Grid, for email services that go along with the tech stack in the backend which is node js.
+
+
+## 5. Scalability and Performance
+When designing the architecture for the e-commerce website using Node.js, Express, and MongoDB, it's important to consider future growth and scalability aspects. Here are some considerations for a scalable architecture:
+ - Load Balancing: We will use Nginx, a popular web server that can also act as a reverse proxy and load balancer, distributing incoming requests across multiple backend servers.
+ - Horizontal Scaling: We will use Docker for containerization of the application which will allow us to package applications and their dependencies into containers for easy deployment and scaling.
+
+## 6. Security and Privacy
+To ensure the security and privacy of user data in our website, we will consider the following key measures:
+ - Authentication and Authorization: Implement strong authentication methods and role-based access control to verify user identities and control their access to resources.
+ - Payment Security: Utilize secure payment gateways, adhere to PCI DSS compliance, and avoid storing sensitive payment data.
+ - Data Encryption: Encrypt sensitive information at rest and during transit using industry-standard encryption algorithms.
+ - Secure Coding: Follow secure coding practices, regularly update dependencies, and validate user inputs to prevent common web application attacks.
+ - Privacy Compliance: Comply with privacy regulations, obtain user consent, and provide mechanisms for users to manage their personal data.  
+
+By incorporating these measures, we can protect user data, mitigate vulnerabilities, and uphold the security and privacy of our website.
+
+## 7. Error handling and Resillience
+Maintaining a robust error handling strategy is imperative to ensure the dependability and resilience of Innopolis University's e-commerce website. To accomplish this, the system must have a centralized error logging and monitoring mechanism to track and manage mistakes across the application. The use of graceful error recovery techniques such as the circuit breaker pattern for failed external services and retrying of failed operations is necessary to keep the site running smoothly. In addition, informative error messages and logging relevant facts must be employed to effectively catch and handle exceptions. Consistent error response formats must be enforced with appropriate HTTP status codes and informative messages to ensure a proper response to errors. To provide reliable error handling and recovery, comprehensive testing, including fault injection scenarios, must be conducted. Finally, logs must be examined frequently to identify underlying issues and refine error handling practices, thus ensuring continuous improvement of the error handling strategy.
+
+## 8. Deployment and DevOps
+To align with the tech stack of Node.js, Express, and MongoDB, a deployment process and DevOps practices can be implemented. This may include:
+ - Version Control: Utilize Git for source code management and maintain a repository for collaboration and version control.
+ - Continuous Integration and Deployment (CI/CD): Set up CI/CD pipelines using tools like Jenkins, CircleCI, or GitLab CI/CD to automate build, test, and deployment processes.
+ - Environment Configuration: Separate environment-specific configurations using environment variables or configuration files to ensure consistency across different deployment stages (e.g., development, staging, production).
+ - Automated Testing: Incorporate automated testing practices, including unit tests, integration tests, and end-to-end tests, to ensure application reliability and prevent regressions during the deployment process.  
+

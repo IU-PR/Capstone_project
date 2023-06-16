@@ -1,11 +1,11 @@
 # **Bookinng**
-> Desirable room booking service at Innopolis University.
+> _— desirable room booking service for Innopolis University_
 
 # **Week 1**
 
-## **Team Formation and Project Proposal**
+> Team formation and project proposal
 
-### **Team Members**
+## **Team Members**
 
 | **Member**                 | **Telegram**                                  | **E-mail**                           |
 |----------------------------|-----------------------------------------------|--------------------------------------|
@@ -16,9 +16,9 @@
 | Ruslan Bakirov             | [monyter](https://t.me/monyter)               | r.bakirov@innopolis.university       |
 | Anton Skorkin              | [PozhiloyProger](https://t.me/PozhiloyProger) | a.skorkin@innopolis.university       |
 
-### **Value Proposition**
+## **Value Proposition**
 
-#### **The Problem**
+### The Problem
 
 Innopolis University offers students and employees the opportunity to book rooms
 for personal use through the
@@ -60,7 +60,7 @@ You can find the complete survey results in the
 [attached PDF file](/bookinng/Rooms-Booking-Survey-Report.pdf).
 
 
-#### **Solution**
+### Solution
 
 Both of the problems listed above can be solved by a service that provide a
 convenient interface for choosing an available room in the university and a map
@@ -72,7 +72,7 @@ room within a specific time period. Also this service helps to get the position
 of rooms in Innopolis University building having its name/number.
 
 
-#### **Benefits To Users**
+### Benefits To Users
 
 Time saving is the most valuable outcome for users from our service. We expect
 these things to happen after we finish the project:
@@ -87,7 +87,7 @@ these things to happen after we finish the project:
   events planning more pleasant.
 
 
-#### **Uniqueness**
+### Uniqueness
 
 The proposed (tentative) system is better than the existing Microsoft Outlook
 solution of room booking in different aspects:
@@ -103,7 +103,7 @@ easily, that can make this project useful for others companies and took it to
 commercial level.
 
 
-#### **User Impact**
+### User Impact
 
 We believe that successful solution will not only improve users experience and
 their productivity but also will highly affect on the university’s ecosystem
@@ -111,7 +111,7 @@ level. Such unique solutions make ecosystem more innovative and underline the
 IT technologies in our university. 
 
 
-#### **User Testimonials or Use Cases**
+### User Testimonials or Use Cases
 
 Use case of a building map — many shopping malls provides a digital map of the
 building with description and navigation to specific shops that helps customers
@@ -157,7 +157,7 @@ not globalized.
 
 ## **Leveraging AI, Open-Source, and Experts**
 
-### **Artificial Intelligence**
+### Artificial Intelligence
 
 Our team plans to use LLM code generation (GitHub Copilot) to make the process
 of development faster, especially working with Outlook Calendar API, that is,
@@ -169,7 +169,7 @@ will require use of AI, such as suggesting the best place and time for a meeting
 based on a user's preferences and predicting room occupancy at different times
 to help users make better decisions when booking a room.
 
-### **Open-Source**
+### Open-Source
 
 First of all, we are going to use open-source libraries and frameworks during
 development. Particularly, for frontend part we are going to use either Vue.js
@@ -180,7 +180,7 @@ the programming language and stack we will agree on.
 Secondly, we will also open-source all our code, which is not intended to be
 private and may be useful for others.
 
-### **Experts in Relevant Domains**
+### Experts in Relevant Domains
 
 We have reached out to the individual involved with Innopolis current room
 booking system. They have given their approval for our proposal and will be
@@ -195,13 +195,13 @@ and better.
 
 ## **Vision Of The Project**
 
-### **Overview**
+### Overview
 
 We want to create a service for convenient booking rooms. A lot of people have
 difficulties with finding rooms, checking accessibility of a rooms and finally
 booking them. Our project will try to solve these problems.
 
-### **Schematic Drawings**
+### Schematic Drawings
 
 We do not have a clear understanding of which components will we have in our
 system and how will they communicate, but we can share our our current view of
@@ -220,7 +220,7 @@ Additionally, we are considering incorporating a Telegram Bot as an optional
 feature, but we have not yet decided whether to implement it or to ask for help
 from first-year students for its development.
 
-### **Tech Stack**
+### Tech Stack
 
 We have not yet decided about our stack, but we have some ideas. For frontend
 part we are going to use either Vue.js or React.js framework; for backend we
@@ -230,7 +230,7 @@ Spring for Java).
 It is very likely that we will use some kind of data storage. We plan to use
 Postgres as a  DBMS and/or Redis for caching.
 
-### **Anticipating Future Problems**
+### Anticipating Future Problems
 
 We see 2 primary problems we can face in the future:
 
@@ -243,7 +243,7 @@ We see 2 primary problems we can face in the future:
    solve this problem we are going to consult with people in university who are
    responsible for My University portal or can give us advice.
 
-### **Elaborate Explanations**
+### Elaborate Explanations
 
 For now we do not have a clear vision of components that make up our system and
 their relations. But the core parts we are going to implement are the following:

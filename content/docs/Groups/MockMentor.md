@@ -214,7 +214,7 @@ As mentioned above, our development process is divided into three major componen
 
 Below you can see the tasks that we finished this week:
 
-ML - Discussed the process of synchronising with backend. Rough version of text-to-speech and speech-to-text model is done.
-Frontend - made the design for our website and wrote the frontend in Typescript from design made. 
-Backend - Chose the architecture(domen driving design) and got familiarized with documentation of libraries and frameworks. Formed and broke down the tasks.
-Design - made the design for the website, right now the logo is being made
+- ML - Discussed the process of synchronising with backend. Rough version of text-to-speech and speech-to-text model is done.
+- Frontend - made the design for our website and wrote the frontend in Typescript from design made. 
+- Backend - Chose the architecture(domen driving design) and got familiarized with documentation of libraries and frameworks. Formed and broke down the tasks.
+- Design - made the design for the website, right now the logo is being made

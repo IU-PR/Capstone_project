@@ -484,7 +484,7 @@ our users.
 
 ## **Week 2 Questionnaire**
 
-1. **Tech Stack Resources**
+**1. Tech Stack Resources**
 
 > Our team members are actively developing and pumping up their skills by
 > completing online courses and reading classic literature in our field.
@@ -496,14 +496,14 @@ our users.
 > This way we get acquainted with the experience of other successful developers
 > and fill the cones ourselves.
 
-2. **Mentorship Support**
+**2. Mentorship Support**
 
 > 1. We communicate with Andrey Markov, he will help us in case of difficulties
 >    with creating a booking API (backend).
 > 2. We can contact developers of open-source tools we participated in
 >    developing of which in public Telegram groups.
 
-3. **Exploring Alternative Resources**
+**3. Exploring Alternative Resources**
 
 > We feel comfortable with our tech stack and we have the great resources that
 > we hope will fill all the gaps we will encounter during the development
@@ -517,7 +517,7 @@ our users.
 > 5. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 >    as a JavaScript reference
 
-4. **Identifying Knowledge Gaps**
+**4. Identifying Knowledge Gaps**
 
 > Overall, our team consist of several people. And aggregation of their skills
 > and knowledge cover all necessary fields of our project. However, we can
@@ -531,7 +531,7 @@ our users.
 > resolve the problems. As a last resort, we can get support and ready-made code
 > templates from language models like ChatGPT.
 
-5. **Engaging with the Tech Community**
+**5. Engaging with the Tech Community**
 
 > We consulted with development department in Innopolis University and agreed
 > that we are going to use and that is suitable for them for further
@@ -539,13 +539,13 @@ our users.
 > real-world projects maintained by experts, so we can contact them when we
 > need an advice.
 
-6. **Learning Objectives**
+**6. Learning Objectives**
 
 > Obtaining experience of working with our tech stack and experience of working
 > as a team is the main goal of our project. To achieve this goal we …
 > (see next question).
 
-7. **Sharing Knowledge with Peers**
+**7. Sharing Knowledge with Peers**
 
 > Currently, we have several chats, where we share our knowledge about
 > different fields:
@@ -557,8 +557,7 @@ our users.
 > We also a have a common Notion workspace, where we create guides and collect
 > all information and resources we found to be useful.
 
-8. **How have you leveraged AI to compensate for any lacking expertise in your
-   tech stack?**
+**8. How have you leveraged AI to compensate for any lacking expertise in your tech stack?**
 
 > We use ChatGPT and GitHub Copilot to increase the code-writing speed and to
 > save time on reading documentation and searching for frequently used pieces

@@ -4,6 +4,8 @@ bookFlatSection: true
 title: "One Menu"
 ---
 
+{{< expand "Week 1">}}
+
 # **Week #1**
 
 ## **Introduction**
@@ -138,3 +140,96 @@ We plan to use AI in several ways:
 **Feedback**  
 You have a great team and a great project! It is also clear that you have a properly defined vision for the project. The idea of the Capstone is to create a smallest working prototype - therefore, take one menu from one restaurant and try to showcase you technology. Scale down your project to the main features and execute on the main parts.
 {{< /hint >}}
+
+{{< /expand >}}
+
+
+{{< expand "Week 2">}}
+
+# **Week #2**
+
+## **Introduction**
+
+This week we were mainly focused on choosing the tech stack of the project and robust architecture design. This is important, since if we put “garbage in” now, we will get “garbage out” in future. Also, since we designed the project architecture, assigned the roles and finished all the preparations, we started our working pipeline centralizing our code and issues, assigning tasks for our weekly sprints and reviewing our code on GitHub.
+
+## **Week 2 questionnaire**
+
+**1. Tech Stack Resources: Are you utilizing any project-based books that specifically cover your tech stack and help you build your project?**
+
+* The art of unchangeable architecture
+* Laws of UX (Using Psychology to Design Better Products & Services) by Jon Yablonski
+* Practical Statistics for Data Scientists by Peter Bruce, Andrew Bruce
+
+**2. Mentorship Support: Do you currently have a mentor actively involved in your project?**
+
+* To design a reliable architecture, we contacted our fellow expert Andrei Markov for help. His suggestion was to separate our project into several loosely connected parts, in order to increase reliability, readability and scalability. During the meeting, we also made some draft designs and got a suggestion to use GraphQL for the API design. 
+
+**3. Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack?** 
+
+* We found reading documentation being the most useful resource along the way. So, [Flask documentation](https://flask.palletsprojects.com/en/2.3.x/), [Pyrogram documentation](https://docs.pyrogram.org/) and [GraphQL](https://graphql.org/) were the main sources of information for this week. Additionally, we watched some videos on [youtube](https://youtube.com), but there is nothing special about them.
+
+**4. Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking?**
+
+* We feel that the whole project is going to be a new experience for us. But we think that ML and AI in general would be the hardest part of our project. To fill this gap of knowledge we are going to research the ways to implement our ideas in articles, seek suggestions from experts in the field and, more probably, find open-source solutions of similar problems. 
+
+**5. Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack?**
+
+* For now, we don’t have problems with implementation in our project. The idea of the project also seems straightforward. Additionally, the tech stack is well documented and popular, so we do not expect to have many problems with it. Thus, we are not engaging with the community, at least now. But as we progress and expand our tech stack, we might encounter irresolvable issues due to poor documentation, lack of knowledge, etc and consider community guidance as a way of resolving.
+
+**6. Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week?**
+
+* For this week our main objective was to familiarize ourselves with the tech stack we have chosen. This was not tracked anyway, instead during weekly discussion, we shared our experience and observations, set up GitHub issues for future development and distributed the tasks.
+
+**7. Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates?**
+
+* We communicate in several ways: by telegram chat and on offline meetings. On telegram, we usually discuss small topics and a plan for offline meetings. To choose the time for a meeting, we use [when2meet](https://www.when2meet.com). Offline gathering helps us to better communicate with each other and have more productive discussions about the project.
+
+**8. How have you leveraged AI to compensate for any lacking expertise in your tech stack?**
+
+* Our team decided not to use AI for this purpose, since it is better to rely on the experience of us, our friends and our experts. 
+
+
+## **Tech Stack Selection and Team Allocation**
+
+Our project can be divided into three components: backend, frontend, and ML. 
+
+* For the backend we will use Python as it is easy for development and we are experienced with it. We will use the Flask framework for the server part, and Pyrogram for the telegram bot. To store the data about users, cafes, etc., we will use MongoDB. As for the API design, we will use GraphQL due to its ease and functionality.
+
+* For the ML part, we have not decided yet, since this topic requires additional research. Certainly, we are going to use python for ML-related tasks and API to connect it with the rest of the project, but the details are a bit tricky.
+
+* For frontend, we have chosen the React framework due to its simplicity and popularity. Figma will be used to make the UI/UX design of our product. 
+
+* Finally, GitHub CI/CD will be used to set up the process of automatic testing of our code for errors and style issues. For deployment we will utilize Docker.
+
+**Team allocation Table**
+
+| Team Member      | Track                               | Responsibilities                    |
+|------------------|-------------------------------------|-------------------------------------|
+| Timofey Sedov    | FullStack                           | Track progress of the team, assign tasks, work on frontend + backend part of the application       |
+| Nikita Bogdankov | Frontend, Design                    | UI/UX design of the application, frontend development                                              |
+| Grigorii Fil     | Backend                             | Architecture design, Database design, backend development                                      |
+| Pavel Nestiurkin | ML                                  | Database design, Analytics, Research |
+
+
+## **Architecture Design**
+
+In this project we are going to have a robust architecture, which will allow us to separate it into microservices. For customers it means the reliability of our service and for us it means easy maintenance of the source code part. 
+
+**Schematic drawing of the components is shown here:**
+
+![Our architecture](/Onemenu/Architecture.svg)
+
+As for data management we plan to use the PyMongo library to access our Mongo database. For UI/UX design we are already using Figma. Since our project should provide a seamless experience from the very beginning till the end of the customer interaction, we plan to integrate some payment APIs, but we might not be able to connect it during the MVP state of the project. Talking about scalability, because we plan to use microservices architecture, we shall not encounter problems with scalability. As for security, since we do not have any authorization (telegram will provide it for us), the only issue with security we might encounter is data leaks from the MongoDB. We will try to follow all of the best practices to ensure database security. Security of the money transactions is also crucial, but as we said previously, we might not be able to introduce that functionality when the project is in the MVP state. To catch and fix errors in the project we plan to use the Sentry monitoring system. And, for the DevOps part, we plan to set up the rules and CI/CD on GitHub.
+
+## **Weekly Progress Report**
+
+* First of all, we distributed roles in our project between team members, so that everyone knows their responsibilities. We resolved the main issues we had about the architecture of the project. Some of our team members had different visions, but, finally, we agreed on one of the variants. 
+
+* Secondly, we identified the final tech stack we are going to use in our application and started working on the UX design. 
+
+* Lastly, we scaled down the vision of our project. As a result, we created this state diagram to set the flow of our application:
+
+![Our flow](/Onemenu/flowDiagram.svg)
+
+
+{{< /expand >}}

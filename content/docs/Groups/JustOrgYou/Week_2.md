@@ -29,18 +29,18 @@ Delete this section when finished, just for progress tracking
         scalability aspects when designing the architecture. Ensure that your
         application can handle increasing user loads and data volumes without
         compromising performance.
-  - [ ] **Security and Privacy**: Incorporate appropriate security measures into your
+  - [x] **Security and Privacy**: Incorporate appropriate security measures into your
         architecture to protect user data and safeguard against potential
         vulnerabilities. Consider authentication, authorization, encryption, and
         other relevant security practices.
   - [ ] **Error Handling and Resilience**: Plan for handling errors and exceptions to
         maintain a reliable and resilient application. Define strategies for error
         logging, monitoring, and graceful error recovery.
-  - [ ] **Deployment and DevOps**: Consider the deployment process and DevOps
+  - [x] **Deployment and DevOps**: Consider the deployment process and DevOps
         practices that align with your chosen tech stack. Automate deployment tasks,
         implement version control, and establish a robust development workflow.
-- [ ] Choose tech stack
-  - [ ] Evaluate the requirements and objectives of the project
+- [x] Choose tech stack
+  - [x] Evaluate the requirements and objectives of the project
   - [ ] Consider important factors (e.g. performance, security, scalability,
         expertise of team members)
   - [ ] Determine most suitable technologies
@@ -56,7 +56,7 @@ Delete this section when finished, just for progress tracking
         yet, have you considered seeking one? How do you believe having a mentor
         could contribute to the success of your project? Remember, having an
         experienced mentor that can guide you and your team is your responsibility.
-  - [ ] **Exploring Alternative Resources**: In addition to project-based books, what
+  - [x] **Exploring Alternative Resources**: In addition to project-based books, what
         other resources have you explored to expand your understanding of your tech
         stack? This could include online courses, video tutorials, documentation, or
         any other sources that have been valuable in filling knowledge gaps. Please,
@@ -84,10 +84,10 @@ Delete this section when finished, just for progress tracking
   - [x] **Laveraging AI**:How have you leveraged AI to compensate for any lacking expertise in your
         tech stack? Have you utilized AI-powered tools or platforms to expedite the
         process of acquiring knowledge and expertise in your tech stack?
-- [ ] Tech Stack and Team Allocation
-  - [ ] How did you ensure that each team member was effectively assigned to
+- [x] Tech Stack and Team Allocation
+  - [x] How did you ensure that each team member was effectively assigned to
         appropriate tasks and responsibilities within the project?
-  - [ ] Provide detailed explanation of how team member responsibilities
+  - [x] Provide detailed explanation of how team member responsibilities
 
 ## Architecture
 
@@ -97,29 +97,13 @@ Delete this section when finished, just for progress tracking
 
 ### Data Management
 
-#### Data Storage
+We are developing open source app, so we strongly respect user privacy. Main
+functionality is available without network access, since all data is stored
+locally on user device. For this purpose we are going to use NoSQL solutions
+Isar or Hive as supplement to the plain text files. Server part only perform ML
+actions, so we store credentials and user specific data in MongoDB. Temporal
+storage is done in memory.
 
-One of the main goals of our project is to be as future proof and open as
-possible, thus all data related to tasks will be stored in plain text files.
-Initially we will be using [Org Mode](https://orgmode.org/index.html) format for
-that but with the possibility of adding new modules to support other file types
-or even databases.
-
-And the main issue with plain text storage is not the size of files and thus
-speed of their processing (as our calculations suggest even having 10,000 tasks
-in a single file which is a really huge number, we would occupy only a few MB)
-but file edits by external sources while the app is running and conflicting
-versions of the same file.
-
-Usually this kind of problems are handled by DBMS, however, we don't want to use
-them for the reasons described earlier. To solve this issue we are planning to
-implement a smart merging tool for tasks. It would not only be useful inside our
-project, but also provide a handy way to resolve synchronization conflicts while
-using multiple devices + some way to synchronize them (e.g. cloud storage like
-DropBox or peer to peer solutions like Syncthing).
-
-As described earlier, main functionality is available without network access, since all data is stored locally on user device. For data that is not tasks we are going to use NoSQL solutions Isar or Hive. Server part only perform ML actions, so we store credentials and user specific data in MongoDB. 
-Temporal storage is done in memory.
 #### Data Storage
 
 One of the main goals of our project is to be as future proof and open as
@@ -143,8 +127,8 @@ DropBox or peer to peer solutions like Syncthing).
 
 #### Task Data Model
 
-`Task` is the the smallest core unit in our application. As an inspiration and
-guidlines we used [Org Mode's TODO item](https://orgmode.org/manual/TODO-Items.html).
+`Task` is the smallest core unit in our application. As an inspiration and
+guidelines we used [Org Mode's TODO item](https://orgmode.org/manual/TODO-Items.html).
 It contains the following fields(note that here `field_name: Type` notation is
 used):
 
@@ -232,16 +216,26 @@ Note that the following types are used as supporting ones:
 - `keywords: Collection[Keywords]` are [per file keywords](https://orgmode.org/manual/Per_002dfile-keywords.html).
 
 ### UI Design
-You can view our workflow and design [mockups](https://www.figma.com/file/gc679jQhRxzZi29xVcwOO0/ui-workflow?type=design&node-id=0%3A1&t=VvQUyZVxJ5F6pY9s-1).
+
+You can view our workflow and design
+[mockups](https://www.figma.com/file/gc679jQhRxzZi29xVcwOO0/ui-workflow?type=design&node-id=0%3A1&t=VvQUyZVxJ5F6pY9s-1).
 
 Here are main points and decisions of our design:
-- Seamless and Non-disruptive UI: Design a distraction-free interface for adding tasks without interrupting workflow.
-- Simplified and Efficient Sorting Process: Optimize task sorting with drag-and-drop options.
-- Consistent Cross-Platform Experience: Ensure a consistent UX across desktop and mobile platforms.
-- Offline Functionality and Reliability: Allow offline task management with automatic syncing.
-- Mobile Inbox Processing: Design a mobile-friendly interface for efficient task processing on mobile devices.
-- Performance and Speed: Optimize app performance for smooth and responsive user experience.
-- Integration-Friendly Design: Enable integration with various task management systems and offer import/export options.
+
+- Seamless and Non-disruptive UI: Design a distraction-free interface for adding
+  tasks without interrupting workflow.
+- Simplified and Efficient Sorting Process: Optimize task sorting with
+  drag-and-drop options.
+- Consistent Cross-Platform Experience: Ensure a consistent UX across desktop
+  and mobile platforms.
+- Offline Functionality and Reliability: Allow offline task management with
+  automatic syncing.
+- Mobile Inbox Processing: Design a mobile-friendly interface for efficient task
+  processing on mobile devices.
+- Performance and Speed: Optimize app performance for smooth and responsive user
+  experience.
+- Integration-Friendly Design: Enable integration with various task management
+  systems and offer import/export options.
 
 ### Integration and APIs
 
@@ -259,10 +253,12 @@ Here are some techniques to achieve scalability and optimize performance, that w
 
 ### Security and Privacy
 
-Our team is very sensitive to security and privacry issues.
-Firstly, our Web client would allow connections only via HTTPS, which will ensure security of transferring data via Internet.
-Secondly, we will use encryption and hashing algorithms for saving user passwords, which should help avoid data leakage in case of hacking.
-As for our servers, we will use ssh keys for connection, denying use of passwords, as it is vulnerable to attaks.
+Our team is very sensitive to security and privacry issues. Firstly, our Web
+client would allow connections only via HTTPS, which will ensure security of
+transferring data via Internet. Secondly, we will use encryption and hashing
+algorithms for saving user passwords, which should help avoid data leakage in
+case of hacking. As for our servers, we will use ssh keys for connection,
+denying use of passwords, as it is vulnerable to attaks.
 
 ### Error Handling and Resilience
 
@@ -285,26 +281,60 @@ By considering these aspects within our microservices-like architecture, we effe
 
 ### Deployment and DevOps
 
-Deployment and DevOps:
+For the deployment and DevOps practices of our project, we will follow a set of
+strategies and use appropriate tools to ensure smooth and efficient deployment
+processes. Some key considerations and actions include:
 
-For the deployment and DevOps practices of our project, we will follow a set of strategies and use appropriate tools to ensure smooth and efficient deployment processes. Some key considerations and actions include:
+1. **Continuous Integration and Deployment**: We will implement a continuous
+   integration (CI) and continuous deployment (CD) pipeline to automate the
+   build, testing, and deployment processes. This pipeline will help us
+   streamline development workflows and ensure that new features and bug fixes
+   are deployed quickly and reliably.
+2. **Containerization**: We will utilize containerization technology, such as
+   Docker, to package our application and its dependencies into lightweight and
+   portable containers. This approach enables consistent deployment across
+   different environments and simplifies the management of dependencies.
+3. **Version Control and Collaboration**: We will utilize version control
+   systems like Git to manage our source code, track changes, and facilitate
+   collaboration among team members. By following best practices for branching,
+   merging, and code reviews, we can ensure a robust development workflow and
+   maintain code quality.
+4. **Automated Testing**: We will implement automated testing practices, such as
+   unit tests, to validate the functionality and reliability of our application.
+   Automated testing allows us to catch bugs early, ensure code stability, and
+   support confident deployments.
 
-1. **Continuous Integration and Deployment**: We will implement a continuous integration (CI) and continuous deployment (CD) pipeline to automate the build, testing, and deployment processes. This pipeline will help us streamline development workflows and ensure that new features and bug fixes are deployed quickly and reliably.
-2. **Containerization**: We will utilize containerization technology, such as Docker, to package our application and its dependencies into lightweight and portable containers. This approach enables consistent deployment across different environments and simplifies the management of dependencies.
-3. **Version Control and Collaboration**: We will utilize version control systems like Git to manage our source code, track changes, and facilitate collaboration among team members. By following best practices for branching, merging, and code reviews, we can ensure a robust development workflow and maintain code quality.
-4. **Automated Testing**: We will implement automated testing practices, such as unit tests, to validate the functionality and reliability of our application. Automated testing allows us to catch bugs early, ensure code stability, and support confident deployments.
-
-By incorporating these deployment and DevOps practices, we aim to achieve efficient, reliable, and scalable deployments while maintaining a robust development workflow and ensuring the stability and performance of our application.
+By incorporating these deployment and DevOps practices, we aim to achieve
+efficient, reliable, and scalable deployments while maintaining a robust
+development workflow and ensuring the stability and performance of our
+application.
 
 ## Tech Stack
 
 ### Requirements and Objectives of the Project
 
-We are aimed to share experience in different stacks and learn new. But main objective is to create task management system that keep GTD principles in mind. This solves not only our personal pain sources, but also a wide community of people.
+As described earlier, our project is a task management tool consisting of
+several modules. Thus the main goal is to provide nice user experience while
+managing tasks in a manner similar to GTD.
+
+Project objectives:
+
+- Future-proof => open-format local data storage
+- AI-powered to automate routine tasks
+- Performance and responsiveness
+- Open source and easily extensible with new modules
 
 ### Chosen Technologies
 
-For app we choosed Flutter, since it is crossplatform and declarative. Todo library designed on Rust because of more functional paradigm, speed and no runtime enviroment. Runtime may lead to problems on cross platform app execution. Backend is using FastAPI, very extensible and easy to maintain fraimwork. ML part using transformers and a couple of open source models.
+For app we chose:
+
+- Flutter for UI applications, since it is crossplatform and declarative.
+- Rust for Todo library, since it's rich type system which is suitable for such data
+  processing tasks and no runtime environment requirements, which leads to
+  better cross-platform developing
+- Python with FastAPI for Backend, since it's very extensible and easy to maintain
+  framework.
+- Python for ML, since it has the biggest ML community thus a lot of models and libraries
 
 ## Questionnaire
 
@@ -313,65 +343,103 @@ For app we choosed Flutter, since it is crossplatform and declarative. Todo libr
    please provide the names of these books (name at least 3). How do you
    anticipate utilizing these materials to enhance your knowledge and expertise
    in your tech stack?
-   > We use variaty of sources for education. Not only books, but to name a few "Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)" by Rober Martin
    > **Answer**:
    >
    > - Book [The Rust Programming Language](https://doc.rust-lang.org/stable/book/)
-   >   provides great in-depth introduction into this language. Community
-   >   considers it as one of the best starting points. Thus we expect to learn
-   >   everything from basics to design patterns, that are specific for the
-   >   Rust.
-   > - "Clean Architecture: A Craftsman's Guide to Software Structure and Design (Robert C. Martin Series)" by Rober Martin
-   > - "Getting Things Done: The Art of Stress-Free Productivity" by David Allen
+   > - Clean Architecture by Robert C. Martin
+   > - Beginning App Development with Flutter: Create Cross-Platform Mobile Apps
+   >   1st ed. Edition by Rap Payne
 2. **Mentorship Support**: Do you currently have a mentor actively involved in your
    project? If yes, kindly share the name of your mentor and explain how their
    guidance has positively influenced your project. If you don't have a mentor
    yet, have you considered seeking one? How do you believe having a mentor
    could contribute to the success of your project? Remember, having an
    experienced mentor that can guide you and your team is your responsibility.
-   > We took a cource of Aleksandr Votyakov "9 lists" where author describes customized GTD setup. This helps a lot to focus on real problems
+   > **Answer**:
+   > Currently we don't have a mentor who is actively involved into the project
+   > development because we consider ourselves quite experienced in
+   > building applications. However, most members of our team took course aimed
+   > to provide extensive knowledge and modern approaches for implementing task
+   > management system that originates from the GTD. The author, Alexandr
+   > Votyakov, actively communicates with all the members of the course, thus
+   > any our questions regarding task management can be addressed to him.
 3. **Exploring Alternative Resources**: In addition to project-based books, what
    other resources have you explored to expand your understanding of your tech
    stack? This could include online courses, video tutorials, documentation, or
    any other sources that have been valuable in filling knowledge gaps. Please,
    name at least 3 resources
-
+   > **Answer**:
+   >
    > - [Boring flutter show](https://www.youtube.com/watch?v=yr8F2S3Amas&list=PLOU2XLYxmsIK0r_D-zWcmJ1plIcDNnRkK)
-   > - [FastAPI docs](https://fastapi.tiangolo.com/)
-   > - [Flutter docs](https://docs.flutter.dev/), [Rust docs](https://www.rust-lang.org/learn)
-   > - [No Boilerplate](https://www.youtube.com/@NoBoilerplate) is a great YouTube channel that has a lot of videos
-   >   about rust, for example consider [Rust tests are MAGIC](https://youtu.be/JIvKgSyvtxI?list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP)
-
+   > - [FastAPI docs](https://fastapi.tiangolo.com)
+   > - [Flutter docs](https://docs.flutter.dev)
+   > - [No Boilerplate](https://www.youtube.com/@NoBoilerplate) is a great
+   >   YouTube channel that has a lot of videos about rust, for example consider
+   >   [Rust tests are MAGIC](https://youtu.be/JIvKgSyvtxI?list=PLZaoyhMXgBzoM9bfb5pyUOT3zjnaDdSEP)
 4. **Identifying Knowledge Gaps**: Are there any specific areas within your tech
    stack where you or your team feel there are knowledge gaps or expertise is
    lacking? If so, how do you plan to address these gaps and ensure a
    well-rounded understanding of your chosen technologies? Please name the tech
    stack division in your team and outline how are you planning to deal with
-   design approaches, flutter, rust
-   > Our team used open resources to close gaps and continue developing skills to achieve good project quality
+   **knowledge gaps**
+
+   > **Answer**: Our team uses open resources to close gaps and continues
+   > developing skills to achieve good project quality. For instance resources
+   > covered in questions 1 and 3.
+   >
+   > Tech Stack Division:
+   > | Person | Responsibility|
+   > |--------------------|---------------|
+   > | Alexandr Ragulin | Rust library |
+   > | Nikita Gurniak | Flutter app |
+   > | Diana Tomilovskaya | Flutter app |
+   > | Stepan Tsepa | Python backend|
+   > | Vladislav Urzhumov | AI module |
+
 5. **Engaging with the Tech Community**: Have you actively engaged with the broader
    tech community to seek guidance or learn from experienced professionals in
    your tech stack? This could involve participating in online forums and groups
    (telegram, discord or any other platform), attending local meetups (Kazan,
    Innopolis)? Do you have means to engage experts into critical tech stack
    problems through professional networks?
-   > We participated in virtual meetups with our mentor (Aleksandr Votyakov). Since technical stack was not problem yet, we do by our own.
+   > **Answer**:
+   >
+   > - [Rust discord community](https://discord.com/invite/rust-lang-community)
+   > - One of our team members is a scala developer and participated in
+   >   [It's Tinkoff scala meetup](https://meetup.tinkoff.ru/event/its-tinkoff-java-to-scala-meetup/)
+   >   scala is a functional language, thus knowledge of it contributes to
+   >   better Rust understanding
+   > - ???
 6. **Learning Objectives**: What specific learning objectives have you set for
    yourself and your team in relation to your tech stack this week? How do you
    plan to achieve these objectives, and what strategies or resources will you
    employ to deepen your understanding?
-   > We want to evolve as a developers and learn new technical aspects of known technologies and new ones. So, project based learning is perfect choice!
+   > **Answer**:
+   > We want to grow as developers and learn new technical aspects of already known
+   > and new technologies. So, project based learning is perfect choice!
+   > Flutter, Rust, AI models and python backend development are our main areas
+   > of interest in terms of this project. As mentioned earlier we plan to learn
+   > technical skills by utilizing different resources.
 7. **Sharing Knowledge with Peers**: How have you been sharing your knowledge and
    expertise with your teammates? Have you organized any knowledge-sharing
    sessions or discussions to facilitate the exchange of insights and
    experiences related to your tech stack?
-   > We organize peer to peer and group meetings. Share our knowledge and experience. And do review for MR with helpful comments
-8. **Leveraging AI**:How have you leveraged AI to compensate for any lacking expertise in your
-   tech stack? Have you utilized AI-powered tools or platforms to expedite the
-   process of acquiring knowledge and expertise in your tech stack?
    > **Answer**:
-   > The tech stack has no need to be compensated by AI, however the user's experience can be improved using AI. 
-   > Artificial Intelligence algorithms tend to be useful in task classification and context understanding. 
-   > Thus, JustOrgYou's AI part is aimed to classify tasks and suggest the best task-directory distribution 
-   > due to context. Also, AI algorithms may warn about similar or closely-related tasks to help user avoid duplication.
+   > We organize peer to peer and group meetings to share our knowledge and
+   > experience. In our workflow we also utilize merge requests to discuss any
+   > issues and share new ideas.
+8. **Leveraging AI**:How have you leveraged AI to compensate for any lacking
+   expertise in your tech stack? Have you utilized AI-powered tools or platforms
+   to expedite the process of acquiring knowledge and expertise in your tech
+   stack?
+   > **Answer**:
+   > Developer(our) experience has been drastically improved since LLMs were
+   > released. For example, GitHub Copilot and [you.com](you.com) are the 2 most
+   > used AI technologies in our team.
+   > Also the user's
+   > experience can be improved using AI. Artificial Intelligence algorithms
+   > tend to be useful in task classification and context understanding. Thus,
+   > JustOrgYou's AI part is aimed to classify tasks and suggest the best
+   > task-directory distribution due to context. Also, AI algorithms may warn
+   > about similar or closely-related tasks to help user avoid duplication.
    > Natural Language Processing plays a huge role in the current task.

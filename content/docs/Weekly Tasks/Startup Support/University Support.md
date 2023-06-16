@@ -2,8 +2,8 @@
 weight: 1
 ---
 # **University Support**    
-
-## **Supporting Young Innovative Students 🎓**
+---
+## **Supporting Young Innovative Students**
   
 Innopolis University, a renowned institution known for its focus on technology and innovation, is not only dedicated to academic excellence but also strives to empower and support young entrepreneurs in their pursuit of turning their innovative ideas into successful startups. By providing coaching, expertise across different domains, and invaluable networking opportunities, Innopolis University plays a vital role in nurturing the next generation of entrepreneurial leaders.
 

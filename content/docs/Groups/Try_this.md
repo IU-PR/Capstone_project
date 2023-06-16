@@ -141,5 +141,35 @@ Core features: outfit analysis, recommendation and try-on.
 2. Recommendation - depends on previous step (the same algorithm)
 3. Try-on - CV model for segmentation and object detection.
 
+{{< hint danger >}}
+**Feedback**  
 
+**Value Proposition**
+
+Very Good Explanation.
+
+**Lean startup question**
+
+
+In the Targeted user section, you named a lot of numbers for salaries and ages. How did you came up with those numbers? What was the inclusion criteria?
+
+
+
+**AI** 
+Good
+
+**Vision Of The Project**
+Good
+
+**Overall**
+The report is good. but don’t use big words like 
+>Try this is a mobile app that revolutionizes personal style
+
+You don’t have results yet. Also have you done any market research? I think it will be very helpful.
+
+5/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
 

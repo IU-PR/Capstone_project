@@ -255,7 +255,12 @@ By incorporating these deployment and DevOps practices, we aim to achieve effici
    sessions or discussions to facilitate the exchange of insights and
    experiences related to your tech stack?
    > **Answer**:
-8. **Laveraging AI**:How have you leveraged AI to compensate for any lacking expertise in your
+8. **Leveraging AI**:How have you leveraged AI to compensate for any lacking expertise in your
    tech stack? Have you utilized AI-powered tools or platforms to expedite the
    process of acquiring knowledge and expertise in your tech stack?
    > **Answer**:
+   > The tech stack has no need to be compensated by AI, however the user's experience can be improved using AI. 
+   > Artificial Intelligence algorithms tend to be useful in task classification and context understanding. 
+   > Thus, JustOrgYou's AI part is aimed to classify tasks and suggest the best task-directory distribution 
+   > due to context. Also, AI algorithms may warn about similar or closely-related tasks to help user avoid duplication.
+   > Natural Language Processing plays a huge role in the current task.

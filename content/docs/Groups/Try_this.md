@@ -173,3 +173,17 @@ You don’t have results yet. Also have you done any market research? I think it
 _Feedback by Moofiy_
 {{< /hint >}}
 
+# **Week #2**
+### **Tech Stack Selection**
+Python (openCV, PyTorch) for ML and CV part (recommendations and try-on)
+Flask for backend - choice is based on team member's expirience
+Flutter for frontend - choice is based on team members' expirience
+### **Architecture Design**
+1. **Component Breakdown**: we decided to break the project into following modules: backend, frontend, ml. Frontend is responsible for visual representation. Backend is responsible for linking frontend with ml and also manages databases. ML module is used for imlementing key features of the app (recommendations, try-on, outfit analysis).  
+2. **Data Management**: Data will be stored in databases: MongoDB for short-term data (sessional data) and PostgreSQL for permanent data (users history).
+3. **User Interface (UI) Design**:  [design sketch](https://www.figma.com/proto/YOeV2ORkvcHW8iEjb6aaiF/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?node-id=249-502&starting-point-node-id=249%3A461)
+4. **Integration and APIs**:  We decided to make a standard request body for the API, which will always contain two fields: payload and message. First of all, the developer will take a look on the status code of the response, to find out, if it was performed successfully, or not. In case of any errors (for example, 400 ‘Bad request’), there will be an informative explanation in the message field of what exactly went wrong. If everything is fine, the developer will get a payload, which is strictly standardized according to the Swagger API. The backend API will have two internal services: machine learning (ML) and databases (DB). ML service will be responsible for communication with the ML project, while DB service will provide methods to encapsulate logic to access database. Each service is called at the endpoint handler. To deploy the backend we will use docker-compose, which will combine everything together.
+5. **Scalability and Performance**: We are committed to anticipating future growth and ensuring scalability in terms of computing power and throughput. We will employ parallelism and other techniques to increase capacity and accommodate higher user loads and data volumes without compromising performance.
+6. **Security and Privacy**: We prioritize the security of user data and will incorporate measures into our architecture. This includes implementing authentication, authorization, encryption, and other relevant security practices. We will ensure that data is protected through protocols like HTTPS and adhere to careful storage and data access policies to safeguard against vulnerabilities and unauthorized access.
+7. **Error Handling and Resilience**:  Our strategies include implementing error logging mechanisms, continuous monitoring, and establishing graceful error recovery processes. To prevent errors, we employ server-side validations, conduct testing, and monitor the application's performance.
+8. **Deployment and DevOps**: Deploy will be done using Docker through kubernetes. 

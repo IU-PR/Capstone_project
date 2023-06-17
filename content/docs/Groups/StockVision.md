@@ -2,13 +2,6 @@
 
 We are doing a project called Stock Vision. The aim of this project is to develop an ML tool for traders that provides additional analysis and predictions for stock market / currency pair movements.
 
-{{< hint danger >}}
-
-**Feedback**  
-Your project description is concise and well-written. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
-As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of potential reader. 
-{{< /hint >}}
-
 ---
 
 # **Week #1**
@@ -102,3 +95,92 @@ The purpose of our project is to develop a ML tool for traders that provides add
 Hi, this is a very interesting and potentially technically complicated project. I think it will be challenging to finish the project in confines of the Capstone as it currently stated. Consider scaling it down to a creating an app that does alpha/trading signal generation on one FX pair. Choose the platform from which you will be getting the FX data and try to focus on tech side of the project - to show that you can do it with one currency pair. Overall, I think this is a very in-demand product as lots of retail traders want more reliable signal apps. 
  
 {{< /hint >}}
+
+# **Week #2**
+## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
+
+### **Architecture Design**
+
+Designing a robust and scalable architecture is crucial for the long-term success and maintainability of your software project. This week, focus on defining the architecture that will serve as the backbone of your application. Consider the following aspects:
+
+### **Component Breakdown**:
+- **Mobile App:** This will act as the user interface developed in flutter. The user should be able to login and see the signals for the various currency pairs. Through this app the user can give feedback on the the predictions.
+
+- **Authentication Service:** This is responsible for verifying and authorizing user access to the various resources on the backend.
+
+- **Notification Service:** This is responsible for notifying the listening users when there is a new signal for a currency pair in their watchlist.
+
+- **Consumer Service:** This is in charge of reading messages from the message broker and persist into a storage
+
+- **Prediction Service:** This is a machine learning algorithm that generates the signal and pushes it to a rabbitmq service to be consumed by the consumer service.
+
+
+
+### **Data Management**:
+- **Database:** Firebase/ Firestore
+### **User Interface (UI) Design**: 
+- [Figma Link](https://www.figma.com/file/IXQhGgoVPjEqvQopgBl0FD/Capstone-Project?type=design&node-id=0-1&t=ioboFNrxKdD4CYdt-0)
+
+### **Integration and APIs**:
+
+- We will use [alphavantage](https://alphavantage.co/) for collecting the data and getting current market data that will be used to periodically train the model.
+
+1. **Scalability and Performance**: Anticipate future growth and consider scalability aspects when designing the architecture. Ensure that your application can handle increasing user loads and data volumes without compromising performance.
+
+2. **Security and Privacy**: Incorporate appropriate security measures into your architecture to protect user data and safeguard against potential vulnerabilities. Consider authentication, authorization, encryption, and other relevant security practices.
+
+3. **Error Handling and Resilience**: Plan for handling errors and exceptions to maintain a reliable and resilient application. Define strategies for error logging, monitoring, and graceful error recovery.
+
+4. **Deployment and DevOps**: Consider the deployment process and DevOps practices that align with your chosen tech stack. Automate deployment tasks, implement version control, and establish a robust development workflow.
+
+5. **Scalability:** We are going to use kubernetes, so each service will be described with configuration file, which provides simple joining/excluding models and services to cluster, so the most scalability problems easily resolved.
+   
+6. **Security:** We are going to use JWT for auth and typical solutions for storing passwords. We will use Yandex Cloud to deploy, and make an API Gateway for clients so no inner services will be available from outside. (not mvp) Testing/Stable versions and enviroments.
+7. **Error Handling:** (not mvp) Grafana
+8. **DevOps:** We have already setup a Gitlab CI agent in kubernetes in Yandex Cloud, next steps are to configure each service and setup apk building.
+
+
+*Mentorship Support: Do you currently have a mentor actively involved in your project? If yes, kindly share the name of your mentor and explain how their guidance has positively influenced your project. If you don’t have a mentor yet, have you considered seeking one? How do you believe having a mentor could contribute to the success of your project? Remember, having an experienced mentor that can guide you and your team is your responsibility.*
+
+**We don't have a mentor yet, but we are considering an option to ask our AML TA (Imad Bekkouch) to guide us with the model. Having a mentor will simplify our work and allow us avoid potential**
+
+*Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources*
+
+**We are not using books, but online courses to gain knowledge:**
+1. DL Course (understand neural networks to be able to build the prediction model): https://www.udemy.com/course/the-complete-neural-networks-bootcamp-theory-applications/
+2. ML Ops: https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK
+3. Flutter course: https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/
+
+*Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with knowledge gaps*
+
+**We have a knowledge gap in creating the actual model, because we are not sure about the exact architecture of the model, and how well it's going to perform. We are not using advanced financial mathematics, like stochastic calculus, which is a common practice in big corporations.
+Furthermore, we've never setup clusters, which provide several enviroments, as well as we’ve never handled error logging and metrics collection.**
+
+*Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?*
+
+**This week, we have been studying ML and MLOps (Courses 1, 2). Also, we've been taking a DataCamp course to preprocess the data that we are getting from the Forex endpoints. Next week, we will start developing the Flutter app.**
+
+*Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates? Have you organized any knowledge-sharing sessions or discussions to facilitate the exchange of insights and experiences related to your tech stack?*
+
+**We hold meetings every week to ensure that everybody is staying on their track. We don't follow Agile yet, since we haven't started working on the project heavily, but we are planning to have more frequent meetings from the next week.**
+
+*How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?*
+
+**We extensively use generative AI like ChatGPT to help us gain the expertise we are lacking.**
+
+## **Tech Stack:**
+
+**Frontend**: Flutter <br>
+**ML:** pytorch & keras <br>
+**Backend**: NodeJS, Firebase <br>
+**DevOps:** Docker, RabbitMQ, kubernetes <br>
+
+## **Role Distribution:**
+
+**Danil Timofeev** - UI/UX Design / Flutter Developer <br>
+**David Eje** - ML Engineer <br>
+**Dima Batalov** - Backend Developer / DevOps <br>
+**Daria Lebedeva** - Graphic Design / Data Analyst <br>
+**Nikita Zorin** - Flutter Developer <br>
+
+We took each team members' skills and preferences and distributed responsibilities accordingly. All of our team members have the necessary skills to complete the given tasks.

@@ -8,9 +8,9 @@ title: "To be announced - Identification of compounds"
 
 # **Week #1 Progress report**
 
-### **Team Formation and Project Proposal**
+## **Team Formation and Project Proposal**
 
-#### **Team Members**
+### **Team Members**
 
 | Team Member        | Telegram ID | Email Address                     |
 |--------------------|-------------|-----------------------------------|
@@ -18,29 +18,29 @@ title: "To be announced - Identification of compounds"
 | Vitaly Mahonin     | tNabuki     | v.mahonin@innopolis.university    |
 | Timolai Andrievich | tandrievich | t.andrievich@innopolis.university |
 
-### **Value Proposition**
+## **Value Proposition**
 
-#### Identify the Problem:
+### Identify the Problem:
 For decades, chemical scientists and students have wasted their time on converting compound representations from one form to another. It is not only a problem of wasting several minutes per formula, but also the fact that the algorithms for such conversions are pretty complex and require students to study them for about half a year before they can be applied. Even experienced scientists can make errors due to human factors, so double-checking the formula is usually required. People also tend to forget things, so they need to restudy the algorithm from time to time. Additionally, sometimes even non-chemistry people need to do some chemistry, but the main obstacle for them may be not knowing how to identify the name of the molecule from a drawing, as well as not having enough time to learn how to do it.
 
-#### Solution Description:
+### Solution Description:
 To provide the most user-friendly experience possible, we need a mobile application that can instantly name a compound and provide its simple string notation (e.g. SMILES/InChl/IUPAC) by just taking a picture of its graphical representation.
 
-#### Benefits to Users:
+### Benefits to Users:
 With this solution all three groups of users will be satisfied:
 - Scientists will no longer waste their precious time doing mechanical work.
 - Students can study less boring material.
 - Non-chemistry people now have no barriers to doing basic chemistry.
 
-#### Differentiation:
+### Differentiation:
 There are already some applications that solve a part of this problem. The closest analog is the "Organic Compound Identifier" app, but it does not detect the compound from the photo/drawing. Rather, it prompts the user to input the formula in the graph form by placing predetermined blocks of atoms and then connecting them. It is also limited to organic compounds only. Our application, on the other hand, is general-purpose for any compound, faster to apply, and easier to use.
 
-#### User Impact:
+### User Impact:
 The major impact is made on students. While they still need to study the principles of compound representation conversions, now knowing only the essentials reduces the half-year course to several weeks. Scientists will be able to concentrate more on the research they are doing, spending no time identifying and searching for molecules in the database by hand. Lastly, now even inexperienced people can be involved in some parts of science.
 
 Overall, all the positive impact leads us to a faster growth of this science in both aspects: study and researching, as well as simplification of some domains of chemistry.
 
-#### Use Cases:
+### Use Cases:
 1. Scientist
 - A chemical scientist working on a research project needs to identify a compound from a graphical representation. She opens the app, takes a picture of the compound, and obtains its name and linear notation instantly, saving her time and effort.
 - Another chemical scientist is looking at a molecule structure in a conference presentation but cannot recognize it. He quickly takes a photo of it using the app and gets an accurate name and SMILES string.
@@ -131,17 +131,25 @@ Overall, your report effectively presents a problem-solution approach and convey
 {{< /hint >}}
 
 # **Week #2 Progress report**
-### **Tech Stack Selection**
+## **Tech Stack Selection**
 
-### **Architecture Design**
+We have already choosen our tech stack on week 1 and decided to keep it.
+
+## **Architecture Design**
 
 1. **Component Breakdown**: There are two basic components: UI and AI, which interact in a request-response manner. The UI requests to analyze a taken photo, and the AI responds with the detected SMILES/InChl/IUPAC notations.
 
 2. **Data Management**: The UI module is supposed to store some user settings, which will be stored using *Hive*. We don't need any database for the AI component as it is self-sufficient.
 
-3. **User Interface (UI) Design**: Consider the user experience (UX) and design principles when planning your UI. Sketch wireframes or create mockups to visualize the layout and flow of your application.
+3. **User Interface (UI) Design**:
 
-TODO
+There wil be two basic screens:
+
+### Shot screen
+![](https://i.ibb.co/GMQz5xL/shot.png)
+
+### Analysis result screen
+![](https://i.ibb.co/ZB2wtm7/res.png)
 
 4. **Integration and APIs**: Our application is designed to be fully autonomous, so we will not use any external APIs.
 
@@ -155,15 +163,15 @@ TODO
 
 ## **Week 2 questionnaire:**  
 
-1) Tech Stack Resources: Are you utilizing any **project-based books** that specifically cover your tech stack and help you build your project? If yes, please provide the names of these books (name at least 3). How do you anticipate utilizing these materials to enhance your knowledge and expertise in your tech stack? we are using research papers
+1) Tech Stack Resources: We are already familiar with our tech stack so we do not use any books on it.
 
 2) Mentorship Support: We are not seeking a mentor for our project.
 
-3) Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources
+3) Exploring Alternative Resources: We are going to use official documentation on Flutter, Python and Pytorch.
 
 4) Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with **knowledge gaps**
 
-5) Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack? This could involve participating in online forums and groups (telegram, discord or any other platform), attending local meetups (Kazan, Innopolis)? Do you have means to engage experts into critical tech stack problems through professional networks?
+5) Engaging with the Tech Community: We have not engaged with tech community and do not plan to do so.
 
 6) Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?
 
@@ -172,6 +180,12 @@ TODO
 8) How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?
 
 
-### **Tech Stack and Team Allocation**
-
+## **Tech Stack and Team Allocation**
+<!-- TODO -->
 After finalizing the tech stack and team allocation, how did you ensure that each team member was effectively assigned to appropriate tasks and responsibilities within the project? Please provide a detailed explanation of how your project is structured, including the specific technologies being utilized and the corresponding team members responsible for each component. **Clearly outline the responsibilities of each team member in relation to their assigned parts**.
+
+| Team Member        | Responsibilities |
+|--------------------|------------------|
+| Evgenij Ivankin    | TODO             |
+| Vitaly Mahonin     | TODO             |
+| Timolai Andrievich | TODO             |

@@ -131,7 +131,7 @@ Overall, your report effectively presents a problem-solution approach and convey
 # **Week #2 Progress report**
 ## **Tech Stack Selection**
 
-We have already choosen our tech stack on week 1 and decided to keep it.
+We have already chosen our tech stack on week 1 and decided to keep it.
 
 ## **Architecture Design**
 

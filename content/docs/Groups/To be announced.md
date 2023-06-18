@@ -81,8 +81,6 @@ We are **NOT** looking for new teammates.
 
 ## **Defining the Vision for Your Project**
 
-A clear and compelling vision is crucial for successful project planning. When you have a well-defined concept and a shared vision of what you aim to achieve, executing on that vision becomes significantly easier. Therefore, after thorough discussions and settling on a promising idea, it is essential to craft a comprehensive vision with your team. This vision should be detailed, encompassing your chosen tech stack, and anticipate potential future challenges. Below, describe your project using schematic drawings and provide elaborate explanations of all significant components.
-
 ### Overview:
 - Summary:
 Our project is a software program that uses AI to convert images into SMILES notation, a simplified chemical representation. The purpose of this program is to make it easier for researchers and scientists to translate chemical structures in images into a format that can be easily analyzed and shared.
@@ -169,23 +167,22 @@ There wil be two basic screens:
 
 3) Exploring Alternative Resources: We are going to use official documentation on Flutter, Python and Pytorch.
 
-4) Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with **knowledge gaps**
+4) Identifying Knowledge Gaps: We have no knowledge gaps related to our tech stack. See our team allocation below.
 
 5) Engaging with the Tech Community: We have not engaged with tech community and do not plan to do so.
 
-6) Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?
+6) Learning Objectives: We did not set any specific learning objectives.
 
-7) Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates? Have you organized any knowledge-sharing sessions or discussions to facilitate the exchange of insights and experiences related to your tech stack?
+7) Sharing Knowledge with Peers: We did not organized any knowledge-sharing sessions or discussions, since we do not have teammates unfamiliar with our tech stack.
 
-8) How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?
+8) Compensating Lacking Expertise with AI: As mentioned above, we are already familiar with our tech stack, so we did not compensate for any lacking expertise in our tech stack.
 
 
 ## **Tech Stack and Team Allocation**
-<!-- TODO -->
-After finalizing the tech stack and team allocation, how did you ensure that each team member was effectively assigned to appropriate tasks and responsibilities within the project? Please provide a detailed explanation of how your project is structured, including the specific technologies being utilized and the corresponding team members responsible for each component. **Clearly outline the responsibilities of each team member in relation to their assigned parts**.
 
-| Team Member        | Responsibilities |
-|--------------------|------------------|
-| Evgenij Ivankin    | TODO             |
-| Vitaly Mahonin     | TODO             |
-| Timolai Andrievich | TODO             |
+
+| Team Member        | Responsibilities | Tech Stack |
+|--------------------|------------------|------------|
+| Evgenij Ivankin    | AI               | Pytorch    |
+| Vitaly Mahonin     | Mobile App       | Flutter    |
+| Timolai Andrievich | AI               | Pytorch    |

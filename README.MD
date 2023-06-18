@@ -3,12 +3,12 @@ This is a repo of the [Capstone project at the Innopolis University](https://cap
 
 Table of contents
 - [How to contribute](#how-to-contribute)
+- [Reports evaluation and styling standards](#Reports-evaluation-and-styling-standards)
   - [Pull requests](#pull-requests)
   - [Shortcodes](#shortcodes)
     - [LaTeX](#latex)
     - [Mermaid (graphs)](#mermaid-graphs)
     - [Other shortcodes](#other-shortcodes)
-  - [Familiarize yourself with our techstack](#familiarize-yourself-with-our-techstack)
 
 ## How to contribute
 If you **do not have** the repo on your machine:

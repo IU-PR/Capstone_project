@@ -151,3 +151,83 @@ Our project involves building an application to create a day's schedule based on
 You have a strong team and a very good project idea. It is also clear that you have a clear vision of the project. Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to creating a web app and a telegram client that does core/main things - something that you can build on and improve later. Outline main features of your project and focus on execution. I would also think about which particular parts you can strip down - for example UI can be very simple (remember, we have only 7 weeks). Put the main emphasis on the technology core that you need to showcase: the technology that takes user input and create a schedule.  
 {{< /hint >}}
 
+
+---
+weight: 2
+bookFlatSection: true
+title: "Week #2"
+---
+
+# **Week #2**
+
+### **Tech Stack Selection**
+
+We will use Python as our programming language because it has a large number of different libraries and frameworks, which can be very useful in the development process. In addition, the Python programming community is quite large, which makes it possible to find a large amount of open source code.
+
+We plan to use PyTorch as our main framework, as one of the most popular and scalable. Also, we will use Aiogram as API to communicate with Telegram bot, and OpenAI library to generate tasks names in natural language that people can add in their schedule. We will manage a database using postgresql and sqlalchemy libraries. Also, we plan to use sklearn, pandas and matplotlib for data preprocessing and filtering.
+
+Our team has enough experience and qualifications to use the chosen tools to develop the project.
+
+
+### **Architecture Design**
+
+1. **Component Breakdown**: Main components of our software solution are:
++ *Telegram bot*. This is a medium between the user and main system. It deals with tasks and events - users can add, edit, delete them and look at the list of current tasks. Also, telegram bot shows the generated schedule and marks the completed tasks. So, it plays the role of user interface.
++ *Task name classifier*. It allows us to encode task names written in natural language (that were obtained by Telegram bot) into a vector of numbers, i.e. to perform embedding. In addition, we use the OpenAI library to generate a dataset of tasks.
++ *Schedule prediction*. The function of this module is to create a schedule for the tasks given by the user. The coded task name from Task name classifier, and other information about this task received by the telegram bot are fed to the input of the model. The result is a schedule on a given day.
+
+
+2. **Data Management**: User info will be stored in sql databases. We will manage a database using postgresql and sqlalchemy python libraries. Model info will be stored in separate files and mapped by database to the user.
+
+3. **User Interface (UI) Design**: 
+We are creating a Telegram bot that is a User Interface by itself. Here one can look at the functions that we plan to implement.
+
+{{< embed-pdf url="static/HealthyBasedProductivity/tg_functions.md" >}}
+
+5. **Integration and APIs**: We will use the telegram bot API. We will get info from the user and handle the message based on the functions discussed in UI.
+
+6. **Scalability and Performance**: For MVP we are assuming that only one user will use the system. However, for the future we are looking to make the bot asynchronous and copy models for each user. Also, our database may handle multiple users at a time.
+
+7. **Security and Privacy**: Since we communicate through telegram bot, API and security measures are in-built, and we do not have to provide security on this side. The sql libraries provide basic security, and for MVP that is enough. After the successful testing of MVP we will develop more advanced security. 
+
+8. **Error Handling and Resilience**: 
+Logging: 
+  - Each function should have a debug log.
+Error handling: 
+  - Bot will check a message to be appropriate for the current state. If not, just send an error message to the user.
+
+8. **Deployment and DevOps**: To make a robust development workflow, we will add mandatory pull request checks by another member of the development team.
+
+## **Week 2 questionnaire:**  
+
+1) Tech Stack Resources: No, we don’t use any books. We are in search of state-of-art models, so we are using mainly articles and papers.
+
+2) Mentorship Support: Currently, we don’t have any mentors. However, we have people who agree to help and consult us in terms of model development, including Rustam Lukmanov and Vladimir Ivanov.
+
+3) Exploring Alternative Resources: We search articles and papers on ResearchGate, Elsevier, arxiv, etc. Documentation of frameworks and libraries we are supposed to use: TensorFlow, PyTorch, OpenAI, Aiogram, etc. To learn more about creating an asynchronous Telegram bot we will use a course on Stepik.
+
+4) Identifying Knowledge Gaps: 
+
+We have some knowledge gaps regarding creating an asynchronous telegram bot. To close this gap, our bot developer will take a course on creating asynchronous bots. 
+
+In addition, we have not much experience in finding appropriate models, so we consult with professionals in the field of AI and study articles on that topic.
+
+5) Engaging with the Tech Community: We use StackOverflow to ask questions and solve problems related to our tech stack.
+
+6) Learning Objectives: For this week, we set a goal of finding data generation methods and a suitable model architecture for scheduling. To do this, we use articles describing state-of-the-art techniques. In addition, we ask chatGPT questions under the condition to refer to the sources. 
+
+7) Sharing Knowledge with Peers: Our team communicates via a group chat in Telegram, where we share all the information and ideas related to the project and the tech stack. In addition, we have a shared repository on GitHub and shared Google Docs for writing reports.
+
+8) Leveraged AI: We ask chatGPT questions under the condition to refer to the sources.
+
+
+### **Tech Stack and Team Allocation**
+
+1) *Telegram bot*. This is a medium between the user and main system. It deals with tasks and events - users can add, edit, delete them and look at the list of current tasks. Also, telegram bot shows the generated schedule and marks the completed tasks. So, it plays the role of user interface and will be implemented by Aiogram. The responsible person is Ilnur Khadiev.
+2) *Database*. This is a storage for the data given by the user. The responsible person is Ilnur Khadiev.
+3) *Task name classifier and data generation*. It allows us to encode task names written in natural language (that were obtained by Telegram bot) into a vector of numbers, i.e. to perform embedding. In addition, we use the OpenAI library to generate a dataset of tasks. The responsible person is Danila Shulepin. His task is to generate data, find a relevant pretrained NLP model and train it using Keras or PyTorch.
+4) *Schedule data generation*. Since the analyzed open source datasets turned out to be irrelevant, we decided to use Chat-GPT to generate data through OpenAI library. After mentioning all the necessary schedule properties, we got the relevant dataset for the initial training of the main model. The responsible person is Yaroslav Sokolov. The task is to properly generate the data.
+5) *Pre- and postprocessing filters*. These are linear mapping algorithms that would be written from scratch. First filter cleans up data and ensures that only relevant data is fed into the neural network, while the second is used for result estimation. If the result is not good enough, the neural network would regenerate it. This ensures that the model produces accurate results. We plan to use sklearn, pandas and matplotlib. The responsible person is Sofi Zaitseva.
+6) *Schedule Neural Network*. The neural network is the core of the proposed model. There are many known and used architectures, so we would try different approaches, mainly recurrent neural networks, and choose the best-fitting one. The realization will be implemented using PyTorch. The responsible person is Leon Parepko.
+
+The principles underlying the proposed model are based on generalizing an average person's schedule and finding specific patterns of planning tasks. The model aims to personalize the scheduler for each user by analyzing their scheduling patterns and preferences.

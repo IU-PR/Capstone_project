@@ -89,9 +89,10 @@ The purpose of our project is to develop a ML tool for traders that provides add
 3. Innovative aspects:
    - We will most likely try using Reinforcement Learning to learn the patterns, and try to do some research for cutting-edge algorithms to give us a competitive edge.
 
-**Feedback:** 
 
 {{< hint danger >}}
+
+**Feedback:**   
 Hi, this is a very interesting and potentially technically complicated project. I think it will be challenging to finish the project in confines of the Capstone as it currently stated. Consider scaling it down to a creating an app that does alpha/trading signal generation on one FX pair. Choose the platform from which you will be getting the FX data and try to focus on tech side of the project - to show that you can do it with one currency pair. Overall, I think this is a very in-demand product as lots of retail traders want more reliable signal apps. 
  
 {{< /hint >}}
@@ -103,7 +104,8 @@ Hi, this is a very interesting and potentially technically complicated project. 
 
 Designing a robust and scalable architecture is crucial for the long-term success and maintainability of your software project. This week, focus on defining the architecture that will serve as the backbone of your application. Consider the following aspects:
 
-### **Component Breakdown**:
+### **Component Breakdown:**
+
 - **Mobile App:** This will act as the user interface developed in flutter. The user should be able to login and see the signals for the various currency pairs. Through this app the user can give feedback on the the predictions.
 
 - **Authentication Service:** This is responsible for verifying and authorizing user access to the various resources on the backend.
@@ -123,7 +125,9 @@ Designing a robust and scalable architecture is crucial for the long-term succes
 
 ### **Integration and APIs**:
 
-- We will use [alphavantage](https://alphavantage.co/) for collecting the data and getting current market data that will be used to periodically train the model.
+We will use [**alphavantage**](https://alphavantage.co/) for collecting the data and getting current market data that will be used to periodically train the model.
+  
+
 
 1. **Scalability and Performance**: Anticipate future growth and consider scalability aspects when designing the architecture. Ensure that your application can handle increasing user loads and data volumes without compromising performance.
 
@@ -133,6 +137,12 @@ Designing a robust and scalable architecture is crucial for the long-term succes
 
 4. **Deployment and DevOps**: Consider the deployment process and DevOps practices that align with your chosen tech stack. Automate deployment tasks, implement version control, and establish a robust development workflow.
 
+{{< hint danger >}}
+
+**Feedback by Rustam:**   
+So no ideas about scale, security and resilience?
+{{< /hint >}}
+
 5. **Scalability:** We are going to use kubernetes, so each service will be described with configuration file, which provides simple joining/excluding models and services to cluster, so the most scalability problems easily resolved.
    
 6. **Security:** We are going to use JWT for auth and typical solutions for storing passwords. We will use Yandex Cloud to deploy, and make an API Gateway for clients so no inner services will be available from outside. (not mvp) Testing/Stable versions and enviroments.
@@ -140,16 +150,16 @@ Designing a robust and scalable architecture is crucial for the long-term succes
 8. **DevOps:** We have already setup a Gitlab CI agent in kubernetes in Yandex Cloud, next steps are to configure each service and setup apk building.
 
 
-*Mentorship Support: Do you currently have a mentor actively involved in your project? If yes, kindly share the name of your mentor and explain how their guidance has positively influenced your project. If you don’t have a mentor yet, have you considered seeking one? How do you believe having a mentor could contribute to the success of your project? Remember, having an experienced mentor that can guide you and your team is your responsibility.*
+**Mentorship Support:** Do you currently have a mentor actively involved in your project? If yes, kindly share the name of your mentor and explain how their guidance has positively influenced your project. If you don’t have a mentor yet, have you considered seeking one? How do you believe having a mentor could contribute to the success of your project? Remember, having an experienced mentor that can guide you and your team is your responsibility.
 
-**We don't have a mentor yet, but we are considering an option to ask our AML TA (Imad Bekkouch) to guide us with the model. Having a mentor will simplify our work and allow us avoid potential**
+> We don't have a mentor yet, but we are considering an option to ask our AML TA (Imad Bekkouch) to guide us with the model. Having a mentor will simplify our work and allow us avoid potential
 
-*Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources*
+**Exploring Alternative Resources:** In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources
 
-**We are not using books, but online courses to gain knowledge:**
-1. DL Course (understand neural networks to be able to build the prediction model): https://www.udemy.com/course/the-complete-neural-networks-bootcamp-theory-applications/
-2. ML Ops: https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK
-3. Flutter course: https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/
+> We are not using books, but online courses to gain knowledge:
+> 1. DL Course (understand neural networks to be able to build the prediction model): https://www.udemy.com/course/> the-complete-neural-networks-bootcamp-theory-applications
+> 2. ML Ops: https://www.youtube.com/playlist?list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK
+> 3. Flutter course: https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps
 
 *Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with knowledge gaps*
 
@@ -184,3 +194,20 @@ Furthermore, we've never setup clusters, which provide several enviroments, as w
 **Nikita Zorin** - Flutter Developer <br>
 
 We took each team members' skills and preferences and distributed responsibilities accordingly. All of our team members have the necessary skills to complete the given tasks.
+
+{{< hint danger >}}
+
+**Feedback by Rustam:**   
+Progress reports are here to make sure that you have covered all major aspects of the dev process. Please do not copy all the text from the weekly tasks, but rather explain your progress on the basis of the questions and structure provided (it is also possible and encouraged to add your own sections if needed). After each week iteration it is possible to rework the report and make changes to the previous week. Please, next week update your project report file according to feedback. For me, is is still not clear the exact work you are planning to do to accomplish the project and develop a prototype. 
+What this model supposed to do? 
+Who will be the user and why would they prefer you vs. other trading apps? 
+What would happen to the trading signal once it's available in the market? 
+Can it dissapear due to trading on this signal?
+
+You write in your report that: "By leveraging advanced algorithms and machine learning techniques, our software analyzes vast amounts of historical and real-time market data, identifying patterns, trends, and potential trading opportunities."
+However, I am struggling to see how exactly you are planning to do that. 
+
+Plus, the formatting of the progress reports is also part of the evaluation. Make sure that your reports look neat and clearly written. Avoid very general descriptions that "we will use AI and advanced algorithms" - we want very prices action plan on defined algorithms, frameworks and technologies. 
+  
+3/5 
+{{< /hint >}}

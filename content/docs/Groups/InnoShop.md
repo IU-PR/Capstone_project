@@ -152,10 +152,10 @@ The task for week 2 of the Capstone Project.
 ## Improvements upon the feedback provided on Week 1 Tasks:
 We will also try to improve on what you suggest every week so we will able to deliver a more better product. Here are our plans on how we will improve this week:
 
- - **Value Proposition**: For the new experience we plan to make the site more robust. The current users must or has noted the bugs in site's functionality like not able to go back the page and not correct displaying of the product selected. For purchasing, the innopoints system will already be there, but in our project we plan to incorporate the real money which university can decide if they want or not.
+ - **Value Proposition**: For the new experience we plan to make the site more robust. The current users must or has noted the bugs in site's functionality like not able to go back the page and not correct displaying of the product selected. For purchasing, in our project we plan to incorporate the real money which university can decide if they want or not. Also, we will be consulting the university staff and previous developers on how to integrate the InnoPoints system in our website.
  - **Lean Startup Questions**: The real use cases that we defined in our project are limited to students' and university staff's uses. But we will work on it to introduce new use cases too.
 
-**Thanks for the amazing feedback, we are still considering new changes everyday as we are still learning. We will try our best to provide what we have proposed. Our MVP for sure will be a better InnoStore than the current one. But we also plan to add other services as we mentioned above which are students being able to create their profile and get hired by university on projects.**  
+**Thanks for the amazing feedback, we are still considering new changes everyday as we are still learning. We will try our best to provide what we have proposed. Our MVP for sure will be a better InnoStore than the current one. But in additional, we also plan to add machine learning (recommendation engine and demand factoring etc.). After the course ends, we plan on adding services in which students being able to create their profile and get hired by university on projects as a future plan.**  
 
 **We would love to hear more of your feedback and discussions on our project so that we can improve more. Thanks a lot!**
 
@@ -164,7 +164,6 @@ We will also try to improve on what you suggest every week so we will able to de
 ### 1. User Interface (UI):
  - Homepage: The main landing page that provides an overview of the website's offerings, featured products, and promotions.
  - Product Listings: Pages displaying merchandise with relevant details, including images, descriptions, pricing, and availability.
- - Special Services Section: A dedicated section to explore and access exclusive services offered by the university students.
  - User Profile: Personalized user accounts to manage student profile, orders, preferences, and track shipment status.
 
 ### 2. Merchandise Store Components
@@ -173,17 +172,12 @@ We will also try to improve on what you suggest every week so we will able to de
  - Add to Cart and Checkout: Functionality to add selected products to a cart and proceed to the secure checkout process for payment.
  - Secure Payment Gateway: Integration with trusted payment systems to ensure safe and convenient transactions.
 
-### 3. Special Services Component:
- - Service Listings: Pages dedicated to showcasing and providing information about various special services available to students, such as event tickets, career services, or academic resources.
- - Service Details: Detailed information about each service, including eligibility requirements, pricing (if applicable), and registration processes.
- - Booking and Confirmation: Capability to book services, reserve tickets, or access resources, with automated confirmation or issuance of digital tickets.
-
-### 4. User Management and Account Features:
+### 3. User Management and Account Features:
  - Registration and Login: User registration process with authentication to create personalized accounts.
  - User Profile Management: Ability for users to update personal information, manage payment methods, and save preferences.
  - Order History and Status: Access to order history and the current order status that it is ready to pick up or not.
 
-### 5. Admin Backend:
+### 4. Admin Backend:
  - Inventory Management: Backend system to manage product inventory, update stock levels, and add/remove products.
  - Analytics and Reporting: Tracking and reporting tools to monitor website performance, sales metrics, and user engagement.
 
@@ -194,7 +188,8 @@ The selection of an appropriate database or data storage solution for an e-comme
 Regarding storing and managing images, documents, or other media files related to products or user profiles, it is recommended to adopt a dedicated file storage solution such as Amazon S3, Google Cloud Storage, or a self-hosted alternative. Such services provide scalable and reliable storage to manage file uploads and downloads.
 
 ## 3. UI Design
-The UI design, which we created in Figma, currently contains the basic design outlet of how the improved innostore look like.
+The UI design, which we created in Figma, currently contains the basic design outlet of how the improved innostore look like. We asked an university student to help us with the Figma design and how to create a working prototype. He is the first year student named **Khush Pradipbhai Patel**.  
+The Working prototype is available at: https://www.figma.com/proto/bFgXwmxt28EWI4U56yuBeN/innoshop?type=design&node-id=57-3471&scaling=min-zoom&page-id=1%3A4&starting-point-node-id=8%3A32  
 The UI design is available at: https://www.figma.com/proto/bFgXwmxt28EWI4U56yuBeN/innoshop?type=design&node-id=8-32&scaling=min-zoom&page-id=1%3A4&starting-point-node-id=8%3A32
 
 
@@ -226,7 +221,78 @@ Maintaining a robust error handling strategy is imperative to ensure the dependa
 ## 8. Deployment and DevOps
 To align with the tech stack of Node.js, Express, and MongoDB, a deployment process and DevOps practices can be implemented. This may include:
  - Version Control: Utilize Git for source code management and maintain a repository for collaboration and version control.
- - Continuous Integration and Deployment (CI/CD): Set up CI/CD pipelines using tools like Jenkins, CircleCI, or GitLab CI/CD to automate build, test, and deployment processes.
- - Environment Configuration: Separate environment-specific configurations using environment variables or configuration files to ensure consistency across different deployment stages (e.g., development, staging, production).
+ - Continuous Integration and Deployment (CI/CD): Set up CI/CD pipelines using tool like Jenkins or GitLab CI/CD to automate build, test, and deployment processes.
  - Automated Testing: Incorporate automated testing practices, including unit tests, integration tests, and end-to-end tests, to ensure application reliability and prevent regressions during the deployment process.  
 
+
+
+## Week 2 Questionnaire:
+
+### **Tech Stack Resources**
+
+**Frontend**: Learning REACT by Orielly is a really good and comprehensive book for REACT. We came to know about the fundamentals of react along with some cool tricks in javascript.
+
+**Backend**: Beginning Node.js, Express & MongoDB Development by Greg Lim is a great introduction for Nodejs and Express. We are also planning to learn advanced Node applications using "Mastering Node.js" by Sandro Pasquali.
+
+### **Mentorship Support**
+
+We have reached out to potential mentors for our project and are currently waiting for their approval. Having an experienced mentor can positively influence our project by providing guidance, expertise, and skill development. They can help us make informed decisions, navigate challenges, and optimize our project implementation. Mentors also offer networking opportunities, accountability, motivation, and problem-solving expertise. We understand the importance of mentorship and eagerly await their approval to contribute to the success of our project.
+
+Thanks to our great mentor: Abdel Rehman for guiding us through the whole procedure of how we can implement an ecommerce website with a great ease.
+
+### **Exploring alternative resources**
+
+A list of alternative resources we have explored to expand our understanding of our tech stack:
+
+- Frontend web-development Course offered by the University (Tech Elective)
+  - Provides structured learning material, lectures, and assignments
+  - Covers HTML, CSS, JavaScript, UI frameworks, and responsive design
+
+- The Complete Node.js Developer Course by Andrew Mead
+  - Focuses on server-side programming, databases, APIs, and testing.
+  - Able to learn stack like Node, Express, and Jest.
+  - Offers comprehensive video tutorials, exercises, and quizzes
+
+- University of Helsinki’s FullStackOpen Course
+  - The course provides a structured format of learning fundamentals of web development from basic to advanced. That was really helpful in starting early.
+  - Provides hands-on coding exercises and projects.
+
+By utilizing these resources, we aim to enhance our knowledge and skills in frontend and backend development, as well as gain proficiency in React. This diverse approach ensures a comprehensive understanding of our tech stack and enables us to build a robust e-commerce website for Innopolis University.
+
+### **Identifying Knowledge Gaps**
+
+Before the end of the week, we were struggling with the basic fundamentals of full-stack web development, but after going through all the resources above, we were able to form a basic understanding of where to start. In the frontend department of our project, we knew basic REACT and JS before, but now we are focusing on learning advanced concepts such as state management, client-side rendering, etc. In the backend part, we were struggling with the advanced API concepts such as filtering, limiting, sorting, etc. using Node.js and Express. To solve these technological gaps, we are planning to do more research on the particular stack that we have assigned to each member and practice with the stack using the above resources to get a sound understanding of them.
+
+### **Engaging with the tech community**
+
+We found various online communities that we focused on learning and discussing what we aim to excel at. They helped us in getting a strong head start on our project and filling in some of the knowledge gaps that we faced while constructing the framework of our project. We got insights on the errors that you cannot find solutions to in books or online courses. These communities were: University of Helsinki’s community for the FullStackCourse, Youtuber Harkirat Singh’s Full Stack Web development community, Stack Overflow, and Reddit.
+
+### **Learning Objectives**
+
+- Learn how to implement a fully-functional scalable API and how to deploy it online: Our objective is to understand how to implement an API into our project to improve its functionality by using advanced concepts such as load balancing, horizontal scaling, etc. We plan to achieve this by reading documentation, watching tutorials, and working on coding exercises related to API integration and Functions.
+
+
+
+- Increase our knowledge of React components: Our team wants to have a deeper understanding of React components and how they can be utilized in our project. To achieve this objective, we plan to practice building different types of components, reading documentation, and watching tutorials.
+
+### **Sharing Knowledge with Peers**
+
+We are communicating on a daily basis on social media, having meetings in the university discussing the ideas of the project, changes we need to make, removing additional parts that are not necessary, knowing each other’s strengths and weaknesses that we can utilize in constructing the website faster. All our team members are providing great insights and are aspiring full-stack developers having some knowledge in the field, which makes it easy to collaborate and learn stuff that the other members lack expertise in. Like the front-end team also has some expertise in the backend, therefore mentoring the backend team in getting a clearer image of the project and vice-versa.
+
+### **AI leverage**
+
+In the modern world, the use of AI can make many aspects of life easier, so we use some AI tools in our work on the project.
+
+- Chatbots: we have utilized AI-powered chatbots, such as ChatGPT, to quickly access information related to tech stack whenever we get stuck in a particular concept. These chatbots help us define a clearer perspective related to tech stack so that we can understand the topic better.
+
+- Grammar tools: AI-related applications for grammar and academic style of writing, for example, QuillBot AI and Grammarly, can be used for clear and accurate reports.
+
+### **TECH STACK AND TEAM ALLOCATION**
+
+| Name           | Telegram     | Tech Stack                                   |
+|----------------|--------------|----------------------------------------------|
+| Tanmay Sharma  | @me_tanmay01 | Backend Development using Node.js and Express |
+| Roukaya Mohammed | @GammaV     | Frontend Development using React and Bootstrap |
+| Anel Salkenova | @niksgont    | Frontend Development using React and Bootstrap |
+
+Anel and Roukaya have a great expertise and interest in front-end web development as they both understand JavaScript and its usage in React and worked on several projects before. Tanmay has a keen interest in the backend development part of the application and has a sound understanding of API development using Node.js and Express.

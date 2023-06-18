@@ -8,12 +8,15 @@ title: "fairlance"
 
 # **Introduction**
 
-{{< hint danger >}}
+**FairLance**: Introducing Fairlance, an innovative platform that aims to provide fair opportunities to freelancers worldwide. Leveraging decentralized technologies, our website will transcend geographical boundaries, empowering freelancers to expand their reach without worrying about excessive fees, unlike other conventional freelancing platforms
 
-**Feedback**  
-Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
-As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
-{{< /hint >}}
+<div style="text-align: center;">
+  <img src="https://hackmd.io/_uploads/ryqd33sP2.png" alt="FairLance" width="600" height="300">
+</div>
+
+The adoption of our new payment method brings a significant positive impact on users. It eliminates numerous limitations that currently exist in the industry, transforming the way freelancers and service providers operate. Unlike existing websites that impose restrictions based on specific locations and pay discrepancies based on nationalities, our platform fosters inclusivity and equal opportunities for all. Join us as we revolutionize the freelancing landscape, offering a borderless and equitable platform for talented individuals to thrive and get paid securely with cryptocurrencies.
+
+For additional information, please reach out to me on Telegram at <a href="https://t.me/AhmadAlhusein">@AhmadAlhusein</a>. 
 
 ## **Team Formation and Project Proposal**
 
@@ -126,7 +129,7 @@ Explain how your team plans to leverage the following resources for the developm
 
 - ### **Schematic Drawings**:
 
-    ![Use Case](/fairlance/usecase.jpg)
+    ![](https://hackmd.io/_uploads/H1-mUAKvh.png)
 
 - ###  **Tech Stack**:
     Our platform will use many frameworks and technologies. They can not all be defined from the start, since our view will be developing and we might need different frameworks to do different tasks. However, we will mainly focus on the following technologies:

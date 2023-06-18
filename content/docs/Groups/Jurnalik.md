@@ -24,20 +24,59 @@ Our application differs from competitive solutions in several aspects. Firstly, 
 
 Our project is expected to have a positive impact on users and stakeholders. Users will be able to manage their time more efficiently by avoiding endless scrolling and information overload on social media. They will only receive information that is relevant and interesting to them. This contributes to increased productivity and focus in users' daily lives. In addition, users will have access to varied and high-quality content tailored specifically to them, allowing them to stay up-to-date with the latest news and events of interest. Our app also provides an independent and objective source of information
 
+{{< hint danger >}}
+**Feedback**  
+- Have you done any Market research, what product you searched? 
+- What other social networks you mean exactly, all of them? 
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
 ## **Lean Startup Questionnaire**
 
 1. `What problem or need does your software project address?`
     
     Our mobile app solves the problem of information overload and inefficient use of users' time on social media. It provides a resource in the form of an electronic 'newspaper' that aggregates all news, updates, and photos from various sources such as social media, news feeds, and subscriptions. Users now don't have to switch between different platforms to get up-to-date information.
-    
+   
+
 2. `Who are your target users or customers?`
     
     Our target users are people who actively use social media, news and information resources but face information overload and distracting algorithms. They can be both ordinary users and professionals who need to keep abreast of the latest developments in their field.
     
+{{< hint danger >}}
+**Feedback**  
+The term "people" is too generic! It's better to specify these individuals into specific personas:
+
+- Students who are following university news
+- Unemployed individuals following job advertisements
+- Coders keeping up with new trends in programming
+.. etc
+
+When knowing your uses, you can target their needs better.
+{{< /hint >}}
+
 3. `How will you validate and test your assumptions about the project?`
     
     To test and verify our assumptions, we may use different methods, such as surveys and interviews with target users, conducting focus groups, analyzing user behavior in the app, and collecting feedback. We will be able to examine how well the app addresses the problem of information overload and assess user satisfaction with its functionality and usability.
-    
+
+{{< hint danger >}}
+**Feedback**  
+
+Again, this is too generic plan. What will your survey cover? what will you ask the users? what are the analysis that you  are going to conduct?
+how will you examine the overload? 
+
+- You didn't provide any concrete answer here. 
+
+Your first assumption that you need to validate: **Will users use the?**
+to answer it, you need to create an MVP and use metrics/ analytics to see if users actually using it. 
+Than you can conduct interviews/ survey to learn more
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}    
+
+
 4. `What metrics will you use to measure the success of your project?`
     
     We can use the following metrics to measure the success of our project:
@@ -46,20 +85,70 @@ Our project is expected to have a positive impact on users and stakeholders. Use
     - Time spent by users in the app.
     - Level of user engagement: number of posts, photos, news they consume in the app.
     - User feedback and feedback on the app.
+    
+{{< hint danger >}}
+**Feedback**  
+
+Good, but you should take into account other metrics like:
+- Net Promoter Score (NPS): This measures customer loyalty and satisfaction by asking users how likely they are to recommend the app to others.
+- Retention Rate: This measures the number of users who return to the app after their first visit. High retention rates are often seen as an indicator of an app's value to its users
+- Churn Rate: This is the flip side of the retention rate, measuring the number of users who stop using the app over a given period.
+
+_Feedback by Moofiy_
+{{< /hint >}}
 5. `How do you plan to iterate and pivot if necessary based on user feedback?`
     
     We plan to actively collect feedback from users through various channels,
     
     such as the in-app feedback feature, email, social media, etc. We will listen and analyse user feedback carefully, and if necessary, we will be ready to make changes and adjust our development strategy and app functionality. This may include adding new features, optimising the user interface or changing content sources to better meet the needs of our users.
+   
+{{< hint danger >}}
+**Feedback**  
+too generic plan !!
+
+consider defining how to prioritize feedback, as you might get conflicting opinions.
+How will you exactly analysis those feedback? 
+Beside you didn't really specify how will you iterate? 
+how will you handle bug reports? 
+how will handle feature request? 
+
+
+_Feedback by Moofiy_
+{{< /hint >}}    
+
+{{< hint danger >}}
+**Grade reduction on this section**  
+-1
+{{< /hint >}}
+   
     
 ## **Leveraging AI, Open-Source, and Experts**
 Our team plans to use AI technology to develop and train our model to identify and classify news/advertisements. We will use open standards and web libraries to ensure our projects are accessible and affordable. We will also continue to improve our AI algorithms by following the latest developments in the study.
 
 We are aware of the importance of having experts in our team, but we cannot find experts due to time constraints. However, we plan to seek advice and input from experts in the field through University.
+{{< hint danger >}}
+**Feedback** 
+>  We will use open standards and web libraries to ensure our projects are accessible and affordable 
 
+
+- What libraries? 
+- What open standards 
+- how are you going to use classification? what Algorithms will you use exactly? 
+
+_Feedback by Moofiy_
+{{< /hint >}}
 ## **Inviting other students**
 
 Of course, we are open to inviting other students to join our project. We believe in the power of collaboration and are keen to expand our team in the future.
+
+{{< hint danger >}}
+**Feedback**  
+
+😒
+say no, don't fill in fluff words!
+
+_Feedback by Moofiy_
+{{< /hint >}}
 
 ## **Vision for Your Project**
 
@@ -89,6 +178,23 @@ Our app offers a number of meaningful benefits. First, it helps users reduce the
 	- GitHub Actions
 	- Docker
 	- Kubernetes
+	
+	
+{{< hint danger >}}
+**Feedback**  
+
+> First, it helps users reduce the time they spend on social media by limiting the information they post and consume
+
+How? do you have control over posting in other social media? 
+
+> Secondly, the app provides protection from corporate retention algorithms by offering a more independent and objective source of information. 
+
+but, you also want them to return to your app, right ;). 
+I mean it's ok to make people return to the app. but you need to give them good reason and benefits
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
 ### Anticipating Future Problems
 Now we've already found some possible problems that we should overcome during development.
 1. Services integration
@@ -103,3 +209,13 @@ Now we've already found some possible problems that we should overcome during de
 ### Elaborate Explanations
 
 We divided responsibilities between teammates. There are similar divisions in our team: frontend, backend, ML and devops. There are 1-2 people in each unit. Also we will use agile practices and Notion for developing and communicating.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+I would give this report 3/5. it's good but most of the answers are too generic, and seems like you write it to finish. not to accomplish.
+please give more time to reflect on the questions on the reports. they are here to help you build better products
+
+_Feedback by Moofiy_
+{{< /hint >}}

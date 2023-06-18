@@ -3,7 +3,9 @@ weight: 1
 bookFlatSection: true
 title: "UnifAI"
 ---
-<style> .markdown a{text-decoration: underline !important;}</style>
+
+<style> .markdown a{text-decoration: underline !important;} </style>
+<style> .markdown h2{font-weight: bold;} </style>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -32,7 +34,7 @@ Polina Zelenskaya at [Telegram](t.me/cutefluffyfox) or
 
 # **Week #1**
 
-## **Team Members**
+## Team Members
 
 
 | Team Member              | Telegram ID                          | Email Address                       |
@@ -44,7 +46,7 @@ Polina Zelenskaya at [Telegram](t.me/cutefluffyfox) or
 | Daniyar Cherekbashev     | [@wrekin](t.me/wrekin)               | d.cherekbashev@innopolis.university |
 
 
-## **Value Proposition**
+## Value Proposition
 
 **Problem statement**: 
 The language barrier is becoming more and more noticeable. 
@@ -93,7 +95,7 @@ We imagine many possible use cases for our product, for example:
 * Allowing gamers of different nationalities to communicate in games easier. Very frequently people that speak different languages may get matched up in games where teamwork is important, and in such cases it may be quite frustrating to play! Our software would solve this issue, and allow gamers from all over the world to enjoy playing together and forming great teams.
 
 
-## **Lean Startup Questionnaire**
+## Lean Startup Questionnaire
 
 **What problem or need does your software project address?**\
 The main problem we address is Language barrier on the Internet in ‘voice’ communication: 
@@ -116,20 +118,20 @@ If some language will have recognition or translation problems, we will try diff
 or add models for special cases. Maybe we will try to return parameters 
 
 
-## **Leveraging AI, Open-Source, and Experts**
+## Leveraging AI, Open-Source, and Experts
 
 **How we plan to leverage AI & Open-source in our project**:
 We will use an Open-Source ML model to convert people’s speech to text (whisper AI), 
 text translator to target language (model TBD), and text voice over (model also TBD). 
 Some code (or answers to questions) might also be generated from natural language processing models.
 
-## **Inviting Other Students**
+## Inviting Other Students
 
 At this moment in time we have already assembled a team and assigned roles, and we do not plan to 
 invite anymore. However, if we will find ourselves stuck on some task, we are open to ask experts, or 
 even expand our team with new specialists.
 
-## **Defining the Vision for Your Project**
+## Defining the Vision for Your Project
 
 **Overview**: 
 Our project utilizes a combination of several Machine Learning tools 
@@ -172,12 +174,14 @@ accuracy will be also lower on average.
 * Our solution differentiates from others by providing a real-time translator for all connected users with proper models’ computing resources delegation and accuracy. 
 
 
-# **Week2**
+# **Week #2**
 
-During week 2 we conducted several meetings and discussed crucial aspects of out project: process workflow, technologies we are going to use, research that is required for successful result, roles in team and responsibilities of each member.
+During week 2 we conducted several meetings and discussed crucial aspects of out project: 
+process workflow, technologies we are going to use, research that is required for successful 
+result, roles in team and responsibilities of each member.
 
 
-## **Tech Stack and Team Allocation**
+## Tech Stack and Team Allocation
 
 **Polina Zelenskaya** - team leader that manages all communication within the team. 
 Also, one of machine learning engineers and responsible for research behind voice 
@@ -208,7 +212,7 @@ Tech stack: python, python libraries: fastapi, uvicorn, starlette, websocket,
 faster_whisper, speech_recognition
 
 
-## **Architecture Design**
+## Architecture Design
 
 **Component Breakdown**: 
 Our principal architecture consists of three parts: Voice Recognition, 
@@ -265,7 +269,7 @@ recover after every error.
 Our project is mostly client based, so the server part will not be very difficult. 
 We will use Docker and GitHub for deployment. 
 
-## **Week 2 discussions**
+## Week 2 discussions
 
 **Tech Stack Book Resources**:
 As we have already done prerequisite research on our tech stack, 

@@ -13,7 +13,7 @@ Delete this section when finished, just for progress tracking
 {{< /hint >}}
 
 - [ ] Provide architecture
-  - [ ] **Component Breakdown**: Identify the major components and modules that will
+  - [x] **Component Breakdown**: Identify the major components and modules that will
         form your software solution. Outline their responsibilities and interactions
         to ensure a cohesive structure.
   - [x] **Data Management**: Determine how data will be stored, accessed, and
@@ -22,7 +22,7 @@ Delete this section when finished, just for progress tracking
   - [x] **User Interface (UI) Design**: Consider the user experience (UX) and design
         principles when planning your UI. Sketch wireframes or create mockups to
         visualize the layout and flow of your application.
-  - [ ] **Integration and APIs**: Assess any external systems, services, or APIs that
+  - [x] **Integration and APIs**: Assess any external systems, services, or APIs that
         need to be integrated into your application. Plan how these integrations will
         be implemented and how data will flow between systems.
   - [ ] **Scalability and Performance**: Anticipate future growth and consider
@@ -93,7 +93,30 @@ Delete this section when finished, just for progress tracking
 
 ### Component Breakdown
 
+The diagram below depicts the architecture of our application:
+
 ![](/JustOrgYou/sequence_diagram.png)
+
+There are 4 main components that are divided into 2 groups: local and
+server-side.
+
+Local:
+- **Todo Library** contains main business logic of our app. It is responsible
+  for parsing collections of todo entries and performing actions with them.
+  Actions include queering, modifying, merging, performing any user-defined
+  functions (i.e plugins written in rust for any automated data manipulation).
+- **Frontend clients** are responsible only for representation of the data,
+  OS-specific actions and communication with the server everything else is
+  delegated to **Todo Library**.
+
+Server-side:
+- **API server** is used to handle communication of the client-side application
+  with everything else. The main purpose of it is to be in the middle between
+  **Frontend** and **AI models**, but in future it may be extended for more
+  complex actions (e.g. communication with remote database)
+- **AI models** are a set of different algorithms that would perform advanced
+  automation actions like searching by meaning, automatic merge-conflict
+  resolution and so on.
 
 ### Data Management
 
@@ -243,8 +266,7 @@ We currently don't have any integrations with external services. Our
 architecture primarily revolves around internal components and modules that work
 together seamlessly to deliver the intended functionality. As our To-do app
 evolves, we remain open to exploring opportunities for integrating with external
-services when it aligns with our objectives and security considerations, such as
-Google logging, and so on.
+services when it aligns with our objectives and security considerations.
 
 ### Scalability and Performance
 
@@ -277,13 +299,12 @@ denying use of passwords, as it is vulnerable to attaks.
 
 ### Error Handling and Resilience
 
-As for error handling and resilience, there are many techniques we are planning
-to use in our project to avoid errors and unexpected bugs. By incorporating
-these robust error handling and resilience techniques, we improve the
-reliability of our software, minimize downtime, and deliver a more seamless user
-experience. These practices contribute to the overall quality and stability of
-our application, ensuring it can handle unexpected situations and recover
-gracefully from failures
+There are many techniques we are planning to use in our project to avoid errors
+and unexpected bugs. By incorporating these robust error handling and resilience
+techniques, we improve the reliability of our software, minimize downtime, and
+deliver a more seamless user experience. These practices contribute to the
+overall quality and stability of our application, ensuring it can handle
+unexpected situations and recover gracefully from failures.
 
 1. **Graceful Error Handling**: We design our application to handle errors
    gracefully by providing meaningful error messages to users. Clear and
@@ -295,12 +316,27 @@ gracefully from failures
    appropriate levels in our application's code, we can prevent unhandled
    exceptions from crashing the system and provide alternative paths or recovery
    options
-3. **Type-level errors**: Rich type systems allow encoding error information
+3. **Immutability**: Making majority of variables immutable (meaning that after
+   the value is assigned it cannot be changed) provides another layer of
+   security. Firstly, concurrency becomes very convenient as we don't have to
+   think about concurrent read/write operations which is the main problem when
+   creating such apps. Secondly, it's harder to make mistakes when knowing
+   that somewhere along the way the data won't be be changed (contrary, when
+   using mutable variable and passing it around to some functions, programmer
+   can't be sure if the function produces only result or also changes the
+   variable).
+4. **Type-level errors**: Rich type systems allow encoding error information
    into the type signature, which is a lot more secure and clearer than throwing
-   errors and hoping that they will be handeled appropriately. For example,
+   errors and hoping that they will be handled appropriately. For example,
    `Option[T]` described earlier is a lot better than using error codes (such as
    -1 in many C/C++ applications) or null values because some functions are
    always returning a value and some may return null.
+5. **Borrow checker**: It is another concept which ensures security in terms of memory
+   manipulations. If variable(or reference) is immutable, then there aren't any
+   restrictions on reading it, but if variable(or reference) is mutable, then
+   only 1 piece of code(usually function) can use it and others can't unit this
+   piece of code has finished. Also if the variable is not used and won't be
+   used any more it is freed, which ensures that there are no memory leaks.
 
 #### Network related errors
 

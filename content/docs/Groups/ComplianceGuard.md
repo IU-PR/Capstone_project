@@ -7,9 +7,7 @@ title: "ComplianceGuard"
 
 {{< hint danger >}}
 
-**Feedback**  
-Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
-As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of potential readers. 
+ComplianceGuard is a cross-platform application that can check whether an employee is wearing special equipment or not.
 {{< /hint >}}
 
 # **Week #1**
@@ -68,7 +66,7 @@ Overview: Our project is designed for managers of companies whose employees must
 This chart is more of a platitude than actual description of the project. Consider using more specific charts explaining something 
 {{< /hint >}}
 #### Tech stack: 
-- Desight: Figma
+- Design: Figma
 - Frontend: Javascript, HTML, CSS, ReactJS
 - Backend: Python, FastAPI/aiogttp+async, pydantic
 - AI: OpenCV, PyTorch
@@ -79,6 +77,33 @@ Elaborate Explanations: The most critical component is implementation of AI mode
 
 {{< hint danger >}}
 
-**Feedback**  
-Unfortunately, this report was poorly formatted and written and I had to reformat most of the text. The weekly tasks are there to give you the general structure - there is no need to copy all the text. Also, consider using the guide here -  https://www.markdownguide.org/basic-syntax/. Regarding the project, it seems that you have a good team and guidance from the AI institute. However, consider scaling some of the aspect of the project to fit into Capstone project. All that you will promise has to be delivered at the end of the course - therefore, be more specific about what are you building and how are you planning to build it.
+**MVP plans**
+Above I described the final version of the project. In MVP we will include a cross-platform application, that takes a pre-recorded video and apply a created CV model to it.
 {{< /hint >}}
+
+# **Week #2**
+
+**Tech stack**
+
+- Design: Figma
+- Frontend: Javascript, HTML, CSS, ReactJS
+- Backend: Python, FastAPI/aiogttp+async, pydantic
+- AI: OpenCV, PyTorch
+
+**Architecture**
+
+- Component Breakdown: Our project has the following components: Design, Frontend, Backend and CV model. First, design creates a general view of both mobile and computer versions of the application. Then, Frontend makes this design come true and prepares for future requests from backend. Backend works with database(In final version), process metadata taken from frontend, works with message broker and sends messages to specified paths. CV model takes the video and process it.
+
+- Data Management: We decided to use dvc as a management tool for our models. It is very convinient, because using dvc we can keep old models, to return to them if necessary, use external GPU to train models and combine models between each other. To store data we will use cloud storage.
+
+- Scalability and Performance: We are using micro service architecture, because it is much easier to maintain and develop than monolith architecture. After MVP we have a lot of ideas on how to improve our application, many of them are already written above: Add live work with real cameras, find smaller equipement on employees, add authorisation for security.
+
+- Security: For MVP our application does't require any security, but in future, when many people will work with our application, we plan to add authorisation, that can be protected by hard passwords, keys generation or two-factor authentication.
+
+- Error handling: In MVP, there aren't a lot of things that can go wrong. We will have only uploading of a video and work of model on it.
+But later, if something go wrong, we will send an error with it's code and description to some address, where we will be able to learn and then fix it. On user's side, when error occur, the video will just stop and pop-up with warning will appear.
+
+
+**Current progress**
+
+Now we are ending creation of the design, our ML team recieved a dataset today and actively learn it. We got a cloud from university for our models and agreed with ML lab to get GPU from them. We have daily meetings with our customer that agreed to give us some help with code and ideas if necessary(special person from the company will help us). Also we were added two people from magistracy that will help us with our project, which is a significant boost.

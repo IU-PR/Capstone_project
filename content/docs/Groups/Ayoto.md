@@ -160,7 +160,7 @@ Frontend: Zeyad Alagamy
 Backend: Fedor Krasilnikov, Md Motasim Bhuiyan, Ahmed Soliman
 Mobile Application: Mohamed Nguira, Pavel Roganin
 
-The business side of the project is managed by Mostafa Kira and Md Motasim Bhuiyan. They are working on tasks such as market research & Analysis, contacting potential partners, writing fundraising proposal, and communicating with investors
+The business side of the project is managed by Mostafa Kira and Md Motasim Bhuiyan. They are working on tasks such as market research & Analysis, contacting potential partners, writing business plan, and communicating with investors
 
 ## Challenges
 We couldn't find mentors to guide us in developing the project.

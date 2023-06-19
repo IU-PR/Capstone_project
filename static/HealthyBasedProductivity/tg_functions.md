@@ -129,23 +129,13 @@ There should be list of tasks attached to message
 
 There should be list of **active** tasks attached to message
 
-### Ignore task
-
-> `/ingore_task` -> deletes done or active task from history chosen by user from list
-
-List sould be implemented as buttons attached to message
-
-### Skip day
-
-> `/skip_day` -> deletes all incomplete tasks for today. For days that user could not perform task for exceptional reasons (for example: due to illness)
-
 ### History manipulation
 
-> `/add_task_history` -> edits users report for specific completed task (chosen by user)
+> `/add_task_history` -> sends users report for specific completed task (chosen by user)
 
 User should the following info:
 - real complexity of task
-- is task completed
+- whether the task was completed
 - time of start and end of the task (optional)
 
 List should be implemented as buttons attached to message

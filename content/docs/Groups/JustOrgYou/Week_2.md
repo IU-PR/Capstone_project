@@ -270,23 +270,14 @@ services when it aligns with our objectives and security considerations.
 
 ### Scalability and Performance
 
-Scalability and performance are crucial factors to consider when designing the
-architecture of a software solution. Here are some techniques to achieve
+Scalability and performance are crucial factors to consider when designing the architecture of a software solution. Here are some techniques to achieve
 scalability and optimize performance, that we plan to use in our project:
 
-1. **Horizontal Scaling**: First and most common approach is to scale
-   horizontally by adding more servers or instances to distribute the workload.
-   This can be achieved through load balancing techniques, where incoming
-   requests are distributed across multiple servers, allowing for better
-   resource utilization and improved performance
-2. **Content Delivery Networks** (CDNs): Utilizing CDNs can enhance the delivery
-   speed and scalability of static assets, such as images, CSS files, and
-   JavaScript libraries. CDNs cache these files in multiple locations worldwide,
-   ensuring faster access for users across different geographical regions.
-3. **Asynchronous programming**: By offloading time-consuming tasks to
-   background processes or queues, we will improve the responsiveness of our
-   system. Asynchronous processing allows the main application to handle
-   requests quickly while longer-running tasks are processed separately.
+1. **Horizontal Scaling**
+    First and most common approach is to scale horizontally by adding more instances to distribute the workload.
+    In our project architecture, we plan to introduce this technique for a service, responsible for ML and master backend service (Python), which are the only 2 types of services, in our microservice-like architecture.
+2. **Asynchronous programming**
+    By offloading time-consuming tasks to background processes or queues, we will improve the responsiveness of our system. Processing events asynchronosuly allows the main application on server to handle IO-bound requests quickly, comparing to thos in **synchronous programming**.
 
 ### Security and Privacy
 

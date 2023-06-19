@@ -232,14 +232,14 @@ _Feedback by Moofiy_
 This week is still in progress, but our team have intermediate results. So, let's talk about this week.
 
 ### Tech Stack Resources
-We've divide our team on 4 departments: Copyright (ML), Backend, Frontend and DevOps. And this week we've defined our tech stack. DevOps department has now so much experience, so it would use [book](https://github.com/denctl/devops-handbook). Also we want to find mentor that would help us. Frontend Department would use [The design thinking playbook](https://www.design-thinking-playbook.com/playbook-en?lang=en). The book will help to understand the needs of the consumer, to build personas, to understand the subtleties of UX.
+We've divided our team into 4 departments: Copyright (ML), Backend, Frontend and DevOps and defined our tech stack. DevOps department has not so much experience, thus [book](https://github.com/denctl/devops-handbook) will be used. Also we are planning to find a mentor that would help us. Frontend Department uses [The design thinking playbook](https://www.design-thinking-playbook.com/playbook-en?lang=en). The book helps to understand the needs of the consumer, to build personas, to understand the subtleties of UX.
 
 Books could help to expand knowledge in the field with which we work. It is possible to find new approaches to solve different problems.
 
 ### Alternative Resources
 
 #### Copyright Department
-ML Department has been researching text comparison and text categorising problems for this week. Now we're still in progress, but now we're find articles:
+ML Department has been researching text comparison and text categorising problems for this week. Now we're still in progress, but for now the following articles were found:
 
 - For Categorisation:
    - [Random Forest. Classification](https://www.ilkogretim-online.org/fulltext/218-1662471582.pdf)
@@ -249,10 +249,10 @@ ML Department has been researching text comparison and text categorising problem
   - [Case studies how to detect near-duplicate content](https://whites.agency/blog/how-to-use-machine-learning-to-automate-near-duplicate-content-detection/)
 
 #### DevOps Department
-We've find interesting [course](https://github.com/MichaelCade/90DaysOfDevOps) that could help us to define CI/CD for our project.
+We've found [course](https://github.com/MichaelCade/90DaysOfDevOps) interesting. This resource could help us to define CI/CD for our project.
 
 #### Frontend Department
-Except book, stack of Frontend is conclude Flutter, so, department would use some additional resources like: 
+Except book, stack of Frontend is conclude Flutter, so, department will use some additional resources like: 
 - [PubDev](https://pub.dev)
 - [YouTube Course](https://www.youtube.com/watch?v=jAxNZYX7mHM&list=PL4cUxeGkcC9jLYyp2Aoh6hcWuxFDX6PBJ&index=20)
 
@@ -263,30 +263,32 @@ Backend department has been researching APIs of VK, Telegram and Instagram*. So,
  - [Instagram* Graph API](https://developers.facebook.com/docs/instagram-api) (need VPN in Russia)
 
 ### Mentorship Support
-We're finding mentors for most departments. We believe that mentors would direct our workflow in right direction and would help us during the development. Frontend department found Flutter mentor [Gleg Osotov](https://t.me/glebosotov) who develop Flutter mobile apps for 4 years. Also, we've finding DevOps mentor, but unfortunately we are still in progress of finding.
+We're finding mentors for most departments. We believe that mentors would direct our workflow in right direction and would help us during the development. Frontend department found Flutter mentor [Gleg Osotov](https://t.me/glebosotov) who has been developing Flutter mobile apps for 4 years. Also, we're planning to find DevOps mentor, but unfortunately we are still in progress of finding.
 
-Написать про "почему" и рассказать про привлечение TalklNow как соц. сети
+It seems to us that having a mentor in our project will significantly improve the quality of the final product, since we will involve people with development experience, perhaps even those who have entered a large market, for example, TalkNow. Such supervision will help us improve or touch on those technical and business aspects that are unfamiliar or difficult for us.
+
+Since our product is a social network (a resource that aggregates information from the user's social networks), it is important for us to have a mentor experienced in the development of social networks. Therefore, we plan to contact the TalkNow developers for mentorship, advice, and an experienced outsider's perspective.
 
 ### Identifying Knowledge Gaps
-Whole week we were discussing solutions and possible problems of development our app. We've understand that our current knowledge could not cover all the requirements for a complete application development. But also we've enough knowledge to define directions that we need to learn. That's not problem, that another task (auf). 
+Whole week we were discussing solutions and possible problems of our app development. We've understood that our current knowledge could not cover all the requirements for a complete application development. But also we've enough knowledge to define directions that we need to learn. That's not problem, that another task (auf). 
 
-Copyright Department need to find way to train model for classification and comparison. Developers knows classification and comparison, but NLP is new sphere for them. On this week we've already found solutions. Now department is testing them. 
+Copyright Department needs to find a way to train model for classification and comparison. Developers know classification and comparison, but NLP is new sphere for them. On this week we've already found solutions. Now department is testing them. 
 
-DevOps Department is at the beginning of learning DevOps practices. We're hope that this project could help learning k8s, docker and monitor tools deeply.
+DevOps Department is at the beginning of learning DevOps practices. We hope that this project could help learning k8s, docker and monitor tools deeply.
 
-Frontend Department already knew much, but it   
+Frontend Department already knew much, and now continues learning deeper. 
 
 Backend Department have mush knowledge about Backend practises. But we would actively practise gRPC for container communication, so we need to research some info for that. 
 ### Engaging with the Tech Community
-Now we're finding new some experts, sharing our idea with community and collecting feedback. Unfortunately, we've not engage experts into critical tech stack problems. But we're planning to do so.
+Now we're finding new experts, sharing our idea with community and collecting feedback. Unfortunately, we've not engaged experts into critical tech stack problems. But we're planning to do so.
 ### Learning Objectives
-All objectives for each Department are written in the section before last.
-We're all open to get new experience in development such app. We would use books, articles, courses and mentors for achieving our goals. 
+All objectives for each Department are written in the section before previous one.
+We're all open to get new experience in the development of such app. We would use books, articles, courses and mentors for achieving our goals. 
 
 ### Sharing Knowledge with Peers
-We have two meeting per week (Wednesday and Sunday). All departments meet together, drink tea and discussing problems. In spite of different spheres of departments, we're offering ideas and solutions for possible problems for all departments. Also, we can share and ask question to developer from another group. Also we've Telegram Chat with topics for each Department. 
+We have two meeting per week (Wednesday and Sunday). All departments meet together in a friendly atmosphere discussing problems, solutions and offers. In spite of different spheres of departments, we're offering ideas and solutions for possible problems for all departments. Also, we can share and ask question to developer from another group. Also we've Telegram Chat with topics for each Department. 
 ### Leveraging AI during Development
-On this step, all departments do not have need to use AI for boosting our knowledge. But we could use some AI tools for construct learning plan or generating some textures for design. 
+On this step, all departments do not have need to use AI for boosting our knowledge. But we could use some AI tools for constructing learning plan or generating some textures for design. 
 
 ### Tech Stack and Team Allocation
 Most departments conclude two developers except DevOps.
@@ -298,7 +300,7 @@ Most departments conclude two developers except DevOps.
 | Adelina Kildeeva     | [@yumiue](https://t.me/yumiue)                       | a.kildeeva@innopolis.university     |
 
 In Copyright Department are two developers: Adeline and Oksana. Department has a separate meetings where developers discuss tasks and distribute them.
-Project have two main ML problems: categorisation and comparsion. So, Adelina takes Comparison part and do most researched. Oksana takes Categorization problem and test found solutions.
+Project has two main ML problems: categorisation and comparsion. So, Adelina takes Comparison part and do most researched. Oksana takes Categorization problem and test found solutions.
 #### Frontend Department
 
 | Team Member        | Telegram ID                                          | Email Address                       |
@@ -306,7 +308,7 @@ Project have two main ML problems: categorisation and comparsion. So, Adelina ta
 | Yana Pavlova         | [@pavlova_yana_1](https://t.me/pavlova_yana_1)       | y.pavlova@innopolis.university      |
 | Dilyara Farkhutdinova| [@d_farkhutdinova](https://t.me/d_farkhutdinova)     | d.farkhutdinova@innopolis.university|
 
-This department is two people. Yana is in charge of mobile app and it's functionality. Dilyara is in charge of Design and identity of app. But they're actively help each other, so tasks is common.
+This department consits of two people. Yana is in charge of mobile app front-end part development and it's functionality. Dilyara is in charge of Design and identity of the app. But they're actively help each other, exchange experience and opinions, so tasks is common.
 
 #### Backend Department
 
@@ -326,10 +328,15 @@ Department conclude two developers. Now is week of research, but responsibilitie
 DevOps conclude one developer. Department does not have task except researching existing DevOps practices. So, after defining architecture of project, department should make up CI/CD for other developers. 
 
 ### Weekly Progress Report
-This week is week of research. We've defined most features and 
+This week is week of research. We've defined most features and started testing their implementations. The progress is below:
 
-Здесь написать про наш прогресс. Я хотел бы сам, но уже точняк не успеваю
+Front-end Department: Figma prototype (with created UI and UX logic, navigation and interactive elements) is developed, model (outlines of the main variant) of the Front-end part is also created. 
 
+Back-end Department: Studied the VK and telegram documentation and how to interact with their API. Wrote a sandbox for VK, telegram for collecting, aggregating audio + text. Also came up with the architecture for the project.
+
+Copyright Department: Studied existing sources on the topic of categorization and comparison of texts, collected data on which training and evaluation of models will be carried out, and preprocessed the data.
+
+DevOps Department: Together with the back-end department, the architecture was thought out, in the process a deep study of the aspects necessary for implementation and described above is underway.
 # Instagram Remark
 *Признаны экстремистскими организациями и запрещены на территории РФ
 *Recognized as extremist organizations and banned on the territory of the Russian Federation

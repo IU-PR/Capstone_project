@@ -325,18 +325,30 @@ unexpected situations and recover gracefully from failures.
    using mutable variable and passing it around to some functions, programmer
    can't be sure if the function produces only result or also changes the
    variable).
+   For mobile application we split mutable (state) and immutable (data) layers,
+   so user interface could only ask state manager to perfrom action that updates
+   data. Afterwards, UI will get updates reactively. Yes, internally this
+   approach involve side effects, but they are highly isolated from other system.
 4. **Type-level errors**: Rich type systems allow encoding error information
    into the type signature, which is a lot more secure and clearer than throwing
    errors and hoping that they will be handled appropriately. For example,
    `Option[T]` described earlier is a lot better than using error codes (such as
    -1 in many C/C++ applications) or null values because some functions are
-   always returning a value and some may return null.
+   always returning a value and some may return null. The same concept is used
+   in mobile app because dart offer nullable types and they are explicitly
+   differ from non-nullable, `String?` is not `String`.
 5. **Borrow checker**: It is another concept which ensures security in terms of memory
    manipulations. If variable(or reference) is immutable, then there aren't any
    restrictions on reading it, but if variable(or reference) is mutable, then
    only 1 piece of code(usually function) can use it and others can't unit this
    piece of code has finished. Also if the variable is not used and won't be
    used any more it is freed, which ensures that there are no memory leaks.
+6. **App global error handler** this part is specific for GUI clients, like mobile
+   app. Because, user couldn't be notified as easy as in terminal, we want to reduce
+   uncaugh errors. But sometimes, exception raises from dependency in example and
+   developer just could not predict user environment setup and depdendency behavior.
+   So, to not ignore exception nor fall the app, we handle all such cases globally
+   and navigate user to special screen similar to "oops, error ... occured".
 
 #### Network related errors
 

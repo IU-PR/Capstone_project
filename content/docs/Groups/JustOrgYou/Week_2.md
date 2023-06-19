@@ -9,10 +9,10 @@ title: "Week #2"
 ## TODO
 
 {{< hint danger >}}
-Delete this section when finished, just for progress tracking
+Todo list of required parts to ensure that nothing missed
 {{< /hint >}}
 
-- [ ] Provide architecture
+- [x] Provide architecture
   - [x] **Component Breakdown**: Identify the major components and modules that will
         form your software solution. Outline their responsibilities and interactions
         to ensure a cohesive structure.
@@ -25,18 +25,18 @@ Delete this section when finished, just for progress tracking
   - [x] **Integration and APIs**: Assess any external systems, services, or APIs that
         need to be integrated into your application. Plan how these integrations will
         be implemented and how data will flow between systems.
-  - [ ] **Scalability and Performance**: Anticipate future growth and consider
+  - [x] **Scalability and Performance**: Anticipate future growth and consider
         scalability aspects when designing the architecture. Ensure that your
         application can handle increasing user loads and data volumes without
         compromising performance.
-  - [ ] **Security and Privacy**: Incorporate appropriate security measures into your
+  - [x] **Security and Privacy**: Incorporate appropriate security measures into your
         architecture to protect user data and safeguard against potential
         vulnerabilities. Consider authentication, authorization, encryption, and
         other relevant security practices.
-  - [ ] **Error Handling and Resilience**: Plan for handling errors and exceptions to
+  - [x] **Error Handling and Resilience**: Plan for handling errors and exceptions to
         maintain a reliable and resilient application. Define strategies for error
         logging, monitoring, and graceful error recovery.
-  - [ ] **Deployment and DevOps**: Consider the deployment process and DevOps
+  - [x] **Deployment and DevOps**: Consider the deployment process and DevOps
         practices that align with your chosen tech stack. Automate deployment tasks,
         implement version control, and establish a robust development workflow.
 - [x] Choose tech stack

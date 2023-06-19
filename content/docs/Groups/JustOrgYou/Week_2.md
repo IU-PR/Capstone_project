@@ -349,6 +349,9 @@ unexpected situations and recover gracefully from failures.
    developer just could not predict user environment setup and depdendency behavior.
    So, to not ignore exception nor fall the app, we handle all such cases globally
    and navigate user to special screen similar to "oops, error ... occured".
+7. **Separation of Logic into Services and Modules**
+    We adopt a modular approach by separating the application's logic into different services that communicate with each other, instead of running the whole logic on single host. This architectural design ensures that if one part of the application fails, it does not result in a complete system failure.
+    Moreover, we will use separate **Rust** library, that will handle tasks representation and modification. This library will run on both client & server, which helps incapsulate common logic in different places. 
 
 #### Network related errors
 

@@ -270,32 +270,35 @@ services when it aligns with our objectives and security considerations.
 
 ### Scalability and Performance
 
-Scalability and performance are crucial factors to consider when designing the
-architecture of a software solution. Here are some techniques to achieve
+Scalability and performance are crucial factors to consider when designing the architecture of a software solution. Here are some techniques to achieve
 scalability and optimize performance, that we plan to use in our project:
 
-1. **Horizontal Scaling**: First and most common approach is to scale
-   horizontally by adding more servers or instances to distribute the workload.
-   This can be achieved through load balancing techniques, where incoming
-   requests are distributed across multiple servers, allowing for better
-   resource utilization and improved performance
-2. **Content Delivery Networks** (CDNs): Utilizing CDNs can enhance the delivery
-   speed and scalability of static assets, such as images, CSS files, and
-   JavaScript libraries. CDNs cache these files in multiple locations worldwide,
-   ensuring faster access for users across different geographical regions.
-3. **Asynchronous programming**: By offloading time-consuming tasks to
-   background processes or queues, we will improve the responsiveness of our
-   system. Asynchronous processing allows the main application to handle
-   requests quickly while longer-running tasks are processed separately.
+1. **Horizontal Scaling**
+    First and most common approach is to scale horizontally by adding more instances to distribute the workload.
+    In our project architecture, we plan to introduce this technique for a service, responsible for ML and master backend service (Python), which are the only 2 types of services, in our microservice-like architecture.
+2. **Asynchronous programming**
+    By offloading time-consuming tasks to background processes or queues, we will improve the responsiveness of our system. Processing events asynchronosuly allows the main application on server to handle IO-bound requests quickly, comparing to thos in **synchronous programming**.
+3. **Modularity and Microservices**
+    We further enhance scalability, development, and maintenance by dividing our project's logic into modular components that are not dependent on each other: Rust todo library, AI's related service, master backend server, frontend client. 
+    The microservices architecture enables independent development, deployment, reusability and scalability of specific components, ensuring fault isolation and better overall system performance.
 
 ### Security and Privacy
 
-Our team is very sensitive to security and privacry issues. Firstly, our Web
-client would allow connections only via HTTPS, which will ensure security of
-transferring data via Internet. Secondly, we will use encryption and hashing
-algorithms for saving user passwords, which should help avoid data leakage in
-case of hacking. As for our servers, we will use ssh keys for connection,
-denying use of passwords, as it is vulnerable to attaks.
+
+Security and privacy are top priorities for our team in developing our project. We have taken several measures to ensure the protection of user data:
+
+1. **HTTPS-only connection**
+    Firstly, our Web client would allow connections only via HTTPS, which will ensure security of transferring data via Internet.
+2. **No sensitive data storage**
+    We do not ask any sensitive information from our clients, such as name, date of birth, to minimize the risks associated with data leakage.
+3. **Encryption of data**
+    Secondly, we will use encryption and hashing algorithms for saving user passwords, which should help avoid data leakage in case of hacking.
+4. **Synchronization with server is optional**
+    Our application offers users the freedom to choose whether they want to synchronize their data with a remote cloud server.
+    Cloud-dependent features like **ML** (Machine learning) and Account synchronization are available but not mandatory, base functionality goes **offline** and covers most of user needs.
+5. **Attack-resistant SSH**
+    As for our servers, we will use ssh keys for connection, denying use of passwords, as it is vulnerable to attaks.
+
 
 ### Error Handling and Resilience
 
@@ -349,6 +352,9 @@ unexpected situations and recover gracefully from failures.
    developer just could not predict user environment setup and depdendency behavior.
    So, to not ignore exception nor fall the app, we handle all such cases globally
    and navigate user to special screen similar to "oops, error ... occured".
+7. **Separation of Logic into Services and Modules**
+    We adopt a modular approach by separating the application's logic into different services that communicate with each other, instead of running the whole logic on single host. This architectural design ensures that if one part of the application fails, it does not result in a complete system failure.
+    Moreover, we will use separate **Rust** library, that will handle tasks representation and modification. This library will run on both client & server, which helps incapsulate common logic in different places. 
 
 #### Network related errors
 

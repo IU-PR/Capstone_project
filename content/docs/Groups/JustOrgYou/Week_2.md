@@ -9,10 +9,10 @@ title: "Week #2"
 ## TODO
 
 {{< hint danger >}}
-Ensure that dont forget required parts
+Todo list of required parts to ensure that nothing missed
 {{< /hint >}}
 
-- [ ] Provide architecture
+- [x] Provide architecture
   - [x] **Component Breakdown**: Identify the major components and modules that will
         form your software solution. Outline their responsibilities and interactions
         to ensure a cohesive structure.

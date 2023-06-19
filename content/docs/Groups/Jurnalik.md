@@ -144,7 +144,7 @@ We are aware of the importance of having experts in our team, but we cannot find
 
 _Feedback by Moofiy_
 {{< /hint >}}
-## **Inviting other students**
+### **Inviting other students**
 
 Of course, we are open to inviting other students to join our project. We believe in the power of collaboration and are keen to expand our team in the future.
 
@@ -157,9 +157,9 @@ say no, don't fill in fluff words!
 _Feedback by Moofiy_
 {{< /hint >}}
 
-## **Vision for Your Project**
+### **Vision for Your Project**
 
-### Project overview
+#### Project overview
 Our project is a mobile application, an electronic "newspaper" that collects and provides the user with the latest news, posts, and photos from their social networks, news channels, and subscriptions. The main purpose of the project is to solve the problem of information overload and inefficient use of the user's time on social networks. We aim to provide a user-friendly and unique resource that allows users to focus on each piece of content, avoid holding back algorithms and get only the most important information.
 #### Schematic Drawing
 ![Structure](/Jurnalik/structureJurnalik.svg)
@@ -241,7 +241,6 @@ Books could help to expand knowledge in the field with which we work. It is poss
 #### Copyright Department
 ML Department has been researching text comparison and text categorising problems for this week. Now we're still in progress, but now we're find articles:
 
-Nikita Semeritskiy, [18.06.2023 18:00]
 - For Categorisation:
    - [Random Forest. Classification](https://www.ilkogretim-online.org/fulltext/218-1662471582.pdf)
    - [Guide how to write a model](https://www.scaler.com/topics/machine-learning/bbc-news-classification/)
@@ -293,7 +292,6 @@ On this step, all departments do not have need to use AI for boosting our knowle
 Most departments conclude two developers except DevOps.
 #### Copyright Department
 
-Nikita Semeritskiy, [18.06.2023 18:00]
 | Team Member        | Telegram ID                                          | Email Address                       |
 | ------------------ | ---------------------------------------------------- | ----------------------------------- |
 | Oksana Konovalova    | [@ksko02](https://t.me/ksko02)                       | o.konovalova@innopolis.university   |
@@ -331,3 +329,4 @@ DevOps conclude one developer. Department does not have task except researching 
 This week is week of research. We've defined most features and 
 # Instagram Remark
 *Признаны экстремистскими организациями и запрещены на территории РФ
+*Recognized as extremist organizations and banned on the territory of the Russian Federation

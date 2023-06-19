@@ -278,6 +278,9 @@ scalability and optimize performance, that we plan to use in our project:
     In our project architecture, we plan to introduce this technique for a service, responsible for ML and master backend service (Python), which are the only 2 types of services, in our microservice-like architecture.
 2. **Asynchronous programming**
     By offloading time-consuming tasks to background processes or queues, we will improve the responsiveness of our system. Processing events asynchronosuly allows the main application on server to handle IO-bound requests quickly, comparing to thos in **synchronous programming**.
+3. **Modularity and Microservices**
+    We further enhance scalability, development, and maintenance by dividing our project's logic into modular components that are not dependent on each other: Rust todo library, AI's related service, master backend server, frontend client. 
+    The microservices architecture enables independent development, deployment, reusability and scalability of specific components, ensuring fault isolation and better overall system performance.
 
 ### Security and Privacy
 

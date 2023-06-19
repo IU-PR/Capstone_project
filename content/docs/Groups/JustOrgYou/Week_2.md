@@ -13,7 +13,7 @@ Delete this section when finished, just for progress tracking
 {{< /hint >}}
 
 - [ ] Provide architecture
-  - [ ] **Component Breakdown**: Identify the major components and modules that will
+  - [x] **Component Breakdown**: Identify the major components and modules that will
         form your software solution. Outline their responsibilities and interactions
         to ensure a cohesive structure.
   - [x] **Data Management**: Determine how data will be stored, accessed, and
@@ -22,7 +22,7 @@ Delete this section when finished, just for progress tracking
   - [x] **User Interface (UI) Design**: Consider the user experience (UX) and design
         principles when planning your UI. Sketch wireframes or create mockups to
         visualize the layout and flow of your application.
-  - [ ] **Integration and APIs**: Assess any external systems, services, or APIs that
+  - [x] **Integration and APIs**: Assess any external systems, services, or APIs that
         need to be integrated into your application. Plan how these integrations will
         be implemented and how data will flow between systems.
   - [ ] **Scalability and Performance**: Anticipate future growth and consider
@@ -93,7 +93,30 @@ Delete this section when finished, just for progress tracking
 
 ### Component Breakdown
 
+The diagram below depicts the architecture of our application:
+
 ![](/JustOrgYou/sequence_diagram.png)
+
+There are 4 main components that are divided into 2 groups: local and
+server-side.
+
+Local:
+- **Todo Library** contains main business logic of our app. It is responsible
+  for parsing collections of todo entries and performing actions with them.
+  Actions include queering, modifying, merging, performing any user-defined
+  functions (i.e plugins written in rust for any automated data manipulation).
+- **Frontend clients** are responsible only for representation of the data,
+  OS-specific actions and communication with the server everything else is
+  delegated to **Todo Library**.
+
+Server-side:
+- **API server** is used to handle communication of the client-side application
+  with everything else. The main purpose of it is to be in the middle between
+  **Frontend** and **AI models**, but in future it may be extended for more
+  complex actions (e.g. communication with remote database)
+- **AI models** are a set of different algorithms that would perform advanced
+  automation actions like searching by meaning, automatic merge-conflict
+  resolution and so on.
 
 ### Data Management
 
@@ -243,8 +266,7 @@ We currently don't have any integrations with external services. Our
 architecture primarily revolves around internal components and modules that work
 together seamlessly to deliver the intended functionality. As our To-do app
 evolves, we remain open to exploring opportunities for integrating with external
-services when it aligns with our objectives and security considerations, such as
-Google logging, and so on.
+services when it aligns with our objectives and security considerations.
 
 ### Scalability and Performance
 
@@ -277,13 +299,12 @@ denying use of passwords, as it is vulnerable to attaks.
 
 ### Error Handling and Resilience
 
-As for error handling and resilience, there are many techniques we are planning
-to use in our project to avoid errors and unexpected bugs. By incorporating
-these robust error handling and resilience techniques, we improve the
-reliability of our software, minimize downtime, and deliver a more seamless user
-experience. These practices contribute to the overall quality and stability of
-our application, ensuring it can handle unexpected situations and recover
-gracefully from failures
+There are many techniques we are planning to use in our project to avoid errors
+and unexpected bugs. By incorporating these robust error handling and resilience
+techniques, we improve the reliability of our software, minimize downtime, and
+deliver a more seamless user experience. These practices contribute to the
+overall quality and stability of our application, ensuring it can handle
+unexpected situations and recover gracefully from failures.
 
 1. **Graceful Error Handling**: We design our application to handle errors
    gracefully by providing meaningful error messages to users. Clear and
@@ -295,12 +316,39 @@ gracefully from failures
    appropriate levels in our application's code, we can prevent unhandled
    exceptions from crashing the system and provide alternative paths or recovery
    options
-3. **Type-level errors**: Rich type systems allow encoding error information
+3. **Immutability**: Making majority of variables immutable (meaning that after
+   the value is assigned it cannot be changed) provides another layer of
+   security. Firstly, concurrency becomes very convenient as we don't have to
+   think about concurrent read/write operations which is the main problem when
+   creating such apps. Secondly, it's harder to make mistakes when knowing
+   that somewhere along the way the data won't be be changed (contrary, when
+   using mutable variable and passing it around to some functions, programmer
+   can't be sure if the function produces only result or also changes the
+   variable).
+   For mobile application we split mutable (state) and immutable (data) layers,
+   so user interface could only ask state manager to perfrom action that updates
+   data. Afterwards, UI will get updates reactively. Yes, internally this
+   approach involve side effects, but they are highly isolated from other system.
+4. **Type-level errors**: Rich type systems allow encoding error information
    into the type signature, which is a lot more secure and clearer than throwing
-   errors and hoping that they will be handeled appropriately. For example,
+   errors and hoping that they will be handled appropriately. For example,
    `Option[T]` described earlier is a lot better than using error codes (such as
    -1 in many C/C++ applications) or null values because some functions are
-   always returning a value and some may return null.
+   always returning a value and some may return null. The same concept is used
+   in mobile app because dart offer nullable types and they are explicitly
+   differ from non-nullable, `String?` is not `String`.
+5. **Borrow checker**: It is another concept which ensures security in terms of memory
+   manipulations. If variable(or reference) is immutable, then there aren't any
+   restrictions on reading it, but if variable(or reference) is mutable, then
+   only 1 piece of code(usually function) can use it and others can't unit this
+   piece of code has finished. Also if the variable is not used and won't be
+   used any more it is freed, which ensures that there are no memory leaks.
+6. **App global error handler** this part is specific for GUI clients, like mobile
+   app. Because, user couldn't be notified as easy as in terminal, we want to reduce
+   uncaugh errors. But sometimes, exception raises from dependency in example and
+   developer just could not predict user environment setup and depdendency behavior.
+   So, to not ignore exception nor fall the app, we handle all such cases globally
+   and navigate user to special screen similar to "oops, error ... occured".
 
 #### Network related errors
 
@@ -342,24 +390,14 @@ For the deployment and DevOps practices of our project, we will follow a set of
 strategies and use appropriate tools to ensure smooth and efficient deployment
 processes. Some key considerations and actions include:
 
-1. **Continuous Integration and Deployment**: We will implement a continuous
-   integration (CI) and continuous deployment (CD) pipeline to automate the
-   build, testing, and deployment processes. This pipeline will help us
-   streamline development workflows and ensure that new features and bug fixes
-   are deployed quickly and reliably.
-2. **Containerization**: We will utilize containerization technology, such as
-   Docker, to package our application and its dependencies into lightweight and
-   portable containers. This approach enables consistent deployment across
-   different environments and simplifies the management of dependencies.
-3. **Version Control and Collaboration**: We will utilize version control
-   systems like Git to manage our source code, track changes, and facilitate
-   collaboration among team members. By following best practices for branching,
-   merging, and code reviews, we can ensure a robust development workflow and
-   maintain code quality.
-4. **Automated Testing**: We will implement automated testing practices, such as
-   unit tests, to validate the functionality and reliability of our application.
-   Automated testing allows us to catch bugs early, ensure code stability, and
-   support confident deployments.
+1. **Continuous Integration (CI)**:
+    We will implement a continuous integration (CI) to automate the build, testing (unit-testing, integration tests, and others) , and deployment processes. This will allows us to catch bugs early, ensure code stability, and support confident deployments. Most probably we will use **Github Actions**.
+    For **Python**, we will use such tools: `isort`, `black`, `flake8`, `mypy`. All of them help identifying bugs, code smells, and unexpected behaviours in our programs.
+2. **Continuous deployment (CD)**:
+    Continious deployment is also important part of slim and up-to-date application, it will help us deliver updates on time, according to a given action pattern.
+    Also will be implemented via **Github Actions**.
+3. **Containerization (Docker)**: We will utilize containerization technology, especially **Docker**, to package our application and its dependencies into lightweight and portable containers.
+    This approach enables consistent deployment across different environments and simplifies the management of dependencies.
 
 By incorporating these deployment and DevOps practices, we aim to achieve
 efficient, reliable, and scalable deployments while maintaining a robust

@@ -19,16 +19,16 @@ Our software project addresses the critical problem of efficiently diagnosing di
 ### Solution Description
 Our platform revolutionizes the healthcare experience by providing a comprehensive solution to the identified problem. Through an intuitive interface, users can input their symptoms, which initiates a guided question-and-answer process. The system collects relevant information to generate a preliminary diagnosis based on advanced algorithms and medical knowledge. Additionally, the platform recommends doctors who specialize in the relevant field, ensuring that users receive the most appropriate care.
 
-### Features list
-1- A bot for prelimintary diagnosis for the user
-2- Doctors Online Booking service for partner diagnostic centers
-3- Dataset with additional list of doctors
-4- Patient history tracking
+#### Main Features List
+* A bot for prelimintary diagnosis for the user
+* Doctors Online Booking service for partner diagnostic centers
+* Dataset with additional list of doctors
+* Patient history tracking
 
-### Features to add
+#### Additional Features
 * Chat with doctors
 * Video call with a doctor
-* Notificationf for the user related to its disease
+* Notifications for the user related to its disease
 
 ### Benefits to Users
 1- Accurate and Efficient Diagnosis: Users can receive a preliminary diagnosis quickly, reducing anxiety and enabling them to take proactive steps toward treatment.

@@ -290,12 +290,21 @@ scalability and optimize performance, that we plan to use in our project:
 
 ### Security and Privacy
 
-Our team is very sensitive to security and privacry issues. Firstly, our Web
-client would allow connections only via HTTPS, which will ensure security of
-transferring data via Internet. Secondly, we will use encryption and hashing
-algorithms for saving user passwords, which should help avoid data leakage in
-case of hacking. As for our servers, we will use ssh keys for connection,
-denying use of passwords, as it is vulnerable to attaks.
+
+Security and privacy are top priorities for our team in developing our project. We have taken several measures to ensure the protection of user data:
+
+1. **HTTPS-only connection**
+    Firstly, our Web client would allow connections only via HTTPS, which will ensure security of transferring data via Internet.
+2. **No sensitive data storage**
+    We do not ask any sensitive information from our clients, such as name, date of birth, to minimize the risks associated with data leakage.
+3. **Encryption of data**
+    Secondly, we will use encryption and hashing algorithms for saving user passwords, which should help avoid data leakage in case of hacking.
+4. **Synchronization with server is optional**
+    Our application offers users the freedom to choose whether they want to synchronize their data with a remote cloud server.
+    Cloud-dependent features like **ML** (Machine learning) and Account synchronization are available but not mandatory, base functionality goes **offline** and covers most of user needs.
+5. **Attack-resistant SSH**
+    As for our servers, we will use ssh keys for connection, denying use of passwords, as it is vulnerable to attaks.
+
 
 ### Error Handling and Resilience
 

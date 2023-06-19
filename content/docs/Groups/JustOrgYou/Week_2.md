@@ -378,24 +378,14 @@ For the deployment and DevOps practices of our project, we will follow a set of
 strategies and use appropriate tools to ensure smooth and efficient deployment
 processes. Some key considerations and actions include:
 
-1. **Continuous Integration and Deployment**: We will implement a continuous
-   integration (CI) and continuous deployment (CD) pipeline to automate the
-   build, testing, and deployment processes. This pipeline will help us
-   streamline development workflows and ensure that new features and bug fixes
-   are deployed quickly and reliably.
-2. **Containerization**: We will utilize containerization technology, such as
-   Docker, to package our application and its dependencies into lightweight and
-   portable containers. This approach enables consistent deployment across
-   different environments and simplifies the management of dependencies.
-3. **Version Control and Collaboration**: We will utilize version control
-   systems like Git to manage our source code, track changes, and facilitate
-   collaboration among team members. By following best practices for branching,
-   merging, and code reviews, we can ensure a robust development workflow and
-   maintain code quality.
-4. **Automated Testing**: We will implement automated testing practices, such as
-   unit tests, to validate the functionality and reliability of our application.
-   Automated testing allows us to catch bugs early, ensure code stability, and
-   support confident deployments.
+1. **Continuous Integration (CI)**:
+    We will implement a continuous integration (CI) to automate the build, testing (unit-testing, integration tests, and others) , and deployment processes. This will allows us to catch bugs early, ensure code stability, and support confident deployments. Most probably we will use **Github Actions**.
+    For **Python**, we will use such tools: `isort`, `black`, `flake8`, `mypy`. All of them help identifying bugs, code smells, and unexpected behaviours in our programs.
+2. **Continuous deployment (CD)**:
+    Continious deployment is also important part of slim and up-to-date application, it will help us deliver updates on time, according to a given action pattern.
+    Also will be implemented via **Github Actions**.
+3. **Containerization (Docker)**: We will utilize containerization technology, especially **Docker**, to package our application and its dependencies into lightweight and portable containers.
+    This approach enables consistent deployment across different environments and simplifies the management of dependencies.
 
 By incorporating these deployment and DevOps practices, we aim to achieve
 efficient, reliable, and scalable deployments while maintaining a robust

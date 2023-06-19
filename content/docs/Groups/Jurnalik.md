@@ -327,6 +327,9 @@ DevOps conclude one developer. Department does not have task except researching 
 
 ### Weekly Progress Report
 This week is week of research. We've defined most features and 
+
+Здесь написать про наш прогресс. Я хотел бы сам, но уже точняк не успеваю
+
 # Instagram Remark
 *Признаны экстремистскими организациями и запрещены на территории РФ
 *Recognized as extremist organizations and banned on the territory of the Russian Federation

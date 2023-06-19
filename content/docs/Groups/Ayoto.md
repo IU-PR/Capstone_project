@@ -79,7 +79,7 @@ We will measure the success of our project based on the following metrics:
 We plan to iterate and pivot based on user feedback by continuously collecting and analyzing user feedback. This will allow us to identify areas for improvement and make iterative changes to our platform. Additionally, we will leverage data analysis to assess the accuracy of our preliminary diagnoses and doctor recommendations, ensuring that our platform is providing the most relevant and up-to-date information.
 
 
-## Leveraging AI, Open-Source, and Experts #
+## Leveraging AI, Open-Source, and Experts
 Our team has a strategic plan to leverage the following resources for the development and success of our project:
 
 1- AI (Artificial Intelligence):
@@ -114,8 +114,8 @@ Our project aims to revolutionize the healthcare industry by providing an intell
 
 ### Component Breakdown
 1. AI Diagnosis Module: Utilizes advanced AI algorithms to analyze symptoms and provide preliminary diagnoses.
-2. Doctor Recommendation Engine: Matches users with suitable doctors.
-3. User Profile Management: We keep track of user profiles and their medical history.
+2. Doctors Recommendation Engine: Matches users with suitable doctors.
+3. User Profile Management: keeps track of user profiles and their medical history.
 
 ### Data Management
 The platform will employ a relational database management system. We will use PostgreSQL to store user profiles, symptom data, preliminary diagnoses, and doctor information.
@@ -151,6 +151,16 @@ We will implement CI/CD (Continuous Integration/Continuous Deployment) using Tra
 * We do not feel that we are facing knowledge gaps at the moment
 * We organized several meeting for for discussion and knowledge sharing
 * We utilized AI by using large language models for understanding some technical aspects that were not clear to us
+
+## Tech Stack and Team Allocation
+Assignment of team members roles in the project was done according to the experience of each member in the team and the projects he worked on before.
+
+The technical roles in the team is assigned as follow:
+Frontend: Zeyad Alagamy
+Backend: Fedor Krasilnikov, Md Motasim Bhuiyan, Ahmed Soliman
+Mobile Application: Mohamed Nguira, Pavel Roganin
+
+The business side of the project is managed by Mostafa Kira and Md Motasim Bhuiyan. They are working on tasks such as market research & Analysis, contacting potential partners, writing fundraising proposal, and communicating with investors
 
 ## Challenges
 We couldn't find mentors to guide us in developing the project.

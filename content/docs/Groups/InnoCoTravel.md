@@ -282,3 +282,55 @@ The main objective of sprint 1 is to deploy all parts of our application, includ
 
 ### **End?** 
 We have scheduled a team meeting on 22.06 to discuss and assess the outcomes of Sprint 1. During this meeting, we will review the work that has been completed and evaluate its progress. Following the assessment, we will engage in discussions regarding the further development of our project and determine the objectives for Sprint 2. 
+
+{{< hint danger >}}
+**Feedback**
+
+
+**2. Data Management**
+
+Missing
+
+**3. UI Design **
+
+Missing
+
+**4. Integration and APIs**
+
+Missing
+
+**5. Scalability and Performance**
+Missing
+
+**6. Security and Privacy**
+Missing
+
+**7. Error handling and Resillience**
+Missing
+
+
+**Answering questioner**
+Answering for the questioner is ok, You should find a mentor from the early stages, since he will provide a lot of insight to your project.
+
+Also try to write the name of courses you found on free code camp.
+
+So you didn’t utilise any books, you didn’t find a mentor, you didn’t engage with tech community.
+
+> Fortunately, we were able to address and resolve these misconceptions?
+
+
+
+**Overall**
+The report is not very good, and lack a lot of details. Beside stick with the report template don’t change it and provide answers to what requested in each section correctly.
+
+>However, we discovered that there were some misconceptions regarding the overall vision of the project during our discussions. Fortunately, we were able to address and resolve these misconceptions.
+
+So what was those misconceptions?
+
+Beside the report have a lot of text that is not meaningful  like the text above
+
+Grade 2.5/5
+  
+
+_Feedback by Moofiy_
+{{< /hint >}}

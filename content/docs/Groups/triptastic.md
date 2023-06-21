@@ -160,3 +160,12 @@ These include:
   
   _Feedback by Moofiy_
   {{< /hint >}}
+  
+  
+  {{< hint danger >}}
+  **Feedback**  
+  
+  No week 2 report?
+  
+  _Feedback by Moofiy_
+  {{< /hint >}}

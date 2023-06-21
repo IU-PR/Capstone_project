@@ -96,3 +96,55 @@ We discussed tech stack, tech elective, wishes of each team member. Then we sepa
 We understood that the CV part of our project is the most difficult and time consuming. So, Rinat will manage a group of four people to achieve results more efficiently.
 
 Anastasia Barabanova was chosen to manage other parts of development, communicate with the team and our customer. 
+
+
+{{< hint danger >}}
+**Feedback** 
+
+**1. Component Breakdown**
+
+Good! short and To the point!
+
+**2. Data Management**
+
+Missing
+
+**3. UI Design **
+
+Simple and nice, I like it. But I would like to see how will you sow a Marking. And how will you handle showing for multiple images. Also will the use have a delete option or export option? 
+
+You should show all of that and make the prototype more realistic.
+
+**4. Integration and APIs**
+
+This is too short, how will you handle this API with Moodle? How will you crate it, host it, document it? 
+
+**5. Scalability and Performance**
+Good.
+
+**6. Security and Privacy**
+> planning to use the best security practices for the login system
+
+How? What is this best login practices? 
+
+**7. Error handling and Resillience**
+> We will have a robust error handling and logging mechanism in place to ensure that our application can recover gracefully from unexpected issues
+
+What are these mechanisms?
+
+**8. Deployment and DevOps**
+Good, what git workflow will you use?
+
+**Answering questioner **
+
+Good
+
+**Overall**
+The report is generally good. I felt that you need to provide more details in the first section especially in 6, 7 and 8.
+
+Grade 4.5/5
+
+ 
+
+_Feedback by Moofiy_
+{{< /hint >}}

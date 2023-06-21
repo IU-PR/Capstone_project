@@ -296,3 +296,50 @@ In the modern world, the use of AI can make many aspects of life easier, so we u
 | Anel Salkenova | @niksgont    | Frontend Development using React and Bootstrap |
 
 Anel and Roukaya have a great expertise and interest in front-end web development as they both understand JavaScript and its usage in React and worked on several projects before. Tanmay has a keen interest in the backend development part of the application and has a sound understanding of API development using Node.js and Express.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**Improvement section**
+Good, for the money you need to talk to the university how will you handle transactions.
+
+**1. Component Breakdown**
+
+Good division, But I would say that you have to make the product listing the main one. 
+You don’t really need a home page. Look how Ozone is doing it.
+
+Very good in the other categories, I like the fact that you’ve added analytics. But which Analytic platform you will use? Mixpanle is good option if you don’t know.
+
+One important thing, try to prioritize the feature in the app, and start implementing the important one like product listing and checkout and deli order history or add to favourite.
+
+
+**2. Data Management**
+
+Good!
+
+**3. UI Design **
+I love the design, and very nice image generation usage. But try to avoid using gradient colors, they don’t really go well with Apps a cording to Google Material design. Go with solid colors
+
+**4. Integration and APIs**
+
+Good.
+You are in Russia try to incorporate Russian pay gateway. Maybe string doesn’t work here.
+
+**5. Scalability and Performance**
+Good.
+
+**6. Security and Privacy**
+Good
+
+**7. Error handling and Resillience**
+Good
+
+**8. Deployment and DevOps**
+
+Good. But did you decide in a git workflow between the team? You should state it here.
+
+Grade: 5/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

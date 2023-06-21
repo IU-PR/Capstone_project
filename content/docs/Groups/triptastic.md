@@ -167,5 +167,7 @@ These include:
   
   No week 2 report?
   
+  Grade 0/5 if this is a mistake and you already have the report, tell me where to find it please.
+  
   _Feedback by Moofiy_
   {{< /hint >}}

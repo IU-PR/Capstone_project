@@ -586,3 +586,57 @@ our users.
 - **Skorkin Anton** is responsible for creating an interactive map of the
   university and wrapping it into the React-component, which will be improted
   and used in our web-application.
+  
+  {{< hint danger >}}
+  **Feedback**  
+  
+  
+**1. Component Breakdown**
+
+> Python — is one of the most popular programming languages;
+
+You have chosed Python just because it’s popular? better to have more results rather than popularity. 
+
+But on all its good selection
+
+**2. Data Management**
+
+Very Good, good thinking on how to solve requests issues. 
+
+**3. UI Design **
+
+Design is OK, it doesn’t show how users can select rooms, or dates. 
+Also, try to use colors instead of grey. 
+
+You should show all of what your app represent and make the prototype more realistic.
+
+Why the map is empty? And have 2 rooms?
+
+**4. Integration and APIs**
+
+Missing?
+
+**5. Scalability and Performance**
+Good.
+
+**6. Security and Privacy**
+Good
+
+**7. Error handling and Resillience**
+Good
+
+**8. Deployment and DevOps**
+Very Good
+
+**Answering questioner **
+
+Good
+
+**Overall**
+The report is generally good. You have to provide better UI design that can cover Alamos all features you want to do at least in version 1 
+
+Grade 5/5
+
+  
+  _Feedback by Moofiy_
+  {{< /hint >}}

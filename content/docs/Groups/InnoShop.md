@@ -318,7 +318,8 @@ One important thing, try to prioritize the feature in the app, and start impleme
 
 Good!
 
-**3. UI Design **
+**3. UI Design**
+
 I love the design, and very nice image generation usage. But try to avoid using gradient colors, they don’t really go well with Apps a cording to Google Material design. Go with solid colors
 
 **4. Integration and APIs**

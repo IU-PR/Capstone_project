@@ -340,3 +340,47 @@ DevOps Department: Together with the back-end department, the architecture was t
 # Instagram Remark
 *Признаны экстремистскими организациями и запрещены на территории РФ
 *Recognized as extremist organizations and banned on the territory of the Russian Federation
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Improvement section**
+Good, for the money you need to talk to the university how will you handle transactions.
+
+**1. Component Breakdown**
+
+Missing
+
+**2. Data Management**
+
+Missing
+
+**3. UI Design **
+
+Missing 
+
+**4. Integration and APIs**
+
+Missing
+
+**5. Scalability and Performance**
+Missing
+
+**6. Security and Privacy**
+Missing
+
+**7. Error handling and Resillience**
+Missing
+
+**8. Deployment and DevOps**
+You found a course, this is what you did all week?
+
+**Overall**
+The report is extremely week. It Dorset reflect any of the requested items. And doesn’t show that you did much development or progress. Finding a course is not a progress. Or even taking one. It might be good for your knowledge but we expect form you to show progress. Which mean learn and apply. 
+
+Grade 1/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

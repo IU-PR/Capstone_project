@@ -231,3 +231,58 @@ We have divided the areas of responsibility within the team according to the fol
 **Feedback by Rustam**  
 Frontend design and overall project handling is outstanding. Keep up the pace and make sure to quickly iterate and pivot on technologies if necessary.
 {{< /hint >}}
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**1. Component Breakdown**
+
+Good, but the component isn’t really connected. I mean what is the difference between AI chatbot and Backend?  Different services or same backend? 
+
+**2. Data Management**
+
+Good
+
+**3. UI Design **
+
+I like the design very much.
+
+**4. Integration and APIs**
+
+Missing
+
+**5. Scalability and Performance**
+Good
+
+**6. Security and Privacy**
+Good
+
+**7. Error handling and Resillience**
+Good
+
+**8. Deployment and DevOps**
+Good
+
+**Answering questioner**
+Answering for the questioner is ok, but no need to write sentences with no actual meaningful information like the one below:  
+
+> we actively consider exploring relevant online resources and documentation to enhance our knowledge and expertise in our tech stack.
+
+It’s ok, if you not using any book, but don’t say you are actively looking for a recourses and without mentioning what are they. 
+
+
+In learning objective, you should discuss what have you learned from this experience as a whole. Not what technologies you are learning now.
+
+what did you learn for thinking about a project and implement it, working with teams, writing reports you should reflect on all of that. 
+
+
+**Overall**
+The report is good, I like your understanding of the project. I think you will produce an outstanding results!!! 
+
+Grade 5/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

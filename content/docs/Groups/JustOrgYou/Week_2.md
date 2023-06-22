@@ -544,4 +544,56 @@ For app we chose:
    > JustOrgYou's AI part is aimed to classify tasks and suggest the best
    > task-directory distribution due to context. Also, AI algorithms may warn
    > about similar or closely-related tasks to help user avoid duplication.
-   > Natural Language Processing plays a huge role in the current task.
+   > Natural Language Processing plays a huge role in 
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**1. Component Breakdown**
+
+Good, I like how you utilised sequence diagram to reprint your component
+
+**2. Data Management**
+
+Impressive!!
+
+**3. UI Design**
+
+> Design a distraction-free interface for adding tasks without interrupting workflow.
+
+How ca you ensure that? I advice you to conduct usability testing to ensure what are you trying to achieve. 
+
+In the UI part you have to provide how will you do it. Not just what you are going to do it. Because without the how it’s just words, right?
+
+Where and how to access designs?
+
+**4. Integration and APIs**
+
+But you integrate with your own API :)
+
+**5. Scalability and Performance**
+Good
+
+**6. Security and Privacy**
+Good
+
+**7. Error handling and Resillience**
+You will do all of that? I highly doubt that it’s manageable. 
+Maybe pick one or tow and focus to perfect them. 
+
+**8. Deployment and DevOps**
+Very Good
+
+**Answering questioner**
+Answering for the questioner is good!
+
+**Overall**
+The report is very good. I like your understanding of what to do. Looking forward to see your results.
+
+Grade 5/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

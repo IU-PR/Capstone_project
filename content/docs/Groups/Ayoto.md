@@ -171,3 +171,64 @@ We couldn't find mentors to guide us in developing the project.
 * We created a landing page
 * We found a potential investor for our startup
 * We communicated with one hospital to partner with us
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**1. Component Breakdown**
+
+Good, but you need to categorise those mention into Frontend/ backend.
+
+**2. Data Management**
+
+Good
+
+**3. UI Design**
+
+I like the design very much. But what the Landing page different design than the mobile app? 
+Try to keep consistent design among platforms in order not to confuse users. 
+
+I like the chat design, but it missing the send button. also how will you handle if the user will write a big prompt? 
+
+**4. Integration and APIs**
+
+Missing
+
+**5. Scalability and Performance**
+Good
+
+**6. Security and Privacy**
+Good
+
+**7. Error handling and Resillience**
+Unit testing will help you test the alit of the current code. But this is only one part of handling errors. You need to use a mechanise to handle errors while he program are in production. 
+Since you are suing Mobile try to use crashlytics 
+
+**8. Deployment and DevOps**
+Good
+
+**Answering questioner**
+Answering for the questioner is very short, and doesn’t reflect much consideration. 
+You should explain why you don’t have a mentor. 
+I hardly believe that you have no gap in your knowledge ( so you are perfect at everything? )
+
+You should redo them.
+
+> We couldn’t find mentors to guide us in developing the project.
+
+The mentor job is not all about the challenges. beside you didn't face any challenge?.
+ 
+please try to be more realistic.
+
+**Overall**
+The report is good. But you should really take into consideration the questioner answering properly. If you did it you would have gotten a full mark.
+
+and try to be more realistic.
+
+Grade 4/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

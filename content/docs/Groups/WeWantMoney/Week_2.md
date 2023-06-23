@@ -139,3 +139,53 @@ Lev Rekhlov | Python, Flask, PostgreSQL, Django, SQLAlchemy | Backend | API deve
 George Nosachev | Python, Docker, GitHub| Backend, DevOps | Deployment, CI/CD
 Daniil Liagin | Python, Flask, Django, RestAPI, React,  JavaScript, Redux, formik  | Full stack | API, frontend development 
 
+{{< hint danger >}}
+**Feedback** 
+
+**1. Component Breakdown**
+
+Missing
+**2. Data Management**
+
+Missing
+
+**3. UI Design**
+Missing
+
+**4. Integration and APIs**
+
+Missing
+
+
+**5. Scalability and Performance**
+Missing
+
+**6. Security and Privacy**
+Missing
+
+**7. Error handling and Resillience**
+
+Missing
+
+**8. Deployment and DevOps**
+Missing
+
+**Answering questioner**
+
+1. What materials? 
+2. So you are perfect at the tech stack. Yo don’t need an advice?
+3. Good
+4. How?
+5. But google eventually will lead you to a comunity 
+6. good
+7. What kind of knowledge you shared? 
+8. How AI will test the product exactly?
+
+
+
+**Overall**
+The report is poor, and missing a lot of requested items.  And lack details.
+Grade 1/5 
+
+_Feedback by Moofiy_
+{{< /hint >}}

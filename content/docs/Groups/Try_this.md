@@ -187,3 +187,59 @@ Flutter for frontend - choice is based on team members' expirience
 6. **Security and Privacy**: We prioritize the security of user data and will incorporate measures into our architecture. This includes implementing authentication, authorization, encryption, and other relevant security practices. We will ensure that data is protected through protocols like HTTPS and adhere to careful storage and data access policies to safeguard against vulnerabilities and unauthorized access.
 7. **Error Handling and Resilience**:  Our strategies include implementing error logging mechanisms, continuous monitoring, and establishing graceful error recovery processes. To prevent errors, we employ server-side validations, conduct testing, and monitor the application's performance.
 8. **Deployment and DevOps**: Deploy will be done using Docker through kubernetes. 
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**1. Component Breakdown**
+
+Good, but try to list the component rather than lay it in a paragraph.
+
+**2. Data Management**
+
+Good!!
+
+**3. UI Design**
+It’s not a design. It’s one screen that is not understandable.
+
+**4. Integration and APIs**
+
+Then how will you integrate with the model?
+
+
+**5. Scalability and Performance**
+>  We will employ parallelism and other techniques 
+
+What are these techniques?  Please write details of what you want to do. Not just writing general words.
+
+**6. Security and Privacy**
+Good
+
+**7. Error handling and Resillience**
+
+Good, but maybe too much?
+
+**8. Deployment and DevOps**
+What about devOps? 
+
+**Answering questioner**
+
+Missing
+
+**Overall**
+The report is poor, and missing a lot of requested items.  And lack details.
+Grade 2.5/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+
+
+
+
+
+
+

@@ -233,3 +233,80 @@ and then get a message that something that was not described well was wrong or m
 grammar mistakes, that's annoying.
 
 ---
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**1. Component Breakdown**
+
+Good, but better to represent the divine thorough bullet points  
+
+**2. Data Management**
+
+Good!!
+
+**3. UI Design**
+
+Missing designs.
+
+**4. Integration and APIs**
+
+Then how will you integrate with the model?
+
+
+**5. Scalability and Performance**
+We understand that you are students and don’t have money we don’t ask you to use any paid services. We ask you what will be your plan to ensure scalability. 
+BTW all students answered it. Why couldn’t you?
+
+**6. Security and Privacy**
+Good
+
+**7. Error handling and Resillience**
+How? What will be the mechanism when dealing with a crash? 
+
+**8. Deployment and DevOps**
+Good
+
+**Answering questioner**
+Moderate answering. 
+What Youtube tutorials you made? 
+
+But having a person who knows Mushroom types, this is indeed very good. 
+Points 4,5,6,7 and 8 are good!
+
+
+**Overall**
+The report is partially weak, you didn’t spend much time answering nor thinking on the first part. It is clearly show that you didn’t spend much time reflecting on the questions.
+
+Grade 3/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+{{< hint danger >}}
+**Feedback**  
+
+Comments that will be removed #
+>  because you don’t like our point of you.
+
+First it's point of view, not point of you. Second, not because I didn't like it, it's because it was wrong.
+Third, please don't talk about grammar when you yourself, don't know how to write grammatically correct text :)
+
+Grammatical errors in your comment:
+
+- "As a team leader of the team" - "of the team" is redundant when "team leader" is already used.
+
+- "it’s kinda difficult" - "kinda" is informal and not considered Standard English. It should be "kind of".
+
+- "and then we had to do it again just because you don’t like our point of you." - It should be "point of view," not "point of you."
+
+- "I also ask you to provide stronger articles for each week and feedback and, also, don’t forget about grammar." - The conjunctions here are causing confusion and make the sentence grammatically incorrect. You need to split this into separate sentences or rephrase.
+
+- "Moreover, there were lots of grammar mistakes, that’s annoying." - This sentence contains a comma splice. The two independent clauses should be separated by a period or a semicolon, or linked by a conjunction.
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

@@ -160,7 +160,7 @@ The initial information from the Terms of Reference was obtained, and the team d
 
 The team consists of four members, each assigned to specific roles and responsibilities:
 
- - Georgii Budnik: Project Manager responsible for management tasks, business process administration, and communication with the customer.
+ - Georgii Budnik: Lead of the project responsible for management tasks, business process administration, and communication with the customer.
  - Igor Abramov: DS Specialist focused on the mathematical apparatus, research, and algorithm development.
  - Vladislav Urzhumov: ML Engineer responsible for algorithm implementation, data analytics, and preprocessing.
  - Ruslan Abdullin: Developer-Visualizer in charge of visualizing the algorithm's results and adapting them for production.
@@ -222,3 +222,81 @@ By leveraging AI capabilities, the team enhances their problem-solving and idea 
 ---
 
 In conclusion, Week 2 marked significant progress for the project. The team delved into the scientific aspects, obtained real dSata, and began developing a mathematical apparatus for logistic combinations of objects. They established a well-structured team and implemented Agile principles to enhance collaboration and productivity. Mentorship support from the customer provided valuable insights and helped refine the project's goals. The team actively explored alternative resources, such as physical engines and data visualization tools, to enhance their understanding and capabilities. They identified key knowledge gaps that need further exploration. Engaging with the tech community and sharing knowledge with peers are ongoing priorities. Leveraging AI algorithms and language models proved beneficial in envisioning outcomes and optimizing their work. Overall, Week 2 was productive, laying a strong foundation for the project's continued success.
+
+
+# **Week Three**
+
+## Progress report - Week 3
+---
+Agenda:
+ - Weekly Progress Report 
+ - Prototype development
+ ---
+
+### Weekly Progress Report
+
+In Week 3, the team focused on developing a prototype and addressing critical points in the theoretical solution proposed in the previous week. Each developer conducted research work and practically solved a subtask from the main project.
+
+The team received a general upload of data from the customer's 1C database. Preprocessing was implemented to filter the nomenclature names and mandatory physical characteristics of the data for solving the logistics problem. Several algorithms have been developed for stacking objects without taking into account their physical interaction and visualizations have been created for them.
+
+External resources were utilized, including employees from the Technopark who had experience with "cleaning" big data. The team also reached out to Kevin Handa from the guest sector to ask clarifying questions that could potentially contribute to the project's further development.
+
+ The prototype's performance was tested on a basic example, showing significant improvement in the optimization of space utilization compared to the classical approach. Overall, it was a productive week with a focus on implementing AI in the project.
+
+### The purpose of creating a LogiFlex prototype
+
+The key task that the team faced this week was to assess the global situation:
+- "Is it possible to do everything from what is planned?"
+- "How much do you need to accelerate?"
+- "How to distribute the remaining subtasks more efficiently?" 
+To achieve this, the team added additional subtasks to their schedule to create a Minimum Viable Product (MVP) and obtain answers to their pressing questions.
+
+### LogiFlex prototype: visualization
+
+The first step in the prototype development was creating a visualization of cuboids. Cuboids were chosen as a representation for small goods to simplify the process. The initial visualization looked like the following:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/PrototypeProgress1.jpg" alt="LogiFlex" width="500" height="1000">
+</div>
+
+To visualize more complex objects in the future and describe them effectively, the team considered using the [Gazebo simulator]((https://gazebosim.org/home)), which they already had experience with. This choice would potentially enhance the quality of visualization.
+
+### LogiFlex prototype: framework development
+
+The team implemented a space where they could set the initial values of a cargo vehicle, the number of cuboids, and their dimensions. Since visual display of the delivered objects would allow for an instant assessment of the algorithm's quality and the resulting placement of goods, the team combined the framework development with the visualization step, resulting in the following outcome:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/PrototypeProgress2.jpg" alt="LogiFlex" width="1200" height="1200">
+</div>
+
+To test the functionality of the framework, a classic algorithm based on dynamic programming was developed for stacking goods. The algorithm aimed to place the largest product in one of the far-left corners, with multiple corners available if the truck was at least partially filled.
+
+### LogiFlex prototype: Optimal algorithm development
+
+The final and crucial step in the prototype development was to enhance the optimality of object placement. After considering several options with the customer, the team decided to use the ratio of the total volume of the put cuboids to the minimum bounding cuboid as the optimality index. This ratio demonstrated the maximum utilization of the remaining space.
+
+Among various AI algorithms, the genetic model yielded the best balance between time spent and expected quality.
+
+{{< hint info >}}
+It's important to note that due to LogiFlex being a commercial project, the team cannot share the solution or any specifics as all copyrights belong to the customer.
+{{< /hint >}}
+
+After training on most of the input data, we decided to compare our algorithms on a basic example to check the convergence of calculations.:
+
+*Suppose we have a finite space with dimensions 10x10x10 and an infinite number of arbitrary elements from our list of arbitrary dimensions (the order and dimensions of the elements for both algorithms are the same).*
+
+The result is in front of you:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/PrototypeResults.jpg" alt="LogiFlex" width="1200" height="1200">
+</div>
+
+The results showed that **the classical stacking approach occupied 73%** of the space, while **the genetic solution achieved an occupancy of 92%!** <span style="color:#59afe1"> ***Our optimization is 19%***</span>. We believe that this is a successful indicator, since it could save (taking into account the statistics of our case) about 20% of product turnover per day, which is a great advantage for the company.
+
+Such a result gives an incentive to dive deeper into the subject of AI application and place great emphasis on algorithms in this area in the future.
+
+---
+
+Drawing conclusions about the past week, we can conclude that this is one of the most productive weeks in terms of implementing AI in our project. We can't say that everything went perfectly - we wanted to develop two AI algorithms in total, but due to insufficient knowledge, we were not able to do it in full. There were a lot of difficulties with data processing, for which we lost a lot of time, because of which half of the team did not have time to complete individual tasks before the sprint closed.
+
+Nevertheless, work was done on the prototype, and all critical points were checked. It remains only to continue in the same spirit, analyze the errors that arise and try to solve them more quickly.

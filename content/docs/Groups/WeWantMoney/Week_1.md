@@ -104,4 +104,43 @@ Explanations will be done through explaining application workflow:
 * Recent events will be displayed
 * Future database implications will be discussed with tech guys. Currently, idea is to notify responsible people about major issues (i.e delay). Also, it is possible to make automated reports at the end of a working day and at the end of month, or just send collected data to any BI system currently adopted by a company.
 
+{{< hint danger >}}
+**Feedback**  
+
+
+**Value Proposition**
+
+This is very short explanation of the value proposition. And it doesn’t reflect that you spent much time answering them.
+
+What are you trying to solve exactly. In what system? Car maintenance  services? But how will you eliminate ham factor? The problem statement you have is weak. You must re do it
+
+Use cases are wrong, the uses cases should reflect how your app will be used and by whom?
+
+**Lean startup question**
+
+This part also, very short, And it doesn’t reflect that you spent much time answering them.
+And mostly wrong answers or incomplete. 
+
+>Satisfaction of task holder 
+
+How will you measure it. Beside is this the only metric you will use? Try google Metrics to mouser success in Products 
+
+**AI** 
+
+What detection neural models will you use? 
+Which OCR technologies will you use?
+
+**Vision Of The Project**
+Good
+
+**Overall**
+
+The report is ok. it’s good in the technical side. But you need to spent more time thinking about the business and operational side. 
+You should redo : Value proposition and lean startup question 
+
+3/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
 

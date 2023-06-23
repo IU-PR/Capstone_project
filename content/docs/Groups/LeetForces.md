@@ -257,3 +257,48 @@ The whole system is easily scalable and maintainable due to usage of Docker and 
         - *Collaboration:* The team follows collaborative development practices, utilizing Git branches, pull requests, dashboard and code reviews to ensure code quality and prevent conflicts.
         - *Agile and Iterative Approach:* An agile methodology is adopted, enabling iterative development, frequent releases, and the incorporation of user feedback into subsequent iterations.
 {{< /expand >}}
+
+{{< hint danger >}}
+**Feedback**  
+
+**1. Component Breakdown**
+
+Good, 
+
+**2. Data Management**
+
+Good!!
+
+**3. UI Design**
+
+Nice designs
+But the design in desktop-8 you should show how will you present the contests 
+
+**4. Integration and APIs**
+
+But you integrate with your own API :)
+
+**5. Scalability and Performance**
+Good
+
+**6. Security and Privacy**
+Good
+
+**7. Error handling and Resillience**
+You will do all of that? I highly doubt that it’s manageable. 
+Maybe pick one or tow and focus to perfect them. 
+
+**8. Deployment and DevOps**
+Very Good
+
+**Answering questioner**
+Missing?
+
+**Overall**
+The report is  good. But you didn’t answer the questioner
+
+Grade 4/5
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

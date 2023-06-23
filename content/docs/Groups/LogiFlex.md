@@ -300,3 +300,4 @@ Such a result gives an incentive to dive deeper into the subject of AI applicati
 Drawing conclusions about the past week, we can conclude that this is one of the most productive weeks in terms of implementing AI in our project. We can't say that everything went perfectly - we wanted to develop two AI algorithms in total, but due to insufficient knowledge, we were not able to do it in full. There were a lot of difficulties with data processing, for which we lost a lot of time, because of which half of the team did not have time to complete individual tasks before the sprint closed.
 
 Nevertheless, work was done on the prototype, and all critical points were checked. It remains only to continue in the same spirit, analyze the errors that arise and try to solve them more quickly.
+

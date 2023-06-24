@@ -286,3 +286,59 @@ Grade 5/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+
+# **Week #3 Report**
+
+## Prototype
+
+The course platform is available at [<ins>innomastery.ru</ins>](https://innomastery.ru). You may also check Coder, our Self-hosted Remote Development Environment, at [<ins>coder.innomastery.ru</ins>](https://coder.innomastery.ru).
+
+### Prototype Features
+
+The features that we have successfully integrated into our prototype are the following:
+- Authentication via JWT tokens
+- Authorization
+- A table of contents for the course
+- A self-hosted Remote Development Environment [<ins>Coder</ins>](https://coder.com/)
+
+### User Interface
+
+1. When the user visits our website, they see our landing page that tells them about our course. From here, the user can sign up for our course or continue their studies if they are already signed in.
+![UI](/InnoMastery/pages/index.jpeg)
+
+2. After signing up, the student sees a table of contents for the course. Here, they can pick a lesson they want to study. The lessons are organized into chapters for easier navigation.
+![UI](/InnoMastery/pages/table-of-contents.jpeg)
+
+3. Each lesson consists of several steps of three kinds: theory, questions, and coding tasks. Theory steps are articles for the student to study, with each step dedicated to a single topic.
+![UI](/InnoMastery/pages/article.jpeg)
+
+4. Question steps let the student evaluate the knowledge gained from the theoretical material.
+![UI](/InnoMastery/pages/question.jpeg)
+
+5. By solving coding tasks, the student can apply new knowledge to solve real-world tasks. These tasks are solved in Coder. In Coder, the student can create their workspace from a template:
+![UI](/InnoMastery/pages/coder-workspaces.jpeg)
+![UI](/InnoMastery/pages/coder-create-workspace.jpeg)
+
+6. Once they create a workspace, the student can access it using either VS Code in the browser or a locally installed VS Code.
+![UI](/InnoMastery/pages/coder-access-workspace.jpeg)
+![UI](/InnoMastery/pages/coder-vscode-online.jpeg)
+
+## Challenges and Solutions
+
+We faced challenges related to: 
+
+1. *Authentication and Authorization.* JWT (JSON Web Tokens) is commonly used for authentication and authorization purposes. One of the challenges of implementing JWT is effectively managing tokens for people who have logged in. This can be addressed by implementing token revocation for logging out, token expiration, and refreshing tokens.
+
+2. *Proper design mappings from sqlalchemy classes to strawberry classes.* It wasn’t so obvious at first, but then we managed to find a [<ins>relevant resource</ins>](https://blog.logrocket.com/using-graphql-strawberry-fastapi-next-js/) on the topic and resolved the issues with the database whatsoever.
+
+## Next Steps
+
+1. **Parsing course material.** So far, the table of contents is hard-coded into the prototype. We intend to implement a parser for all the material we already have, organized in Markdown files. This will give us an easy and automated way to deploy our course.
+
+2. **Viewing course material on the website.** The lesson viewer isn’t in the working prototype yet. We plan to implement it during the next week.
+
+3. **Grading questions.** Once we have the lesson viewer working, we’ll start implementing questions. Hopefully, we will do it during the fifth week.
+
+4. **Integrating with Coder.** We also plan to integrate with Coder for the MVP. We want to implement authentication via OAuth and redirection to Coder for coding tasks.

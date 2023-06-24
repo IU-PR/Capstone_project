@@ -152,12 +152,6 @@ You have a strong team and a very good project idea. It is also clear that you h
 {{< /hint >}}
 
 
----
-weight: 2
-bookFlatSection: true
-title: "Week #2"
----
-
 # **Week #2**
 
 ### **Tech Stack Selection**
@@ -182,7 +176,45 @@ Our team has enough experience and qualifications to use the chosen tools to dev
 3. **User Interface (UI) Design**: 
 We are creating a Telegram bot that is a User Interface by itself. Here one can look at the functions that we plan to implement.
 
-{{< embed-pdf url="static/HealthyBasedProductivity/tg_functions.md" >}}
+```
+
+> `/start` -> starting point of using bot
+
+Bot will ask time when it is allowed to set a task
+
+Format:
+
+> [**start_time**]-[**end_time**]
+
+Could be either in 24h format or 12h format
+
+Example:
+
+> `13:00-2:00`
+
+or 
+
+> `11:00AM-2:00PM`
+
+
+> `/add_task` -> adds task according to info in specific format or according to questionnaire
+
+Specific format could be:
+
+> [**task_name**]-[**duration** (in minutes)]-[**importance**]-[**complexity**]-[start_time]-[date]
+
+(start_time and date are optional)
+
+Example
+
+> `Sport-90-3-1-9:00-1/1/1970`
+
+```
+{{< hint danger >}}
+
+**Week 2 Feedback by Rustam**  
+Embed PDF is a function that embeds PDF files only, you can create a PDF from your md files and embed them again, here. I've copied some parts of the UI design from the .md file and pasted them as a codeblock
+{{< /hint >}}
 
 5. **Integration and APIs**: We will use the telegram bot API. We will get info from the user and handle the message based on the functions discussed in UI.
 
@@ -231,3 +263,16 @@ In addition, we have not much experience in finding appropriate models, so we co
 6) *Schedule Neural Network*. The neural network is the core of the proposed model. There are many known and used architectures, so we would try different approaches, mainly recurrent neural networks, and choose the best-fitting one. The realization will be implemented using PyTorch. The responsible person is Leon Parepko.
 
 The principles underlying the proposed model are based on generalizing an average person's schedule and finding specific patterns of planning tasks. The model aims to personalize the scheduler for each user by analyzing their scheduling patterns and preferences.
+
+
+{{< hint danger >}}
+
+**Feedback week 2 by Rustam**  
+
+I think your project is progressing nicely and I am glad to see the first functions already implemented. So now, team is on the same page regarding the overall project and every team member knows his responsibilities - it's time to focus on implementing the project.   
+Ramp up the pace, add some features and I am sure this project will be taking shape very soon. 
+
+Overall, 5/5   
+Good work
+
+{{< /hint >}}

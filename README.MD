@@ -1,14 +1,14 @@
 # Capstone project at Innopolis University:
-This is a repo of the [Capstone project at the Innopolis University](https://capstone-pr.netlify.app/) - https://capstone-pr.netlify.app/
+This is a repo of the [Capstone project at the Innopolis University](https://capstone.innopolis.university/) - https://capstone.innopolis.university/
 
 Table of contents
 - [How to contribute](#how-to-contribute)
+- [Reports evaluation and styling standards](#Reports-evaluation-and-styling-standards)
   - [Pull requests](#pull-requests)
   - [Shortcodes](#shortcodes)
     - [LaTeX](#latex)
     - [Mermaid (graphs)](#mermaid-graphs)
     - [Other shortcodes](#other-shortcodes)
-  - [Familiarize yourself with our techstack](#familiarize-yourself-with-our-techstack)
 
 ## How to contribute
 If you **do not have** the repo on your machine:
@@ -47,8 +47,43 @@ Note that this saves and documents changes on your machine only.
 - After project is over, we will ask you to make a pull request into a master branch, so we can collect all reports ito a single document/blog
 - Don't forget to pull changes from the master branch, we will be publishing weekly tasks and updated information!
 
+## Reports evaluation and styling standards:  
+
+The project progress reports will be evaluated on a weekly basis, and we are committed to providing you with comments and feedback. While evaluation is subjective, we have established clear criteria for grading reports:
+
+5 - A clearly written report that covers all topics and effectively describes the progress of the project. The report demonstrates accurate and well-organized styling and formatting.
+
+4 - The report is clear, with minor drawbacks. It maintains consistent formatting and styling, presenting information in an organized manner. Can contain minor issues with formatting and styling.
+
+3 - The report is somewhat clear but lacks thoroughness in covering all topics. There may be some formatting and styling issues that need attention.
+
+2 - The report is poorly written and lacks clarity. It fails to adequately cover all topics and contains significant formatting and styling problems.
+
+1 - The report is incoherent and does not provide a clear understanding of the project's progress. It lacks proper formatting and styling, making it difficult to read and follow.
+
+0 - No report
+
+**Styling standards**
+
+All reports should be submitted in the same branch and the same file of the project.
+Reports should not include the same text provided from the weekly tasks, but rather take it as a formatting and organizational guide.
+All provided figures should have legends and explain provided information.
+
+```
+# **Introduction**
+Short description of the project with logo, and information on how to connect with the group etc. 
+
+# **Week 1**
+## Topic of the Second Order
+### Topic of the Third Order
+
+# **Week 2**
+## Topic of the Second Order
+### Topic of the Third Order
+```
+
 ## Pull requests
-Now that you have made your changes, you will need to properly submit them so that no merge conficts happen.<br>
+Now that you have made your changes, you will need to properly submit them so that no merge conflicts happen.<br>
  To do so:
 - Switch to a new branch *(if you haven't done that already)*:
   ```

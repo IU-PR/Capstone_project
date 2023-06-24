@@ -437,4 +437,3 @@ Team allocation is great, and I liked the weekly sprint idea. Keep up the pace o
 
 5/5
 {{< /hint >}}
-

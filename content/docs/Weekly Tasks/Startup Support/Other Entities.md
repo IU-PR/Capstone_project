@@ -2,8 +2,9 @@
 weight: 7
 title: Other Entities
 ---
-
 # **Which support can we get?** 
+
+---
 
 Starting a business as a student can be an exciting yet challenging endeavor. Fortunately, there is a wealth of support available to help student startups thrive and turn their innovative ideas into successful ventures. In this post, we will explore the various types of venture support and other resources that student startups can tap into.
 
@@ -22,3 +23,5 @@ Starting a business as a student can be an exciting yet challenging endeavor. Fo
 - **Industry Partnerships and Corporate Programs:** Many industries and corporations offer programs specifically aimed at supporting student startups. These programs may include mentorship, access to resources and expertise, pilot projects, and potential investment opportunities. Partnering with established companies or engaging in industry-specific programs can provide student startups with valuable guidance, credibility, and access to industry networks and potential customers.
 
 Remember, the entrepreneurial journey can be challenging, but with the right support, student startups can overcome obstacles and achieve remarkable success. Whether it's through university-based initiatives, grants, mentorship, educational resources, collaborative spaces, or industry partnerships, the support available to student startups is abundant. By leveraging these resources, student entrepreneurs can accelerate their growth, gain valuable insights, and increase their chances of building sustainable and impactful ventures.
+
+---

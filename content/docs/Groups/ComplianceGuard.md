@@ -116,7 +116,7 @@ Now we are ending creation of the design, our ML team received a dataset today a
 {{< hint danger >}}
 
 This is a good news that your project got support from the client and now you have more master students helping you out. In general, I feel confident that ComplianceGuard team would be able to finish the Capstone with an MVP - you have control and support from the client, students and ML lab. However, the weekly progress report is short and it's hard for me to understand how the team is progressing. No information on the model, tools and approaches. For example, you can add a Figma layout as a result of the work - a screenshot would suffice. Consider adding more details on your progress report and show your progress in a little more expanded manner.
-Overall, good job on the project, not so on the report.  
-Report - 2/5
+Overall, can be a good job on the project, not so on the report.  
+Report - 3/5
 
 {{< /hint >}}

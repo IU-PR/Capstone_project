@@ -429,8 +429,8 @@ As for the frontend, we have implemented several key functions of our tool:
 4) The calendar is displayed by using fullcalendar.io
 5) fakeapi is also written to test the work of a part of the frontend
 6) Dynamic schedule display
-7) The code is written using React components and hooks such as useState, useEffect, and even implementing our own hook using fetching.
-8) TypeScript allows us to use own types to create objects and components and handle errors if some of attributes of type could not exist. 
+7) The code is written using React components and hooks such as useState, useEffect, and even implementing our own hook useFetching
+8) TypeScript allows us to use own types to create objects and components and handle errors (e.g. if some of attributes of type could not exist)
 
 As for the backend, we have implemented following key functions:
 
@@ -456,15 +456,19 @@ Also we met collision of different CSS files thats why we use regular CSS file f
 
 ### ***Next Steps***
 As tasks for the future, we have identified the following:
-1) We need to implement a user authorization page (so that the schedule can be saved for each user)
+1) Add the ability to search and sorting cources
 
 2) We also need to check the correctness of the work of the bundle of our backend with the front end.
 
-3) The introduction of the ability to save the schedule to a computer or phone for use in Google Calendar or other services
+3) The ability to save the schedule to a computer or phone for use in Google Calendar or other services.
 
-4) Writing a parser for the schedule, so as not to make the schedule with your hands in our service
+4) We need to implement a user authorization page (so that the cookie can be saved for each user)
 
-5) The ability to edit the schedule through the admin panel for teachers
+5) Writing a parser for the schedule, so as not to make the schedule with your hands in our service
+
+6) The ability to edit the schedule through the admin panel for teachers
+
+7) Different styles for different cources in the calendar
 
 
 ___

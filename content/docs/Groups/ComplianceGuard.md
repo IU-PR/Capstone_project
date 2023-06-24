@@ -90,6 +90,11 @@ Above I described the final version of the project. In MVP we will include a cro
 - Backend: Python, FastAPI/aiogttp+async, pydantic
 - AI: OpenCV, PyTorch
 
+{{< hint danger >}}
+
+This seems to be a detailed list of the technologies needed to finish the project. However, it was part of the weekly task to make a personalized allocation of the tasks for the project. 
+{{< /hint >}}
+
 **Architecture**
 
 - Component Breakdown: Our project has the following components: Design, Frontend, Backend and CV model. First, design creates a general view of both mobile and computer versions of the application. Then, Frontend makes this design come true and prepares for future requests from backend. Backend works with database(In final version), process metadata taken from frontend, works with message broker and sends messages to specified paths. CV model takes the video and process it.
@@ -106,4 +111,12 @@ But later, if something go wrong, we will send an error with it's code and descr
 
 **Current progress**
 
-Now we are ending creation of the design, our ML team recieved a dataset today and actively learn it. We got a cloud from university for our models and agreed with ML lab to get GPU from them. We have daily meetings with our customer that agreed to give us some help with code and ideas if necessary(special person from the company will help us). Also we were added two people from magistracy that will help us with our project, which is a significant boost.
+Now we are ending creation of the design, our ML team received a dataset today and actively learn it. We got a cloud from university for our models and agreed with ML lab to get GPU from them. We have daily meetings with our customer that agreed to give us some help with code and ideas if necessary(special person from the company will help us). Also we were added two people from magistracy that will help us with our project, which is a significant boost.
+
+{{< hint danger >}}
+
+This is a good news that your project got support from the client and now you have more master students helping you out. In general, I feel confident that ComplianceGuard team would be able to finish the Capstone with an MVP - you have control and support from the client, students and ML lab. However, the weekly progress report is short and it's hard for me to understand how the team is progressing. No information on the model, tools and approaches. For example, you can add a Figma layout as a result of the work - a screenshot would suffice. Consider adding more details on your progress report and show your progress in a little more expanded manner.
+Overall, good job on the project, not so on the report.  
+Report - 2/5
+
+{{< /hint >}}

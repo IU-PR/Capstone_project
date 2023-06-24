@@ -153,6 +153,9 @@ In Week 2, the focus was on the research aspects of the project and first try to
 <div style="text-align: center;">
   <img src="/LogiFlex_images/LogiFlex_pipeline.png" alt="LogiFlex Logo" width="1200" height="1200">
 </div>
+{{< hint danger >}}
+**Feedback**
+I like the chart. It's good that you have clear project task allocation and defined responsibilities for each team member {{< /hint >}}
 
 The initial information from the Terms of Reference was obtained, and the team discussed hypotheses regarding the data and its preprocessing. A data parser was developed to convert the JSON format data into a 3NF-dependent CSV extension database format, making it easier to work with the data. The team also started studying physics engines suitable for simplifying the task, exploring 3D data visualizers, and delving into scientific literature on logistics theory in a limited space of three-dimensional objects.
 
@@ -177,9 +180,17 @@ Their practical skills and knowledge are primarily acquired through educational 
 
 For example, thanks to several scientific articles about genetic algorithms this week, we concluded that we should not use this approach, since such algorithms can give 100% results, but they lose very much to other methods in time: in our case, each truck would be unloaded for 9000-15000 minutes, which is unprofitable.
 
+{{< hint danger >}}
+**Feedback**
+Have you looked for companies with similar business goals? Logistics optimization seems to be a very important part of large scale companies. Find and study best solutions available globally{{< /hint >}}
+
 ### Mentorship Support
 
 The team has agreed to receive mentoring from the customer, maintaining constant communication with Alexander Filippov, the head of the company's IT department. This collaboration provides access to real input/output data, enables communication with movers and drivers, offers insights into standardized limitations, and allows for modifications and clarifications to the terms of reference, which positively impact the team's progress.
+
+{{< hint danger >}}
+**Feedback**
+Very good, getting feedback from the customer will help to steer your project in a proper direction{{< /hint >}}
 
 ### Exploring Alternative Resources
 
@@ -221,8 +232,11 @@ By leveraging AI capabilities, the team enhances their problem-solving and idea 
 
 ---
 
-In conclusion, Week 2 marked significant progress for the project. The team delved into the scientific aspects, obtained real dSata, and began developing a mathematical apparatus for logistic combinations of objects. They established a well-structured team and implemented Agile principles to enhance collaboration and productivity. Mentorship support from the customer provided valuable insights and helped refine the project's goals. The team actively explored alternative resources, such as physical engines and data visualization tools, to enhance their understanding and capabilities. They identified key knowledge gaps that need further exploration. Engaging with the tech community and sharing knowledge with peers are ongoing priorities. Leveraging AI algorithms and language models proved beneficial in envisioning outcomes and optimizing their work. Overall, Week 2 was productive, laying a strong foundation for the project's continued success.
+In conclusion, Week 2 marked significant progress for the project. The team delved into the scientific aspects, obtained real data, and began developing a mathematical apparatus for logistic combinations of objects. They established a well-structured team and implemented Agile principles to enhance collaboration and productivity. Mentorship support from the customer provided valuable insights and helped refine the project's goals. The team actively explored alternative resources, such as physical engines and data visualization tools, to enhance their understanding and capabilities. They identified key knowledge gaps that need further exploration. Engaging with the tech community and sharing knowledge with peers are ongoing priorities. Leveraging AI algorithms and language models proved beneficial in envisioning outcomes and optimizing their work. Overall, Week 2 was productive, laying a strong foundation for the project's continued success.
 
+{{< hint danger >}}
+**Feedback**
+Overall, I think this week progress report is well written and covers all aspects outlined in the weekly task. It is also good to see that you and your team is working overtime to tackle all possible problems. Good project handling is evident - 5/5 for the week{{< /hint >}}
 
 # **Week Three**
 
@@ -300,3 +314,7 @@ Such a result gives an incentive to dive deeper into the subject of AI applicati
 Drawing conclusions about the past week, we can conclude that this is one of the most productive weeks in terms of implementing AI in our project. We can't say that everything went perfectly - we wanted to develop two AI algorithms in total, but due to insufficient knowledge, we were not able to do it in full. There were a lot of difficulties with data processing, for which we lost a lot of time, because of which half of the team did not have time to complete individual tasks before the sprint closed.
 
 Nevertheless, work was done on the prototype, and all critical points were checked. It remains only to continue in the same spirit, analyze the errors that arise and try to solve them more quickly.
+
+{{< hint danger >}}
+**Feedback**
+I liked very much your visualizations. Almost 20% more space for the given truck - a great result that you and your team achieved in only two weeks of actual project handling. Given the initial momentum and clear understanding of the project at hand - keep up the pace and make sure not to ease on the development part - 5/5 for the week. Good job! As what comes to the product, are you planning to develop a convenient UI for the users to work with the algorithms? If algorithmic solution is already good enough for the client, start to think about the packaging and delivering a full fledged application {{< /hint >}}

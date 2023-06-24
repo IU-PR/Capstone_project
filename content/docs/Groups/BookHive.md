@@ -113,3 +113,14 @@ Bulat Kutlugallyamov – Backend/Frontend
 
 Roman Voronov - ML/Backend
 
+{{< hint danger >}}
+
+**Week 2 Feedback by Rustam**  
+This report is well written and structured, and it's a pleasure to see how your project takes shape. I liked the figma UI and
+overall description of the project. Seems to me, you have fully aligned team that can effectively deliver results.  
+Keep up the pace and make sure to put an emphasis on the execution. 
+Overall - good project and report.  
+5/5
+
+
+{{< /hint >}}

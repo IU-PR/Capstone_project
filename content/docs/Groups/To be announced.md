@@ -186,3 +186,10 @@ There wil be two basic screens:
 | Evgenij Ivankin    | AI               | Pytorch    |
 | Vitaly Mahonin     | Mobile App       | Flutter    |
 | Timolai Andrievich | AI               | Pytorch    |
+
+{{< hint danger >}}
+**Feedback**
+Overall, the progress report is very short and do not describe your group progress very well. It is good that you feel confident in your tech stack, but it will also be wonderful to see a more detailed description of the work done. If you think this is an easy project and that you and your team knows exactly how it needs to be build, consider adding some features that you haven't implemented before. You may take an opportunity to learn new things and have fun while you building this app.
+  
+Some specific comments - this project report say that main goal of the app is doing image processing and classification, but no details on the model, ML architecture and data is provided. To mee it seems rather strange, because the main part of this project is the model. Are you taking the open-source model or training your own? Are the pictures provided from the app that you already build or this is a mockup of the app? This report raised more questions than it provides answers, so make sure to provide more details on your next week progress report. 3/5 
+{{< /hint >}}

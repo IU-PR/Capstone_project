@@ -2,6 +2,10 @@
 
 Hi! We are team CockTail and our project is an AI which generates a cocktail based on customer's preference! Here we will publish our weekly reports with tasks we've completed during the last sprint and our goals for the next one.
 
+<div style="text-align: center;">
+<img src='/CockTail/logo.png' width="300" height="300"> 
+</div>
+
 # **Week 1**
 
 ## **Team Formation and Project Proposal**
@@ -45,6 +49,22 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
     
     These testimonials highlight the value and benefits of our software project, demonstrating its potential to enhance the bar experience for both bartenders and customers.
     
+  
+{{< hint danger >}}
+**Feedback**  
+  Can the bar use the ingredient you will advice? 
+  >Among the popular applications there is VIVINO.
+  
+  Why you decided to examine only this app? 
+  
+  Theses are not Uses cases rather than Imaginary dreams! 
+  Uses cases should reflect how users will use your app and in what cases.
+  You should reformulate them.
+ 
+  
+_Feedback by Moofiy_
+{{< /hint >}}  
+    
 ## **Lean Startup Questionnaire**
 
 1. What problem or need does your software project address?
@@ -67,6 +87,27 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
     
     *The high-rated combinations will be included to list of possible cocktails and will take account and suggested to other users*
 
+{{< hint danger >}}
+**Feedback**  
+
+This section has very short answers and it seems you nosed it super quickly without any consideration
+
+>We ask our users to estimate the result (cocktail)
+
+How, exactly? There is a lot of ways ad data can be gathered. 
+
+>Client satisfaction, time of performance
+How will you measure Client satisfaction.
+time of performance of what exactly?
+
+>The high-rated combinations will be included to list of possible cocktails…
+
+This is not a plan to pivot 
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
 ## **Leveraging AI, Open-Source, and Experts**
 
 - AI (Artificial Intelligence):
@@ -80,6 +121,18 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
 - Experts in relevant domains:
     
     *We decided to interview the employees of bar 108 as experts in this field.*
+    
+{{< hint danger >}}
+**Feedback**  
+
+>To do this task we will use NLP model for working with text.
+
+What exactly your model will do? What NLP technique will you use to build the model. 
+And how will use utilise text to create cocktails?
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
     
 ## **Inviting Other Students**
 
@@ -127,3 +180,140 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
     In out project we wil use NLP model to transform text data to the vectors. 
     
     Nowadays, there are no popular analogues of such idea that used in bar industry.
+    
+    
+{{< hint danger >}}
+**Feedback**  
+
+The report is good, but you should have spent more time answering lean startup section 
+4/5
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+# **Week 2**
+
+## **Team allocation**
+
+- **Frontend:** Alexander Agafonov
+    - Email Adress: [a.agafonov@innopolis.university](mailto:a.agafonov@innopolis.university)
+    - Responsibilities: frontend architecture, frontend layout, connecting backend and frontend
+    - Technologies, frameworks, and programming languages: Flutter (Dart)
+- **Backend:** Leonid Zelenskiy
+    - Email Address: [l.zelenskiy@innopolis.university](mailto:l.zelenskiy@innopolis.university)
+    - Responsibilities: backend, deployment
+    - Technologies, frameworks, and programming languages:
+- **RL Model:** Polina Bazhenova, Arina Yartseva
+    - Email addresses: [p.bazhenova@innopolis.university](mailto:p.bazhenova@innopolis.university), [a.yartseva@innopolis.university](mailto:a.yartseva@innopolis.university)
+    - Responsibilities: preprocessing the data, creating and training the model for generating new cocktails
+    - Technologies, frameworks, and programming languages: python and libraries
+- **Recommendation system:** Ksenia Shchekina, Irina Shchetinina
+    - Email addresses: [k.shchekina@innopolis.university](mailto:k.shchekina@innopolis.university), [i.shchetinina@innopolis.university](mailto:i.shchetinina@innopolis.university)
+    - Responsibilities: content-based filtering, database expansion and characteristics creation
+    - Technologies, frameworks, and programming languages: python, libraries (pandas, nympy)
+ 
+## **Architecture Design**
+
+1. **Data Management:**
+    
+     We will use preprocessed dataset
+    
+2. **User Interface (UI) Design:**
+    
+    [Here](https://www.figma.com/proto/f5bBoWz5X6MToXUkPBrnPF/Cocktail?type=design&node-id=10-27&scaling=scale-down&page-id=0%3A1) some variants of our UI are presented.
+    
+3. **Component Breakdown:**
+    
+    Our main components are: the model, UI and backend API. Since we have an ML project, the model is the most crucial component. Moreover, we will have nice UI for our users and functional API for other developers who would like to integrate our model.
+    
+    {{<mermaid>}}
+
+graph TB
+
+  U[User Interface] -- Request --> B
+  B[Backend] -- Find By Preferences --> F[Filtering Algorithm]
+  B -- Response --> U
+  F -- Give Cocktail --> B
+  F -- Find --> D[Dataset]
+  B -- Ask For New Recipe --> M[RL Model]
+  M -- Give Recipe --> B
+  D -- Get Cocktail --> F
+
+  linkStyle 0 stroke:#2ec,stroke-width:2px;
+  linkStyle 1 stroke:#2ec,stroke-width:2px;
+  linkStyle 2 stroke:#2ec,stroke-width:2px;
+  linkStyle 3 stroke:#2ec,stroke-width:2px;
+  linkStyle 4 stroke:#2ec,stroke-width:2px;
+  linkStyle 5 stroke:#2ec,stroke-width:2px;
+  linkStyle 6 stroke:#2ec,stroke-width:2px;
+  linkStyle 7 stroke:#2ec,stroke-width:2px;
+
+    
+    {{</mermaid>}}
+4. **Security and Privacy**
+
+    We don't need high level of security, since we don't require any personal data. However, in future with scaling growth the more security will be needed.
+
+5. **Integration and API**
+ 
+    The backend part will include API thus the integration will not cause any problems.
+    
+## **Week 2 questionnaire** 
+
+1. **Tech Stack Resources:** 
+      
+    At the current step, we do not utilize project-based books as we have enough of our own skills. Otherwise, if we need to increase our tech stack in future, we will find and study suitable books.
+    
+     
+    
+2. **Mentorship Support:** 
+    
+    As mentors we currently have Artem Batalov and Aleksander Lobanov, third year students. They already advised us with tech stack. And further we are planning to contact them in case of difficulties.
+    
+     
+    
+3. **Exploring Alternative Resources:** 
+    
+    - Documentation of torch, pandas, numpy, re libraries
+    - Reinforcement Learning course from Innopolis Universty
+    - [stackoverflow.com](http://stackoverflow.com), [geeksforgeeks.org](http://geeksforgeeks.org)
+    
+     
+    
+4. **Identifying Knowledge Gaps:** 
+    
+    At the moment, we are not experiencing difficulties in the knowledge of the technical stack we need. Otherwise, if there is a lack of knowledge or experience, we will ask teammates for the help, or if it is a more serious problem, then we will turn to scientific papers and documentation.
+    
+     
+    
+5. **Engaging with the Tech Community:** 
+    
+    We do not actively engage with the broader tech community to seek guidance or learn from seasoned professionals in our tech stack. In case of critical tech stack problems, we will use online forums, but at current stage of the work we do not need this.
+    
+     
+    
+6. **Learning Objectives:** 
+    
+    - One of our objectives is to study papers about usage of models for predicting the sequence of elements.
+    - Another one is to find the most suitable frameworks for our project.
+    - Also our objective is the deep studying of filtering algorithms and finding the one that most fits for our purpose
+    
+     
+    
+7. **Sharing Knowledge with Peers:** 
+    
+    We have created team chat in telegram, where we can discuss thoughts and ideas. In addition, weekly we have face-to-face meetings to share knowledge and expertise with each other.
+    
+     
+    
+8. **AI leveraging:**
+
+     We leveraged OpenAI for the quick search of some functions usage and for characteristics generation.
+     
+## **Weekly Progress Report**
+
+Over the past week there is changes in our project plan. We decided to make the recommendation system for the users based on the filters. Besides that, we concluded that NLP model is quite complex for our problem and to avoid overfitting it is better to utilize simpler one.
+
+As of the progress in our project, we have found a suitable dataset and finished its preprocessing. Also, we have developed a design for the future web application. In addition, we explored the materials on cocktail theory and interviewed some prospective experts in order to dig deeper into the main idea of our project.
+
+We’ve designed different variants of UI, but didn’t decided which to choose. Also we are planning to change backend stack from Django to FastAPI, since there’s no need for such functional framework. 

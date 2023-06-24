@@ -94,3 +94,8 @@ Our project utilizes style transfer algorithms and a user-friendly interface to 
 {{< hint danger >}}
 Unfortunately, this report was poorly formatted and I had to reformat most of the text. The weekly tasks are there to give you the general structure - there is no need to copy all the text. Also, consider using the guide here -  https://www.markdownguide.org/basic-syntax/. The project page do not describe much other than saying that you will do style transfer (which is already solved problem in machine learning). Please, provide more detailed view of your project, outline your group contribution on top of available ML solutions and how are you planing to do that. Will it be a web app and a telegram bot?
 {{< /hint >}}
+
+{{< hint danger >}}
+No Week 2 progress report?  
+0/5
+{{< /hint >}}

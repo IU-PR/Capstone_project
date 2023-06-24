@@ -1,5 +1,5 @@
 ---
-weight: 2
+weight: 4
 bookFlatSection: true
 title: "Week #4"
 ---

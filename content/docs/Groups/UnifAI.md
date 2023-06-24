@@ -336,7 +336,17 @@ application of technologies in our software.
 **Leveraging AI**:
 If we find out that we are lacking in expertise in a certain field that would 
 be necessary for the completion of our project, then it is possible that we could 
-use LLMs such as  to ask some questions related to that field in order to gain more knowledge 
+use LLMs to ask some questions related to that field in order to gain more knowledge 
 about it and figure out the best way of applying technologies from that field in our project.
 
+
+{{< hint danger >}}
+
+**Feedback by Rustam:**   
+I feel like this project is exciting and ambitious - conversion, translation, and synthesis - three different AI subsystems that should nicely run altogether. Progress report is well written and nicely structured. The only concern I have is the time constraint - it may require more time to complete the first prototype, than you may anticipate. It would also be nice to see some details on models and particular solutions. 
+  
+You've outlined in week 1 that - "tools may include: a voice recognition model (i.e Whisper), a translation model (i.e Opus) and a TTS model (to be determined)". So far I've seen only general mention of the TTS model - which I suppose are text to speech models. But any details on particular model? Are the data for training is available? Are you training your own? Are the models you pointed out are free to use and accessible from our location?  
+Please, provide more specific details in the next week report.    
+4/5 
+{{< /hint >}}
 

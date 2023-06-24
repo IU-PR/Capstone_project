@@ -405,3 +405,69 @@ Our team understands the importance of effective collaboration and communication
 **Collaborative Decision Making:** Decisions related to the project were made through a collaborative process. We encouraged open discussions, actively listened to each other's viewpoints, and considered the expertise and insights of team members. This collaborative decision-making approach helped us in selecting the tech stack, architecture design, and other key aspects of the project.
 
 By fostering a culture of open communication, knowledge sharing, and collaborative decision-making, our team maximized the collective expertise and ensured that everyone was aligned towards achieving our project goals.
+
+
+# **Week #3**
+
+# Weekly Progress Report
+
+The team entered the schedule data into our project system and was able to work with them. We can display all schedules on our website page and show the general schedule for the selected courses and electives.
+
+We talked to several students of Innopolis University to get information about what kind of schedule they would like to see on their website. This feedback will be able to contribute to the better development of our project.
+
+We tested the work of our prototype by adding several user data. And also through the work of FakeAPI.
+
+
+### ***Prototype Features***
+This week we wrote the backend and frontend part of our prototype. 
+
+As for the frontend, we have implemented several key functions of our tool:
+
+1) The ability to choose between core courses or electives
+2) The ability to add courses and electives to the calendar on our website by clicking on the "plus" button
+3) The ability to view the schedule in the calendar in the form of a sheet or calendar format
+4) The calendar is displayed by using fullcalendar.io
+5) fakeapi is also written to test the work of a part of the frontend
+6) Dynamic schedule display
+7) The code is written using React components and hooks such as useState, useEffect, and even implementing our own hook using fetching.
+8) TypeScript allows us to use own types to create objects and components and handle errors if some of attributes of type could not exist. 
+
+As for the backend, we have implemented following key functions:
+
+1) The ability to save data of users in a convenient format
+2) The usage of admin panel
+3) Rest API
+
+
+### ***User Interface***
+![img_1.png](/InnTime/add-feature.gif)
+
+When visiting our site, the user sees the home screen in front of him, on which he can click on one of three buttons (Login to the account, adding events to the calendar, viewing the calendar)
+
+When scrolling down the page, the user can choose which courses he wants to see in calendar (core courses or electives). After displaying the list of courses, the user can click on the sign of adding the course to the calendar and scrolling down will be able to find it in the calendar. As new courses are added by clicking the "plus" button, the calendar will be updated.
+The user can choose the format of the calendar display (list, calendar or schedule for a specific day)
+
+
+### ***Challenges and Solutions***
+At first, we thought to use https://swipecalendar.io/ to display the calendar on our website, but as it turned out in the end, this thecnologie was paid for. After studying the information a little, we found a new API for the calendar https://fullcalendar.io/
+
+Also we met collision of different CSS files thats why we use regular CSS file for global styles and CSS modules for separate components to prevent collision.
+
+
+### ***Next Steps***
+As tasks for the future, we have identified the following:
+1) We need to implement a user authorization page (so that the schedule can be saved for each user)
+
+2) We also need to check the correctness of the work of the bundle of our backend with the front end.
+
+3) The introduction of the ability to save the schedule to a computer or phone for use in Google Calendar or other services
+
+4) Writing a parser for the schedule, so as not to make the schedule with your hands in our service
+
+5) The ability to edit the schedule through the admin panel for teachers
+
+
+___
+Summing up the past week results: it was a productive implementation week. Unfortunately, we can't say we managed to do everything we wanted. But this shows us that we need to pay more attention to the correct distribution and evaluation of tasks.
+
+Nevertheless, the work on the prototype was done, and all critical points were checked. Now we need to focus our attention on finding out the possible problems of our project. And the implementation of the functionality that is specified in the paragraph

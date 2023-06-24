@@ -8,16 +8,16 @@ title: "LogiFlex"
 
 ## **Introduction**
 
-**LogiFlex** is a service specializing in the development of logistics algorithms for packaging goods in vehicles using laws and ideas that our AI finds. LogiFlex - Get More by Using AI!
-Check out our website - http://logiflex.ru
+[_**LogiFlex**_](http://logiflex.ru) is a service specializing in the development of logistics algorithms for packaging goods in vehicles using laws and ideas that our AI finds. LogiFlex - Get More by Using AI! Check out our website - http://logiflex.ru
+
 
 <div style="text-align: center;">
   <img src="/LogiFlex_images/LogiFlex_logo_rmv_bg.png" alt="LogiFlex Logo" width="300" height="300">
 </div>
 
-The project idea was so successful that the team managed to attract investments from interested investors immediately after its inception. Just nine days later, the project team successfully negotiated with [the largest network of building materials in the Far East](https://999111.ru/), securing payment for the development process, project delivery, and obtaining copyrights. This partnership aims to address the network's own logistical problems and optimize their transport processes.
+The project idea was so successful that the team managed to attract investments from interested investors immediately after its inception. Just nine days later, the project team successfully negotiated with [_the largest network of building materials in the Far East_](https://999111.ru/), securing payment for the development process, project delivery, and obtaining copyrights. This partnership aims to address the network's own logistical problems and optimize their transport processes.
 
-**For collaboration inquiries or if you have any questions, feel free to reach out to me at: [@GeorgiyBudnik](https://t.me/GeorgiyBudnik) (Team Lead)**
+**For collaboration inquiries or if you have any questions, feel free to reach out to me at: [_@GeorgiyBudnik_](https://t.me/GeorgiyBudnik) (Team Lead)**
 
 
 # **Week One**
@@ -134,3 +134,188 @@ I think this is a wonderful project and you have a strong team. To strengthen th
 Also, try to estimate how much your algorithms can save in revenue for the company. Is it 10%, 20%? If yes, this is signifacnt advantage that you can provide to the company by ensuring their competitive edge on the market. 
 
 Additionally, it would be beneficial to outline the team's expertise and experience - think of unique abilities that your team posses. Highlighting the qualifications and track record of the team members involved will instill confidence in potential investors and clients, showcasing LogiFlex's ability to deliver effective solutions.{{< /hint >}}
+
+
+# **Week Two**
+
+## Progress report - Week 2
+---
+Agenda:
+ - Weekly Progress Report 
+ - Tech Stack and Team Allocation
+ - Applied knowledge to solve the problem
+ - Facilitating communication
+ ---
+
+### Weekly Progress Report
+
+In Week 2, the focus was on the research aspects of the project and first try to working with our real data. The team established the organizational structure and determined the hours of intensive work and mentoring from the customers. The work process has begun, and the team made progress in various areas:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/LogiFlex_pipeline.png" alt="LogiFlex Logo" width="1200" height="1200">
+</div>
+{{< hint danger >}}
+**Feedback**
+I like the chart. It's good that you have clear project task allocation and defined responsibilities for each team member {{< /hint >}}
+
+The initial information from the Terms of Reference was obtained, and the team discussed hypotheses regarding the data and its preprocessing. A data parser was developed to convert the JSON format data into a 3NF-dependent CSV extension database format, making it easier to work with the data. The team also started studying physics engines suitable for simplifying the task, exploring 3D data visualizers, and delving into scientific literature on logistics theory in a limited space of three-dimensional objects.
+
+### Tech Stack and Team Allocation
+
+The team consists of four members, each assigned to specific roles and responsibilities:
+
+ - Georgii Budnik: Lead of the project responsible for management tasks, business process administration, and communication with the customer.
+ - Igor Abramov: DS Specialist focused on the mathematical apparatus, research, and algorithm development.
+ - Vladislav Urzhumov: ML Engineer responsible for algorithm implementation, data analytics, and preprocessing.
+ - Ruslan Abdullin: Developer-Visualizer in charge of visualizing the algorithm's results and adapting them for production.
+
+The team members' roles are combined, and they work together collaboratively. The payment structure is based on the overall results, which fosters a sense of shared responsibility and drives progress.
+
+Agile principles are implemented in the project management process. The team has fixed time slots for task distribution, collaborative work, and error fixing based on previous iterations.
+
+### Tech Stack Resources
+
+The team relies on a strong knowledge base to tackle the project's scientific and technical challenges. They use articles from platforms like [_Habr_](https://habr.com/ru/all/), [_Arxiv_](https://arxiv.org/) (by Cornell University), [_Elsevie_](https://www.elsevier.com/), and other scientific libraries for research purposes.
+
+Their practical skills and knowledge are primarily acquired through educational courses at Innopolis University and other open educational platforms such as Google and MIPT. The team's hypotheses and approaches are based on this knowledge and are tested iteratively. Their theoretical and practical understanding is continually strengthened, allowing them to plan their work effectively.
+
+For example, thanks to several scientific articles about genetic algorithms this week, we concluded that we should not use this approach, since such algorithms can give 100% results, but they lose very much to other methods in time: in our case, each truck would be unloaded for 9000-15000 minutes, which is unprofitable.
+
+{{< hint danger >}}
+**Feedback**
+Have you looked for companies with similar business goals? Logistics optimization seems to be a very important part of large scale companies. Find and study best solutions available globally{{< /hint >}}
+
+### Mentorship Support
+
+The team has agreed to receive mentoring from the customer, maintaining constant communication with Alexander Filippov, the head of the company's IT department. This collaboration provides access to real input/output data, enables communication with movers and drivers, offers insights into standardized limitations, and allows for modifications and clarifications to the terms of reference, which positively impact the team's progress.
+
+{{< hint danger >}}
+**Feedback**
+Very good, getting feedback from the customer will help to steer your project in a proper direction{{< /hint >}}
+
+### Exploring Alternative Resources
+
+The team is exploring alternative resources to support their project. One area of focus is physical engines for simulating physical space, such as Unreal Engine or Unity. They are also considering self-written open-source physical simulators. Understanding how physical interactions between objects are implemented helps enhance their understanding of object interaction and the challenges posed by heterogeneous building materials in a cargo transport complex.
+
+Additionally, the team is studying simulators of physical space for data visualization. They initially relied on classical Python libraries but realized the need for higher-level 3D visualizers. As a result, they are currently studying literature on 3D-cuboid-packing to enhance their visualization capabilities.
+
+Each stage of their work has specific nuances that require study to ensure the stability and effectiveness of their commercial algorithm. Extensive scientific literature in the logistics field provides valuable insights and guidance.
+
+### Identifying Knowledge Gaps
+
+Given the advanced nature of the project, the team has identified three key knowledge areas that require further exploration:
+
+ - Harmonic algorithms for packing d-dimensional cuboids in a limited space
+ - the Theory of interactions of heterogeneous objects
+ - Advanced heuristic algorithms for the optimal arrangement of elements in a limited space
+
+These knowledge gaps need to be addressed to develop efficient and effective solutions.
+
+### Engaging with the Tech Community
+
+The team actively participates in online discussions on forums related to their field, particularly under articles or scientific papers. They plan to attend local meetings in Kazan and Innopolis, and they are considering holding a mini-presentation of their product to attract additional investment and interest from Innopolis University and local technoparks.
+
+### Learning Objectives
+
+During Week 2, the team received real input data from the customer, and they developed a data translation parser in JSON/CSV formats. They also obtained answers to their questions, allowing them to start developing a mathematical apparatus for simple logistic combinations of objects. They concurrently studied scientific articles on more complex cases.
+
+### Sharing Knowledge with Peers
+
+Communication and knowledge sharing are crucial in the project. The team has established official and local social groups for communication. They have allocated collaboration slots every week to distribute tasks, discuss progress, and address errors. The rest of the time, team members work independently but maintain online communication.
+
+### How have you leveraged AI to compensate for any lacking expertise in your tech stack?
+
+The team recognizes the value of AI in their project in two main aspects:
+
+They rely on AI algorithms used in d-dimensional logistics devices for object placement. This knowledge helps them envision the potential results of their own program.
+Language models like ChatGPT, such as the one they are using, assist them in complementing ideas, highlighting important aspects of their work, and saving time.
+By leveraging AI capabilities, the team enhances their problem-solving and idea generation processes.
+
+---
+
+In conclusion, Week 2 marked significant progress for the project. The team delved into the scientific aspects, obtained real data, and began developing a mathematical apparatus for logistic combinations of objects. They established a well-structured team and implemented Agile principles to enhance collaboration and productivity. Mentorship support from the customer provided valuable insights and helped refine the project's goals. The team actively explored alternative resources, such as physical engines and data visualization tools, to enhance their understanding and capabilities. They identified key knowledge gaps that need further exploration. Engaging with the tech community and sharing knowledge with peers are ongoing priorities. Leveraging AI algorithms and language models proved beneficial in envisioning outcomes and optimizing their work. Overall, Week 2 was productive, laying a strong foundation for the project's continued success.
+
+{{< hint danger >}}
+**Feedback**
+Overall, I think this week progress report is well written and covers all aspects outlined in the weekly task. It is also good to see that you and your team is working overtime to tackle all possible problems. Good project handling is evident - 5/5 for the week{{< /hint >}}
+
+# **Week Three**
+
+## Progress report - Week 3
+---
+Agenda:
+ - Weekly Progress Report 
+ - Prototype development
+ ---
+
+### Weekly Progress Report
+
+In Week 3, the team focused on developing a prototype and addressing critical points in the theoretical solution proposed in the previous week. Each developer conducted research work and practically solved a subtask from the main project.
+
+The team received a general upload of data from the customer's 1C database. Preprocessing was implemented to filter the nomenclature names and mandatory physical characteristics of the data for solving the logistics problem. Several algorithms have been developed for stacking objects without taking into account their physical interaction and visualizations have been created for them.
+
+External resources were utilized, including employees from the Technopark who had experience with "cleaning" big data. The team also reached out to Kevin Handa from the guest sector to ask clarifying questions that could potentially contribute to the project's further development.
+
+ The prototype's performance was tested on a basic example, showing significant improvement in the optimization of space utilization compared to the classical approach. Overall, it was a productive week with a focus on implementing AI in the project.
+
+### The purpose of creating a LogiFlex prototype
+
+The key task that the team faced this week was to assess the global situation:
+- "Is it possible to do everything from what is planned?"
+- "How much do you need to accelerate?"
+- "How to distribute the remaining subtasks more efficiently?" 
+To achieve this, the team added additional subtasks to their schedule to create a Minimum Viable Product (MVP) and obtain answers to their pressing questions.
+
+### LogiFlex prototype: visualization
+
+The first step in the prototype development was creating a visualization of cuboids. Cuboids were chosen as a representation for small goods to simplify the process. The initial visualization looked like the following:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/PrototypeProgress1.jpg" alt="LogiFlex" width="500" height="1000">
+</div>
+
+To visualize more complex objects in the future and describe them effectively, the team considered using the [Gazebo simulator]((https://gazebosim.org/home)), which they already had experience with. This choice would potentially enhance the quality of visualization.
+
+### LogiFlex prototype: framework development
+
+The team implemented a space where they could set the initial values of a cargo vehicle, the number of cuboids, and their dimensions. Since visual display of the delivered objects would allow for an instant assessment of the algorithm's quality and the resulting placement of goods, the team combined the framework development with the visualization step, resulting in the following outcome:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/PrototypeProgress2.jpg" alt="LogiFlex" width="1200" height="1200">
+</div>
+
+To test the functionality of the framework, a classic algorithm based on dynamic programming was developed for stacking goods. The algorithm aimed to place the largest product in one of the far-left corners, with multiple corners available if the truck was at least partially filled.
+
+### LogiFlex prototype: Optimal algorithm development
+
+The final and crucial step in the prototype development was to enhance the optimality of object placement. After considering several options with the customer, the team decided to use the ratio of the total volume of the put cuboids to the minimum bounding cuboid as the optimality index. This ratio demonstrated the maximum utilization of the remaining space.
+
+Among various AI algorithms, the genetic model yielded the best balance between time spent and expected quality.
+
+{{< hint info >}}
+It's important to note that due to LogiFlex being a commercial project, the team cannot share the solution or any specifics as all copyrights belong to the customer.
+{{< /hint >}}
+
+After training on most of the input data, we decided to compare our algorithms on a basic example to check the convergence of calculations.:
+
+*Suppose we have a finite space with dimensions 10x10x10 and an infinite number of arbitrary elements from our list of arbitrary dimensions (the order and dimensions of the elements for both algorithms are the same).*
+
+The result is in front of you:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/PrototypeResults.jpg" alt="LogiFlex" width="1200" height="1200">
+</div>
+
+The results showed that **the classical stacking approach occupied 73%** of the space, while **the genetic solution achieved an occupancy of 92%!** <span style="color:#59afe1"> ***Our optimization is 19%***</span>. We believe that this is a successful indicator, since it could save (taking into account the statistics of our case) about 20% of product turnover per day, which is a great advantage for the company.
+
+Such a result gives an incentive to dive deeper into the subject of AI application and place great emphasis on algorithms in this area in the future.
+
+---
+
+Drawing conclusions about the past week, we can conclude that this is one of the most productive weeks in terms of implementing AI in our project. We can't say that everything went perfectly - we wanted to develop two AI algorithms in total, but due to insufficient knowledge, we were not able to do it in full. There were a lot of difficulties with data processing, for which we lost a lot of time, because of which half of the team did not have time to complete individual tasks before the sprint closed.
+
+Nevertheless, work was done on the prototype, and all critical points were checked. It remains only to continue in the same spirit, analyze the errors that arise and try to solve them more quickly.
+
+{{< hint danger >}}
+**Feedback**
+I liked very much your visualizations. Almost 20% more space for the given truck - a great result that you and your team achieved in only two weeks of actual project handling. Given the initial momentum and clear understanding of the project at hand - keep up the pace and make sure not to ease on the development part - 5/5 for the week. Good job! As what comes to the product, are you planning to develop a convenient UI for the users to work with the algorithms? If algorithmic solution is already good enough for the client, start to think about the packaging and delivering a full fledged application {{< /hint >}}

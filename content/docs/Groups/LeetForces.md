@@ -259,6 +259,7 @@ The whole system is easily scalable and maintainable due to usage of Docker and 
 {{< /expand >}}
 
 {{< hint danger >}}
+
 **Feedback**
 
 **1. Component Breakdown**
@@ -302,7 +303,6 @@ Grade 4/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
-
 
 {{< expand "Week 3 report" >}}
 

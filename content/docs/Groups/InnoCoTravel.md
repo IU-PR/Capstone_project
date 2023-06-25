@@ -334,3 +334,78 @@ Grade 2.5/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+# **Week #3**
+
+## **Developing the prototype, creating the priority list**
+
+
+- **Technical Infrastructure**: 
+    - ***Deployment***: Together we rented a cloud server, where we use Docker for the deployment of our Backend and Telegram-bot parts. The frontend is hosted on GitHub servers via GitHub Pages.
+
+- **Backend Development**: 
+    - ***Authorization***: the backend offers versatile authentication options, supporting both traditional methods and Telegram login authorization. Telegram login ensures synchronization that the same user can be identified across the website and webapp. 
+    - ***API***: The backend supports basic CRUD operations with Trips. In other words, the frontend can interact with the backend on trip-related endpoints. It also includes filtration of trips based on the time interval and filters chosen by the user.
+    - ***Deployment***: The backend of the application is currently deployed on a server and can be accessed through the given link.
+        - https://inno.co-go.chickenkiller.com/ping (look at Raw Data)
+    
+- **Frontend Development**: 
+    - ***Telegram authorization***: the website is to be accessed from the Telegram app using [Webapps](https://core.telegram.org/bots/webapps). Our website takes and parses the authorization data that Telegram gives for further usage (in particular, for authorization on the backend).
+    - ***Deployment***: the website is deployed on Github Pages [here](https://innocotravel.github.io/Frontend/). We set up CI/CD for automatic updates. *Note that opening the website from the browser instead of the Telegram bot makes you authorize manually. All the actual users will be skipping this step as they will be using the webapp.*
+    - ***Basic interface for filtering through trips***: we created some basic UI for selecting the time and locations for the trips you want to see. Our interface is intended to support both light and dark themes as does Telegram for a more seamless experience. *Note that, for now, both themes are only supported when you visit the website via the browser, inheriting Telegram's preferred theme is a task in our backlog.*
+
+
+- **Telegram bot development**:
+    - ***Webapp***: our bot is capable of opening our frontend as a Webapp.
+    - ***Deployment***: our bot is hosted on our cloud server, and it is available to Telegram (via Webhooks) and to our backend for usage in the future. Our current (test) bot is on [@inno_travellers_test_bot](https://t.me/inno_travellers_test_bot). *Note that it sends some debug messages, for now, pay attention only to the link to the webapp*.
+    
+- **Data Management**: 
+    - ***Backend***: backend uses Postgres DB for storing and retrieving the data. It stores user data and trip data. User data includes the Telegram authorization data that we receive via Webapp, and trip data includes all that is visible on the website for each trip (departure/arrival places, time, date, etc).
+    - ***Telegram bot***: currently, our Telegram bot does not access any DB. However, some of our planned features might require specific data (like the list of users) to be stored, so some lightweight DB (like SQLite) could be used in the future.
+- **Prototype Testing** 
+    
+   - When we attempted to combine different parts, we encountered a set of different problems, which are mentioned in the **Challenges and Solutions** section below.
+   - Additionally, we encountered a set of backend-related errors (endpoints returning weird errors, lack of environment variables on our server, unapplied migrations, etc), which we fixed.
+
+
+## **Progress report**
+### **Prototype Features**
+If you want to see more detailed information on technical solutions that we used, you can always check our GitHub repositories with source code. All three of them (one for the backend, one for the frontend, and one for the bot) are on our [organization](https://github.com/InnoCoTravel).
+#### Backend
+ The backend implements this [API](https://gist.github.com/Dirakon/55687b90f16123f7ac7e1cba3c02dd50), which we designed. There is also information about how we do Telegram authorization verification to generate tokens for further access to the backend.
+#### Frontend
+As mentioned above and shown below, we created some basic UI for selecting the time and locations for the trips the user wants to see. There is also some trip visualization.
+#### Telegram bot
+As mentioned above and shown below, we registered a bot that redirects to our frontend as Webapp. Additionally, we use Telegram's support of webhooks to host a server that responds to both our backend and Telegram servers (reacting to the user interactions by just repeating what the user said for now).
+
+
+### **User Interface**
+Telegram bot (for now) just redirects you to our frontend as Webapp. Our UI in general still needs improvements: for now, we focus on functionality rather than style.
+![](/InnoCoTravel/week3_bot.png)
+
+
+<img src="/InnoCoTravel/week3_webapp.jpg" alt="drawing" width="250"/>
+
+The user will select all the options they need (start point, end point, time, and some other filters which will be implemented in the future). Afterward, they press the 'ok' button to apply the filters and see the relevant trips. When the filters are applied, the 'ok' button is replaced with a '+' button to create your trip if you don't see any trip that suits you (this feature is still being implemented).
+
+### **Challenges and Solutions**
+- **HTTPS for Telegram bot**
+     We have a cloud server without any domain (just IP), but Telegram API requires the URL for Webhook to be HTTPS, which requires us to have an SSL certificate for the domain. However, Certificate Authorities like [Let's Encrypt](https://letsencrypt.org/) do not provide certificates for bare IP. Fortunately, Telegram accepts self-signed SSL if we provide the certificate while registering the webhook. Thus, we decided to generate SSL ourselves via [OpenSSL](https://www.openssl.org/) and send the public certificate to Telegram.
+- **Mixed content policy**
+    While testing the deployment of our frontend that is supposed to send requests to the backend, we found that browsers prohibit HTTP requests when you are on an HTTPS website, which is called [mixed content policy](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content). Therefore, we needed to migrate the backend to HTTPS too, but this time self-signed certificates would (probably) not work, as the browser is in play instead of Telegram servers.
+- **HTTPS for backend**
+    To solve the above problem, we registered for a free subdomain from [this service](https://freedns.afraid.org/) and got a certificate from [Let's Encrypt](https://letsencrypt.org/). To ensure scalability in the future, we have taken the necessary step of installing and initiating [NGINX](https://www.nginx.com/) with TLS keys attached.
+- **Bad layout for phones**
+    Our initial UI layout was like on [this site's desktop version](https://www.aviasales.ru). In particular, our filter bar was in one line, which looked good on the desktop. However, we quickly discovered that it does not work on phones as the screen's width on mobile devices is much smaller. Therefore, we decided to do something similar to what the website mentioned above did to its mobile version: put every filtering element in its own line. *Note that there is no need for a desktop version of our site as even when you open our Webapp from the desktop, Telegram renders it in a resolution similar to the mobile one*.
+
+### **Next Steps**
+ We have Github Project for tasks and backlog, here's a glimpse of it:
+![](/InnoCoTravel/week3_backlog.png)
+ 
+ As you can see, the features that we plan to add soon are mostly on the frontend. Particularly important for the MVP are trip retrieval from the backend (which is almost done, and is probably already finished depending on when you are reading this) and the trip creation UI. Less important tasks: make UI more visually interesting, accept dark/light theme from Telegram app, visually represent/handle any errors (like failed requests to backend, etc).
+ 
+After that, we would want to add more functionality to the Telegram bot. In particular, our priority is to display the trip created by the user in their telegram chat with the bot for ease of monitoring. Other bot features that we want to implement that are of lower priority: are trip request deletion from the bot, and created trip request management from the bot (+1/-1 free place for the ride).
+ 
+The backend is mostly done, so we currently focus on fixing all the mistakes and errors we found there. Additionally, we would need to add more features into the backend whenever we add features to the bot (because the backend is the one that calls these bot's features). 
+ 
+

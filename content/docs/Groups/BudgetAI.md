@@ -82,3 +82,40 @@ closely with our project's mentor, which also helps us to extend and deepen our 
 Our project has two distinct components:
 - A backend component, a large language model based on RedPajama 7B model and the Pytorch library. This component is the main point of interest in our project, and it is managed by all three members of our team: Nikolay Nechaev, Hadi Salloum, and Danil Meshcherekov.
 - A frontend component that will, tentatively, be a simple command line. Since we are not planning to include any graphics or complex user interface, we have not assigned anyone to this part of the project.
+
+# Week 3
+
+## Development Process
+The biggest achievement of this week is assigning each member a task:
+- Dataset parsing: downloading sources of data, parsing and creating datasets (Mahmoud Mousatat and Danil Meshcherekov);
+- Building infrastructure: researching how to generalize the pipelines in current solutions and how to load the model/dataset (Nikolay Nechaev and Mostafa Kira);
+- Evaluation: defining metrics fo chat bot performance (Hadi Salloum)
+
+Here is what have we have accomplished this week:
+- Mostafa Kira has trained one of the base models on a small instructions dataset. Now we know how to work with the models, and this aspect of our work will greatly increase our efficiency.
+- Hadi Salloum has found various ways to measure the model's efficiency, from benchmarks to some custom ways to do so.
+- Mahmoud Mousatat is searching for quality textbooks and have already found some of them.
+- Nikolay Nechaev has dig into tools that we are likely to use and proposed the efficient way to collaborate while working on the project.
+- We are now waiting to be granted access to the server where we will store the collected datasets and train the model.
+
+## Prototype Features
+As of this week, no prototype is ready.
+In our team's opinion, all three parts are necessary for a prototype to work.
+
+## User Interface
+The main means of communication between the user and the language model is a command line; therefore, we do not plan to introduce any GUI in our product.
+
+## Challenges and Solutions
+We have a number of challanges.
+
+Firstly, we still have not decided on how data in dataset should be represented; we have tentatively settled to use a json file with a source, prompt, and an answer for each prompt.
+
+Secondly, we do not know what sources to use to train our model; would high quality data from textbook be sufficient, or should we also include open-source Haskell snippets from Git and Stackoverflow answers. As a solution for this question we would like to train and compare two different models: trained on our data only and trained on all data.
+
+Lastly, as it was mentioned above, it is still not clear what metric would be most suitable for measuring our model's performance.
+
+# Next Steps
+Our plan for the upcoming weeks is to address the challenges discussed above:
+- We need to make a final decision on what resources we will use for training our language model and how to design the dataset for it;
+- We need to make a final decision on the metric for evaluating the model's performance;
+- We need to assemble all the necessary parts to use them on a server.

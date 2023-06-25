@@ -303,7 +303,7 @@ Most departments conclude two developers except DevOps.
 | Oksana Konovalova    | [@ksko02](https://t.me/ksko02)                       | o.konovalova@innopolis.university   |
 | Adelina Kildeeva     | [@yumiue](https://t.me/yumiue)                       | a.kildeeva@innopolis.university     |
 
-In Copyright Department are two developers: Adeline and Oksana. Department has a separate meetings where developers discuss tasks and distribute them.
+In Copyright Department are two developers: Adelina and Oksana. Department has a separate meetings where developers discuss tasks and distribute them.
 Project has two main ML problems: categorisation and comparsion. So, Adelina takes Comparison part and do most researched. Oksana takes Categorization problem and test found solutions.
 #### Frontend Department
 
@@ -471,7 +471,7 @@ User Journey Map, in general, is presented above and in the YouTube, all interac
 [Link to video of prototype](https://youtu.be/hjcdvSZh6Os)
 
 <iframe id="player" type="text/html" width="640" height="360"
-  src="http://www.youtube.com/embed/hjcdvSZh6Os?enablejsapi=1&origin=http://example.com"
+  src="https://www.youtube.com/embed/hjcdvSZh6Os?enablejsapi=1&origin=http://example.com"
   frameborder="0"></iframe>
 
 Link to the [Figma Prototype](https://www.figma.com/file/O4nNzihMxgs9Drq6BeDpeS/Capstone?type=design&node-id=0%3A1&mode=design&t=wpibksqgE1Q1ylY2-1) is above as well as the User Journey Map and interactions description 

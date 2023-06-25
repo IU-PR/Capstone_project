@@ -2,10 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/startup-support/university-support/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/weekly-tasks/week_1/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/startup-support/special-economic-zone/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/weekly-tasks/week_2/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/weekly-tasks/week_3/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/weekly-tasks/week_4/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/weekly-tasks/week_5/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/weekly-tasks/week_6/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/weekly-tasks/week_7/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/startup-support/investment-and-venture-fund-of-the-republic-of-tatarstan/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/startup-support/fasie/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/startup-support/mts-venture-fund/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/startup-support/other-entities/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/weekly-tasks/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/startup-support/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/groups/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/groups/jurnalik/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/groups/the-laughing-hippos/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/groups/the-smiling-boars/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/weekly-tasks/hidden/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/docs/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/</loc>
+  </url><url>
+    <loc>https://capstone-pr.netlify.app/tags/</loc>
   </url>
 </urlset>

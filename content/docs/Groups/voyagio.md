@@ -219,3 +219,62 @@ We use division and mentorship approach inside a team to achive the optimal resu
 
 <h3>AI utilizing:</h3>
 We use OpenAI's ChatGPT to gain inspiration, save time, and receive hints in unexplored areas. Also, we used special AI for generate the name of the web-application, select infographics and color palettes.
+
+
+{{< hint danger >}}
+**Feedback** 
+
+I like the logo and the name!!
+
+**1. Component Breakdown**
+Good
+
+
+**2. Data Management**
+
+Good
+
+**3. UI Design**
+
+Images are too small, Beside I want to see the designs so you should leave a link to them. Not ask us to contact the designer. It doesn’t make sense.
+
+
+**4. Integration and APIs**
+
+Good
+
+**5. Scalability and Performance**
+
+You should write a Scalability plan her regards of your prediction. 
+Imagine you will have a lot of user, how will you scale your business? 
+
+
+**6. Security and Privacy**
+
+Good
+
+**7. Error handling and Resillience**
+
+This only one part of handling error, what are your plans to handle crashes when app in production. 
+
+Read about crashlytics. 
+
+**8. Deployment and DevOps**
+
+That is not answer. You should do your research and decide. 
+You can use GitHub actions for it.
+
+**Answering questioner**
+
+1. Why no books? 
+2. Mentor point: So you are perfect at the tech. Yo don’t need an advice? And mentor should not be part of the team member the whole idea of the mento to be an outsider in order to see what you couldn’t see 
+3. Good that you are using Scrum
+
+**Overall**
+The report is ok. You didn’t really spend much time considring answering a lot of important points.
+Grade 3/5
+
+ 
+
+_Feedback by Moofiy_
+{{< /hint >}}

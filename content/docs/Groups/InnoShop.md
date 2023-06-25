@@ -344,3 +344,42 @@ Grade: 5/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+# Weekly Task 3
+
+The task for week 3 of the Capstone Project.
+
+## Improvements upon the feedback provided on Week 2 Tasks:
+We will also try to improve on what you suggest every week so we will able to deliver a more better product. Here are our plans on how we will improve this week:
+
+ - **Improvement section**: Yes we will. Thanks for pointing that out.
+ - **Component Breakdown**: Yes will consider that.
+ - **UI Design**: We will change the color.
+ - **Integration and APIs**: We will research on that.
+
+
+## Prototype Features:
+
+Currently we have implemented a frontend in React which is able to communicate with the backend API currently containing the test product and users data.
+
+The frontend part currently contains the Store Page and the Home Page which are retrieving information from the API.
+The Backend or API part of the applciation currently posses the ability to serve continuous requests and transfer data.
+
+
+## User Interface:
+
+We have implemented the store page and the home page of the application currently in the UI Interface. Screenshots are provided here:
+
+
+
+## Challenges and Solutions:
+
+As mentioned previously, we had problem in working with new technologies and implemented a proper schema for the project.
+So this week, we had meetings how everything in the project will take place. Apart from that, we had problem in proper coordination among the team that we solved by having proper meetings.
+
+## Next Steps:
+
+Our next step will involve implementing the following things in our project:
+ 1. User Authentication and User Creation
+ 2. Proper Error Handling of both the front end and backend environment using respective frameworks and libraries.
+ 3. In frontend part, we plan to implement the whole UI of the application including the Product page and User profile page.

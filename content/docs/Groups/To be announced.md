@@ -193,3 +193,76 @@ Overall, the progress report is very short and do not describe your group progre
   
 Some specific comments - this project report say that main goal of the app is doing image processing and classification, but no details on the model, ML architecture and data is provided. To mee it seems rather strange, because the main part of this project is the model. Are you taking the open-source model or training your own? Are the pictures provided from the app that you already build or this is a mockup of the app? This report raised more questions than it provides answers, so make sure to provide more details on your next week progress report. 3/5 
 {{< /hint >}}
+
+
+# **Week #3 Progress report**
+## **Technical Infrastructure**
+We set up our development environments (IDE, linters, project building) locally. Also, we made it possible to work together by creating GitHub repositories.
+We are planning to handle work on AI model with our own computational resources (like our personal GPUs in our computers) and utilizing free quotas of services like Kaggle and Google Colab.
+
+## **Frontend Development**
+This week, we implemented the first-priority task which was image retrieval.
+
+To achieve this, we used two screens for two image sources: **camera** and **gallery**. Additionally, an in-app cut interface was implemented for both camera source and gallery source.
+
+### Current State Showcase
+[Video](https://disk.yandex.ru/i/UDfn8_ZnaLrfUw)
+
+### Repository
+
+The whole frontend is developing in [this](https://github.com/Senopiece/compound_scanner/tree/v0.0.1) repository from now and for the future posts.
+
+### Release
+
+You can touch the application yourself installing apk from [this](https://github.com/Senopiece/compound_scanner/releases/tag/v0.0.1) release.
+
+All further versions would be published on [this](https://github.com/Senopiece/compound_scanner/releases) page.
+
+### Further development
+
+Although we have taken the first steps, we still need to develop the ML model separately and integrate it into the frontend at a later stage.
+
+Currently, the frontend is experiencing some performance issues, bugs, and unhandled UX scenarios. For instance, when the application fails to find a camera, it crashes without providing any feedback to the user.
+
+Further development plan:
+1. add crashanalytics
+2. complete resulting page
+3. complete crop box for gallery screen
+ > on this screen crop box must also be draggable, not only scalable
+4. cover all the branching paths
+ > no camera / invalid image from gallery / etc...
+5. fix bugs
+ > crop box can have negative scales / flashlight button is sometimes glitchy / etc...
+6. add model
+7. optimize
+8. improve appearance
+  - styles
+  - icon
+  - splash icon
+  - proper naming
+9. add animations
+
+
+## **Backend Development**
+Firstly, we studied most common chemical notations and decided to use [InChI](https://en.wikipedia.org/wiki/International_Chemical_Identifier) because it provides one-to-one mapping to the compounds unlike (for example) SMILES does. 
+Secondly, we researched available AI model architectures to apply in our project. We decided to use the following structure: CNN Encoder -> Decoder with attention. We will use EfficientNet-v2 as our encoder because it shows good results in similar tasks and can fit in devices like mobile phones.
+
+### Further development
+1. Make dataset for training. We will use samples from public datasets with printed formulas like [BMS dataset from Kaggle](https://www.kaggle.com/competitions/bms-molecular-translation/data) and [Image2SMILES](https://zenodo.org/record/5356500). Also, we are planning to add some handwritten examples either by making them by ourselves or finding a public dataset.
+2. Train the model.
+3. Validate the model.
+4. Integration with frontend (mobile app).
+
+## **Data management**
+We are not planning to have database in our MVP, but considering adding it for some extra features. For example, a local (since we are focusing on making app work offline) database of IUPAC names of compounds.
+
+## **Prototype Testing**
+
+### Frontend
+Initial rounds of testing have been conducted for the frontend component. Currently, only integration tests are available as there are no widget or unit tests in place.
+
+This week, a manual test was performed on the frontend prototype which resulted in the discovery of some bugs mentioned above. However, all identified issues were addressed and there were no usability concerns found.
+
+## **Team Communication**
+
+To ensure that our frontend and backend are in sync, our team has conducted several meetings. During these meetings, we discussed the initial plan in detail, including error codes and the general AI API.

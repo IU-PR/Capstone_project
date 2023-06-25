@@ -259,11 +259,19 @@ The whole system is easily scalable and maintainable due to usage of Docker and 
 {{< /expand >}}
 
 {{< hint danger >}}
+<<<<<<< HEAD
+**Feedback**
+
+**1. Component Breakdown**
+
+Good,
+=======
 **Feedback**  
 
 **1. Component Breakdown**
 
 Good, 
+>>>>>>> e9126fc06aebd10093a9cdf6b0d05685464e9f03
 
 **2. Data Management**
 
@@ -272,7 +280,11 @@ Good!!
 **3. UI Design**
 
 Nice designs
+<<<<<<< HEAD
+But the design in desktop-8 you should show how will you present the contests
+=======
 But the design in desktop-8 you should show how will you present the contests 
+>>>>>>> e9126fc06aebd10093a9cdf6b0d05685464e9f03
 
 **4. Integration and APIs**
 
@@ -285,8 +297,13 @@ Good
 Good
 
 **7. Error handling and Resillience**
+<<<<<<< HEAD
+You will do all of that? I highly doubt that it’s manageable.
+Maybe pick one or tow and focus to perfect them.
+=======
 You will do all of that? I highly doubt that it’s manageable. 
 Maybe pick one or tow and focus to perfect them. 
+>>>>>>> e9126fc06aebd10093a9cdf6b0d05685464e9f03
 
 **8. Deployment and DevOps**
 Very Good
@@ -302,3 +319,70 @@ Grade 4/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
+<<<<<<< HEAD
+
+
+{{< expand "Week 3 report" >}}
+
+## **Developing the first prototype, creating the priority list**
+As we conclude the third week of our project, we are thrilled to share the development milestones and insights gained from our journey so far. This week, we focused on creating a prototype of our system and are happy to present its main features and functionalities.
+
+
+#### **Technical Infrastructure**
+Speaking of technical infrastructure, setting up a robust technical infrastructure is crucial for the success of our project. The development part of our project does not require renting additional computational resources, so we can use our laptops since they provide enough computational power. We ensured that team members have efficient access to the infrastructure.
+
+#### **Backend development**
+We have designed the first iteration of our internal APIs (for Juggler and Orchestrator) and have written descriptive documentation for them using OpenAPI Specifications. You can find file with specifications [here](https://drive.google.com/drive/folders/1AuQu-GkGnGx5MI5kP3T2BLo-n5bvH5W_), after download you need to import configuration files into  your favourite OpenAPI editor, fer the development part we used the following [resource](https://editor.swagger.io). And we have already implemented all of them, then we will expand our internal APIs based on demand.
+
+#### **Frontend development**
+We started the development process of the frontend part using Flutter framework. We have successfully developed the first iteration of the frontend. We have started to implement the busyness logic of the project, including authentication.
+
+#### **Data Management**
+For the data management we set up the PostgreSQL database. We have developed necessary entities for the first iteration of the development.
+
+#### **Prototype Testing**
+Speaking of testing, we sent our first prototype to our student friends, also we used cross-testing technique, i.e. the team member who developed the juggler tests the orchestrator and the one who wrote the frontend part tests the juggler.
+
+<!-- гера молодец -->
+### **Prototype Features**
+In our first prototype, we have implemented core functionalities to make our project practical for early testing and getting user feedback. Here are the features that we managed to successfully implement:
+1. User registration
+- The Juggler API now supports registering to our system. In the future, it will enable the project and our users to hold a full-fledged web session using the on-site frontend and to implement authorization.
+2. Adding tasks
+- The users can create tasks using the API and telegram bot frontend. The problem statement, tests, reference answers, time and memory limits are all available for the authors to set.
+3. Grading system
+- The users can submit their solutions to the system and consequently receive the submission status.
+4. Telegram frontend
+- The communications with the API can be done using the telegram bot frontend. It supports all the basic commands in our prototype.
+
+### **User interfaces**
+1. On-site interface
+- The on-site part has a minimalistic design, focusing on usability and clean, visually appealing interfaces. The prototype allows users to navigate through the registration and login pages and partially represents the interface of the main page. However, the interface is still work in progress as the team is designing the interface alongside implementing the web frontend.
+
+2. Telegram bot
+- Users can interact with our service directly from Telegram. The bot is capable of guiding users through problem submission, feedback, and progress tracking.
+
+### **Challenges and solutions**
+During the development of the prototype, we encountered some challenges:
+
+1. **Telegram frontend**
+- Integrating the Telegram API into our system was a complex task. We had to ensure that our Telegram bot was able to receive tasks from users, forward them to the Juggler for processing, and return the feedback. We overcame this challenge by thoroughly studying the Telegram API documentation and consulting online forums for specific implementation questions.
+2. **Orchestrator Service**
+- Setting up a reliable, secure, and efficient grading system was another challenge. We had to ensure that user submissions are run in an isolated environment to prevent any malicious activities. Docker provided us with the sandboxing capabilities we needed.
+3. **User Authentication**
+- As we were trying to make the user registration and authentication as secure as possible, we found it challenging to correctly implement JWT token-based authentication. We overcome this issue by studying more about the JWT tokens, their creation, validation, and best practices for this technology.
+
+### **Next steps**
+Looking ahead, we are excited to continue improving our system. Our plans for the upcoming weeks in the order of priorities include:
+1. **Web frontend implementation**
+- The web frontend implementation is underway and currently the number one priority for our project.
+2. **Feature Additions**
+- We plan to introduce additional features such as authorization, contest system and a user profile page.
+3. **UI/UX Improvements**
+- We plan to refine the user interface and enhance user experience based on user feedback and usability testing.
+4. **Improving Test Generation and Result Checking**
+- We will work on the Orchestrator to ensure it can handle a wider variety of tasks and produce more comprehensive test results.
+
+{{< /expand >}}
+=======
+>>>>>>> e9126fc06aebd10093a9cdf6b0d05685464e9f03

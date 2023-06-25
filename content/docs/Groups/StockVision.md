@@ -3,6 +3,7 @@
 We are doing a project called Stock Vision. The aim of this project is to develop an ML tool for traders that provides additional analysis and predictions for stock market / currency pair movements.
 
 ---
+![Logo](/group/stockvision/logo.png)
 
 # **Week #1**
 
@@ -211,3 +212,70 @@ Plus, the formatting of the progress reports is also part of the evaluation. Mak
   
 3/5 
 {{< /hint >}}
+
+{{< hint info >}}
+
+We decided to pivot and make more emphasis on making the model more interpretable. Our main difference from the competitors is that we focus on interpretability, so that the trader can make better decisions based on the ML model. The end user of our app is a trader.
+  
+{{< /hint >}}
+
+# **Week #3**
+
+## **ML Model**
+1. **Introduction**
+The model utilizes data from the paid source, AlphaVantage, which provides hourly price data. The model is built using a transformer encoder architecture, incorporating positional encoding and embeddings for both time and price inputs. It employs multihead attention with 8 heads and consists of 5 encoder blocks to compute the attention scores, which aids in the interpretability of the model. The machine learning service is implemented as a Flask app and follows an event-driven approach, retraining the model every hour to incorporate the latest price data. The training and inference processes are communicated via a RabbitMQ queue to the backend service.
+
+1. **Model Architecture**
+The machine learning model is based on the transformer encoder architecture, which has proven to be highly effective for sequence modeling tasks. The transformer architecture utilizes self-attention mechanisms to capture dependencies between different positions in the input sequence. The inclusion of positional encoding and embeddings allows the model to understand the temporal and price-related aspects of the data.
+
+    2.1 *Input Representation*
+The input to the model consists of two components: price and timestep. The price represents the historical BTC/USD price at each timestep, while the timestep indicates the relative ordering of the data points. Both price and timestep are encoded using embeddings to provide meaningful representations to the model.
+
+
+
+    2.2 *Transformer Encoder*
+The model employs a multihead attention mechanism with 8 heads to capture different types of dependencies in the input data. Each attention head attends to different parts of the input sequence, enabling the model to extract diverse and informative features. The multihead attention is followed by feed-forward layers to further process the attended information.
+
+
+
+    2.3 *Encoder Blocks*
+To enhance the interpretability of the model, we utilize 5 encoder blocks. Each encoder block consists of a multihead attention layer, layer normalization, feed-forward layers, and residual connections. This design choice allows for a deeper understanding of the attention scores, enabling insights into the specific features or time periods that influence the model's predictions.
+
+3. **Machine Learning Service**
+The machine learning service is implemented as a Flask app, providing a robust and scalable infrastructure for handling prediction requests. The service follows an event-driven approach, triggered by an hourly event to retrieve the latest price data. Upon receiving new data, the model is retrained using the updated dataset. The training process incorporates a RabbitMQ queue, where messages containing the training data are sent to the backend service.
+
+4. **Results and Interpretability**
+Through the use of the transformer encoder architecture and attention mechanisms, the model is capable of capturing important temporal and price-related patterns in the data. The multihead attention with 8 heads allows for a comprehensive analysis of the input sequence, providing valuable interpretability. The interpretability of the model is further enhanced by utilizing 5 encoder blocks. By examining the attention scores, we can gain insights into the specific aspects of the data that the model focuses on during inference. This enables users to understand the driving factors behind the model's predictions, aiding decision-making processes.
+
+5. **Challenges**
+The major challenge so far is the training time. Since the model needs to retrain every hour and make a prediction before the market moves by a reasonable amount. The second major problem is that the paid api from which we get our hourly data sometimes goes down and this can affect the training of the model. The model’s architecture is simple for now and there is room for improvement in terms of number of heads and number of layers. We are not implementing any data engineering pipeline and doing all the processing in the python code, for now this is not an issue since we do not have billions of data, but when we include news and other data sources then we would need a big data technology.
+
+
+## **Frontend**
+1. **Introduction**
+The frontend is a mobile app written in Flutter. We decided to use clean architecture, since this will allow us to scale better in the future. We are using bloc for our state management, go_router for routing and dio+retrofit to handle network requests. 
+2. **UI Design**
+Below is a prototype design of our application, which was created using Figma: - [Figma Link](https://www.figma.com/file/IXQhGgoVPjEqvQopgBl0FD/Capstone-Project?type=design&node-id=0-1&t=ioboFNrxKdD4CYdt-0)
+3. **Prototype Features**
+The features are pretty straightforward, for the MVP we have only the authentication and the actual screen that shows the prediction part. Also, we are going to implement push notifications using Firebase Cloud Messaging to make sure that the traders are notified as soon as the new signal comes out.
+4. **What is implemented**
+At this stage, we have a functional version of the application design. As development progresses, we are making changes to enhance the user experience. Currently, our primary focus lies in establishing the application's architecture, work with the application’s backend. We have successfully completed the authentication screens, and our objective is to finalize the design layout by the end of the next iteration.
+1. **Challenges** 
+So far we didn't meet any substantial challenges on the frontend. The only problem we had was with the navigation in the app, but this problem was quickly resolved.
+
+## **Backend**
+1. **Service Architecture**
+We are deploying project on Yandex Cloud, which provides virtual machines and network for inner services. So this network has public ip address, on which API Gateway node will be placed in. API Gateway purpose is to maintain user interactions: auth (jwt), listing models, subscribtions, etc. In this private network will be placed persistent storage (database, etc) where we will collect user information, subscribtion records and metrics. And, of course, models will be placed in private network. So each node can easily make request to another within the network, but out of networks peers will see only API Gateway node with public ip. Architecture will be described in helm/k8s files and automaticaly rollout with kubernetes
+
+2. **API Gateway Architecture**
+We choose Fastify framework as it provides modern approaches to build backed services as well as openapi plugins (swagger) in the box. It will provide several endpoints to interact with.
+
+3. **Database**
+We choose postgres for storing users and subscribtions.
+
+4. **Challenges**
+Due to lack of experience it is extremely hard to build infrastructure. So another major problem is to organize all services with kubernetes.
+Also Backend developer faced problems with Fastify. It is modern one and has an excellent documentation, yet not enough real world examples, which with lack of experience makes development slower.
+
+## **Next Steps**
+Next week, we are going to finish with the UI part on the frontend and start implementing the data and domain layers of the app. Also, we are expecting to have authentication working. Furthermore, the ML part is constantly improving, so most likely, the model will have a better accuracy and the training time will be reduced.

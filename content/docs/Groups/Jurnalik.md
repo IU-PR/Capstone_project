@@ -1,6 +1,10 @@
 # Jurnalik
-![Logo](/Jurnalik/jurnalik.svg)
 
+`Do you like real newspaper?`
+
+<div style="text-align: center;">
+  <img src="/Jurnalik/jurnalik.svg" alt="Jurnalik Logo" width="300" height="300">
+</div>
 
 Jurnalik is a mobile application, an electronic "newspaper" that collects and provides the user with the latest news, posts and photos from their social networks, news channels and subscriptions in one application.
 
@@ -494,6 +498,7 @@ Priority list:
 7. Improve the accuracy of the model by expanding the dataset
 
 
-# Instagram Remark
+## Instagram Remark
 *Признаны экстремистскими организациями и запрещены на территории РФ
+
 *Recognized as extremist organizations and banned on the territory of the Russian Federation

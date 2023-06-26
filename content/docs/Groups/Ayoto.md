@@ -252,6 +252,7 @@ In our prototype, we have implemented the following features:
 ## Challenges and Solutions
 * We faced some challenges in the chat backend. We solved this by researching and reading articles online
 * The front end developer had some challenges in implementing the design, because some of the components in the design was new for him. He solved this by researching and reading articles online
+* After tesing the implemented parts in the project, we found that we have overflow problem in the website especially in the mobile view. We solved this by defining the containers which are causing the problem and fixing the overflow problem in them
 
 ## Next Steps
 Our next steps are:

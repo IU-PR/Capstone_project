@@ -276,3 +276,63 @@ Overall, 5/5
 Good work
 
 {{< /hint >}}
+
+
+# **Week #3**
+
+## **This week priority list:**
+
+1. Choose the architecture of the main model;
+2. Create an account for Telegram chat-bot;
+3. Add functions add_task, add_event, mark_history in chat-bot;
+4. Generate sample tasks for each of the 5 labels: Work-study, Physical activity, Food, Daily Routine and Passive rest;
+5. Build, train, and test a pre-trained NLP model to classify task names;
+6. Generate basic data to build a schedule;
+7. Basic data preprocessing;
+8. Implement core data parsing of user input.
+
+## **Progress report**:  
+
+ - **Prototype Features**
+
+The core of our project is the Main Model that finds the most suitable time for each task. We had several ideas about the architecture of this model, and in the end we chose the two best ones, which we will probe in practice. This week we started implementation of a complex neural network that includes LSTM cells with ANN mapping. However, this is time consuming work.
+
+To train the model we need a big amount of data. We decided to generate this data, because there are no open-source datasets. Also, this data will be retrieved from the user, and we as potential users may implement it by ourselves. 
+
+Also, each task will have its name that should be properly encoded. We decided to group all tasks in 4 groups: Sport, Passive Rest, Work-Study, Daily Routine. To map the input task name in a number of the group we used a pretrained NLP model. To complete its learning we generated possible tasks names for each group using OpenAI generative transformers. 
+
+In addition, we created an entity-relationship diagram for the database, which will be implemented next week.
+
+
+ - **User Interface**
+
+Interaction with the user works through the Telegram bot @Innoplan_bot. This week, we have developed the basic functions of start (image 1), adding an event (image 2), a task (image 3), and a history of task execution (image 4). 
+
+We have implemented the basic skeleton of each activity, i.e. you can enter all the data in a line (image 2) or item by item (image 3). We have also implemented basic message processing - for example, if the user entered the time in the wrong format, he or she will be asked to repeat the input in the right format (image 5).
+
+
+![image1](/HealthyBasedProductivity/bot1.png)
+![image2](/HealthyBasedProductivity/bot2.png)
+![image3](/HealthyBasedProductivity/bot3.png)
+![image4](/HealthyBasedProductivity/bot4.png)
+![image5](/HealthyBasedProductivity/bot5.png)
+
+ - **Challenges and Solutions**
+
+This week we experienced several challenges.
+
+First of all, choosing the main model architecture was difficult. We had a lot of ideas, and in the end we chose the two best ones, which we will probe in practice.
+
+The big challenge was to design an optimal gpt request for task name generation. The solution resulted in a large number of attempts to improve the requests and finally we made it!
+
+It was also important to make the schedule more generic. We solved this issue by adding randomness in the task runtime and duration, breaks and offsets.
+
+- **Next week priority list:**
+1. Finalize the first version of the main model;
+2. Train and test the main model;
+3. Create database;
+4. Implement parsing to available time slots;
+5. Combine chat-bot, data preprocessing and main model together;
+6. Add buttons to the user interface.
+
+---

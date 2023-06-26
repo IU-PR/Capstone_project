@@ -85,7 +85,7 @@ For now, our team does not think it will need any collaboration in developing th
 The project is about creating mock job interviews with an AI that functions as an interviewer. It allows people to get ready to future job interviews via near-real job interview experience.
 
 - Schematic Drawing:
-![Schematic Drawing](/../../static/MockMentor/schematic_drawing.svg)
+![Schematic Drawing](/../../blob/master/static/MockMentor/schematic_drawing.svg)
 
 - Tech Stack:
 For now, we decided to use these stacks/frameworks for our project:

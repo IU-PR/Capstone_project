@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "fairlance"
+title: "Week #3"
 ---
 
 # **Week #1**
@@ -26,6 +26,8 @@ For additional information, please reach out to me on Telegram at <a href="https
 | Ahmad Sarhan          | Ahmad_Sarhan | a.sarhan@innopolis.university     |
 | Ghadeer Akleh          | Ghadeer_akleh | g.akleh@innopolis.university     |
 | Vladislav Lopatovskii          | vlad_sup | v.lopatovskii@innopolis.university     |
+| Hamada Salhab          | hamadasalhab | h.salhab@innopolis.university     |
+| Yazan Kbaili          | YazanKb | y.kbaili@innopolis.university     |
 
 ### **Value Proposition**
 

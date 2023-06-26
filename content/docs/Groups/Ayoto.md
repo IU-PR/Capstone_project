@@ -232,3 +232,28 @@ Grade 4/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+
+# Week 3 Report
+
+## Prototype Features
+In our prototype, we have implemented the following features:
+* We did data collection and preprocessing for Doctors Data
+* We implemented the backend of the chat feature
+* We developed interactive prototype for the mobile application
+* We started working on the frontend of the website
+
+
+## User Interface:
+* [This](https://drive.google.com/file/d/16uyMoHA0DhMoQrp_H9HdidatIYzxGxg4/view?usp=sharing) is the link for the interactive prototype of the mobile application
+* [This](https://ayoto-web-frontend.vercel.app/) is the main page of the website deployed. We are working on implementing the other pages
+
+## Challenges and Solutions
+* We faced some challenges in the chat backend. We solved this by researching and reading articles online
+* The front end developer had some challenges in implementing the design, because some of the components in the design was new for him. He solved this by researching and reading articles online
+
+## Next Steps
+Our next steps are:
+* Complete the implementation for the frontend of the website and the mobile application
+* Connecting the frontend with the backend

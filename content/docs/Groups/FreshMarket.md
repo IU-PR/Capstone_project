@@ -149,3 +149,31 @@ According to backend part:
 As we decided which models we will create, we started to implement them. So we created a django application. Connected it to the PostgreSQL database. Django has a convenient ORM so working with databases will not be hard. After that we implemented classes with all their fields and inner functions. In the next week we want to start implementation of the API part. In other words we want to create functionality for our application to sell, buy, add products and connect it with a database. We already have some problems with using files and images. We were discussing how to send and retrieve them. For now we agreed that we will use the Base64 format because of its simplicity. So we will send base64 code and name of the file to restore the file with the true name and extension. 
 
 In general we did a great job. We thinked over our models and their connections and already started working on its implementation.
+
+# **Week #3**
+
+**Prototype Features:**
+Frontend:
+- Login and registering with saving in local secure store JWT tokens
+- Integrate and providing own chat interracting implementation between any 2 users
+- UI-kit
+
+Backend:
+- Methods for registering and logging users in, and getting their JWT tokens. Now, after signing up or logging in, the user will get a JWT token which he can use to make requests to the IP
+- Methods for getting your own ID (system will return ID of your user); for leaving comments to some other user and see comments got by other people; for getting information about user (address, number, etc.) and also for editing your own personal info
+- Methods to place, edit the goods, to get the goods of a particular farmer; also for getting them; and getting not just all the goods, but the goods of a particular category.
+
+**User Interface:**
+
+Frontend visual - https://innofreshmarket.github.io/flutter/
+Backend Django interface - https://fspmainservice.onrender.com/
+
+
+**Challenges and Solutions:**
+- Bacause main platform is web and front part is flutter - it is difficult to manage work with JRT tokens => We just needed some hours to do it 
+- Manage naming for API => write it and do not touch without two-side agreement
+
+**Next Steps:**
+- Make product shelves with categories
+- Make search working
+- Make states of order with status and estimated time

@@ -9,6 +9,11 @@ title: "BudgetAI"
 Our team studies the use of low-rank adaptation (LoRA) of large language models (LLM).
 We plan to take an existing language model as a base and fine-tune it using LoRA for
 a programming-related downstream task.
+{{< hint danger >}}
+**Feedback**  
+Why are you doing this? Describe the purpose of the task and expected outcome. I suppose it should be a better model? 
+{{< /hint >}}
+
 
 # Week 1
 
@@ -34,6 +39,10 @@ more computationally- and memory-efficient model adaptation, compared to
 the conventional means of language model fine-tuning, which still gives approximately
 as good (sometimes even better) results.
 
+{{< hint danger >}}
+**Feedback**  
+Is this LoRa applicable only to LLM's or you do something generally working with DL? 
+{{< /hint >}}
 ## Leveraging AI, Open-Source, and Experts
 
 Our project relies on all the aforementioned resources heavily.
@@ -55,6 +64,11 @@ We already have a first-year bachelor studnet named Hadi Salloum working with ou
 on this project. _Perhaps_, we could welcome more students in the team, on the other
 hand, the current team size is probably optimal for the task we have chosen.
 
+
+{{< hint danger >}}
+**Feedback**  
+Sounds very uncertain, imho 
+{{< /hint >}}
 ## Defining the Vision for Your Project
 
 A complete, clear, and compelling vision is something that might not be the strongest
@@ -62,6 +76,12 @@ trait of us as a team because, as the first two weeks of our work have shown, we
 have a wholesome vision of the goal we are going towards. We mitigate this by working
 closely with our project's mentor, which also helps us to extend and deepen our vision.
 
+
+
+{{< hint danger >}}
+**Feedback**  
+Considering that week 1 report was late and report do not describe much - 2/5 
+{{< /hint >}}
 # Week 2
 
 ## Questionnaire
@@ -78,11 +98,24 @@ closely with our project's mentor, which also helps us to extend and deepen our 
 7. Our main means of communication is meetings. We conduct frequent meetings with all the team members and our mentor.
 8. We have not employed any AI tool or platform in our studying yet.
 
+
+{{< hint danger >}}
+**Feedback**  
+Alright, I like that this section is very detailed. Keep in mind it's only 7 weeks 
+{{< /hint >}}
+
 ## Tech Stack & Team Allocation
 Our project has two distinct components:
 - A backend component, a large language model based on RedPajama 7B model and the Pytorch library. This component is the main point of interest in our project, and it is managed by all three members of our team: Nikolay Nechaev, Hadi Salloum, and Danil Meshcherekov.
 - A frontend component that will, tentatively, be a simple command line. Since we are not planning to include any graphics or complex user interface, we have not assigned anyone to this part of the project.
 
+
+{{< hint danger >}}
+**Feedback**  
+I liked the project description part with technologies, but major aspects of the program are not discussed and it's not clear what are you trying to achieve - is it just the experiment? On which data? How are you planning to collect it?   
+
+Could be better - 3/5 
+{{< /hint >}}
 # Week 3
 
 ## Development Process

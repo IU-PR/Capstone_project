@@ -368,9 +368,9 @@ On the backend or API side, we have implemented the necessary functionalities to
 ## User Interface:
 
 We have implemented the store page, item page, and the home page of the application currently in the UI Interface. Screenshots are provided here:
-![StoragePage 1](https://drive.google.com/file/d/1DrPzuf1w3DeJoygr4K_ARwlTOo7B4fPh/view?usp=sharing)
-![StoragePage 2](https://drive.google.com/file/d/12Mc0mJRxNPgutnhD4PdFCa-Uk7QlDwk3/view?usp=sharing)
-![ItemDisplayPage](https://drive.google.com/file/d/1UdaQOOkZF8UqZAgpy5nrd8UvS6R9-vhN/view?usp=sharing)
+![StoragePage 1](https://github.com/RoukayaZaki/innoshop-frontend/blob/main/src/assets/result-images/StoragePage%201.png?raw=true)
+![StoragePage 2](https://github.com/RoukayaZaki/innoshop-frontend/blob/main/src/assets/result-images/StoragePage%202.png?raw=true)
+![ItemDisplayPage](https://github.com/RoukayaZaki/innoshop-frontend/blob/main/src/assets/result-images/ItemPage.png?raw=true)
 
 [InnoShop Front-end Repository](https://github.com/RoukayaZaki/innoshop-frontend)
 

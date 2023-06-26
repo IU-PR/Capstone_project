@@ -1,3 +1,11 @@
+
+## Report 1
+=======
+---
+weight: 1
+bookFlatSection: true
+title: "Kringe Production"
+---
 # **Introduction**
 
 {{< hint danger >}}
@@ -5,12 +13,6 @@
 **Feedback**  
 Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of a potential reader. 
-{{< /hint >}}
-
-{{< hint danger >}}
-
-**Feedback Week 2**  
-This feedback blocks can and should be changed from week to week. For example - first comment block on the introduction was meant to give you a hint on how to organize this page. Please, add some project information and a logo here. You can remove my comments once you think you addressed them.    
 {{< /hint >}}
 
 # **Week #1**
@@ -192,11 +194,14 @@ Our application does not require transaction support and at the same time we nee
 ## User Interface (UI) Design
 Now we have the first version of the main page of the site. In the attached file you can see the layout of the main page.
 
-{{< hint danger >}}
+![Course Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Course_Page.jpg)
+![Forum](https://github.com/inga-zimnya/Images_for_Project/blob/main/Forum.jpg)
+![Main Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Main_Page.jpg)
+![Sign In Log In Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Sign_In_Log_In_Page.jpg)
 
-**Week 2 Feedback by Rustam**  
-I don't see any attached files
-{{< /hint >}}
+
+
+https://github.com/inga-zimnya/Images_for_Project/blob/main/Course_Page.jpg
 
 ## Integration and APIs
 Assess any external systems, services, or APIs that need to be integrated into your application. Plan how these integrations will be implemented and how data will flow between systems.
@@ -426,14 +431,9 @@ To track the success of each participant's work, we decided to use ***trello***,
 
 {{< hint danger >}}
 
-**Week 2 Feedback by Rustam**  
-While this report is well written and structured, I would like to draw your attention to a few considerations. Firstly, if the platform is intended to be open-source or even closed source, it is important to note that certain materials from university courses may not be freely available. Licensing and restricted rights often govern the distribution of educational resources (university have full rights on this materials). Although some courses may already provide online materials, obtaining permission from the university and the respective lecturers would be necessary to make all course materials available. It is crucial to be mindful of these legal constraints. 
-Therefore, I would suggest you to rewrite some aspects of the project description and weekly progress reports in light of suggestions I provided. 
+**Feedback**  
 
-In principle, you may just not mention this functionality, and frame it as a digital collaboration environment of the university students. 
+Hi, this is a very wonderful project, and I am sure it will have a lot of users once ready - hundreds of Innopolis students will be glad that you've spent time building this resource! Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to creating a web app that does core/main things. Outline main features of your project and focus on execution. I would also think about which particular parts you can strip down - for example UI can be very simple (I am saying all this because we have only 7 weeks). Overall, I think this is a very good project idea, that now requires a well-planned execution. Therefore, plan for simplified version that showcases main features.
 
-In general, I liked the project and I think the component breakdown clearly explain technologies needed, and I believe you have the mock layouts of the site already. Btw, I couldn't find this file, make sure to add screens of your designs next week. 
-Team allocation is great, and I liked the weekly sprint idea. Keep up the pace of the work and make sure that you have first skeleton of the project by next week. Good luck!
-
-5/5
 {{< /hint >}}
+

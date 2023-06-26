@@ -1,170 +1,84 @@
 ---
-
 weight: 1
-
 bookFlatSection: true
-
 title: "BudgetAI"
-
 ---
 
   
 
-# BudgetAI
-
-  
+# **BudgetAI**
 
 Our team studies the use of low-rank adaptation (LoRA) of large language models (LLM).
-
 We plan to take an existing language model as a base and fine-tune it using LoRA for
-
 a programming-related downstream task.
 
 {{< hint danger >}}
-
-**Feedback**  
-
+**Feedback**
+  
 Why are you doing this? Describe the purpose of the task and expected outcome. I suppose it should be a better model?
-
 {{< /hint >}}
 
-  
-  
-
-# Week 1
-
-  
-
+# **Week 1**
 ## Team Formation and Project Proposal
-
-  
-
 ### Team Members
-
-  
 
 Please list the names and contact details (Telegram and email) of your team members:
 
-  
-
 | Team Member | Telegram alias | Email Address |
-
 |-------------|----------------|---------------|
-
 | Nikolai Nechaev | [@kolayne](https://t.me/kolayne) | n.nechaev@innopolis.university |
-
 | Danil Meshcherekov | [@calandoassai](https://t.me/calandoassai) | d.meshcherekov@innopolis.university |
-
-  
-  
-
 ### Value Proposition
 
-  
-
 The topic of the project we are working on is application of LoRA in LLMs. I will leave
-
 aside the discussion of importance of LLMs themselves and the benefits they give to
-
 users. The goal of our project is to apply the LoRA algorithm to fine-tune already
-
 existing language models for a specific downstream task. The use of LoRA allows for
-
 more computationally- and memory-efficient model adaptation, compared to
-
 the conventional means of language model fine-tuning, which still gives approximately
-
 as good (sometimes even better) results.
-
   
-
 {{< hint danger >}}
-
-**Feedback**  
+**Feedback**  
 
 Is this LoRa applicable only to LLM's or you do something generally working with DL?
-
 {{< /hint >}}
-
 ## Leveraging AI, Open-Source, and Experts
 
-  
-
 Our project relies on all the aforementioned resources heavily.
-
-  
-
 The single target outcome of our project is a machine learning model, so the whole work
-
 is AI-centric.
-
-  
-
 We are going to use a publicly available and open-source-licensed language
-
 model as a base and, most likely, train it on publicly available data. Even the key
-
 algorithm we are using is a (publicly available) scientific article backed by a
-
 corresponding open-source implementation.
 
-  
-
 Finally, we stay in close contact with our mentors who target us in terms of
-
 supplementary materials and the roadmap of the project.
-
-  
-
 ## Inviting Other Students
-
   
-
 We already have a first-year bachelor studnet named Hadi Salloum working with our team
-
 on this project. _Perhaps_, we could welcome more students in the team, on the other
-
 hand, the current team size is probably optimal for the task we have chosen.
 
-  
-  
-
 {{< hint danger >}}
-
 **Feedback**  
-
 Sounds very uncertain, imho
-
 {{< /hint >}}
 
 ## Defining the Vision for Your Project
 
-  
-
 A complete, clear, and compelling vision is something that might not be the strongest
-
 trait of us as a team because, as the first two weeks of our work have shown, we do not
-
 have a wholesome vision of the goal we are going towards. We mitigate this by working
-
 closely with our project's mentor, which also helps us to extend and deepen our vision.
 
-  
-  
-  
-
 {{< hint danger >}}
-
 **Feedback**  
-
 Considering that week 1 report was late and report do not describe much - 2/5
-
 {{< /hint >}}
-
-# Week 2
-
+# **Week 2**
   
-
 ## Questionnaire
 
 1. As of now, we are not utilizing any project-based books. However, we plan to base our project on scientific articles and publicly available open-source language models, see Question 4 for more details.
@@ -191,19 +105,12 @@ Considering that week 1 report was late and report do not describe much - 2/5
 
 8. We have not employed any AI tool or platform in our studying yet.
 
-  
-  
-
 {{< hint danger >}}
 
 **Feedback**  
 
 Alright, I like that this section is very detailed. Keep in mind it's only 7 weeks
-
 {{< /hint >}}
-
-  
-
 ## Tech Stack & Team Allocation
 
 Our project has two distinct components:
@@ -212,24 +119,15 @@ Our project has two distinct components:
 
 - A frontend component that will, tentatively, be a simple command line. Since we are not planning to include any graphics or complex user interface, we have not assigned anyone to this part of the project.
 
-  
-  
-
 {{< hint danger >}}
 
 **Feedback**  
 
 I liked the project description part with technologies, but major aspects of the program are not discussed and it's not clear what are you trying to achieve - is it just the experiment? On which data? How are you planning to collect it?  
-
-  
-
 Could be better - 3.5/5
 
 {{< /hint >}}
-
-# Week 3
-
-  
+# **Week 3**
 
 ## Development Process
 
@@ -255,39 +153,25 @@ Here is what have we have accomplished this week:
 
 - We are now waiting to be granted access to the server where we will store the collected datasets and train the model.
 
-  
-
 ## Prototype Features
 
 As of this week, no prototype is ready.
-
 In our team's opinion, all three parts are necessary for a prototype to work.
-
-  
 
 ## User Interface
 
 The main means of communication between the user and the language model is a command line; therefore, we do not plan to introduce any GUI in our product.
 
-  
-
 ## Challenges and Solutions
 
 We have a number of challanges.
 
-  
-
 Firstly, we still have not decided on how data in dataset should be represented; we have tentatively settled to use a json file with a source, prompt, and an answer for each prompt.
 
-  
-
 Secondly, we do not know what sources to use to train our model; would high quality data from textbook be sufficient, or should we also include open-source Haskell snippets from Git and Stackoverflow answers. As a solution for this question we would like to train and compare two different models: trained on our data only and trained on all data.
-
-  
+ 
 
 Lastly, as it was mentioned above, it is still not clear what metric would be most suitable for measuring our model's performance.
-
-  
 
 # Next Steps
 
@@ -298,3 +182,11 @@ Our plan for the upcoming weeks is to address the challenges discussed above:
 - We need to make a final decision on the metric for evaluating the model's performance;
 
 - We need to assemble all the necessary parts to use them on a server.
+
+{{< hint danger >}}
+
+**Feedback**  
+
+Consider adding more details about the project. Describe the things get done last week and what needs to be done to accomplish the project.
+
+{{< /hint >}}

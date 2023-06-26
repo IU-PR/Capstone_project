@@ -77,8 +77,8 @@ entities and sets the stage for future blue-green deployment processes.
 
 The main prototype feature we've implemented is a two ready-to-use API services (ML & Master), with provided Swagger docs:
 
-<img src="/JustOrgYou/week3/swagger.png" width="30%">
-<img src="/JustOrgYou/week3/swagger2.png" width="30%">
+![](/JustOrgYou/week3/swagger.png)
+![](/JustOrgYou/week3/swagger2.png)
 
 ### Mobile app
 

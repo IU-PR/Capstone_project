@@ -158,6 +158,8 @@ languages, such as the implementation found in the Orgzly mobile app. We
 examined their approach to task and repeating dateTime formats to inform our own
 implementation within the library.
 
+Due to the lack of design expertise within our team, we encountered challenges in developing a prototype that is both user-friendly and aesthetically pleasing. Consequently, we sought assistance from a known designer to address this predicament. In the upcoming week, we anticipate incorporating her recommendations into the design of our application.
+
 ## Next Steps
 
 Our next steps involve updating the user interface (UI) to address a few

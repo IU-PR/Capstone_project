@@ -111,6 +111,7 @@ Throughout the week, significant advancements have been made in backend, fronten
 
 
  - ### Challenges and Solutions:
+ 
      - This week, we encountered some issues with a smart contract. As we explained in the previous reportes, the transaction process works according to the following: When a project owner hires a freelancer, the payment amount is transferred from the project owner's wallet to a smart contract, where it remains until the deadline for project completion.
      - We earn money by cutting a small ratio of the price from 5% to 10% depending on the total amount (we haven't firmly decided on that yet).
      - The issue we're facing is that every interaction with the smart contract incurs an unpredictable cost, sometimes resulting in high expenses. Additionally, as we store more information in the smart contract, such as deadlines, senders, receivers, and other relevant details, we require additional interactions, which further increases the associated costs.

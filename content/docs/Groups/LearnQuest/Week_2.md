@@ -123,3 +123,69 @@ With this updated architecture design, we are confident that LearnQuest will be 
     	- Chibuoyim Ogbonna Faith Wilson: Supports the frontend team by assisting with frontend development tasks and contributing to the overall UI/UX improvement. 
    	 
 - By dividing responsibilities in this manner, we ensure efficient collaboration and effective utilization of team members' expertise. The frontend team focuses on creating a visually appealing and user-friendly interface using Next.js, while the backend team handles the data management, APIs, and business logic using Postgres and Django. Regular communication and coordination among team members are maintained through meetings, calls, and online collaboration tools to ensure smooth progress and successful completion of the project.
+
+{{< hint danger >}}
+**Feedback**  
+
+
+
+**1. Component Breakdown**
+Good
+
+Missing
+**2. Data Management**
+
+Good
+
+**3. UI Design**
+
+>user experience (UX) and design principles when planning 
+
+What UX techniques you used and what design principles you are following? Please don’t just use words. Show evidence of what you are claiming.
+
+
+**4. Integration and APIs**
+Good
+
+**5. Scalability and Performance**
+
+Good
+
+**6. Security and Privacy**
+Good
+
+**7. Error handling and Resillience**
+
+Ok
+
+**8. Deployment and DevOps**
+
+Ok, so what will you use in git to do the dev ops
+
+**Answering questioner**
+-You should find a mentor, having friends supporting you is not mentorship
+- So you didn’t really know what gets you have?
+
+**Overall**
+The report is ok. But it’s wordy!! It have a lot of fluff. Avoid doing this, avoid adding unnecessary words because it will make the project weak. Not smart.
+
+Example of wordy: 
+
+> To ensure the security and privacy of our application, we will incorporate appropriate security measures
+
+>We have considered the deployment process and DevOps practices aligned with our chosen tech stack. Automating deployment tasks using CI/CD pipelines and leveraging version control systems like Git will ensure efficient collaboration and a robust development workflow.
+
+>We have planned strategies for handling errors and exceptions to maintain a reliable and resilient application
+
+>We have considered the user experience (UX) and design principles when planning the UI for LearnQuest. Wireframes and mockups have been created to visualize the layout and flow of our application. Figma will continue to be used as the design tool to create visually appealing and user-friendly interfaces.
+
+
+**All of this and much much more can be deleted from the project. Please don’t do that in future report or  I will start deducting points for such wordy reports.**
+
+
+Grade 3.5/5
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

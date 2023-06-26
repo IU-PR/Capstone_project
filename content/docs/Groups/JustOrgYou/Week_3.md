@@ -117,11 +117,6 @@ the following gallery:
 <img src="/JustOrgYou/week3/edit-screen.png" width="30%">
 <img src="/JustOrgYou/week3/overview-screen.png" width="30%">
 
-Furthermore, to enhance the development experience for fellow developers, we
-have integrated Swagger as an interface.
-
-<!-- TODO add swagger page -->
-
 ## Challenges and Solutions
 
 The development process encountered various challenges that required innovative

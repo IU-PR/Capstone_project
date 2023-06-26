@@ -221,11 +221,12 @@ Below you can see the tasks that we finished this week:
 
 # **Week #3**
 
+
 - **Technical Infrastructure**: All of the necessary technical infrastructure required to support your prototype development should be ready to use. If this is still not done, make it a priority number one. This may involve creating a shared development environment, including all necessary frameworks and platforms (i.e., GPU servers). Ensure that your development environment is ready for efficient coding and testing. Make sure all team members can efficiently utilize the development infrastructure, if not - organize learning sessions explaining the process. This is an absolute priority for the success of the project.
     - Frameworks: 
         - backend: FastAPI
         - frontend: React
-        - ML: pyrotch
+        - ML: pytorch
     - Platforms: server on Arch, upload from Github, use PM2(allows to track processes, support them, kill them), everything is wrapped with docker. 
 
 - **Backend Development**: 
@@ -235,7 +236,7 @@ Below you can see the tasks that we finished this week:
 
 - **Frontend Development**: UI and the website itself is ready, messages between server and user are already possible. Right now, backend and frontend are merging
 
-- **Data Management**: Scheme and database are already done. Only dataset is needed.
+- **Data Management**: Scheme and database are already done. Dataset writing is in progress.
 
 - **Prototype Testing**: Right now our team uses manual testing. We are going to write tests later
 
@@ -246,11 +247,11 @@ Below you can see the tasks that we finished this week:
  - Prototype Features: speech-to-text, text-to-speech. ML is connected to back. frontend is almost connected to backend.
 
  - User Interface: 
- ![ui1](/../../blob/master/static/MockMentor/ui1.jpg)
- ![ui2](/../../blob/master/static/MockMentor/ui2.jpg)
+    ![ui1](/../../blob/master/static/MockMentor/ui1.jpg)
+    ![ui2](/../../blob/master/static/MockMentor/ui2.jpg)
 
  - Challenges and Solutions: Share any challenges or obstacles you encountered during the development of your prototype. Describe how you addressed these challenges and provide insights into the solutions you implemented.
-    - ML: some models can not handle big texts - changed models to those that can handle big texts
+    - ML: some models can not handle big texts - changed models to those that can handle big texts. while merging with backend problems with dependencies occured - upgraded the versions of libraries
     - backend: backend did not set up on server - wrapped with docker. problems with cors(backend and frontend couldn't communicate) - turned off cors. Code did not correspond to PEP8: downloaded formators, lintr - nastroili and formatted the whole code.  
     - frontend: problems with interacting with backend. Solved by using docker.
 

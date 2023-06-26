@@ -1,43 +1,19 @@
----
-weight: 1
-bookFlatSection: true
-title: "BookHive"
----
-# **Introduction**
-
-{{< hint danger >}}
-
-**Feedback**  
-Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
-As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
-{{< /hint >}}
-
-# **Week #1 report**
-
-## **Team Members**
-
-Yegor Sokolov ye.sokolov@innopolis.university SD-01
-Maxim Piniagin m.piniagin@innopolis.university SD-01
-Anastasia Martynova a.martynova@innopolis.university SD-02
-Lev Gorbunkov l.gorbunkov@innopolis.university SD-02
-Bulat Kutlugallyamov b.kutlugallyamov@innopolis.university SD-03
-Marat Medvedev m.medvedev@innopolis.university DS-01
-Roman Voronov ro.voronov@innopolis.university DS-02
-
+# **<p style="text-align: center">BookHive</p>**
+# **Week 1 report**
 This week, our main task was to form a balanced all-around team and choose the general theme and outline of our project. Creating a team was not hard, as we mostly already knew each other and our strengths. Below is the list of our members and the roles they can fill out during project development:
 
-**Team Member Telegram ID Email Address Stack**
-
-- Anastasia Martynova (Lead)  @zefirush   a.martynova@innopolis.university  Design/Frontend
-- Maxim Piniagin    @Ozurexus   m.piniagin@innopolis.university   Frontend/Product Manager
-- Yegor Sokolov    @yeawouu     ye.sokolov@innopolis.university   Backend
-- Marat Medvedev   @DuckBlur    m.medvedev@innopolis.university  Backend/ML
-- Lev Gorbunkov    @levgo1337   l.gorbunkov@innopolis.university Frontend/Backend
-- Bulat Kutlugallyamov   @bulatok4  b.kutlugallyamov@innopolis.university  Backend
-- Roman Voronov     @porludom   ro.voronov@innopolis.university Backend/ML
-
+| Team Member            | Telegram ID   | Email Address       | Stack |
+|------------------------|---------------|---------------------|-------|
+| Anastasia Martynova (Lead)          | @zefirush | a.martynova@innopolis.university     | Design/Frontend |
+| Maxim Piniagin     |     @Ozurexus | m.piniagin@innopolis.university | Frontend/Product Manager |
+|Yegor Sokolov | @yeawouu | ye.sokolov@innopolis.university | Backend |
+|Marat Medvedev | @DuckBlur | m.medvedev@innopolis.university | Backend/ML |
+|Lev Gorbunkov  | @levgo1337 | l.gorbunkov@innopolis.university | Frontend/Backend |
+|Bulat Kutlugallyamov | @bulatok4 | b.kutlugallyamov@innopolis.university | Backend |
+|Roman Voronov | porludom | ro.voronov@innopolis.university | Backend/ML |
 
 As you can see, we have an assortment of stack variations, and we believe that this will be an advantage during development.
+
 While choosing the project idea, basically everyone had suggestions: we thought about making a site for prediction of currency exchange rate, considered making site+telegram bot for prediction of prices on online shops such as WildBerries. At some point, we even considered making a site for automatic note creation from the user uploaded mp3 file.
 In the end, we settled on something that in our opinion has a higher chance of being a useful project: a book recommendation site (web/ML project). After finishing a book they really liked, many people have problems finding a similar one, and we aim to aid in that. Here is the brief rundown of the main features of this project:
 The user enters a book they finished reading and whether they liked it or not. Based on that, our site proposes books that the user has not read and that might be interesting for them using Machine Learning Algorithm.
@@ -49,9 +25,6 @@ To summarize, the problem we are solving is the difficulty to find similar books
 
 The book recommendation algorithm will be AI-based, the GitHub repository will be most likely open, and since we have a Machine Learning algorithm we will have two dedicated ML developers in our team. We are confident that we can complete the project by ourselves without other teams’ help.
 
-The simplistic vision of how our project will function will be provided next week.
-
-
 {{< hint danger >}}
 
 **Feedback**  
@@ -61,5 +34,93 @@ Hi, I think this is a great project and idea! Since this course aims to finish t
 One website that I actually use is called goodreads.com - it's a book recommendation platform which is also a social network of the sort. It helps people to form communities and discuss books. However, this platform mainly oriented towards english speaking users. Perhaps, your team can take some good ideas/features and replicate them in your website. You can think about parsing their book scores as an initial data for the recommendation service.    
 
 Overall, I think this is a very good project idea, that now requires a well-planned execution. Therefore, plan for simplified version that showcases main features.
+
+{{< /hint >}}
+
+
+# **Week 2 report**
+**Architecture Design**
+1. Component Breakdown: 
+    * Create UI/UX for site
+    * Create login/welcome page
+    * Create recommendation page
+    * Create account information page
+    * Design databases for users and books
+    * Create starting version of recommendation algorithm
+    * Add links to online bookshop for the recommended books (this is not a high priority task, and generally we are not sure whether we can do it without using web scraping)
+    * If we have enough time, create some book compilations based on genre
+
+2. Data Management: We are planning to have a database for storing tables about books and users, they most likely will be PostgreSQL, MySQL or SQLite. We are not sure, as we have not decided where the database will be located.
+
+3. User Interface Design: While most of the design is set in stone, it is still subject to some minor changes. Link to Figma Model: https://www.figma.com/file/re5Sxk8RQA22Xr90WxL3un/Untitled?type=design&node-id=0-1&t=5WoM93cL9oqVIEhN-0 
+Screenshots to show progress at the time of report submission: 
+![alt text](https://i.ibb.co/3kgLGwV/1.png)
+![alt text](https://i.ibb.co/6B2fHwN/2.png)
+![alt text](https://i.ibb.co/gD8jdk1/3.png)
+![alt text](https://i.ibb.co/vv9hJF9/4.png)
+![alt text](https://i.ibb.co/rcRh2zF/5.png)
+![alt text](https://i.ibb.co/YPnDqpr/6.png)
+
+4. Integration and APIs:  We are planning to utilize Google Books API to get important information about books: annotations, genres, etc. This data will be used for recommendation algorithm and will also be displayed together with book’s cover on the site
+
+5. Scalability and Performance: Since we are still in brainstorming stage of our project, we can't really predict its performance, but we hope that the expected time of our site’s response time will be not higher than a couple of minutes  
+
+6. Security and Privacy: Once we choose the database language, we will be able to provide more accurate information about what protection of database we will utilize to avoid malicious actions.
+
+7. Error Handling and Resilience: The lowest bar for us will be that all occurring errors must be handled, or at least not interfere with the product use.
+
+8. Deployment and DevOps:We are yet to decide where we will deploy our product, since there are currently few free deployment options.
+
+**Week 2 questionnaire:**
+1. Tech Stack Resources: Are you utilizing any project-based books that specifically cover your tech stack and help you build your project?
+    * Answer: We do not have plans to use any books, as none of us have read books, which would be particularly helpful. And we most likely won't have enough time to read any book in full, since we have only 6 weeks remaining.
+    
+2. Mentorship Support: Do you currently have a mentor actively involved in your project?
+    * Answer: Our team does not have a mentor, and we are not looking for one, as we are confident we will be able to deliver the MVP at the end by ourselves.
+
+3. Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack?
+    * Answer: our ML developers use https://www.kaggle.com to learn more about it. One of the particularly useful videos on our topic: https://www.youtube.com/watch?v=x-alwfgQ-cY Frontend developers read React documentation on https://react.dev
+
+4. Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking?
+    * Answer: We might have some problems connecting ML to backend, as it is not something our ML developers have a lot of experience in. But our team should be able to find out how to do it using open source tutorials and documentations.
+
+5. Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack? 
+    * Answer: One of our members attended Innopolis meetup regarding Data Science and Machine Learning recently and shared information he learned there with the rest of the team.
+
+6. Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week?
+    * Answer: All of us had an Introduction to Machine Learning course, where we performed most of the tasks by the steps given by instructors. However now the development process is basically unsupervised, and we want to test ourselves in fully organizing project workflow, while also picking up knowledge in related fields.
+
+7. Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates?
+    * Answer: We had a number of meetups/brainstorms to make sure that everyone had time to speak their mind, and we were all on the same page regarding the vision of our project.
+
+8. How have you leveraged AI to compensate for any lacking expertise in your tech stack? 
+    * Answer: We picked some inspiration from AI generated content, while picking logo and name for our product, so the AI involvement was rather limited so far.
+
+**Tech Stack and Team Allocation:**
+- We will code Backend and Machine Learning parts on Python and Frontend on React
+
+Anastasia Martynova (Team Lead) – Designer/Frontend
+
+Maxim Piniagin – Product manager/Backend
+
+Yegor Sokolov – Backend
+
+Marat Medvedev – ML/Backend
+
+Lev Gorbunkov – Frontend
+
+Bulat Kutlugallyamov – Backend/Frontend
+
+Roman Voronov - ML/Backend
+
+{{< hint danger >}}
+
+**Week 2 Feedback by Rustam**  
+This report is well written and structured, and it's a pleasure to see how your project takes shape. I liked the figma UI and
+overall description of the project. Seems to me, you have fully aligned team that can effectively deliver results.  
+Keep up the pace and make sure to put an emphasis on the execution. 
+Overall - good project and report.  
+5/5
+
 
 {{< /hint >}}

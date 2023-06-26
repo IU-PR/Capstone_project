@@ -1,8 +1,3 @@
----
-weight: 1
-bookFlatSection: true
-title: "Kringe Production"
----
 # **Introduction**
 
 {{< hint danger >}}
@@ -10,6 +5,12 @@ title: "Kringe Production"
 **Feedback**  
 Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of a potential reader. 
+{{< /hint >}}
+
+{{< hint danger >}}
+
+**Feedback Week 2**  
+This feedback blocks can and should be changed from week to week. For example - first comment block on the introduction was meant to give you a hint on how to organize this page. Please, add some project information and a logo here. You can remove my comments once you think you addressed them.    
 {{< /hint >}}
 
 # **Week #1**
@@ -153,10 +154,286 @@ During the project development and deployment phases, we anticipate the followin
 In Progress...
 
 
+# Report for Week 2
+## Component Breakdown 
+
+We use **Nuxt**, **Djang**o and **MongoDB** to build the application.  Main components:
+
+1. **Frontend**: Nuxt, a JavaScript framework for creating user interfaces. Nuxt can communicate with Django via REST API to retrieve data from the database.
+
+2. **Backend**: Django, a Python-based web framework. Django can communicate with MongoDB via ORM (Object-Relational Mapping) to load data from the database into applications.
+
+3. **Database**: MongoDB, MongoDB can communicate with Django via REST APIs to exchange data between applications.
+
+The responsibilities of components and modules can be defined as follows:
+- Frontend (Nuxt):
+  - Creating the user interface
+  - Processing user requests
+  - Interacting with Django's REST API to handle data
+
+- Backend (Django):
+  - Data processing.
+  - Generating a RESTful API for interacting with Nuxt
+  - Working with MongoDB via ORM to upload and save data
+
+- Database (MongoDB):
+  - Storing data
+  - Providing access to data via ORM
+
+Interaction between components and modules can occur as follows:
+- Nuxt receives a request from a user and sends it to Django's server via the **RESTful API**.
+- **Django** processes the request and returns a **JSON** response.
+- **MongoDB** receives data from **Django** and stores it in its database.
+- **Django** loads the data from **MongoDB** and sends it to the **user** for display through the UI.
+
+## Data Management
+
+Our application does not require transaction support and at the same time we need the ability to store complex, tree-like structures (courses, messages). Thus, we should use a document-oriented DBMS (e.g. MongoDB) to store information about users, courses, files and discussions. The data will be accessed through the driver of the corresponding database.
+## User Interface (UI) Design
+Now we have the first version of the main page of the site. In the attached file you can see the layout of the main page.
+
 {{< hint danger >}}
 
-**Feedback**  
+**Week 2 Feedback by Rustam**  
+I don't see any attached files
+{{< /hint >}}
 
-Hi, this is a wonderful project, and I am sure it will have a lot of users once ready - hundreds of Innopolis students will be glad that you've spent time building this resource! Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to creating a web app that does core/main things. Outline main features of your project and focus on execution. I would also think about which particular parts you can strip down - for example UI can be very simple (I am saying all this because we have only 7 weeks). Overall, I think this is a very good project idea, that now requires a well-planned execution. Therefore, plan for simplified version that showcases main features.
+## Integration and APIs
+Assess any external systems, services, or APIs that need to be integrated into your application. Plan how these integrations will be implemented and how data will flow between systems.
 
+At the moment, there is no urgent need to use third-party resources, but we have some ideas on how to improve and diversify our system in the future.
+
+**Cloud Storage APIs**: We can integrate cloud storage APIs like Google Drive API, Dropbox API, or Microsoft OneDrive API to allow students to upload and share educational materials with large sizes. 
+
+**Social Media APIs**: Integrating social media APIs, such as Facebook API or Twitter API, can enable students to share updates, discuss homework, and engage in conversations related to the courses. These APIs provide features like authentication, posting updates, and retrieving content.
+
+**Communication and Messaging APIs**: To facilitate real-time communication and collaboration, we can consider integrating APIs like Twilio for SMS and voice communication, or Firebase Cloud Messaging (FCM) for push notifications in mobile applications.
+
+**Learning Management System (LMS) APIs**: Our project aims to provide a comprehensive learning experience, we can integrate with popular LMS platforms such as Moodle, Canvas, or Blackboard. These platforms often provide APIs that allow you to access course materials, enroll students, and manage assignments.
+
+We also have an idea that will allow you to access files from the service via **telegram**. This will be possible if the user's alias is specified in the telegram during registration, making him an accredited user.
+
+## Scalability and Performance
+We assume that students of Innopolis University will be able to use our service. Therefore, the supposed load on **normal** days will **not exceed 5 requests per minute**. However, we anticipate that students will be more active in browsing the forum pages during exam weeks. Based on this, we planned to use several techniques to maintain stable operation:  
+
+**Asynchronous Processing**. For example, when a user attaches a document to a post, instead of processing it synchronously, we are planning process task asynchronously in the background.This helps maintain responsiveness and improves scalability.
+**Denial-of-Service (DoS) Protection**: Use rate limiting techniques to prevent an individual user or IP address from overwhelming your application with excessive requests. For instance, we plan to create a rate limit of 10 rps. 
+**Queue of resource-intensive user actions**: When the site will be carrying out a lot of resource-intensive processes, users will be queued to ensure stable operation of the service. For example, if there are a lot of users trying to upload or download files from the service, then  users will be placed in a queue to not overload the service in one moment.
+
+*We will keep these plans in mind during development, however for the MVP we will only use simpler stability techniques such as limiting the rate.*
+## Security and Privacy
+**Authentication**:
+We have chosen cookie-based authentication for our web application. During the authentication process, we will verify the user's credentials and create a session with a unique identifier. Additionally, we have divided users into two roles: "student" and "admin". This allows us to provide different access rights and functionality for each role.
+
+**Secure Connection**:
+To ensure the security of data transmission, we will use the HTTPS protocol. Encrypting data between the client and server will help prevent interception and tampering of information by third parties.
+
+**User Data Encryption**:
+Critical user data, such as passwords, will be encrypted on the client-side before being sent to the server. We recommend using strong encryption algorithms, such as bcrypt, to ensure the security of stored passwords in the database. This will help protect users' confidential data in case of a potential database compromise.
+
+**Protection Against XSS Vulnerabilities**:
+To prevent cross-site scripting (XSS) attacks, we recommend using the "httpOnly" flag when setting cookies. This restricts cookie access through JavaScript and reduces the likelihood of unauthorized access to user credentials.
+
+**Input Data Handling**:
+During application development, we must pay close attention to handling user input. Validating and filtering input data will help prevent attacks such as SQL injections or scripting vulnerabilities.
+
+**Authorization and Access Control**:
+For the administrator role, we need to carefully control access and editing capabilities for posts. Access rights verification and authorization should be implemented on the server-side to prevent unauthorized access and data modification.
+
+## Error Handling and Resilience
+Plan for handling errors and exceptions to maintain a reliable and resilient application. Define strategies for error logging, monitoring, and graceful error recovery.
+
+1. **Logging errors**:
+We plan to use sentry framework for error logging. Each incoming error will have its own marking depending on its severity.
+
+2. **Centralized error monitoring**: 
+Sentry will also be used as a centralized error monitoring system. There it will be possible to analyze trends and error patterns in order to identify recurring problems and take measures to prevent them. We can also set up critical error notifications in Sentry to quickly respond and fix errors.
+
+3. **Error recovery**:
+We will use the built-in development tools to catch and track errors that occur. We implement such an error mechanism to provide the user with meaningful error messages, while avoiding the disclosure of confidential information. If the error cannot be resolved without the developer's intervention, then it will be blocked and the developer will be notified immediately.
+
+4. **Automated testing**:
+In order to ensure the reliability of the system already at the development stage, we will use automated testing. It will make it easier to catch errors and will not allow you to release incorrectly working changes in the release.
+
+## Deployment and DevOps
+We  want to use **GitHub Actions** for our DevOps practices. So we will use Git as a version control system. Also we are planning using following techniques:
+
+**Continuous Integration (CI)**: we are planning to implement a CI pipeline using GitHub Actions to automate build, set linter and test processes. 
+**Continuous Deployment (CD)**: Set up a CD pipeline to automate the deployment process. we are supposed to use GitHub Actions to deploy our application to the appropriate environment based on triggers, such as branch merges or tags.
+Thus, we are planning to include automated tests, such as unit tests and end-to-end tests, in the CI/CD pipeline. Our back-end will be write on Python, so we can use library pytest to test it. And for front-end we will use service Cypress.
+
+
+# Week 2 questionnaire:
+## Tech Stack Resources
+Here are three books that we find useful:
+
+***"Django for Beginners"*** by William S. Vincent: This book provides a step-by-step guide to building web applications with Django, which is one of the technologies we plan to use. It covers the fundamentals of Django, including database integration, user authentication, and deployment.
+
+***"Learning Vue.js 2"*** by Olga Filipova: Vue.js is a JavaScript framework that we plan to use with Nuxt.js for our project. This book offers a comprehensive introduction to Vue.js and guides through building real-world applications. It covers topics like data binding and routing.
+
+***"MongoDB in Action"*** by Kyle Banker, Peter Bakkum, Shaun Verch, and Douglas Garrett: MongoDB is the NoSQL database we are most probably considering for our project. This book provides practical examples and insights into using MongoDB effectively. It covers data modeling, querying, indexing, and scaling, among other topics.
+
+In order to effectively use these materials and increase the knowledge and experience in our technology stack, we perform the following steps:
+
+1)  Read books carefully to get a clear understanding of concepts and best practices presented in each technology.
+2) Take notes and actively work with code examples provided in the books. Trying to reproduce and modify code to reinforce our learning.
+3) We try to apply the knowledge gained from books directly in our project. Implement features and functions described in the books in our forum web application.
+
+## Mentorship Support
+At the moment, we do not have an active mentor who could guide our work. Our team has some experience in project work, and our team leader has already been coordinating the actions of people to achieve the goals of the team. Therefore, we believe that attracting a mentor to supervise our team is not necessary at the moment.
+## Exploring Alternative Resources
+Here are three resources that we find valuable:
+
+1) Online Documentation and Tutorials:
+-- Django Documentation (https://docs.djangoproject.com/): official documentation for Django provides comprehensive guides, tutorials, and references for understanding and using Django effectively. 
+-- Vue.js Documentation (https://vuejs.org/): official documentation for Vue.js offers detailed explanations, examples, and API references to help us understand Vue.js and its ecosystem. 
+-- MongoDB Documentation (https://docs.mongodb.com/): MongoDB documentation provides extensive resources for understanding and working with MongoDB. It includes guides, tutorials, and references for data modeling, querying, indexing, aggregation, and administration.
+
+2) Online Courses and Tutorials:
+--Coursera (https://www.coursera.org/): Coursera offers a wide range of online courses on web development, JavaScript, Vue.js, Django, and MongoDB. We can probably find courses specifically designed to help us learn and apply these technologies effectively. 
+--YouTube (https://www.youtube.com/): YouTube hosts numerous tutorial channels and coding bootcamps that offer video tutorials on web development, Vue.js, Django, and MongoDB. This resource can provide step-by-step guidance and practical examples.
+
+3) Online Developer Communities:
+--Stack Overflow (https://stackoverflow.com/):  it's a valuable resource for troubleshooting issues and finding solutions related to our tech stack. We will search for questions and answers related to our stack to learn from the experiences of other developers.
+--GitHub (https://github.com/): GitHub hosts a vast number of open-source projects, including frameworks, libraries, and sample applications. Exploring repositories on GitHub can provide us insights into real-world implementations and best practices.
+
+## Identifying Knowledge Gaps
+Tech Stack Division:
+-- Frontend: Vue.js, Nuxt.js
+-- Backend: Django, MongoDB
+
+1. **Identifying Knowledge Gaps**:
+We acknowledge that we feel less confident in our knowledge of Nuxt.js for frontend and Django for backend. This related to specific features, architectural concepts, or best practices within these frameworks.
+
+2. **Utilizing Targeted Learning Resources**:
+To bridge these knowledge gaps, we can leverage specific learning resources that we mentioned in questions above.
+
+3. **Hands-on Practice and Experimentation**:
+Theory alone won't suffice to gain expertise. We will actively engage in hands-on exercises that emphasize the specific areas we want to strengthen. This practical experience will enhance our understanding of Nuxt.js and Django and help us familiarize ourselves with their implementation.
+
+4. **Collaborative Learning and Knowledge Sharing**:
+We will encourage collaboration within our team. By sharing relevant resources, discussing concepts, and working on exercises together. Regular study sessions and code reviews will allow us to provide feedback, offer insights, and further solidify our understanding.
+
+
+## Engaging with the Tech Community
+We haven't really started looking for help in broader tech communities yet, but here are some options we're considering:
+
+*Online Forums and Groups:*
+We can join online forums and groups dedicated to our tech stack, such as Stack Overflow community, or official forums for Nuxt.js, Django, and other related technologies. These platforms allow us to ask questions, seek advice, and learn from the experiences of seasoned professionals.
+
+*Social Media Platforms:*
+We can leverage social media platforms like Twitter, LinkedIn and Telegram to follow influential developers, tech communities, and relevant hashtags. Engaging with these platforms allows us to stay updated on the latest trends, discover insightful articles or tutorials, and connect with industry experts.
+
+*Leveraging Professional Networks:*
+If we encounter critical tech stack problems that require expert guidance, we can tap into our professional networks to seek assistance. This can involve reaching out to professors or coursemates who have expertise in Nuxt.js, Django, or related technologies. Their insights and guidance can help us overcome challenges and expand our understanding.
+## Learning Objectives
+
+We understand the importance of setting specific learning objectives to enhance our understanding of our tech stack. Here are the learning objectives we can set for ourselves this project, along with strategies and resources to achieve them:
+
+1) *Learning Objective: Improve proficiency in Nuxt.js for frontend development.*
+**Strategy:** Allocate dedicated time for studying Nuxt.js concepts and features.
+**Resources:** Utilize online tutorials, official documentation, and relevant books specifically focused on Nuxt.js. Complete coding exercises to practice Nuxt.js implementation.
+
+2) *Learning Objective: Enhance expertise in Django for backend development.*
+**Strategy:** Engage in focused learning sessions dedicated to Django.
+**Resources:** Read project-based books on Django, follow online tutorials, and refer to the official Django documentation for in-depth understanding. Implement Django features and functionalities in simple exercises to gain experience.
+
+3) *Learning Objective: Improve understanding of integrating MongoDB with Django.*
+**Strategy:** Explore resources that cover the integration of MongoDB and Django.
+**Resources:** Refer to online tutorials and official documentation that specifically address the integration of Django and MongoDB. Implement simple projects using Django and MongoDB to gain practical experience.
+
+4) *Learning Objective: Encourage collaborative learning within the team.*
+**Strategy:** Organize regular team study sessions and code reviews.
+**Resources:** Share resources, discuss challenging concepts, and exchange knowledge within the team. Collaboratively work on sample projects or coding exercises, providing feedback and support to one another.
+## Sharing Knowledge with Peers
+
+We understand the importance of sharing knowledge and expertise within our team. Here's how we facilitate the exchange of insights and experiences related to our tech stack:
+
+1. **Organizing Knowledge-Sharing Sessions:**
+We schedule regular knowledge-sharing sessions where team members take turns presenting on specific topics related to our tech stack. These sessions include demonstrations, code walkthroughs, and discussions to ensure a comprehensive understanding of the concepts.
+
+2. **Brainstorming:**
+We encourage open discussions and brainstorming sessions where team members share their ideas, approaches, and best practices. This stimulates collaboration and allows everyone to benefit from different perspectives and experiences.
+
+3. **Code Reviews:**
+Conducting code reviews is an excellent opportunity to share knowledge and provide feedback. By reviewing each other's code, we can identify areas for improvement, suggest alternative solutions, and share insights on coding standards and best practices.
+
+4. **Documentation:**
+Maintaining a shared documentation repository is valuable for documenting important insights, learnings, and common challenges encountered during a project. This knowledge base serves as a reference point for all team members.
+
+5. **Team Chat:**
+We use team chat to discuss tech stack-related topics, share useful articles, resources, and engage in casual conversations. This encourages ongoing knowledge sharing and provides a platform for asking questions and seeking advice.
+
+## How have you leveraged AI to compensate for any lacking expertise in your tech stack?
+
+**Using ChatGPT for Research:**
+We have utilized ChatGPT to ask questions and seek information on various topics related to our tech stack. By interacting with ChatGPT, we have been able to quickly find useful books, gather relevant information, and receive guidance on specific areas of our tech stack.
+
+**AI-Driven Code Editor:**
+We have employed AI-powered code editor such as GitHub Copilot that leverage AI techniques to provide intelligent code completion, suggestions, and error detection. This tool helps streamline the coding process, improve efficiency, and offer valuable insights.
+
+
+## Tech Stack and Team Allocation
+We will use the following structure to describe a team member.
+
+***Name***
+>Role
+>Tasks
+
+***Inga Ezhova***
+>Team Lead, Project Manager
+>Define weekly tasks for development and design, monitor team communication, compile weekly reports, organize online meetings
+
+***Demid Efremov***
+>Leader of the back development team
+>Development of the back part of the project, management of the back development team
+
+***Ruslan Khairov***
+>Backend developer
+>Implement needed Django features for project, MongoDB integration, Api integration
+
+***Zamira Galyautdinova***
+>Backend developer
+>Implement needed Django features for project, MongoDB integration, Api integration
+
+***Maxim Insapov***
+>Leader of the Front development team
+>Development of the back part of the project, management of the back development team
+
+***Rostislav Zhukov***
+>Frontend developer
+>Creating user interface, Processing user requests
+
+***Anna Lapa***
+>Frontend developer
+>Creating user interface, Processing user requests
+
+***Anastasiia Kuklina***
+>Designer
+>Creating a website appearance in Figma, prototyping application pages
+
+
+To regulate teamwork, we have introduced some rules for productive work and achieving success on a project with pleasure and mutual respect. We decided to organize our work in ***weekly sprints***, so at the beginning of each week we will have ***planning and discussion*** of the task to understand what and how we will implement it this week.
+
+During the week, the team leader regularly contacts all team members, separately with the back, front, and design to find out the current difficulties and load planning of teammates.
+
+To track the success of each participant's work, we decided to use ***trello***, where the team leader will be able to set common tasks for the week and everyone will be able to set personal tasks for themselves and regulate their implementation.
+
+
+
+
+
+
+{{< hint danger >}}
+
+**Week 2 Feedback by Rustam**  
+While this report is well written and structured, I would like to draw your attention to a few considerations. Firstly, if the platform is intended to be open-source or even closed source, it is important to note that certain materials from university courses may not be freely available. Licensing and restricted rights often govern the distribution of educational resources (university have full rights on this materials). Although some courses may already provide online materials, obtaining permission from the university and the respective lecturers would be necessary to make all course materials available. It is crucial to be mindful of these legal constraints. 
+Therefore, I would suggest you to rewrite some aspects of the project description and weekly progress reports in light of suggestions I provided. 
+
+In principle, you may just not mention this functionality, and frame it as a digital collaboration environment of the university students. 
+
+In general, I liked the project and I think the component breakdown clearly explain technologies needed, and I believe you have the mock layouts of the site already. Btw, I couldn't find this file, make sure to add screens of your designs next week. 
+Team allocation is great, and I liked the weekly sprint idea. Keep up the pace of the work and make sure that you have first skeleton of the project by next week. Good luck!
+
+5/5
 {{< /hint >}}

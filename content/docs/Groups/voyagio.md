@@ -182,8 +182,11 @@ To store authorization data in the PostgreSQL we will use security tools for thi
 <h3>Error Handling and Resilience:</h3>
 To prevent mistakes from we users we will use hadling mistakes on frontend side and add tooltips for users. For check coding mistakes, we will write tests on the frontend/backend.
 
+
+For errors and exceptions, we will have standardized error messages that will be returned from the API. Any error logs will be written to a file on the server, but there will also be monitoring using Prometheus and Grafana, so if there are too many error messages or any component fails, it will alert (for example to Telegram). For deployment, we will use Docker images, which have retry and fallback mechanisms to handle exceptions that may occur.
+
 <h3>Deployment and DevOps:</h3>
-We have not decided yet. There are two ways: rent a server or start application locally. However, we will use containerisation to avoid mistakes with versions or different operation systems.
+We decided to rent a server to simplify the deployment process and interactions with the database.
 
 ## Week 2 questionnaire
 
@@ -278,3 +281,90 @@ Grade 3/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+# **Week 03 - report**
+
+> There are importnant links:
+> [Figma](https://www.figma.com/file/YBXDFPRKVh2boamVJIcJp8/%D0%A1apstone?type=design&node-id=341%3A6333&mode=design&t=kth9uOjpMAHj2WlA-1) and 
+> [Github](https://github.com/Voyagio/voyagio)
+> 
+> Please, notice that there are several pages in Figma: Authorization, Search, Personal Account and UI.
+
+Last week, our team focused on developing a database architecture for our project. In terms of technical infrastructure, all necessary components required to support our prototype development are ready to use. We have set up a shared development environment, complete with all essential instruments (Vite, netlify, React and ReactRouter for frontend and fast API for beckend) and rented server.
+
+## Progress report
+
+<h3>Prototype Features:</h3>
+To increase our work efficiency, we made significant progress in setting up the necessary environments during the first sprint this week.
+
+Backend and DevOps:
+- API development: We have successfully created an API that provides a seamless connection to the database.
+- Docker configuration: To ensure portability and ease of deployment of our backend system, we configured Docker.
+- Server Hosting: We have taken the initiative to rent a dedicated server to host our application. We will provide the link on the next week, due to this task is for the next sprint.
+
+Frontend:
+
+We have begun working on the layout design for the main functionalities of the application, that includes the following pages: Authorization and Search. To simplify the deployment and hosting of our external application, we connected it to Netlify.
+
+Data Management: 
+
+We created the main logic of the database with the following structure:
+<p align="center">
+<img src="/voyagio/scheme_db.png" width="600">
+</p>
+In the first sprint, we prioritized testing the basic functionality of the application by creating a prototype with a limited number of fields in the tables. In future sprints, however, we will add all the necessary fields to create a comprehensive MVP.
+
+Prototype Testing:
+
+To ensure the quality and usability of our prototype, we tested it with both team members and outsiders, including our roommates.
+
+During this process, we found and successfully solved several issues:
+- Inability to delete items in the trip collection
+- Lack of necessary filtering when searching by parameters
+- Making it easier to add an item to a specific trip collection
+
+
+<h3>User Interface:</h3>
+We finished implementing the design and clickable prototype that avaible in Figma:
+
+- [Link to the Figma Design](https://www.figma.com/file/YBXDFPRKVh2boamVJIcJp8/%D0%A1apstone?type=design&node-id=341%3A6334&mode=design&t=kth9uOjpMAHj2WlA-1)
+- [Link to clickable prototype](https://www.figma.com/proto/YBXDFPRKVh2boamVJIcJp8/%D0%A1apstone?page-id=341%3A6333&type=design&node-id=341-6334&viewport=259%2C339%2C0.1&scaling=min-zoom&starting-point-node-id=341%3A6371&show-proto-sidebar=1&mode=design)
+
+<p align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=OWXDJsnBqMs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+
+We created the Design basing on the user flow, that includes: authorization (sign in or sign up), add recommendations (this logic in development, due to dependencies with ML model), search places and added to collections of trips.
+<p align="center">
+<img src="/voyagio/userflow1.png" width="700">
+<img src="/voyagio/userflow2.png" width="700">
+</p>
+
+<h3>Challenges and Solutions:</h3>
+
+During this sprint, the primary challenge we faced was deploying the backend to the server. Initially, we considered utilizing the capabilities of the university server to save costs. However, in order to simplify the deployment process and enhance performance, particularly when dealing with a large database, we made the decision to rent a dedicated server.
+
+Another challenge for the developers is to ensure that both the backend and frontend agree on the format of the data being sent and received, which requires some standardization of data formats and creating models and schemas for each API endpoint. So team leads for backend, frontend and ML were selected, who interact with each other and assign tasks to team members. When the task is completed, it is checked by the team leader and, if everything is all right, it is closed.
+
+<h3>Next Steps:</h3>
+
+In the coming weeks, our development team has outlined a clear plan for the project, focusing on specific features and improvements that need to be implemented. Below is a list of priority features that we intend to work on:
+- Add logic to frontend and connect with backend using API.
+- Increase fields and entities in the database, add neccesasary logic in backend for MVP
+- Deploy on the server and provide a link for the application
+- Write a ML model, learn it and connect with the web application
+- Improve the UX design
+- Write test
+
+To ensure efficient project management, we have created plans for the second sprint, which will be discussed during the upcoming weekly meeting on Tuesday:
+- Complete market research in topic of the application (travel trends in Russia 2023-2024)
+- Start adding logic to Authorization page (connect with API) and finish the layout on Search page
+- Add additional functionality to the backend according to the design
+- Finish deployment on the server and configuration CI/CD
+- Discuss functionality that will be implemented after MVP (we are olaning to add some social components e.g news and logic where users will communicate together)
+- Improve the previous weeks report, according to feedback
+
+<h3> Reflection: </h3>
+In the end  of the sprint we were able to complete all the tasks planned for the sprint. this means that the tasks for the first sprint were distributed competently between the team members. everyone worked hard during the week without downtime and achieved their goal.As a result, we were able to deliver high-quality work within the given time frame, and we are now better prepared for future sprints.

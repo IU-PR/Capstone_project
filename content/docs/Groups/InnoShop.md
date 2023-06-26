@@ -1,4 +1,4 @@
-# InnoShop 
+# InnoShop
 
 # Weekly Task 1
 
@@ -122,10 +122,10 @@ Benefits to users you provided I don’t think users will care for them maybe th
 
 Good
 
-Not real uses cases. 
+Not real uses cases.
 Use case is how users will use your app. And by whom
 
-**AI** 
+**AI**
 
 Very good
 
@@ -306,7 +306,7 @@ Good, for the money you need to talk to the university how will you handle trans
 
 **1. Component Breakdown**
 
-Good division, But I would say that you have to make the product listing the main one. 
+Good division, But I would say that you have to make the product listing the main one.
 You don’t really need a home page. Look how Ozone is doing it.
 
 Very good in the other categories, I like the fact that you’ve added analytics. But which Analytic platform you will use? Mixpanle is good option if you don’t know.
@@ -360,26 +360,30 @@ We will also try to improve on what you suggest every week so we will able to de
 
 ## Prototype Features:
 
-Currently we have implemented a frontend in React which is able to communicate with the backend API currently containing the test product and users data.
+In the prototype, we have successfully implemented a React frontend that communicates with the backend API. The frontend includes several pages such as the Store Page, Item Display Page, and Home Page. These pages retrieve information from the API to display relevant data to the users.
 
-The frontend part currently contains the Store Page and the Home Page which are retrieving information from the API.
-The Backend or API part of the applciation currently posses the ability to serve continuous requests and transfer data.
+On the backend or API side, we have implemented the necessary functionalities to serve continuous requests and transfer data that ensures a smooth interaction between the frontend and backend components of the application.
 
 
 ## User Interface:
 
-We have implemented the store page and the home page of the application currently in the UI Interface. Screenshots are provided here:
+We have implemented the store page, item page, and the home page of the application currently in the UI Interface. Screenshots are provided here:
+![StoragePage 1](https://drive.google.com/file/d/1DrPzuf1w3DeJoygr4K_ARwlTOo7B4fPh/view?usp=sharing)
+![StoragePage 2](https://drive.google.com/file/d/12Mc0mJRxNPgutnhD4PdFCa-Uk7QlDwk3/view?usp=sharing)
+![ItemDisplayPage](https://drive.google.com/file/d/1UdaQOOkZF8UqZAgpy5nrd8UvS6R9-vhN/view?usp=sharing)
 
+[InnoShop Front-end Repository](https://github.com/RoukayaZaki/innoshop-frontend)
 
 
 ## Challenges and Solutions:
 
-As mentioned previously, we had problem in working with new technologies and implemented a proper schema for the project.
-So this week, we had meetings how everything in the project will take place. Apart from that, we had problem in proper coordination among the team that we solved by having proper meetings.
+During the development of our prototype, we faced challenges related to working with new technologies and establishing a proper project schema. To address this, we organized meetings this week to discuss and plan how all the components of the project will come together. These meetings helped us gain clarity on the implementation process and establish a solid foundation for the project.
+
+Another challenge we encountered was a lack of proper coordination among the team members. However, we resolved this issue by establishing github workflow and scheduling regular meetings. These meetings facilitated effective communication, improved collaboration, and ensured that everyone was on the same page regarding the project's progress and goals.
 
 ## Next Steps:
 
 Our next step will involve implementing the following things in our project:
  1. User Authentication and User Creation
- 2. Proper Error Handling of both the front end and backend environment using respective frameworks and libraries.
- 3. In frontend part, we plan to implement the whole UI of the application including the Product page and User profile page.
+ 2. Proper Error Handling of both the front end and back end environment using respective frameworks and libraries.
+ 3. In frontend part, we plan to implement the whole UI of the application including the Routing, Purchase page, and User profile page.

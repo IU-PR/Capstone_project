@@ -310,12 +310,10 @@ Interaction with the user works through the Telegram bot @Innoplan_bot. This wee
 
 We have implemented the basic skeleton of each activity, i.e. you can enter all the data in a line (image 2) or item by item (image 3). We have also implemented basic message processing - for example, if the user entered the time in the wrong format, he or she will be asked to repeat the input in the right format (image 5).
 
-
-![image1](/HealthyBasedProductivity/bot1.png)
-![image2](/HealthyBasedProductivity/bot2.png)
-![image3](/HealthyBasedProductivity/bot3.png)
-![image4](/HealthyBasedProductivity/bot4.png)
-![image5](/HealthyBasedProductivity/bot5.png)
+<img src="../../../static/HealthyBasedProductivity/bot1.PNG" title="Image 1" width="180"> <img src="../../../static/HealthyBasedProductivity/bot2.PNG" title="Image 2" width="180">
+<img src="../../../static/HealthyBasedProductivity/bot3.PNG" title="Image 3" width="160">
+<img src="../../../static/HealthyBasedProductivity/bot4.PNG" title="Image 4" width="180">
+<img src="../../../static/HealthyBasedProductivity/bot5.PNG" title="Image 5" width="180">
 
  - **Challenges and Solutions**
 

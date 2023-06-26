@@ -179,15 +179,34 @@ Python (openCV, PyTorch) for ML and CV part (recommendations and try-on)
 Flask for backend - choice is based on team member's expirience
 Flutter for frontend - choice is based on team members' expirience
 ### **Architecture Design**
-1. **Component Breakdown**: we decided to break the project into following modules: backend, frontend, ml. Frontend is responsible for visual representation. Backend is responsible for linking frontend with ml and also manages databases. ML module is used for imlementing key features of the app (recommendations, try-on, outfit analysis).  
-2. **Data Management**: Data will be stored in databases: MongoDB for short-term data (sessional data) and PostgreSQL for permanent data (users history).
-3. **User Interface (UI) Design**:  [design sketch](https://www.figma.com/proto/YOeV2ORkvcHW8iEjb6aaiF/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?node-id=249-502&starting-point-node-id=249%3A461)
-4. **Integration and APIs**:  We decided to make a standard request body for the API, which will always contain two fields: payload and message. First of all, the developer will take a look on the status code of the response, to find out, if it was performed successfully, or not. In case of any errors (for example, 400 ‘Bad request’), there will be an informative explanation in the message field of what exactly went wrong. If everything is fine, the developer will get a payload, which is strictly standardized according to the Swagger API. The backend API will have two internal services: machine learning (ML) and databases (DB). ML service will be responsible for communication with the ML project, while DB service will provide methods to encapsulate logic to access database. Each service is called at the endpoint handler. To deploy the backend we will use docker-compose, which will combine everything together.
-5. **Scalability and Performance**: We are committed to anticipating future growth and ensuring scalability in terms of computing power and throughput. We will employ parallelism and other techniques to increase capacity and accommodate higher user loads and data volumes without compromising performance.
-6. **Security and Privacy**: We prioritize the security of user data and will incorporate measures into our architecture. This includes implementing authentication, authorization, encryption, and other relevant security practices. We will ensure that data is protected through protocols like HTTPS and adhere to careful storage and data access policies to safeguard against vulnerabilities and unauthorized access.
-7. **Error Handling and Resilience**:  Our strategies include implementing error logging mechanisms, continuous monitoring, and establishing graceful error recovery processes. To prevent errors, we employ server-side validations, conduct testing, and monitor the application's performance.
-8. **Deployment and DevOps**: Deploy will be done using Docker through kubernetes. 
+1. **Component Breakdown**: we decided to break the project into following modules: backend, frontend, ml.
+  Frontend is responsible for visual representation.
+  Backend is responsible for linking frontend with ml and also manages databases.
+  ML module is used for imlementing key features of the app (recommendations, try-on, outfit analysis).  
+3. **Data Management**: Data will be stored in databases: MongoDB for short-term data (sessional data) and PostgreSQL for permanent data (users history).
+4. **User Interface (UI) Design**:  [design sketch](https://www.figma.com/proto/YOeV2ORkvcHW8iEjb6aaiF/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?type=design&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=249%3A461&show-proto-sidebar=1&node-id=249-502&mode=design)
+5. **Integration and APIs**:  We decided to make a standard request body for the API, which will always contain two fields: payload and message. First of all, the developer will take a look on the status code of the response, to find out, if it was performed successfully, or not. In case of any errors (for example, 400 ‘Bad request’), there will be an informative explanation in the message field of what exactly went wrong. If everything is fine, the developer will get a payload, which is strictly standardized according to the Swagger API. The backend API will have two internal services: machine learning (ML) and databases (DB). ML service will be responsible for communication with the ML project, while DB service will provide methods to encapsulate logic to access database. Each service is called at the endpoint handler. To deploy the backend we will use docker-compose, which will combine everything together.
+6. **Scalability and Performance**: We are committed to anticipating future growth and ensuring scalability in terms of computing power and throughput. We will rent several servers and increase pods in kubernetes to increase capacity and accommodate higher user loads and data volumes without compromising performance.
+7. **Security and Privacy**: We prioritize the security of user data and will incorporate measures into our architecture. This includes implementing authentication, authorization, encryption, and other relevant security practices. We will ensure that data is protected through protocols like HTTPS and adhere to careful storage and data access policies to safeguard against vulnerabilities and unauthorized access.
+8. **Error Handling and Resilience**:  Our strategies include implementing error logging mechanisms, continuous monitoring, and establishing graceful error recovery processes. To prevent errors, we employ server-side validations, conduct testing, and monitor the application's performance.
+9. **Deployment and DevOps**: Deploy will be done using Docker through kubernetes. 
 
+**Answering questioner**
+1) Tech Stack Resources. We are not using any project-based books, we believe that it is redundant for our project. All needed information is specified in documentation or scientific acticles. We enhace our knoweledge through overcoming difficulties in realization process using websites, best practices and acticles.
+2) Mentorship Support. We have a person that is ready to help us but for now we did not need any external help.
+3) Exploring Alternative Resources. We lack knoweledge in ML and CV part of our project. So we found some interesting libraries and tutorial to address problems:
+https://github.com/open-mmlab/mmfashion            https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb#scrollTo=NSSrLY185jSf&line=10&uniqifier=1
+https://github.com/levindabhi/cloth-segmentation
+https://github.com/minar09/cp-vton-plus
+4) Identifying Knowledge Gaps. 
+  ML: Anvar Iskhakov, Karim Galliamov, Konstantin Fedorov
+  Frontend: Yan Kozyrenko, Kamil Almetov
+  Backed: Anatoly Pushkarev, Alsu Abdulmanova
+  We lack expertise in ML and CV, so we search for tutorial and best practices to fill the gaps.
+5) Engaging with the Tech Community. Some members of the team attend meetups organized in Innopolis.
+6) Learning Objectives. We did not set specific learning objectives. Our goal is to make functional product. Every week we make progress and if any problems occur we solve it. That is how we learn. 
+7) Sharing Knowledge with Peers. Every 3-4 days each development department gathers for discussion. We share knoweledge if problem occurs or search for solution all together.
+8) We used ChatGPT but only to accelerate development process (not to write simple code ourselves).
 
 {{< hint danger >}}
 **Feedback**  
@@ -235,9 +254,53 @@ Grade 2.5/5
 _Feedback by Moofiy_
 {{< /hint >}}
 
+# **Week #3**
+**Prototype Features**
+What we have already done:
+
+Frontend:
+1) Formulated message contracts with backend for inital photo and answer with identified items.
+2) First and second screens UI are made.
+![Screens](https://github.com/IU-PR/Capstone_project/assets/92600316/9cef6092-07e3-4c06-967f-7ce3c7a8a122)
+3) Functionatity and UI of third screen (UI, data-layer; API interaction - in progress)
+4) Authorization made through Firebase for Google Account
+   
+Backend:
+1) User data storage (in testing)
+2) Wrap app with Docker (in testing)
+
+ML:
+1) Identified pieces of clothes for detection
+2) Unified overlaping masks
+3) Classigication, object detection, segmentation through HaggingFace pre-trained model
+4) Exctraction of color from picture
+5) Identify colors and map to Itten Circle
+6) Clastering clothing with style
 
 
+**User Interface**
+[Use-case user flows link](https://www.figma.com/proto/YOeV2ORkvcHW8iEjb6aaiF/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?type=design&scaling=min-zoom&page-id=0%3A1&starting-point-node-id=249%3A461&show-proto-sidebar=1&node-id=249-502&mode=design)
+User starts with authorization, they can do it through Apple ID, Google account, Yandex ID and VK. Then user selects its gender and uploads photo of the outfit. Further, user selects goal of the outfit from given options (precise enough to make conclusion about style of the event: official, casual, semi-official, etc.). Then the user sees their picture with highlited items and the color defines the suitability of clothes (red - not suitable, yellow - could be better, green - okay). After that user can choose which item it wants to change and sees scrollable options from marketplaces. User can select any item and see how it looks on him/her/it.
+All in all, we identify following steps of user flow:
+1) Authorization
+2) Gender
+3) Outfit selection
+4) Purpose
+5) Analysis
+6) Recommendation
+7) Try-on
 
+**Challenges and Solutions**: Example: SAM mmodel gave masks with bad quality (it sometimes did not identify all parts of person and there were duplicates in masks). To solve this problem we found 2 solutions. First, delete duplicates with biggest intersection over union but this did not work with several photos. Second, we replced combination of SAM+FashionClip with pre-trained SegFormer model, this solution works good.
+**Next Steps**:
+1) Authorization for other services (highlited above)
+2) Save email address of user
+3) Finish backed testing and identify problems
+4) Fix backend problems (scheduled later)
+5) Integrate ML with backend
+6) Test ML segmentation with complex pictures to identify problems, fix if necessary
+7) Develop interface that accepts photo and mask, returns list of [color, color in Itten Circle]
+8) Fine-tune clothes clasterisation
+9) Rule-based model for a color scheme
 
 
 

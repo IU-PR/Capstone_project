@@ -35,8 +35,7 @@ stateDiagram-v2
     Quiz --> YourAccount : save your results
 {{</mermaid>}}
 
-{{< expand "Week 1" >}}
-
+# Week 1
 ## **Value Proposition**
 ### **Problem**
 The learning material is exhaustive sometimes. If one wants to study it perfectly, he or she needs an assessment. A short quiz is a good choice to do so, but it is not always provided right after the text or somewhere on the web.
@@ -90,7 +89,7 @@ Of course, all this is a future and far ahead of MVP. That's why yes, we are ope
 The project is a  website where a user can create a quiz or find a suitable one. If one needs more evaluation of the knowlendge in a specific topic, he/she cannot do anything but search for a quiz or test or google answers to open-ended questions from somewhere. That is not an easy task. That is why we provide a single place for all the quizes, which are generated **on demand**. You should **not search** anymore, just provide the material and here are the questions for you. Answer it or the site will provide the answers, and you'll be **better prepared** for the exam.
 
 
-
+# Week 2
 ### **Tech Stack**
 Main language - **Python**. Your project utilizes machine learning models, which integrates well in Python world. Also, Python is easier to write and work with. 
 
@@ -146,10 +145,6 @@ The report is good. You need to reflect more on the business and operational sid
 
 _Feedback by Moofiy_
 {{< /hint >}}
-
-{{< /expand >}}
-
-{{< expand "Week 2" >}}
 
 ## **Tech Stack Selection**
 
@@ -251,4 +246,76 @@ Besides all the given above we:
 - prepared a simple design of the website described earlier.
 - created an initial architecture and a full-fledged user model for the database. In addition, we added and configured password hashing to the application pipeline.
 - built the base part of architecture and started to write a home page for our website. The main problems were choosing a library for state management and defining the architecture of the application. These problems are related to each other. So, we picked the Bloc library for state management, and with guidelines of Bloc documentation we came up with the architecture.
-{{< /expand >}}
+
+# Week 3
+## **Deliverables**
+
+### **Technical Infrastructure**
+We started our week by deploying the templates of each part of the project: backend server with ml classes and functions and frontend pages. We have three separate git repositories to develop locally and independently. So, we tried to compose an efficient workflow in that everybody pushes changes, and we can build it on the virtual machine on demand to test everything working together.
+
+### **Backend Development**
+This week the backend work was focused on data management. However, we also did a login function and answers checking for a user.
+
+### **Frontend Development**
+We started implementing the layouts of the website. So far, we have a form where to enter a title and insert the input text for the quiz to send to generate. Then, we prepared a view of all questions and answers from a retrieved quiz. Finally, we focused on an interactive system to pass a quiz - choose answers and check the score (how many correct answers and where the mistakes are).
+
+### **Data Management**
+We have developed necessary database schemas to store quizzes and questions to them, and user data to log in and register. After it, the backend Django server was connected, and simple endpoints and services to make CRUD operations with quizzes in code were built.
+
+### **Prototype Testing**
+As we deployed it on a local virtual machine, each team member could try it themselves. An obvious issue related to user experience is the necessity to wait while a quiz is being created. Also, some bugs, such as the wrong question format, were noticed. All these problems are of the highest priority for the next week.
+
+## **Progress report**
+
+You can watch [_this video_](https://drive.google.com/file/d/1RaGjQv0bEwVME9JAtLx83V0Djtr701CO/view?usp=drivesdk) to check our current state of affairs.
+This week we worked with composing the infrastracture and deployment for our simple prototype. So now, we can focus on development of more features and analyzing user experience.
+
+### **Prototype Features**
+- Quiz creation:
+    - The user presses the button "Generate quiz" in the left menu to open the page
+    - The user inputs the title
+    - Inserts text (no limit so far)
+    - Sends and waits.
+    - At this time the backend server calls ml functionality (so far, we use chatgpt as a main model to process the text and prompts to compose questions) and blocks until it returns
+- Review:
+    - When a quiz is ready it appears on the website. It consists of multiple choice questions and true/false. It is the main intent so that a user could easily and eagerly pass it.
+    - A user can see all the questions and answers
+- Passing:
+    - Also, the user can complete a quiz themselves
+    - choose answers and send them to check
+    - get the number of right answers
+    - display the correct answers
+    - see the total score for the quiz. So far, we count only a full mark or 0 as a point per question.
+
+### **Challenges and Solutions**
+Our main challenge of this week was **Deployment**:
+- The expertise of the team is not so high to deploy easily, and quickly, knowing possible problems and solutions that appear usually along the way of DevOps. We could effortlessly build/compile a backend web server, frontend application server, and ml models locally. The real problem was how to connect them so that they can communicate on a single virtual machine. There were problems with the installation of requirements (especially pytorch 2.0) and establishing the connection between a frontend page/server and the backend REST API.
+- To resolve these issues, we decided to build and deploy everything separately on the virtual machine (without Docker as it was planned) and installed some requirements manually with special Python 3.10 command - "python3.10 -m pip".
+
+**AI** language models are a new feature for us:
+- We had to choose a language model that performs better. There are quite many of them but we were not aware of libraries that can help to utilize. So, we asked our mentor (Daniil Arapov) to recommend some models. We tried: ChatGPT, LangChain, Transformers: T5, Lama, Falcon, Vicuna, and Alpaca. The main difficulty is that they take a lot of RAM, and it is not possible to deploy a complete version on our machines. 
+- We tested locally all these models on the different text materials and stopped on ChatGPT (since it does not require space as we use API, and it outperforms other models as it is a more general language model).
+
+**Frontend**:
+- We wanted to compile the pages and serve them from the backend. However, we didn't know how to do it properly in Django. It seems that Django is not supposed to do so. That's why we stayed with the default way - serving pages from the Flatter server.
+
+### **Next Steps**
+The number one priority is to fix bugs in our current prototype. Those are:
+- Remove the necessity to stay on the website when the quiz is being created.
+- Unhandled errors. If the backend server or models do not respond, a cute message on the front end should appear ("Try later"). So far, we do not care about the stability, and it makes some difficulties while testing.
+- A poor code quality. We should spend some time refactoring the code and think about its extensibility to reduce Technical debt.
+- Unknown crash of a program on a virtual machine. We should identify the problem in case it is related to the code and not to the machine itself.
+- Differentiate between questions with multiple correct answers and a single right answer.
+
+After that, we will implement the most used features (listed from highest priority):
+- Attach files (not only text) to create a quiz
+- Register and log in to review or pass all own quizzes
+- Specify the maximum number of questions to be generated. We will discuss it more in the future. It might affect the time of generation, but we should consider the quality as well. It depends on the performance of the language models. So, we have to test first.
+- Search for quizzes that are created by other users. For this, we should think about the parameters we might consider. For example, keywords, the topic of a material or a quiz, title, and description. Also, some quizzes should be private if a user wants.
+- Display statistics on quiz passing. How many quizzes were passed, the total number of questions answered, the average grade in percent, and how many correct and incorrect questions, the time to pass. It may look similar to LeetCode statistics.
+- Think of the criteria of quiz differentiation. For example, count time when passing a quiz. It would be better to have quizzes of different difficulties: Easy, Medium, and Hard.
+- Quiz generation optimization and scale. We have a problem that it is not possible to create two quizzes simultaneously. Users must wait like in a queue.
+- Group quizzes in packs to suggest for a user to try. Also, suggest similar quizzes after passing anyone.
+- Receive feedback from a user. It might be: likes or displikes of each question and a quiz in particular, a feedback form to fill and send.
+
+

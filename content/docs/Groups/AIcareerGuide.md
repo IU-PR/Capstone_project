@@ -301,3 +301,6 @@ Next Steps - make app applicable for HeadHunter in order to get their API key.
 ## Next Steps:
 * Publish prototype in the Internet.
 * Add new features as roadmaps and vacancies.
+
+## Code Repository:
+https://gitlab.com/ai-career-guide/backend/-/tree/develop?ref_type=heads

@@ -1,12 +1,18 @@
 ---
-weight: 1
+weight: -1
 bookFlatSection: true
 title: "Onemenu"
 ---
 
-{{< expand "Week 1">}}
+# **Onemenu**
 
-# **Week #1**
+## **Description**
+
+Nowadays there are many ways for customers to order goodies and services. Big corporations such as Ozon, Avito and Yandex have already taken part of the market. However, small businesses still in need of a single customizable application, which will allow better customer experience. After some research, we found that all the available solutions are lacking essential functionalities, such as intuitive UI/UX design, quick in-application support, useful statistics, etc. **Onemenu** is our solution to the problem.
+
+## **Weekly reports**
+
+{{< details "**Week 1**">}}
 
 ## **Introduction**
 
@@ -135,18 +141,15 @@ We plan to use AI in several ways:
 
 * Our app consists of 3 components: backend server, telegram bot, website. Website and bot will do essentially the same thing: clients will interact with them to order dishes, and restaurant staff will see available orders. Server will be used to process inputs from bot and website, and also for ML (analytics).
 
-{{< hint danger >}}
+<!-- {{< hint danger >}}
 
 **Feedback**  
 You have a great team and a great project! It is also clear that you have a properly defined vision for the project. The idea of the Capstone is to create a smallest working prototype - therefore, take one menu from one restaurant and try to showcase you technology. Scale down your project to the main features and execute on the main parts.
-{{< /hint >}}
+{{< /hint >}}  -->
 
-{{< /expand >}}
+{{< /details >}}
 
-
-{{< expand "Week 2">}}
-
-# **Week #2**
+{{< details "**Week 2**">}}
 
 ## **Introduction**
 
@@ -162,15 +165,15 @@ This week we were mainly focused on choosing the tech stack of the project and r
 
 **2. Mentorship Support: Do you currently have a mentor actively involved in your project?**
 
-* To design a reliable architecture, we contacted our fellow expert Andrei Markov for help. His suggestion was to separate our project into several loosely connected parts, in order to increase reliability, readability and scalability. During the meeting, we also made some draft designs and got a suggestion to use GraphQL for the API design. 
+* To design a reliable architecture, we contacted our fellow expert Andrei Markov for help. His suggestion was to separate our project into several loosely connected parts, in order to increase reliability, readability and scalability. During the meeting, we also made some draft designs and got a suggestion to use GraphQL for the API design.
 
-**3. Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack?** 
+**3. Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack?**
 
 * We found reading documentation being the most useful resource along the way. So, [Flask documentation](https://flask.palletsprojects.com/en/2.3.x/), [Pyrogram documentation](https://docs.pyrogram.org/) and [GraphQL](https://graphql.org/) were the main sources of information for this week. Additionally, we watched some videos on [youtube](https://youtube.com), but there is nothing special about them.
 
 **4. Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking?**
 
-* We feel that the whole project is going to be a new experience for us. But we think that ML and AI in general would be the hardest part of our project. To fill this gap of knowledge we are going to research the ways to implement our ideas in articles, seek suggestions from experts in the field and, more probably, find open-source solutions of similar problems. 
+* We feel that the whole project is going to be a new experience for us. But we think that ML and AI in general would be the hardest part of our project. To fill this gap of knowledge we are going to research the ways to implement our ideas in articles, seek suggestions from experts in the field and, more probably, find open-source solutions of similar problems.
 
 **5. Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack?**
 
@@ -188,10 +191,9 @@ This week we were mainly focused on choosing the tech stack of the project and r
 
 * Our team decided not to use AI for this purpose, since it is better to rely on the experience of us, our friends and our experts. 
 
-
 ## **Tech Stack Selection and Team Allocation**
 
-Our project can be divided into three components: backend, frontend, and ML. 
+Our project can be divided into three components: backend, frontend, and ML.
 
 * For the backend we will use Python as it is easy for development and we are experienced with it. We will use the Flask framework for the server part, and Pyrogram for the telegram bot. To store the data about users, cafes, etc., we will use MongoDB. As for the API design, we will use GraphQL due to its ease and functionality.
 
@@ -201,7 +203,7 @@ Our project can be divided into three components: backend, frontend, and ML.
 
 * Finally, GitHub CI/CD will be used to set up the process of automatic testing of our code for errors and style issues. For deployment we will utilize Docker.
 
-**Team allocation Table**
+## **Team allocation Table**
 
 | Team Member      | Track                               | Responsibilities                    |
 |------------------|-------------------------------------|-------------------------------------|
@@ -210,10 +212,9 @@ Our project can be divided into three components: backend, frontend, and ML.
 | Grigorii Fil     | Backend                             | Architecture design, Database design, backend development                                      |
 | Pavel Nestiurkin | ML                                  | Database design, Analytics, Research |
 
-
 ## **Architecture Design**
 
-In this project we are going to have a robust architecture, which will allow us to separate it into microservices. For customers it means the reliability of our service and for us it means easy maintenance of the source code part. 
+In this project we are going to have a robust architecture, which will allow us to separate it into microservices. For customers it means the reliability of our service and for us it means easy maintenance of the source code part.
 
 **Schematic drawing of the components is shown here:**
 
@@ -225,11 +226,74 @@ As for data management we plan to use the PyMongo library to access our Mongo da
 
 * First of all, we distributed roles in our project between team members, so that everyone knows their responsibilities. We resolved the main issues we had about the architecture of the project. Some of our team members had different visions, but, finally, we agreed on one of the variants. 
 
-* Secondly, we identified the final tech stack we are going to use in our application and started working on the UX design. 
+* Secondly, we identified the final tech stack we are going to use in our application and started working on the UX design.
 
 * Lastly, we scaled down the vision of our project. As a result, we created this state diagram to set the flow of our application:
 
 ![Our flow](/Onemenu/flowDiagram.svg)
 
+{{< /details >}}
 
-{{< /expand >}}
+{{< details "**Week 3**">}}
+
+## **Developing the first prototype, creating the priority list**
+
+As the title proposes, this week we are going to develop the first prototype of our project. But designing only the prototype would be a bad idea, since only 4 weeks are left, therefore during this week we also started our workflow on github, created the first issues and started working on them.
+
+Now, lets discuss how we have finished this week in details.
+
+**Technical Infrastructure**:
+
+* We have successfully set our workflow on github because it is convinient for all of the team members, combined a little learning session (about basic git commands), created the first issues and started working on them. From now on, everything is ready for the development of the first prototype.
+
+**Backend Development**:
+
+* As for backend development, we have decided to switch our application stack, since it will be easier for us.
+  1. We switched from `Flask` to `FastAPI`, since it has a better compatability with GraphQL, using `strawberry` library. Also, it will simplify work with the database tables created via `SQLAlchemy` library.
+  2. Talking about `SQLAlchemy`, we have decided to use relational database it instead of nosql, since it will allow us to have better data consistency and integrity. Also, it will be easier to work with it, since we have more experience with relational databases.
+  3. ML part of the project (as all others) is independently working in a separate branch and has no problems with the stack. Currently, they work on the chatbot, which will be used in our application later.
+
+**Frontend Development**:
+
+* We have already designed almost all of the user interface in Figma and from the next week we will start developing frontend components. As we previously said, main UI framework will be `React`.
+
+**Data Management**:
+
+* Due to switch to the relational database, we designed an appropriate design [draw.io](https://draw.io). We believe, that our design addresses all of the requirements and will be easy to use and scale up. Now, we have to convert it to `SQLAlchemy` models, fill with fake data and connect it to the backend.
+
+**Prototype Testing**:
+
+* We have not started testing yet, since we have not finished the first prototype. But, we have already created a list of test cases, which we will use to test our prototype.
+
+## **Progress report**
+
+Let's discuss the progress report in details, what have done, what will be done and what problems we have encountered.
+
+**Prototype Features and User Interface:**
+
+* In the current Figma prototype we have implemented UI/UX design for the customer which is the most essential part of our project. You can check the progress of the prototype [here](https://www.figma.com/file/m78xN6GSOK6ZTT8gnUGFHx/OneMenu?type=design&node-id=0%3A1&t=5gglpEo6IpJFKywV-1). As for the rest of the project, we are still in progress of creation of the actual, working, connected to every service prototype.
+
+**Challenges and Solutions:**
+
+* Main challenge was to design an appropriate database without overengeneering, since we had to switch from nosql to relational database. But, we have successfully designed it and now we are working on the implementation of the database.
+* Another challenge was to design a good architecture for the project. We have discussed it with our mentor [Andrei Markov](https://t.me/markovav_official) and now we have a clear vision of the architecture of the project. We will share it in the next week.
+
+**Next Steps:**
+
+* We think that the upcoming week is going to be the most productive as we develop the main components of the application. We created priority list on github and will follow it to develop the first prototype.
+  1. Create working prototype and syncronize all of the work across different project directions
+  2. Test our architecture and fix bugs
+  3. Polish the prototype and prepare for the presentation
+
+{{< /details >}}
+
+## **Team Members**
+
+If you have questions or anything to share with us, feel free to contact:
+
+| Team Member      | Telegram ID                         | Email Address                       |
+|------------------|-------------------------------------|-------------------------------------|
+| Timofey Sedov    | [moflotas](https://t.me/moflotas)   | <t.sedov@innopolis.university>      |
+| Nikita Bogdankov | [nikibog](https://t.me/nikibog)     | <n.bogdankov@innopolis.university>  |
+| Grigorii Fil     | [Fil126](https://t.me/Fil126)       | <g.fil@innopolis.university>        |
+| Pavel Nestiurkin | [whoevertf](https://t.me/whoevertf) | <p.nestiurkin@innopolis.university> |

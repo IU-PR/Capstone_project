@@ -150,12 +150,20 @@ As we decided which models we will create, we started to implement them. So we c
 
 In general we did a great job. We thinked over our models and their connections and already started working on its implementation.
 
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+All parts of the tasks are covered and I liked your own assessment of the state of affairs regarding your progress. Make sure to think through the process of providing efficient communication between the backend and frontend team members as it can het a little messy sometimes. Consider adding more AI-assisted scripting to expedite the process of developing routine features - this course aims to develop skills of fast prototyping, so make sure to use this advantage. 
+I am a little surprised that you have no connections with the local tech community. There are numerous meetups every year and it's a great opportunity to get up to last trends and solutions. After all, there is almost 2000 developers in the city, and I hope, one can think of ways to leverage that for developing your network and projects.
+5/5 for the week
+{{< /hint >}}
+
 # **Week #3**
 
 **Prototype Features:**
 Frontend:
 - Login and registering with saving in local secure store JWT tokens
-- Integrate and providing own chat interracting implementation between any 2 users
+- Integrate and providing own chat interacting implementation between any 2 users
 - UI-kit
 
 Backend:
@@ -177,3 +185,12 @@ Backend Django interface - https://fspmainservice.onrender.com/
 - Make product shelves with categories
 - Make search working
 - Make states of order with status and estimated time
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+It seems that you have an ordered approach to the project and already have main parts deployed - which is great. 
+I hope you and your team will be able to keep the pace and make the necessary adjustments on the way. 
+Progress report is a little too short, would be interesting to see more details on current considerations and trade-offs regarding the choices you make.  
+5/5 for the week
+{{< /hint >}}

@@ -284,7 +284,9 @@ At this moment, following workflow has been implemented:
 In detailes, there is such routing in prototype:
 - On the main page, user can click button "Start" to move to questions:
 ![Main](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/main.png)
+
 - User can iterate back, forward or finish answering questions depending on number of question. Also, all questions are multi-choice.
+
 ![FirstQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/first_question.png)
 ![MiddleQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/middle_question.png)
 ![LastQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/last_question.png)

@@ -285,19 +285,19 @@ At this moment, following workflow has been implemented:
 ## User Interface: 
 In detailes, there is such routing in prototype:
 - On the main page, user can click button "Start" to move to questions:
-![Main](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/main.png)
-
+  ![Main](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/main.png) 
 - User can iterate back, forward or finish answering questions depending on number of question. Also, all questions are multi-choice.
-
-![FirstQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/first_question.png)
-![MiddleQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/middle_question.png)
-![LastQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/last_question.png)
+  
+  ![FirstQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/first_question.png)
+  ![MiddleQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/middle_question.png)
+  ![LastQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/last_question.png)
 - The last page in prototype is thedown  page with user results: suitable vacancies and roadmap. Maybe, later we can make each "vacancy" component clickable and provide more information about vacancy after click.
-![Result](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/result.png)
+  ![Result](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/result.png)
 ## Challenges and Solutions:
 - Public IP address for our server. The solution is VPN to the university network in order to make it accessible for the GitLab CI/CD.
 - The API we're currently using is not capable to fetch key skills from each job offer. The solution is to use OpenAI technology which obtains job offer description as input and returns the array of key skills as output.
-Next Steps - configure the application to request HeadHunter API using.
+Next Steps - make app applicable for HeadHunter in order to get their API key.
+- Domain for our service.
 ## Next Steps:
 * Publish prototype in the Internet.
 * Add new features as roadmaps and vacancies.

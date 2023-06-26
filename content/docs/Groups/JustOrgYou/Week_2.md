@@ -95,7 +95,7 @@ Todo list of required parts to ensure that nothing missed
 
 The diagram below depicts the architecture of our application:
 
-![](/JustOrgYou/sequence_diagram.png)
+![](/JustOrgYou/week2/sequence_diagram.png)
 
 There are 4 main components that are divided into 2 groups: local and
 server-side.

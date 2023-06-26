@@ -4,16 +4,16 @@ bookFlatSection: true
 title: "Week #1"
 ---
 
-# Week #1
+# **Week #1**
 
-# Introduction
+# **Introduction**
 
 {{< hint danger >}}
-Important Note  
+**Important Note**  
 This blog serves as a central platform for important updates and information regarding our project journey. It is vital that you regularly check this blog for the latest updates and announcements. The content provided on this blog is intended for informational purposes only and may be subject to change without prior notice.
 {{< /hint >}}
 
-Week #1 is the most crucial week of the entire semester as it sets the foundation for your project. During this week, your primary tasks are to form your team and select a project. The team formation process should carefully consider the skills, expertise, and compatibility of team members to ensure effective collaboration.
+**Week #1 is the most crucial week of the entire semester as it sets the foundation for your project**. During this week, your primary tasks are to form your team and select a project. The team formation process should carefully consider the skills, expertise, and compatibility of team members to ensure effective collaboration.
 
 Once your team is formed, it is essential to pitch and discuss project ideas among yourselves. Select a project that aligns with one of the three tiers: web, mobile, or ML (machine learning). The chosen project should be well-defined, feasible, and have a clear problem statement.
 
@@ -27,33 +27,34 @@ Remember, the success of your projects depends on your commitment, dedication, a
 {{< /hint >}}
 Should you have any questions or require further guidance, please do not hesitate to reach out to us. We are here to support and guide you through this exhilarating process.
 
-## Team Formation and Project Proposal
+## **Team Formation and Project Proposal**
 
 Please provide the following information for your team members and answer the questions listed below. This information will help us understand your team composition and project proposal better.
 
-### Team Members
+### **Team Members**
 
 Please list the names and contact details (Telegram and email) of your team members:
 {{< expand "Important Note" >}}
 
 When building a team for a software project consisting of 5-7 people, it is crucial to pay attention to the following:
 
-1. Skills and Expertise: Ensure that the team members possess the necessary skills and expertise required for the project. Consider their technical knowledge, programming languages, frameworks, and any specific domain expertise relevant to the project.
+1. **Skills and Expertise**: Ensure that the team members possess the necessary skills and expertise required for the project. Consider their technical knowledge, programming languages, frameworks, and any specific domain expertise relevant to the project.
 
-2. Collaboration and Communication: Look for individuals who can effectively collaborate and communicate with one another. Strong teamwork and clear communication channels are essential for seamless coordination and successful project execution.
+2. **Collaboration and Communication**: Look for individuals who can effectively collaborate and communicate with one another. Strong teamwork and clear communication channels are essential for seamless coordination and successful project execution.
 
-3. Roles and Responsibilities: Clearly define roles and responsibilities for each team member. Assign tasks based on their strengths and expertise to optimize productivity and ensure a well-rounded team composition.
+3. **Roles and Responsibilities**: Clearly define roles and responsibilities for each team member. Assign tasks based on their strengths and expertise to optimize productivity and ensure a well-rounded team composition.
 
-4. Diversity: Seek a diverse mix of skills, perspectives, and backgrounds within the team. This can foster creativity, innovation, and a broader range of problem-solving approaches.
-5. Leadership: Identify a capable team lead or project manager who can provide guidance, set clear goals, and facilitate decision-making processes. Leadership skills are crucial to keeping the team motivated and on track.
+4. **Diversity**: Seek a diverse mix of skills, perspectives, and backgrounds within the team. This can foster creativity, innovation, and a broader range of problem-solving approaches.
 
-6. Flexibility and Adaptability: Select team members who are adaptable and comfortable working in a dynamic environment. Software projects often encounter changes, and team members should be open to adjusting their approaches and strategies as required.
+5. **Leadership**: Identify a capable team lead or project manager who can provide guidance, set clear goals, and facilitate decision-making processes. Leadership skills are crucial to keeping the team motivated and on track.
 
-7. Problem-solving Abilities: Look for individuals with strong problem-solving skills. They should be able to analyze complex issues, propose effective solutions, and work well under pressure.
+6. **Flexibility and Adaptability**: Select team members who are adaptable and comfortable working in a dynamic environment. Software projects often encounter changes, and team members should be open to adjusting their approaches and strategies as required.
 
-8. Team Dynamics: Consider the overall team dynamics and ensure compatibility among team members. A cohesive and supportive team environment can enhance productivity and foster a positive work culture.
+7. **Problem-solving Abilities**: Look for individuals with strong problem-solving skills. They should be able to analyze complex issues, propose effective solutions, and work well under pressure.
 
-9. Shared Vision: Ensure that all team members understand and align with the project's vision and goals. A shared sense of purpose can foster motivation, commitment, and a unified approach to project delivery.
+8. **Team Dynamics**: Consider the overall team dynamics and ensure compatibility among team members. A cohesive and supportive team environment can enhance productivity and foster a positive work culture.
+
+9. **Shared Vision**: Ensure that all team members understand and align with the project's vision and goals. A shared sense of purpose can foster motivation, commitment, and a unified approach to project delivery.
 
 Remember, building a successful software project goes beyond individual skills. It requires a combination of technical expertise, effective communication, collaboration, and a shared commitment to achieving project goals. By paying attention to these aspects, you can lay a strong foundation for your team's success.
 
@@ -61,16 +62,16 @@ Remember, building a successful software project goes beyond individual skills. 
 {{< /expand >}}
 | Team Member            | Telegram ID   | Email Address       |
 |------------------------|---------------|---------------------|
-| Alexandra Chupkova          | KMnSO4 | a.chupkova@innopolis.university     |
-| Yegor Blinov         | blinikar | y.blinov@innopolis.university     |
-| Vyacheslav Rybalchenko         | slryb | v.rybalchenko@innopolis.university     |
-| Egor Kuziakov       | KeepError| e.kuziakov@innopolis.university    |
-| Dzhovidon Vakhidov      | d9mir | d.vakhidov@innopolis.university   |
-| Ayaz Sunagatullin | ayazsung| a.sunagatullin@innopolis.university     |
-| Karina Denisova | karinadenisova | k.denisova@innopolis.university   |
+| Team Member (Lead) 1          | [Telegram ID] | [Email address]     |
+| Team Member 2          | [Telegram ID] | [Email address]     |
+| Team Member 3          | [Telegram ID] | [Email address]     |
+| Team Member 4          | [Telegram ID] | [Email address]     |
+| Team Member 5          | [Telegram ID] | [Email address]     |
+| (Optional) Team Member 6 | [Telegram ID] | [Email address]     |
+| (Optional) Team Member 7 | [Telegram ID] | [Email address]     |
 
 
-### Value Proposition
+### **Value Proposition**
 
 The value proposition of your software project defines the unique benefits and advantages it offers to its users. It highlights the problem your project aims to solve and the positive outcomes it brings. Here's an expanded explanation to help you craft a compelling value proposition:
 
@@ -88,54 +89,15 @@ Discuss what sets your software project apart from competing solutions. Identify
 
 - User Impact:
 Explain the broader impact your software project has on users and potentially the society or industry as a whole. Highlight any positive changes, transformative effects, or advancements that result from the adoption of your solution. Consider how it improves workflows, empowers users, or drives positive change.
+
 - User Testimonials or Use Cases:
 Whenever possible, provide real-world examples, user testimonials, or case studies that demonstrate the value and benefits of your software project. Showcasing tangible results and success stories adds credibility and reinforces the value proposition.
 
 Remember to keep your value proposition concise, clear, and compelling. Focus on the most significant benefits and outcomes that resonate with your target users. A well-crafted value proposition effectively communicates the value and impact of your software project, making it more appealing and compelling to users.
 
-#### Answer:
-- Identify the Problem:
-  
-The lack of a centralized resource for travelers in Russia leads to inconvenience and higher costs when using the services of private travel agencies.
+[Your answer here]
 
-- Solution Description:
-  
-The web application will allow users to plan trips and select attractions according to location or recommendations. It allows users to make a route plan, find an attraction by recommendations or search, and save all routes in a personal account.
-
-- Benefits to Users:
-  
-Advantages for users in using our web application:
-  1. No intermediaries: This allows users to save time and avoid additional fees.
-  2. Personalized recommendations: The built-in artificial intelligence in our app suggests places and attractions that match the user's given parameters.
-  3. Place search: user-friendly interface that allows you to select a place by name or location.
-  4. Personal account: That provides the ability to add favourite places and plan routes of the trip.
-   
-- Differentiation:
-  
-The main difference between our project and popular analogues is the ability to save selected places in a private account, view and save ready-made routes, and a recommendation system based on artificial intelligence.
-
-- User Impact:
-  
-The implementation of our application could have the following positive impacts on users, society, and the tourism industry in Russia:
-  1. Increased accessibility: Our solution allows users to search and choose places without intermediaries
-  2. Development of tourism in Russia: Travelers can increase the demand for local tourist facilities and services, because they will have an opportunity to plan and find interesting places to visit on their own
-  3. Enhancing the travel experience: Our solution will help users to find sights and plan trips easily. Therefore, a greater number of tourists will be interested and plan their trip.
-   
-- User Testimonials or Use Cases:
-  
-There some use cases of our potential users:
-
-Sasha wants to go to Kimchatka with friends this summer and has already started planning the trip. she doesn't want to miss any of the must-see attractions. so she uses the app to create a personalized itinerary based on her favorite activities and recommendations, and can save her itinerary to her personal account for easy access during her trip.
-
-Ayaz has a few hours of free time to explore a new city where he comes for a business conference. He uses a web app to quickly find nearby attractions based on his interests and lifestyle. he can also save the selected attractions in his personal account and share his impressions of the places already visited.
-
-Karina is a voyager/blogger who is continuously searching for intriguing locales to visit and afterward 
-share with her adherents. She advantages from the web app to discover secret and lesser-known attractions in the towns she visits which are put away in her own account for utilization on her blog.
-
-
-
-
-## Lean Startup Questionnaire
+## **Lean Startup Questionnaire**
 
 Please answer the following questions related to the lean startup methodology:
 
@@ -145,23 +107,19 @@ Please answer the following questions related to the lean startup methodology:
 4. What metrics will you use to measure the success of your project?
 5. How do you plan to iterate and pivot if necessary based on user feedback?
 
-#### Answers:
-1. It is hard to organize your vacation journey by yourself. It takes much time and responsibility and the fault cost is high. Analyzing yours and your friends interests and previous trips we can offer the best ways to spend your time on your vacation.
-2. People in age between 20 and 35 who are interested and have financial opportunity to see the world. So mostly those people are from the middle and higher social classes.
-3. Firstly we should provide market research, test our product with a group of potential users, and we can use lean startup methodology to build our startup in the future.
-4. We will use DAU, MAU, Retention, NPS, CAC and LTV (in the best case) to measure the success of our product. Those metrics will help us to find out if users want to use our product regularly and they need this product.
-5. We will use the Build-Measure-Learn model, building small MVPs and prototypes we can measure if our product is useful for people and we can sell it in the future. In case we realized that our product is useless and people don’t want to use it, we would pivot and change our plans.
+[Your answers to the lean startup questionnaire here]
 
-
-## Leveraging AI, Open-Source, and Experts
+## **Leveraging AI, Open-Source, and Experts**
 
 Explain how your team plans to leverage the following resources for the development and success of your project:
 
-- AI (Artificial Intelligence): We will use AI for creating recommendations of sights and places for users.
-- Open-Source: We do not plan to use Open-Source sources at this time.
-- Experts in relevant domains: At the moment we do not have any experts involved.
+- AI (Artificial Intelligence):
+- Open-Source:
+- Experts in relevant domains:
 
-## Inviting Other Students
+[Your answers on leveraging AI, open-source, and experts here]
+
+## **Inviting Other Students**
 
 Are you open to inviting other students to join your project? If so, it's great to foster collaboration and expand your team. Feel free to discuss the project with your peers and encourage them to join if they are interested and motivated.
 
@@ -169,10 +127,10 @@ When considering inviting other students, you can think about the roles you are 
 
 Remember, talking to other students and finding potential team members to join your project is not only allowed but also encouraged. Embrace the opportunity to collaborate and create a strong team that can achieve great results together.
 
-#### Answers:
-Our team is not going to invite other students.
 
-## Defining the Vision for Your Project
+**[Your answer regarding drafting other students here]**
+
+## **Defining the Vision for Your Project**
 
 A clear and compelling vision is crucial for successful project planning. When you have a well-defined concept and a shared vision of what you aim to achieve, executing on that vision becomes significantly easier. Therefore, after thorough discussions and settling on a promising idea, it is essential to craft a comprehensive vision with your team. This vision should be detailed, encompassing your chosen tech stack, and anticipate potential future challenges. Below, describe your project using schematic drawings and provide elaborate explanations of all significant components.
 

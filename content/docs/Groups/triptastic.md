@@ -59,6 +59,15 @@ Ayaz has a few hours of free time to explore a new city where he comes for a bus
 Karina is a voyager/blogger who is continuously searching for intriguing locales to visit and afterward 
 share with her adherents. She advantages from the web app to discover secret and lesser-known attractions in the towns she visits which are put away in her own account for utilization on her blog.
 
+{{< hint danger >}}
+**Feedback**  
+
+Are you sure about the Differentiation? Because I know that in Google map you can save places privately. about the recommendation system I’m not sure but have you done market research? Did you check Trip advisor? 
+
+Very good using the person but, you really should add what uniques things you can add to the marked.
+
+_Feedback by Moofiy_
+{{< /hint >}}
 
 ### Lean Startup Questionnaire
 
@@ -88,6 +97,18 @@ Are you open to inviting other students to join your project? If so, it's great 
 When considering inviting other students, you can think about the roles you are looking for and any specific requirements. Be open to diverse skills and expertise that can contribute to the success of your project. Collaboration and teamwork can lead to innovative solutions and a richer learning experience.
 
 Remember, talking to other students and finding potential team members to join your project is not only allowed but also encouraged. Embrace the opportunity to collaborate and create a strong team that can achieve great results together.
+
+{{< hint danger >}}
+**Feedback**  
+
+The problem stated is weak. I love planning my Trip like a lot of people do. Beside how will you analyse my past trips. I will not tell you details.
+
+Users are too generic, “people” is not a targeted uses. Beside why 20-35? How did you can up with those numbers?
+
+Very good metrics and planing
+
+_Feedback by Moofiy_
+{{< /hint >}}
 
 #### Answers:
 Our team is not going to invite other students.
@@ -129,3 +150,24 @@ These include:
   - Frontend subsystem: The web application with UI that allows users to see their profiles and recommendations. This subsystem will be connected with the backend part to provide full service functionality.
   - Backend subsystem: The application that communicates with the frontend UI and stores all user and application data.
   - ML/AI subsystem: The service (part of the backend or independent one) which uses ML to build and recommend comprehensive routes to our users. It will communicate with the Backend subsystem to get users data and give new routes.
+  
+  
+  {{< hint danger >}}
+  **Feedback**  
+  In general very good report, I liked that you have wireframe though and you gave thoughts how to create the product. 
+  I believe you MUST do a market research to shape your product even better
+  5/5
+  
+  _Feedback by Moofiy_
+  {{< /hint >}}
+  
+  
+  {{< hint danger >}}
+  **Feedback**  
+  
+  No week 2 report?
+  
+  Grade 0/5 if this is a mistake and you already have the report, tell me where to find it please.
+  
+  _Feedback by Moofiy_
+  {{< /hint >}}

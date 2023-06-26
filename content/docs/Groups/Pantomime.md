@@ -232,3 +232,60 @@ After our first team meeting, we divided the team into three groups: frontend, b
 | Ivan Chernakov       | Designer, ML engineer          | 
 | Vitaliy Alifanov       | ML engineer                    | 
 | Vladislav Kulikov     | Team Lead, ML engineer         | 
+
+
+# **Week 3 report**
+
+## **Prototype Features**
+
+Now, in our prototype we have three main features:
+
+### 1. **Video uploading**
+
+<div style="text-align: center;">
+  <img src="/pantomime/image3_1.png" alt="Video uploading" width="500" height="500">
+</div>
+Users are able to upload a mp4 video file with Russian sign language used that they want to translate into text Russian.
+
+<div style="text-align: center;">
+  <img src="/pantomime/image3_2.png" alt="Example file" width="500" height="500">
+</div>
+Picking an example file.
+
+### 2. **Video processing**
+
+<div style="text-align: center;">
+  <img src="/pantomime/image3_3.png" alt="Video processing" width="500" height="500">
+</div>
+The uploaded text is sent to the backend and to the machine learning model when it is processed to extract the sign language gestures and convert them into text in Russian.
+
+### 3. **Translation output**
+
+<div style="text-align: center;">
+  <img src="/pantomime/image3_4.png" alt="Translation output" width="500" height="500">
+</div>
+The resulting text in Russian is sent back to the frontend and is displayed for the user to read.
+
+## **User Interface**
+
+Our UI was made as simple as possible to concentrate the user's attention on the most significant part - our RSL translation model. We have made a landing web page, where you can upload RSL video to Drag&Drop window.
+As you can see from the Prototype Features section, now we have simple UI, that allows you to upload video and get the translation, because it enough for the prototype version. But in the future, we are planning to expand our UI and add more features.
+
+## **Challenges and Solutions**
+
+* **No web server for deployment.** We don't have a web server with enough memory and GPU. So right now we can't combine our frontend, backend and ML parts into one project to test it. We are searching for a good web server to deploy our project. 
+* **Limited computational resources.** Training models for sign language recognition requires significant computational resources, which can be expensive. We addressed this challenge by using a pretrained model for now instead and plan to  use cloud-based computing resources, which would speed up the development process and reduce costs.
+* **Real-time processing.** Real-time processing is a hard task in terms of arranging everything together. Thus, currently, we provide only uploading files.
+
+## **Next Steps**
+
+At the moment, we are using a pre-trained model from SLOVO so that our frontend and backend groups can develop their parts without waiting for the model to be trained and prepared for inference.
+We intend to focus on the development of the frontend, slight improvement of the backend and a phased update of the model.
+
+**Priority list**:
+
+1. Find the server for deployment
+2. Create a model capable of recognizing RSL words in a video.
+3. Develop a front-end
+4. Improve the back-end
+5. Update the model to recognize RSL words in real-time

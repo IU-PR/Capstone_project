@@ -251,7 +251,7 @@ We ensure that each team member was effectively assigned to appropriate tasks an
 # Developing the first prototype, creating the priority list
 
 ## Technical Infrastructure: 
-We got the Ubuntu server from IU IT department and now we are setting up the CI/CD on it and preparing for the production. Also, we are working on domain for site for user access.
+- We got the Ubuntu server from IU IT department and now we are setting up the CI/CD on it and preparing for the production. Also, we are working on domain for site for user access.
 ## Backend Development:
 - We created a backend app that receives a data from the frontend and push it to the directed acyclic graph in the Airflow, waits for the result that should appear in RabbitMQ and returns it back to the frontend.
 - Considering machine learning part, we have successfully integrated the career path suggestions feature into our backend. Our focus now shifts towards roadmap generation. We have defined a prompt structure for the OpenAI API and conducted preliminary experiments with few-shot prompting. The next step is to integrate this feature into our MVP.

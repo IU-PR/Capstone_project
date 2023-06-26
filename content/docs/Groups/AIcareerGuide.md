@@ -245,3 +245,55 @@ Again, distribution of our responsibilities is:
 |Ivan Kornienko|Python: pandas, pytorch, scikit-learn; Databases: PostgreSQL; Docker|
 
 We ensure that each team member was effectively assigned to appropriate tasks and responsibilities within the project by assigning tasks and their status in Trello and providing regular meetings dedicated to each team member's progress.
+
+# **Week 03**
+
+# Developing the first prototype, creating the priority list
+
+## Technical Infrastructure: 
+We got the Ubuntu server from IU IT department and now we are setting up the CI/CD on it and preparing for the production. Also, we are working on domain for site for user access.
+## Backend Development:
+- We created a backend app that receives a data from the frontend and push it to the directed acyclic graph in the Airflow, waits for the result that should appear in RabbitMQ and returns it back to the frontend.
+- Considering machine learning part, we have successfully integrated the career path suggestions feature into our backend. Our focus now shifts towards roadmap generation. We have defined a prompt structure for the OpenAI API and conducted preliminary experiments with few-shot prompting. The next step is to integrate this feature into our MVP.
+The primary challenge lies in parsing the output from the GPT-model to a structured roadmap. This process necessitates a well-defined format for the roadmap. Our proposed solution is to acquire the roadmap as a string from the OpenAI API. This string will adhere to the structure of an enumerated list (i.e., 1, 1.1, 2, 2.1, 2.2, etc.).
+## Frontend Development: 
+- We created prototype using Figma. You can check it [here](https://www.figma.com/file/QDNRpes5bziKwAiKtTkM7Z/Untitled?type=design&mode=design&t=IO44qdhNKYF3DT6s-1).
+- Here you can see the stucture of project in React:   
+  ![Components](static/components.png)
+- Priority of functionality:
+  1. Home page (_Home.js, Header.js components_).
+  2. Questions pages (_Question.js_).
+  3. Rendering results of user (_Result.js_).
+  4. Applying design from Figma.
+## Data Management:
+We have a Airflow directed acyclic graph that it responsible for the data processing. At this particular moment our dag can receive the answers on the questions and return the job titles that correlates to the user's interests.
+## Prototype Testing: 
+- As you can see below, our Figma prototype is quite simple:
+![Prototype](static/prototype.png)
+- It performs following flow:
+  1. Renders main page and starts quiz after clicking "Start" button.
+  2. Give a user opportunity to iterate back and forward among questions.
+  3. After answering all questions, redirects user to page with rendered results.
+# Progress report
+## Prototype Features:
+At this moment, following workflow has been implemented:
+  1. Renders main page and starts quiz after clicking "Start" button.
+  2. After this click, front-end part receives JSON with questions and renders them one by one.
+  3. Then front-end part sends POST request with all answers choosen by user and receives results from Airflow pipiline in JSON format.
+## User Interface: 
+In detailes, there is such routing in prototype:
+- On the main page, user can click button "Start" to move to questions:
+![Main](static/main.png)
+- User can iterate back, forward or finish answering questions depending on number of question. Also, all questions are multi-choice.
+![FirstQuestion](static/first_question.png)
+![MiddleQuestion](static/middle_question.png)
+![LastQuestion](static/last_question.png)
+- The last page in prototype is thedown  page with user results: suitable vacancies and roadmap. Maybe, later we can make each "vacancy" component clickable and provide more information about vacancy after click.
+![Result](static/result.png)
+## Challenges and Solutions:
+- Public IP address for our server. The solution is VPN to the university network in order to make it accessible for the GitLab CI/CD.
+- The API we're currently using is not capable to fetch key skills from each job offer. The solution is to use OpenAI technology which obtains job offer description as input and returns the array of key skills as output.
+Next Steps - configure the application to request HeadHunter API using.
+## Next Steps:
+* Publish prototype in the Internet.
+* Add new features as roadmaps and vacancies.

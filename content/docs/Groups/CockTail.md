@@ -202,7 +202,7 @@ _Feedback by Moofiy_
 - **Backend:** Leonid Zelenskiy
     - Email Address: [l.zelenskiy@innopolis.university](mailto:l.zelenskiy@innopolis.university)
     - Responsibilities: backend, deployment
-    - Technologies, frameworks, and programming languages:
+    - Technologies, frameworks, and programming languages: Python, FastAPI, SQLite
 - **RL Model:** Polina Bazhenova, Arina Yartseva
     - Email addresses: [p.bazhenova@innopolis.university](mailto:p.bazhenova@innopolis.university), [a.yartseva@innopolis.university](mailto:a.yartseva@innopolis.university)
     - Responsibilities: preprocessing the data, creating and training the model for generating new cocktails
@@ -317,3 +317,64 @@ Over the past week there is changes in our project plan. We decided to make the 
 As of the progress in our project, we have found a suitable dataset and finished its preprocessing. Also, we have developed a design for the future web application. In addition, we explored the materials on cocktail theory and interviewed some prospective experts in order to dig deeper into the main idea of our project.
 
 We’ve designed different variants of UI, but didn’t decided which to choose. Also we are planning to change backend stack from Django to FastAPI, since there’s no need for such functional framework. 
+
+# **Week 3**
+## **User Interface**
+
+https://broken-queen-4052.on.fleek.co/ (UI is not adapted for mobile yet)
+
+## **Prototype Features**
+
+- Mix up! and Top 10 UI.
+- Mix up! API.
+- Processed dataset.
+- Simple implementation for generator.
+
+## **Achievements**
+
+- **ML**
+    
+    First, our AI team processed and analyzed the data which was gained during previous weeks. They developed the table of ingredient probabilities based on which our future model would generate the cocktails. Additionally, they implemented the Greedy Epsilon algorithm that already at this moment offers the simple chain of ingredients.
+
+- **Backend**
+  
+    On the server side we implemented an API which returns you all the ingredients for your choice, and then returns 3 generated recipes with one of your chosen ingredients.
+
+    Get the ingredients by `/mixup` path:
+    
+    <div style="text-align: center;">
+    <img src='/CockTail/Week3/mixup.png'> 
+    </div>
+
+    Get the recipes by `/mixup/result` path (you should provide starting ingredient):
+
+    <div style="text-align: center;">
+    <img src='/CockTail/Week3/result1.png'> 
+    </div>
+    <div style="text-align: center;">
+    <img src='/CockTail/Week3/result2.png'> 
+    </div>
+
+    However, server side is not deployed yet.
+
+- **Data management**
+    
+    We uploaded all the ingredients to the `.sqlite3` database which can be filled up with `.csv` files.
+    
+    Also we calculate the scores, number of its’ ratings and alcoholic strength, add to the database as new columns.
+
+## **Challenges and solutions**
+
+- The dataset was poorly processed and we had to study a lot of documentation in order to correctly wrangle it.
+- Some minute issues with `FastAPI` framework which were solved with documentation.
+- We faced up with the problem of distribution ingredients into non-alcoholic and alcoholic. So we go through whole ingredients and use OpenAI model to detect alcoholic ones.
+
+## **Next steps**
+
+- Train the model
+- Improve database with the columns of the taste characteristics
+- Provide an API for `Top 10` cocktails and `Pick Up!` with filters
+- Finish UI for `Pick Up!` page
+- Connect back-end and front-end parts
+- Provide an API for generating images for cocktails
+- Adapt UI for mobile

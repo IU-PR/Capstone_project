@@ -150,8 +150,8 @@ For now, we decided to use these stacks/frameworks for our project:
 2. **Data Management**: Data will be stored in a postrgres Database. There the questions, answers and a REFERENCE to audio files(questions and answers) will be stored.
 
 3. **User Interface (UI) Design**: Our UI will be a simple chat-looking page with additional feature to write and compile user's code. Below you can see how it will look like.
-![webpage_ex1](/../../static/MockMentor/webpage_ex1.jpg)
-![webpage_ex2](/../../static/MockMentor/webpage_ex2.jpg)
+![webpage_ex1](/../../blob/master/static/MockMentor/webpage_ex1.jpg)
+![webpage_ex2](/../../blob/master/static/MockMentor/webpage_ex2.jpg)
 
 4. **Integration and APIs**: RestAPI will be used for communication between frontend and backend. Backend and ML service will communicate through grpc. 
 

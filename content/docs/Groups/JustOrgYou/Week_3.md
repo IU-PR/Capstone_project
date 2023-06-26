@@ -36,17 +36,16 @@ For overview, list of features:
 
 - developed mobile app under the hood business logic template, integrate NoSQL
   database and network management
-- implemented mobile app basic ui
-- adapted figma design for further ui development <!-- TODO rephrase if text is
-  not close enough -->
+- implemented mobile app basic UI
+- adapted Figma design for further UI development <!-- TODO rephrase if text is not close enough -->
 - proved concept that rust is able to run on mobile devices
-- created mvp backed
+- created MVP backed
 - developed ML part for searching similar tasks
 
 ### Todo library
 
 In our [Rust Library](https://github.com/JustOrgYou/joy-todo-library) we've
-implemented main datastructures that will serve as an API for the external
+implemented main data structures that will serve as an API for the external
 interactions.
 
 Also we've successfully tested possibility to execute rust code from Flutter
@@ -72,12 +71,12 @@ mind, we use abstraction over it.
 
 ## User Interface
 
-We updated our [figma prototype!](https://www.figma.com/file/gc679jQhRxzZi29xVcwOO0/ui-workflow?type=design&node-id=0-1&mode=design):)
-We intentionally left design more about UX, for since for mvp it is deadly
+We updated our [Figma Prototype!](https://www.figma.com/file/gc679jQhRxzZi29xVcwOO0/ui-workflow?type=design&node-id=0-1&mode=design):)
+We intentionally left design more about UX, for since for MVP it is deadly
 important to focus on primary features. Styling is postponed, but we plan to
 follow our style, [check it here](https://www.figma.com/file/gc679jQhRxzZi29xVcwOO0/ui-workflow?type=design&node-id=108-2&mode=design).
-Well, to desribe primary mechanics, imagine that tinder made app for sorting
-your tasks. Required time to implement it in figma is considerable, so we define
+Well, to describe primary mechanics, imagine that tinder made app for sorting
+your tasks. Required time to implement it in Figma is considerable, so we define
 basics and left it to mobile devs. Wait for an update if it not fully clear now.
 
 What about things already realized in app? Let's check gallery a bit
@@ -97,12 +96,12 @@ as we though to run Rust on mobile device. For now it is still quite complicated
 manual process to link things for app publishing. In future we want to use
 scripts at least but tends to integrate CI. And to separate direct native
 dependency in app, we want to create separate package that will be used in app.
-So, it is quite painfull for now, but very rare since app uses mock during
+So, it is quite painful for now, but very rare since app uses mock during
 library development.
 
 ## Next Steps
 
-We want to update ui, since couple of bugs found and start implementing primary
+We want to update UI, since couple of bugs found and start implementing primary
 mechanics. Since required parts satisfy it tends to be not too complicated.
 Second part is to get rid of pain during native code update. This is quite
 challenging task but not emergent. So we plan to fit into two weeks with that.

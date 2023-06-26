@@ -1,6 +1,10 @@
 # Jurnalik
-![Logo](/Jurnalik/jurnalik.svg)
 
+`Do you like real newspaper?`
+
+<div style="text-align: center;">
+  <img src="/Jurnalik/jurnalik.svg" alt="Jurnalik Logo" width="300" height="300">
+</div>
 
 Jurnalik is a mobile application, an electronic "newspaper" that collects and provides the user with the latest news, posts and photos from their social networks, news channels and subscriptions in one application.
 
@@ -299,7 +303,7 @@ Most departments conclude two developers except DevOps.
 | Oksana Konovalova    | [@ksko02](https://t.me/ksko02)                       | o.konovalova@innopolis.university   |
 | Adelina Kildeeva     | [@yumiue](https://t.me/yumiue)                       | a.kildeeva@innopolis.university     |
 
-In Copyright Department are two developers: Adeline and Oksana. Department has a separate meetings where developers discuss tasks and distribute them.
+In Copyright Department are two developers: Adelina and Oksana. Department has a separate meetings where developers discuss tasks and distribute them.
 Project has two main ML problems: categorisation and comparsion. So, Adelina takes Comparison part and do most researched. Oksana takes Categorization problem and test found solutions.
 #### Frontend Department
 
@@ -337,9 +341,6 @@ Back-end Department: Studied the VK and telegram documentation and how to intera
 Copyright Department: Studied existing sources on the topic of categorization and comparison of texts, collected data on which training and evaluation of models will be carried out, and preprocessed the data.
 
 DevOps Department: Together with the back-end department, the architecture was thought out, in the process a deep study of the aspects necessary for implementation and described above is underway.
-# Instagram Remark
-*Признаны экстремистскими организациями и запрещены на территории РФ
-*Recognized as extremist organizations and banned on the territory of the Russian Federation
 
 {{< hint danger >}}
 **Feedback**  
@@ -384,3 +385,120 @@ Grade 1/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+## Week 3. The First Prototype and Priority list
+
+The main goal of the third week was to develop and test the first prototype. Our team finalized the architecture of the application, implemented some of the functionality, and made a list of priorities for future work.
+
+
+### Technical Infrastructure
+We have defined the final version of our application infrastructure (picture below). It represents a GitHub repository with further CI/CD. The server side will include Docker-Compose and deployment on a server (our own rented virtual server).
+    
+![infrastucture.drawio.png](/Jurnalik/infrastucture.drawio.png)
+    
+
+    
+#### Data Management
+We defined the architecture of the database. full_user_id contains the ids of users and their identifiers in authorized social networks. Post tables store user posts, and items contain post items (text, photo, video, or audio). raw_post contains the user's extracted posts using the social network API and prepared_post contains the processed posts where categories are defined and duplicates are removed.
+
+![dbStructure.drawio.png](/Jurnalik/dbStructure.drawio.png)
+    
+### Implemented functionality
+
+#### Backend Development
+Backend department developed selectors for news extraction:
+ - Telegram bot, where the user can send all the channels they are interested in
+ - Retrival of the groups that the user is subscribed to using OAuth VK
+    
+ML department developed a module for news processing:
+     
+ - ML model that determines the category of the news based on the text (the accuracy of the model is 0.8, it will be increased with the expansion of the dataset)
+ - Method for identifying duplicate news using TfidfVectorizer
+
+#### Frontend Development
+    
+Frontend department have developed a prototype in Figma, the link to which will be below. The beginning of work, as expected, consisted of building wireframes, agreed with the entire team. After, following all the logistical rules (UX) and design solutions (UI), a convenient and beautiful prototype was developed. All interactions and likely user steps were tested on an interactive prototype with built-in connections. Our interface is intuitive, does not include many steps, so the user immediately gets to the desired content. Ultimately, at the MVP stage, it is planned to have 4 pages, as presented in the prototype: authorization page, front page (title page), feed page (collection of all the news of the day) and post page (full post page). The functionality of each of them is also intuitive:
+    
+1. Authorization and selection of desired sources for posts
+2. A small representative assembly of the day, meeting a bright page
+3. A page with all the news for the day, with the ability to sort by topic or social network
+4. Page presenting the selected post in its entirety
+
+### Prototype
+
+#### **[Link of Prototype](https://www.figma.com/file/O4nNzihMxgs9Drq6BeDpeS/Capstone?type=design&node-id=0%3A1&mode=design&t=wpibksqgE1Q1ylY2-1)**
+
+#### **Prototype Testing**
+After developing the prototype, our team had a meeting where we discussed the available features and evaluated the convenience of using the app and also made a few changes:
+
+- **Back Button**
+
+We were minding about saving “Back Button” in the left down corner. But after getting feedback we realized that it interferes with the review of posts and is unnecessary.
+
+With button             |  Without button
+:-------------------------:|:-------------------------:
+![Снимок экрана 2023-06-25 в 18.53.19.png](/Jurnalik/backButton1.png)  |  ![Снимок экрана 2023-06-25 в 18.54.03.png](/Jurnalik/backButton2.png)
+
+- “Following” is changed by some post category because our app give posts from following sources.
+
+"Following" text             |  Specific tag 
+:-------------------------:|:-------------------------:
+![Снимок экрана 2023-06-25 в 18.54.03.png](/Jurnalik/screenshot1.jpg) |  ![Снимок экрана 2023-06-25 в 18.54.03.png](/Jurnalik/screenshot2.jpg)
+
+- **“Jurnalik” heading.** We’ve minding about saving or removing this on ‘post page’. After feedback we decide to save it. 
+
+![Untitled](/Jurnalik/jurnalikHeadingProblem.png)
+
+#### **Prototype Features**
+
+You can view our prototype via the link right in Figma, see the work with frames, component sets and connections, as well as switch to view mode and click through all the pages yourself. Below is a GIF that shows the interaction with the prototype.
+
+Functionality: the user, entering our application, will follow the following journey map:
+
+- auth page: Authorization page giving the opportunity to log in the desired social networks for further receiving news posts from them. After authorization, the user clicks on the arrow at the bottom of the page and goes to the front page
+- front page: The page is a digital analogue of a newspaper title page. There, the user sees a small number of posts, the weather (because in theory the user will access our application in the morning, this is a useful feature) and the ability to go to the feed page.
+- feed page: A page where all aggregated posts are collected, in the fixed menu bar at the top of the page, you can sort news by tag and / or social network (tags and social networks are also indicated next to the posts)
+- post page: The page that expands when the user clicks on a post from the feed page. It contains full text, pictures and potentially will contain audio content.
+
+| Auth Page | Front Page | Feed Page | Post Page |  
+|-------------------------|-------------------------|-------------------------|-------------------------|
+| ![pic](/Jurnalik/authPage.png) | ![pic](/Jurnalik/front_page.png) | ![pic](/Jurnalik/feed_page.png) | ![pic](/Jurnalik/post_page.png) | 
+
+User Journey Map, in general, is presented above and in the YouTube, all interactions are also registered and visible in the YouTube link.
+
+#### User Interface
+
+[Link to video of prototype](https://youtu.be/hjcdvSZh6Os)
+
+<iframe id="player" type="text/html" width="640" height="360"
+  src="https://www.youtube.com/embed/hjcdvSZh6Os?enablejsapi=1&origin=http://example.com"
+  frameborder="0"></iframe>
+
+Link to the [Figma Prototype](https://www.figma.com/file/O4nNzihMxgs9Drq6BeDpeS/Capstone?type=design&node-id=0%3A1&mode=design&t=wpibksqgE1Q1ylY2-1) is above as well as the User Journey Map and interactions description 
+    
+### Challenges and Solutions
+    
+Major challenges in prototype development:
+1. **Services communication**. Initially we planned to implement the services communication through grpc. In this case the application would crash if there was a problem with any of the services. So we added a database to the application architecture for the reliability of the product.
+2. **Telegram API modules**. Telethon is convenient for extracting user channels, but it is not safe for the users (we literally get access to all of the user's data and actions). So we decided to write a bot on telebot, where the user can send his channels.
+3. The **Vkontakte API** has a limit on the number of requests per second. In the future this may affect the running time of the application.
+4. **Model for photo categorization.** Some posts have no text. They can have just pictures or information in the form of images. For this case we need to implement a model capable of reading the information from the photo and categorize it.
+    
+
+### Next Steps
+
+Priority list:
+
+1. Implement database for posts storage
+2. Connect the services of the project
+3. Parsing news from retrieved user groups and channels
+4. Continue the development of the frontend 
+5. Develop Jurnalik API with Swagger documentation
+6. Implement categorization model for images
+7. Improve the accuracy of the model by expanding the dataset
+
+
+## Instagram Remark
+*Признаны экстремистскими организациями и запрещены на территории РФ
+
+*Recognized as extremist organizations and banned on the territory of the Russian Federation

@@ -1,6 +1,5 @@
 ---
-bookFlatSection: true
 bookCollapseSection: true
-weight: 10
+weight: 1
 title: "JustOrgYou"
 ---

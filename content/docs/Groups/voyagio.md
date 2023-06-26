@@ -351,7 +351,7 @@ Another challenge for the developers is to ensure that both the backend and fron
 <h3>Next Steps:</h3>
 
 In the coming weeks, our development team has outlined a clear plan for the project, focusing on specific features and improvements that need to be implemented. Below is a list of priority features that we intend to work on:
-- Add logic to frontend and connect with backend using API.
+- Continue add logic to frontend and connect with backend using API.
 - Increase fields and entities in the database, add neccesasary logic in backend for MVP
 - Deploy on the server and provide a link for the application
 - Write a ML model, learn it and connect with the web application
@@ -359,12 +359,12 @@ In the coming weeks, our development team has outlined a clear plan for the proj
 - Write test
 
 To ensure efficient project management, we have created plans for the second sprint, which will be discussed during the upcoming weekly meeting on Tuesday:
-- Complete market research in topic of the application (travel trends in Russia 2023-2024)
-- Start adding logic to Authorization page (connect with API) and finish the layout on Search page
+- Continue add logic to Authorization page (connect with API) and finish the layout on other pages
 - Add additional functionality to the backend according to the design
 - Finish deployment on the server and configuration CI/CD
 - Discuss functionality that will be implemented after MVP (we are olaning to add some social components e.g news and logic where users will communicate together)
 - Improve the previous weeks report, according to feedback
+- Complete market research in topic of the application (travel trends in Russia 2023-2024)
 
 <h3> Reflection: </h3>
 In the end  of the sprint we were able to complete all the tasks planned for the sprint. this means that the tasks for the first sprint were distributed competently between the team members. everyone worked hard during the week without downtime and achieved their goal.As a result, we were able to deliver high-quality work within the given time frame, and we are now better prepared for future sprints.

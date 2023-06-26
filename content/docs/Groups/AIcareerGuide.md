@@ -256,6 +256,8 @@ We ensure that each team member was effectively assigned to appropriate tasks an
 - We created a backend app that receives a data from the frontend and push it to the directed acyclic graph in the Airflow, waits for the result that should appear in RabbitMQ and returns it back to the frontend.
 - Considering machine learning part, we have successfully integrated the career path suggestions feature into our backend. Our focus now shifts towards roadmap generation. We have defined a prompt structure for the OpenAI API and conducted preliminary experiments with few-shot prompting. The next step is to integrate this feature into our MVP.
 The primary challenge lies in parsing the output from the GPT-model to a structured roadmap. This process necessitates a well-defined format for the roadmap. Our proposed solution is to acquire the roadmap as a string from the OpenAI API. This string will adhere to the structure of an enumerated list (i.e., 1, 1.1, 2, 2.1, 2.2, etc.).
+- API response example:
+  ![Components](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/API.png)
 ## Frontend Development: 
 - We created prototype using Figma. You can check it [here](https://www.figma.com/file/QDNRpes5bziKwAiKtTkM7Z/Untitled?type=design&mode=design&t=IO44qdhNKYF3DT6s-1).
 - Here you can see the stucture of project in React:   

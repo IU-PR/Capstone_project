@@ -1,11 +1,9 @@
-
-## Report 1
-=======
 ---
 weight: 1
 bookFlatSection: true
 title: "Kringe Production"
 ---
+
 # **Introduction**
 
 {{< hint danger >}}
@@ -495,6 +493,7 @@ Pic. 6. Upload Page in desktop version in light mode
 Pic. 6. Upload Page in mobile version in light mode
 
 ## **Development Report** 
+
 **Problems and Difficulties**
 
 During the development of the project on the Django platform, we encountered several problems and difficulties, especially considering our previous experience of developing on the platform.NET.
@@ -515,8 +514,13 @@ From the problems of developing the front part of the project, the problem of ac
 {{< hint danger >}}
 
 **Feedback**  
+I am impressed by the prototype features you have developed. The main page of the forum, with its user-friendly interface, will make it easy for students to engage in discussions, and access relevant resources. The sidebar with course navigation will enable seamless navigation between courses, enhancing the overall user experience. The user interface of UniHub, as showcased in the provided screenshots, looks clean and intuitive - good job on that. 
 
-Hi, this is a very wonderful project, and I am sure it will have a lot of users once ready - hundreds of Innopolis students will be glad that you've spent time building this resource! Since this course aims to finish the semester with an MVP - minimal viable product, consider scaling your project down to creating a web app that does core/main things. Outline main features of your project and focus on execution. I would also think about which particular parts you can strip down - for example UI can be very simple (I am saying all this because we have only 7 weeks). Overall, I think this is a very good project idea, that now requires a well-planned execution. Therefore, plan for simplified version that showcases main features.
+The differentiation of UniHub as a platform tailored specifically for university students sets it apart from other generic resources. I think you may want to frame your project as essentially a social network with enhanced features for University students. 
+
+Also, appreciate your transparency in sharing the problems and difficulties faced during the development process. It is evident that your team's perseverance and dedication will help you get through. 
+
+Good job, 5/5 for the week!
 
 {{< /hint >}}
 

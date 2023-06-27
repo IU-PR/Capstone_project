@@ -156,7 +156,7 @@ Overall, I think you have a great team and a very nice project. Try to scale it 
 ## Architecture Design
 1. Component Breakdown:
 
-	![](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/architecture.png)
+	![](/AICareerGuide/architecture.png)
 
 	* Front-end and back-end are "agreeing" on an interface of REST API messages and work with each other using that.
 	* Backend trigger Airflow Directed Acyclic Graph in order to start processing the query of the user.
@@ -175,7 +175,7 @@ Overall, I think you have a great team and a very nice project. Try to scale it 
 	We have created [a simple UI sketch](https://www.figma.com/file/fECQWJjZB6fJCJnE5aKjCo/ai-roadmap.com-(Copy)?type=design&node-id=1403-2224) in Figma on how it will look like
 
 4. Integration and APIs:
-   	* We are going to intergrate with OpenAI API for determination of job-related information.
+   	* We are going to integrate with OpenAI API for determination of job-related information.
 
 6. Scalability and Performance:
 	* In order to make future changes more simple, we decided to use Airflow, since there it is simple to add new tasks in a graph of processes.
@@ -257,11 +257,11 @@ We ensure that each team member was effectively assigned to appropriate tasks an
 - Considering machine learning part, we have successfully integrated the career path suggestions feature into our backend. Our focus now shifts towards roadmap generation. We have defined a prompt structure for the OpenAI API and conducted preliminary experiments with few-shot prompting. The next step is to integrate this feature into our MVP.
 The primary challenge lies in parsing the output from the GPT-model to a structured roadmap. This process necessitates a well-defined format for the roadmap. Our proposed solution is to acquire the roadmap as a string from the OpenAI API. This string will adhere to the structure of an enumerated list (i.e., 1, 1.1, 2, 2.1, 2.2, etc.).
 - API response example:
-  ![Components](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/API.png)
+  ![Components](/AICareerGuide/API.png)
 ## Frontend Development: 
 - We created prototype using Figma. You can check it [here](https://www.figma.com/file/QDNRpes5bziKwAiKtTkM7Z/Untitled?type=design&mode=design&t=IO44qdhNKYF3DT6s-1).
 - Here you can see the stucture of project in React:   
-  ![Components](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/components.png)
+  ![Components](/AICareerGuide/components.png)
 - Priority of functionality:
   1. Home page (_Home.js, Header.js components_).
   2. Questions pages (_Question.js_).
@@ -271,7 +271,7 @@ The primary challenge lies in parsing the output from the GPT-model to a structu
 We have a Airflow directed acyclic graph that it responsible for the data processing. At this particular moment our dag can receive the answers on the questions and return the job titles that correlates to the user's interests.
 ## Prototype Testing: 
 - As you can see below, our Figma prototype is quite simple:
-![Prototype](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/prototype.png)
+![Prototype](/AICareerGuide/prototype.png)
 - It performs following flow:
   1. Renders main page and starts quiz after clicking "Start" button.
   2. Give a user opportunity to iterate back and forward among questions.
@@ -285,14 +285,14 @@ At this moment, following workflow has been implemented:
 ## User Interface: 
 In detailes, there is such routing in prototype:
 - On the main page, user can click button "Start" to move to questions:
-  ![Main](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/main.png) 
+  ![Main](/AICareerGuide/main.png) 
 - User can iterate back, forward or finish answering questions depending on number of question. Also, all questions are multi-choice.
   
-  ![FirstQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/first_question.png)
-  ![MiddleQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/middle_question.png)
-  ![LastQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/last_question.png)
+  ![FirstQuestion]( /AICareerGuide/first_question.png)
+  ![MiddleQuestion](/AICareerGuide/middle_question.png)
+  ![LastQuestion](/AICareerGuide/last_question.png)
 - The last page in prototype is thedown  page with user results: suitable vacancies and roadmap. Maybe, later we can make each "vacancy" component clickable and provide more information about vacancy after click.
-  ![Result](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/result.png)
+  ![Result](/AICareerGuide/result.png)
 ## Challenges and Solutions:
 - Public IP address for our server. The solution is VPN to the university network in order to make it accessible for the GitLab CI/CD.
 - The API we're currently using is not capable to fetch key skills from each job offer. The solution is to use OpenAI technology which obtains job offer description as input and returns the array of key skills as output.
@@ -304,3 +304,13 @@ Next Steps - make app applicable for HeadHunter in order to get their API key.
 
 ## Code Repository:
 https://gitlab.com/ai-career-guide/backend/-/tree/develop?ref_type=heads
+
+{{< hint danger >}}
+**Feedback**  
+I appreciate the transparency in sharing the progress of the project and the inclusion of the Week 2 questionnaire responses. It's good to see the allocation of team members and their responsibilities, ensuring efficient task distribution. The mentorship support may be lacking at the moment, but the team's proactive approach to learning and leveraging resources like ChatGPT is commendable.
+
+The Architecture Design is clear and provides a good overview of how the different components interact with each other. I particularly like the use of Airflow for monitoring workflows and the integration with OpenAI for job-related information.
+
+Consider visiting the MockMentor project page, I think you may want to collaborate and perhaps even join your projects in the future. Finally, I'm excited to see the development of the first prototype in Week 3. Keep up the great work, and I look forward to the continued success of our project. 
+Overall, nice progress and thoughtful reports - 5/5 for both weeks.  
+{{< /hint >}}

@@ -85,7 +85,7 @@ For now, our team does not think it will need any collaboration in developing th
 The project is about creating mock job interviews with an AI that functions as an interviewer. It allows people to get ready to future job interviews via near-real job interview experience.
 
 - Schematic Drawing:
-![Schematic Drawing](/../../static/MockMentor/schematic_drawing.svg)
+![Schematic Drawing](/MockMentor/schematic_drawing.svg)
 
 - Tech Stack:
 For now, we decided to use these stacks/frameworks for our project:
@@ -247,8 +247,8 @@ Below you can see the tasks that we finished this week:
  - Prototype Features: speech-to-text, text-to-speech. ML is connected to back. frontend is almost connected to backend.
 
  - User Interface: 
-    ![ui1](/../../blob/master/static/MockMentor/ui1.jpg)
-    ![ui2](/../../blob/master/static/MockMentor/ui2.jpg)
+    ![ui1](/MockMentor/ui1.jpg)
+    ![ui2](/MockMentor/ui2.jpg)
 
  - Challenges and Solutions: Share any challenges or obstacles you encountered during the development of your prototype. Describe how you addressed these challenges and provide insights into the solutions you implemented.
     - ML: some models can not handle big texts - changed models to those that can handle big texts. while merging with backend problems with dependencies occured - upgraded the versions of libraries
@@ -261,4 +261,13 @@ Below you can see the tasks that we finished this week:
     - frontend: merge with backend, code window
     - database: write dataset for testing 
 
----
+
+{{< hint danger >}}
+
+**Feedback**  
+Hi, glad to see good progress on the project! Your idea is already taking shape, as it's evident by the first prototype that you have shown in the report. 
+In general, I think this project can be very influential, as virtually everyone who ever applied to a job would be better off by using this service. Also, job search portals like HH.ru and others don't have such a feature, so you are truly on the frontier! 
+I think this project is innovative and exciting - and I am sure backend integration with the frontend will be timely completed. I also like that you decided to keep simple UI with only basic features. 
+Keep up the pace and continue the good work!
+5/5 for both weeks.
+{{< /hint >}}

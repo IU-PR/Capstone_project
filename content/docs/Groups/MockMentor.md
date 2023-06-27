@@ -85,7 +85,8 @@ For now, our team does not think it will need any collaboration in developing th
 The project is about creating mock job interviews with an AI that functions as an interviewer. It allows people to get ready to future job interviews via near-real job interview experience.
 
 - Schematic Drawing:
-![Schematic Drawing](/../../blob/master/static/MockMentor/schematic_drawing.svg)
+
+![Schematic Drawing](/MockMentor/schematic_drawing.svg)
 
 - Tech Stack:
 For now, we decided to use these stacks/frameworks for our project:
@@ -114,9 +115,6 @@ To further enhance your project, consider expanding on the specific features and
 Will it be a language model with a dedicated persona? Which language model you want to use? In general, I think you can contact Vladimir Ivanov, as far as I know, he works on a similar topic
 {{< /hint >}}
 
-# **Week #2**
-
-{{< hint danger >}}
 ## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
 
 ### **Tech Stack Selection**
@@ -150,8 +148,8 @@ For now, we decided to use these stacks/frameworks for our project:
 2. **Data Management**: Data will be stored in a postrgres Database. There the questions, answers and a REFERENCE to audio files(questions and answers) will be stored.
 
 3. **User Interface (UI) Design**: Our UI will be a simple chat-looking page with additional feature to write and compile user's code. Below you can see how it will look like.
-![webpage_ex1](/../../blob/master/static/MockMentor/webpage_ex1.jpg)
-![webpage_ex2](/../../blob/master/static/MockMentor/webpage_ex2.jpg)
+![webpage_ex1](/MockMentor/webpage_ex1.jpg)
+![webpage_ex2](/MockMentor/webpage_ex2.jpg)
 
 4. **Integration and APIs**: RestAPI will be used for communication between frontend and backend. Backend and ML service will communicate through grpc. 
 
@@ -221,3 +219,56 @@ Below you can see the tasks that we finished this week:
 - Frontend - made the design for our website and wrote the frontend in Typescript from design made. 
 - Backend - Chose the architecture(domen driving design) and got familiarized with documentation of libraries and frameworks. Formed and broke down the tasks.
 - Design - made the design for the website, right now the logo is being made
+
+# **Week #3**
+
+
+- **Technical Infrastructure**: All of the necessary technical infrastructure required to support your prototype development should be ready to use. If this is still not done, make it a priority number one. This may involve creating a shared development environment, including all necessary frameworks and platforms (i.e., GPU servers). Ensure that your development environment is ready for efficient coding and testing. Make sure all team members can efficiently utilize the development infrastructure, if not - organize learning sessions explaining the process. This is an absolute priority for the success of the project.
+    - Frameworks: 
+        - backend: FastAPI
+        - frontend: React
+        - ML: pytorch
+    - Platforms: server on Arch, upload from Github, use PM2(allows to track processes, support them, kill them), everything is wrapped with docker. 
+
+- **Backend Development**: 
+    - ML: text-to-speech and speech-to-text is already done, semantical comparison of text in process. ML model is already merged with backend.
+    - APIs: RestAPI, grpc are already nastroeny and function
+    - Server-side logic: PM2 - visor that checks whether everything is functioning. 
+
+- **Frontend Development**: UI and the website itself is ready, messages between server and user are already possible. Right now, backend and frontend are merging
+
+- **Data Management**: Scheme and database are already done. Dataset writing is in progress.
+
+- **Prototype Testing**: Right now our team uses manual testing. We are going to write tests later
+
+---
+
+## **Progress report**:  
+
+ - Prototype Features: speech-to-text, text-to-speech. ML is connected to back. frontend is almost connected to backend.
+
+ - User Interface: 
+    ![ui1](/MockMentor/ui1.jpg)
+    ![ui2](/MockMentor/ui2.jpg)
+
+ - Challenges and Solutions: Share any challenges or obstacles you encountered during the development of your prototype. Describe how you addressed these challenges and provide insights into the solutions you implemented.
+    - ML: some models can not handle big texts - changed models to those that can handle big texts. while merging with backend problems with dependencies occured - upgraded the versions of libraries
+    - backend: backend did not set up on server - wrapped with docker. problems with cors(backend and frontend couldn't communicate) - turned off cors. Code did not correspond to PEP8: downloaded formators, lintr - nastroili and formatted the whole code.  
+    - frontend: problems with interacting with backend. Solved by using docker.
+
+- Next Steps: 
+    - ML: finish a model to compare semantiacal similarity of texts
+    - backend: merge with frontend, adjust the server
+    - frontend: merge with backend, code window
+    - database: write dataset for testing 
+
+
+{{< hint danger >}}
+
+**Feedback**  
+Hi, glad to see good progress on the project! Your idea is already taking shape, as it's evident by the first prototype that you have shown in the report. 
+In general, I think this project can be very influential, as virtually everyone who ever applied to a job would be better off by using this service. Also, job search portals like HH.ru and others don't have such a feature, so you are truly on the frontier! 
+I think this project is innovative and exciting - and I am sure backend integration with the frontend will be timely completed. I also like that you decided to keep simple UI with only basic features. 
+Keep up the pace and continue the good work!
+5/5 for both weeks.
+{{< /hint >}}

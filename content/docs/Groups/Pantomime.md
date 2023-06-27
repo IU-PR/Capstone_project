@@ -289,3 +289,17 @@ We intend to focus on the development of the frontend, slight improvement of the
 3. Develop a front-end
 4. Improve the back-end
 5. Update the model to recognize RSL words in real-time
+
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+I've read through the week 2 and 3 reports and I think you have a nice progress. 
+It seems there should be some good solutions already published about detecting gestures from the real-time video - I suggest you to explore this area as well. I think gesture detection architectures should be more or less applicable to RSL. 
+The first UI of the project - very good.
+Also, appreciate the detailed plan for further development.
+
+Overall, good reports and progress. 5/5 for both weeks
+
+{{< /hint >}}

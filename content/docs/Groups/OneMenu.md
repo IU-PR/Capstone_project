@@ -12,8 +12,9 @@ Nowadays there are many ways for customers to order goodies and services. Big co
 
 ## **Weekly reports**
 
-{{< details "**Week 1**">}}
+{{< expand "Week 1">}}
 
+  
 ## **Introduction**
 
 Nowadays there are many ways for customers to order goodies and services. Big corporations such as Ozon, Avito and Yandex have already taken part of the market. However, small businesses still in need of a single customizable application, which will allow better customer experience. After some research, we found that all the available solutions are lacking essential functionalities, such as intuitive UI/UX design, quick in-application support, useful statistics, etc. **Onemenu** is our solution to the problem.
@@ -147,9 +148,9 @@ We plan to use AI in several ways:
 You have a great team and a great project! It is also clear that you have a properly defined vision for the project. The idea of the Capstone is to create a smallest working prototype - therefore, take one menu from one restaurant and try to showcase you technology. Scale down your project to the main features and execute on the main parts.
 {{< /hint >}}  -->
 
-{{< /details >}}
+{{< /expand >}}
 
-{{< details "**Week 2**">}}
+{{< expand "Week 2">}}
 
 ## **Introduction**
 
@@ -232,9 +233,9 @@ As for data management we plan to use the PyMongo library to access our Mongo da
 
 ![Our flow](/Onemenu/flowDiagram.svg)
 
-{{< /details >}}
+{{< /expand >}}
 
-{{< details "**Week 3**">}}
+{{< expand "Week 3">}}
 
 ## **Developing the first prototype, creating the priority list**
 
@@ -285,7 +286,16 @@ Let's discuss the progress report in details, what have done, what will be done 
   2. Test our architecture and fix bugs
   3. Polish the prototype and prepare for the presentation
 
-{{< /details >}}
+{{< hint danger >}}
+
+**Feedback**  
+I have reviewed the reports for Week 2 and Week 3, and I must say they are well-organized and effectively communicate the progress of your project. It is evident that you have put careful thought into the development process. Once the foundational components are in place, I anticipate that further development to create a functional and useful codebase should proceed smoothly.
+
+I am pleased to see that you have sought guidance from someone with experience and expertise. Making informed architectural choices is essential, and it demonstrates a proactive approach to avoiding potential pitfalls or complications that may arise from incorrect technology stack decisions. By consulting with an experienced individual, you can benefit from their knowledge and insights, ensuring a more efficient and effective project execution. Overall, nice reports and progress.
+5/5 for both weeks
+{{< /hint >}}
+
+{{< /expand >}}
 
 ## **Team Members**
 

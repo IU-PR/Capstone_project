@@ -94,3 +94,19 @@ Our project utilizes style transfer algorithms and a user-friendly interface to 
 {{< hint danger >}}
 Unfortunately, this report was poorly formatted and I had to reformat most of the text. The weekly tasks are there to give you the general structure - there is no need to copy all the text. Also, consider using the guide here -  https://www.markdownguide.org/basic-syntax/. The project page do not describe much other than saying that you will do style transfer (which is already solved problem in machine learning). Please, provide more detailed view of your project, outline your group contribution on top of available ML solutions and how are you planing to do that. Will it be a web app and a telegram bot?
 {{< /hint >}}
+
+## **Defining the Vision for Your Project**
+We decided to devide our project into four main parts:
+1. Train the model to transfer style from one image to another from scratch, choosing the proper architerture and optimize it.
+2. Integrate this model to API, so that it could accept two needed images and do all computations and return resulting image.
+3. Build a human friendly interface with web app to take images and send it to the API and receive transfered image.
+4. Add some new features (optional):
+    - Take one image and name of the famous artist, and transfer style of the artist image to the given image
+    - Take instead of the image a video, and return a video in given style (image, name of the artist)
+    - Add new option of choose **best** which search for best style amoung famous artist, for the given image (need further investigation to find a way to measure style of the image)
+    - Anime or other unusual styles 
+
+{{< hint danger >}}
+No Week 2 progress report?  
+0/5
+{{< /hint >}}

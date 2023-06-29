@@ -182,3 +182,43 @@ Here is the team responsibilities for these tasks:
 
 ### **Weekly Progress Report**
 Main goal of this week is to understand the architecture of the model.
+
+
+# Week 3
+## **Developing the first prototype, creating the priority list**
+- **Technical Infrastructure:** 
+    - Frameworks:
+        - backend: FastAPI
+        - frontend: Django
+        - ML: PyTorch
+    - Platforms:
+        - Model Training: Colab
+- **Backend Development:**
+    - ML: first version of the architecture is written.
+    - API: in progress
+
+- **Frontend Development:**
+    - Not started Frontend yet, focusing on model.
+
+- **Data Management:**
+    - For now we use local machine to store data.
+
+- **Prototype Testing:**
+    - First version of model is ready, and it works fine for a specific images.
+
+## **Progress report:**
+- **Prototype Features:** For now our program reads two images by provided path and gives it to model to transfer the style.
+<img alt="img" src="/StyleTransfer/week3_content_style.png">
+
+<p align="center">
+<img alt="img" src="/StyleTransfer/week3_res_image.png">
+</p>
+
+- **Challenges and Solutions:**
+    - It takes approximately 2 minutes to transfer image from one image to another.
+        - Solution: We may consider using advanced architecture which speed up our model
+    - Model still have some drawbacks. For some type of images our model works poorly.
+        - Solution: Still working on it.
+
+- **Next Steps:**
+    - Improve the quality of our model.

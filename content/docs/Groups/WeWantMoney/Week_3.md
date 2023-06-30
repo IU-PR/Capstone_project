@@ -56,3 +56,35 @@ Data Modeling DB, tuning, authorization and authentication
 - ML: 
 
 Implementation of finding and tracking of objects in the frame, beginning of determination of the logic of the arrival / departure of the vehicle to the "ТОиР" zones.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**Prototype Features**<br>
+Good outline for the features, but it’s better to name those feature for easier tracking. Beached what you providing her is a description
+
+**User Interface**<br>
+It would be better to provide a link rather than a picture. It looks good but I need a prove that this is yours.
+
+**Challenges and Solutions**<br>
+Good way of layout the changes.
+
+Also the solution for ML doesn’t really related to the problem. Does it?
+
+But why  the solution is in progress what does that mean?
+Solution should be stated
+
+**Next Steps**<br>
+This part is weak. You need to reflect reply on next steps not step.
+
+
+**Overall**<br>
+Ok report, it seems that you don’t have much progress with development.
+Reflect more on planing the project. And how to get things done. in this pace you might not finish on time.
+
+
+**Grade<br> 3/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}

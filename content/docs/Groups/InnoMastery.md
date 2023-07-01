@@ -342,3 +342,33 @@ We faced challenges related to:
 3. **Grading questions.** Once we have the lesson viewer working, we’ll start implementing questions. Hopefully, we will do it during the fifth week.
 
 4. **Integrating with Coder.** We also plan to integrate with Coder for the MVP. We want to implement authentication via OAuth and redirection to Coder for coding tasks.
+
+
+{{< hint danger >}}
+**Feedback** 
+
+
+Note:
+I couldn’t log into my account. Please don’t make the registration and using your service hard on first time users. It will make them run away.
+Let me use the service once. If I like it then I will register.
+
+**Prototype Features**<br>
+You should list her all features you will provide. This is too short
+
+
+**User Interface**<br>
+AMAZING!!!
+Very nice design. But did you test it with users?
+
+**Challenges and Solutions**<br>
+Good!,
+**Next Steps**<br>
+Good. You should relay think of testing (Usability testing)
+
+**Overall**<br>
+Good report, you should focus more on finalising the project. and test it with real users.
+**Grade<br> 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

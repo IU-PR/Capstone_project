@@ -43,3 +43,37 @@ title: "Week #3"
 - Implement testing in backend
 - Making sure the frontend and backend integrations are more seamless. 
 - Implement GitHub's build tools to effectively monitor successful deploying. 
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Where are the features ? Please write everything requested in the report or leave a link for quick access.
+
+**User Interface**<br>
+AMAZING!!!
+Very nice design. But did you test it with users ?
+
+**Challenges and Solutions**<br>
+Good!, but seems like not depending changes you faced. Which I hope it’s true
+
+Another example of challenges are you might face:
+
+- Testing and Quality Assurance: Finding and fixing bugs can be time-consuming and expensive, especially if testing is not well planned.
+- User Experience: Designing intuitive and easy-to-use interfaces is not straightforward and needs continuous refinement based on user feedback.
+- Technical debt: Rapid development or lack of proper design may lead to poor quality code, making future changes harder.
+- Integration problems: It's often challenging to integrate different components, especially when they're developed by different teams or use different technologies.
+  **Next Steps**<br>
+  Good. You should relay think of testing (Usability testing)
+
+**Overall**<br>
+Good report, you should focus more on finalising the project. and test it with real users.
+
+**Grade<br> 4.5/5**
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

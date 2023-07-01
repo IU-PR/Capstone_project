@@ -303,6 +303,34 @@ All in all, we identify following steps of user flow:
 9) Rule-based model for a color scheme
 
 
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Theses are not features. Where is the fashion section in your app.
+
+**User Interface**<br>
+Where is your design url?
+
+**Challenges and Solutions**<br>
+Good, you know what you are facing
+
+**Next Steps**<br>
+Good
+
+
+**Overall**<br>
+Ok report, it seems that you don’t have much progress with development. Because only those 2 screen are made? And both are easy to implement.
+I would advice you to progress more with your development.
+
+
+**Grade<br> 3/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
 
 
 

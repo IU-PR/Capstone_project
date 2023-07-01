@@ -319,3 +319,31 @@ After that, we will implement the most used features (listed from highest priori
 - Receive feedback from a user. It might be: likes or displikes of each question and a quiz in particular, a feedback form to fill and send.
 
 
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Very good how you wrote the features. It’s better to describe them through user stories
+
+
+**User Interface**<br>
+Any progress?
+
+**Challenges and Solutions**<br>
+Good, you know what you are facing!
+You should put a plan how to face all the challenges
+
+**Next Steps**<br>
+Good
+
+
+**Overall**<br>
+Very good report. Looking forward to see your results
+
+**Grade<br> 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

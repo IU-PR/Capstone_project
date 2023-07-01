@@ -387,3 +387,42 @@ Our next step will involve implementing the following things in our project:
  1. User Authentication and User Creation
  2. Proper Error Handling of both the front end and back end environment using respective frameworks and libraries.
  3. In frontend part, we plan to implement the whole UI of the application including the Routing, Purchase page, and User profile page.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Theses are not features.
+Features in an app are specific functionalities or capabilities designed to meet user needs, such as user authentication, push notifications, social sharing, search functionality, and customization options
+
+**User Interface**<br>
+AMAZING!!!
+
+**Challenges and Solutions**<br>
+First part are not real challenges.
+
+> faced challenges related to working with new technologies and establishing a proper project schema
+
+This is too generic, what do you mean. What was the problems you faced. How did you solve them.
+
+> Another challenge we encountered was a lack of proper coordination among the team members.
+
+This is a challenge.
+
+Another example of challenges are:
+
+- Testing and Quality Assurance: Finding and fixing bugs can be time-consuming and expensive, especially if testing is not well planned.
+- User Experience: Designing intuitive and easy-to-use interfaces is not straightforward and needs continuous refinement based on user feedback.
+- Technical debt: Rapid development or lack of proper design may lead to poor quality code, making future changes harder.
+- Integration problems: It's often challenging to integrate different components, especially when they're developed by different teams or use different technologies.
+  **Next Steps**<br>
+  good
+
+**Overall**<br>
+Good report, you should focus more on finalising the project. And test it with real users form Uni
+
+**Grade<br> 4/5**
+_Feedback by Moofiy_
+{{< /hint >}}

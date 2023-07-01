@@ -525,3 +525,30 @@ Summing up the past week results: it was a productive implementation week. Unfor
 Nevertheless, the work on the prototype was done, and all critical points were checked. Now we need to focus our attention on finding out the possible problems of our project. And the implementation of the functionality that is specified in the paragraph
 
 
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Very good.
+I would advice you to name the feature in order to be able to track it.
+And give more description for it though User stories
+
+**User Interface**<br>
+AMAZING!!!
+
+**Challenges and Solutions**<br>
+Very good
+
+**Next Steps**<br>
+Very good
+
+**Overall**<br>
+Good report, you should focus more on finalising the project and make it perfect. Since your project is stable some how.
+
+**Grade<br> 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+

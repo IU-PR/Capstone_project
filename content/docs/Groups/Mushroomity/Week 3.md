@@ -81,3 +81,40 @@ Next week, our main objective is to locate high-quality sources containing numer
 Additionally, we will identify the primary parameters required for mushroom identification and adjust our model by
 incorporating these parameters into the photos. Since we cannot provide all the necessary details to the Flutter team,
 their task will be to develop other essential features such as  `log in`  and  `page switching` .
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Missing section
+
+
+**User Interface**<br>
+The UI you created is too basic. It look neat though. I would advice you instead of creating everything from scratch you can utilise Figma community. There you can see a lot of pre made design that you can follow or use their components.
+
+PS: Images doesn’t show on the site, you should fix that.
+
+
+**Challenges and Solutions**<br>
+Missing section, or is it the Mushroom expert guy?
+If so, then it’s good that you are trying to find alternative solution.
+But think you should keep trying to find an expert this will make your app better.
+
+**Next Steps**<br>
+Good, but how will you secure those images?
+
+
+
+**Overall**<br>
+Please stick to the report template and provide answers to what is requested.
+For example where are your features? Challenges?
+
+**Grade<br> 4/5**
+
+
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

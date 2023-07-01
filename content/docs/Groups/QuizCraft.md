@@ -89,7 +89,6 @@ Of course, all this is a future and far ahead of MVP. That's why yes, we are ope
 The project is a  website where a user can create a quiz or find a suitable one. If one needs more evaluation of the knowlendge in a specific topic, he/she cannot do anything but search for a quiz or test or google answers to open-ended questions from somewhere. That is not an easy task. That is why we provide a single place for all the quizes, which are generated **on demand**. You should **not search** anymore, just provide the material and here are the questions for you. Answer it or the site will provide the answers, and you'll be **better prepared** for the exam.
 
 
-# Week 2
 ### **Tech Stack**
 Main language - **Python**. Your project utilizes machine learning models, which integrates well in Python world. Also, Python is easier to write and work with. 
 
@@ -146,6 +145,7 @@ The report is good. You need to reflect more on the business and operational sid
 _Feedback by Moofiy_
 {{< /hint >}}
 
+# Week 2
 ## **Tech Stack Selection**
 
 - _Backend_ - Python/Django/DRF. We use the Django because it is easier to start with it for MVP. Moreover, it has a lot of great features out of the box, such as database migrations, admin panel, database management and authorization. Django allows to grow the codebase easily because it has a standard structure for project. DRF will help us to make the Restful API. All this is popular and extensive and has a large community of developers.
@@ -319,7 +319,7 @@ After that, we will implement the most used features (listed from highest priori
 - Receive feedback from a user. It might be: likes or displikes of each question and a quiz in particular, a feedback form to fill and send.
 
 
-
+## **Feedback**
 {{< hint danger >}}
 **Feedback**  
 

@@ -48,3 +48,33 @@ Another challenge is CV model design due to unstable format of marking and lack 
 
 4. **Next Steps**: 
 We are planning to implement backend logic firstly. It includes component interaction and ML model development. The next priority is given to history page development. All these tasks are decomposed and introduced in our task management system.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+What your listed in not features
+
+features refer to the distinct functionalities or capabilities provided by a software application. They are the things that an application can do to fulfil user needs and requirements.
+
+
+**User Interface**<br>
+Good design.
+But it have a lot of white spaces. Try to utilise this.
+
+**Challenges and Solutions**<br>
+Good!
+
+**Next Steps**<br>
+Too short. have you considered anything beside development. Like texting with users or unit testing?
+
+**Overall**<br>
+Good report
+
+**Grade<br> 4/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

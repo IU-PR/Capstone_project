@@ -601,3 +601,170 @@ translator’s work.
 4. Improve handling of TTTT's unexpected behaviour. Collect statistics when problems occur. One of the metrics we will use is time spent translating a single message; if it exceeds average by some factor, a diagnostic message will be logged.
 5. Implement several more windows: voice recording screen upon first registration of the user in the application, the main window of the application where a chat log of what the other users are saying will be shown, a settings window for settings such as: choosing a voice recognition model, pipeline settings, volume, etc.; and possibly even a password recovery screen.
 
+
+# **Week #4**
+
+## External Feedback
+To find out what our customers are looking for, we decided to collect some external feedback. 
+However, as our project contain different parts that user communicate with, we determined that it would
+better and more informative for us to collect feedback with different ways:
+* Conducted meetings with potential clients (our friends) and showed them current technologies we implemented (we used this technique for SST, TTS-STS models, UI/UX)
+* Tested STT models on our own by translating different audio samples and comparing them with the original text
+* Found expertise feedback with much bigger representative group (used this for TTTT)
+
+With this approach we got broader understanding of quality of our models, and things that our customers 
+want from this product.
+
+**Speech recognition (SST):**\
+After running model on GPU, we decided to suggest Whisper-large as the main model, as we found it to 
+be real-time with delay less than 1 second! We supposed that only whisper-base would fit under 
+these criteria as we never tested with GPU properly. For comparison, on CPU for base model it 
+takes around 1-1.5 seconds for processing, while large model on GPU takes around 0.4-0.6 seconds, 
+which is 2-3 times faster, and, which is the most important, **FAR** more accurate: we asked our
+friends to tell us some story, and for 3-4 minute speech on Russian, on average model recognized all but 2 
+words correctly, and for English speech results were the same.
+
+Also, this demo showed that inputs with low language probability are highly likely to be incorrect 
+and thus might be ignored for further processing. For that, we are going to find some threshold 
+that will omit messages that do not satisfy it. In addition, we might ask what languages a person 
+might speak, so we can completely drop all messages with misinterpreted detected language.
+
+**Text translation (TTTT):**\
+For TTTT we decided to analyze metrics more 'strictly'. As we have small representative group, it would be
+better for us to find some research/analysis with deeper research. Luckily for us, these models 
+were previously tested, and they showed excellent results for most common languages such 
+as English, Russian, Spanish, Chinese, German etc. There was used two following metrics:
+* [BLEU (bilingual evaluation understudy)](https://en.wikipedia.org/wiki/BLEU):\
+An algorithm for evaluating the quality of text which has been machine-translated from one natural 
+language to another. Quality is considered to be the correspondence between a machine's output and 
+that of a human.
+* [Chr-f (Character F-score)](https://machinetranslate.org/chrF):\
+A metric for machine translation evaluation that calculates the similarity between a machine 
+translation output and a reference.
+
+Both of these metrics show how machine translated text is similar to human translation, 
+the more the score model gets, the more human-like text will be. 
+
+For example the most recent version of [Opus-mt-RU-EN](https://github.com/Helsinki-NLP/OPUS-MT-train/tree/master/models/ru-en)
+(from russian to english translation) has 0.611 BLEU score and 0.736 Chr-F score. As [Google Team 
+says](https://cloud.google.com/translate/automl/docs/evaluate) BLEU score more than 0.6 means that model
+is often better than a human, so this model will be perfect for our task.
+
+For more models evaluation you can visit official [Opus website](https://opus.nlpl.eu/Opus-MT/).
+
+**TTS-STS:**\
+For this part, we asked our friend to record 15-30 second audio and asked them to choose any sentence to 
+generate. After that, we translated given sentence to several languages (such as German, Russian, English, Chinese)
+and generated audio samples of them saying that sentence in different languages. We did this with 3 models:
+our previous [gTTS solution](UnifAI#voice-cloning-tts--sts), current [Piper model](:TODO:), and facebook model
+[Fairseq](https://github.com/facebookresearch/fairseq/tree/main/examples/mms). Then we asked responders to sort
+by quality, and all 6 people selected our Piper-based solution as the best.
+
+We were glad to hear such positive feedback, however our representative group noticed that quality of speech
+cloning is not the best, as it could be easily distinguished between real person. We explained to them the problem
+we face with tradeoff between fast-light generation (not so good, but model weight only 50MB), and deep-learning
+copy of voice with 3GB model. We mentioned our solution as to train models on server and translate 
+high-quality cloning, so that no user would need to download several gigabytes for each person in a call.
+But to make that option as a subscription, so we can support GPUs on the server. Most of the client said
+that it is a good idea, and they were ready to pay for it.
+
+**Frontend:**\
+To gain feedback on the responsiveness and the general user experience of our UI, we showed 
+our application (or at least, the frontend part of it) to some other students of the university 
+that we knew and were friends with. We asked them to just naturally use our application and 
+observed how they interacted with it, and afterwards we asked them some questions about their 
+experience: which parts did they feel were unintuitive, what was confusing, what they liked 
+the most about the UI, and how they would rate the experience overall. From these surveys, 
+we found that while some parts of the UI were slightly confusing at first, our application 
+generally felt easy to use and that the application user interface flow was natural.
+
+## Testing
+
+**Server**:\
+We have conducted testing of the backend. We used a REST client (httpie, tests are partially 
+automated, partially manual). The authorization subsystem seems to work well: the flows of “register -> 
+refresh (obtain new token pair)” and “login -> access endpoint with required login” all function correctly.
+Meaning user authorization and data exchange functions properly. In addition, that results that database is 
+configured correctly, and store all required information in a correct form.
+
+**Frontend:**\
+To test the frontend part, we have employed manual testing, by naturally using the 
+app and seeing that the UI changes work correctly. Alongside that, we asked other 
+members of the team to try and use the UI, also asking them to try doing something that would 
+break it. After that - we asked some people unrelated to the team to try and use the UI, to 
+see how a person outside the development team would use the application and see any potential 
+issues we might have missed.
+
+
+## Iteration progress
+
+**Backend progress:**\
+This week we implemented database services, namely an API for interacting with 
+postgres:
+* designed schemas for users
+* implemented basic requests
+
+Also, during this week we implemented registration and authorization services, as well as
+token creation and validation, and password hashing and salting. During this week we continued 
+working on chat rooms functionality.
+
+
+**STT progress:**\
+In this week, we implemented a test version of fully asynchronous websocket connection on client 
+side to receive and send messages independently in a non-blocking manner. Also, we made a port of 
+microphone input from pyaudio to sounddevice to solve compatibility issues among different 
+operating systems, so it now works on both Windows (tested), Linux (tested), and should be on 
+other systems as well (not tested macOS). In addition, we ran these models on GPU and analyzed
+their performance.
+
+**TTTT progress:**\
+We added more filters to handle inappropriate input mentioned in [Week 3 Report](UnifAI#plans-for-upcoming-weeks), 
+these filters can handle strings made only from special characters, such as spaces, commas, 
+slashes etc. In addition, we Added possibility to run several translations in parallel. 
+And during this week we collaborated with backend developer and discussed API to make it easier to
+connecting translator to the server.
+
+**TTS-STS progress:** \
+During this week we finally moved to [Piper](https://github.com/rhasspy/piper/tree/master) models. 
+As this technology is only several weeks old, we were surprised that all their models are now 
+available on [hugging face](https://huggingface.co/rhasspy/piper-voices), which made it much easier 
+to develop us a downloader for them. So, during this week we not only switched to better TTS, 
+but we also made all models (Piper and FreeVC24) downloadable and configurable with 1 line of code.
+
+Here are some examples of new 'voices', you can compare them with previous [mentioned here](UnifAI#voice-cloning-tts--sts):
+
+<audio controls="controls">
+  <source src="/UnifAI/tts-sts-ch-w4.mp3" type="audio/mp3">
+</audio>
+
+<audio controls="controls">
+  <source src="/UnifAI/tts-sts-de-w4.mp3" type="audio/mp3">
+</audio> 
+
+<audio controls="controls">
+  <source src="/UnifAI/tts-sts-ru-w4.mp3" type="audio/mp3">
+</audio> 
+
+<audio controls="controls">
+  <source src="/UnifAI/tts-sts-en-w4.mp3" type="audio/mp3">
+</audio> 
+
+
+**Settings window:**
+While using our application, different users will have different needs. As such, we have 
+implemented a settings screen into our app, so that users can adjust the application to their 
+needs. Currently, we have four settings that can be changed: volume, speech playback speed, the 
+input device to use and the model size to use during speech recognition. Our work on this 
+focused on implementing the UI itself and also the process of saving and loading the settings 
+from a configuration file.
+
+![Settings window](https://i.imgur.com/LfRcwMl.png)
+
+**Language Settings window:**
+Our application is aimed to bridge the language gap between users of different nationalities, 
+and so, each user may need to specify a different language that the application will need to 
+translate the words of other users to, alongside choosing a specific TTS model.
+
+![Language settings window](https://i.imgur.com/hX3p33h.png)
+
+

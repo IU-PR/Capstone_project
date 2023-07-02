@@ -127,6 +127,7 @@ I liked the project description part with technologies, but major aspects of the
 Could be better - 3.5/5
 
 {{< /hint >}}
+
 # **Week 3**
 
 ## Development Process
@@ -173,7 +174,7 @@ Secondly, we do not know what sources to use to train our model; would high qual
 
 Lastly, as it was mentioned above, it is still not clear what metric would be most suitable for measuring our model's performance.
 
-# Next Steps
+## Next Steps
 
 Our plan for the upcoming weeks is to address the challenges discussed above:
 
@@ -190,3 +191,45 @@ Our plan for the upcoming weeks is to address the challenges discussed above:
 Consider adding more details about the project. Describe the things get done last week and what needs to be done to accomplish the project.
 
 {{< /hint >}}
+
+# **Week 4**
+
+The topic of this week is external feedback, testing, and iteration. Unfortunately, we are not quite there yet
+to even have an early prototype, that's why at the current stage we are not yet ready to start testing our
+product or collecting feedback for it not only in the community, but even among the team members.
+
+As for the iterative development, I am happy to say that this is something we do apply in our teamwork. Twice
+a week we gather all (or almost all) together and discuss the progress each of us has made in the direction
+they were working on and assign new tasks to work on. During these meetings we discuss the project and our
+views on its further development. This helps us to synchronize both in terms of vision, when some of the team
+members have different understanding of a particular feature or implementation detail, and in terms of
+individual progress, so we can make sure no one is stuck with their assigned task.
+
+One thing that has changed in our workflow this week is that we started using YouTrack for tasks description
+and assignment. It has several advantages, for instance, all the tasks and the assigned workers can be easily
+viewed on a single page, all the details of assignments are written down, so it's easy to refresh, etc.
+
+Here are some of our current tasks:
+
+-   Understanding the [Stack dataset](https://huggingface.co/bigcode).
+    <br>
+    Make sure it fits our purpose well (that is, contains enough data related to Haskell), understand how to
+    work with it, e.g., load only the desired data.
+
+-   Come up with a filtering algorithm for StackOverflow dataset.
+    <br>
+    Propose a filter that would help to distinguish high-quality StackOverflow answers that are worth learning
+    from garbage.
+
+-   Develop a script for loading books from [LibGen](https://libgen.is).
+    <br>
+    One of the sources we are considering for potential use is Library Genesis. The task is to develop a script
+    for automated books downloading.
+
+-   Extract data from CodeForces.com
+    <br>
+    Another suitable resource is the competetive programming website [CodeForces.com](https://codeforces.com),
+    more specifically, the problems that have public Haskell solutions. The task is to parse and collect
+    the appropriate problems and their solutions.
+
+etc... Quite some work to do!

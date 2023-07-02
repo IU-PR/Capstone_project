@@ -368,3 +368,37 @@ To ensure efficient project management, we have created plans for the second spr
 
 <h3> Reflection: </h3>
 In the end  of the sprint we were able to complete all the tasks planned for the sprint. this means that the tasks for the first sprint were distributed competently between the team members. everyone worked hard during the week without downtime and achieved their goal.As a result, we were able to deliver high-quality work within the given time frame, and we are now better prepared for future sprints.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+What you listed in the feature section in not features
+
+features refer to the distinct functionalities or capabilities provided by a software application. They are the things that an application can do to fulfill user needs and requirements.
+
+
+**User Interface**<br>
+Good design.
+But try to utilise colors into it. Blue is just burned out color.
+Try add g 2 colors one primary and one secondary that can go together very well. Like indigo and yellow
+
+Also, when clicking on a card you should direct errs to details screen. But I didn’t see that you have one, do you?
+
+
+**Challenges and Solutions**<br>
+Good!
+
+**Next Steps**<br>
+Good. You should relay think of testing with users (Usability testing)
+
+**Overall**<br>
+Good report
+
+**Grade<br> 4.5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

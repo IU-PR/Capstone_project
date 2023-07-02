@@ -382,8 +382,8 @@ features refer to the distinct functionalities or capabilities provided by a sof
 
 **User Interface**<br>
 Good design.
-But try to utilise colors into it. Blue is just burned out color.
-Try add g 2 colors one primary and one secondary that can go together very well. Like indigo and yellow
+But try to utilize colors into it. Blue is just a burned out color.
+Try add 2 colors one primary and one secondary that can go together very well. Like indigo and yellow
 
 Also, when clicking on a card you should direct errs to details screen. But I didn’t see that you have one, do you?
 

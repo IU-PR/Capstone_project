@@ -264,8 +264,7 @@ Our next steps are:
 **Feedback**  
 
 **Prototype Features**<br>
-What your listed in not features
-
+What you listed in the feature section in not features
 features refer to the distinct functionalities or capabilities provided by a software application. They are the things that an application can do to fulfill user needs and requirements.
 
 

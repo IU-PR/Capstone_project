@@ -754,3 +754,37 @@ Here's our tentative tasks for the next 2 weeks:
 - [Backend repository on GitHub](https://github.com/Inno-Gang/room-booking)
 - [Frontend repository on GitHub](https://github.com/Inno-Gang/room-booking-app)
 - [Latest frontend deployment preview](https://room-booking-app-evermake.vercel.app/)
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Missing from reports, you should list the feature of the app in the report
+
+**User Interface**<br>
+This is not a complete UI yet, it’s missing some actions like booking the room. And other features.
+Why you haven’t completed it yet?
+
+>The focus was on creating an intuitive and visually pleasing interface.
+It look good, but  not pleasing as I don’t see how to operate with it.
+
+The interactive map is very good!!!
+
+
+
+**Challenges and Solutions**<br>
+Good!
+
+**Next Steps**<br>
+Good. You should relay think of testing with users (Usability testing)
+
+**Overall**<br>
+Good report, you should focus more on development of the fronted now.
+
+**Grade<br> 4/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

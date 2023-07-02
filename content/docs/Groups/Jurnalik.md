@@ -502,3 +502,33 @@ Priority list:
 *Признаны экстремистскими организациями и запрещены на территории РФ
 
 *Recognized as extremist organizations and banned on the territory of the Russian Federation
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Very good!!
+
+**User Interface**<br>
+Good progress.
+Unfortunately the deign doesn’t look very good. You created everything form scratch. and it seems you didn’t follow any standards like Material design for example
+This led to a design that look strange on Mobile.
+
+But I thing you have done good effort doing it.
+
+**Challenges and Solutions**<br>
+Good!
+
+**Next Steps**<br>
+Good. have you considered testing the app with real users, listen to them?
+
+**Overall**<br>
+Good report, great progress form last week.
+Good job!!!
+
+**Grade<br> 5/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}

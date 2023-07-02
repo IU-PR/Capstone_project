@@ -258,3 +258,32 @@ In our prototype, we have implemented the following features:
 Our next steps are:
 * Complete the implementation for the frontend of the website and the mobile application
 * Connecting the frontend with the backend
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**Prototype Features**<br>
+What your listed in not features
+
+features refer to the distinct functionalities or capabilities provided by a software application. They are the things that an application can do to fulfill user needs and requirements.
+
+
+**User Interface**<br>
+Wow, just wow!!
+But I feel that the home page contains a lot of information. Better to make it simple
+
+
+**Challenges and Solutions**<br>
+Good!
+
+**Next Steps**<br>
+Good. You should relay think of testing with users (Usability testing)
+
+**Overall**<br>
+Good report, you should focus more on testing the product.
+
+**Grade<br> 5/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}

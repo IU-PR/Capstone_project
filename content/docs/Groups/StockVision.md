@@ -279,3 +279,43 @@ Also Backend developer faced problems with Fastify. It is modern one and has an 
 
 ## **Next Steps**
 Next week, we are going to finish with the UI part on the frontend and start implementing the data and domain layers of the app. Also, we are expecting to have authentication working. Furthermore, the ML part is constantly improving, so most likely, the model will have a better accuracy and the training time will be reduced.
+
+
+
+# **Week #4**
+
+## **External Feedback**
+Our users gave us useful feedback on our app. Here is the list of cons that they found:
+- Navigation bar seems to be excessive, since there are only two buttons. You may have to fix it via deleting it or adding extra navigation buttons. (We fixed this in our app immediately)
+- I find forex pair prediction quite useless for me. I would be glad to see crypto prediction. 
+- It would be much cooler if you add light theme. But it’s an optional feature.
+- It is a little bit hard for me to navigate in your app. Can you add screen hints on first run of the application?
+- I would like to see my profit from following your buying tips. In other words, see the price changing of the shares I bought.<br>
+  
+Also our users pointed out the following pros in our app:
+- I love the minimalistic elegant design. Dark mode is my favourite.
+- Stock bar chart visually helps me a lot.
+- As the representative of the target audience, so far I like the implementation of the app.
+- What I really like about your app is that it collects the real time stock information and makes frequent predictions based on it.
+
+## **Testing**
+We haven't implemented any testing on the frontend yet, but we are following the clean architecture, so our app would be easily testable in the future. On the backend, there is only one thing we did to simplify testing, and it is OpenAPI. With OpenAPI it’s much easier to work with endpoints. So everyone can see the schema of endpoints and validate request / response. 
+
+## **Iteration**
+
+### **ML Model**
+This week we didn't implement the model directly, but we worked on the infrastructure of the ML-Backend connection. A cronjob that starts the training at every oclock was implemented, as well as the dockerization of the application. Next week, sending the signal to the backend through Kafka will be implemented.
+
+### **Flutter**
+This week was the final one for creating the design of our application. First of all, edits were made to the application's appearance. It was decided to abandon the bottom navigation and instead remove the settings button from the header of the application. This leads to a more restrained appearance since unnecessary elements do not distract the user's attention.
+Additionally, during a small study, it was decided to use the CandleSticks library to draw charts of currency quote changes. Such a chart is more understandable for those engaged in trading. Its appearance closely resembles similar charts from the popular Binance platform. This solution reduces the entry threshold for new users of our application.
+The following screens were added this week: [Screens Link.](https://docs.google.com/document/d/1tIHRcuAdRDGARpaLYMHx7be-KM58D6L9iwXr5Xp4ihs/edit?usp=sharing)
+Now, our further work will focus on adding the main features: user authentication, drawing real-time graphs, and communicating with the backend to receive predictions from the neural network.
+
+
+
+
+
+### **Backend**
+As Backend && DevOps developer I setup a postgres container and a migrations tool (node-pg-migration). Also provided /create-user and /list-users for database endpoints. For now we can run it only locally, however we will deploy it soon. <br>
+For the backend framework I have chosen Fastify, which is the edge of the novice and progressive ideas. Yet I am faced with a lack of examples of the codebase of this framework. Paradigms of Fastify strongly diverge from the more popular Express.

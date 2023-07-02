@@ -347,7 +347,7 @@ This week we conducted several meetings and built standalone reproducible compon
 microphone input stream with Whisper model voice recognition (speech-to-text), text translator (text-to-text) with Opus model, 
 backend server with user authentication, login page, and TTS (Text-to-speech) via gTTS, 
 STS (speech-to-speech) based on [coqui's](https://github.com/coqui-ai/TTS) vctk/freevc24 model. In addition, we conducted research to find new way 
-to synthesise speach.
+to synthesise speech.
 
 ## Finalized application flow
 
@@ -369,19 +369,19 @@ configurable parameters, such as language, beam size, penalty, temperature, etc)
 
 We also tested tiny and medium versions of Whisper and analyzed performance metrics that are crucial for us:
 
-|                     | Whisper-tiny                                               | Whisper-medium                                               |
-|---------------------|------------------------------------------------------------|--------------------------------------------------------------|
-| Licence             | MIT                                                        | MIT                                                          |
-| Pre-trained         | Yes                                                        | Yes                                                          |
-| Parameters          | ~39M                                                       | ~244M                                                        |
-| Languages supported | 99                                                         | 99                                                           |
-| Link                | [Hugging Face](https://huggingface.co/openai/whisper-tiny) | [Hugging Face](https://huggingface.co/openai/whisper-medium) |
-| Examples            | [Hugging Face](https://huggingface.co/openai/whisper-tiny) | [Hugging Face](https://huggingface.co/openai/whisper-medium) | 
-| Error rate*         | Check description                                          | Check description                                            |
-| Real-time*          | Yes                                                        | Yes, on GPU                                                  |
+|                     | Whisper-tiny                                               | Whisper-medium                                               | Whisper-large-v2                                               |
+|---------------------|------------------------------------------------------------|--------------------------------------------------------------|----------------------------------------------------------------|
+| Licence             | MIT                                                        | MIT                                                          | MIT                                                            |
+| Pre-trained         | Yes                                                        | Yes                                                          | Yes                                                            |
+| Parameters          | ~39M                                                       | ~244M                                                        | ~1550M                                                         |
+| Languages supported | 99                                                         | 99                                                           | 99                                                             |
+| Link                | [Hugging Face](https://huggingface.co/openai/whisper-tiny) | [Hugging Face](https://huggingface.co/openai/whisper-medium) | [Hugging Face](https://huggingface.co/openai/whisper-large-v2) |
+| Examples            | [Hugging Face](https://huggingface.co/openai/whisper-tiny) | [Hugging Face](https://huggingface.co/openai/whisper-medium) | [Hugging Face](https://huggingface.co/openai/whisper-large-v2) |
+| Error rate*         | Check description                                          | Check description                                            | Check description                                              |
+| Real-time*          | Yes                                                        | Yes, on GPU                                                  | Yes, on GPU                                                    |
 
 \* Whisper models show competitive advantage over already commercial-used speech recognition models. 
-It is hard to formulate Ward-error-rate as a number, as it is highly dependent on dataset and languages used.
+It is hard to formulate Word-error-rate as a number, as it is highly dependent on dataset and languages used.
 In addition, real-time factor depends on system, hardware, language, and batch size. So if you are interested in precise
 information, please refer to [OpenAI research paper](https://cdn.openai.com/papers/whisper.pdf).\
 \*\* MIT Licence supports commercial use, meaning we can use these models in our project. 

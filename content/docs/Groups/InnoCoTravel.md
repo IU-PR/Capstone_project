@@ -408,4 +408,31 @@ After that, we would want to add more functionality to the Telegram bot. In part
  
 The backend is mostly done, so we currently focus on fixing all the mistakes and errors we found there. Additionally, we would need to add more features into the backend whenever we add features to the bot (because the backend is the one that calls these bot's features). 
  
+{{< hint danger >}}
+**Feedback**  
 
+
+**Prototype Features**<br>
+Missing from reports
+You should list her all features you will provide in the report as well.
+
+
+**User Interface**<br>
+Very basic user interface, it’s medium fidelity design. You should produce high fidelity
+
+**Challenges and Solutions**<br>
+Good!
+
+
+**Next Steps**<br>
+Good. You should relay think of testing with users (Usability testing)
+
+**Overall**<br>
+Good report, you should focus more on development of the fronted now.
+
+**Grade<br> 4/5**
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

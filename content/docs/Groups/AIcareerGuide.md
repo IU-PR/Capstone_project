@@ -355,3 +355,7 @@ Anyway, I liked this service!
   - This week we solved the primary challenge that we defined the previous week: roadmap generation. We defined a prompt format as a numbered list with two levels of depth. It is important to notice, that we again used the few shots prompting technique to achieve a specific format of response. Also, we did research on function calling, a relatively new feature in the OpenAI API. Unfortunately, we did not have any idea how to apply this functionality to our project.
 - DevOps part:
     - We deployed our site on the Vercel using domen http://aicareerguide.ilnarkhasanov.com
+    - We have used Ilnar Khasanov's domain in order to deploy on public domain for free.
+    - Our backend is running on test servers at Yandex.Cloud, also for free.
+    - Backend is available at https://api.aicareerguide.ilnarkhasanov.com as well.
+    - We have used Let's Encrypt in order to generate SSL-certificate for free.

@@ -436,3 +436,97 @@ Good report, you should focus more on development of the fronted now.
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+
+
+# **Week #4**
+
+## **External Feedback**
+During this week we collected 4 forms of feedback regarding our project:
+- the feedback to the reports of week 3 and earlier
+- we conducted a survey and collected user feedback from their interaction with our prototype
+- we encountered a scripted attack to our server
+- we conducted 2 team meatings to collect feedback from people developing specific parts of our project
+### More about servey
+During Week 3, we successfully completed the development of our prototype and conducted a survey to gather feedback. We selected a group of 7 individuals to test our app, with the primary goal of ensuring that the solutions implemented were user-friendly and intuitive.
+Here are the key outcomes of the survey:
+- Testers reported that our app met their requirements and satisfied their needs.
+- Testers expressed that our app was more user-friendly compared to existing solutions in the market.
+- Some bugs were identified by the testers (more info in testing part below)
+- One tester provided a valuable suggestion to implement a new feature that would enhance the app's comfortability. We have taken note of this feature and will discuss it in our upcoming team meeting.
+
+These survey results have provided us with valuable insights and feedback, helping us validate the usability and effectiveness of our app while also identifying areas for improvement.
+## **Testing**
+The initial testing was conducted in the middle of the week by an unknown individual, and our server experienced scripted requests aimed at exploiting basic vulnerabilities. Fortunately, no issues were identified during this test, and everything functioned as intended.
+
+The main testing phase involved surveyors who provided valuable feedback. During this testing, five bugs were discovered. 
+
+## **Iteration**
+The feedback after week 3 from the instructors suggested us to focus  on the frontend part of our application. Here is the list of most important updates in frontend, implemented during week 4:
+- We finished integration with backend
+     - We now retrieve trip data from the backend and display them
+     - We can now create trips on the frontend, and they will end up on our backend
+ - We now accept the theme (light/dark) from Telegram, and our frontend supports both of them
+ - We improved overall design (so far, we didn't touch the visualized trips themselves)
+ - We added translation into our webapp: now it supports both english and russian, and your language choice is remembered for future sessions
+
+Here's the current state of the frontend:
+- Light theme, trip creation UI, english language:
+
+
+<img src="/InnoCoTravel/week4_white.jpg" alt="drawing" width="250"/>
+
+
+- Dark theme, trip filtering UI, russian language:
+
+
+<img src="/InnoCoTravel/week4_black.jpg" alt="drawing" width="250"/>
+
+
+In response to the feedback received from our previous reports, we have taken on the task of developing visuals for our project. We are pleased to announce that after Week 4, we have successfully created an icon for our project and have decided on a new project name: 
+- InnoCoGo
+- logo
+
+
+<img src="/InnoCoTravel/week4_logo.png" alt="drawing" width="250"/>
+
+
+- logo for test bot and dev team
+
+
+<img src="/InnoCoTravel/week4_logo_dev.jpg" alt="drawing" width="250"/>
+
+
+
+After the attack to our server we made a lot of to make our project as safe as possible:
+- After further investigating on possible vulnurabilities, we found a possibility to send users messages from our bot. To address this issue and ensure the authenticity of the messages sent to users, we implemented Telegram's secret_token verification mechanism. This helped us confirm that the messages originated from Telegram itself. 
+
+During our meetup, we encountered a problem with the development of our Telegram bot. The Telegram bot team prioritized tasks that were directly related to the bot's functionality. However, we faced a significant setback in the development process because hosting the bot locally was not feasible.
+
+To tackle this issue, we made a decision to prioritize this much easier to add "non-essential" but nice-to-have feature:
+- On Telegram bot part, we prepared everything needed for local development (elaborated in [README](https://github.com/InnoCoTravel/Telegram-Bot/tree/main)), so that it is much easier to add non-essential but nice-to-have features.
+Also, we decided to reevaluate task for telegram bot development that were in our backlog. An example task with rased priority (which is also our next priority for the bot) is managing trips created by you through Telegram chat.
+
+After users conducted testing and provided feedback, a significant number of bugs were discovered on the frontend. Some of them are:
+- Incorrect timezone being displayed
+- Bad user experience on change between states (filtering trips <-> creating trips): input fields reset
+- "Free places" on trips displays incorrect number
+- DateTimePickers are too large on some devices
+- Inconsistent layout
+
+
+Upon further discussion, it was determined that the main reason for this was the lack of sufficient time. The frontend's main functionality was completed just one day prior to the survey, leaving limited time for thorough testing.
+
+Despite these time constraints, it was decided not to postpone the survey. The decision was based on the belief that the feedback received from users during the survey would still be valuable in improving the product.
+
+While the lack of time for proper testing was a contributing factor to the number of bugs discovered, the team remains optimistic that the feedback obtained from the survey will contribute to the creation of a better and more robust product in the future. 
+### **What next**
+As usual, we discussed the features that we prioritize the most during the meetup: we will be trying to fix all the problems we found and listed above.
+
+Currently, we are awaiting Tuesday, which includes both the team meetup and lecture. This will help us ensure that our vision of the project's development aligns with the instructors'.  
+
+Here's a glimpse of our current backlog:
+![](/InnoCoTravel/week4_backlog.png)
+ 
+

@@ -376,7 +376,7 @@ _Feedback by Moofiy_
 
 The feedback we received from our friends was overall positive. They appreciated the idea of the course platform and really liked the website design.
 
-However, they pointed out several issues with our UX. For example, one person suggested to swap the buttons `I want a hint` and `Check`**` in question steps, as the check button is harder to reach than necessary.
+However, they pointed out several issues with our UX. For example, one person suggested to swap the buttons `I want a hint` and `Check` in question steps, as the check button is harder to reach than necessary.
 
 ![Hint and check buttons](/InnoMastery/hint-and-check-buttons.jpg)
 

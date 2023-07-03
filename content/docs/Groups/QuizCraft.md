@@ -318,7 +318,6 @@ After that, we will implement the most used features (listed from highest priori
 - Group quizzes in packs to suggest for a user to try. Also, suggest similar quizzes after passing anyone.
 - Receive feedback from a user. It might be: likes or displikes of each question and a quiz in particular, a feedback form to fill and send.
 
-
 ## **Feedback**
 {{< hint danger >}}
 **Feedback**  
@@ -344,6 +343,29 @@ Very good report. Looking forward to see your results
 
 **Grade<br> 5/5**
 
-
 _Feedback by Moofiy_
 {{< /hint >}}
+
+# Week 4
+
+## **External Feedback**
+
+Since we don't have much functionality in our project, the feedback is not exhaustive. The people who said that they might use our website, tell us about the necessary features, which we are aware of. They said that we should improve our design a bit so that others won't be afraid of the system. Also, one by looking at the search bar (which we did not implement yet) suggested to let a user to decide if the newly generated quiz will be public or private, since some learning material should not be exposed.
+
+## **Testing**
+
+It is well stated that a thorough testing should go after we have a good number of features to be tested. So far, we have only the main one - quiz generation workflow. However, since we deployed it locally on the virtual machine - every team member can test it individually at any time. This is what we do on our almost daily meetings. Also, when a team member deploys a feature, he tests it several times to make sure all the basic cases work fine at least locally.
+
+## **Iteration**
+
+This week we focused more on the iteration phase so that we could have at least half of the MVP. Our initial goals were quiz generation and searching for already generated ones. Comparing the current progress with the goals, we state that almost half of them are completed. We allow generating a quiz with the material attached, but there is no search. That's why we started learning how to extract quizzes by a search query. Our first iteration was about the ability to input a raw text and give a title to a new quiz, and then pass it or view only one time. This week we focused on the refinement of the previous features (better frontend appearance, stability of work, and a bit more developed AI backend functionality to allow developing features on the Python backend) and displaying all user's quizzes. For this, we had to implement authorization as well. The next iteration will be about information retrieval and search by user's query, along with testing the website and improving user experience on the frontend page.
+
+## **Progress Report**
+
+- We reformated and optimized some Ml functionality. For example, we changed a format of a quiz a bit so that we could convert it in simple text for a future search by a query and clasterization. In addition, we explored github repositories on work with gpt models. However, we didn't find any free models or anything that might help us.
+- During these weeks we also investigated other possible models. We tried to finetune GPT3(davinci) model but gave up since it is paid. Constructed finetuning pipeline for open-source LLMs (such as Falcon and Alpaca). The problem we faced was a lack of computational resources for completing the training. That's why we could only downgrade the models to lower number of parameters, quantize them.
+- We understood that developing own ml models is not a feasible task with our expertise level in 7 weeks. That's why we stopped on chatgpt and its prompt engineering and tuning.
+- The frontend part turned up to be time-consuming work, so we won't manage to have all the desired pages that are a bit beyond the MVP. That's why we limited the project to generating, authorization, viewing all quizzes, passing, and searching. That is how we narrow the scope of our project and ensure feasibility. 
+- From the backend perspective, we reformated most parts of the code to improve maintainability and reduce technical debt, as we planned. Besides, we added displaying of all user's generated quizzes and made quiz creation asynchronous. The only difficulty we had met was related to the last feature. To be more specific, we had a problem with running Celery and RabbitMQ (message broker) on Windows (our local development environment) in pair. Therefore, we switched OS to Linux-based Ubuntu to test it more comfortably.
+
+

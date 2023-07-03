@@ -291,6 +291,7 @@ All in all, we identify following steps of user flow:
 7) Try-on
 
 **Challenges and Solutions**: Example: SAM mmodel gave masks with bad quality (it sometimes did not identify all parts of person and there were duplicates in masks). To solve this problem we found 2 solutions. First, delete duplicates with biggest intersection over union but this did not work with several photos. Second, we replced combination of SAM+FashionClip with pre-trained SegFormer model, this solution works good.
+
 **Next Steps**:
 1) Authorization for other services (highlited above)
 2) Save email address of user
@@ -330,7 +331,54 @@ I would advice you to progress more with your development.
 _Feedback by Moofiy_
 {{< /hint >}}
 
+# **Week #4**
 
+## **External feedback on our project** ##
+We have conducted several interviews among Innopolis students and collected a comprehensive feeback about work. Here are the main points, which we got:
+
+### **Negative points** ###
+1) On the screen, where user should upload a photo, which will be used to process clothes ([link to component in figma](https://www.figma.com/file/YOeV2ORkvcHW8iEjb6aaiF/%D0%94%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD?type=design&node-id=398-132&mode=design&t=7zhF25fkWNhV2YsY-4)) it is completely not understandable about photo type - how should I pose, which formats are allowed, should the person fit the frame entirely etc. We realized, that we should add more details about it.
+2) Under the hood we use a complex system of rules to estimate the photo and suggest new items. User is not familiar with them. It was suggested to add a guide, how everything is evaluated, because now, from the user perspective, it looks completely random. It is also a good idea to provide a guide, where user can learn, why he is not looking his best.
+3) It was suggested to add gamification to display, how good the look is overal. Because now we have two kinds of feedback: is it looking good or is it looking bad.
+4) It is also suggested to add a feature, which will provide an ability to store the results of look processing. For example, a person uploads an image, the system provides some suggestions (e.g other pair of shoes), the person saves it and then tries them in a shop.
+
+### **Positive points** ###
+1) It is useful, that we provide an ability to log in using popular services - Google, Yandex, Apple and VK
+2) Overal, the UI is intuitive is straight
+
+## **Testing** ##
+**Machine Learning part**<br>
+It is essential to do proper research and testing in this sphere, because there are a lot of options regarding models, their parameters and architectures. Also it is very important to keep in mind processing time: we do not want our system to process images for hours.
+
+Biggest insights are the following. For embeddings testing we have manually collected a dataset of different clothes. After research and testing with this dataset we found out that embeddings noticed clothing type more than style. This resulted in using not standard KNN <br>
+
+Clustering (k-means, fuzzy c-means) performed bad. Also we have tested different distances with this models and found out that cosine distance was worse that euclidian one.
+
+**Backend part**<br>
+We have already started to connect our services between each other (Frontend, Backend & DB and ML). This resulted in a lot of errors and misunderstandings in terms of contracts and expected outputs. After some real using we are still facing a lot of errors and unexpected behaviour. Then this changes are rapidly fixed and testing process repeats.
+
+**Frontend part**<br>
+We often test our app through ordinary using its key features, opening and clicking everything. This allows to find unexpected behaviour and bugs. Also we try to use the app with some unsual screens and this often results in unexpected interface building.
+
+## **Iteration** ##
+
+We have weekly meetings with the team members, where we all together track all the progress, discuss all issues and progress and assign new tasks. These meetings allows to look on other sphere developers progress and issues from non-developer perspective. There we often find some problems and holes in logic and flow of our services.
+
+**Machine Learning part**<br>
+
+We looked at the testing results and decided to change unlabeled segmentation with labeling with CLIP to SegFormer. Also it is very hard to find a model with a proper license for our use, so sometimes we have to use lower quality models.<br>
+
+Also there are changes in terms of labeling of clothes: firstly we were trying to generate as more labels as we could, but later decided to reduce the amount of classes. For example, instead of T-shirt, jacket and etc we decided to use just upper clothes.
+
+**Backend part**<br>
+
+Here we have a true iterative process, because we often find a lot of bottlenecks in the code or achirecture and modify it to make our system more scalable and stable. <br>
+
+Talking abour logical part, we have added one more route to create a new session by sending user credentials, instead of combining it with image sending.
+
+**Frontend part**<br>
+
+There are a lot of work regarding changes of routes, data and architecture of backend, as it was stated above. Also often we implement some design, use it and then realize that it is not good. It results in recreating and modificating prototypes and UI.
 
 
 

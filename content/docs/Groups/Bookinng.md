@@ -788,3 +788,89 @@ Good report, you should focus more on development of the fronted now.
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+# **Week 4**
+
+> Fourth week progress report
+
+## **External Feedback**
+
+We asked the opinion of our friends and our mentors (Mike Kuskov and
+Andrei Markov) about our frontend part. Here is a summarized feedback we’ve
+received:
+
+- The design of the project is described as concise and appealing, with a
+  suitable color scheme and consideration of the key functional requirements.
+  This positive feedback highlights the effectiveness of the design choices
+  made.
+- We have taken into account the feedback regarding the mobile version, as we
+  recognize that the majority of users access our service through their phones;
+  and, therefore, we plan to adapt the design to mobile devices in the coming
+  weeks.
+
+## **Testing and Narrowing the Scope**
+
+This week we focused on improving UI design and frontend part of our
+application as well. After creating a minimal layout, we created E2E tests,
+so now and in the future we always be confident that basic functionality in
+the application works as expected. Here is the demo of our E2E-tests:
+
+![e2e-test-demo.gif](/bookinng/week-4/e2e-test-demo.gif)
+
+We have not accomplished yet creating tests for our backend, since we are
+currently actively working on it and modifying the behavior. As soon as we will decide on final API and required behavior we will write unit-tests for the authorization, Outlook adapter and business logic.
+
+This week we also checked our past reports and decided to exclude the calendar 
+functionality, the Telegram Bot API and focus solely on the booking
+functionality plus the map component.
+
+
+## **Iteration and Refinement**
+
+- Each week we improve our application design, consulting with frontend team.
+  Here are improvements of the current week:
+    - We did the menu for the current bookings where the user can see all his
+      bookings and also cancel them.
+    - We redesigned all fields in booking menu and now it is the final variant.
+    - We have chosen another size for fonts and formed a set of colors for the
+      whole site.
+
+      ![design-changes.png](/bookinng/week-4/design-changes.png)
+    
+    - We added the drop-down menu for room choosing. The rooms would be colored according to their availability (green is free, red is occupied and gray is unavailable for booking).
+
+    ![dropdown.png](/bookinng/week-4/dropdown.png)
+    
+    - Also, we designed a pop-up that will be shown next to a room on the map,
+      which will show the brief information about the room and upcoming events
+      in it.
+
+    ![popup.png](/bookinng/week-4/popup.png)
+    
+
+## **Progress Report**
+
+- Progress has been made on the authentication module, as evidenced by the pull
+  request at **[github.com/Inno-Gang/room-booking/pull/12](https://github.com/Inno-Gang/room-booking/pull/12)**.
+  Specification is [here](https://github.com/Inno-Gang/room-booking/issues/8).
+  There was a misunderstanding between task analysts and its implementer.
+  We made a meeting where studied basic concepts authentication, figured out
+  what is JWT tokens, Access/Refresh tokens and how we should use it in the
+  project.
+
+- An Outlook adapter was developed, as indicated by the pull request at
+  **[github.com/Inno-Gang/room-booking/pull/13](https://github.com/Inno-Gang/room-booking/pull/13)**.
+  For this task we have studied Outlook API of Innopolis university and parsed
+  it to envelope. However, it is important to note that the adapter has not been
+  tested yet. This week we conducted meeting with Mike Kuskov, one of our
+  customers, and he provided test Outlook API server for testing our backend.
+  We are currently testing our adapter to eventually merge this functionality
+  to main branch of backend development repository.
+- Design was improved drastically.
+- Faced problem with the map component: the project encountered difficulties
+  with the map component due to the lack of support and absence of recent
+  development in the only identified JavaScript library (`VueWaypoint`). We need
+  the library to attach info about rooms to their pictures.
+- During this week, we met several times to synchronize our progress and to
+  check our priorities.

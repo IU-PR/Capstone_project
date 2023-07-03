@@ -59,24 +59,6 @@ Example
 
 > `AML-11:00-90-2 Sunday 3`
 
-### Changing tasks or events (Edit)
-
-##### Tasks
-
-> `/edit_task` -> edits task according to info provided by user
-
-There should be list of tasks to choose (implemented as buttons attached to message) for editing 
-
-After choosing task there should be list of available info that could be changed in the task.
-
-##### Events
-
-> `/edit_event` -> edits event according to info provided by user
-
-There should be list of events to choose (implemented as buttons attached to message) for editing
-
-After choosing event there should be list of available info that could be changed in the event.
-
 ### List
 
 > `/list {[today, tomorrow, week] or specific date or telegram date input}` -> shows events and tasks for specified date

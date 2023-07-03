@@ -33,7 +33,7 @@ or
 
 Specific format could be:
 
-> [**task_name**]-[**duration** (in minutes)]-[**importance**]-[**complexity**]-[start_time]-[date]
+> [**task_name**]-[**duration** (in minutes)]-[**importance**]-[start_time]-[date]
 
 (start_time and date are optional)
 
@@ -59,8 +59,6 @@ Example
 
 > `AML-11:00-90-2 Sunday 3`
 
-
-
 ### Changing tasks or events (Edit)
 
 ##### Tasks
@@ -79,20 +77,6 @@ There should be list of events to choose (implemented as buttons attached to mes
 
 After choosing event there should be list of available info that could be changed in the event.
 
-### Deletion of tasks or events
-
-##### Tasks
-
-> `/delete_task` -> deletes task that user chose from list of tasks
-
-List should be implemented as buttons attached to message
-
-##### Events
-
-> `/delete_event` -> deletes event that user chose from list of events
-
-List should be implemented as buttons attached to message
-
 ### List
 
 > `/list {[today, tomorrow, week] or specific date or telegram date input}` -> shows events and tasks for specified date
@@ -109,33 +93,15 @@ Example:
 
 ### Plan
 
-> `/plan` -> creates timetable for the next day considering events for the next day and list it in message or as buttons attached to message. Should be request to export suggested timetable
+> `/plan` -> creates timetable for the next day considering events for the next day and list it in message.
 
 ---
 
 ## Mark history
 
----
-
-### Start task
-
-> `/start_task` -> saves time of starting task
-
-There should be list of tasks attached to message
-
-### End task
-
-> `/end_task` -> saves time that user spent on task
-
-There should be list of **active** tasks attached to message
-
-### History manipulation
-
 > `/add_task_history` -> sends users report for specific completed task (chosen by user)
 
 User should the following info:
-- real complexity of task
 - whether the task was completed
 - time of start and end of the task (optional)
 
-List should be implemented as buttons attached to message

@@ -536,6 +536,12 @@ Gathering feedback from our target audience has been a top priority for us. We h
 ## **Testing:**
 Testing is an essential aspect of our development process, and we have made significant progress in this area. We conducted load testing using K6 to evaluate performance of our platform. During testing, we simulated various scenarios, such as having 100 users for a few minutes to simulate exam-related load, and using 350 users for a minute to test stress conditions. In case of stress test we encountered a 42% request failure rate, which highlights need for further optimization. However, we have planned to address these issues on next week or after minimum viable product (MVP) stage. Additionally, we performed testing with 50 users for 30 minutes to simulate normal usage of forum. Furthermore, we ensured that our database is functioning correctly and we tested our server to verify its stability. These testing efforts have provided us with valuable insights into the user experience, allowing us to identify areas for improvement and address any issues or bugs that arose during development.
 
+![stress for 50 users](/kringe_production_images/50_users.jpg)
+![stress for 100 users](/kringe_production_images/100_users.jpg)
+![stress for 200 users](/kringe_production_images/200_users.jpg)
+![stress for 350 users](/kringe_production_images/350_users.jpg)
+
+
 ## **Iteration:**
 In past week, we have made significant progress in terms of iteration and refinement. We have regularly assessed our project's progress, comparing it against our initial goals and objectives. Based on feedback we collected, we made and will continue to make necessary adjustments and refinements to our design, features, and functionalities. This iterative approach has allowed us to create a product that continuously evolves and improves. While it may seem challenging to iterate on early version of project, we recognize that this is opportunity to eliminate most of mistakes and make substantial improvements. 
 

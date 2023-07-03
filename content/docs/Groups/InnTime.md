@@ -552,3 +552,58 @@ Good report, you should focus more on finalising the project and make it perfect
 _Feedback by Moofiy_
 {{< /hint >}}
 
+
+# **Week #4**
+
+# Weekly Progress Report
+
+
+This progress report highlights the key developments and insights gained during the week in three main areas: external feedback, testing, and iteration. These aspects have played a crucial role in shaping our project and moving it closer to its final form. We conduct several meetings with a whole team to discuss a current state of the project and get a feedback from each teammate. 
+___
+
+### **External Feedback**
+
+During this week, we focused on gathering external feedback to gain valuable insights into the usability, functionality, and overall satisfaction of our project. Recognizing the importance of user acceptance testing (UAT), we engaged with a group of individuals from our community, including fellow students and friends, who agreed to provide us with honest feedback.
+
+One particularly enlightening feedback session stood out. We conducted an interactive demonstration of our project, showcasing its features and functionality. The participants expressed their enthusiasm for the centralized schedule platform, highlighting the convenience it offered in eliminating the need for multiple platforms and tables. They appreciated the ease of specifying groups and electives and praised the ability to export schedules to popular formats like Google Calendar.
+
+However, during the feedback session, we also received constructive criticism regarding the user interface (UI) design and certain aspects of the user experience (UX). This feedback allowed us to identify areas for improvement, such as streamlining the navigation flow and enhancing the visual aesthetics. It served as a valuable basis for refining our project and ensured that we were aligning it with the expectations and needs of our target audience.
+
+### **Testing and Narrowing the Scope**
+
+Testing played a significant role this week in evaluating the effectiveness and reliability of our project. We focused on testing our backend, built with Flask and PostgreSQL, to ensure seamless integration and efficient data management.
+
+Through rigorous testing, we identified certain areas that required improvement. We encountered performance issues during high traffic periods, which impacted the responsiveness of the website. To address this, we optimized our database queries and fine-tuned the server configuration. Additionally, we implemented caching mechanisms to enhance the overall speed and scalability of the system.
+
+Moreover, we discovered some minor bugs and inconsistencies in the data synchronization process between the website and the real-time updates. By thoroughly testing and identifying these issues, we were able to rectify them promptly, ensuring a smoother experience for both students and instructors.
+
+### **Iteration and Refinement**
+
+Iteration remained at the forefront of our development process this week. We continuously evaluated our project's progress, comparing it against our initial goals and objectives. The feedback received from external sources, along with the insights gained from testing, played a pivotal role in refining our design, features, and functionalities.
+
+To address the feedback regarding the UI design, we initiated a thorough review and made some minor but important improvements. We worked on enhancing the visual appeal by refining search and sorting algorithms, and different colors for events of different cources and electives. We also incorporated new features, such as changable buttons, allowing users to see which cources and electives they already add.
+
+![img_1.png](/InnTime/improve_design.gif)
+
+In addition to visual enhancements, we iterated on the user flow based on user feedback, ensuring a more intuitive and seamless navigation experience. We simplified the process of specifying groups and electives, minimizing user effort and increasing the efficiency of schedule generation.
+
+Furthermore, we dedicated time to optimize the backend. We have discussed the format of data storage in the database. Based on the meeting, we were able to make some changes to the database for more convenient storage of data.
+We also discussed the work of the API part and made edits to the API functions for more convenient communication with the frontend part.
+Among the innovations, it became possible to add teachers and the type of classes in the table, the ability to update user data, and support for CORS. 
+
+Next, you can see the format of the backend admin panel and the ability to edit the course
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/courses_back.png">
+</div>
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/courses_edit_back.png">
+</div>
+
+
+
+
+
+By adopting an iterative approach, we have successfully eliminated several early-stage mistakes and made significant progress towards achieving our project's objectives.
+
+___
+In conclusion, this week's progress report emphasizes the importance of external feedback, testing, and iteration in shaping our project. We actively sought feedback from our target audience, refining our project based on their insights. Thorough testing allowed us to identify and address issues, ensuring a robust and reliable backend. Additionally, through iterative refinement, we enhanced the frontend design, added new features, and improved the overall user experience. As we move forward, we remain committed to continuous evaluation, adjustment, and refinement to deliver a high-quality, user-centric solution.

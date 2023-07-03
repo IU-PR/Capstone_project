@@ -12,21 +12,21 @@ title: "Week #4"
 Todo list of required parts to ensure that nothing missed
 {{< /hint >}}
 
-- [ ] External Feedback
-  - [ ] Share a prototype with a group of people and collect their feedback
-  - [ ] Document the feedback received for future refinements and iterations
-  - [ ] Consider scope changes and redefine aspects of the project based on
+- [x] External Feedback
+  - [x] Share a prototype with a group of people and collect their feedback
+  - [x] Document the feedback received for future refinements and iterations
+  - [x] Consider scope changes and redefine aspects of the project based on
         feedback
-- [ ] Testing and narrowing the scope(prioritize prototype over testing on initial stages)
-  - [ ] Evaluate the effectiveness and reliability of the prototype/application
+- [x] Testing and narrowing the scope(prioritize prototype over testing on initial stages)
+  - [x] Evaluate the effectiveness and reliability of the prototype/application
         through testing
-  - [ ] Gather insights into the user experience and identify areas for
+  - [x] Gather insights into the user experience and identify areas for
         improvement
-  - [ ] Address any issues or bugs discovered during testing
-  - [ ] Narrow down the scope of the project (focusing on the core features of the project).
-- [ ] Iteration and refinement
-  - [ ] Regularly assess project progress against initial goals and objectives
-  - [ ] Eliminate mistakes(if any) by utilizing the iterative approach during the early
+  - [x] Address any issues or bugs discovered during testing
+  - [x] Narrow down the scope of the project (focusing on the core features of the project).
+- [x] Iteration and refinement
+  - [x] Regularly assess project progress against initial goals and objectives
+  - [x] Eliminate mistakes(if any) by utilizing the iterative approach during the early
         stages of the project
 
 

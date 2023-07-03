@@ -4,6 +4,10 @@ bookFlatSection: true
 title: "InnoCoTravel"
 ---
 
+
+<img src="/InnoCoTravel/week4_logo.png" alt="drawing" width="450"/>
+
+
 # **Week #1**
 
 ## **Team Formation and Project Proposal**
@@ -484,18 +488,17 @@ Here's the current state of the frontend:
 <img src="/InnoCoTravel/week4_black.jpg" alt="drawing" width="250"/>
 
 
-In response to the feedback received from our previous reports, we have taken on the task of developing visuals for our project. We are pleased to announce that after Week 4, we have successfully created an icon for our project and have decided on a new project name: 
-- InnoCoGo
-- logo
+In response to the feedback received from our previous reports, we have taken on the task of developing visuals for our project. We are pleased to announce that after Week 4, we have successfully created an icon for our project and have decided on a new project name "InnoCoGo". 
+- **Logo**
 
 
-<img src="/InnoCoTravel/week4_logo.png" alt="drawing" width="250"/>
+<img src="/InnoCoTravel/week4_logo.png" alt="drawing" width="450"/>
 
 
-- logo for test bot and dev team
+- **Logo for test bot and dev team**
 
 
-<img src="/InnoCoTravel/week4_logo_dev.jpg" alt="drawing" width="250"/>
+<img src="/InnoCoTravel/week4_logo_dev.jpg" alt="drawing" width="450"/>
 
 
 

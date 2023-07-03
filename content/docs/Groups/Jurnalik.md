@@ -498,12 +498,6 @@ Priority list:
 7. Improve the accuracy of the model by expanding the dataset
 
 
-## Instagram Remark
-*Признаны экстремистскими организациями и запрещены на территории РФ
-
-*Recognized as extremist organizations and banned on the territory of the Russian Federation
-
-
 {{< hint danger >}}
 **Feedback**  
 
@@ -532,3 +526,132 @@ Good job!!!
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+## Week 4
+
+### External feedback on our project
+
+To assess the needs of the target audience and in-depth analysis of their experience, we conducted a survey that evaluated the daily routine of potential users (in relation to social networks, respectively) and their attitude towards our prototype.
+
+The questions were aimed at studying the frequency of visiting social networks, the regulation of consumed content, the presence or absence of information overload, and interest in our product. In addition to general questions aimed at the experience of potential consumers, there were also questions about the evaluation of our prototype and its functionality. The collected feedback helps us understand the strengths of the implemented prototype and the desire of the target audience to improve the product for further development.
+
+We provided an interactive prototype and a GIF showing how our app works to users, along with a survey for the most honest and realistic feedback possible.
+
+Below are statistics from our representative sample of consumers:
+
+![Снимок экрана 2023-07-02 в 15.38.50.png](/Jurnalik/week4_1.png)
+
+![Untitled](/Jurnalik/week4_2.png)
+
+![Снимок экрана 2023-07-02 в 15.41.13.png](/Jurnalik/week4_3.png)
+
+![Untitled](/Jurnalik/week4_3.png)
+
+*’Restrict myself in time spent in social media, scroll only content I'm interested in (clean up my subscriptions, set up posts)’
+
+![Снимок экрана 2023-07-02 в 15.53.25.png](/Jurnalik/week4_5.png)
+
+![Снимок экрана 2023-07-02 в 15.53.57.png](/Jurnalik/week4_6.png)
+
+![Untitled](/Jurnalik/week4_7.png)
+
+![Снимок экрана 2023-07-02 в 15.55.17.png](/Jurnalik/week4_8.png)
+
+*’Big amount of social media and fast search’
+
+![Снимок экрана 2023-07-02 в 16.00.35.png](/Jurnalik/week4_9.png)
+
+![Снимок экрана 2023-07-02 в 16.02.31.png](/Jurnalik/week4_10.png)
+
+![Снимок экрана 2023-07-02 в 16.05.05.png](/Jurnalik/week4_11.png)
+
+*’Post source and its category’
+
+![Снимок экрана 2023-07-02 в 16.06.38.png](/Jurnalik/week4_12.png)
+
+![Снимок экрана 2023-07-02 в 16.07.50.png](/Jurnalik/week4_13.png)
+
+*’The transparency of the upper line on the feed page (where the categories could be chosen). Maybe make it not transparent?’
+
+![Снимок экрана 2023-07-02 в 16.09.53.png](/Jurnalik/week4_14.png)
+
+*’5, everything is attractive and intuitively understandable’
+
+![Снимок экрана 2023-07-02 в 16.13.20.png](/Jurnalik/week4_15.png)
+
+After analyzing the results, we found out the subtleties of the needs of our target audience, we realized that most of them check the news several times a day, spend a total of 1> hours consuming such content and often experience an oversaturation of information, which is a statistical confirmation of relevance for us our project. People from different fields of activity and different age categories were interviewed, so the sample is diverse and representative. The people surveyed confirmed the lack of algorithms regulating content consumption, none of the respondents expressed disinterest in our project, and 62.5% even answered that they would definitely use such an application. Many noted the design and idea as interesting and attractive to them, the respondents liked the news collected together with the ability to filter. People told what functionality in such an application could be of interest to them, and also gave criticism to our project. All comments were taken into account and sorted into tasks. We have already corrected some of them after a joint discussion, the relevance of some is still being considered, as well as the timing of their implementation.
+
+### Testing
+
+Due to the constant testing of our project and the constant exchange of information between team members, the following adjustments to existing solutions were identified:
+
+#### Back Botton
+
+The back button on the feed page with a full scroll down the page obscured part of the last post, which interfered with the quality perception of the content. As a solution, we could expand the frame / page, but for aesthetic reasons, we decided to remove the button altogether and rebuild the logistics: phone users use either the button back at the bottom of the built-in panel, or swipe.
+
+#### Following Tag
+
+The "Following" button on the post page was a good ethical but bad logistical decision. Since it had no practical value, but was only a subscription flag, we decided to replace it with a thematic tag.
+
+#### Telegram Client
+
+At first, teleton was chosen as a client for telegram, but it turned out to be a very insecure solution, since all user data would be available to us, as developers, which is already a violation of our user's security, moreover, this data could be lost or "leaked" . Therefore, as the best alternative, we chose to create a telegram bot.
+
+#### Comparison Method
+
+On the part of the ML, the choice of the comparison method used was changed. We changed the comparison method from MinHash to TfidfVectorizer, since the comparison accuracy was low - different news were given out as the same, and the same ones were recognized as completely different from each other.
+
+#### gRPc → REST API
+
+From the backend side, initially we’ve decided to do the interaction between the front and the back through gRPc, but in the end we came with new solution - implement it through the REST API, because there is more information about the latter + more popular choice.
+
+#### Architecture
+
+Initially, it was planned to make one monolithic service for all backend part, but we decided to do it through micro-services, due to the advantages of micro-services.
+
+#### Temporary Data Transfer
+
+Instead of the initial choice of storing data in RAM, a decision was made to store data in the database due to higher reliability and simplicity (if one service crashes, the whole system won’t work properly while choosing RAM, what will not happen using a database).
+
+### Iteration
+
+We consistently discuss our decisions in the implementation of different parts of the project, consult and test, therefore, in addition to the changes described above (initial decision -> alternative + reason), there are also aspects in which, due to a general conversation and advice, nothing has changed.
+
+After 4 weeks of constant development, testing and reflection, we were able to improve our project by changing several approaches (see in the Testing section), this upgraded:
+
+- security of our product (client created via telebot -> telegram bot)
+- perception of the interface (became even more intuitive due to tag replacements and the removal of interstitial navigation buttons)
+- accuracy of news selection (comparison models have been replaced)
+- architecture (monolith → microservices, gRPc → REST API, returned pings instead of RabbitMQ, RAM storage → database)
+- reliability of the system (RAM → DB)
+
+### Progress Report
+
+All tasks from the sprint for this week have been completed, here are the changes, thus
+
+#### What’s done
+
+- [x]  Implemented reading and writing to our database
+- [x]  Comparison model added to the module
+- [x]  Written get and push for the module
+- [x]  Made authorization bot
+- [x]  Made the layout of the authorization page
+- [x]  Research on photo/video categorization was done
+
+#### What’s planned
+
+- [ ]  Customize PostgeSQL
+- [ ]  Customize Swagger
+- [ ]  Make communication with the service
+- [ ]  Write the necessary functionality for the Frontend
+- [ ]  Add categorization by photo to the module
+- [ ]  Expand the dataset to 500 items
+- [ ]  Make a selector for Telegram
+- [ ]  Set up infrastructure
+
+
+## Instagram Remark
+*Признаны экстремистскими организациями и запрещены на территории РФ
+
+*Recognized as extremist organizations and banned on the territory of the Russian Federation

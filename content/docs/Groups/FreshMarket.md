@@ -264,4 +264,4 @@ We understood these things:
 But because some of us working - we can illustrate our history in industry:
 - Table with tasks and backlog is necessary
 - Weeks to evaluate working period of each person
-
+- For each feature we have to clip the person who will be response in any next iteration to debug or improve

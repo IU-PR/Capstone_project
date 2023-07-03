@@ -158,3 +158,47 @@ Overall - good project and report.
     * ML team still has a lot to work on for the next weeks, as the recommendation model is planned to be implemented using users’ ratings from Dataset.
     * Frontend team will have to finish recommendation page structure and change all pages to look like their planned Figma design.  
     * Also, right now, our system lacks the function to save recommended to books into want to read tab for user.
+
+## **Week 4 report**
+
+1. **External Feedback**
+    * This week we conducted 5 interviews from which we gained a lot of useful feedback which we will surely take into account when iterating our product.
+    * All of the interviewees were students of Innopolis University of approximately the same age as us.
+    * Here are the bullet points from all interviews combined:
+        1. When searching for books to rate, sometimes it would show several copies of the same book as different books. We suspect that the reason for it is that database has the same book published by different publishers, resulting in being viewed as different books.
+        2. Currently, implemented design is a little empty and some colors are off. However, we have not fully implemented the planned design and when the full design in Figma was shown to interviewees, every one of them agreed that it will look better.
+        3. In the current iteration of design, the search bar on the starting screen is too low and because of that some search results are outside the screen. This will absolutely be fixed, as the final planned design will have the search bar located higher.
+        4. When searching for books to rate, there is no animation for search progress. So the user does not know whether the system is still looking for the book in the base, or it is finished and there is just no such books in it.
+        5. There should be some indications whether book ratings are saved or not.
+        6. Notifications regarding registration and login do not look good according to some interviewees.
+        7. A lot of books are missing from the dataset, making it hard for some interviewees to find their favorite books.
+        8. Unexpectedly for us, there is demand for search by author name, not just by book name. We will try to implement it before the final presentaion.
+        9. Some books have broken links to their cover images, resulting in being replaced by question marks. This does not look good in combination with the fact that we haven't added the book names and annotations to the recommendations page.
+        10. Change password padding overlays the status, so by clicking status you can change password.
+        11. Some interviewees wanted options to delete some of their ratings to not affect recommendations and to delete account altogether.
+        12. 20 books are too many for users to rate. Right now we set the threshold to 3, but we will continue observations and tests to find the optimal number of ratings.
+2. **Testing**
+    * The best way of testing is of course using the product extensively: we had every member of our team and 5 interviewees test the product multiple times, as another can person can find issues that others might never think about.
+    * Testing procedure:
+        1. Register as a new user
+        2. Login
+        3. Rate 3–6 books
+        4. View recommendations,
+        5. Check how close they are to rated books
+        6. Check user information
+        7. Sometimes change password
+        8. Repeat
+    * Most of the technical issues mentioned above were found this way.
+
+3. **Iteration**
+
+This week we improved our UI, finished the recommendation model, collected feedback and patched some bugs.
+As of now we are looking into ways of solving important issues such as lack of annotations and names of books on recommendations page, unpredictability of book cover existences, finishing the planned design.
+
+Below are screenshots of the current site iteration to show the progress we have made:
+![alt text](https://i.ibb.co/VtNxgDy/1.png)
+![alt text](https://i.ibb.co/KwNRJ5y/2.png)
+![alt text](https://i.ibb.co/JjNm12m/3.png)
+![alt text](https://i.ibb.co/bKqXRvz/4.png)
+![alt text](https://i.ibb.co/Fm1dQGX/5.png)
+![alt text](https://i.ibb.co/xStRNKj/6.png)

@@ -10,6 +10,7 @@ title: "LogiFlex"
 
 [_**LogiFlex**_](http://logiflex.ru) is a service specializing in the development of logistics algorithms for packaging goods in vehicles using laws and ideas that our AI finds. LogiFlex - Get More by Using AI! Check out our website - http://logiflex.ru
 
+
 <div style="text-align: center;">
   <img src="/LogiFlex_images/LogiFlex_logo_rmv_bg.png" alt="LogiFlex Logo" width="300" height="300">
 </div>
@@ -153,6 +154,9 @@ In Week 2, the focus was on the research aspects of the project and first try to
 <div style="text-align: center;">
   <img src="/LogiFlex_images/LogiFlex_pipeline.png" alt="LogiFlex Logo" width="1200" height="1200">
 </div>
+{{< hint danger >}}
+**Feedback**
+I like the chart. It's good that you have clear project task allocation and defined responsibilities for each team member {{< /hint >}}
 
 The initial information from the Terms of Reference was obtained, and the team discussed hypotheses regarding the data and its preprocessing. A data parser was developed to convert the JSON format data into a 3NF-dependent CSV extension database format, making it easier to work with the data. The team also started studying physics engines suitable for simplifying the task, exploring 3D data visualizers, and delving into scientific literature on logistics theory in a limited space of three-dimensional objects.
 
@@ -177,9 +181,17 @@ Their practical skills and knowledge are primarily acquired through educational 
 
 For example, thanks to several scientific articles about genetic algorithms this week, we concluded that we should not use this approach, since such algorithms can give 100% results, but they lose very much to other methods in time: in our case, each truck would be unloaded for 9000-15000 minutes, which is unprofitable.
 
+{{< hint danger >}}
+**Feedback**
+Have you looked for companies with similar business goals? Logistics optimization seems to be a very important part of large scale companies. Find and study best solutions available globally{{< /hint >}}
+
 ### Mentorship Support
 
 The team has agreed to receive mentoring from the customer, maintaining constant communication with Alexander Filippov, the head of the company's IT department. This collaboration provides access to real input/output data, enables communication with movers and drivers, offers insights into standardized limitations, and allows for modifications and clarifications to the terms of reference, which positively impact the team's progress.
+
+{{< hint danger >}}
+**Feedback**
+Very good, getting feedback from the customer will help to steer your project in a proper direction{{< /hint >}}
 
 ### Exploring Alternative Resources
 
@@ -221,8 +233,11 @@ By leveraging AI capabilities, the team enhances their problem-solving and idea 
 
 ---
 
-In conclusion, Week 2 marked significant progress for the project. The team delved into the scientific aspects, obtained real dSata, and began developing a mathematical apparatus for logistic combinations of objects. They established a well-structured team and implemented Agile principles to enhance collaboration and productivity. Mentorship support from the customer provided valuable insights and helped refine the project's goals. The team actively explored alternative resources, such as physical engines and data visualization tools, to enhance their understanding and capabilities. They identified key knowledge gaps that need further exploration. Engaging with the tech community and sharing knowledge with peers are ongoing priorities. Leveraging AI algorithms and language models proved beneficial in envisioning outcomes and optimizing their work. Overall, Week 2 was productive, laying a strong foundation for the project's continued success.
+In conclusion, Week 2 marked significant progress for the project. The team delved into the scientific aspects, obtained real data, and began developing a mathematical apparatus for logistic combinations of objects. They established a well-structured team and implemented Agile principles to enhance collaboration and productivity. Mentorship support from the customer provided valuable insights and helped refine the project's goals. The team actively explored alternative resources, such as physical engines and data visualization tools, to enhance their understanding and capabilities. They identified key knowledge gaps that need further exploration. Engaging with the tech community and sharing knowledge with peers are ongoing priorities. Leveraging AI algorithms and language models proved beneficial in envisioning outcomes and optimizing their work. Overall, Week 2 was productive, laying a strong foundation for the project's continued success.
 
+{{< hint danger >}}
+**Feedback**
+Overall, I think this week progress report is well written and covers all aspects outlined in the weekly task. It is also good to see that you and your team is working overtime to tackle all possible problems. Good project handling is evident - 5/5 for the week{{< /hint >}}
 
 # **Week Three**
 
@@ -300,66 +315,3 @@ Such a result gives an incentive to dive deeper into the subject of AI applicati
 Drawing conclusions about the past week, we can conclude that this is one of the most productive weeks in terms of implementing AI in our project. We can't say that everything went perfectly - we wanted to develop two AI algorithms in total, but due to insufficient knowledge, we were not able to do it in full. There were a lot of difficulties with data processing, for which we lost a lot of time, because of which half of the team did not have time to complete individual tasks before the sprint closed.
 
 Nevertheless, work was done on the prototype, and all critical points were checked. It remains only to continue in the same spirit, analyze the errors that arise and try to solve them more quickly.
-
-
-# **Week Four**
-
-## Progress report - Week 4
----
-Agenda:
- - Weekly Progress Report 
- - Iterative approach to work
- - Product testing & refinement
- ---
-
-### Weekly Progress Report
-
-During Week 4, the team focused on addressing specific challenges and refining the product based on real-world scenarios and input from various stakeholders. The main difficulty of the problem lies in the fact that there is no specific list of restrictions that the algorithm should take into account, so we decided to solve a similar problem based on everyday experience. More precisely, the experience of various "effective" employees who faced similar tasks in a "manual" format.
-
-Eight meetings were conducted with managers responsible for different categories of goods, and a final meeting was held with the head of the company for commerce and retail and the head of the IT department. These meetings helped gather insights and agree on the final features and technical aspects of the project.
-
-Based on the meetings held, we compiled a weekly list of tasks that was successfully completed:
-
-{{< hint info >}}
-It's important to note that due to LogiFlex being a commercial project, the team cannot share the solution or any specifics as all copyrights belong to the customer.
-{{< /hint >}}
-
-- **Development of the technology for the mutual arrangement of goods**: The team worked on creating a technology that takes into account various factors such as mass, volume, type of packaging, and more to determine how different goods (~14'000 elements) can be placed together. A table was derived based on statistical, arithmetic, and empirical methods, as well as knowledge of loading goods. The table includes 14 groups, with rows representing the type of goods that an object can be placed on, and columns representing the type of goods that can be placed on top. The table uses symbols to indicate whether it's possible to put the goods (1), impossible to put the goods (-1), or it depends (0). The final agreed table looks like this:
-
-<div style="text-align: center;">
-  <img src="/LogiFlex_images/CorrTable.jpg" alt="LogiFlex" width="600" height="1000">
-</div>
-
-- **Accounting for the distribution of masses of goods**: To ensure the balance of goods in the truck and avoid accidents, the team worked on analyzing and visualizing the distribution of masses of goods. The visualization of the analysis is in front of you:
-
-<div style="text-align: center;">
-  <img src="/LogiFlex_images/MassDistr.jpg" alt="LogiFlex" width="550" height="1500">
-</div>
-
-- **Development of an optimal data parser**: An optimal data parser was created, which uses regular expressions and manual settings to extract necessary information about the products, even if the data structure is incomplete. The program automatically detects "insufficient" information and moves such goods to a separate file for manual addition of missing data.
-
-- **Verification and integration of previous items**: The team verified and integrated all previous items (except the first one, since we decided to bring the next week to it). The product demonstrated its capability from the state "Received the order list" to "Displayed the image" (A small "flying" red cuboid is the center of gravity of the cargo. It is correct): 
-
-<div style="text-align: center;">
-  <img src="/LogiFlex_images/RealPacking.jpg" alt="LogiFlex" width="650" height="1000">
-</div>
-
-### Iterative approach to work
-
-The team adopted an iterative approach to their work, allowing them to work efficiently and produce results. Regular meetings were held with company employees, and new data was continuously revised and accounted for in the updated product features. This iterative approach was applied at different levels, including weekly work, team collaboration, and process improvement.
-
-If we look at it globally, but the iterative approach is used by us everywhere, simply, in different manifestations: in understanding weekly work, working with part of a team or imposing a process.
-
-### Product testing & refinement
-
-Several product testing methods were employed by the LogiFlex team. Initially, they collected feedback from friends and acquaintances to gather diverse perspectives on the product/idea. As the development progressed, the team narrowed down their focus group and currently communicates with mentors and executives who evaluate and provide feedback on their work.
-
-Continuous communication with the head of the customer company's IT department ensures that the team incorporates their vision and refines the product according to the requirements of the final consumer. While the current stage of development limits extensive testing due to copyright restrictions, the team plans to conduct further testing once the product is finalized and released.
-
----
-
-The fourth week can definitely be called the most mundane (of those in which the product was developed), since its goal was to adapt the theoretical code based on researching into the technology used in different ways. A lot of improvements were carried out, which more clearly formulated the customer's requirements, which were lacking before.
-
-This week was also the most unstable - one of our participants in our work fell ill and took a week's sick leave (for a team of 4 people, this is a strong subsidence in terms of potential effectiveness - ~25%). Also lead of the project had a business trip for the entire second half of the week. (the same ~25% of potential losses). Thus, for a whole week, the team has never gathered in full. Nevertheless, thanks to everyone's responsibility and team cohesion, work has been done that will definitely come in handy in the coming weeks.
-
-The next week will be devoted to the formation of a single file with the code that will perform all planned iterations, as well as the digitalization of the technology of the mutual arrangement of goods.

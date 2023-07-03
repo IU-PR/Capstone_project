@@ -1,1 +1,6 @@
 /resources
+
+# macOS specific
+.DS_Store
+
+.idea

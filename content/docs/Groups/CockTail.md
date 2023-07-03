@@ -424,6 +424,7 @@ UI:
 4. Cosmetic UI design change
 5. Make UI mobile friendly
 6. Probably, create light colors theme
+7. Add a link to google for every ingredient in case if title is confusing. (For example, if person clicks at 'Blue curacao' it will redirect client to <u>google.com/search?q=Blue+curacao</u>)
 
 Model:
 

@@ -147,4 +147,17 @@ In the following weeks, we have to:
     - Communication with frontend
     - Message broker for communication with users
 
-- Improve the model. It should recognize people in/without helmets, in/without vests.    
+- Improve the model. It should recognize people in/without helmets, in/without vests.
+# **Week #4**
+
+**External feedback**
+
+We are doing a project from a company, so each week we can get feedback from our customer. For now he is satisfied with our ideas, stack and project workflow. He liked our design, approach to labeling, libraries we use. But the work goes slower then it should, so in order to realize our application we should quicken our work.
+
+**Testing**
+
+For now, we still didn't realize frontend and backend of our application, so we can't test how application will work. We can not also test model on videos, because it isn't ready yet. Probably it will be ready next week, so when it is ready we will start testing.
+
+**Iteration and refinement**
+
+Last two weeks we were focused on labeling the data, so we still didn't make a first version of the model. When it is ready, we will check the results and improve it to make predictions better.

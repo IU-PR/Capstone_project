@@ -339,11 +339,12 @@ It was also important to make the schedule more generic. We solved this issue by
 # **Week #4**
 
 ## **External feedback**
-We gave potential users (our friends and groupmates) to try to use our bot. They liked that there were few functions and the instructions did not take a long time to follow. However, the main weakness was that the instructions were not really user-friendly. Therefore, we will improve the bot's messages, which the user will follow.
-
+We gave potential users (our friends and groupmates) to try to use our bot. They liked that there were few functions and the instructions did not take a long time to follow. However, the main weakness was that the instructions were not really user-friendly. Therefore, we will improve the bot's messages, which the user will follow. Also, initially, during the personal planning, we had two options on what to do if a user systematically underestimates the time to complete a task: increase the time to complete a task intentionally, or increase the break time after the task that other tasks cannot be put on. As a result of the user survey, we came to the conclusion that for the majority of respondents the second option is more preferable.
 
 ## **Testing and narrowing the scope**
-As stated in the first report, as an MVP we are developing a system that works with one user. As a result of testing, we understood what exactly the potential users were talking about (not really clear instructions). In addition, we took a closer look at NLP and schedule generation. As a result, we decided that it is worth improving the user schedule generator.
+We have tested all the other parts of the system - the database and task name processing (NLP) work correctly, although the accuracy of the NLP model suffers a bit because the task name dataset is a little imbalanced. The first version of the model produces insufficiently accurate results, so we will need to refine, train, and test a second, more sophisticated version. Another area of improvement is the data generation itself, which we found when testing the data on the first model. We plan to run the project on innopoints at https://ipts.innopolis.university/ to collect data from real users. 
+
+In addition, we decided to reduce the scope of the Telegram bot. We planned to add functions to edit tasks, but during testing users noted as advantage a small number of simple functions. Therefore, we realized that as an MVP, the functions of adding tasks, marking history and scheduling are optimal.
 
 ## **Iteration and refinement**
 At this point, we are ready with the basic model and database. Their implementation has taken longer than we had planned. This delayed the opportunity to connect all parts of the system together. But the other tasks for this week (refining the generator, filters, creating time slots and refining the commands) are done. 

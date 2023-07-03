@@ -222,3 +222,18 @@ Main goal of this week is to understand the architecture of the model.
 
 - **Next Steps:**
     - Improve the quality of our model.
+
+# Week 4
+## **External Feedback**
+As a testers, we invite colleagues and friends to check our project. They tested our model which runs on API with some images they choose, and they said that some result are realy interesting and funny, but some of them make no sense. Indeed our model has some problem with particular images. They also said that they want to see some good user friendly interface to use. We are planning to add some frontend/backend stuff later, they tried our API in FastAPI Swagger UI. 
+
+## **Testing**
+We used manual testing to test our model and API and found bugs and parts that still need adjustments.
+
+## **Iteration**
+After receiving feedbacks we came to conclusion that we might change our loss/optimizer function to get better results.
+
+## **Progress Report**
+- This week we implemented our API using FastAPI, we tested it several times and it seems to work.
+- Also we did some progress on improving the model to get better images.
+- Next week we are planning to start creating our user interface.

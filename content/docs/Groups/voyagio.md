@@ -402,3 +402,96 @@ Good report
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+
+# **Week 04 - report**
+
+> Important links:
+> [Web-application](https://voyagio.dropteam.ru/login)
+  
+## Progress report - External Feedback, Testing, Iteration
+
+<h3>External Feedback</h3>
+To collect accurate external feedback, we conducted User Acceptance Testing (UAT) using real business cases and groups of people who represent our potential audience.
+
+We enlisted the help of friends from Kazan and other cities who might be interested in our application idea.
+
+The UAT testing consisted of the following steps:
+1. Scenarios in testing:
+   - The user is only interested in **search places** and is not interested in adding any places to their list of favorites or creating collections.
+   
+      **Success:** The user login successfully, and find places
+   - The user wants visit the city in future, therefore, it is interested in **creating list of favourites**, due to it does not know its plans
+
+      **Success:** The user login succesfully, crate a list of favourites in profile
+   - The user is going to visit Kazan in a short time, that it needs a plan what to visit **(create trip collections) and check the location on the map**.
+
+      **Success:** The user login successfuly, find places and crete its own collection
+2. Prorotype of users that might use the web-application after finishing MVP:
+   - **Group 1**: Young people in Kazan, who are interesting to find some new places at their leisure time. (2 persons)
+   - **Group 2**: People who are planning to visit Kazan in a short time and need to visit all possible sights in one-two days (3 persons)
+participants to explain the basic functionality and idea of the application, collect feedback and some personal opinion.
+  
+  Unfortunately, we implement not all pages on the website, therefore, some tests was in Figma prototype.
+
+3. Measure of the success: 
+   - Intuitive understanding all functionality and success in all steps. 
+   - 3/5 participants finished their tasks.
+4. Results: 
+  4/5 participants finished successfully and provide a useful feedback
+    - Group 1: (2/2)
+    - Group 2: (2/3)
+  
+  One participant failed the third scenario due to the absence the signifacnt knowledges in foreign language.
+5. Defect table
+   | Defect | Priority | Feedback |
+   |------------------------|---------------|---------------------|
+   | No Russian language in the interface | low, it is not MVP task | The only english speakers can use this application|
+   | Hard to understand meaning of "trip collection" in the web application | high, implemented in design| This participant suggest improve UX and add description of the "trip collection" when the user adds the first one|
+   | Difficult to find a map with places| High, in work | It is not clear that the button means map and its clickable| 
+
+The UAT testing proved highly valuable for our team, as the participants' feedback provided objective insights. We appreciate the constructive feedback received, which will aid us in making further improvements to the application.
+
+
+<h3>Testing and narrowing the scope of the project</h3>
+
+**Manual testing**
+
+Our team conducted manual testing to identify bugs in the implemented pages. Each team member performed manual testing and provided feedback to the other members on the bugs found. We focused on identifying bugs in the login and search pages.
+
+Below is a table listing the bugs, their prioritization, and their execution status at the time of reporting.
+
+|Bag| Priority | Status |
+|------------------------|---------------|---------------------|
+|Absence of the перехода на search page | High| In progress|
+|Incorrect display of the background picture on the backgroud | Low | Waiting, due to it is not the main functionality|
+|No message about the lack of places in the selected city |  High | Todo|
+|Clicking on the google signup button without logging into your google account | High | Todo|
+|Unintuitive place in the design, you need to invert the display of tabs | High | In progress|
+
+All bugs are already marked in the Backlog according to their priority, so that the developers and designer can start fixing them.
+
+**Narrowing the scope of the project**
+
+We have decided to narrow down certain aspects of our app:
+
+- We will postpone the implementation of registration with a Google account. While this is a great feature that simplifies registration, it only applies to registration and has no effect on further functionality. However, we will leave the button in the design and display a message that the button is currently in development and that users should register using another method.
+- We have narrowed down the dataset to places that are located in Kazan, due to technical difficulties in gathering a larger dataset. We have collected enough data on places in Kazan to allow users to plan a trip and use all the features of the application. For commercial use, however, it will be necessary to gather a dataset covering all of Russia.
+
+
+<h3>Iteration and refinement</h3>
+
+Our team demonstrated efficiency and cohesion in our work. **We evaluated multiple topics based on feedback from potential users and turned significant comments about the application into tasks on our backlog**.
+
+We improved our communication between team members by immediately reporting and recording (via Telegram, photos, or videos) potential bugs and flaws.**This method will enhance our productivity in the coming weeks.**
+
+
+Also, during this week, our team has completed several significant steps towards the MVP:
+
+- We have finished deployment, which is now available at the following link: https://voyagio.dropteam.ru/login
+- We have implemented the API logic for authorization, added functionality for other entities, and resolved all authorization issues on the backend side.
+- We have completed the frontend for the search and authorization pages, and we are almost finished with the frontend for the personal account page, including its functionality.
+- We have finalized the dataset for machine learning and database, selected the model, and begun implementation.
+- We have collected information about travel trends and are currently conducting market research.
+- We have also fixed some errors in the design.

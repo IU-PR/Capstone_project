@@ -95,7 +95,7 @@ We have not found any open-source projects or experts that can help us at this t
 
 Here's how the structure of the project will look like:
 <div style="text-align: center;">
-  <img src="/Mushroomity/project_structure.png" alt="Project structure" width="300" height="300">
+  <img src="/Mushroomity/project_structure.png" alt="Project structure" width="1265" height="511">
 </div>
 
 {{< hint danger >}}

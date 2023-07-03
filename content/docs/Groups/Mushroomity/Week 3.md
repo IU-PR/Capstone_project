@@ -27,25 +27,39 @@ Nonetheless, we developed a basic frontend system that incorporates the primary 
   - When you open the app, you firstly have to log in or sign
     in:
 
-    ![Login](../../../../static/Mushroomity/login_page.png)
+    <div style="">
+      <img src="/Mushroomity/login_page.png" alt="Login" width="376" height="768">
+    </div>
+
   - After that, you go to the main page, where you can go to other pages or analyze mushroom by
     photo:
 
-    ![Main menu](../../../../static/Mushroomity/main_page.png)
+    <div style="">
+      <img src="/Mushroomity/main_page.png" alt="Main page" width="376" height="768">
+    </div>
+
   - After taking a photo, you go to the page with this photo and description of mushroom in
     it:
 
-    ![Information about mushroom](../../../../static/Mushroomity/info_page.png)
+    <div style="text-align: center;">
+      <img src="/Mushroomity/info_page.png" alt="Information page" width="376" height="768">
+    </div>
 
     The description might be changed, now it's just an example.
   - Of course, you may want to change language or log out. For that, you may go to the settings
     page:
 
-    ![Settings](../../../../static/Mushroomity/settings_page.png)
+    <div style="text-align: center;">
+      <img src="/Mushroomity/settings_page.png" alt="Settings" width="376" height="768">
+    </div>
+
   - In addition, in the app you will also be able to chat with other people about any topics you want by using
     forum:
 
-    ![Forum](../../../../static/Mushroomity/forum_page.png)
+    <div style="text-align: center;">
+      <img src="/Mushroomity/forum_page.png" alt="Forum page" width="376" height="768">
+    </div>
+
 - Data Management: All data for models are stored now in Google Drive. We have a parser script that parses some sites,
   takes photos of mushrooms with their names and stores that in some packages. Packages are created in the following
   way:

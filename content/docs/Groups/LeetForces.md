@@ -366,3 +366,27 @@ Looking ahead, we are excited to continue improving our system. Our plans for th
 - We will work on the Orchestrator to ensure it can handle a wider variety of tasks and produce more comprehensive test results.
 
 {{< /expand >}}
+
+{{< expand "Week 4 report" >}}
+
+In the fourth week of developing our project during the Capstone project course, we 
+
+### External Feedback
+
+To gather feedback we asked the InnoMastery team to share their thoughts on our project and give us some valuable tips that can only be given by a project observer and they did not disappoint us. Here is their feedback:
+
+> Hello! We are really happy to be the first testers of your project. In our opinion, LeetForces project is a very relevant idea for our university because the existing system for task submission and automatic testing - CodeTest - does not meet the expectations of the students. The latter site suffers from numerous problems, such as lack of server security, dated interface and frequent downtimes. With the prototype you supplied us there was a Telegram interface as the main frontend. Because of the Telegram being a messenger and not a full-fledged platform, it cannot provide a complete user experience. Even though the Telegram bot enables the user to use almost all features of the system, the command-based communication model does not seem to be convenient. Therefore, our team thinks that you should direct more forces into developing a Web Frontend for your project. You also provided us with the incomplete build of your web interface that already contains most of the screens. We really liked your idea to use Material Design in your project. As for your question regarding the effective usage of Machine Learning in your project, we do not see any potential on this stage of development. Right now the implementatino of the main functions should be a higher priority.
+
+
+### Testing and narrowing the scope of the project
+
+#### Testing
+As already mentioned in previous project reports, we continue to employ a cross-testing method where every team member tests the components of other group members. This approached proved to be effective during the course as it helped to prevent a lot of bugs on the early stages of the development of our project.
+
+#### Narrowing the scope of the project
+Based on the feedback, we changed our focus from supporting the Telegram bot by updating it to our backend API specifications to rapidly developing the web frontend with all our forces. Moreover, the Machine Learning applications are no longer a priority and will be implemented only after the main parts of the project are done. 
+
+### Iteration
+In the current iteration, we decided to drop some features based on the advice we got from the InnoMastery team. Namely, we are no longer updating the Telegram bot frontend interface. Also, we have developed all internal back-end requirements features that were so far needed by front-end part of our team. In the next iteration, we are going to mainly test the existing functionality and bring the frontend to the usable state. 
+
+{{< /expand >}}

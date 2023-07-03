@@ -192,14 +192,12 @@ Our application does not require transaction support and at the same time we nee
 ## User Interface (UI) Design
 Now we have the first version of the main page of the site. In the attached file you can see the layout of the main page.
 
-![Course Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Course_Page.jpg)
-![Forum](https://github.com/inga-zimnya/Images_for_Project/blob/main/Forum.jpg)
-![Main Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Main_Page.jpg)
-![Sign In Log In Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Sign_In_Log_In_Page.jpg)
+![Course Page](/kringe_production_images/Course_Page.jpg)
+![Forum](/kringe_production_images/Forum.jpg)
+![Main Page](/kringe_production_images/Main_Page.jpg)
+![Sign In Log In Page](/kringe_production_images/Sign_In_Log_In_Page.jpg)
 
 
-
-https://github.com/inga-zimnya/Images_for_Project/blob/main/Course_Page.jpg
 
 ## Integration and APIs
 Assess any external systems, services, or APIs that need to be integrated into your application. Plan how these integrations will be implemented and how data will flow between systems.
@@ -467,29 +465,29 @@ Greetings, IU students! Kringe Production are excited to introduce UniHub, platf
 
 Main page of forum feature a clean and intuitive design with sections for recent and popular discussions and resource categories.
 
-![Main Page dark](https://github.com/inga-zimnya/Images_for_Project/blob/main/main_dark.png)
+![Main Page dark](/kringe_production_images/main_dark.png)
 Pic. 1. Main Page in desktop version in dark mode
 
-![Main Page dark mobile](https://github.com/inga-zimnya/Images_for_Project/blob/main/main_dark_mobile.png)
+![Main Page dark mobile](/kringe_production_images/main_dark_mobile.png)
 Pic. 2. Main Page in mobile version in dark mode
 
-![Main Page light](https://github.com/inga-zimnya/Images_for_Project/blob/main/main_light.png)
+![Main Page light](/kringe_production_images/main_light.png)
 Pic. 3. Main Page in desktop version in light mode
 
 Sidebar with course navigation display a list of courses, organized by year of study, e.g. first-year undergraduate students. Clicking on a course in the sidebar would lead to the corresponding course page, where users can find and interact with course-specific resources and discussions.
 
-![Sidebar dark mobile](https://github.com/inga-zimnya/Images_for_Project/blob/main/sidebar_dark_mobile.png)
+![Sidebar dark mobile](/kringe_production_images/sidebar_dark_mobile.png)
 Pic. 4. Sidebar in mobile version in dark mode
 
 Course files page present a clear layout with options to upload and download files, along with features for filtering and searching for specific resources within the course.
 
-![Upload Page dark](https://github.com/inga-zimnya/Images_for_Project/blob/main/upload_dark.png)
+![Upload Page dark](/kringe_production_images/upload_dark.png)
 Pic. 5. Upload Page in desktop version in dark mode
 
-![Upload Page light](https://github.com/inga-zimnya/Images_for_Project/blob/main/upload_light.png)
+![Upload Page light](/kringe_production_images/upload_light.png)
 Pic. 6. Upload Page in desktop version in light mode
 
-![Upload Page light mobile](https://github.com/inga-zimnya/Images_for_Project/blob/main/upload_light_mobile.png)
+![Upload Page light mobile](/kringe_production_images/upload_light_mobile.png)
 Pic. 6. Upload Page in mobile version in light mode
 
 ## **Development Report** 

@@ -546,7 +546,7 @@ Below are statistics from our representative sample of consumers:
 
 ![Снимок экрана 2023-07-02 в 15.41.13.png](/Jurnalik/week4_3.png)
 
-![Untitled](/Jurnalik/week4_3.png)
+![Untitled](/Jurnalik/week4_4.png)
 
 *’Restrict myself in time spent in social media, scroll only content I'm interested in (clean up my subscriptions, set up posts)’
 

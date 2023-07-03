@@ -346,7 +346,7 @@ Also, initially, during the personal planning, we had two options on what to do 
 ## **Testing and narrowing the scope**
 We have tested all the other parts of the system - the database and task name processing (NLP) work correctly, although the accuracy of the NLP model suffers a bit because the task name dataset is a little imbalanced. The first version of the model produces insufficiently accurate results, so we will need to refine, train, and test a second, more sophisticated version. Another area of improvement is the data generation itself, which we found when testing the data on the first model. We plan to run the project on innopoints at https://ipts.innopolis.university/ to collect data from real users. 
 
-In addition, we decided to reduce the scope of the Telegram bot. We planned to add functions to edit tasks, but during testing users noted as advantage a small number of simple functions. Therefore, we realized that as an MVP, the functions of adding tasks, marking history and scheduling are optimal.
+In addition, we decided to reduce the scope of the Telegram bot. We planned to add functions to edit tasks, but during testing users noted as advantage a small number of simple functions. Therefore, we realized that as an MVP, the functions of adding tasks and events, marking history and scheduling are optimal.
 
 ## **Iteration and refinement**
 At this point, we are ready with the basic model and database. Their implementation has taken longer than we had planned. This delayed the opportunity to connect all parts of the system together. But the other tasks for this week (refining the generator, filters, creating time slots and refining the commands) are done. 

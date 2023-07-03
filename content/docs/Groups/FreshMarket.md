@@ -4,16 +4,16 @@ bookFlatSection: true
 title: "FreshMarket"
 ---
 # **FreshMarket**
+
+
+<img alt="icon" src="/FreshMarket/assets/icon.png" width="200">
+
+[Website](https://innofreshmarket.github.io/flutter/)  \
+[Github](https://github.com/InnoFreshMarket/)
+
 # **Introduction**
  
 Fresh Market is a marketplace of farm products with the possibility of subscription. Customers see the assortment of regional farm products and collect products in the basket for ordering. Farmers post products with photos, descriptions, quantities and the possibility of subscribing to their products. When placing an order, the buyer chooses payment by card, cash or invoice for the organization and chooses the delivery method courier, pickup or transport company. The farmer receives his funds the next day after the delivery of the goods to the card attached to the profile.
-
-{{< hint danger >}}
-
-**Feedback**  
-Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
-As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
-{{< /hint >}}
 
 # **Week #1**
 
@@ -104,3 +104,93 @@ Considering that our course aims to achieve a minimal viable product (MVP) by th
 To ensure efficient execution within our limited timeframe of already six weeks, I recommend outlining the main features of your project and prioritizing their development. It's essential to identify specific areas that can be streamlined or simplified without compromising the core functionality.
 
 Also, take a note that it is possible to utilize open-source as means of scaling down your project: for example, there is a multitude of open-source platforms for e-commerce: i.e. https://saleor.io/, https://strapi.io/ that you can use as a modular back-end. Although, I am not sure how rigid or flexible this solutions are. {{< /hint >}}
+
+# **Week #2**
+
+1. **Tech Stack Resources:**
+Actually, we prefer online-courses, documentations, and other resources to books since this way it is easier and faster to find necessary information. However, we do not avoid using additional sources in case of extraordinary situations and problems. For such cases, we will turn to books which cover tech stack of our project: 
+- "Django for Beginners" by William S. Vincent
+- "Flutter in Action" by Eric Windmill
+- "Python Crash Course" by Eric Matthes
+We are familiar with these books, so we are sure that they would provide a comprehensive understanding and help in building the project or be a reference guide for any future updates or changes in the tech stack.
+
+2. **Mentorship Support:**
+No, we currently do not have a mentor actively involved in our project. Still, three members of our team now have a Programming in Python elective, so its lecturer, Alaa Aldin Hajjar, agreed to weekly follow-up progress connected with the python-related part of the project. We haven’t considered seeking another mentor for the whole project but we believe that having an experienced one will put project management in strict structureness and keep team members disciplined.
+
+3. **Exploring Alternative Resources:**
+In addition to project-based books, we expand our understanding of our tech stack by following resources: 
+- as already was said, attending Programming in Python elective really helps us extend our knowledge in language; 
+- Python, Django documentation to understand specific nuances;
+- video tutorials on Youtube; 
+- saved notes from the Flutter elective from a year ago. 
+
+4. **Identifying Knowledge Gaps:**
+Project is equally divided into two huge parts: backend and frontend; three of our members are responsible for front-, which is mostly based on Flutter, while three others deal with backend by using Python, Django framework. For now, team is fully aware of what they should do and how they should do it due to early gained experience in corresponding areas. 
+But, of course, it is inevitable that in the future we will face several problems due to lack of knowledge — this is when we will start using relevant resources (books, courses, documentations, tutorials) described above.
+
+5. **Engaging with the Tech Community:** 
+We have never interacted with the wider tech community. We have not been to special forums and groups, nor have we been to local meetups. At the moment, we don't have a way to engage experts on critical technology stack issues.
+
+6. **Learning Objectives:** 
+Well, firstly, we plan to expand our knowledge in the field of front-end flutter. It is also planned to expand their knowledge in the field of backend. To achieve our goals, we plan to use third-party courses, as well as information on the web.
+
+7. **Sharing Knowledge with Peers:**
+​As a team, we communicate on the project quite often. We have a common group in telegram where we write all the changes on the project, as well as if we want to get together to discuss further goals. Outside of the project, we also communicate very often and exchange experiences and ideas with each other.
+
+8. **AI in project** 
+For the project, we did not use AI. We take our entire technology stack from courses on the web, as well as on forums where we discussed the problems that we had and new technologies that we may soon need.
+
+## **Weekly Progress Report**
+The first and the most important thing we did is that we decided what functionality we want to implement during this course. They are basic buying, adding, removing and editing products. Also it is filtering by type and some other small features. Right after making a decision about functionality we decided which models our Django backend will have. We tried to not forget about something because it is very problematic to change databases after starting a project. Sometimes it causes problems, so we hope that this number of classes will be enough. After that we were already divided into two teams and started working on the backend and frontend part. 
+According to frontend part:
+We have made significant progress in terms of the visual interface. Firstly, the overall design of the platform was launched by creating a common set of client tools, uikit. It also turned out to implement an authorization page, and work is also underway to link this page with our backend part.
+In the future, we plan to use the prepared database in the form of uikit to develop a single GUI template.
+According to backend part:
+As we decided which models we will create, we started to implement them. So we created a django application. Connected it to the PostgreSQL database. Django has a convenient ORM so working with databases will not be hard. After that we implemented classes with all their fields and inner functions. In the next week we want to start implementation of the API part. In other words we want to create functionality for our application to sell, buy, add products and connect it with a database. We already have some problems with using files and images. We were discussing how to send and retrieve them. For now we agreed that we will use the Base64 format because of its simplicity. So we will send base64 code and name of the file to restore the file with the true name and extension. 
+
+In general we did a great job. We thinked over our models and their connections and already started working on its implementation.
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+All parts of the tasks are covered and I liked your own assessment of the state of affairs regarding your progress. Make sure to think through the process of providing efficient communication between the backend and frontend team members as it can het a little messy sometimes. Consider adding more AI-assisted scripting to expedite the process of developing routine features - this course aims to develop skills of fast prototyping, so make sure to use this advantage. 
+I am a little surprised that you have no connections with the local tech community. There are numerous meetups every year and it's a great opportunity to get up to last trends and solutions. After all, there is almost 2000 developers in the city, and I hope, one can think of ways to leverage that for developing your network and projects.
+5/5 for the week
+{{< /hint >}}
+
+# **Week #3**
+
+**Prototype Features:**
+Frontend:
+- Login and registering with saving in local secure store JWT tokens
+- Integrate and providing own chat interacting implementation between any 2 users
+- UI-kit
+
+Backend:
+- Methods for registering and logging users in, and getting their JWT tokens. Now, after signing up or logging in, the user will get a JWT token which he can use to make requests to the IP
+- Methods for getting your own ID (system will return ID of your user); for leaving comments to some other user and see comments got by other people; for getting information about user (address, number, etc.) and also for editing your own personal info
+- Methods to place, edit the goods, to get the goods of a particular farmer; also for getting them; and getting not just all the goods, but the goods of a particular category.
+
+**User Interface:**
+
+Frontend visual - https://innofreshmarket.github.io/flutter/
+Backend Django interface - https://fspmainservice.onrender.com/
+
+
+**Challenges and Solutions:**
+- Bacause main platform is web and front part is flutter - it is difficult to manage work with JRT tokens => We just needed some hours to do it 
+- Manage naming for API => write it and do not touch without two-side agreement
+
+**Next Steps:**
+- Make product shelves with categories
+- Make search working
+- Make states of order with status and estimated time
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+It seems that you have an ordered approach to the project and already have main parts deployed - which is great. 
+I hope you and your team will be able to keep the pace and make the necessary adjustments on the way. 
+Progress report is a little too short, would be interesting to see more details on current considerations and trade-offs regarding the choices you make.  
+5/5 for the week
+{{< /hint >}}

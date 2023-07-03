@@ -378,3 +378,64 @@ https://broken-queen-4052.on.fleek.co/ (UI is not adapted for mobile yet)
 - Connect back-end and front-end parts
 - Provide an API for generating images for cocktails
 - Adapt UI for mobile
+
+# **Week 4**
+
+## **Testing and narrowing**:
+
+ For testing stage we improved our prototype: http://cocktail.chickenkiller.com/
+
+ On this step we decided to focus on MixUp page, but we also work on the other functions.
+
+After this week we reorganize our priority list:
+
+- MixUp: add ingredient exclusion
+- PickUp: add taste characteristics
+- Provide an API for generating images for cocktails
+- Create list of cocktails at MixUp function
+
+## **External feedback**:
+
+Summarize all feedback that we got:
+
+- Strong sides
+    - Catchy name and logo
+    - Cocktail presentation page is cool and clear
+    - Authentic design
+- Weak sides
+    - No possibility to move back to main page
+    - Fine print in recipes
+    - List of ingredients on Top10 page is too long and inconvenient
+    - Scale on PickUp page is not clear to use
+    - Colors of include/exclude areas are confusing
+    - Shadow of PickUp button on main page is invisible
+    - Top10 pages needs rating numbers and loop scrolling
+    - Adaptability to the phone
+
+## **Iteration and refinement**:
+
+ After feedback analyse we decide to change some parts:
+
+UI:
+
+1. Create navigation block
+2. Redesign alcohol strength scale
+3. Reorganize Top10 list
+4. Cosmetic UI design change
+5. Make UI mobile friendly
+6. Probably, create light colors theme
+
+Model:
+
+1. Add amount and measure for each ingredient
+2. Recipe for cocktail
+3. Adapt include/exclude inside algorithm
+
+Filter system:
+
+1. Resize alcohol scale, add values
+2. Change filtering algorithm
+
+Server:
+
+1. Add HTTPS

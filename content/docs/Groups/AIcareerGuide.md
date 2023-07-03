@@ -345,10 +345,10 @@ Anyway, I liked this service!
 - Front-end part:
   - We added new functionality to our site:
     - Top 5 suitable job titles render on the _/results_ page:
-![Results](static/results_MVP.png)
+![Results](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/results_MVP.png)
   - We improved the User Experience:
     - User can't iterate forward or back until he selects an option. Also, if he moves to previous questions, he can see already selected answers:
-![Iteration](static/iteration.png)
+![Iteration](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/iteration.png)
 - Back-end part:
   - Perform Unit and integration tests for the "Testing" section.
 - ML part:

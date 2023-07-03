@@ -426,3 +426,33 @@ Good report, you should focus more on finalising the project. And test it with r
 **Grade<br> 4/5**
 _Feedback by Moofiy_
 {{< /hint >}}
+
+# Weekly Task 4
+
+The task for week 4 of the Capstone Project.
+
+## Improvements upon the feedback provided on Week 2 Tasks:
+We will also try to improve on what you suggest every week so we will able to deliver a more better product. Here are our plans on how we will improve this week:
+
+ - **Prototype features**: Understandable that's why this week we have introduced features such as user authentication and search functionality.
+ - **Challenges and Solutions**: Understandable. As mentioned, we faced problem in designing the UI experience as it is a tedious task. We are continuosuly improving the UI based on the feedback we are receiving. We are also facing the integration problems while different components of frontends as they are developed by different people.
+
+## External Feedback:
+
+We have applied User Acceptance Testing (UAT) to our MVP. We asked a group of friends and our mentor to test it and give us feedback. The feedbacks were very helpful.  
+First feedback, there were some initialized items in the cart. We fixed it.  
+Second feedback, the layout is weird on mobile phones. So, we made it reponsive to sizes and that fixed the layout.  
+Third feedback, it was a real UX feedback, that when the quantity of an item reaches 0, it gets removed automatically and if it was by mistake, the person has to go to the store again to add it. So, we are fixing it by alerting the user before deleting the item.  
+Fourth and fifth feedbacks were positive.  
+
+## Testing
+
+We have been testing the backend part of the application using the respective libraries. After the frontend is completed we are aiming to test the prototype features (We will be testing the features that we implemented this week). We plan to use the respective libraries for both ends.
+
+## Iteration
+
+During this week's evaluation, we found problem in the idea of integrating innopoint system with the application. So in our MVP we are planning to keep the real currency in our system rather than innopoints. Also, we are planning on introdcuing features such as email integrations. This will help the users to keep a track of their orders and earlier transactions.
+
+Upon receving the feedback from last weeks, we have made many changes which includes: prioritising prototype features, removing the HomePage from the web application etc. Also while asking other users, we came to know the importance of font size in the website. Feedback included that the size of font on the website should be big enough as it would be read for ease by avergae user.
+
+On testing the application's ends, we came to know about security breaches that we improved using good coding practices, and advanced security measures such as user authentication.

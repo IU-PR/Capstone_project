@@ -266,3 +266,39 @@ This week, a manual test was performed on the frontend prototype which resulted 
 ## **Team Communication**
 
 To ensure that our frontend and backend are in sync, our team has conducted several meetings. During these meetings, we discussed the initial plan in detail, including error codes and the general AI API.
+
+
+# **Week #4 Progress report**
+
+## Feedback
+
+We gathered feedback from our chemistry student friends who had the opportunity to use our mobile
+application.
+They noticed that the app had a raw appearance and lacked the ability to translate into other
+chemical notations, particularly the IUPAC nomenclature.
+We will work on improving the user interface (UI)
+and incorporating conversion to other notations using
+libraries like [RDKit](https://www.rdkit.org/docs/index.html)
+and [OpenEye](https://docs.eyesopen.com/).
+
+## Testing
+We validated our neural network using a test dataset.
+Additionally, we specifically examined cases involving images
+with multiple formulas, images without formulas, and handwritten formulas.
+Overall, the model performed well, but it had some issues with handling specific cases.
+We plan to fine-tune the model and possibly develop another model specifically
+for formula detection in images, which can work in conjunction with the existing one.
+
+## Iteration
+
+We trained our model on the BMS dataset that we mentioned in previous week and fixed various bugs in
+the application. The iterative process allowed us to make improvements and enhancements based on the
+feedback and testing results, ensuring a more refined and reliable product.
+
+During this week, we prioritized gathering external feedback, testing our prototype, and iterating
+on the project. By involving chemistry students, we gained valuable insights into the app's
+usability and identified areas for improvement. Testing helped us evaluate the effectiveness and
+reliability of our neural network, and we discovered the need for additional fine-tuning and a
+separate model for formula detection on images. The iterative approach allowed us to refine our
+design, features, and functionalities based on the feedback and testing results, ensuring a product
+that aligns with our initial vision.

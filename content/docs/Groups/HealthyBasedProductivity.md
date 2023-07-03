@@ -334,3 +334,24 @@ It was also important to make the schedule more generic. We solved this issue by
 6. Add buttons to the user interface.
 
 ---
+
+
+# **Week #4**
+
+## **External feedback**
+We gave potential users (our friends and groupmates) to try to use our bot. They liked that there were few functions and the instructions did not take a long time to follow. However, the main weakness was that the instructions were not really user-friendly. Therefore, we will improve the bot's messages, which the user will follow.
+
+
+## **Testing and narrowing the scope**
+As stated in the first report, as an MVP we are developing a system that works with one user. As a result of testing, we understood what exactly the potential users were talking about (not really clear instructions). In addition, we took a closer look at NLP and schedule generation. As a result, we decided that it is worth improving the user schedule generator.
+
+## **Iteration and refinement**
+At this point, we are ready with the basic model and database. Their implementation has taken longer than we had planned. This delayed the opportunity to connect all parts of the system together. But the other tasks for this week (refining the generator, filters, creating time slots and refining the commands) are done. 
+
+## **Next week priority list:**
+1. Combine all parts (including chat-bot, database, data preprocessing and main model) together;
+2. Tune the main model;
+3. Test each part of the system;
+4. Add buttons to the user interface.
+
+---

@@ -1,11 +1,12 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "AI Career Guider"
+title: "AI Career Guide"
 ---
 
-# **Project: AI Career Guider**
+# **Project: AI Career Guide**
 
+# **Week 1**
 # **Introduction**
 
 {{< hint danger >}}
@@ -14,7 +15,6 @@ title: "AI Career Guider"
 Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
 {{< /hint >}}
-
 
 ### Team members
 
@@ -27,6 +27,7 @@ As we plan to promote your work, it's crucial to ensure that this file serves as
 |Said Kamalov|SaidKbshsb|s.kamalov@innopolis.university|
 |Arseni Rusin|Furry\_Lord|a.rusin@innopolis.university|
 |Ivan Kornienko|VanyaKo\_Keyboardist|I.kornienko@innopolis.university|
+|Sergey Milgram|MrFired|s.milgram@innopolis.university|
 ## Value Proposition 
 
 ### Identify the Problem 
@@ -109,6 +110,7 @@ The problem addressed by the application is the difficulty faced by people in fi
 |Said Kamalov|python, pandas, scikit-learn, numpy, pytorch, MySQL, postgreSQL; Docker|
 |Arseni Rusin|React|
 |Ivan Kornienko|Python: pandas, pytorch, scikit-learn, numpy; Databases: PostgreSQL; Docker|
+|Sergey Milgram|Python; GitLab CI/CD; Docker; Kubernetes|
 ### Anticipating Future Problems
 - High-load of our service.
 - Technical complexities related to integration of AI.
@@ -126,3 +128,189 @@ It is an interesting project! Great job on identifying the problem that candidat
 To further enhance your project, consider expanding on the specific features and functionalities that will be offered to users. Will the AI simulate career paths? Will your app include only IT professionals or some other professions too?
 
 Overall, I think you have a great team and a very nice project. Try to scale it down to some core features and develop a detailed execution plan (as it currently stated it can be too big for 6 remaining weeks){{< /hint >}}
+
+# **Week 2**
+
+## Tech Stack Selection
+1. Programming languages:
+
+  	* Python for ML and back-end part
+	* JavaScript for front-end part
+	* SQL for databases
+
+2. Frameworks:
+
+	* React for front-end part
+	* FastAPI for building API's with Python
+	* Airflow for monitoring workflows
+	* Scrapy for Web Scraping
+
+3. Technologies:
+
+	* Web Scraping for vacancies searching
+	* OpenAI for interaction with ChatGPT queries
+	* PostgreSQL for databases
+	* Docker and Kubernetes for deployment and monitoring
+
+
+## Architecture Design
+1. Component Breakdown:
+
+	![](/AICareerGuide/architecture.png)
+
+	* Front-end and back-end are "agreeing" on an interface of REST API messages and work with each other using that.
+	* Backend trigger Airflow Directed Acyclic Graph in order to start processing the query of the user.
+	* In the Airflow DAG we are going to determine:
+
+		* Job title
+		* Roadmap for that
+		* Vacancies on the given job title
+	
+ 	* Also in the Airflow DAG we are going to have a task for collecting the data; based on it we will create an internal or external statistics
+
+2. Data Management:
+	As we said, we are going to manage all our data in the Airflow DAG
+
+3. User Interface (UI) Design:
+	We have created [a simple UI sketch](https://www.figma.com/file/fECQWJjZB6fJCJnE5aKjCo/ai-roadmap.com-(Copy)?type=design&node-id=1403-2224) in Figma on how it will look like
+
+4. Integration and APIs:
+   	* We are going to integrate with OpenAI API for determination of job-related information.
+
+6. Scalability and Performance:
+	* In order to make future changes more simple, we decided to use Airflow, since there it is simple to add new tasks in a graph of processes.
+	* We have booked a server in university: 8 GB RAM, 6 CPU cores; we believe it will be enough for our purposes
+
+7. Security and Privacy:
+
+	* The code of the app will be analyzed for potential security issues as a part of CI pipeline.
+	* User can communicate with the app only through its web API. The internal parts of the app will be isolated in a different Docker containers.
+	* The app will not store any user's personal information, only the anonymous API request data for statistics and future improvements.
+
+8. Error Handling and Resilience:
+   	* Errors will be logged in Airflow
+
+10. Deployment and DevOps:
+    * We will use GitLab as version control and for CI/CD. The app will be deployed as a Kubernetes cluster of Docker containers.
+
+## Week 2 questionnaire
+1. Tech Stack Resources:
+
+	* We don't use any project-based books.
+
+2. Mentorship Support:
+
+	* We don't have any mentor.
+
+3. Exploring Alternative Resources:
+
+	We checked different solutions with simular functionality:
+	
+	* [AI Roadmap Generator](https://ai-roadmap.com/) for creating career path roadmap
+	* Professional orientation tests ([this](https://www.careerexplorer.com/career-test/) and [this](https://www.123test.com/career-test/)) for exploring possible questions to apply based on their results OpenAI query.
+
+4. Identifying Knowledge Gaps:
+
+	* Our team have knowlegde gaps in prompt engineering with usage of OpenAI API, Scrapy. So, we will deal with it by self-learning.
+
+5. Engaging with the Tech Community:
+
+	* We search for information on forums dedicated for specifics topics to get rid of knowledge gaps (for example, formatting of responses from ChatGPT)
+
+6. Learning Objectives:
+
+	* We set up following tasks in Trello for current week:
+
+		* Create repository.
+		* Create prototype of UX/UI design.
+		* Create pipeline in Airflow.
+		* Learn OpenAI API.
+		* Collect questions for professional orientation test
+
+7. Sharing Knowledge with Peers:
+
+	* We have Tech Lead in each team (Frond-end, Back-end, ML) who is responsible for sharing knowlegde.
+
+8. We used ChatGPT to expedite the process of acquiring knowledge.
+## Tech Stack and Team Allocation 
+Again, distribution of our responsibilities is:
+|Team member|Tech stack|
+| :- | :- |
+|Ilnar Khasanov (Lead)|Python: FastAPI, SQLAlchemy, alembic, Airflow; Databases: PostgreSQL; Docker|
+|Ruslan Kudinov|Python: pandas, pytorch, scikit-learn, numpy|
+|Damir Afliatonov|Python: FastAPI, SQLAlchemy, alembic, Airflow; Databases: PostgreSQL; Docker|
+|Said Kamalov|python, pandas, scikit-learn, numpy, pytorch, MySQL, postgreSQL; Docker|
+|Sergey Milgram|Python; GitLab CI/CD; Docker; Kubernetes|
+|Arseni Rusin|React, JS|
+|Ivan Kornienko|Python: pandas, pytorch, scikit-learn; Databases: PostgreSQL; Docker|
+
+We ensure that each team member was effectively assigned to appropriate tasks and responsibilities within the project by assigning tasks and their status in Trello and providing regular meetings dedicated to each team member's progress.
+
+# **Week 03**
+
+# Developing the first prototype, creating the priority list
+
+## Technical Infrastructure: 
+- We got the Ubuntu server from IU IT department and now we are setting up the CI/CD on it and preparing for the production. Also, we are working on domain for site for user access.
+## Backend Development:
+- We created a backend app that receives a data from the frontend and push it to the directed acyclic graph in the Airflow, waits for the result that should appear in RabbitMQ and returns it back to the frontend.
+- Considering machine learning part, we have successfully integrated the career path suggestions feature into our backend. Our focus now shifts towards roadmap generation. We have defined a prompt structure for the OpenAI API and conducted preliminary experiments with few-shot prompting. The next step is to integrate this feature into our MVP.
+The primary challenge lies in parsing the output from the GPT-model to a structured roadmap. This process necessitates a well-defined format for the roadmap. Our proposed solution is to acquire the roadmap as a string from the OpenAI API. This string will adhere to the structure of an enumerated list (i.e., 1, 1.1, 2, 2.1, 2.2, etc.).
+- API response example:
+  ![Components](/AICareerGuide/API.png)
+## Frontend Development: 
+- We created prototype using Figma. You can check it [here](https://www.figma.com/file/QDNRpes5bziKwAiKtTkM7Z/Untitled?type=design&mode=design&t=IO44qdhNKYF3DT6s-1).
+- Here you can see the stucture of project in React:   
+  ![Components](/AICareerGuide/components.png)
+- Priority of functionality:
+  1. Home page (_Home.js, Header.js components_).
+  2. Questions pages (_Question.js_).
+  3. Rendering results of user (_Result.js_).
+  4. Applying design from Figma.
+## Data Management:
+We have a Airflow directed acyclic graph that it responsible for the data processing. At this particular moment our dag can receive the answers on the questions and return the job titles that correlates to the user's interests.
+## Prototype Testing: 
+- As you can see below, our Figma prototype is quite simple:
+![Prototype](/AICareerGuide/prototype.png)
+- It performs following flow:
+  1. Renders main page and starts quiz after clicking "Start" button.
+  2. Give a user opportunity to iterate back and forward among questions.
+  3. After answering all questions, redirects user to page with rendered results.
+# Progress report
+## Prototype Features:
+At this moment, following workflow has been implemented:
+  1. Renders main page and starts quiz after clicking "Start" button.
+  2. After this click, front-end part receives JSON with questions and renders them one by one.
+  3. Then front-end part sends POST request with all answers choosen by user and receives results from Airflow pipiline in JSON format.
+## User Interface: 
+In detailes, there is such routing in prototype:
+- On the main page, user can click button "Start" to move to questions:
+  ![Main](/AICareerGuide/main.png) 
+- User can iterate back, forward or finish answering questions depending on number of question. Also, all questions are multi-choice.
+  
+  ![FirstQuestion]( /AICareerGuide/first_question.png)
+  ![MiddleQuestion](/AICareerGuide/middle_question.png)
+  ![LastQuestion](/AICareerGuide/last_question.png)
+- The last page in prototype is thedown  page with user results: suitable vacancies and roadmap. Maybe, later we can make each "vacancy" component clickable and provide more information about vacancy after click.
+  ![Result](/AICareerGuide/result.png)
+## Challenges and Solutions:
+- Public IP address for our server. The solution is VPN to the university network in order to make it accessible for the GitLab CI/CD.
+- The API we're currently using is not capable to fetch key skills from each job offer. The solution is to use OpenAI technology which obtains job offer description as input and returns the array of key skills as output.
+Next Steps - make app applicable for HeadHunter in order to get their API key.
+- Domain for our service.
+## Next Steps:
+* Publish prototype in the Internet.
+* Add new features as roadmaps and vacancies.
+
+## Code Repository:
+https://gitlab.com/ai-career-guide/backend/-/tree/develop?ref_type=heads
+
+{{< hint danger >}}
+**Feedback**  
+I appreciate the transparency in sharing the progress of the project and the inclusion of the Week 2 questionnaire responses. It's good to see the allocation of team members and their responsibilities, ensuring efficient task distribution. The mentorship support may be lacking at the moment, but the team's proactive approach to learning and leveraging resources like ChatGPT is commendable.
+
+The Architecture Design is clear and provides a good overview of how the different components interact with each other. I particularly like the use of Airflow for monitoring workflows and the integration with OpenAI for job-related information.
+
+Consider visiting the MockMentor project page, I think you may want to collaborate and perhaps even join your projects in the future. Finally, I'm excited to see the development of the first prototype in Week 3. Keep up the great work, and I look forward to the continued success of our project. 
+Overall, nice progress and thoughtful reports - 5/5 for both weeks.  
+{{< /hint >}}

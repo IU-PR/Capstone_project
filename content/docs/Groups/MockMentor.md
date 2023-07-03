@@ -272,3 +272,23 @@ I think this project is innovative and exciting - and I am sure backend integrat
 Keep up the pace and continue the good work!
 5/5 for both weeks.
 {{< /hint >}}
+
+
+# **Week #4**
+
+## **External Feedback**
+We asked our collegues and friends to test and give feedback on our prototype. Right now, frontend and backend are not merged, therefore testing was done on each part separately. Overall, the feedback was mostly positive, but there were some moments that testing group found lacking and gave us some suggestions.
+
+Testing group liked the simplicity of the frontend, but the ML part still needs adjustments. NLP and text-to-speech were the parts with most problems. Ranking the correctness of the user's answer still needs some adjustments and parametrisation. For now, our team also needs to enlargen the dataset of answers (twhich are used to check correctness of user's answer to a question) for interview questions. Also, generating voiced questions takes longer than desired and needs optimising.
+
+## **Testing**
+We used manual testing to test our prototype and found bugs and parts that still need adjustments.
+
+Right now, NLP and text-to-speech are continuously tested and improved. Still, it needs improvements: text-to-speech still needs more human-like voice(more intonations and less memos and empty spaces), NLP that is used to check the correctness(the similarity between received and one of expected answers) is not yet perfected and needs adjustments. 
+
+In frontend some bugs were found related to showing the message to the user. Also, the voiced question sometimes took too long.
+
+## **Iteration**
+Throughout the development several points of our project were reconsidered and changed. The desing was firstly a bit different, but then more simple desing with more contrast coloring were used. For backend, our team got rid of some libraries and decided to use others. Also, our team considered voicing the questions in interview ourselves, but then decided to go for text-to-speech. Moreover, the use of answers by voice was introduced from beginning, it was a decision we made to make the interview closer to real life job interview.
+
+---

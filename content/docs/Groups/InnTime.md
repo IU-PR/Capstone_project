@@ -599,6 +599,7 @@ Next, you can see the format of the backend admin panel and the ability to edit 
     <img src="/InnTime/courses_edit_back.png">
 </div>
 
+Also we have introduced JWT token to save user settings such as cources and electives after logging or registration.
 
 By adopting an iterative approach, we have successfully eliminated several early-stage mistakes and made significant progress towards achieving our project's objectives.
 

@@ -94,7 +94,9 @@ We have not found any open-source projects or experts that can help us at this t
   available in existing alternatives.
 
 Here's how the structure of the project will look like:
-![](../../../../static/Mushroomity/project_structure.png)
+<div style="text-align: center;">
+  <img src="/Mushroomity/project_structure.png" alt="Project structure" width="300" height="300">
+</div>
 
 {{< hint danger >}}
 **Feedback**

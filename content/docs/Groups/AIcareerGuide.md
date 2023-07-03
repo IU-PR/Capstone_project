@@ -246,7 +246,7 @@ Again, distribution of our responsibilities is:
 
 We ensure that each team member was effectively assigned to appropriate tasks and responsibilities within the project by assigning tasks and their status in Trello and providing regular meetings dedicated to each team member's progress.
 
-# **Week 03**
+# **Week 3**
 
 # Developing the first prototype, creating the priority list
 
@@ -314,3 +314,44 @@ The Architecture Design is clear and provides a good overview of how the differe
 Consider visiting the MockMentor project page, I think you may want to collaborate and perhaps even join your projects in the future. Finally, I'm excited to see the development of the first prototype in Week 3. Keep up the great work, and I look forward to the continued success of our project. 
 Overall, nice progress and thoughtful reports - 5/5 for both weeks.  
 {{< /hint >}}
+
+# **Week 4**
+
+# External Feedback
+For feedback, we asked people with different knowledge of IT. So, the results are:
+- A person who does IT optionally:
+> This test that is used to determine the path for IT career development is useful, since it pays attention to personal skills and interests.
+I have passed it from my phone. The text was readable. However, it does not fill well to the boxes. There is still some work for improvement.
+Anyway, I highly recommend this service for those who have not decided their IT career path.
+- Software Development student from Kazan Federal University:
+> In general, I like this service because it has suggested some ways I can develop myself in IT. I have really liked it. However, when I opened the website at the first time, I could not start the test.
+_(Authors remark: we really had this problem; we have updated nginx's config, but did not reload its Docker container; already fixed)_.
+Also, the website loads very slow (specifically at the start and while getting the results).
+Moreover, I'd like the choice buttons to be bigger.
+Anyway, I liked this service!
+- A person who isn't related to IT:
+> Overall, this site provides useful functionality and can be interesting for people involved in IT. By the way, I found some problems with the User Experience; for example, I can't move to the previous question if I haven't answered the current one.
+
+
+# Testing
+- Unit and integration testing:
+  - We have introduced them in Docker. When we build a backend image, we always check the unit tests since they are checked very fast and isolately. We have also introduced integration tests, that we run in different Docker image, since they need some time to be processed.
+- User Interface/User Experience testing:
+  - We tested the front-end part (by ourselves and with the help of external feedback) and found several bugs in our prototype:
+    - Mobile version of our application is not responsive.
+    - User can't move back to the question until he selects an option. It is not very convenient for the user.
+    - Favicon isn't displayed.
+# Iteration
+- Front-end part:
+  - We added new functionality to our site:
+    - Top 5 suitable job titles render on the _/results_ page:
+![Results](static/results_MVP.png)
+  - We improved the User Experience:
+    - User can't iterate forward or back until he selects an option. Also, if he moves to previous questions, he can see already selected answers:
+![Iteration](static/iteration.png)
+- Back-end part:
+  - Perform Unit and integration tests for the "Testing" section.
+- ML part:
+  - This week we solved the primary challenge that we defined the previous week: roadmap generation. We defined a prompt format as a numbered list with two levels of depth. It is important to notice, that we again used the few shots prompting technique to achieve a specific format of response. Also, we did research on function calling, a relatively new feature in the OpenAI API. Unfortunately, we did not have any idea how to apply this functionality to our project.
+- DevOps part:
+    - We deployed our site on the Vercel using domen http://aicareerguide.ilnarkhasanov.com

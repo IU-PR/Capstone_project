@@ -1,3 +1,9 @@
+---
+weight: 1
+bookFlatSection: true
+title: "Kringe Production"
+---
+
 # **Introduction**
 
 {{< hint danger >}}
@@ -5,12 +11,6 @@
 **Feedback**  
 Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of a potential reader. 
-{{< /hint >}}
-
-{{< hint danger >}}
-
-**Feedback Week 2**  
-This feedback blocks can and should be changed from week to week. For example - first comment block on the introduction was meant to give you a hint on how to organize this page. Please, add some project information and a logo here. You can remove my comments once you think you addressed them.    
 {{< /hint >}}
 
 # **Week #1**
@@ -192,11 +192,14 @@ Our application does not require transaction support and at the same time we nee
 ## User Interface (UI) Design
 Now we have the first version of the main page of the site. In the attached file you can see the layout of the main page.
 
-{{< hint danger >}}
+![Course Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Course_Page.jpg)
+![Forum](https://github.com/inga-zimnya/Images_for_Project/blob/main/Forum.jpg)
+![Main Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Main_Page.jpg)
+![Sign In Log In Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Sign_In_Log_In_Page.jpg)
 
-**Week 2 Feedback by Rustam**  
-I don't see any attached files
-{{< /hint >}}
+
+
+https://github.com/inga-zimnya/Images_for_Project/blob/main/Course_Page.jpg
 
 ## Integration and APIs
 Assess any external systems, services, or APIs that need to be integrated into your application. Plan how these integrations will be implemented and how data will flow between systems.
@@ -420,20 +423,104 @@ During the week, the team leader regularly contacts all team members, separately
 To track the success of each participant's work, we decided to use ***trello***, where the team leader will be able to set common tasks for the week and everyone will be able to set personal tasks for themselves and regulate their implementation.
 
 
+# **Week #3**
 
+## **Introduction**
+**Introducing UniHub:** Empowering University Students Through Collaboration and Resource Sharing.
+
+Greetings, IU students! Kringe Production are excited to introduce UniHub, platform designed to address challenges you face in your academic journey. UniHub provides a centralized space where students can collaborate, share resources, and support each other, revolutionizing the way you navigate university life.
+
+**Problem:** We understand struggles of limited study materials, lack of a centralized source of information and communication with other courses that hinder your academic progress.
+
+**Solution:** UniHub is a mutual help forum exclusively for university students. It offers centralized storage for study materials, enabling easy access to student notes, cheetsheats and other resources. You can connect with knowledgeable peers, ask questions and find study partners.
+
+**Key Features:**
+
+*Centralized Study Materials:* Easily upload, access, and share study resources categorized by courses.
+*Peer-to-Peer Interaction:* Connect with students who excel in specific subjects, seek advice, and find study partners.
+
+**Benefits:**
+
+*Enhanced Access to Study Materials:* Save time by finding and sharing study resources effortlessly.
+*Collaborative Learning:* Tap into the expertise of peers, deepening your understanding of course material.
+*Time and Cost Savings:* Access shared resources, saving both time and money.
+
+**Differentiation:**
+
+*Tailored to University Students:* UniHub is designed specifically for the unique needs of university students.
+*Comprehensive Study Material Storage:* A centralized repository covering a wide range of courses.
+
+***Join UniHub today and unlock a world of collaboration, resource sharing and academic success!***
+
+
+## **Prototype Features:**
+
+**Main Page of Forum:** prototype includes a main page that serves as central hub for users to access various features of UniHub(название все еще подлежит обсуждению). It provides a user-friendly interface where students can explore different courses, interact with discussions and access relevant resources.
+
+**Sidebar with Course Navigation:** prototype features a sidebar that enables easy navigation between different courses. Users can select specific course from sidebar to view course-related discussions, resources and study materials.
+
+**Course Files Page:** prototype includes a dedicated page for each course where students can access and share study materials, such as student notes, cheetsheats and other relevant resources. Page provides an organized layout, allowing users to upload, download, and interact with the course files.
+
+**Backend API:** to facilitate efficient data management, API has been developed for the backend. This API allows seamless communication between frontend and backend, enabling convenient handling of user data, course information, file uploads, and other essential functionalities.
+
+**User Interface:**
+
+Main page of forum feature a clean and intuitive design with sections for recent and popular discussions and resource categories.
+
+![Main Page dark](https://github.com/inga-zimnya/Images_for_Project/blob/main/main_dark.png)
+Pic. 1. Main Page in desktop version in dark mode
+
+![Main Page dark mobile](https://github.com/inga-zimnya/Images_for_Project/blob/main/main_dark_mobile.png)
+Pic. 2. Main Page in mobile version in dark mode
+
+![Main Page light](https://github.com/inga-zimnya/Images_for_Project/blob/main/main_light.png)
+Pic. 3. Main Page in desktop version in light mode
+
+Sidebar with course navigation display a list of courses, organized by year of study, e.g. first-year undergraduate students. Clicking on a course in the sidebar would lead to the corresponding course page, where users can find and interact with course-specific resources and discussions.
+
+![Sidebar dark mobile](https://github.com/inga-zimnya/Images_for_Project/blob/main/sidebar_dark_mobile.png)
+Pic. 4. Sidebar in mobile version in dark mode
+
+Course files page present a clear layout with options to upload and download files, along with features for filtering and searching for specific resources within the course.
+
+![Upload Page dark](https://github.com/inga-zimnya/Images_for_Project/blob/main/upload_dark.png)
+Pic. 5. Upload Page in desktop version in dark mode
+
+![Upload Page light](https://github.com/inga-zimnya/Images_for_Project/blob/main/upload_light.png)
+Pic. 6. Upload Page in desktop version in light mode
+
+![Upload Page light mobile](https://github.com/inga-zimnya/Images_for_Project/blob/main/upload_light_mobile.png)
+Pic. 6. Upload Page in mobile version in light mode
+
+## **Development Report** 
+
+**Problems and Difficulties**
+
+During the development of the project on the Django platform, we encountered several problems and difficulties, especially considering our previous experience of developing on the platform.NET.
+
+**The main problems we have encountered:**
+
+The need to learn a new programming language - Python.
+Architectural differences of Django from .NET, requiring rethinking of design patterns and development approaches.
+Lack of an integrated development environment, requiring the search and configuration of a suitable development environment for Django.
+We also had to get used to the Django architecture, including the MTV model (Model-Template-View), which required time and adaptation to the new roles and responsibilities of each component.
+
+All these difficulties were overcome thanks to our perseverance, study and application of new knowledge and skills in development on the Django platform.
+
+From the problems of developing the front part of the project, the problem of accessing two different servers via one port was identified, which was solved by our developers through a reverse proxy.
 
 
 
 {{< hint danger >}}
 
-**Week 2 Feedback by Rustam**  
-While this report is well written and structured, I would like to draw your attention to a few considerations. Firstly, if the platform is intended to be open-source or even closed source, it is important to note that certain materials from university courses may not be freely available. Licensing and restricted rights often govern the distribution of educational resources (university have full rights on this materials). Although some courses may already provide online materials, obtaining permission from the university and the respective lecturers would be necessary to make all course materials available. It is crucial to be mindful of these legal constraints. 
-Therefore, I would suggest you to rewrite some aspects of the project description and weekly progress reports in light of suggestions I provided. 
+**Feedback**  
+I am impressed by the prototype features you have developed. The main page of the forum, with its user-friendly interface, will make it easy for students to engage in discussions, and access relevant resources. The sidebar with course navigation will enable seamless navigation between courses, enhancing the overall user experience. The user interface of UniHub, as showcased in the provided screenshots, looks clean and intuitive - good job on that. 
 
-In principle, you may just not mention this functionality, and frame it as a digital collaboration environment of the university students. 
+The differentiation of UniHub as a platform tailored specifically for university students sets it apart from other generic resources. I think you may want to frame your project as essentially a social network with enhanced features for University students. 
 
-In general, I liked the project and I think the component breakdown clearly explain technologies needed, and I believe you have the mock layouts of the site already. Btw, I couldn't find this file, make sure to add screens of your designs next week. 
-Team allocation is great, and I liked the weekly sprint idea. Keep up the pace of the work and make sure that you have first skeleton of the project by next week. Good luck!
+Also, appreciate your transparency in sharing the problems and difficulties faced during the development process. It is evident that your team's perseverance and dedication will help you get through. 
 
-5/5
+Good job, 5/5 for the week!
+
 {{< /hint >}}
+

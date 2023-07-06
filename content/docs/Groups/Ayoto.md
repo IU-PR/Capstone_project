@@ -307,3 +307,41 @@ From the testing phase, we discovered some bugs that we need to fix in our websi
 Additionally, we received some feedback from users and we will be considering it while developing the prototype. For example, we will be considering the feedback we got about the privacy of the data. We also added in our tasks list to implement the suggestion we got about showing the user a list of doctors and hospitals which are covered by his insurance.
 
 On top of that, our team is also working on implementing the rest of the features in the prototype.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Where is the proof of this feedback collection?
+What positive / negative feedback you received.
+This is missing form the report
+
+
+**Testing**<br>
+Good, but how do you mange bug reporting/ fixing / documenting?
+
+
+**Iteration**<br>
+This is not iteration
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+
+**Overall**<br>
+The report ok. Please give some more time reflecting / writing the report!!!.
+
+So far this is the best report I graded this week out of 11 teams
+
+**Grade: 2/5**
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

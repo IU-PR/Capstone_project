@@ -382,3 +382,37 @@ There are a lot of work regarding changes of routes, data and architecture of ba
 
 
 
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Good that you have a feedback from customers.
+
+**Testing**<br>
+Ok good, you make all of this testing, Where is the proof?
+
+**Iteration**<br>
+This is not iteration plan.
+How will you adapt to what the customer is requesting?
+
+
+> Here we have a true iterative process
+
+How? Show us how it’s a true iterative process
+
+An iteration plan, is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed
+* The tasks needed to develop these features: this might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration
+
+
+
+**Overall**<br>
+The report is ok, you need to reflect on what is requested an do it properly
+
+**Grade<br> 3/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}

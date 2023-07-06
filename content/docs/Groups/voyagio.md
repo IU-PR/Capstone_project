@@ -495,3 +495,28 @@ Also, during this week, our team has completed several significant steps towards
 - We have finalized the dataset for machine learning and database, selected the model, and begun implementation.
 - We have collected information about travel trends and are currently conducting market research.
 - We have also fixed some errors in the design.
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Wow!!! That is really good approach to collect feedback and take action according to it.
+
+
+**Testing**<br>
+Very very Good.
+
+**Iteration**<br>
+Perfect!!
+
+
+
+**Overall**<br>
+Best Report ever!!!!!!!
+Keep up the good work like this and you will get an A.
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

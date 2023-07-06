@@ -533,3 +533,32 @@ Here's a glimpse of our current backlog:
 ![](/InnoCoTravel/week4_backlog.png)
  
 
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Very Good, but maybe better to follow some kind of User statisifaction metrics like NPS to better utilise this feedback.
+
+Also, you should provide links to this servey to proof what you are saying and to get feedback on them.
+
+
+**Testing**<br>
+What kind of testing you are using?
+How do you manage fixing / finding bugs?
+How of you mange bugs reporting?
+
+
+**Iteration**<br>
+Good iteration plan
+
+
+
+**Overall**<br>
+The report is good.
+
+**Grade: 4/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+

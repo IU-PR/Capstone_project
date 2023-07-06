@@ -605,3 +605,41 @@ By adopting an iterative approach, we have successfully eliminated several early
 
 ___
 In conclusion, this week's progress report emphasizes the importance of external feedback, testing, and iteration in shaping our project. We actively sought feedback from our target audience, refining our project based on their insights. Thorough testing allowed us to identify and address issues, ensuring a robust and reliable backend. Additionally, through iterative refinement, we enhanced the frontend design, added new features, and improved the overall user experience. As we move forward, we remain committed to continuous evaluation, adjustment, and refinement to deliver a high-quality, user-centric solution.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Good, you did feedback? Is there any proof to what you said?
+You should have showed the feedback here.
+
+Since in the report you didn’t show any real feedback form real users. It hard to say wether you are making changes by yourself or based on a feedback.
+
+**Testing**<br>
+Ok you you made testing, where is the proof?
+
+Please show proof of what you are saying that you were doing. Because words without evidence is just words.
+
+> Through rigorous testing?
+
+What kind of testing did you do? Uni testing, System testing, Usability testing?
+
+How did you mange reporting / fixing bugs?
+How did you make sure it was fixed?
+
+You didn’t show any of this in the report.
+
+
+**Iteration**<br>
+
+Good iterate plan
+
+
+**Overall**<br>
+The report is ok. your report doesn’t reflect your work. I Think you should spent more time reflecting / writing the report.
+
+**Grade: 3/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}

@@ -64,16 +64,6 @@ Please show proof of what you are saying that you were doing.
 For example how much code coverage you cover?
 
 
->  respective libraries
-
-What kind of libraries you used?
-
-How did you mange reporting / fixing bugs?
-How did you make sure it was fixed?
-
-You didn’t show any of this in the report.
-
-
 **Iteration**<br>
 
 Good plan but keep in mind:

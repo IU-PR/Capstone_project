@@ -456,3 +456,51 @@ During this week's evaluation, we found problem in the idea of integrating innop
 Upon receving the feedback from last weeks, we have made many changes which includes: prioritising prototype features, removing the HomePage from the web application etc. Also while asking other users, we came to know the importance of font size in the website. Feedback included that the size of font on the website should be big enough as it would be read for ease by avergae user.
 
 On testing the application's ends, we came to know about security breaches that we improved using good coding practices, and advanced security measures such as user authentication.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Good, you did feedback? Is there any proof to what you said?
+You should have showed the feedback here.  Or a link to it.
+
+
+
+**Testing**<br>
+Ok you you made testing, where is the proof?
+
+Please show proof of what you are saying that you were doing. Because words without evidence is just words.
+
+>  respective libraries
+
+What kind of libraries you used?
+
+How did you mange reporting / fixing bugs?
+How did you make sure it was fixed?
+
+You didn’t show any of this in the report.
+
+
+**Iteration**<br>
+
+Good plan but keep in mind:
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+**Overall**<br>
+The report is ok. your report doesn’t reflect your work. I Think you should spent more time reflecting / writing the report.
+Especially the testing part. it seems you didn't do any testing 
+
+**Grade: 3/5**
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

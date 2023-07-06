@@ -369,4 +369,39 @@ You can watch [_this video_](https://drive.google.com/file/d/1QXhRSQkmL6ZYWtGDiK
 - The frontend part turned up to be time-consuming work, so we won't manage to have all the desired pages that are a bit beyond the MVP. That's why we limited the project to generating, authorization, viewing all quizzes, passing, and searching. That is how we narrow the scope of our project and ensure feasibility. This week we implemented a login and view of all quizzes. It was not clear initially how to manage the sequrity of pages. We solved it by storing the token in a local storage and then verifying each time a user enter any page.
 - From the backend perspective, we reformated most parts of the code to improve maintainability and reduce technical debt, as we planned. Besides, we added displaying of all user's generated quizzes and made quiz creation asynchronous. The only difficulty we had met was related to the last feature. To be more specific, we had a problem with running Celery and RabbitMQ (message broker) on Windows (our local development environment) in pair. Therefore, we switched OS to Linux-based Ubuntu to test it more comfortably.
 
+{{< hint danger >}}
+**Feedback**  
 
+
+**External Feedback**<br>
+So you didn’t get a good user feedback? How many user you talked to?
+
+
+**Testing**<br>
+How do you do testing exactly? You didn’t show how!!
+
+
+
+**Iteration**<br>
+Ok, this good that you are thinking of the iteration also keep in mind:
+
+An iteration plan, is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed
+* The tasks needed to develop these features: this might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration
+
+
+
+**Overall**<br>
+The report is ok, good progress so far. Your design is too basic and lack following UI standards and doesn’t utilize colors correctly.
+
+Tokyo ghoul song is a very cool song. But I would not advise you to add it in your demo. Maybe instead of music you could narrate to the watcher how to use the app.
+
+**Grade<br> 4/5**
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

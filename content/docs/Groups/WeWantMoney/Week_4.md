@@ -42,3 +42,31 @@ All works were successfully done, refinements were taken into account
 ## **Iteration**
 
 Thanks to daily calls with the customer's representative, our team checks the status of the work performed against the planned tasks on a daily basis. If there are any questions, they are immediately discussed in a common group, and the necessary adjustments to the original plan are introduced.
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**External Feedback**<br>
+Good that you have a feedback from client. But only 1 feedback, do you think it’s enough.
+
+**Testing**<br>
+Ok good, you make all of this testing, Where is the proof?
+
+**Iteration**<br>
+This is not iteration plan.
+How will you adapt to what the customer is requesting?
+How do you handle change request?
+How do you show your progress?
+
+You haven’t provide any proof to what you are saying, you are just writing words. And words without a proof is nothing!
+
+**Overall**<br>
+The report is weak, you need to reflect on what is requested an do it properly
+
+**Grade<br> 2/5**
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

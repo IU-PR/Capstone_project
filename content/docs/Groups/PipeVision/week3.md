@@ -28,7 +28,10 @@ We tested our Figma  prototype against the defined user flows and scenarios with
 
 ### **Progress report**:
 1. **Prototype Features**: 
-We created the database corresponding to the ER-model, wrote ORM models and part of functions for it, implemented main and login pages in frontend.
+Our prototype has several features at the moment: 
+ - user can sign in using predefined login and password
+ - user can upload a photo for further recoginition
+ - user may log out by clicking the exit button and in pop-up window confirm or deny exiting
 
 2. **User Interface**: 
 
@@ -47,7 +50,8 @@ The main challenge is to collect a proper data set. Pictures of pipes with marki
 Another challenge is CV model design due to unstable format of marking and lack of data.
 
 4. **Next Steps**: 
-We are planning to implement backend logic firstly. It includes component interaction and ML model development. The next priority is given to history page development. All these tasks are decomposed and introduced in our task management system.
+We are planning to implement backend logic firstly. It includes component interaction and ML model development. The next priority is given to history page development. Furthermore, we think to organize several sessions with interface testing and improve desing correspondingly. Another important task is to deploy whole solution to the university servers. All these tasks are decomposed and introduced in our task management system. 
+
 
 
 {{< hint danger >}}

@@ -390,3 +390,45 @@ Based on the feedback, we changed our focus from supporting the Telegram bot by 
 In the current iteration, we decided to drop some features based on the advice we got from the InnoMastery team. Namely, we are no longer updating the Telegram bot frontend interface. Also, we have developed all internal back-end requirements features that were so far needed by front-end part of our team. In the next iteration, we are going to mainly test the existing functionality and bring the frontend to the usable state. 
 
 {{< /expand >}}
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Good, but only 1 feedback?
+Do you think it’s enough?
+
+**Testing**<br>
+Ok you have a testing process, can you show results?
+
+>As already mentioned in previous project reports
+
+What exactly was mentioned? You should state it explicitly what you mentioned in order to understand, beside write in what report you talked about testing
+
+If you have a testing process, how do you documents bug finding / fixing?
+
+Please show proof of what you are saying that you were doing.
+
+
+**Iteration**<br>
+So you decided to change your project, just because of one feedback!!!!!
+
+This design should be made on a more stronger basis rather than 1 feedback form other students.
+
+
+Also you didn’t mention an iteration plan:
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+**Overall**<br>
+The report is ok. You should be more focused on your ideas, and do more feedback iteration to see other students opinion
+
+**Grade: 2/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}

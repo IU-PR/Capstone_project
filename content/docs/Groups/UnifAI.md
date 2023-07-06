@@ -346,9 +346,12 @@ about it and figure out the best way of applying technologies from that field in
 This week we conducted several meetings and built standalone reproducible components of our app: 
 microphone input stream with Whisper model voice recognition (speech-to-text), text translator (text-to-text) with Opus model, 
 backend server with user authentication, login page, and TTS (Text-to-speech) via gTTS, 
-STS (speech-to-speech) based on [coqui's](https://github.com/coqui-ai/TTS) vctk/freevc24 model. In addition, we conducted research to find new way 
-to synthesise speech.
+STS (speech-to-speech) based on [coqui's](https://github.com/coqui-ai/TTS) vctk/freevc24 model. In addition, we conducted research to find new way to synthesise speech.
 
+{{< hint danger >}}
+**Feedback from Rustam**  
+This is exactly what I requested last time. Thank you - model and it's details. 
+{{< /hint >}}
 ## Finalized application flow
 
 We finalized the complete flow of our application, which is stated and developed as follows: 
@@ -361,6 +364,11 @@ We finalized the complete flow of our application, which is stated and developed
    2. Secondly, speech-to-speech model will replace synthesised voice to real one of our client
 
 We named this full pipeline 'STT-TTTT-TTS-STS'. Please be sure to remember it, as we will refer to it only that way.
+
+{{< hint danger >}}
+**Feedback from Rustam**  
+STT-TTTT-TTS-STS! I'll rehears that :) But, seriously, I am really excited about this app flow - if it will be implemented without excessive delays - I might consider giving up on learning new languages.  
+{{< /hint >}}
 
 ## SpeechToText (STT)
 We implemented the usage of the Faster Whisper STT model in a class with configurable model parameters 
@@ -386,13 +394,21 @@ In addition, real-time factor depends on system, hardware, language, and batch s
 information, please refer to [OpenAI research paper](https://cdn.openai.com/papers/whisper.pdf).\
 \*\* MIT Licence supports commercial use, meaning we can use these models in our project. 
 
+{{< hint danger >}}
+**Feedback from Rustam**  
+This is good. Shows that you have done your homework and know what the model's landscape look like.   
+{{< /hint >}}
+
 Some demo of what we have done:
 
 <video controls="controls" width="100%">
   <source src="/UnifAI/whisper-w3.mp4" type="video/mp4">
 </video> 
 
-
+{{< hint danger >}}
+**Feedback from Rustam**  
+Cool! 
+{{< /hint >}}
 ## Translation model (TTTT)
 TextToTextTranslator - technology that translates text from one language to text in another language. 
 We decided to use Opus-MT models, because they are lightweight, accurate, and can translate to more than 
@@ -424,8 +440,7 @@ text between russian and english:
 
 ## Voice cloning (TTS + STS)
 Brief introduction to what happened. We faced a lot of challenges with voice cloning (speech synthesis) 
-models (Please refer to [challenges](UnifAI#challenges-and-solutions) for more information). Due to that we needed to develop new 
-technology. As our solution, we decided to decompsone voice cloning models (that take as input text 
+models (Please refer to [challenges](UnifAI#challenges-and-solutions) for more information). Due to that we needed to develop new technology. As our solution, we decided to decompose voice cloning models (that take as input text 
 and voice to clone), to two different models: text-to-speech, and speech-to-speech: 
 
 **TextToSpeech (TTS)**\
@@ -434,8 +449,12 @@ developed rapidly as its interest is raised. Nowadays, there exist thousands of 
 with different speakers and quality. This is one of the reasons why we switched models.
 
 For the TTS part we found several potential libraries and technologies that could help us make the 
-project come true: [gTTS](https://pypi.org/project/gTTS/), [Piper](https://github.com/rhasspy/piper). We have already implemented and tested gTTS, however 
-in the near future we would like to switch to Piper as it seems to provide better audio synthesis.
+project come true: [gTTS](https://pypi.org/project/gTTS/), [Piper](https://github.com/rhasspy/piper). We have already implemented and tested gTTS, however in the near future we would like to switch to Piper as it seems to provide better audio synthesis.
+
+{{< hint danger >}}
+**Feedback from Rustam**  
+Recently I've stumbled on a new AI assistant - pi.ai - they have a great text to speech engine. Perhaps, you can use it as a benchmark for selecting the model.   
+{{< /hint >}}
 
 |                     | gTTS                                          | Piper                                                  |
 |---------------------|-----------------------------------------------|--------------------------------------------------------|
@@ -474,6 +493,11 @@ One of STS models we decided to use is FreeVC24:
 **Voice cloning progress**\
 During this week we implemented gTTS TTS model, as well as integrated FreeVC24 within the pipeline. So now we can
 clone anyone's voice (but for now, far from ideal) and pronounce sentences with it on several languages. You can see our current results below:
+
+{{< hint danger >}}
+**Feedback from Rustam**  
+It does't need to be ideal - make it work, and once it is actually working, we will improve from there.    
+{{< /hint >}}
 
 Text to pronounce:
 
@@ -527,14 +551,28 @@ Samples of already-existing models with direct voice-cloning (approach we abound
   <source src="/UnifAI/vc-en-w3.mp3" type="audio/mp3">
 </audio> 
 
+{{< hint danger >}}
+**Feedback from Rustam**  
+Ok, this is impressive   
+{{< /hint >}}
 
 ## Backend development & Data management
 For the sake of preserving the sanity of our backend developer we have made the decision to switch 
 to golang(& gin) for our backend. 
 
+{{< hint danger >}}
+**Feedback from Rustam**  
+It's fun to read your reports!   
+{{< /hint >}}
+
 We have also made some decisions regarding security and data management: for authentication we 
 are going to utilize JWT(JSON Web Token) with HMAC algorithm and the principle of access & refresh 
 tokens. User passwords will be hashed with the bcrypt algorithm and stored in a postgresql table.
+
+{{< hint danger >}}
+**Feedback from Rustam**  
+I am not an expert on security, but at a first glance seems to be a good choice.  
+{{< /hint >}}
 
 ![Server deployment](https://i.imgur.com/XHTsbsv.png)
 
@@ -552,6 +590,12 @@ After coming to a conclusion on which framework to use, we quickly developed a l
 
 ![Application UI example](https://i.imgur.com/SyxmPdV.png)
 
+{{< hint danger >}}
+**Feedback from Rustam**  
+I understand your reasoning here. Can't say that I like using python wrappers on the front, but do it for the time being.
+Keep in mind that once the project actually takes shape and will have some users - frontend with high likelihood will be updated using more appropriate choices.   
+{{< /hint >}}
+
 ## Challenges and Solutions
 
 **Challenge with microphone input:**\
@@ -561,6 +605,13 @@ there will be a significant delay. The best solution found is to use VAD (Voice 
 that will detect speech in the microphone stream and, after a certain configurable threshold, 
 this speech will be passed to the whisper model for transcription.
 
+{{< hint danger >}}
+**Feedback from Rustam**  
+Yes, you can have a small function that converts the sound form the microphone into intensities, once this is above threshold 
+it will be transcribed. Perhaps it makes sense to have a look on modern apps like ZOOM and others to try to find some clues about their way to do that.    
+{{< /hint >}}
+
+
 **Lack of research:**\
 We are dealing with the problem that not so much research was done in real-time voice translation 
 models. We need: real-time, multi-language, multi-speaker, voice cloning models. Preferably with 
@@ -569,6 +620,11 @@ just to find what solutions already exist and how they work. As a result of a we
 found no solutions that satisfy our requirements, which led us to our last hope - develop new 
 technology by ourselves. (P.S. we succeeded, new stt-tttt-tts-sts pipeline was developed, and you 
 can check our voice-cloning (tts-sts) results [here](UnifAI#voice-cloning-tts--sts))
+
+{{< hint danger >}}
+**Feedback from Rustam**  
+Congratulations! This is really exciting. Consider publishing/patenting your results after Capstone is over.    
+{{< /hint >}}
 
 **Quality of models that we can use on client side:**\
 Speaking about models, we firstly decided that speech-recognition and voice cloning will be both 
@@ -601,7 +657,10 @@ translator’s work.
 4. Improve handling of TTTT's unexpected behaviour. Collect statistics when problems occur. One of the metrics we will use is time spent translating a single message; if it exceeds average by some factor, a diagnostic message will be logged.
 5. Implement several more windows: voice recording screen upon first registration of the user in the application, the main window of the application where a chat log of what the other users are saying will be shown, a settings window for settings such as: choosing a voice recognition model, pipeline settings, volume, etc.; and possibly even a password recovery screen.
 
-
+{{< hint danger >}}
+**Feedback from Rustam**  
+Ok. This is easily one of the top reports of the week. I am excited to see your project live. Keep up the good work!
+{{< /hint >}}
 # **Week #4**
 
 ## External Feedback
@@ -660,6 +719,11 @@ our previous [gTTS solution](UnifAI#voice-cloning-tts--sts), current [Piper mode
 [Fairseq](https://github.com/facebookresearch/fairseq/tree/main/examples/mms). Then we asked responders to sort
 by quality, and all 6 people selected our Piper-based solution as the best.
 
+{{< hint danger >}}
+**Feedback from Rustam**  
+Very good, glad to see real time testing on real people.   
+{{< /hint >}}
+
 We were glad to hear such positive feedback, however our representative group noticed that quality of speech
 cloning is not the best, as it could be easily distinguished between real person. We explained to them the problem
 we face with tradeoff between fast-light generation (not so good, but model weight only 50MB), and deep-learning
@@ -667,6 +731,11 @@ copy of voice with 3GB model. We mentioned our solution as to train models on se
 high-quality cloning, so that no user would need to download several gigabytes for each person in a call.
 But to make that option as a subscription, so we can support GPUs on the server. Most of the client said
 that it is a good idea, and they were ready to pay for it.
+
+{{< hint danger >}}
+**Feedback from Rustam**  
+Exactly, it is really good that you have received this feedback. Since we are occupied with an MVP, tech demonstrator is the first step.    
+{{< /hint >}}
 
 **Frontend:**\
 To gain feedback on the responsiveness and the general user experience of our UI, we showed 
@@ -678,6 +747,11 @@ the most about the UI, and how they would rate the experience overall. From thes
 we found that while some parts of the UI were slightly confusing at first, our application 
 generally felt easy to use and that the application user interface flow was natural.
 
+
+{{< hint danger >}}
+**Feedback from Rustam**  
+Good!   
+{{< /hint >}}
 ## Testing
 
 **Server**:\
@@ -731,6 +805,11 @@ available on [hugging face](https://huggingface.co/rhasspy/piper-voices), which 
 to develop us a downloader for them. So, during this week we not only switched to better TTS, 
 but we also made all models (Piper and FreeVC24) downloadable and configurable with 1 line of code.
 
+{{< hint danger >}}
+**Feedback from Rustam**  
+You've found yourself in a right moment and a right place!   
+{{< /hint >}}
+
 Here are some examples of new 'voices', you can compare them with previous [mentioned here](UnifAI#voice-cloning-tts--sts):
 
 <audio controls="controls">
@@ -768,3 +847,11 @@ translate the words of other users to, alongside choosing a specific TTS model.
 ![Language settings window](https://i.imgur.com/hX3p33h.png)
 
 
+{{< hint danger >}}
+**Feedback from Rustam**  
+This week report and progress is outstanding. I liked your writing style and the way reports are structured. I am glad to see a lot of improvements and sure that you will accomplish your goal - perfect and seamless cross-cultural communication.   
+This been only four weeks, and your project is rapidly taking shape. 
+Make sure to keep up the pace, push features and iterate!
+
+5/5 for both weeks!
+{{< /hint >}}

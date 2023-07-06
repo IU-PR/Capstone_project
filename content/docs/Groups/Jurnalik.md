@@ -655,3 +655,42 @@ All tasks from the sprint for this week have been completed, here are the change
 *Признаны экстремистскими организациями и запрещены на территории РФ
 
 *Recognized as extremist organizations and banned on the territory of the Russian Federation
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Very Good!!
+But you should really make your feedback collecting consistent. For example, have one consistent categorical data
+I agree, disagree, strongly disagree … etc.
+
+This way you can assign numbers to this categorical data and gain some insights form choses data.
+
+
+**Testing**<br>
+Very Good
+You should explain more about the testing you did.
+How did you mange bug reporting / fixing / documenting?
+Do you have a process for that?
+
+**Iteration**<br>
+Good but keep in mind:
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+
+**Overall**<br>
+Report is very Good!. Now focus more on development side and finished the product.
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

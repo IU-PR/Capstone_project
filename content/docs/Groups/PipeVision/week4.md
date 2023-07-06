@@ -47,3 +47,35 @@ Another change was made in browse file description. Now it includes information 
 Also, we redesigned the database and models for it in backend. Now the database is more readable and formalized. During integration of frontend in backend, we made the project more structured to make cooperative development more efficient. For user acceptance testing our team deployed the testing version of project on our own server temporarily. We plan to start utilizing the university servers as soon as possible.  
 
 
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Very Good!!
+
+
+**Testing**<br>
+You should explain more about the testing you did.
+How did you mange bug reporting / fixing / documenting?
+Do you have a process for that?
+
+**Iteration**<br>
+Good but keep in mind:
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+
+**Overall**<br>
+Report is good. But you need to take extra care for Testing and refining the iteration plan
+
+**Grade: 4/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

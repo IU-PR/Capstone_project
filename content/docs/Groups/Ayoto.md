@@ -337,7 +337,6 @@ An iteration plan is essentially the plan for an upcoming iteration. It would ty
 **Overall**<br>
 The report ok. Please give some more time reflecting / writing the report!!!.
 
-So far this is the best report I graded this week out of 11 teams
 
 **Grade: 2/5**
 

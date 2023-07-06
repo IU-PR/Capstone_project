@@ -874,3 +874,41 @@ functionality plus the map component.
   the library to attach info about rooms to their pictures.
 - During this week, we met several times to synchronize our progress and to
   check our priorities.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Very Good, but maybe better to follow some kind of User statisifaction metrics like NPS to better utilise this feedback.
+
+Also, you should provide links to this servey to proof what you are saying and to get feedback on them.
+
+
+**Testing**<br>
+Very Good
+
+
+**Iteration**<br>
+Good iteration plan
+But keep in mind
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+
+**Overall**<br>
+The report is Amazing!!!.
+
+So far this is the best report I graded this week out of 11 teams
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

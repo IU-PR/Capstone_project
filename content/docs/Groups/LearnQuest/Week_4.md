@@ -77,7 +77,7 @@ An iteration plan is essentially the plan for an upcoming iteration. It would ty
 
 
 **Overall**<br>
-The report is ok. your report doesn’t reflect your work. I Think you should spent more time reflecting / writing the report.
+The report is Good.
 
 **Grade: 4.5/5**
 

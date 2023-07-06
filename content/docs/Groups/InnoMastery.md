@@ -413,3 +413,39 @@ We noticed a lack of synchronization in our team, so we clarified several points
 Second, we refined and agreed on our git flow. We also eliminated all stale branches. Third, we clarified further steps and noticed once again that it is important not to overcomplicate things and focus only on the features that are most important right now. Based on discussions during our meeting, we plan to implement these features during the next two weeks for our MVP:
 - Viewing course material on the website
 - Grading questions
+
+{{< hint danger >}}
+**Feedback**  
+**External Feedback**<br>
+Very Good, but maybe better to follow some kind of User statisifaction metrics like NPS to better utilise this feedback.
+
+Now how will you adapt to this feedback?
+
+
+**Testing**<br>
+Good
+
+Have you considered unit testing also?
+
+
+**Iteration**<br>
+Good iteration plan but keep in mind:
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+**Overall**<br>
+The report is good.
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+

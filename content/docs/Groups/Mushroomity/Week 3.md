@@ -19,10 +19,10 @@ Nonetheless, we developed a basic frontend system that incorporates the primary 
   - In total, our team has already created all stuff for working together (organization, repositories and projects for
     them). Also, we conducted with the professor, who knows a lot about mushrooms, and now we understand, how to
     prepare the model and create an application.
-- Backend Development: Right now we don't have any backend due to we started in a wrong way. There will be explanation
-  about it later.
+- Backend Development: Right now we don't have any backend due to we started in the wrong way.
+  There will be explanation about it later.
 - Frontend Development (UI):
-  We have created the first version of the main pages in the app. Next week we will change a bit the design, but now you
+  We have created the first version of the main pages in the app. Next week we will change the design a bit, but now you
   may see this picture:
   - When you open the app, you firstly have to log in or sign
     in:
@@ -41,7 +41,7 @@ Nonetheless, we developed a basic frontend system that incorporates the primary 
   - After taking a photo, you go to the page with this photo and description of mushroom in
     it:
 
-    <div style="text-align: center;">
+    <div style="">
       <img src="/Mushroomity/info_page.png" alt="Information page" width="376" height="768">
     </div>
 
@@ -49,26 +49,26 @@ Nonetheless, we developed a basic frontend system that incorporates the primary 
   - Of course, you may want to change language or log out. For that, you may go to the settings
     page:
 
-    <div style="text-align: center;">
+    <div style="">
       <img src="/Mushroomity/settings_page.png" alt="Settings" width="376" height="768">
     </div>
 
   - In addition, in the app you will also be able to chat with other people about any topics you want by using
     forum:
 
-    <div style="text-align: center;">
+    <div style="">
       <img src="/Mushroomity/forum_page.png" alt="Forum page" width="376" height="768">
     </div>
 
 - Data Management: All data for models are stored now in Google Drive. We have a parser script that parses some sites,
   takes photos of mushrooms with their names and stores that in some packages. Packages are created in the following
   way:
-  There are lots of packages for each family of mushrooms. In each package there are some packages also for each type of
-  mushrooms. Finally, in each package there are some photos of mushrooms of this type and family.
+  There are lots of packages for each family of mushrooms. In each package, there are some packages also for each type of
+  mushrooms. Finally, in each package, there are some photos of mushrooms of this type and family.
 - Prototype Testing: We cannot start testing the app because now there's nothing that can be tested.
 
 Simply speaking, we don't have anything to show except design. And it happened because we didn't realize how we have to
-analyze mushrooms. Here's some details:
+analyze mushrooms. Here are some details:
 
 ---
 
@@ -76,11 +76,11 @@ analyze mushrooms. Here's some details:
 
 Last week, we mentioned that
 `we have invited a professional mushroom picker from Russia to help us learn how to analyze mushrooms`. Unfortunately,
-this individual did not show up or respond to our attempts to contact him. Consequently, we began searching for someone
+this individual did not show up or respond to our attempts to contact them. Consequently, we began searching for someone
 else who could assist us. Finally, this week we spoke with a professor from Kazan Federal University who informed us
 that we had misunderstood the problem. Initially, we believed that a photograph of a mushroom would be sufficient to
 identify one of the 1,000 types of mushrooms in the world. However, as it turns out, there are more parameters to
-consider than just a photo. Additionally, there are 1,000 types of mushrooms in Tatarstan alone. Therefore, we have
+consider than just a photo. Additionally, there are 1,000 types of mushrooms in Tatarstan only. Therefore, we have
 decided to focus solely on our region to improve the accuracy of our model in its initial stages. Furthermore, we need
 to identify the main parameters that cannot be determined by a photo. For example, a crucial parameter for identifying
 the type of mushroom is knowing where it grew. If it grew on a tree, we might also be able to determine the type of

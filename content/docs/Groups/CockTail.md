@@ -318,11 +318,29 @@ As of the progress in our project, we have found a suitable dataset and finished
 
 We’ve designed different variants of UI, but didn’t decided which to choose. Also we are planning to change backend stack from Django to FastAPI, since there’s no need for such functional framework. 
 
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Looks good, keep up the good work and I am sure you will finish with the nice and neat prototype!
+Overall, good report and progress.
+5/5 for the week
+
+{{< /hint >}}
+
 # **Week 3**
 ## **User Interface**
 
 https://broken-queen-4052.on.fleek.co/ (UI is not adapted for mobile yet)
 
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+It is somewhat slow and not responsive yet. But appreciate that you already deployed the website. Good!
+
+{{< /hint >}}
 ## **Prototype Features**
 
 - Mix up! and Top 10 UI.
@@ -357,6 +375,14 @@ https://broken-queen-4052.on.fleek.co/ (UI is not adapted for mobile yet)
 
     However, server side is not deployed yet.
 
+    
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Looks good
+
+{{< /hint >}}
+
 - **Data management**
     
     We uploaded all the ingredients to the `.sqlite3` database which can be filled up with `.csv` files.
@@ -379,13 +405,27 @@ https://broken-queen-4052.on.fleek.co/ (UI is not adapted for mobile yet)
 - Provide an API for generating images for cocktails
 - Adapt UI for mobile
 
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Seems like you have an ordered approach. Make sure to move fast
+5/5 for the week
+
+{{< /hint >}}
 # **Week 4**
 
 ## **Testing and narrowing**:
 
  For testing stage we improved our prototype: http://cocktail.chickenkiller.com/
 
- On this step we decided to focus on MixUp page, but we also work on the other functions.
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+takes too much time to load. And I've got an error after providing ingridients
+{{< /hint >}}
+
+On this step we decided to focus on MixUp page, but we also work on the other functions.
 
 After this week we reorganize our priority list:
 
@@ -440,3 +480,12 @@ Filter system:
 Server:
 
 1. Add HTTPS
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Overall I've had a good impression about your project. Reports are up to the point. 
+Make sure to do the last sprints to achive the MVP
+5/5 for the week!
+{{< /hint >}}

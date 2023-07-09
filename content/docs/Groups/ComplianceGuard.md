@@ -161,3 +161,14 @@ For now, we still didn't realize frontend and backend of our application, so we 
 **Iteration and refinement**
 
 Last two weeks we were focused on labeling the data, so we still didn't make a first version of the model. When it is ready, we will check the results and improve it to make predictions better.
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Reports are uninformative and poorly structured. Images in week 3 are not rendering. 
+We have left few weeks only and you still don't have even a first version of the model. 
+Please, consider accelerating the dev process to make it to the finals
+3/5 for both weeks
+
+{{< /hint >}}

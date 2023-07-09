@@ -359,3 +359,9 @@ Anyway, I liked this service!
     - Our backend is running on test servers at Yandex.Cloud, also for free.
     - Backend is available at https://api.aicareerguide.ilnarkhasanov.com as well.
     - We have used Let's Encrypt in order to generate SSL-certificate for free.
+
+{{< hint danger >}}
+**Feedback**  
+Alright, I like your tempo and fact that all parts are deployed and people already can see what is your project is about. Good job. There are still some work to do, so don't miss the chance to make it a complete project.
+Overall, 5/5 for the week
+{{< /hint >}}

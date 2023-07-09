@@ -307,3 +307,11 @@ If you have questions or anything to share with us, feel free to contact:
 | Nikita Bogdankov | [nikibog](https://t.me/nikibog)     | <n.bogdankov@innopolis.university>  |
 | Grigorii Fil     | [Fil126](https://t.me/Fil126)       | <g.fil@innopolis.university>        |
 | Pavel Nestiurkin | [whoevertf](https://t.me/whoevertf) | <p.nestiurkin@innopolis.university> |
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+No report for the 4th week? 
+0/5 for the week
+{{< /hint >}}

@@ -378,3 +378,16 @@ The fourth week can definitely be called the most mundane (of those in which the
 This week was also the most unstable - one of our participants in our work fell ill and took a week's sick leave (for a team of 4 people, this is a strong subsidence in terms of potential effectiveness - ~25%). Also lead of the project had a business trip for the entire second half of the week. (the same ~25% of potential losses). Thus, for a whole week, the team has never gathered in full. Nevertheless, thanks to everyone's responsibility and team cohesion, work has been done that will definitely come in handy in the coming weeks.
 
 The next week will be devoted to the formation of a single file with the code that will perform all planned iterations, as well as the digitalization of the technology of the mutual arrangement of goods.
+
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+I understand that sometimes the setbacks can kick-in. But it seems you and your team have a narrow focus and will be able to accomplish a lot during our short timeframe of only 7 weeks. 
+Please, keep up the pace, and make sure that the MVP will be delivered on time. 
+Good plan today is better than a perfect tomorrow. 
+
+5/5 for the week
+
+{{< /hint >}}

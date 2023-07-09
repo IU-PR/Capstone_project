@@ -291,7 +291,6 @@ We intend to focus on the development of the frontend, slight improvement of the
 5. Update the model to recognize RSL words in real-time
 
 
-
 {{< hint danger >}}
 
 **Feedback by Rustam**  
@@ -301,5 +300,38 @@ The first UI of the project - very good.
 Also, appreciate the detailed plan for further development.
 
 Overall, good reports and progress. 5/5 for both weeks
+
+{{< /hint >}}
+
+# **Week 4 report**
+
+## **External feedback**
+
+We have gathered feedback from the responders regarding our project. As a result, we have identified the main issue that testers have faced – the web landing page is not optimised for mobile devices. To mitigate this issue, we will rework our web page design and would consider changing the front end framework. Desktop version, on the other hand, seems to satisfy customers with the current design and functionality.
+
+The real-time captioning synchronisation can be problematic. Sometimes, captioning lags behind, causing a delay in the captions. This happens due to the server being self-hosted.
+
+While the captioning is generally accurate, there are instances when the captions do not capture some nuances of certain signs.
+
+
+## **Testing**
+
+We have tested our web application under close to the real circumstances of multiple users concurrently using the app. There is a delay proportional to the number of users simultaneously streaming, but the service seems to keep up with the load. Latency problems resulting from our computational limitations. This will be solved with further choice of the hosting provider.
+
+In addition, we have tested the user interface and found shortcomings in the responsiveness of the web design and navigation on the page. The website is not responsive on mobile devices, which matches the results of the feedback, and there is no header with navigation buttons, making it hard for the user to reach the desired block.
+
+
+## **Iteration**
+
+From the feedback and testing phase, we observed issues in UI and streaming live translations. The frontend team will rewrite code in Rust to get rid of these issues and make the code more compatible with the backend, but the layout, supposedly, will stay the same.
+
+This week, we had a team meeting on which we decided to implement several new features, such as a support for American Sign Language, using (making) morphological models for syntax and morphological word agreement, since all words in our dictionary are infinitives and all signs are predicted independently. 
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Good to see progress on identifying UI problems and tackling them. 
+Please, provide an updated UI screens or a link to the site next week.
+Overall, good reports and progress. 5/5 for the week
 
 {{< /hint >}}

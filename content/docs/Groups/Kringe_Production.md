@@ -546,3 +546,12 @@ Testing is an essential aspect of our development process, and we have made sign
 In past week, we have made significant progress in terms of iteration and refinement. We have regularly assessed our project's progress, comparing it against our initial goals and objectives. Based on feedback we collected, we made and will continue to make necessary adjustments and refinements to our design, features, and functionalities. This iterative approach has allowed us to create a product that continuously evolves and improves. While it may seem challenging to iterate on early version of project, we recognize that this is opportunity to eliminate most of mistakes and make substantial improvements. 
 
 Throughout this week, we have made improvements to front-end, created database, tested it and server, and collected valuable feedback from our friends. These efforts have significantly contributed to our progress, and we are determined to continue iterating and refining our platform to ensure a seamless user experience.
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Looks good, keep up the good work and I am sure you will finish with the nice and neat prototype!
+Overall, good report and progress.
+5/5 for the week
+
+{{< /hint >}}

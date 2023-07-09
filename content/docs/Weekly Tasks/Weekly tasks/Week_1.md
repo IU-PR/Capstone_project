@@ -62,11 +62,13 @@ Remember, building a successful software project goes beyond individual skills. 
 {{< /expand >}}
 | Team Member            | Telegram ID   | Email Address       |
 |------------------------|---------------|---------------------|
-| Danil Timofeev          | RND_RandoM | d.timofeev@innopolis.university     |
-| David Eje          | David_ej | [Email address]     |
-| Daria Lebedeva          | SwansOfApollo | [Email address]     |
-| Dima Batalov         | Legolass322 | [Email address]     |
-| Nikita Zorin          | nikznn | [Email address]     |
+| Team Member (Lead) 1          | [Telegram ID] | [Email address]     |
+| Team Member 2          | [Telegram ID] | [Email address]     |
+| Team Member 3          | [Telegram ID] | [Email address]     |
+| Team Member 4          | [Telegram ID] | [Email address]     |
+| Team Member 5          | [Telegram ID] | [Email address]     |
+| (Optional) Team Member 6 | [Telegram ID] | [Email address]     |
+| (Optional) Team Member 7 | [Telegram ID] | [Email address]     |
 
 
 ### **Value Proposition**
@@ -157,4 +159,43 @@ Provide detailed descriptions of critical components, algorithms, or methodologi
 Explain the core functionalities and how they contribute to achieving the project goals.
 Highlight any innovative or unique aspects of your solution that differentiate it from existing alternatives.
 
-[Your vision for the project here]
+
+
+#### Answers:
+
+- Overview:
+
+Our web application will help travelers plan and organize their trips in Russia. Therefore,  the main goal of our project is to allow users to find interesting sights, create routes and save them in their personal account.
+
+- Schematic Drawings: There are schematics drawings of the future functional with short description.
+After authorization, the user can search places by name or use filters with AI. The main points of the AI logic at the moment are being discussed and will be provided together with the full design. Next, the user can see the search results, add places to favorites and save the object to the chosen trip.
+
+![Authorization](/triptastic/1.png  "Auth").
+![Search](/triptastic/2.png  "S").
+![Search results](/triptastic/3.png  "R").
+![Personal Account 1](/triptastic/4.png  "Auth").
+![Personal Account 1](/triptastic/5.png  "Auth").
+![Personal Account 2](/triptastic/6.png  "Auth").
+
+Here simple scheme of the application architecture:
+
+![Personal Account](/triptastic/7.png  "Auth").
+
+- Tech Stack:
+
+We will announce it on the second week of capstone project course
+
+- Anticipating Future Problems:
+
+1. During the development stages, our team may face a lack of experience with the software, as this application requires deep knowledge in backend development and advanced ML skills.
+2. Limited resources: Also, we can face a lack of time, because there is only seven weeks to develop a project. Next, financial resources may be required for further development.
+
+These problems can be solved with proper planning of tasks and time. Also, our team should have good soft skills to achieve the result. To solve financial problems, there are many Russian contests and grants to support innovative ideas, student projects, and so on
+
+- Elaborate Explanations:
+  
+The application is built with a number of important components that work together to provide users with a comprehensive trip planning experience. 
+These include:
+  - Frontend subsystem: The web application with UI that allows users to see their profiles and recommendations. This subsystem will be connected with the backend part to provide full service functionality.
+  - Backend subsystem: The application that communicates with the frontend UI and stores all user and application data.
+  - ML/AI subsystem: The service (part of the backend or independent one) which uses ML to build and recommend comprehensive routes to our users. It will communicate with the Backend subsystem to get users data and give new routes.

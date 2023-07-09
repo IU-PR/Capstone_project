@@ -326,3 +326,12 @@ In addition, we have tested the user interface and found shortcomings in the res
 From the feedback and testing phase, we observed issues in UI and streaming live translations. The frontend team will rewrite code in Rust to get rid of these issues and make the code more compatible with the backend, but the layout, supposedly, will stay the same.
 
 This week, we had a team meeting on which we decided to implement several new features, such as a support for American Sign Language, using (making) morphological models for syntax and morphological word agreement, since all words in our dictionary are infinitives and all signs are predicted independently. 
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Good to see progress on identifying UI problems and tackling them. 
+Please, provide an updated UI screens or a link to the site next week.
+Overall, good reports and progress. 5/5 for the week
+
+{{< /hint >}}

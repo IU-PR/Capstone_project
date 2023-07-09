@@ -237,3 +237,17 @@ After receiving feedbacks we came to conclusion that we might change our loss/op
 - This week we implemented our API using FastAPI, we tested it several times and it seems to work.
 - Also we did some progress on improving the model to get better images.
 - Next week we are planning to start creating our user interface.
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+I've read through the week 3 and 4 reports and I must say that reports are very short and uninformative. 
+Currently I have more questions than answers. 
+
+It is good to see progress on the app, however, report communicates it poorly
+
+Please, consider providing a more comprehensive report that allows us to estimate progress on your project
+3/5 for both weeks
+
+{{< /hint >}}

@@ -97,7 +97,7 @@ We created our team based on every team member’s hard skills and stack. You ca
 The problem addressed by the application is the difficulty faced by people in finding a career path that matches their skills and preferences. The solution is to create an application that provides services such as finding a job, creating a roadmap for the job, and finding available vacancies. The application's uniqueness is that it provides all these services in one place. The benefits of the application are it saves time for users by providing all the information they need in one place. The application differentiates itself by integrating AI, which is used for finding a job and creating a roadmap, as well as web scraping for searching for vacancies. The application can help users save time by shortening the time it takes to find a suitable job and become a specialist in that field.
 
 ### Schematic Drawings
-![](/AICareerGuider/architecture.png)
+![](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuider/architecture.png)
 
 
 ### Tech Stack
@@ -156,7 +156,7 @@ Overall, I think you have a great team and a very nice project. Try to scale it 
 ## Architecture Design
 1. Component Breakdown:
 
-	![](/AICareerGuide/architecture.png)
+	![](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/architecture.png)
 
 	* Front-end and back-end are "agreeing" on an interface of REST API messages and work with each other using that.
 	* Backend trigger Airflow Directed Acyclic Graph in order to start processing the query of the user.
@@ -246,7 +246,7 @@ Again, distribution of our responsibilities is:
 
 We ensure that each team member was effectively assigned to appropriate tasks and responsibilities within the project by assigning tasks and their status in Trello and providing regular meetings dedicated to each team member's progress.
 
-# **Week 03**
+# **Week 3**
 
 # Developing the first prototype, creating the priority list
 
@@ -257,11 +257,11 @@ We ensure that each team member was effectively assigned to appropriate tasks an
 - Considering machine learning part, we have successfully integrated the career path suggestions feature into our backend. Our focus now shifts towards roadmap generation. We have defined a prompt structure for the OpenAI API and conducted preliminary experiments with few-shot prompting. The next step is to integrate this feature into our MVP.
 The primary challenge lies in parsing the output from the GPT-model to a structured roadmap. This process necessitates a well-defined format for the roadmap. Our proposed solution is to acquire the roadmap as a string from the OpenAI API. This string will adhere to the structure of an enumerated list (i.e., 1, 1.1, 2, 2.1, 2.2, etc.).
 - API response example:
-  ![Components](/AICareerGuide/API.png)
+  ![Components](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/API.png)
 ## Frontend Development: 
 - We created prototype using Figma. You can check it [here](https://www.figma.com/file/QDNRpes5bziKwAiKtTkM7Z/Untitled?type=design&mode=design&t=IO44qdhNKYF3DT6s-1).
 - Here you can see the stucture of project in React:   
-  ![Components](/AICareerGuide/components.png)
+  ![Components](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/components.png)
 - Priority of functionality:
   1. Home page (_Home.js, Header.js components_).
   2. Questions pages (_Question.js_).
@@ -271,7 +271,7 @@ The primary challenge lies in parsing the output from the GPT-model to a structu
 We have a Airflow directed acyclic graph that it responsible for the data processing. At this particular moment our dag can receive the answers on the questions and return the job titles that correlates to the user's interests.
 ## Prototype Testing: 
 - As you can see below, our Figma prototype is quite simple:
-![Prototype](/AICareerGuide/prototype.png)
+![Prototype](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/prototype.png)
 - It performs following flow:
   1. Renders main page and starts quiz after clicking "Start" button.
   2. Give a user opportunity to iterate back and forward among questions.
@@ -288,11 +288,11 @@ In detailes, there is such routing in prototype:
   ![Main](/AICareerGuide/main.png) 
 - User can iterate back, forward or finish answering questions depending on number of question. Also, all questions are multi-choice.
   
-  ![FirstQuestion]( /AICareerGuide/first_question.png)
-  ![MiddleQuestion](/AICareerGuide/middle_question.png)
-  ![LastQuestion](/AICareerGuide/last_question.png)
+  ![FirstQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/first_question.png)
+  ![MiddleQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/middle_question.png)
+  ![LastQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/last_question.png)
 - The last page in prototype is thedown  page with user results: suitable vacancies and roadmap. Maybe, later we can make each "vacancy" component clickable and provide more information about vacancy after click.
-  ![Result](/AICareerGuide/result.png)
+  ![Result](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/result.png)
 ## Challenges and Solutions:
 - Public IP address for our server. The solution is VPN to the university network in order to make it accessible for the GitLab CI/CD.
 - The API we're currently using is not capable to fetch key skills from each job offer. The solution is to use OpenAI technology which obtains job offer description as input and returns the array of key skills as output.
@@ -313,4 +313,55 @@ The Architecture Design is clear and provides a good overview of how the differe
 
 Consider visiting the MockMentor project page, I think you may want to collaborate and perhaps even join your projects in the future. Finally, I'm excited to see the development of the first prototype in Week 3. Keep up the great work, and I look forward to the continued success of our project. 
 Overall, nice progress and thoughtful reports - 5/5 for both weeks.  
+{{< /hint >}}
+
+# **Week 4**
+
+# External Feedback
+For feedback, we asked people with different knowledge of IT. So, the results are:
+- A person who does IT optionally:
+> This test that is used to determine the path for IT career development is useful, since it pays attention to personal skills and interests.
+I have passed it from my phone. The text was readable. However, it does not fill well to the boxes. There is still some work for improvement.
+Anyway, I highly recommend this service for those who have not decided their IT career path.
+- Software Development student from Kazan Federal University:
+> In general, I like this service because it has suggested some ways I can develop myself in IT. I have really liked it. However, when I opened the website at the first time, I could not start the test.
+_(Authors remark: we really had this problem; we have updated nginx's config, but did not reload its Docker container; already fixed)_.
+Also, the website loads very slow (specifically at the start and while getting the results).
+Moreover, I'd like the choice buttons to be bigger.
+Anyway, I liked this service!
+- A person who isn't related to IT:
+> Overall, this site provides useful functionality and can be interesting for people involved in IT. By the way, I found some problems with the User Experience; for example, I can't move to the previous question if I haven't answered the current one.
+
+
+# Testing
+- Unit and integration testing:
+  - We have introduced them in Docker. When we build a backend image, we always check the unit tests since they are checked very fast and isolately. We have also introduced integration tests, that we run in different Docker image, since they need some time to be processed.
+- User Interface/User Experience testing:
+  - We tested the front-end part (by ourselves and with the help of external feedback) and found several bugs in our prototype:
+    - Mobile version of our application is not responsive.
+    - User can't move back to the question until he selects an option. It is not very convenient for the user.
+    - Favicon isn't displayed.
+# Iteration
+- Front-end part:
+  - We added new functionality to our site:
+    - Top 5 suitable job titles render on the _/results_ page:
+![Results](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/results_MVP.png)
+  - We improved the User Experience:
+    - User can't iterate forward or back until he selects an option. Also, if he moves to previous questions, he can see already selected answers:
+![Iteration](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/iteration.png)
+- Back-end part:
+  - Perform Unit and integration tests for the "Testing" section.
+- ML part:
+  - This week we solved the primary challenge that we defined the previous week: roadmap generation. We defined a prompt format as a numbered list with two levels of depth. It is important to notice, that we again used the few shots prompting technique to achieve a specific format of response. Also, we did research on function calling, a relatively new feature in the OpenAI API. Unfortunately, we did not have any idea how to apply this functionality to our project.
+- DevOps part:
+    - We deployed our site on the Vercel using domen http://aicareerguide.ilnarkhasanov.com
+    - We have used Ilnar Khasanov's domain in order to deploy on public domain for free.
+    - Our backend is running on test servers at Yandex.Cloud, also for free.
+    - Backend is available at https://api.aicareerguide.ilnarkhasanov.com as well.
+    - We have used Let's Encrypt in order to generate SSL-certificate for free.
+
+{{< hint danger >}}
+**Feedback**  
+Alright, I like your tempo and fact that all parts are deployed and people already can see what is your project is about. Good job. There are still some work to do, so don't miss the chance to make it a complete project.
+Overall, 5/5 for the week
 {{< /hint >}}

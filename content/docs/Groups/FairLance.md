@@ -716,3 +716,12 @@ During the development process, we faced many bugs while connecting the frontend
 As we progressed, the frontenders provided the backenders with new requirements. These requirements required changes and refinements to the API(existing endpoints and new ones) and database.
 
 In addition, we reviewed our goals and functionality and tweaked them a bit because we realized that not all of them could be accomplished for the MVP.
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+I've visited your website and read through the report. 
+Overall, good report and progress. Keep it up! I am excited to see what you would be able to accomplish during our 7 weeks!
+5/5 for the week.
+
+{{< /hint >}}

@@ -310,10 +310,10 @@ Interaction with the user works through the Telegram bot @Innoplan_bot. This wee
 
 We have implemented the basic skeleton of each activity, i.e. you can enter all the data in a line (image 2) or item by item (image 3). We have also implemented basic message processing - for example, if the user entered the time in the wrong format, he or she will be asked to repeat the input in the right format (image 5).
 
-<img src="../../../static/HealthyBasedProductivity/bot1.PNG" title="Image 1" width="180"> <img src="../../../static/HealthyBasedProductivity/bot2.PNG" title="Image 2" width="180">
-<img src="../../../static/HealthyBasedProductivity/bot3.PNG" title="Image 3" width="160">
-<img src="../../../static/HealthyBasedProductivity/bot4.PNG" title="Image 4" width="180">
-<img src="../../../static/HealthyBasedProductivity/bot5.PNG" title="Image 5" width="180">
+<img src="/HealthyBasedProductivity/bot1.PNG" title="Image 1" width="180"> <img src="/HealthyBasedProductivity/bot2.PNG" title="Image 2" width="180">
+<img src="/HealthyBasedProductivity/bot3.PNG" title="Image 3" width="160">
+<img src="/HealthyBasedProductivity/bot4.PNG" title="Image 4" width="180">
+<img src="/HealthyBasedProductivity/bot5.PNG" title="Image 5" width="180">
 
  - **Challenges and Solutions**
 
@@ -358,3 +358,14 @@ At this point, we are ready with the basic model and database. Their implementat
 4. Edit user interface by improving messages.
 
 ---
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Alright, good to see your project taking shape! I've read through the week 3 and 4 reports.
+I think you will need to accelerate the pace this week, as we don't have much time left. 
+The final product should be ready in all aspects - front, backend, the ML model.
+Put an emphasis on delivering on all fronts. 
+Overall, good reports and progress
+5/5 for both weeks
+
+{{< /hint >}}

@@ -302,3 +302,14 @@ reliability of our neural network, and we discovered the need for additional fin
 separate model for formula detection on images. The iterative approach allowed us to refine our
 design, features, and functionalities based on the feedback and testing results, ensuring a product
 that aligns with our initial vision.
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Week 3 - Looks good, keep up the good work and I am sure you will finish with the nice and neat prototype!
+Week 4 - only one student? This is not nearly enough.
+Overall, somewhat dry reports and not very impressive progress on the project.
+4/5 for the week 3
+3/5 week 4
+{{< /hint >}}

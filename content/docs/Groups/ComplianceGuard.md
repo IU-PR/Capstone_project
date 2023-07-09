@@ -113,10 +113,62 @@ But later, if something go wrong, we will send an error with it's code and descr
 
 Now we are ending creation of the design, our ML team received a dataset today and actively learn it. We got a cloud from university for our models and agreed with ML lab to get GPU from them. We have daily meetings with our customer that agreed to give us some help with code and ideas if necessary(special person from the company will help us). Also we were added two people from magistracy that will help us with our project, which is a significant boost.
 
+# **Week #3**
+
+**Progress Report**
+
+For now we created design for our application and a basic, simple model.
+
+Design:
+
+![image](/static/ComplianceGuard/Design_v1.png)
+
+This design contains more features than we need in our MVP, so in the end of the course only necessary part of it will be realized.
+
+Model:
+
+![image](/static/ComplianceGuard/Model_v1.png)
+
+I can not show the full image due to NDA, so I showed only result of model work. For now it can only find people on the video, so we will improve it.
+
+**Challenges and solutions**
+
+The first major challenge is labeling. We recieved row data, so we had to manually label frames from videos, which took a lot of time. The second problem is that data need a lot of space, so we need some place where to keep it. Fortunately, university agreed to give us a place on cloud, so soon this problrm will b solved.
+
+**Next steps**
+
+In the following weeks, we have to:
+
+- Write frontend for MVP according to design. Because of application is cross-platform, we should write both desktop and mobile versions
+
+- Write backend for MVP. Three main tasks are:
+
+    - Communication and downloading models from ML part
+    - Communication with frontend
+    - Message broker for communication with users
+
+- Improve the model. It should recognize people in/without helmets, in/without vests.
+# **Week #4**
+
+**External feedback**
+
+We are doing a project from a company, so each week we can get feedback from our customer. For now he is satisfied with our ideas, stack and project workflow. He liked our design, approach to labeling, libraries we use. But the work goes slower then it should, so in order to realize our application we should quicken our work.
+
+**Testing**
+
+For now, we still didn't realize frontend and backend of our application, so we can't test how application will work. We can not also test model on videos, because it isn't ready yet. Probably it will be ready next week, so when it is ready we will start testing.
+
+**Iteration and refinement**
+
+Last two weeks we were focused on labeling the data, so we still didn't make a first version of the model. When it is ready, we will check the results and improve it to make predictions better.
+
+
 {{< hint danger >}}
 
-This is a good news that your project got support from the client and now you have more master students helping you out. In general, I feel confident that ComplianceGuard team would be able to finish the Capstone with an MVP - you have control and support from the client, students and ML lab. However, the weekly progress report is short and it's hard for me to understand how the team is progressing. No information on the model, tools and approaches. For example, you can add a Figma layout as a result of the work - a screenshot would suffice. Consider adding more details on your progress report and show your progress in a little more expanded manner.
-Overall, can be a good job on the project, not so on the report.  
-Report - 3/5
+**Feedback by Rustam**  
+Reports are uninformative and poorly structured. Images in week 3 are not rendering. 
+We have left few weeks only and you still don't have even a first version of the model. 
+Please, consider accelerating the dev process to make it to the finals
+3/5 for both weeks
 
 {{< /hint >}}

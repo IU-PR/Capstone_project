@@ -291,4 +291,12 @@ In frontend some bugs were found related to showing the message to the user. Als
 ## **Iteration**
 Throughout the development several points of our project were reconsidered and changed. The desing was firstly a bit different, but then more simple desing with more contrast coloring were used. For backend, our team got rid of some libraries and decided to use others. Also, our team considered voicing the questions in interview ourselves, but then decided to go for text-to-speech. Moreover, the use of answers by voice was introduced from beginning, it was a decision we made to make the interview closer to real life job interview. For frontend, it was decided not to use redux, since the frontend part was not that large.
 
+
+{{< hint danger >}}
+
+**Feedback**  
+Good, we still have some time to integrate the front with the backend. Make it a priority for the next week!
+5/5 for both weeks.
+{{< /hint >}}
+
 ---

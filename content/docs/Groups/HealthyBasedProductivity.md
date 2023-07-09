@@ -355,6 +355,6 @@ At this point, we are ready with the basic model and database. Their implementat
 1. Combine all parts (including chat-bot, database, data preprocessing and main model) together;
 2. Tune the main model;
 3. Test each part of the system;
-4. Add buttons to the user interface.
+4. Edit user interface by improving messages.
 
 ---

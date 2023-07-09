@@ -202,3 +202,14 @@ Below are screenshots of the current site iteration to show the progress we have
 ![alt text](https://i.ibb.co/bKqXRvz/4.png)
 ![alt text](https://i.ibb.co/Fm1dQGX/5.png)
 ![alt text](https://i.ibb.co/xStRNKj/6.png)
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+I've read through week 3 and week 4 progress reports and so far looks good. It is nice to see that you and your team have accomplished a lot during this weeks. Make sure to keep the pace and move fast. 
+
+Overall, good reports and progress.
+5/5 for both weeks
+
+{{< /hint >}}

@@ -31,45 +31,70 @@ Then, feedback was collected.
  ### **Testing**
  As was stated before, we estimated the drawbacks in our design by UAT.
 
- Moreover, our developers of software part of the project conducted manual testing with further correction of errors by themselves. Mostly there were sessions to check communication between frontend and backend parts for correct message passing. Also, backend developers tested the communication with database and correct data representation separately.
+ Additionally, our software developers undertook the responsibility of manual testing, followed by the rectification of any errors discovered. This process primarily involved sessions to validate the communication between the frontend and backend components of our system, ensuring accurate message passing. Our backend developers separately carried out tests to confirm effective interaction with the database and proper data representation.
 
- We refined scope of our project and understood that we chose the right vector of project development. The feautures, which should be introduced in given 7 weeks, are agreed with the customer and introduced in the task management system.  We are able to implement all required features in time. So, there is no necessity to narrow the scope of the project.  
+  During this process, any bugs found were meticulously logged, documented, and tracked using our task management system. Bugs were then prioritized based on their severity and potential impact on the software's functionality.
+
+  Our developers then tackled these bugs according to their prioritization, examining and rectifying each issue. All bug fixes were subsequently reviewed before being incorporated into the codebase to maintain code integrity and quality.
+
+  Post-fixing, the software underwent a round of retesting to ensure the identified bugs were successfully eliminated and that the fixes didn't inadvertently introduce new bugs — a process often termed as regression testing.
+
+  All stages of this process, along with the relevant details, were written down in task comments for future reference, learning, and improvement of the testing process. This step-by-step approach helped us enhance the quality of our software product and promote efficient error management.
+
+  We refined scope of our project and understood that we chose the right vector of project development. The feautures, which should be introduced in given 7 weeks, are agreed with the customer and introduced in the task management system.  We are able to implement all required features in time. So, there is no necessity to narrow the scope of the project.  
 
  ### **Iteration**
-Based on the feedback from the client we enhanced user interface. We designed and added error message in login form.
+
+**Goals and Objectives:**
+
+In response to client feedback, our main objectives for this iteration are to improve user experience and simplify backend operations. We aim to:
+
+ - Enhance the user interface, particularly the login form.
+ - Provide more detailed file extension information for file uploads.
+ - Redesign the database structure to improve readability and formality.
+ - Structure the project more efficiently for easier collaborative development.
+ - Begin utilizing university servers for deployment.
+
+**Features to be Developed:**
+
+1. **Error Message in Login Form**: Design and implement an error message system in the login form to guide users through successful login.
+
+2. **File Description Enhancement**: Modify the file description section to include details about possible file extensions to assist users during file uploads.
+
+3. **Database Redesign**: Formalize and enhance readability of our database and its models.
+
+**Tasks:**
+
+**UI/UX Design**: Redesign the login form to include error messages.
+**Coding**: Implement the above design in our codebase.
+This task is done, the result is shown below.
 
 ![Login page](/PipeVision/login_with_error.png "Login"). 
 
-Another change was made in browse file description. Now it includes information about possible file extensions.
+**Testing**: Test the new login form to ensure it works as expected.
+**File Description Update**: Code the changes in the file description and conduct subsequent tests.
+This task is also done, the result is shown below.
 
 ![Browse file](/PipeVision/browse_file.png "File browsing").
 
-Also, we redesigned the database and models for it in backend. Now the database is more readable and formalized. During integration of frontend in backend, we made the project more structured to make cooperative development more efficient. For user acceptance testing our team deployed the testing version of project on our own server temporarily. We plan to start utilizing the university servers as soon as possible.  
+**Database Redesign**: Map out a more formal and readable database design, implement it, and test the new design.
+**Integration**: Streamline integration of frontend and backend for more structured project management.
+**Deployment**: Deploy the testing version of the project on our server temporarily, and begin preparations for university server usage.
+
+
+**Assumptions/Dependencies**:
+
+**Assumptions**: We are assuming that the new design and structure will improve the user experience and efficiency of development.
+
+**Dependencies**: The deployment on the university server depends on their availability and setup.
+
+Timeline:
+
+This iteration is planned for a span of one week. The tasks will be distributed among the team members, ensuring parallel work streams to expedite the process. 
 
 
 {{< hint danger >}}
 **Feedback**  
-
-**External Feedback**<br>
-Very Good!!
-
-
-**Testing**<br>
-You should explain more about the testing you did.
-How did you mange bug reporting / fixing / documenting?
-Do you have a process for that?
-
-**Iteration**<br>
-Good but keep in mind:
-
-An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
-* The goals and objectives for the iteration: what the team aims to achieve.
-* The features to be developed.
-* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
-* Any assumptions or dependencies.
-* A timeline for the iteration.
-
-
 
 **Overall**<br>
 Report is good. But you need to take extra care for Testing and refining the iteration plan

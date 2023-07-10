@@ -59,6 +59,8 @@ GTD-like systems and thus conducted a survey among ones who took a course on
 learning how to implement it into their lives. The choice of such a group was
 primarily based on the target auditory of our app.
 
+[link](https://docs.google.com/forms/d/1b301NqyTK-jyv0uHo29VG8FnsMpX95kqWsga2yRFubQ/edit#responses)
+
 ## Feedback analysis
 
 Here are some of the results on questions we've asked:

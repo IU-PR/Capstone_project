@@ -316,10 +316,10 @@ Good, we still have some time to integrate the front with the backend. Make it a
     - the ability to use voice mesages that are translated into text on the fly. 
 - However, there were also some drawbacks that users faced. The main problems that users highilated
     - the number of questions, there are still not enough of them, our team is planning to add more
-    - the absence of feedback(because right now, our product only gives you the percent of how correct your answer is) 
-    - problem with recognizing the voice(especially with different accents)
+    - the absence of feedback (because right now, our product only gives you the percent of how correct your answer is) 
+    - problem with recognizing the voice (especially with different accents)
     - users wanted some summary of the interview, showing how well the users performed it, and which themes
 
 - As for the documentation of the feedback, we used Google Docs to assign importance of each problem. The areas of improvement and enhacement were written down and are currently being either fixed or improved. 
 
-- Right now, our team finally merged frontend and backend. We faced several problems(our hosting banned us, one of our team members left), we finally merged all parts and our project can at least function. For now, some functions are not fully implemented and few problems occured.
+- Right now, our team finally merged frontend and backend. We faced several problems (our hosting banned us, one of our team members left), we finally merged all parts and our project can at least function. For now, some functions are not fully implemented and few problems occured.

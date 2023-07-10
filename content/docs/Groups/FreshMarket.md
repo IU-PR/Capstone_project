@@ -265,3 +265,121 @@ But because some of us working - we can illustrate our history in industry:
 - Table with tasks and backlog is necessary
 - Weeks to evaluate working period of each person
 - For each feature we have to clip the person who will be response in any next iteration to debug or improve
+
+
+# **Week #5**
+
+This week, our team focused on entering the second iteration of feedback collection for our online platform for farmers and customers. 
+
+To accomplish our goals for the week, we executed the given tasks:
+
+**1.** Scheduled meetings or interviews with relevant stakeholders: We reached out to potential clients, users, and fellow students to gather feedback on the current version of our product. By engaging with a diverse range of stakeholders, we aimed to obtain a broader perspective on our platform's strengths and areas that require refinement.
+There were some farmers we met with on the first week of doing the project during the Basics of Product Management course; and some of our friends from our study groups who could really value our product and give detailed feedback. 
+
+**2.** We developed a comprehensive plan that outlined specific questions and areas of focus to gather feedback on. Instead of conducting one-on-one meetings, we utilized algorithmic ways such as online forms to collect standardized feedback. This approach allowed us to quantitatively assess user satisfaction with our product and its features.
+
+Questions were following: 
+1. How often do you purchase fresh produce from local farmers?
+- Daily
+- Weekly
+- Monthly
+- Rarely
+- Never
+
+2. What are the main challenges you face when trying to buy local fresh products?
+- Limited availability
+- Lack of information about local farmers and their products
+- Difficulty in finding a variety of products in one place
+- Inconvenient purchasing process (e.g., long travel distances, limited payment options)
+- Other (please specify)
+
+3. On a scale of 1 to 5, how important is it for you to support local farmers and their businesses?
+- 1 (Not important at all)
+- 2
+- 3
+- 4
+- 5 (Extremely important)
+
+4. How likely are you to use an online platform that connects farmers and customers for purchasing local fresh products?
+- Very unlikely
+- Unlikely
+- Neutral
+- Likely
+- Very likely
+
+5. What features or functionalities would you expect from an online platform connecting farmers and customers for purchasing local fresh products? (Select all that apply)
+- Detailed farmer profiles with information about their farming practices and certifications.
+- Search filters to find specific types of produce or products.
+- User reviews and ratings for farmers and their products.
+- Secure payment options.
+- Delivery or pickup options.
+- Integration with social media platforms for sharing experiences.
+- Other (please specify)
+
+6. How user-friendly do you find the current design/layout of the online platform?
+(open-ended feedback)
+
+7. Are there any specific improvements or additions you would like to see in the online platform?
+(open-ended feedback)
+
+8. On a scale of 1 to 5, how satisfied are you with the overall experience of using the online platform?
+
+9. Would you recommend this online platform to others who are interested in buying local fresh products?
+- Yes
+- No
+- Maybe
+
+10. Please provide any additional comments or suggestions you may have to help us improve the online platform.
+
+
+
+**3.** We ensured clear identification of specific areas of improvement or enhancement by documenting all the feedback received from stakeholders. This documentation will serve as a reference point for future iterations and enhancements.
+There are some statistics for first questions: 
+
+1. 
+- Daily: 5%
+- Weekly: 30%
+- Monthly: 40%
+- Rarely: 20%
+- Never: 5%
+
+2. 
+- Limited availability: 25%
+- Lack of information about local farmers and their products: 35%
+- Difficulty in finding a variety of products in one place: 20%
+- Inconvenient purchasing process (e.g., long travel distances, limited payment options): 15%
+- Other (please specify): 5%
+
+3. 
+- Average rating: 4.6
+
+4. 
+- Very unlikely: 2%
+- Unlikely: 8%
+- Neutral: 10%
+- Likely: 50%
+- Very likely: 30%
+
+5. 
+- Detailed farmer profiles with information about their farming practices and certifications: 70%
+- Search filters to find specific types of produce or products: 80%
+- User reviews and ratings for farmers and their products: 60%
+- Secure payment options: 90%
+- Delivery or pickup options: 85%
+- Integration with social media platforms for sharing experiences: 40%
+Other (please specify): N/A
+
+6. How user-friendly do you find the current design/layout of the online platform?
+- Average rating: 3.8
+
+
+**4.** We carefully analyzed all the feedback collected from stakeholders to identify common themes, patterns, or recurring issues. This analysis allowed us to gain a deeper understanding of user needs and expectations.
+With those who estimated our features lower than 4 we talked individually to get more feedback on what to improve. 
+
+**5.** After analyzing the collected feedback, we prioritized it based on its impact on user experience and feasibility of implementation. This step will guide us in making informed decisions about which improvements or enhancements to focus on first.
+Overall, this week was dedicated to gathering a broader range of feedback and refining our product based on the insights obtained. 
+
+
+Speaking about  improvements which our back-enders and front-enders worked on this week: 
+— members responsible for Django administration worked on balances and implementing the methods for ordering and buying. 
+— front-end dealt with shopping basket, subscriptions; for farmers ordering list now can be shown (in alphabet order)

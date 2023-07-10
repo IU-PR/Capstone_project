@@ -25,19 +25,19 @@ We will use a PostgreSQL database to store and manage the recognition results. W
 ![UI design](/PipeVision/UIdesign.png "Design").
 
 4. **Integration and APIs**: 
-We will have APIs for communication with a model, FastAPI for database callings.
+We will have APIs for communication with a model, FastAPI for database callings. Documentation of these APIs will be introduced in the document after its development. We plan to show part of this documentation in special section on site (e.g. how to use, model and data description).
 
 5. **Scalability and Performance**: 
 We will utilize a scalable hosting solution NVIDIA Triton Inference Server for hosting our backend with model. This will ensure that our application can scale to handle increasing user loads. For improving performance, we'll employ efficient neural network models and optimize our database queries.
 
 6. **Security and Privacy**: 
-We will use proxing to secure development of our solution. Also, we are planning to use the best security practices for the login system.
+We will use proxing to secure development of our solution. Also, we are planning to use cookies for the login system. All passwords stored in database will be hashed. Tokens will be generated for each session and stored in database and cookies to ensure current authentication of user. Tokens will expire in time to have better security.
 
 7. **Error Handling and Resilience**: 
-We will have a robust error handling and logging mechanism in place to ensure that our application can recover gracefully from unexpected issues. This will include error handling at the application level and the system level.
+We will have a robust error handling and logging mechanism in place to ensure that our application can recover gracefully from unexpected issues. This will include error handling at the application level and the system level. Logging mechanism is based on React Auth kit library which has built-in feature for it.
 
 8. **Deployment and DevOps**: 
-We will use  Git for version control, and GitHub actions for continuous integration, testing and deployment. These tools will help us automate the deployment process and maintain a robust development workflow.
+We will use Git with feature branch workflow for version control, and GitHub actions for continuous integration, testing and deployment. These tools will help us automate the deployment process and maintain a robust development workflow.
 
 
 ## **Week 2 questionnaire:**  
@@ -101,45 +101,6 @@ Anastasia Barabanova was chosen to manage other parts of development, communicat
 {{< hint danger >}}
 **Feedback** 
 
-**1. Component Breakdown**
-
-Good! short and To the point!
-
-**2. Data Management**
-
-Missing
-
-**3. UI Design **
-
-Simple and nice, I like it. But I would like to see how will you sow a Marking. And how will you handle showing for multiple images. Also will the use have a delete option or export option? 
-
-You should show all of that and make the prototype more realistic.
-
-**4. Integration and APIs**
-
-This is too short, how will you handle this API with Moodle? How will you crate it, host it, document it? 
-
-**5. Scalability and Performance**
-Good.
-
-**6. Security and Privacy**
-> planning to use the best security practices for the login system
-
-How? What is this best login practices? 
-
-**7. Error handling and Resillience**
-> We will have a robust error handling and logging mechanism in place to ensure that our application can recover gracefully from unexpected issues
-
-What are these mechanisms?
-
-**8. Deployment and DevOps**
-Good, what git workflow will you use?
-
-**Answering questioner **
-
-Good
-
-**Overall**
 The report is generally good. I felt that you need to provide more details in the first section especially in 6, 7 and 8.
 
 Grade 4.5/5

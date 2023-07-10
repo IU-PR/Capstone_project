@@ -276,3 +276,96 @@ Overall, 5/5
 Good work
 
 {{< /hint >}}
+
+
+# **Week #3**
+
+## **This week priority list:**
+
+1. Choose the architecture of the main model;
+2. Create an account for Telegram chat-bot;
+3. Add functions add_task, add_event, mark_history in chat-bot;
+4. Generate sample tasks for each of the 5 labels: Work-study, Physical activity, Food, Daily Routine and Passive rest;
+5. Build, train, and test a pre-trained NLP model to classify task names;
+6. Generate basic data to build a schedule;
+7. Basic data preprocessing;
+8. Implement core data parsing of user input.
+
+## **Progress report**:  
+
+ - **Prototype Features**
+
+The core of our project is the Main Model that finds the most suitable time for each task. We had several ideas about the architecture of this model, and in the end we chose the two best ones, which we will probe in practice. This week we started implementation of a complex neural network that includes LSTM cells with ANN mapping. However, this is time consuming work.
+
+To train the model we need a big amount of data. We decided to generate this data, because there are no open-source datasets. Also, this data will be retrieved from the user, and we as potential users may implement it by ourselves. 
+
+Also, each task will have its name that should be properly encoded. We decided to group all tasks in 4 groups: Sport, Passive Rest, Work-Study, Daily Routine. To map the input task name in a number of the group we used a pretrained NLP model. To complete its learning we generated possible tasks names for each group using OpenAI generative transformers. 
+
+In addition, we created an entity-relationship diagram for the database, which will be implemented next week.
+
+
+ - **User Interface**
+
+Interaction with the user works through the Telegram bot @Innoplan_bot. This week, we have developed the basic functions of start (image 1), adding an event (image 2), a task (image 3), and a history of task execution (image 4). 
+
+We have implemented the basic skeleton of each activity, i.e. you can enter all the data in a line (image 2) or item by item (image 3). We have also implemented basic message processing - for example, if the user entered the time in the wrong format, he or she will be asked to repeat the input in the right format (image 5).
+
+<img src="/HealthyBasedProductivity/bot1.PNG" title="Image 1" width="180"> <img src="/HealthyBasedProductivity/bot2.PNG" title="Image 2" width="180">
+<img src="/HealthyBasedProductivity/bot3.PNG" title="Image 3" width="160">
+<img src="/HealthyBasedProductivity/bot4.PNG" title="Image 4" width="180">
+<img src="/HealthyBasedProductivity/bot5.PNG" title="Image 5" width="180">
+
+ - **Challenges and Solutions**
+
+This week we experienced several challenges.
+
+First of all, choosing the main model architecture was difficult. We had a lot of ideas, and in the end we chose the two best ones, which we will probe in practice.
+
+The big challenge was to design an optimal gpt request for task name generation. The solution resulted in a large number of attempts to improve the requests and finally we made it!
+
+It was also important to make the schedule more generic. We solved this issue by adding randomness in the task runtime and duration, breaks and offsets.
+
+- **Next week priority list:**
+1. Finalize the first version of the main model;
+2. Train and test the main model;
+3. Create database;
+4. Implement parsing to available time slots;
+5. Combine chat-bot, data preprocessing and main model together;
+6. Add buttons to the user interface.
+
+---
+
+
+# **Week #4**
+
+## **External feedback**
+We gave potential users (our friends and groupmates) to try to use our bot. They liked that there were few functions and the instructions did not take a long time to follow. However, the main weakness was that the instructions were not really user-friendly. Therefore, we will improve the bot's messages, which the user will follow. 
+
+Also, initially, during the personal planning, we had two options on what to do if a user systematically underestimates the time to complete a task: increase the time to complete a task intentionally, or increase the break time after the task that other tasks cannot be put on. As a result of the user survey, we came to the conclusion that for the majority of respondents the second option is more preferable.
+
+## **Testing and narrowing the scope**
+We have tested all the other parts of the system - the database and task name processing (NLP) work correctly, although the accuracy of the NLP model suffers a bit because the task name dataset is a little imbalanced. The first version of the model produces insufficiently accurate results, so we will need to refine, train, and test a second, more sophisticated version. Another area of improvement is the data generation itself, which we found when testing the data on the first model. We plan to run the project on innopoints at https://ipts.innopolis.university/ to collect data from real users. 
+
+In addition, we decided to reduce the scope of the Telegram bot. We planned to add functions to edit tasks, but during testing users noted as advantage a small number of simple functions. Therefore, we realized that as an MVP, the functions of adding tasks and events, marking history and scheduling are optimal.
+
+## **Iteration and refinement**
+At this point, we are ready with the basic model and database. Their implementation has taken longer than we had planned. This delayed the opportunity to connect all parts of the system together. But the other tasks for this week (refining the generator, filters, creating time slots and refining the commands) are done. 
+
+## **Next week priority list:**
+1. Combine all parts (including chat-bot, database, data preprocessing and main model) together;
+2. Tune the main model;
+3. Test each part of the system;
+4. Edit user interface by improving messages.
+
+---
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Alright, good to see your project taking shape! I've read through the week 3 and 4 reports.
+I think you will need to accelerate the pace this week, as we don't have much time left. 
+The final product should be ready in all aspects - front, backend, the ML model.
+Put an emphasis on delivering on all fronts. 
+Overall, good reports and progress
+5/5 for both weeks
+
+{{< /hint >}}

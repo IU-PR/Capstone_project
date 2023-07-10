@@ -668,3 +668,60 @@ Overall, good reports and progress.
 5/5 for both weeks
 
 {{< /hint >}}
+
+---
+
+# **Week #4**
+
+## **Introduction**
+
+Throughout this week, we have achieved significant progress by successfully connecting the majority of our frontend to the backend. Moreover, we have prepared and tested the smart contract, and the [website](http://194.67.78.162:3000/) is now operational on our remote server. All updates will be reflected there. It is important to note that there are several pages yet to be implemented, which are currently on our to-do list.
+
+Our objective for the upcoming week is to establish the connection between our smart contract and the backend. Subsequently, we plan to develop a messaging system that facilitates communication between employers and freelancers.
+
+By incorporating these functionalities, we anticipate that our minimum viable product (MVP) will be near completion, requiring only some fine-tuning and further enhancements.
+
+
+## **External Feedback**
+
+During the past week, we made efforts to engage as many friends as possible to gather valuable feedback on our website. To streamline the process and save time for everyone involved, we used Google Forms. In this form, we included multiple rating options for different aspects of our website pages. Users were able to rate each page's functionality on a scale of 1-5 and provide additional feedback through comments if they wished.
+
+Thanks to the insightful responses we received, some friends brought to our attention critical issues that needed immediate attention. For instance, one user pointed out that "The username in the navigation bar doesn't change after I update my profile name." Upon receiving this feedback, we fixed the issue. Another concern that one friend brought up is that “If I press log out, the navigation bar doesn’t show that I logged out until I refresh the page”. This flaw had a notable impact on the user experience, and we immediately took action to fix it. Additionally, a reported issue regarding the functionality of adding new posts provided us with valuable information that allowed us to make improvements. 
+
+We also took careful note of the ratings on the website's styling and functionality, and we're committed to enhancing these aspects in the near future.
+
+In conclusion, gathering first-hand feedback from users has proven to be immensely beneficial. It brought several issues to our attention and provided us with valuable insights for future improvements. We genuinely appreciate the feedback we received as it helps us better understand what attracts users and enables us to prioritize our focus on the right areas in the upcoming weeks.
+
+
+
+## **Testing**
+
+Before we integrated the backend and frontend components, we conducted thorough testing of every API endpoint using the features provided by Django REST Framework. These features allow us to test each API endpoint in our project using various types of requests such as GET, POST, UPDATE, and DELETE.
+
+To simulate the communication process with the frontend, we utilized Python clients, enabling us to write test cases for our API endpoints. This approach allowed us to simulate different scenarios and validate the expected behavior of our API endpoints, ensuring that they functioned as intended.
+
+By employing this comprehensive testing approach, we were able to identify and address issues and bugs that emerged in areas such as authentication, security, serialization, and modeling. Additionally, it helped us determine the precise structure of the requests transferred between the frontend and backend components.
+
+Through rigorous testing, we gained valuable insights into the performance and reliability of our application, ensuring a seamless interaction between the frontend and backend components. This testing process significantly contributed to the overall quality and stability of our project, providing a robust and secure user experience.
+
+After testing stage, we integrated backend and frontend componenets. We faced unexpected bugs because we are new to the integration of react and django process, but we managed to integrate them, check and validate the behavior of the backend APIs using the front-end component.
+
+If you are interested to give our website a quick feedback, you are more than welcome, here is the link to the google form:
+https://forms.gle/BG1thkVwoPbfKfni7
+
+## **Iteration and refinement**
+
+During the development process, we faced many bugs while connecting the frontend to the backend. However, we managed to fix them and even deploy the project.
+
+As we progressed, the frontenders provided the backenders with new requirements. These requirements required changes and refinements to the API(existing endpoints and new ones) and database.
+
+In addition, we reviewed our goals and functionality and tweaked them a bit because we realized that not all of them could be accomplished for the MVP.
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+I've visited your website and read through the report. 
+Overall, good report and progress. Keep it up! I am excited to see what you would be able to accomplish during our 7 weeks!
+5/5 for the week.
+
+{{< /hint >}}

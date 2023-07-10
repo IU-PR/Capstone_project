@@ -27,4 +27,5 @@ To excel in Week 4, stay motivated, communicate effectively, and embrace the ite
 {{< hint danger >}}
   
 Remember, this week is a pivotal point in your project's development. It is an opportunity to refine and enhance your prototype, bringing it closer to the envisioned final product. Embrace the challenges, learn from the feedback, and seize the potential to have a prototype in only 7 weeks. 
+
 {{< /hint >}}

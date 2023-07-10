@@ -186,6 +186,7 @@ Backend Django interface - https://fspmainservice.onrender.com/
 - Make search working
 - Make states of order with status and estimated time
 
+
 {{< hint danger >}}
 
 **Feedback by Rustam**  
@@ -193,4 +194,86 @@ It seems that you have an ordered approach to the project and already have main 
 I hope you and your team will be able to keep the pace and make the necessary adjustments on the way. 
 Progress report is a little too short, would be interesting to see more details on current considerations and trade-offs regarding the choices you make.  
 5/5 for the week
+{{< /hint >}}
+
+# **Week #4**
+
+**External Feedback**
+
+Parallel to this course, some of our team members have another one called the Basics of Product Management, in which they had to take some interviews with potential customers to collect some information about their problem (pain the customer face), what they already tried to do, cost and frequency, and also some insights. 
+So,  overall, they talked to 6 different farmers and asked them about some issues connected to their work 
+
+According to the results of the interview on the first week of our courses, we specified the first part of customer segment - farmers, who want to sell their products but can't find enough clients or have no time to sit and sell their products on a fair. So 2 biggest problems are time and finding new clients. Because it is done offline or with groups in messengers. So our goal should be to make ONLINE platform and make it convenient, so people would use it.
+
+Then, three weeks later, they had different task to collect feedback already about the prototype. That is why we took the interview with the farmer from Verhniy Uslon Alexey Arhireev (the
+same person we took an interview with during problem validation). After showing him
+the prototype and describing some functionalities that it will have we took feedback
+about it. He said that solution is what he needed exactly, it looks pretty user-friendly
+and has the functions that he needs. The most important advantages that he had
+pointed:
+1. It is an online platform, so the number of clients is not limited by distance.
+2. Also if the platform will be used by customers then selling the products will be
+easier.
+3. User-friendly interface will allow people of all ages to use it, even if people are not
+experienced smartphone or PC users. (that is really important point for old people)
+4. We have subscription functionality. He pointed out that never saw it, so he will be
+able to have regular customers.
+5. He will not spend time sitting on fairs, he will be able to spend more time on
+farming and just post products on the platform.
+6. He really appreciates that the platform is free, so more people will use it.
+Actually he didn’t mention the weak spots of such a platform except for the number
+of users who will use it. He said that it will not be a useful platform until a big number
+of clients will use it. So it will take some time before this platform will be used by
+farmers.
+So as a result, the farmer told us that it is a good and useful platform, so if it will be
+used by both clients and other farmers it will help him to do his job.
+
+
+**Testing** 
+
+**In flutter** we have tests:
+- Unit tests for functions and classes
+- Widget tests for widgets
+- Integration tests for the whole app
+
+Because we are making startup - we only need unit and widget tests
+Especcialy unit tests are important for us because we are making a lot of cost calculations, transport estimations and balance operations
+
+Unit tests are written in the different file with the same name but with _test suffix
+It helped us to separate tests from the code and to make code more readable
+And also find bug which could make order without enough balance for customer
+
+**In django** backend we have tests:
+- Model tests
+- Form tests
+- Api tests
+
+Because of not enoght time we tried only to test model and api test in django
+It held us to catch some bugs about enums in models and waiting time in api tests
+
+
+**Iteration**
+
+We are using iterations like week springs and every week we have changes and we are coming closer to goals which we made.
+
+We understood these things:
+- The iterative approach is indeed a crucial aspect of successful project development
+- By continuously evaluating and refining the project based on feedback and testing results, teams can adapt to changing circumstances and improve the product over time
+-  But we don't have time to really feel the full power of this approach, because it requires several dozens such sprints
+
+But because some of us working - we can illustrate our history in industry:
+- Table with tasks and backlog is necessary
+- Weeks to evaluate working period of each person
+- For each feature we have to clip the person who will be response in any next iteration to debug or improve
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Not sure about the comment about time - we are already 4 weeks in - not much time left for the prototype.
+I've visited your repo and website - same as it was 3 weeks ago (just a navbar and few icons). Backend repo - 12 commits and once a week activity. 
+I am a little concerned with the speed of your dev process - are you using different repo? 
+If yes, please provide up to date information and screens of the current state 
+Liked the interviews - good work.
+Not much progress in developing the prototype
+3/5 for the week
 {{< /hint >}}

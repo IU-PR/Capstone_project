@@ -449,3 +449,46 @@ _Feedback by Moofiy_
 {{< /hint >}}
 
 
+
+# **Week #5 Report**
+
+## Feedback
+
+This week, we wanted to gather feedback not just from our friends but from a wider audience. We already had it: a few months ago, we gathered a focus group to collect feedback about our course. Now we have asked them to review the platform that we are building for this course.
+
+![Course beta-test telegram chat](/InnoMastery/telegram-chat.png)
+
+To collect feedback in a more convenient and insightful way, we have created a survey of user satisfaction with our product. By doing this survey, we hoped to learn more about our product from the user’s perspective. We asked about the feelings about our platform, UI/UX, as well as any encountered issues or bugs. For those interested, here is the [<ins>survey</ins>](https://forms.gle/n6DHyqRf7VgJJ6cV7).
+
+As a result, we have collected a lot of useful feedback. From the responses, we have gathered the following observations:
+
+- Our name and domain are catchy, which is great. Almost 70% of users can easily type the domain into a browser.
+![Name feedback](/InnoMastery/name-feedback.jpeg)
+- The majority of users are satisfied with the color palette used in the product.
+![Colors feedback](/InnoMastery/colors-feedback.jpeg)
+- Users have no trouble signing up.
+- Some users did not like the font used in the UI, as the numbers "3" and "6" are shifted downwards from the rest of the text.
+- Certain uses have raised concerns about how images are loaded and how some of them are too big.
+- Luckily, our platform is considered reliable by the majority of users.
+![Trustworthy feedback](/InnoMastery/trustworthy-feedback.jpeg)
+
+If the respondent wanted to provide their contacts, they could do so in the survey. Some of the people did, and we’re going to reach out to those who provided insightful feedback soon. This will let us ask them additional questions through which we’ll learn more about how users want to interact with our product.
+
+Now that we conducted the feedback survey, we have evaluated the user satisfaction and identified areas for improvements that we will prioritize in the remaining time.
+
+## Improvement
+
+Before the final presentation of our MVP, we will focus on the details of the platform, so the platform feels complete and ready for production. Based on the feedback received, we decided on the following improvements:
+
+1. Change the sign-up flow until we implement email verification;
+2. Finish implementing automatic question grading;
+3. Add navigation between steps;
+4. Improve the design of the website so it responds to user interaction (hovering over elements, clicking them, etc.).
+
+## Reflection
+
+We strive to release our course on our own platform in the next few months. In the current state, the prototype mostly replaces Stepik for our needs. However, we have to put more effort before publishing the course: we must bring in features that will distinguish our platform among already popular ones and bring the best experience to our students.
+
+First, integration with Coder remains our biggest priority. With Coder, our coding tasks will bloom at their finest. The coding tasks are the strength of our course, as they show students how their new knowledge is applied in practice. Coder will let the student focus on solving the task, removing the hassle of setting up a local environment.
+
+Second, we will focus on polishing the platform. For students to understand the material better, we need to support videos as well as animated terminal sessions in the theoretical material. In addition, the platform should remember where the student stopped the last time so that students can jump right back in when they come back. Last but not least, we will adapt the website for mobile screens, add PWA support, and fix discovered bugs to ensure the best possible UX for our students.

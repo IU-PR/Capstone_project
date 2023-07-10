@@ -4,11 +4,9 @@ bookFlatSection: true
 title: "FairLance"
 ---
 
-# **Week #1**
+# **FairLance**
 
-# **Introduction**
-
-**FairLance**: Introducing Fairlance, an innovative platform that aims to provide fair opportunities to freelancers worldwide. Leveraging decentralized technologies, our website will transcend geographical boundaries, empowering freelancers to expand their reach without worrying about excessive fees, unlike other conventional freelancing platforms
+Introducing [FairLance](http://fairlance.ru/), an innovative platform that aims to provide fair opportunities to freelancers worldwide. Leveraging decentralized technologies, our website will transcend geographical boundaries, empowering freelancers to expand their reach without worrying about excessive fees, unlike other conventional freelancing platforms
 
 <div style="text-align: center;">
   <img src="https://hackmd.io/_uploads/ryqd33sP2.png" alt="FairLance" width="600" height="300">
@@ -17,8 +15,12 @@ title: "FairLance"
 The adoption of our new payment method brings a significant positive impact on users. It eliminates numerous limitations that currently exist in the industry, transforming the way freelancers and service providers operate. Unlike existing websites that impose restrictions based on specific locations and pay discrepancies based on nationalities, our platform fosters inclusivity and equal opportunities for all. Join us as we revolutionize the freelancing landscape, offering a borderless and equitable platform for talented individuals to thrive and get paid securely with cryptocurrencies.
 
 For additional information, please reach out to me on Telegram at <a href="https://t.me/AhmadAlhusein">@AhmadAlhusein</a>. 
+- [FairLance.ru](http://fairlance.ru/)
+- [github repository](https://github.com/AhmadAlhussin2/fairlance)
 
-## **Team Formation and Project Proposal**
+# **Week #1**
+
+## **Team Members**
 
 | Team Member            | Telegram ID   | Email Address       |
 |------------------------|---------------|---------------------|
@@ -31,40 +33,44 @@ For additional information, please reach out to me on Telegram at <a href="https
 
 ### **Value Proposition**
 
-- ####  The problem we are solving
-    Our website addresses the challenges that freelancers commonly face, providing solutions for payment methods, dealing with scammers, and combating the pervasive issue of racism. Freelancing platforms often exhibit discriminatory practices, such as offering different hourly rates based on nationality. Additionally, certain geographical locations may be barred from accessing these platforms due to sanctions and political considerations. Our platform aims to create a fair and inclusive environment, eliminating these barriers and fostering equal opportunities for all freelancers.
+{{<expand "The problem we are solving">}}
+Our website addresses the challenges that freelancers commonly face, providing solutions for payment methods, dealing with scammers, and combating the pervasive issue of racism. Freelancing platforms often exhibit discriminatory practices, such as offering different hourly rates based on nationality. Additionally, certain geographical locations may be barred from accessing these platforms due to sanctions and political considerations. Our platform aims to create a fair and inclusive environment, eliminating these barriers and fostering equal opportunities for all freelancers.
+{{</expand>}}
 
-- #### Solution description
-    Our solution combines the advantages of peer-to-peer architecture with centralized control to effectively address the aforementioned problems. While peer-to-peer architecture helps mitigate many issues, it falls short in dealing with scammers and ensuring website content remains safe. To overcome these challenges, our platform adopts a centralized approach. We prioritize user privacy by not requiring or allowing the disclosure of nationalities. Additionally, we facilitate payments using cryptocurrencies for enhanced security and convenience.
+{{<expand "Solution description">}}
+Our solution combines the advantages of peer-to-peer architecture with centralized control to effectively address the aforementioned problems. While peer-to-peer architecture helps mitigate many issues, it falls short in dealing with scammers and ensuring website content remains safe. To overcome these challenges, our platform adopts a centralized approach. We prioritize user privacy by not requiring or allowing the disclosure of nationalities. Additionally, we facilitate payments using cryptocurrencies for enhanced security and convenience.
 
-    To prevent fraud and disputes, we employ a unique approach. Initially, the platform securely holds the cryptocurrency within its wallet until both the freelancer and job owner reach an agreement on the project. In case of conflicts, our dedicated administrators step in to manually assess the project's completion and determine the appropriate distribution of funds. This ensures fair resolution and minimizes the risk of financial loss for both parties involved.
+To prevent fraud and disputes, we employ a unique approach. Initially, the platform securely holds the cryptocurrency within its wallet until both the freelancer and job owner reach an agreement on the project. In case of conflicts, our dedicated administrators step in to manually assess the project's completion and determine the appropriate distribution of funds. This ensures fair resolution and minimizes the risk of financial loss for both parties involved.
+{{</expand>}}
 
-- #### Benefits to Users    
-    At our website, freelancers and service providers enjoy a multitude of benefits. We prioritize inclusivity by removing nationality-based restrictions, ensuring equal opportunities for all users based solely on their skills and expertise. Additionally, our payment system significantly reduces transfer fees, allowing freelancers to retain a higher portion of their earned income. By offering these advantages, we enhance the overall experience, making freelancing more rewarding and convenient for our valued users.
+{{<expand "Benefits to Users">}}
+At our website, freelancers and service providers enjoy a multitude of benefits. We prioritize inclusivity by removing nationality-based restrictions, ensuring equal opportunities for all users based solely on their skills and expertise. Additionally, our payment system significantly reduces transfer fees, allowing freelancers to retain a higher portion of their earned income. By offering these advantages, we enhance the overall experience, making freelancing more rewarding and convenient for our valued users.
+{{</expand>}}
 
-- #### Differentiation
-    Unlike many platforms, we do not ask for or restrict users based on their nationality. Furthermore, our platform supports payment with cryptocurrencies, offering enhanced security and convenience for users. By securely holding funds in our website's wallet until project agreements are reached, we provide a fair and transparent process for resolving conflicts
+{{<expand "Differentiation">}}
+Unlike many platforms, we do not ask for or restrict users based on their nationality. Furthermore, our platform supports payment with cryptocurrencies, offering enhanced security and convenience for users. By securely holding funds in our website's wallet until project agreements are reached, we provide a fair and transparent process for resolving conflicts
+{{</expand>}}
 
-- #### User Impact
-    The adoption of our new payment method brings a significant positive impact on users. It eliminates numerous limitations that currently exist in the industry, transforming the way freelancers and service providers operate. Unlike existing websites that impose restrictions based on specific locations and pay discrepancies based on nationalities, our platform fosters equal opportunities for all.
+{{<expand "User Impact">}}
+The adoption of our new payment method brings a significant positive impact on users. It eliminates numerous limitations that currently exist in the industry, transforming the way freelancers and service providers operate. Unlike existing websites that impose restrictions based on specific locations and pay discrepancies based on nationalities, our platform fosters equal opportunities for all.
+{{</expand>}}
 
-- #### User Testimonials or Use Cases
-    The website will be accessable for everyone intersted in freelancing without any limits. The value of this platfrom can be as huge as websites like freelancer.com wich worth <a href="https://freelancersincubator.com/question/1372/how_much_is_freelancer.com_worth#:~:text=It's%20worth%20about%20%241%20billion,Amsterdam%2C%20Beijing%2C%20Mumbai">1 billion dollars</a> 
+{{<expand "User Testimonials or Use Cases">}}
+The website will be accessable for everyone intersted in freelancing without any limits. The value of this platfrom can be as huge as websites like freelancer.com wich worth <a href="https://freelancersincubator.com/question/1372/how_much_is_freelancer.com_worth#:~:text=It's%20worth%20about%20%241%20billion,Amsterdam%2C%20Beijing%2C%20Mumbai">1 billion dollars</a>
+{{</expand>}}
 
 
 ## **Lean Startup Questionnaire**
 
-Please answer the following questions related to the lean startup methodology:
-
-1. What problem or need does your software project address?
+1. **What problem or need does your software project address?**
 
     This software project addresses the problem of connecting people in need of specific services with qualified service providers. It aims to simplify the process of finding and hiring freelancers by providing a platform where users can easily post their service requirements and receive applications from interested service providers. In addition, we are planning to address the need for secure and efficient payment solutions in the freelancing industry. By using cryptocurrency payments, we aim to reduce the risk of scams and provide a decentralized and transparent method for financial transactions.
 
-2. Who are your target users or customers?
+2. **Who are your target users or customers?**
 
     The target users or customers of the website are individuals or businesses seeking specific services, such as graphic design, web development, writing, marketing, etc. They could be entrepreneurs, small business owners, project managers, or individuals in need of specialized skills.
 
-3. How will you validate and test your assumptions about the project?
+3. **How will you validate and test your assumptions about the project?**
 
     - Conduct market research to understand the demand for freelancing services in your target market.
 
@@ -72,7 +78,7 @@ Please answer the following questions related to the lean startup methodology:
 
     - Create a minimum viable product (MVP) with basic functionality to test the initial response and collect user feedback.
 
-4. What metrics will you use to measure the success of your project?
+4. **What metrics will you use to measure the success of your project?**
 
     - Feedback and ratings: Collect feedback from users and track their satisfaction levels through ratings and reviews.
 
@@ -82,7 +88,7 @@ Please answer the following questions related to the lean startup methodology:
 
     - Transaction volume: Measure the number and value of transactions conducted using cryptocurrencies on the platform.
 
-5. How do you plan to iterate and pivot if necessary based on user feedback?
+5. **How do you plan to iterate and pivot if necessary based on user feedback?**
 
     - Implement changes or new features based on user feedback and iterate the product accordingly.
 
@@ -94,18 +100,16 @@ Please answer the following questions related to the lean startup methodology:
 
 ## **Leveraging AI, Open-Source, and Experts**
 
-Explain how your team plans to leverage the following resources for the development and success of your project:
-
-- AI (Artificial Intelligence):
+- **AI (Artificial Intelligence):**
     - Taking into account AI suggestion about functionalities and structure of the project
     - For future deployment, we can use AI algorithms to help detect and prevent fraudulent activities by analyzing user behavior patterns, transaction history, and other relevant data.
     - AI techniques such as NLP (Natural language processing) can be used to improve search functionalities and enable users to find the relevant services or posts more effectively. (also for future deployment)
 
-- Open-Source:
+- **Open-Source:**
     - Open-source frameworks and libraries provide a solid foundation for building web applications. By utilizing these resources, we can accelerate development, reduce costs, and benefit from the contributions and support of the open-source community.
     - Analyze relevant open source existing-platforms functionalities and compare performance of our functionalities with them in order to enhance it. 
 
-- Experts in relevant domains:
+- **Experts in relevant domains:**
     - We will try to make discussion with experts about testing and implementation, collect their feedback and advices.
     - As stated in lectures one of the founders of Kazan Express will be a guest lecture, we will try to learn a lot of things from him, since both of our project is similar in some aspects.
 
@@ -117,9 +121,9 @@ Explain how your team plans to leverage the following resources for the developm
 
 ## **Defining the Vision for Your Project**
 
-- ###  **Overview**:
+- ###  **FairLance platform**:
 
-    **FairLance platform**: The project aims to create a comprehensive freelancing platform that connects individuals and businesses seeking specific services with qualified service providers globally. By leveraging advanced technologies and a user-friendly interface, the platform revolutionizes the way people find and hire freelancers while removing limitations imposed by geographic location or nationality.
+    The project aims to create a comprehensive freelancing platform that connects individuals and businesses seeking specific services with qualified service providers globally. By leveraging advanced technologies and a user-friendly interface, the platform revolutionizes the way people find and hire freelancers while removing limitations imposed by geographic location or nationality.
 
     - #### Intended Benefits and Impact:
 
@@ -136,7 +140,7 @@ Explain how your team plans to leverage the following resources for the developm
 - ###  **Tech Stack**:
     Our platform will use many frameworks and technologies. They can not all be defined from the start, since our view will be developing and we might need different frameworks to do different tasks. However, we will mainly focus on the following technologies:
 
-    - Flask: we will mainly use flask for the backend part of our project to deal with customers, manage the database, and support mechanism. 
+    - Django: we will mainly use django for the backend part of our project to deal with customers, manage the database, and support mechanism. 
     - MySQL: will be our data base management system
     - React: for the front-end part 
     - Brownie/hardhat: for intaracting with solidity
@@ -145,13 +149,13 @@ Explain how your team plans to leverage the following resources for the developm
 
 
 - ### **Anticipating Future Problems**:
-    1. Technical complexities: we need to develop a robust and scalable platform with features such as user management, job posting, payment processing, and messaging.
+    1. **Technical complexities:** we need to develop a robust and scalable platform with features such as user management, job posting, payment processing, and messaging.
     Mitigation: break the whole project into smaller modules and develop them iteratively.
-    2. Resource limitations: we may face server capacity, memory limitations. In addition, we may not have the necessary skill set for some parts of the project.
+    2. **Resource limitations:** we may face server capacity, memory limitations. In addition, we may not have the necessary skill set for some parts of the project.
     Mitigation: upgrade the server and/or use optimized data structures/algorithms. Delegate some parts of the project to another team that specializes in that particular area.
-    3. Time constraints: meet project deadlines and provide a functional platform within the specified time frame.
+    3. **Time constraints:** meet project deadlines and provide a functional platform within the specified time frame.
     Mitigation: we will make a project plan with milestones and deadlines. we will follow it and adjust it as needed.
-    4.  External dependencies: using third-party services or APIs for some functionality.
+    4.  **External dependencies:** using third-party services or APIs for some functionality.
     Mitigation: choosing the most reliable services or developing your own.
 
 ### **Elaborate Explanations**:
@@ -161,29 +165,29 @@ We will divide into two teams. One for front-end and the other for backend. Howv
 Also, we will conduct regular team meating to discuss any issues. 
 
 1. **User Management:**
--  Description: This component allows users to create accounts, log in and manage their profiles
--  Functionality: It enables secure access to the platform and the ability to track user activities(job posting, bidding and payment history)
--  Contribution: Building trust and maintaining professional environment
+    -  Description: This component allows users to create accounts, log in and manage their profiles
+    -  Functionality: It enables secure access to the platform and the ability to track user activities(job posting, bidding and payment history)
+    -  Contribution: Building trust and maintaining professional environment
 
 2. **Job Posting and Bidding:**
--  Description: This component allows client to post job requirements, while freelancers can submit bids
--  Functionality: Job posting and bidding facilitate the matching of clients with suitable freelancers. It provides a platform for clients to describe their project requirements and for freelancers to showcase their skills and propose their services. 
--  Contribution: This process enables efficient communication and collaboration between clients and freelancers.
+    -  Description: This component allows client to post job requirements, while freelancers can submit bids
+    -  Functionality: Job posting and bidding facilitate the matching of clients with suitable freelancers. It provides a platform for clients to describe their project requirements and for freelancers to showcase their skills and propose their services. 
+    -  Contribution: This process enables efficient communication and collaboration between clients and freelancers.
 
 3. **Payment Processing**
--  Description: Payment processing is a crucial functionality that allows clients to pay freelancers securely and freelancers to receive their earnings.
--  Functionality: By integrating crypto payment options, our platform can offer fast, secure, and transparent transactions. Cryptocurrencies can streamline cross-border payments, reduce fees, and provide an additional layer of privacy.
--  Contribution: Implementing robust encryption and security measures ensures the protection of sensitive financial information.
+    -  Description: Payment processing is a crucial functionality that allows clients to pay freelancers securely and freelancers to receive their earnings.
+    -  Functionality: By integrating crypto payment options, our platform can offer fast, secure, and transparent transactions. Cryptocurrencies can streamline cross-border payments, reduce fees, and provide an additional layer of privacy.
+    -  Contribution: Implementing robust encryption and security measures ensures the protection of sensitive financial information.
     
 4. **Messaging:**
--  Description: A messaging system allows clients and freelancers to communicate and collaborate on project details, clarifications, and updates.
--  Functionality:  Effective messaging and communication features enable smooth collaboration, clarification of project requirements, and real-time feedback.
--  Contribution: It helps to build trust and establish a productive working relationship between clients and freelancers.
+    -  Description: A messaging system allows clients and freelancers to communicate and collaborate on project details, clarifications, and updates.
+    -  Functionality:  Effective messaging and communication features enable smooth collaboration, clarification of project requirements, and real-time feedback.
+    -  Contribution: It helps to build trust and establish a productive working relationship between clients and freelancers.
 
 5. **Review and Rating System:**
--  Description: A review and rating system allows clients to provide feedback and rate the quality of work delivered by freelancers.
--  Functionality: The review and rating system promotes accountability, transparency, and quality control. 
--  Contribution:  It helps clients make informed decisions when selecting freelancers and assists freelancers in building their reputation and credibility.
+    -  Description: A review and rating system allows clients to provide feedback and rate the quality of work delivered by freelancers.
+    -  Functionality: The review and rating system promotes accountability, transparency, and quality control. 
+    -  Contribution:  It helps clients make informed decisions when selecting freelancers and assists freelancers in building their reputation and credibility.
 
 {{< hint danger >}}
 
@@ -198,23 +202,15 @@ To ensure efficient execution within our limited timeframe of already six weeks,
 
 # **Week #2**
 
-# **Introduction**
-
-**FairLance**: Introducing Fairlance, an innovative platform that aims to provide fair opportunities to freelancers worldwide. Leveraging decentralized technologies, our website will transcend geographical boundaries, empowering freelancers to expand their reach without worrying about excessive fees, unlike other conventional freelancing platforms
+**FairLance**: Introducing [Fairlance](http://fairlance.ru/), an innovative platform that aims to provide fair opportunities to freelancers worldwide. Leveraging decentralized technologies, our website will transcend geographical boundaries, empowering freelancers to expand their reach without worrying about excessive fees, unlike other conventional freelancing platforms
 
 <div style="text-align: center;">
   <img src="https://hackmd.io/_uploads/ryqd33sP2.png" alt="FairLance" width="600" height="300">
 </div>
 
-The adoption of our new payment method brings a significant positive impact on users. It eliminates numerous limitations that currently exist in the industry, transforming the way freelancers and service providers operate. Unlike existing websites that impose restrictions based on specific locations and pay discrepancies based on nationalities, our platform fosters inclusivity and equal opportunities for all. Join us as we revolutionize the freelancing landscape, offering a borderless and equitable platform for talented individuals to thrive and get paid securely with cryptocurrencies.
-
 By the end of the second week in this project, we have gained a clearer vision and deeper insights. The upcoming report will provide comprehensive technical details related to the project, offering valuable additional information.
 
-For additional information, please reach out to me on Telegram at <a href="https://t.me/AhmadAlhusein">@AhmadAlhusein</a>. 
-
-You can check our progress in the <a href="https://github.com/AhmadAlhussin2/fairlance">project repository</a>
-
-## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
+## **Choosing the Tech Stack, Designing the Architecture**
 
 
 ### **Tech Stack Selection**
@@ -341,27 +337,27 @@ Designing a robust and scalable architecture is crucial for the long-term succes
 
     *We decided to use PostgeSQL relational database system to store our data for several reasons*
     
-    - Security: PostgreSQL prioritizes security and provides robust mechanisms for user authentication, data encryption, and access control.
-    - Reliability and Stability: PostgreSQL is known for its robustness and stability. It is widely used in production environments for both small and large-scale applications.
-    - Scalability: PostgreSQL can handle large amounts of data and can scale effectively as our project grows.
+    - **Security:** PostgreSQL prioritizes security and provides robust mechanisms for user authentication, data encryption, and access control.
+    - **Reliability and Stability:** PostgreSQL is known for its robustness and stability. It is widely used in production environments for both small and large-scale applications.
+    - **Scalability:** PostgreSQL can handle large amounts of data and can scale effectively as our project grows.
 
     *During the last meeting, we decided and agreed on our database structure*
     
     ![](https://hackmd.io/_uploads/BJAxHAYv2.png)
 
-    - Skills table: Only admins can add skills to this table. Freelancers and project owners choose from this table.
+    - **Skills table:** Only admins can add skills to this table. Freelancers and project owners choose from this table.
     
-    - Project Publication: Clients, acting as project owners, have the ability to publish projects. They provide essential details such as the project's title, description, optional media attachments, deadline, and a set of required skills. All of the previous will be stored in projects table.
+    - **Project Publication:** Clients, acting as project owners, have the ability to publish projects. They provide essential details such as the project's title, description, optional media attachments, deadline, and a set of required skills. All of the previous will be stored in projects table.
     
-    - Freelancers: Each user who is a freelancers specifies his skill set.
+    - **Freelancers:** Each user who is a freelancers specifies his skill set.
 
-    - Applications table: Freelancers on the platform can browse through the available projects and submit applications for those that align with their skillsets. 
+    - **Applications table:** Freelancers on the platform can browse through the available projects and submit applications for those that align with their skillsets. 
 
-    - Selection Process (Employment table): Project owners review the received applications and carefully choose the freelancers they wish to hire for their projects. The selection process involves assessing the freelancers' skills, experience, and overall suitability for the specific project requirements. Once a project owner selects a freelancer, both parties enter into negotiations to establish mutually agreed-upon terms, including the project price. They determine a reasonable price within the specified range. 
+    - **Selection Process (Employment table):** Project owners review the received applications and carefully choose the freelancers they wish to hire for their projects. The selection process involves assessing the freelancers' skills, experience, and overall suitability for the specific project requirements. Once a project owner selects a freelancer, both parties enter into negotiations to establish mutually agreed-upon terms, including the project price. They determine a reasonable price within the specified range. 
 
-    - Smart Contract and Payments: Upon reaching an agreement, the project owner and the hired freelancer proceed with the contractual arrangements. The agreed-upon price is transferred to a smart contract, where it remains securely held until the specified project deadline. If the project is successfully completed within the given timeframe, the agreed-upon amount is then transferred to the freelancer's wallet as payment for their services.
+    - **Smart Contract and Payments:** Upon reaching an agreement, the project owner and the hired freelancer proceed with the contractual arrangements. The agreed-upon price is transferred to a smart contract, where it remains securely held until the specified project deadline. If the project is successfully completed within the given timeframe, the agreed-upon amount is then transferred to the freelancer's wallet as payment for their services.
 
-    - Messages table: Stores messages between users on the website.
+    - **Messages table:** Stores messages between users on the website.
     
      *Using Django REST framework and PostgreSQL we can ensure secure access and manipulation of our data from the APIs side*
     
@@ -371,9 +367,7 @@ Designing a robust and scalable architecture is crucial for the long-term succes
 
     For design we are getting inspiration from e-commercial websites, and some public designs on figma community.
     We have already developed the landing page for our website. 
-    **For now, you can check our design [here](https://fairlance-frontend-vhph.vercel.app/).**
-    
-    But, note that this is the initial design, and it is not functioning. We decided that showing our current work is better than showing basic scetching.
+    **You can check our design [here](http://fairlance.ru/).**
     
     In the following section we will show you the general theme to our website. 
     
@@ -387,7 +381,7 @@ Designing a robust and scalable architecture is crucial for the long-term succes
         ![](https://hackmd.io/_uploads/B1aCNhiD2.png)
 
 
-    NOTE: those pictures are only to show our initial design, and not final for now.
+    NOTE: those pictures are only to show our initial design, and not the final version.
 
 4. **Integration and APIs**: 
     *As a result of the discussion during the last meeting, we are going to implement the following API's that will interact with the database*
@@ -432,68 +426,74 @@ Designing a robust and scalable architecture is crucial for the long-term succes
     It's important to note that our project is still in its early stages, and we remain open to adopting new technologies and approaches as we continue development.
 
 
-## **Week 2 questionnaire:**  
+## **Questionnaire:**  
 
-1) Tech Stack Resources: Are you utilizing any **project-based books** that specifically cover your tech stack and help you build your project? If yes, please provide the names of these books (name at least 3). How do you anticipate utilizing these materials to enhance your knowledge and expertise in your tech stack?
+1) **Tech Stack Resources: Are you utilizing any **project-based books** that specifically cover your tech stack and help you build your project?** 
 
-    - **Answer**: Currently, We are not using any project-based books. However, We are heavily relying on the documentation and resources provided by the frameworks we are using.
+    Currently, We are not using any project-based books. However, We are heavily relying on the documentation and resources provided by the frameworks we are using.
 
-2) Mentorship Support: Do you currently have a mentor actively involved in your project? If yes, kindly share the name of your mentor and explain how their guidance has positively influenced your project. If you don't have a mentor yet, have you considered seeking one? How do you believe having a mentor could contribute to the success of your project? Remember, having an experienced mentor that can guide you and your team is your responsibility.
-     - **Answer**: Currently, our project does not have a mentor. We haven't considered having a mentor for the project as we are still in the early stage. However, we recognize the potential benefits of having a mentor, so we might consider seeking out a mentor in later stages or challenging points in the project. 
+2) **Mentorship Support: Do you currently have a mentor actively involved in your project?** 
+     
+    Currently, our project does not have a mentor. We haven't considered having a mentor for the project as we are still in the early stage. However, we recognize the potential benefits of having a mentor, so we might consider seeking out a mentor in later stages or challenging points in the project. 
 
-3) Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack? This could include online courses, video tutorials, documentation, or any other sources that have been valuable in filling knowledge gaps. Please, name at least 3 resources
-    - **Answer**: As we said in the first question, our main resources are the documentations provided by the frameworks like Django, Django REST and React documentations.In addition to documentation, we sometimes go for popular video tutorials. Also, we always try to analyze how other popular platforms handle features and functionalities related to our platform. By thoroughly studying these resources, we are gaining in-depth knowledge about the features, functionalities, and best practices of our tech stack. This approach allows us to utilize them effectively in our project development in order to achieve security, scalability and performance.
+3) **Exploring Alternative Resources: In addition to project-based books, what other resources have you explored to expand your understanding of your tech stack?**
 
-4) Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking? If so, how do you plan to address these gaps and ensure a well-rounded understanding of your chosen technologies? Please name the tech stack division in your team and outline how are you planning to deal with **knowledge gaps**
-     - **Answer**: As second-year students, our average experience drives us to seek more knowledge and conduct extensive research for developing a fully-featured website/project. During meetings, we create detailed plans for the upcoming week, identify knowledge gaps, and search for tutorials to address those gaps. Recently, we faced difficulty in selecting the appropriate authentication method that suits the interaction betweeen our frontend/backend frameworks. As none of us have experience in this area, we are researching to bridge this gap and ensure a suitable solution for both frontend/backend teams.
-     - The tech stack dicision will be like following:
+    As we said in the first question, our main resources are the documentations provided by the frameworks like Django, Django REST and React documentations.In addition to documentation, we sometimes go for popular video tutorials. Also, we always try to analyze how other popular platforms handle features and functionalities related to our platform. By thoroughly studying these resources, we are gaining in-depth knowledge about the features, functionalities, and best practices of our tech stack. This approach allows us to utilize them effectively in our project development in order to achieve security, scalability and performance.
 
-         **Frontend**
-        
-        Due to the diverse backgrounds of our frontend team members, each individual utilizes different frameworks and technologies. However, in order to enhance our teamwork efficiency, we have collectively chosen REACT as our primary framework.
+4) **Identifying Knowledge Gaps: Are there any specific areas within your tech stack where you or your team feel there are knowledge gaps or expertise is lacking?**
 
-        To bridge the knowledge gap and ensure everyone is well-versed in REACT, we have devised a plan for the first two weeks. Each team member will be assigned a specific page based on their expertise, allowing them to practice and familiarize themselves with the framework. This approach aims to strengthen our skills and create a cohesive understanding of REACT within the team.
-        
-        - ***Ahmad Alhussin***
-          Create main landing page, browsing jobs page.
-        - ***Ghadeer Akleh***
-          Create profile information page
-        - ***Hamada Salhab***
-          Create sign in/sign up, and posts pages
-        
-        **Backend**
+    *The tech stack dicision based on our different knowledge gaps will be like following:*
 
-        The backend team also faces various knowledge gaps, and we have adopted a similar approach as the frontend team to address this issue. Each team member will be given the opportunity to practice and enhance their skills by focusing on specific features.
-
-        In order to effectively utilize the first two weeks, we have divided the tasks as follows:
-        
-        - ***Vladislav Lopatovskii***
-          Create the main hiring mechanism
-        - ***Ahmad Sarhan***
-          Design schemas, views and models for those scheams
-        - ***Yazan Kbaili***
-          Authentication mechanism
-        
-        **Smart contracts**
+    **Frontend**
     
-        We acknowledge that our team lacks experience in working with smart contracts. Nevertheless, since our smart contract implementation does not involve complex technologies, we have decided to assign this particular section to a team member who possesses background knowledge in solidity
-        
-        - ***Ahmad Alhussin***
+    Due to the diverse backgrounds of our frontend team members, each individual utilizes different frameworks and technologies. However, in order to enhance our teamwork efficiency, we have collectively chosen REACT as our primary framework.
+
+    To bridge the knowledge gap and ensure everyone is well-versed in REACT, we have devised a plan for the first two weeks. Each team member will be assigned a specific page based on their expertise, allowing them to practice and familiarize themselves with the framework. This approach aims to strengthen our skills and create a cohesive understanding of REACT within the team.
+    
+    - ***Ahmad Alhussin***
+        Create main landing page, browsing jobs page.
+    - ***Ghadeer Akleh***
+        Create profile information page
+    - ***Hamada Salhab***
+        Create sign in/sign up, and posts pages
+    
+    **Backend**
+
+    The backend team also faces various knowledge gaps, and we have adopted a similar approach as the frontend team to address this issue. Each team member will be given the opportunity to practice and enhance their skills by focusing on specific features.
+
+    In order to effectively utilize the first two weeks, we have divided the tasks as follows:
+    
+    - ***Vladislav Lopatovskii***
+        Create the main hiring mechanism
+    - ***Ahmad Sarhan***
+        Design schemas, views and models for those scheams
+    - ***Yazan Kbaili***
+        Authentication mechanism
+    
+    **Smart contracts**
+
+    We acknowledge that our team lacks experience in working with smart contracts. Nevertheless, since our smart contract implementation does not involve complex technologies, we have decided to assign this particular section to a team member who possesses background knowledge in solidity
+    
+    - ***Ahmad Alhussin***
         
 
      
-5) Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack? This could involve participating in online forums and groups (telegram, discord or any other platform), attending local meetups (Kazan, Innopolis)? Do you have means to engage experts into critical tech stack problems through professional networks? 
-    - **Answer**: At present, we heavily rely on online resources for our work. By utilizing renowned frameworks in our projects, we can conveniently discover solutions to any inquiries on platforms like [Stack Overflow](https://stackoverflow.com/). Take REACT as an example, with its public repository amassing over [200,0000](https://github.com/facebook/react) stars, it offers a wealth of valuable information covering various common issues.
+5) **Engaging with the Tech Community: Have you actively engaged with the broader tech community to seek guidance or learn from experienced professionals in your tech stack?**
 
-6) Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?
-    - **Answer**: Our objective for this week is developing a better understanding of security practices and vulnerabilities within our tech stack.We will review documentation, security guidelines, and best practices provided by the framework creators. Furthermore, we will explore security-related articles, blogs, and tutorials specific to our tech stack.
+    At present, we heavily rely on online resources for our work. By utilizing renowned frameworks in our projects, we can conveniently discover solutions to any inquiries on platforms like [Stack Overflow](https://stackoverflow.com/). Take REACT as an example, with its public repository amassing over [200,0000](https://github.com/facebook/react) stars, it offers a wealth of valuable information covering various common issues.
 
-7) Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates? Have you organized any knowledge-sharing sessions or discussions to facilitate the exchange of insights and experiences related to your tech stack?
-    - **Answer**: During our regular team meetings, we make sure to discuss any challenges or issues we have encountered. We also communicate any novel techniques or tools that we come across and think the group might find useful. We've also set up a Telegram group where we can communicate and schedule meetings if necessary. Although no formal knowledge-sharing meetings have been scheduled, we place a high value on teamwork and open communication to make sure that everyone is constantly learning new things.
+6) **Learning Objectives: What specific learning objectives have you set for yourself and your team in relation to your tech stack this week? How do you plan to achieve these objectives, and what strategies or resources will you employ to deepen your understanding?**
+
+    Our objective for this week is developing a better understanding of security practices and vulnerabilities within our tech stack.We will review documentation, security guidelines, and best practices provided by the framework creators. Furthermore, we will explore security-related articles, blogs, and tutorials specific to our tech stack.
+
+7) **Sharing Knowledge with Peers: How have you been sharing your knowledge and expertise with your teammates? Have you organized any knowledge-sharing sessions or discussions to facilitate the exchange of insights and experiences related to your tech stack?**
+
+    During our regular team meetings, we make sure to discuss any challenges or issues we have encountered. We also communicate any novel techniques or tools that we come across and think the group might find useful. We've also set up a Telegram group where we can communicate and schedule meetings if necessary. Although no formal knowledge-sharing meetings have been scheduled, we place a high value on teamwork and open communication to make sure that everyone is constantly learning new things.
 
 
-8) How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?
-    - **Answer**: We have not leveraged AI to compensate for any lacking expertise in our tech stack. For now, we are relaying on our team's expertise and experience to develop and maintain the platform. However, we are open to explore AI tools to improve our processes and enhance the user experience.
+8) **How have you leveraged AI to compensate for any lacking expertise in your tech stack? Have you utilized AI-powered tools or platforms to expedite the process of acquiring knowledge and expertise in your tech stack?**
+    
+    We have not leveraged AI to compensate for any lacking expertise in our tech stack. For now, we are relaying on our team's expertise and experience to develop and maintain the platform. However, we are open to explore AI tools to improve our processes and enhance the user experience.
 
 
 ### **Tech Stack and Team Allocation**
@@ -555,7 +555,7 @@ Throughout the week, significant advancements have been made in backend, fronten
 
 ## **Progress report**:  
 
- - ### Prototype Features:
+ - ### **Prototype Features:**
    We have implemented the following features/functionalities so far:
    
    - **Applications**: the API allows to create new applications, retrieve a list of applications for a particular project and application details, delete and update applications.
@@ -599,11 +599,9 @@ Throughout the week, significant advancements have been made in backend, fronten
     - Moreover, the contract is deployed on Seploia test network, and can be viewed [here](https://sepolia.etherscan.io/address/0x57f34f39b4bb009e43b695d618d17a65c7b97a52#code).
     - Howver, the contract is not ready for production yet, since we need to create more tests and more features. We plan to deploy it on main net in the last steps only.
     
- - ### User Interface: 
+ - ### **User Interface:** 
  
-    You can check our initial design on https://fairlance.netlify.app/, we have made significant progress in frontend development.
-
-    **PLEASE NOTE**: this is only frontend demo, we have not linked our backend with the frontend yet, we plan to do it during the next week.
+    You can check our design on [fairlance.ru](https://fairlance.ru/), we have made significant progress in frontend development.
 
     Here you can find some explainations about the website:
 
@@ -640,7 +638,7 @@ Throughout the week, significant advancements have been made in backend, fronten
         ![](https://hackmd.io/_uploads/S1JZk-Iuh.png)
 
 
- - ### Challenges and Solutions:
+ - ### **Challenges and Solutions:**
  
      - This week, we encountered some issues with a smart contract. As we explained in the previous reportes, the transaction process works according to the following: When a project owner hires a freelancer, the payment amount is transferred from the project owner's wallet to a smart contract, where it remains until the deadline for project completion.
      - We earn money by cutting a small ratio of the price from 5% to 10% depending on the total amount (we haven't firmly decided on that yet).
@@ -648,7 +646,7 @@ Throughout the week, significant advancements have been made in backend, fronten
      - If we store a large amount of information in the smart contract, the transaction costs may exceed the percentage we earn from the project price, resulting in financial losses, particularly in the initial stages of the website. 
      - In order to provide a solution, our decision was to design a minimalistic smart contract. This approach involves refraining from storing excessive project-related information in the contract, as we determined them to be unnecessary. Additionally, the contract will incorporate a whitelist functionality, enabling us to select the most stable and cost-effective stable coin (such as BUSD, USDT, etc.) for integration. All extra functionalities will be implemented in the backend.
    
-- ## Next Steps:
+- ## **Next Steps:**
   
   - Our very next step is going to be deploying the backend and connecting it to the frontend and make sure that they are integrated properly. This should probably be achieved before the end of this week.
   - Concurrently, the backend should also be connected to smart contract that's deployed on the test network.
@@ -675,7 +673,7 @@ Overall, good reports and progress.
 
 ## **Introduction**
 
-Throughout this week, we have achieved significant progress by successfully connecting the majority of our frontend to the backend. Moreover, we have prepared and tested the smart contract, and the [website](http://194.67.78.162:3000/) is now operational on our remote server. All updates will be reflected there. It is important to note that there are several pages yet to be implemented, which are currently on our to-do list.
+Throughout this week, we have achieved significant progress by successfully connecting the majority of our frontend to the backend. Moreover, we have prepared and tested the smart contract, and the [website](http://fairlance.ru/) is now operational on our remote server. All updates will be reflected there. It is important to note that there are several pages yet to be implemented, which are currently on our to-do list.
 
 Our objective for the upcoming week is to establish the connection between our smart contract and the backend. Subsequently, we plan to develop a messaging system that facilitates communication between employers and freelancers.
 
@@ -725,3 +723,61 @@ Overall, good report and progress. Keep it up! I am excited to see what you woul
 5/5 for the week.
 
 {{< /hint >}}
+
+
+# **Week #5**
+
+During this week, we were developing the last steps in our project. In our [website](http://fairlance.ru/) now you can check your applications and offers (after getting hired). The balance is also shown in the front-end, but you can only top it up from the backend (not linked yet).
+
+
+## **Feedback**
+
+As freelancing is open to individuals from all backgrounds, anyone filling out this form can be considered a potential stakeholder. To better understand the user base, we have categorized them into two groups: those with prior IT experience and non-technical individuals. This division allows us to assess the ease of onboarding for non-technical users and determine the level of simplicity we need to achieve.
+
+Our primary objective is to make our website as user-friendly and intuitive as possible. By prioritizing simplicity, we aim to distinguish ourselves from other crypto-based platforms where only crypto experts can navigate without the risk of scams. By providing a straightforward and secure environment, we hope to attract a wider audience and build trust among both technical and non-technical users.
+
+Using the same [google form](https://docs.google.com/forms/d/e/1FAIpQLSdJOWrhnXcjWs5PCcOGYN_vHdAXURkuBxi7Wd6rLd5z-nBKqA/viewform) from the last week, we got some reviews about the website. Mainly, we recieved some suggestions, difficulties, and bug reports.
+
+- **Suggestions**
+
+    We have received suggestions to enhance the website by ensuring its mobile responsiveness, implementing a dark mode, and adding multi-language support.
+
+    - To address the **mobile responsiveness**, we have taken the decision to collaborate with a first-year student from the frontend course. We are optimistic that this implementation will be completed in time for the MVP.
+
+    - On the other hand, enabling a **dark mode** and **multi-language** features is considered not a priority at the moment, we acknowledge its value and will consider implementing it in the future.
+
+    Moreover, we got some minor suggestions like:
+    
+    - change "Add post" button to "Add job". (done)
+    - Add icon to the website. (done)
+
+
+- **Bugs**
+
+    We added a report bugs button to our website, this button will direct you to a form to fill the difficulty that you have encountered. As a result we fixed the following bugs:
+    
+    - when logging out and clicking return button you will be directed to empty page. (fixed)
+    - You don't get any response after submitting an apllication. (fixed)
+    - filters do not work. (they are not implemented yet)
+    - You can't upload photo. (it was not implemented, but now you can do it)
+    - You can't upload CV. (it is not ready yet)
+
+
+- **Difficulties**
+    
+    We have received feedback indicating that users without technical experience find it challenging to understand the process of crypto payments, leading to frustration.
+
+
+## **Future work**
+
+We have an extensive to-do list for our project, and we are determined to ensure that our website is fully functional by the MVP presentation. However, our development efforts will not stop there, as we have plans to continue enhancing the website and introducing additional features.
+
+Here are some of the major features we have planned:
+
+- **Simplifying the user experience for non-technical individuals**: Our goal is to make the website more accessible to people without a technical background. To achieve this, we are working on enabling the purchase of cryptocurrencies directly from our website using regular payment systems. This means that users will not even need to have prior knowledge of cryptocurrencies to utilize our platform effectively.
+
+- **Multiple language support**: As **Fair**Lance, we are committed to removing language barriers. To accomplish this, we are dedicated to translating our website into different languages.
+
+- **Embeded CV**: We have a straightforward yet impactful plan to enhance the visual appeal of our website. Instead of a plain CV on the profile page, we intend to incorporate sections for achievements, previous experience, and education, creating a more engaging and aesthetically pleasing experience for our users.
+
+- **Messaging system**: We are working to develop a robust messaging system, and we are striving to have it completed in time for the presentation. This feature will enable seamless communication between users, and making deals.

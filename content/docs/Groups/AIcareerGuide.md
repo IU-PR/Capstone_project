@@ -365,3 +365,46 @@ Anyway, I liked this service!
 Alright, I like your tempo and fact that all parts are deployed and people already can see what is your project is about. Good job. There are still some work to do, so don't miss the chance to make it a complete project.
 Overall, 5/5 for the week
 {{< /hint >}}
+
+# **Week 5**
+
+## Feedback collection
+
+To improve the user experience for our project, we have expanded feedback collection from the users. Previously, we had only been interviewing several people; now we moved on to surveying more people via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdmqDHt9qyoFA3cVwxmDlTUeurGfMd53Cgub4Iq92cTTjC_XQ/viewform).
+
+In the form, we focused on gathering opinions on job suggestions, information about technical issues and design enhancements.
+
+## Gathered Feedback
+
+We have gathered broad feedback, from bug reports to test result opinions to aesthetic suggestions. In summary, these are the important takes:
+
+- Several major issues were found:
+    - Questions 7 & 8 are duplicates;
+    - There is no visual feedback for the user when they submit their form;
+    - The service is poorly adapted for mobile browsing;
+    - Sometimes the service returns some gibberish instead of job titles.
+- Most people find the career path suggestions useful and/or insightful
+- Minor issues that we marked as important:
+    - Choice (radio) buttons should be bigger;
+    - The service loads slowly when opened first time
+    - Impossible to go back without answering the current question
+
+## Implemented changes
+
+Our team prioritized technical issues from the feedback, then we took into consideration design enhancements.
+
+The following was implemented and changed:
+
+
+- Adapted service for mobile browsing  
+  ![Mobile main page](static/main_mobile.png)
+  ![Mobile question page](static/question_mobile.png)
+  ![Mobile result page](static/results_mobile.png)
+- Added loading animation for form submition  
+  ![Loading](static/animation.png)
+- Fixed duplicate questions
+- Fixed going back without answering the current question
+- Added favicon
+
+
+The updated version of the service is coming to production soon.

@@ -347,7 +347,7 @@ The feedback collected will be analyzed to identify the most common themes or is
 Some users reported bugs and suggestions to improve the UX of the prototype such as the auto scrolling feature in the chatbot. Our developers are currently working on fixing these bugs and implementing the suggestions we got from the users.
 
 ## Refinement of Product Roadmap
-We have refined our road map based on the feedback we recieved and the problems we discovered in the testing phase. One of the main aspects we decided to change is to develop our own AI chatbot in the future instead of using a third party chatbot.
+We have refined our road map based on the feedback we recieved and the problems we discovered during developing and testing the platform. One of the main aspects we decided to change is to develop our own AI chatbot in the future instead of using a third party chatbot.
 
  We received some comments from the users about the performance of the current chatbot but we are not able to modify them as we are not the owners of the chatbot. Therefore, we decided to develop our own chatbot in the future to have more control over it and improve its performance.
 

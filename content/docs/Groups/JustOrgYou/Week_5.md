@@ -50,11 +50,33 @@ Describe what you have imagined
 - Selection mechanics like tinder - is that convenient for you?
 - If similar mechanics will be used for GTD inbox processing - how convenient is it for you? (the number of directions and their order can be changed)
 - How comfortable (after getting used to it quickly) do you find the swipe mechanics?
+
 ## Conducting a survey
 
-In order to collect and analyze the information we used Google Forms and Google Sheets.
+In order to collect and analyze the information we used Google Forms and Google
+Sheets. We decided to choose a group of people who are successfully using
+GTD-like systems and thus conducted a survey among ones who took a course on
+learning how to implement it into their lives. The choice of such a group was
+primarily based on the target auditory of our app.
+
 
 ## Feedback analysis
 
+Here are the results of survey:
+
+...
+
+And got the following insights about the majority of users:
+- Spend a lot of time processing their inbox (more than 15 minutes)
+- Use their PC as primary device for that
+- It is quite uncomfortable to process inbox using phone
+- Sometimes inbox processing is skipped to to lack of computer
+- Did not find any perfect app suitable for such systems
+- Would like to try using our app and the idea seems interesting
+- Swipes seem like a reasonable way to process inbox
 
 ## Roadmap refinement
+
+As the idea of the project popped up a long time ago and we developed it
+gradually there are no major changes in our roadmap and we are impressed that
+our potential users gave very positive feedback.

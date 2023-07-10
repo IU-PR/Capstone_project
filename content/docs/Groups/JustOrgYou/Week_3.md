@@ -181,3 +181,34 @@ factor](https://en.wikipedia.org/wiki/Bus_factor), ensuring that knowledge and
 expertise are shared among team members. Additionally, we have planned some
 minor changes to incorporate an authentication process for the mobile app. These
 enhancements will enhance the security and usability of the application.
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Theses are not features, those are what you did.
+Features in an app are specific functionalities or capabilities designed to meet user needs, such as user authentication, push notifications, social sharing, search functionality, and customization options
+
+**User Interface**<br>
+Good, you have a prototype. But I would say that the design is very minimal and doesn’t;t reflect much creativity.
+Everything is default, no styling? I would advice you to seek guidance from Figma community and search to do applications
+
+
+**Challenges and Solutions**<br>
+Very good
+
+**Next Steps**<br>
+Very good
+
+**Overall**<br>
+Good report, you should focus more on the delivery now. Since your project is stable some how.
+
+**Grade<br> 5/5**
+
+
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

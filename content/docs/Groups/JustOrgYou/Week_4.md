@@ -52,3 +52,40 @@ We conducted testing on two main components of our project:
 Taking into account the feedback we received and the results of our testing, we have decided to prioritize swipe cusomization and improving the visual UI of our app. We will work on refining the design elements, theme, and overall aesthetics to make it more user-friendly and visually pleasing. Our iterative approach allows us to incorporate feedback and continuously enhance our app, ensuring that it meets the expectations and needs of our target users. 
 
 In conclusion, Week 4 was dedicated to gathering external feedback and conducting testing on our app. We received positive feedback from our colleagues and tested both the front-end and backend components. This allowed us to identify areas for improvement and iterate on our app to enhance its usability and functionality. We remain committed to delivering a high-quality product and will continue to incorporate feedback and conduct thorough testing in the upcoming weeks.
+
+{{< hint danger >}}
+**Feedback**
+
+**External Feedback**<br>
+Good, you did feedback? Is there any proof to what you said?
+You should have showed the feedback here.
+And write what will you do regarding this feedback.
+Since in the report you didn’t show any real feedback form real users. It hard to say wether you are making changes by yourself or based on a feedback.
+
+**Testing**<br>
+Ok you you made testing, where is the proof?
+
+Please show proof of what you are saying that you were doing. Because words without evidence is just words.
+
+
+**Iteration**<br>
+So you decided to change your project, just because of one feedback!!!!!
+
+This design should be made on a more stronger basis rather than 1 feedback form other students.
+
+
+Also you didn’t mention an iteration plan:
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+**Overall**<br>
+The report is ok. your report doesn’t reflect your work. Think you should spent more time reflecting / writing the report.
+
+**Grade: 3/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}

@@ -349,13 +349,11 @@ _Feedback by Moofiy_
 
 We have conducted a survey to gather feedback from users about the prototype we have developed. 11 Persons filled the survey. The survey was mainly about the user experience of the prototype and the functionality of the chatbot. The results of the survey is shown in the following photos:
 
-<div>
-<img src ="Ayoto/q1.png">
-<img src ="Ayoto/q2.png">
-<img src ="Ayoto/q3.png">
-<img src ="Ayoto/q4.png">
-<img src ="Ayoto/q5.png">
-</div><br>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/cb0z4Nz/q1.png" alt="q1" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/02JBdpp/q2.png" alt="q2" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/JmRg6f2/q3.png" alt="q3" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/rk3Bjk0/q4.png" alt="q4" border="0"></a>
+<a href="https://ibb.co/VpnSwh4"><img src="https://i.ibb.co/M5wVBj0/q5.png" alt="q5" border="0"></a>
 
 From the feedback we collected, we found that most of the users liked the idea of the prototype and they find it useful. Also, most of the users found the chatbot easy to use and they liked the design of the chatbot. However, some users reported some problems regarding their experience with the platform. We will be considering the feedback we got to make our product better.
 
@@ -386,4 +384,4 @@ We have refined our road map based on the feedback we recieved and the problems 
  We received some comments from the users about the performance of the current chatbot but we are not able to modify them as we are not the owners of the chatbot. Therefore, we decided to develop our own chatbot in the future to have more control over it and improve its performance.
 
 Our Roadmap after Refinment is shown in the following image:
-![Roadmap](Ayoto/Roadmap.png)
+<a href="https://ibb.co/RQNtNbf"><img src="https://i.ibb.co/fr9Z9Ff/Roadmap-Cropped.png" alt="Roadmap-Cropped" border="0"></a>

@@ -314,7 +314,7 @@ Good, we still have some time to integrate the front with the backend. Make it a
     - the simplicity of the UI
     - the idea of a project 
     - the ability to use voice mesages that are translated into text on the fly. 
-- However, there were also some drawbacks that users faced. The main problems that users highilated
+- However, there were also some drawbacks that users faced. The main problems that users highlighted:
     - the number of questions, there are still not enough of them, our team is planning to add more
     - the absence of feedback (because right now, our product only gives you the percent of how correct your answer is) 
     - problem with recognizing the voice (especially with different accents)

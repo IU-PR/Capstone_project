@@ -520,3 +520,138 @@ Keep up the good work like this and you will get an A.
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+
+# **Week 05 - report**
+
+
+## Meetings with relevant stakeholder for receiving broader feedback
+
+**During this week, we conducted two types of meetings:**
+
+1. We held a meeting with people who provided us with relevant feedback from the previous week and showed them the results of our improvements. They also provided comments about the next items that we developed, which helped us receive more comprehensive feedback. (Group 1)
+2. We met with new people who might be interested in our application idea and opened up a new and big category of potential clients. Colleagues from teammate's company have a job trip to Innopolis every 3-6 months, and they often visit Kazan in one day. We conducted several online meetings with them to receive feedback about functionality and usability. (Group 2)
+
+**Group 1:** Used an automated feedback form and provided us with both written and oral feedback.
+
+**Group 2:** Filled out an automated feedback form and then participated in online meetings.
+
+In this way, we increased the number of potential customers, as well as received and strutted feedback. We analyzed user interests, feedback on usability and functionality, and asked users to rate their interest in implementing the feature after the MVP.
+
+The results of the surveys and analysis of the feedback will be summarized **in the report below**.
+
+## Feedback collection plan
+
+For automated feedback collection, we used Google Forms to break the survey into several sections:
+- Personal information collection: age, travel format, types of travel, and use of AI for daily life recommendations.
+  
+- Interface and Navigation: Users were provided with a link to a web application and asked to perform one of the possible application scenarios on their own, without prompting. We received evaluations regarding the usability of the application, intuitiveness of the functionality, and answers to open-ended questions about what the user liked or did not understand in the application.
+
+- Functionality and vision of the future: This section includes questions about the implemented functions of the application that interested the user. Additionally, it suggests options for improving functionality after the end of the MVP, such as adding personal objects, social networking elements, the ability to share collections of places, and adding comments/feedback to places or their own variant.
+
+## Survey results on usability, functionality and overall satisfaction
+
+We used the built-in capabilities of google forms to analyze the responses to these critical aspects:
+<p align="center">
+Аpplication convenience
+
+<img src="/voyagio/f1.png" width="700">
+Usability
+
+<img src="/voyagio/f2.png" width="700">
+Functionality
+
+<img src="/voyagio/f4.png" width="700">
+</p>
+
+Based on verbal feedback from online meetings, we have learned that users are **generally satisfied with the interface and find it intuitive**. This is very important for our team. Additionally, **users appreciate the features that the app provides**.
+
+As part of the surveys, we collected additional information that is important for further development of the app and additional analysis of the target audience.
+
+<p align="center">
+We conclude that most users of AI-based recommender systems in real life
+<img src="/voyagio/f6.png" width="700">
+</p>
+
+<p align="center">
+Collected feedback for improved functionality, which will be useful in the development and prioritization of further functionality
+<img src="/voyagio/f7.png" width="700">
+</p>
+
+## Feedback documentation
+
+Finally, we conduct 20 interviews with potential users and recieve 14 results for the survey. This information and answers from open questions helped us to analyze the application. We defined ares that need further enhancement:
+- User Experinece in many-steps user stories
+- Increase the dataset
+- User Interface
+
+## Feedback analyzing
+
+After analyzing the feedback we received, we found the following patterns:
+- Overall satisfaction with the app idea
+- Overall satisfaction with user experience and color scheme
+- Flaws in user interface design (Some fonts are not enough readable on the big screens and several buttons do not have a background)
+- Uncomfortable logic in searching and results view (In this time there is an opprtunity for finding place by its location, but users intersted in finding a place by its name)
+- Dissatisfaction with filtering system (We need to add more filters)
+- Lack of support for other languages
+  
+## Prioritization of feedback and feasibility of implementation:  
+
+We put comments on improving the app in a separate table, where we additionally indicated their priority and feedback from the team
+
+ |Pattern|Overall feedback|Priority|Comments from team |
+ |----------------------------------------|----------------------------------------|----------|----------------------------------|
+ |Flaws in user interface design| In some places headings are unreadable, e.g. user geolocation | High | In progress |
+ |Uncomfortable logic in results view| No pagination when viewing results | Normal | Include in ToDo list in Backlog |
+ |Dissatisfaction with filtering system | Users need more filters | Low | This remark has a place, but within the framework of a small dataset is an additional task for MVP |
+ |Uncomfortable logic in searching| I am not unterested in finding place by its location, because I need to find concrete place with unique name | Normal | Include in ToDo list in Backlog|
+
+We will definitely take all comments into account for further development of the application.
+
+## Roadmap and future plans
+
+Our team is currently unsure whether we will monetize this project. However, we have put together a simple roadmap for a few months to gain useful experience, which will eventually lead to a full-fledged commercial product.
+
+
+<p align="center">
+<img src="/voyagio/Product RoadMap.png" width="1200">
+</p>
+
+## Necessary changes and progress:
+
+We carefully reviewed the feedback that users left us this week, prioritized the implementation of comments during week 5 and 6 of the project.
+
+In addition, we fixed the necessary points that were given as feedback last week and fixed the bugs that occurred during their implementation.
+
+Also, weekly progress in steps:
+- Upload the dataset to the website
+- Add significant endpoints to backend (for ML reccomendations and personal account)
+- Improve color scheme by using default illustrations with bright background.
+- Create layout personal account and connect it with backend (Will be done to the Thurday, due to it is the end of the sprint)
+- Create layout for ML recommendations in result page
+- Create Machine learning model and defines parameters that models need from backend side
+- Improve searching results (Standartaized size of the card (fix bug))
+- Add predprocessing filters to exclude places without images
+- Add all points to the design from the previous week feedback (Unintuitive place in the design, you need to invert the display of tabs,No message about the lack of places in the selected city, add description for "trip collection" terminology, improve visibility of the buttons)
+- Fix simple bug (some typos and wrong redirection)
+
+We had an incredibly productive week, successfully completing many significant tasks. One of these tasks involved developing a cutting-edge machine learning model. Additionally, we gathered essential feedback that will contribute greatly to the success of our project. This combination of achievements made the week highly valuable and rewarding. However, there are always areas where we can strive for improvement to maximize our future productivity and outcomes.
+
+Thefore, we define final steps for the future week:
+- Connect the learning model with backend and frontend
+- Add layout to ML recommendations
+- Add all functionality to personal account
+- Fix all tasks from user's feedback
+- Find and fix all possible bugs
+- Create a final presentation
+
+Plans for the sixth week we will define during the meeting on Tuesday.
+
+
+
+
+
+
+
+

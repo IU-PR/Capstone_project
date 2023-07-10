@@ -297,6 +297,65 @@ I am pleased to see that you have sought guidance from someone with experience a
 
 {{< /expand >}}
 
+
+{{< expand "Week 4">}}
+
+## **External Feedback**
+
+### **Telegram WebApp**
+
+After we showed our Telegram WebApp to people from the side, we found a problem. Because the member from our team tested it only on PC and iPhone, he didn't know that there will be some problems with Android devices. When users opened WebApp on Android, it didn't work, it showed only a lot of runtime errors, which were not the case on tested devices. We solved this problem updating our build scripts, which for some reason contained a lot of vulnerabilities and outdated packages. After updating, the WebApp started working on Android devices as seamlessly as on other devices.
+
+### **Frontend**
+
+Some of the test users reported the problem with displaying the WebApp on PC with small screens. In some places the information wasn't displayed correctly. This was the problem with the architecture of the pages. Fortunately, the fix was easy and by the time of report, we have already made it.
+
+## **Testing**
+
+We have tested several aspects of our project - the database, the API, and the frontend.
+
+*The database had several issues, mainly, it does not contained all the information needed to display on frontend. It was fixed quickly and caused no significant problems.*
+
+By the time we decided to connect our frontend with backend, we found that there was a misunderstaning between the teams. Database didn't contain important information for the frontend application, namely food categories. But it was not that much of a problem, since we have already designed the database and it was easy to add new tables and fill them with data. After that, we have updated our backend to work with the new database. And moved further
+
+The API testing showed that it does not provide thorough validation of input data, and validation models (created with the use of `pydantic`) have conflicts with the orm models (created by `sqlalchemy`). We had to remade our validation schemas, and by doing so we found out that we are using the old version of pydantic, so we upgraded it to a newer one. While testing the frontend, we found no critical mistakes, except for popup description of the dish which could not be closed. That was quickly fixed and frontend started working properly.
+
+## **Iteration**
+
+We thoroughly tested our application in several scenarious both ourselves and with potential users. It showed that we are all human beings and the mistakes are part of our life.
+
+For the next week we will try to deliver even more functionality in our product, make an attempt to properly deploy it. We are continuing to utilize github issues and project board to track our progress and to make sure that we are on the right track. Also as a part of team collaboration, we communicate with each on life meetings and in telegram chat. This helps us to keep team focused and motivated.
+
+Last steps to be made are creating fake database, craeting analytics application and simple telegram bot, allowing to seamlessly broadcast messages to all users.
+
+{{< /expand >}}
+
+{{< expand "Week 5">}}
+
+## **Weekly tasks**
+
+### **Feedback Collection**
+
+We conducted one on one meetings with users and collected the information associated with frontend and design areas. We asked their overall satisfaction with the product, what they think of the feauture with changing colors based on your Telegram theme. Also we asked them about the possibility to choose to have meal either in restaurant or at home. They were glad to have the feature to choose where they want to eat in one app. Also, that the app is based in Telegram was convenient for them, because they don't need to visit a website or download an app.
+
+### **Product usability, functionality, and overall satisfaction**
+
+We asked users the level of convenience of using our application. They shared that it was easy to understand and use, and everything was placed exactly where they expected it to be. Users said that this level of functionality is enough for them, they didn't find anything else they would like to be in the application. We believe, it happened due to our refinement process which was made previously.
+
+### **Feedback received from stakeholders**
+
+Overall satisfaction with the product was quite high, users liked the design, the feature with changing colors based on your Telegram theme, the possibility to quickly change the menu from usual mobile dish menu to the one similiar to the cafe, where you can see much more at one screen. But also was noticed some problems with displaying the content on different devices. Because the WebApp on PC with small devices appeared to be wider and shorter tham expected, it caused some problems with the design. But after receiving this feedback, it was quickly fixed.
+
+### **Feedback prioritization and Necessary changes**
+
+Despite the goods, we still have more work to get done. More specifically, storing orders in the database, creating analytics application and simple telegram bot, allowing to seamlessly broadcast messages to all users. We will try to deliver all this functionality next week.
+
+### **Product roadmap refinement**
+
+For now we have neither time, nor resources to refine our roadmap for future. If we will see customers' interest in our product, we will continue to develop it. But for now we are satisfied with the result we have achieved.
+
+{{< /expand >}}
+
 ## **Team Members**
 
 If you have questions or anything to share with us, feel free to contact:
@@ -308,10 +367,3 @@ If you have questions or anything to share with us, feel free to contact:
 | Grigorii Fil     | [Fil126](https://t.me/Fil126)       | <g.fil@innopolis.university>        |
 | Pavel Nestiurkin | [whoevertf](https://t.me/whoevertf) | <p.nestiurkin@innopolis.university> |
 
-
-{{< hint danger >}}
-
-**Feedback by Rustam**  
-No report for the 4th week? 
-0/5 for the week
-{{< /hint >}}

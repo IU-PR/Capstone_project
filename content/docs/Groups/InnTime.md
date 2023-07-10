@@ -643,3 +643,96 @@ The report is ok. your report doesn’t reflect your work. I Think you should sp
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+# **Week #5**
+
+# Weekly Progress Report
+
+Throughout the week, our primary focus was on improving our product. To gain a deeper understanding of the necessary fixes and changes, we conducted feedback sessions and performed thorough testing. As we near the final stages of development, we are committed to investing maximum effort in collecting feedback and enhancing our product.
+
+### **Feedback Collection**
+
+The feedback collection process involved two meetings with students from Innopolis University. We provided them with a glimpse of our product during these sessions, followed by the opportunity to share their thoughts through a Google form. The feedback we received over the past week provides valuable insights that we would like to share.
+
+Next, we will show you the feedback that we managed to collect over the past week
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback0.png">
+</div>
+For the first two questions, we can notice that most students look at their schedule at least several times a week. And it takes them 1 to 5 minutes, which is quite long for just viewing the schedule.
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback1.png">
+</div>
+On the following two issues, we can notice that using a regular schedule in the form of tables located in different places is very inconvenient. And people want to see an alternative way that will really be effective and convenient.
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback2.png">
+</div>
+Further, we see that most of all people would like to be able to view the schedule in one place. The second in a row is the possibility of updating this schedule by adding new courses or electives. And also, based on our feedback, many who voted would really like to use our site.
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback3.png">
+</div>
+The ease of use of our product is high, which we consider to be a fairly strong plus of our product. And also, judging by the feedback, we see that the main features of our site can be called viewing the schedule in one place, as well as the convenience of adding new courses and electives. Another feature is the export of the entire compiled schedule in Google format
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback4.png">
+</div>
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback5.png">
+</div>
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback6.png">
+</div>
+In terms of what is missing on our website or gods, we can highlight the following main things: we need to redo the design in some places, finish the design so that a mobile version of our product appears. And also a few of those who voted would like to see authentication through the Innopolis account.
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback7.png">
+</div>
+In general, those who voted are satisfied with our product.
+
+Also at the end we inserted a question related to NPS.
+Scores of 1-6: Detractors - Users who are unhappy and may actively discourage others from using the project.
+Scores of 7-8: Passives - Users who are somewhat satisfied but could be easily swayed by competition.
+Scores of 9-10: Promoters - Users who are highly satisfied and likely to recommend the project to others.
+
+**Net Promoter Score** for out project is **45%**. And to give you some context, the average score across all companies is **43%**.
+
+In conclusion, the feedback collected during the week provided valuable insights and highlighted the areas where our product excels as well as the aspects that require further attention. We are committed to addressing the concerns raised, including optimizing the schedule viewing process, redesigning certain elements, developing a mobile version, and exploring authentication options. The positive NPS score indicates that our project has made a favorable impression on users and holds potential for further success. We will try to take into account most of the feedback comments and fix all the problems.
+
+
+### **Testing Continue...**
+
+This week we continued testing our product. We used unit tests for the backend and frontend, as well as manual testing of some components.
+
+**Tests for Fronted part before improving**
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/test_front.jpg">
+</div>
+We use unit tests. For example, in the output image of the tests, you can notice that the 13th and 15th tests were not executed, which is responsible for displaying messages that the schedule cards were not found or something was not loaded from the backend. After testing, we corrected these points.
+
+**Tests for Fronted part after improving**
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/test_front_after.jpg">
+</div>
+
+
+
+**Tests for Backend part**
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/test_back.png">
+</div>
+
+test_users.py is testing the correct development of the authorization system, including registration and user login. As well as updating the user's group and changing his password.
+
+The remaining tests test the correct use of getters and getting information from the database.
+
+
+### **Problems of this week**
+
+This week we ran into a problem on the frontend side. We decided to add state manager MobX for ease of use in code, and specifically for creating contexts: user (for registration and login), card (for selecting a group or an item, filtering it, adding it to favorites), event (for displaying events on the calendar). But the lack of experience with this technology affected the system failure. After some time we solved this problem with the help of a tutor.
+
+___
+At the end of this week, we can say that we held useful feedback sessions and received useful comments that relate to our project. We will take into account all the comments and try to implement them (we have already corrected some of the comments)
+Also, thanks to another test, we identified some problems related to the frontline, which we promptly eliminated. We are ready for the last week of the project, we will be happy to present it. This week we need to completely double-check everything and make sure that everything works as we intended.

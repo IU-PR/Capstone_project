@@ -46,3 +46,43 @@ Key features include:
 3. Free trial
 
 However, it is important to note that abovementioned features will be implemented after the release of the MVP for future iterations. 
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Very Good, but maybe better to follow some kind of User statisifaction metrics like NPS to better utilise this feedback.
+
+Now how will you adapt to this feedback?
+
+
+**Testing**<br>
+Ok you you made testing, where is the proof?
+
+Please show proof of what you are saying that you were doing.
+For example how much code coverage you cover?
+
+
+**Iteration**<br>
+
+Good plan but keep in mind:
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+**Overall**<br>
+The report is Good.
+
+**Grade: 4.5/5**
+
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

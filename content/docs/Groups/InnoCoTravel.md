@@ -607,6 +607,8 @@ We chose to use Google Docs for collecting feedback because of the following rea
 Our survey includes only 6 question, because:
 - we didnt want to overwhelm the reviewers
 - we wanted to collect feedback only on major points of our project, as we don't have time to implement every wish of the target audience within 7 weaks
+
+
 The questions are:
 - Is browser version is essential for you. This question will help us to decide whever we should include in in mvp or postpone for future development.
 - UX
@@ -644,8 +646,8 @@ Some users pointed out that there are some nice quality-of-life features that co
 
 ### **Feedback prioritization**
 After hearing the feedback, this is how we prioritize it:
-1. **Lack of essential features for trip management** is our priority number 1, and we intended to add these features in the a couple of days as they are mostly ready
-2. **Lack of feedback** would be our number 2 priority, and we would are looking for to adding alerts and pop-ups in different scenarios
+1. **Lack of essential features for trip management** is our priority number 1, and we intend to add these features in the a couple of days as they are mostly ready
+2. **Lack of feedback** would be our number 2 priority, and we are looking for to adding alerts and pop-ups in different scenarios
 3. **Inconvinient trip filtering** would be our number 3 priority, as we are not yet sure of how to improve the experience in that case
 4. **Need for more quality-of-life features** is the least important feedback for us, as the implementation of the features suggested seems unfeasiable in two weeks left before the final presentation. However, we will consider these features for after the 'Capstone'.
 

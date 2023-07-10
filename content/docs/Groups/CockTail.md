@@ -472,3 +472,7 @@ https://cocktail.chickenkiller.com/
 2. Improve the ingredient’s amount for MixUp algorithm
 3. Add MixUp algorithm to generate recipes for ingredient list
 4. Probably, add calorie counter
+
+## **Comments from interviews**:
+
+- “Overall, the application is interesting, but it is more suitable for average users in everyday life. For bartenders it will be difficult, since it will be hard to calculate the price of such cocktails . Also it will be pleasant to add calorie counter, since many people keep track of the amount of calories they consume.”

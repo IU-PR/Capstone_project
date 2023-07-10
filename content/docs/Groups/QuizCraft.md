@@ -369,6 +369,7 @@ You can watch [_this video_](https://drive.google.com/file/d/1QXhRSQkmL6ZYWtGDiK
 - The frontend part turned up to be time-consuming work, so we won't manage to have all the desired pages that are a bit beyond the MVP. That's why we limited the project to generating, authorization, viewing all quizzes, passing, and searching. That is how we narrow the scope of our project and ensure feasibility. This week we implemented a login and view of all quizzes. It was not clear initially how to manage the sequrity of pages. We solved it by storing the token in a local storage and then verifying each time a user enter any page.
 - From the backend perspective, we reformated most parts of the code to improve maintainability and reduce technical debt, as we planned. Besides, we added displaying of all user's generated quizzes and made quiz creation asynchronous. The only difficulty we had met was related to the last feature. To be more specific, we had a problem with running Celery and RabbitMQ (message broker) on Windows (our local development environment) in pair. Therefore, we switched OS to Linux-based Ubuntu to test it more comfortably.
 
+## **Feedback**
 {{< hint danger >}}
 **Feedback**  
 
@@ -405,3 +406,70 @@ Tokyo ghoul song is a very cool song. But I would not advise you to add it in yo
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+# Week 5
+Last week we had much less functionality than we have at the end of week 5. That's why last time we could not get much feedback on the website. During this week we asked our fellow first year bachelor students (our subset of target audience) as well as several 2nd and some of 4th year students to fill a [feedback form](https://forms.gle/eed9mDWxZ34tdboG9). This form is our primarly systematic and organized way to measure the general success of the different field of our project: usability, functionality, user interface, performance, satisfaction.  
+
+## **Feedback**
+### **Meetings**
+We asked the same questions to students of our university (our collegues) while they were testing the website during the meeting. Overall, we asked about 10 people, and here are the main outcomes:
+1) Did you find the generated quizzes helpful in assessing your knowledge?
+    - The majority said that it is helpful. However, they wanted also to consider other existing solutions and try the same with chatgpt.
+    - Some questions they found ambiguous or confusing. 
+    - Since we have all questions having multiple right answers they didn't figure it out at the start.
+
+2) How satisfied are you with the overall experience of Quiz Craft?
+    - They found the platform easy to navigate and the quiz generation process straightforward.
+    - 3 students mentioned some minor issues related to page loading speed, especially when logging, and occasional glitches when switching.   
+    - Even though the functionality is not exhaustive, some of them like minimalism.
+
+3) Would you recommend Quiz Craft to others? Why or why not?
+    - Students liked the idea of having a centralized hub of generated quizzes so that they could pass differnet quizzes with friends.
+    - One student mentioned that they would recommend Quiz Craft with some reservations, as they felt that the quality of the generated quizzes could be further improved.
+
+4) Is there any additional functionality or feature you would like to see in Quiz Craft?
+    - The most common request from the students was the inclusion of a feature that provides explanations or feedback for each question after completing a quiz.
+    - Also, the system of multiple-choice questions should be split into single choice and multiple-choice.
+    - Some students suggested adding a timer to simulate exam conditions.
+
+### **Survey**
+We focused on the following areas:
+1) Ease of use:
+    - ![Usability](/QuizCraft/ease.jpg)
+2) Features and functionality:
+    - ![Functionality](/QuizCraft/functionality.jpg)
+3) User interface:
+    - ![UI](/QuizCraft/ui.jpg)
+4) Performance:
+    - ![Performance](/QuizCraft/performance.jpg)
+5) Overall satisfaction:
+    - ![Satistfaction](/QuizCraft/overall.jpg)
+
+According to the responses of a form:
+- People don't like to pay for a product. This fact is not significant so far, but it may happen to be in the future. So, we should think of ways to either put advertisements or more _premium_ feature
+- Even though the design is not our primary objective. It hurts more than other areas. The average rate for the design is the lowest one.
+- The time of quiz creation plays an important role. This grade might be lower if we do not suggest checking other quizes when yours is generating.
+
+### **Summary**
+Speaking about a **common reaction**, it was as follows: _it's good, but not so much functionality and explanations_. In general, people expect more from the website than we have with our MVP. 
+- We decided to develop at least one page where we introduce ourselves and state the steps to use our product. We will do it next week. That was the most feasible and, at the same time, impactful feature to implement within the remaining time.
+- In addition, we will add a bit more error messages to enhance the user experience when they interact unpredictably.
+- We should notify a user when he/she starts to create one more quiz while they have one currently generating.
+
+![global](/QuizCraft/global.jpg)
+
+## **Progress report**:
+- Towards project goals:    
+    - Searching for quizzes by a query. We had to find a way and a machine learning model to compare the query with each quiz and find the best suitable ones. We accomplished it with FAISS library and OpeanAiEmbeddings to convert quiz text. 
+    - Explore page. We added some content that users might find interesting. There they can see the top viewed quizzes, most passed, recently created by others or last viewed by the user. This task was not so complicated since we prepared for it in advance: database tables to track activity were set up, and frontend functionality to display a list of quizzes fetched from the backend API was developed earlier.
+- Based only on the feedback:
+    - Frontend: refine the design of the quiz creation form. Make the field (especially for title and description) smaller and more compact to observe and fill.
+    - ML: chatgpt generates description for the quizes. This allows users to quickly understand what a quiz is about before viewing it.  
+
+
+
+
+
+
+
+

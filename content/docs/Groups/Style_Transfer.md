@@ -251,3 +251,23 @@ Please, consider providing a more comprehensive report that allows us to estimat
 3/5 for both weeks
 
 {{< /hint >}}
+
+# Week 5
+## **Feedback**
+We showed our project to the instructor of **Applied Machine Learning**. We showed him some images that our model generated. He said that everything is fine, but try to make process of generating faster, maybe real-time. 
+
+## **Testing and Validation**
+For getting better images we tried some set of parameters to see which one is better.
+We changed (tried):
+- `content_weight` in `[5, 10]`, now it's `5`
+- `style_weight` in `[1e2, 1e4]`, now it's `2e2`
+- added `tv_loss` accordingly `tv_weight` in `[1e-5. 1e2]`, now it's `1e-5`
+
+## **Progress Report**
+In this week we made huge progress in our model, now it generates visual pleasing images. We reached this performance by changing our architecture. We also changed preprocessing step. Now our model generates good images in approximately 40 seconds, before it was one minute.
+
+## **Demo of the model**
+<img src="/StyleTransfer/week5_example1.png">
+<img src="/StyleTransfer/week5_example2.png">
+<img src="/StyleTransfer/week5_example3.png">
+<img src="/StyleTransfer/week5_example4.png">

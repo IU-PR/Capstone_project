@@ -59,12 +59,13 @@ GTD-like systems and thus conducted a survey among ones who took a course on
 learning how to implement it into their lives. The choice of such a group was
 primarily based on the target auditory of our app.
 
-
 ## Feedback analysis
 
-Here are the results of survey:
+Here are some of the results on questions we've asked:
 
-...
+![](/JustOrgYou/week5/d1.png)
+![](/JustOrgYou/week5/d2.png)
+![](/JustOrgYou/week5/d3.png)
 
 And got the following insights about the majority of users:
 - Spend a lot of time processing their inbox (more than 15 minutes)

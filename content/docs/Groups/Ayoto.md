@@ -307,3 +307,49 @@ From the testing phase, we discovered some bugs that we need to fix in our websi
 Additionally, we received some feedback from users and we will be considering it while developing the prototype. For example, we will be considering the feedback we got about the privacy of the data. We also added in our tasks list to implement the suggestion we got about showing the user a list of doctors and hospitals which are covered by his insurance.
 
 On top of that, our team is also working on implementing the rest of the features in the prototype.
+
+
+# Week 5 Report
+
+## Collected Feedback Results
+
+We have conducted a survey to gather feedback from users about the prototype we have developed. 11 Persons filled the survey. The survey was mainly about the user experience of the prototype and the functionality of the chatbot. The results of the survey is shown in the following photos:
+
+<div>
+<img src ="Ayoto/q1.png">
+<img src ="Ayoto/q2.png">
+<img src ="Ayoto/q3.png">
+<img src ="Ayoto/q4.png">
+<img src ="Ayoto/q5.png">
+</div><br>
+
+From the feedback we collected, we found that most of the users liked the idea of the prototype and they find it useful. Also, most of the users found the chatbot easy to use and they liked the design of the chatbot. However, some users reported some problems regarding their experience with the platform. We will be considering the feedback we got to make our product better.
+
+## Feedback Collection Plan
+To ensure systematic and standardized feedback collection, we will be following the follwoing methods:
+
+### 1. Algorithmic Feedback Collection
+Online forms and charts will be created to quantitatively assess the product or its specific features. This approach will allow for the collection of standardized feedback from a larger user base. The online forms will be designed to capture relevant metrics such as usability, functionality, and overall satisfaction.
+
+### 2. One-on-One Feedback Sessions:
+One-on-One Feedback Sessions:
+In addition to the algorithmic approach, individual user surveys and feedback sessions will be conducted. These sessions will provide an opportunity for users to provide detailed feedback, share their experiences, and suggest improvements. The sessions will be structured using specific questions or areas of focus to gather feedback on.
+
+By following this feedback collection plan, we aim to gather comprehensive and valuable insights, ensuring a well-rounded understanding of the product's strengths, weaknesses, and areas for improvement.
+
+## Feedback Documentation
+All feedback received from stakeholders will be carefully documented to ensure clear identification of specific areas for improvement or enhancement. Each feedback item will be attributed to the respective stakeholder and categorized based on the identified themes or issues. This documentation will serve as a reference for further analysis and prioritization.
+
+## Feedback Analysis and Prioritization
+The feedback collected will be analyzed to identify the most common themes or issues. These themes will be prioritized based on the frequency of occurrence and the severity of the issue. The prioritized themes will be used to guide the development of the product roadmap and the prioritization of future features.
+
+## Implementation of changes
+Some users reported bugs and suggestions to improve the UX of the prototype such as the auto scrolling feature in the chatbot. Our developers are currently working on fixing these bugs and implementing the suggestions we got from the users.
+
+## Refinement of Product Roadmap
+We have refined our road map based on the feedback we recieved and the problems we discovered in the testing phase. One of the main aspects we decided to change is to develop our own AI chatbot in the future instead of using a third party chatbot.
+
+ We received some comments from the users about the performance of the current chatbot but we are not able to modify them as we are not the owners of the chatbot. Therefore, we decided to develop our own chatbot in the future to have more control over it and improve its performance.
+
+Our Roadmap after Refinment is shown in the following image:
+![Roadmap](Ayoto/Roadmap.png)

@@ -267,6 +267,18 @@ But because some of us working - we can illustrate our history in industry:
 - For each feature we have to clip the person who will be response in any next iteration to debug or improve
 
 
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Not sure about the comment about time - we are already 4 weeks in - not much time left for the prototype.
+I've visited your repo and website - same as it was 3 weeks ago (just a navbar and few icons). Backend repo - 12 commits and once a week activity. 
+I am a little concerned with the speed of your dev process - are you using different repo? 
+If yes, please provide up to date information and screens of the current state 
+Liked the interviews - good work.
+Not much progress in developing the prototype
+3/5 for the week
+{{< /hint >}}
+
 # **Week #5**
 
 This week, our team focused on entering the second iteration of feedback collection for our online platform for farmers and customers. 

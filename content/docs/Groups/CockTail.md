@@ -440,3 +440,35 @@ Filter system:
 Server:
 
 1. Add HTTPS
+
+# **Week 5**
+
+## **Application**
+
+https://cocktail.chickenkiller.com/
+
+## **Feedback collection**
+
+ On this week in addition to ordinary feedback collection we had a meeting with bartenders. We ask them about cocktail recipes and if the app features works correctly. During that meeting among other things we came to the conclusion that our web application will be more convenient for non-professional users, and bartenders are unlikely to use it in professional activity. 
+
+ Summarize bartenders’ and ordinary users’ feedback we have the next information:
+
+**Positive**:
+
+- Majority of users like new feature with redirecting from ingredient name to relevant google page
+- Scales at PickUp page become more understandable
+- Cocktail page looks clear and representative
+
+**Negative**:
+
+- Interface needs tweaking: fit pictures size, text location
+- For PickUp page cocktails needs actual images
+- Some users wants resizable list of possible ingredients at MixUp page
+- If Top10 list looped it would be more comfortable
+
+## **Necessary changes**
+
+1. Add images to cocktails for PickUp
+2. Improve the ingredient’s amount for MixUp algorithm
+3. Add MixUp algorithm to generate recipes for ingredient list
+4. Probably, add calorie counter

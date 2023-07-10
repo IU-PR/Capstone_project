@@ -694,3 +694,107 @@ Report is very Good!. Now focus more on development side and finished the produc
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+## Week 5
+
+### Continued collection of feedback
+
+This week we continued to work on the project, gathering more feedback and comments about our prototype, and building a plan to improve our project in parallel with the tasks from the sprint.
+
+10 people were added to the existing 16 respondents, as a result of which the statistics changed slightly. The overall result is the following:
+
+84.6% of respondents check their social networks for content consumption several times a day, 73.1% of them spend 1 hour or more, almost half experience information overload after and do not organize the content they consume. None of the respondents expressed disinterest in our project, on the contrary, 50% of the respondents expressed active interest. Most people would like to have an independent platform with our concept and have expressed their desire to try our product. The respondents gave their recommendations, which we took into account and described the most frequent ones below.
+
+This further convinced us of the relevance of our project. We see how many people are interested in the proposed algorithms and our idea, and our motivation is also strengthened by the diversity of the respondents - different fields of activity, gender, age and experience.
+
+Below are updated diagrams, we will insert old comments together with the new ones from open questions.
+
+![Снимок экрана 2023-07-10 в 15.14.47.png](/Jurnalik/week5_1.png)
+
+![Снимок экрана 2023-07-10 в 15.15.50.png](/Jurnalik/week5_2.png)
+
+![Снимок экрана 2023-07-10 в 15.16.39.png](/Jurnalik/week5_3.png)
+
+![Снимок экрана 2023-07-10 в 15.17.47.png](/Jurnalik/week5_4.png)
+
+![Снимок экрана 2023-07-10 в 15.18.42.png](/Jurnalik/week5_5.png)
+
+![Снимок экрана 2023-07-10 в 15.20.01.png](/Jurnalik/week5_6.png)
+
+![* big amount of social media and fast search of news](/Jurnalik/week5_6.png)
+
+* big amount of social media and fast search of news
+
+![Снимок экрана 2023-07-10 в 15.24.37.png](/Jurnalik/week5_7.png)
+
+![* make the app tracking my traffic, notify me about limit is over and sending me working or sporting for instance * it would be great to have a limited content in such app](/Jurnalik/week5_8.png)
+
+* make the app tracking my traffic, notify me about limit is over and sending me working or sporting for instance 
+* it would be great to have a limited content in such app
+
+![Снимок экрана 2023-07-10 в 15.28.25.png](/Jurnalik/week5_10.png)
+
+![Снимок экрана 2023-07-10 в 15.29.30.png](/Jurnalik/week5_11.png)
+
+![Снимок экрана 2023-07-10 в 15.30.27.png](/Jurnalik/week5_12.png)
+
+![Снимок экрана 2023-07-10 в 15.34.57.png](/Jurnalik/week5_13.png)
+
+![* transparency of the menu bar - maybe it should not be transparent?](/Jurnalik/week5_14.png)
+
+* transparency of the menu bar - maybe it should not be transparent?
+
+![Снимок экрана 2023-07-10 в 15.37.44.png](/Jurnalik/week5_15.png)
+
+![Снимок экрана 2023-07-10 в 15.40.26.png](/Jurnalik/week5_16.png)
+
+![Снимок экрана 2023-07-10 в 15.27.36.png](/Jurnalik/week5_9.png)
+
+![%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-07-02%20%D0%B2%2016.13.20.png](/Jurnalik/week5_17.png)
+
+![%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-07-02%20%D0%B2%2016.13.20.png](/Jurnalik/week5_18.png)
+
+
+The collected feedback also made us think about making some changes. We have come to the following conclusions:
+
+#### Transparency of the top panel
+
+Despite several suggestions to remove the transparency of the menu bar on the feed page, we consulted after the UI/UX designer's comments and decided that the advantage of our choice was the lack of complete content overlap when scrolling, convenience and constant access to the panel (fixed on the screen and moving when scrolling ) and a slight contrast that creates volume and a more pleasing interface. Due to these arguments, we left the original version.
+
+#### Amount of info on front page
+
+We will listen to this recommendation, there have been several similar reviews, it is likely that such a grid is too overloaded for the phone screen, and it will be difficult for some users to perceive the information. We will keep the concept of block news on the page, but increase their size, as user experience is more important than a fancy interface.
+
+#### Guide page
+
+We have received a request to create a guide page, probably in the future with the introduction of more functionality, pages, tags and social networks, we will create something similar to a guide for orientation in our application, however now we do not have many pages and wide functionality, so everything is intuitive for the user. We would like to continue making the interface intuitive so that the user does not even have questions when using.
+
+#### More tags/social networks/functionality
+
+Of course, we would like to immediately provide an extensive service, but we are still at the development stage and the final product for the course will be an MVP. In the future, it is planned to upgrade everything requested by those who have passed the survey, but for now we are focusing on developing a high-quality MVP with a small, but well-thought-out and working functionality.
+
+#### News feed update period
+
+The proposal to extend the period of keeping news in the feed seems interesting to us. Most likely, we will provide the user with the opportunity to choose the period for updating the feed from the proposed period options. In the MVP phase, we will introduce a resource with a daily update.
+
+### Progress Report
+
+Almost all the tasks from the sprint for this week have been completed, here are the changes
+
+#### What’s done:
+
+- Make up CD
+- Set up PostgreSQL
+- Make up instructions for working with CI/CD
+- Add video to a carousel
+- Set up infrastructure
+    
+    ![Снимок экрана 2023-07-10 в 16.14.50.png](/Jurnalik/week5_19.png)
+    
+
+#### What’s planned:
+
+- Rewrite cateorization for specific user
+- Add photo categorization to the ML module
+- Make up the REST API for Frontend-Backend communication
+- Expand the dataset to 500 elements

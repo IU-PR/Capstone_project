@@ -434,16 +434,18 @@ We asked the same questions to students of our university (our collegues) while 
 
 ### **Survey**
 We focused on the following areas:
-1) Ease of use:
-    - ![Usability](/QuizCraft/ease.jpg)
-2) Features and functionality:
-    - ![Functionality](/QuizCraft/functionality.jpg)
-3) User interface:
-    - ![UI](/QuizCraft/ui.jpg)
-4) Performance:
-    - ![Performance](/QuizCraft/performance.jpg)
-5) Overall satisfaction:
-    - ![Satistfaction](/QuizCraft/overall.jpg)
+
+1) ![Usability](/QuizCraft/ease.jpg)
+
+2) ![Functionality](/QuizCraft/functionality.jpg)
+
+3) ![UI](/QuizCraft/ui.jpg)
+
+4) ![Performance](/QuizCraft/performance.jpg)
+
+5) ![Satistfaction](/QuizCraft/overall.jpg)
+
+![global](/QuizCraft/global.jpg)
 
 According to the responses of a form:
 - People don't like to pay for a product. This fact is not significant so far, but it may happen to be in the future. So, we should think of ways to either put advertisements or more _premium_ feature
@@ -456,7 +458,7 @@ Speaking about a **common reaction**, it was as follows: _it's good, but not so 
 - In addition, we will add a bit more error messages to enhance the user experience when they interact unpredictably.
 - We should notify a user when he/she starts to create one more quiz while they have one currently generating.
 
-![global](/QuizCraft/global.jpg)
+
 
 ## **Progress report**:
 - Towards project goals:    

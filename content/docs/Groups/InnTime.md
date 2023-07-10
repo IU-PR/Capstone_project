@@ -685,7 +685,7 @@ The ease of use of our product is high, which we consider to be a fairly strong 
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
     <img src="/InnTime/feedback6.png">
 </div>
-In terms of what is missing on our website or gods, we can highlight the following main things: we need to redo the design in some places, finish the design so that a mobile version of our product appears. And also a few of those who voted would like to see authentication through the Innopolis account.
+In terms of what is missing on our website, we can highlight the following main things: we need to redo the design in some places, finish the design so that a mobile version of our product appears. And also a few of those who voted would like to see authentication through the Innopolis account.
 
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
     <img src="/InnTime/feedback7.png">

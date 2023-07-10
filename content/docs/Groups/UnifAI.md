@@ -348,10 +348,7 @@ microphone input stream with Whisper model voice recognition (speech-to-text), t
 backend server with user authentication, login page, and TTS (Text-to-speech) via gTTS, 
 STS (speech-to-speech) based on [coqui's](https://github.com/coqui-ai/TTS) vctk/freevc24 model. In addition, we conducted research to find new way to synthesise speech.
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-This is exactly what I requested last time. Thank you - model and it's details. 
-{{< /hint >}}
+
 ## Finalized application flow
 
 We finalized the complete flow of our application, which is stated and developed as follows: 
@@ -365,10 +362,6 @@ We finalized the complete flow of our application, which is stated and developed
 
 We named this full pipeline 'STT-TTTT-TTS-STS'. Please be sure to remember it, as we will refer to it only that way.
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-STT-TTTT-TTS-STS! I'll rehears that :) But, seriously, I am really excited about this app flow - if it will be implemented without excessive delays - I might consider giving up on learning new languages.  
-{{< /hint >}}
 
 ## SpeechToText (STT)
 We implemented the usage of the Faster Whisper STT model in a class with configurable model parameters 
@@ -394,21 +387,11 @@ In addition, real-time factor depends on system, hardware, language, and batch s
 information, please refer to [OpenAI research paper](https://cdn.openai.com/papers/whisper.pdf).\
 \*\* MIT Licence supports commercial use, meaning we can use these models in our project. 
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-This is good. Shows that you have done your homework and know what the model's landscape look like.   
-{{< /hint >}}
-
 Some demo of what we have done:
 
-<video controls="controls" width="100%">
-  <source src="/UnifAI/whisper-w3.mp4" type="video/mp4">
-</video> 
+{{< youtube Cye_leJ29UQ >}}
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-Cool! 
-{{< /hint >}}
+
 ## Translation model (TTTT)
 TextToTextTranslator - technology that translates text from one language to text in another language. 
 We decided to use Opus-MT models, because they are lightweight, accurate, and can translate to more than 
@@ -451,10 +434,6 @@ with different speakers and quality. This is one of the reasons why we switched 
 For the TTS part we found several potential libraries and technologies that could help us make the 
 project come true: [gTTS](https://pypi.org/project/gTTS/), [Piper](https://github.com/rhasspy/piper). We have already implemented and tested gTTS, however in the near future we would like to switch to Piper as it seems to provide better audio synthesis.
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-Recently I've stumbled on a new AI assistant - pi.ai - they have a great text to speech engine. Perhaps, you can use it as a benchmark for selecting the model.   
-{{< /hint >}}
 
 |                     | gTTS                                          | Piper                                                  |
 |---------------------|-----------------------------------------------|--------------------------------------------------------|
@@ -494,11 +473,6 @@ One of STS models we decided to use is FreeVC24:
 During this week we implemented gTTS TTS model, as well as integrated FreeVC24 within the pipeline. So now we can
 clone anyone's voice (but for now, far from ideal) and pronounce sentences with it on several languages. You can see our current results below:
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-It does't need to be ideal - make it work, and once it is actually working, we will improve from there.    
-{{< /hint >}}
-
 Text to pronounce:
 
 ```
@@ -511,70 +485,33 @@ Good morning china. Now I have ice cream, I love ice cream. But 'Fast and Furiou
 
 Original audio:
 
-<audio controls="controls">
-  <source src="/UnifAI/voice-sample-w3.ogg" type="audio/ogg">
-</audio>
+{{< audio src="/UnifAI/voice-sample-w3.mp3" capstone="Voice sample" >}}
 
 Our generated results (with current models):
 
-<audio controls="controls">
-  <source src="/UnifAI/tts-sts-ch-w3.mp3" type="audio/mp3">
-</audio>
-
-<audio controls="controls">
-  <source src="/UnifAI/tts-sts-de-w3.mp3" type="audio/mp3">
-</audio> 
-
-<audio controls="controls">
-  <source src="/UnifAI/tts-sts-ru-w3.mp3" type="audio/mp3">
-</audio> 
-
-<audio controls="controls">
-  <source src="/UnifAI/tts-sts-en-w3.mp3" type="audio/mp3">
-</audio> 
+{{< audio src="/UnifAI/tts-sts-ch-w3.mp3" >}}
+{{< audio src="/UnifAI/tts-sts-de-w3.mp3" >}}
+{{< audio src="/UnifAI/tts-sts-ru-w3.mp3" >}}
+{{< audio src="/UnifAI/tts-sts-en-w3.mp3" >}}
 
 Samples of already-existing models with direct voice-cloning (approach we abounded due to licence problems, stability issues, and limitations on real-time factors and languages support):
 
-<audio controls="controls">
-  <source src="/UnifAI/vc-ch-w3.mp3" type="audio/mp3">
-</audio>
+{{< audio src="/UnifAI/vc-ch-w3.mp3" >}}
+{{< audio src="/UnifAI/vc-de-w3.mp3" >}}
+{{< audio src="/UnifAI/vc-ru-w3.mp3" >}}
+{{< audio src="/UnifAI/vc-en-w3.mp3" >}}
 
-<audio controls="controls">
-  <source src="/UnifAI/vc-de-w3.mp3" type="audio/mp3">
-</audio> 
-
-<audio controls="controls">
-  <source src="/UnifAI/vc-ru-w3.mp3" type="audio/mp3">
-</audio> 
-
-<audio controls="controls">
-  <source src="/UnifAI/vc-en-w3.mp3" type="audio/mp3">
-</audio> 
-
-{{< hint danger >}}
-**Feedback from Rustam**  
-Ok, this is impressive   
-{{< /hint >}}
 
 ## Backend development & Data management
 For the sake of preserving the sanity of our backend developer we have made the decision to switch 
-to golang(& gin) for our backend. 
-
-{{< hint danger >}}
-**Feedback from Rustam**  
-It's fun to read your reports!   
-{{< /hint >}}
+to golang(& gin) for our backend.
 
 We have also made some decisions regarding security and data management: for authentication we 
 are going to utilize JWT(JSON Web Token) with HMAC algorithm and the principle of access & refresh 
 tokens. User passwords will be hashed with the bcrypt algorithm and stored in a postgresql table.
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-I am not an expert on security, but at a first glance seems to be a good choice.  
-{{< /hint >}}
-
 ![Server deployment](https://i.imgur.com/XHTsbsv.png)
+
 
 ## Frontend (UI/UX of application)
 During this week, we have done research on the potential ways to implement the user-facing part of our 
@@ -590,11 +527,6 @@ After coming to a conclusion on which framework to use, we quickly developed a l
 
 ![Application UI example](https://i.imgur.com/SyxmPdV.png)
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-I understand your reasoning here. Can't say that I like using python wrappers on the front, but do it for the time being.
-Keep in mind that once the project actually takes shape and will have some users - frontend with high likelihood will be updated using more appropriate choices.   
-{{< /hint >}}
 
 ## Challenges and Solutions
 
@@ -605,13 +537,6 @@ there will be a significant delay. The best solution found is to use VAD (Voice 
 that will detect speech in the microphone stream and, after a certain configurable threshold, 
 this speech will be passed to the whisper model for transcription.
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-Yes, you can have a small function that converts the sound form the microphone into intensities, once this is above threshold 
-it will be transcribed. Perhaps it makes sense to have a look on modern apps like ZOOM and others to try to find some clues about their way to do that.    
-{{< /hint >}}
-
-
 **Lack of research:**\
 We are dealing with the problem that not so much research was done in real-time voice translation 
 models. We need: real-time, multi-language, multi-speaker, voice cloning models. Preferably with 
@@ -620,11 +545,6 @@ just to find what solutions already exist and how they work. As a result of a we
 found no solutions that satisfy our requirements, which led us to our last hope - develop new 
 technology by ourselves. (P.S. we succeeded, new stt-tttt-tts-sts pipeline was developed, and you 
 can check our voice-cloning (tts-sts) results [here](UnifAI#voice-cloning-tts--sts))
-
-{{< hint danger >}}
-**Feedback from Rustam**  
-Congratulations! This is really exciting. Consider publishing/patenting your results after Capstone is over.    
-{{< /hint >}}
 
 **Quality of models that we can use on client side:**\
 Speaking about models, we firstly decided that speech-recognition and voice cloning will be both 
@@ -657,11 +577,12 @@ translator’s work.
 4. Improve handling of TTTT's unexpected behaviour. Collect statistics when problems occur. One of the metrics we will use is time spent translating a single message; if it exceeds average by some factor, a diagnostic message will be logged.
 5. Implement several more windows: voice recording screen upon first registration of the user in the application, the main window of the application where a chat log of what the other users are saying will be shown, a settings window for settings such as: choosing a voice recognition model, pipeline settings, volume, etc.; and possibly even a password recovery screen.
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-Ok. This is easily one of the top reports of the week. I am excited to see your project live. Keep up the good work!
-{{< /hint >}}
+
 # **Week #4**
+
+During this week we conducted meeting with potential clients (to demonstrate them our product and collect
+feedback), developed new pages for UI, and made our solution downloadable within one line of code!
+
 
 ## External Feedback
 To find out what our customers are looking for, we decided to collect some external feedback. 
@@ -673,6 +594,7 @@ better and more informative for us to collect feedback with different ways:
 
 With this approach we got broader understanding of quality of our models, and things that our customers 
 want from this product.
+
 
 **Speech recognition (SST):**\
 After running model on GPU, we decided to suggest Whisper-large as the main model, as we found it to 
@@ -687,6 +609,7 @@ Also, this demo showed that inputs with low language probability are highly like
 and thus might be ignored for further processing. For that, we are going to find some threshold 
 that will omit messages that do not satisfy it. In addition, we might ask what languages a person 
 might speak, so we can completely drop all messages with misinterpreted detected language.
+
 
 **Text translation (TTTT):**\
 For TTTT we decided to analyze metrics more 'strictly'. As we have small representative group, it would be
@@ -711,6 +634,7 @@ is often better than a human, so this model will be perfect for our task.
 
 For more models evaluation you can visit official [Opus website](https://opus.nlpl.eu/Opus-MT/).
 
+
 **TTS-STS:**\
 For this part, we asked our friend to record 15-30 second audio and asked them to choose any sentence to 
 generate. After that, we translated given sentence to several languages (such as German, Russian, English, Chinese)
@@ -718,11 +642,6 @@ and generated audio samples of them saying that sentence in different languages.
 our previous [gTTS solution](UnifAI#voice-cloning-tts--sts), current [Piper model](:TODO:), and facebook model
 [Fairseq](https://github.com/facebookresearch/fairseq/tree/main/examples/mms). Then we asked responders to sort
 by quality, and all 6 people selected our Piper-based solution as the best.
-
-{{< hint danger >}}
-**Feedback from Rustam**  
-Very good, glad to see real time testing on real people.   
-{{< /hint >}}
 
 We were glad to hear such positive feedback, however our representative group noticed that quality of speech
 cloning is not the best, as it could be easily distinguished between real person. We explained to them the problem
@@ -732,10 +651,6 @@ high-quality cloning, so that no user would need to download several gigabytes f
 But to make that option as a subscription, so we can support GPUs on the server. Most of the client said
 that it is a good idea, and they were ready to pay for it.
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-Exactly, it is really good that you have received this feedback. Since we are occupied with an MVP, tech demonstrator is the first step.    
-{{< /hint >}}
 
 **Frontend:**\
 To gain feedback on the responsiveness and the general user experience of our UI, we showed 
@@ -748,10 +663,6 @@ we found that while some parts of the UI were slightly confusing at first, our a
 generally felt easy to use and that the application user interface flow was natural.
 
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-Good!   
-{{< /hint >}}
 ## Testing
 
 **Server**:\
@@ -805,29 +716,12 @@ available on [hugging face](https://huggingface.co/rhasspy/piper-voices), which 
 to develop us a downloader for them. So, during this week we not only switched to better TTS, 
 but we also made all models (Piper and FreeVC24) downloadable and configurable with 1 line of code.
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-You've found yourself in a right moment and a right place!   
-{{< /hint >}}
-
 Here are some examples of new 'voices', you can compare them with previous [mentioned here](UnifAI#voice-cloning-tts--sts):
 
-<audio controls="controls">
-  <source src="/UnifAI/tts-sts-ch-w4.mp3" type="audio/mp3">
-</audio>
-
-<audio controls="controls">
-  <source src="/UnifAI/tts-sts-de-w4.mp3" type="audio/mp3">
-</audio> 
-
-<audio controls="controls">
-  <source src="/UnifAI/tts-sts-ru-w4.mp3" type="audio/mp3">
-</audio> 
-
-<audio controls="controls">
-  <source src="/UnifAI/tts-sts-en-w4.mp3" type="audio/mp3">
-</audio> 
-
+{{< audio src="/UnifAI/tts-sts-ch-w4.mp3" >}}
+{{< audio src="/UnifAI/tts-sts-de-w4.mp3" >}}
+{{< audio src="/UnifAI/tts-sts-ru-w4.mp3" >}}
+{{< audio src="/UnifAI/tts-sts-en-w4.mp3" >}}
 
 **Settings window:**
 While using our application, different users will have different needs. As such, we have 
@@ -847,11 +741,201 @@ translate the words of other users to, alongside choosing a specific TTS model.
 ![Language settings window](https://i.imgur.com/hX3p33h.png)
 
 
-{{< hint danger >}}
-**Feedback from Rustam**  
-This week report and progress is outstanding. I liked your writing style and the way reports are structured. I am glad to see a lot of improvements and sure that you will accomplish your goal - perfect and seamless cross-cultural communication.   
-This been only four weeks, and your project is rapidly taking shape. 
-Make sure to keep up the pace, push features and iterate!
+# **Week #5**
 
-5/5 for both weeks!
-{{< /hint >}}
+During this week we collected even more feedback, provided a list of upgrades to backend part, 
+analyzed server requirements, filtered TTS-STS models by license, and contacted main Piper 
+developer for help. We are on a productivity streak!
+
+## External feedback v2
+
+**STT:**\
+To collect even more feedback on speech recognition, we conducted another meeting with new representative
+group in which we let people test two Whisper models: whisper-large-v2 and whisper-base. As we 
+expected, people were completely unsatisfied with the transcriptions of the whisper-base model, 
+because even in complete silence and with clearly pronounced words, they were 
+often misinterpreted by this model. Opposed to the base model, the large model showed incredible 
+results even with noises around, and only suffered sometimes when multiple people were talking 
+at the same time. 
+
+To overcome this problem, we updated language probability threshold and asked our group to speak
+for a little more. After that our group was fully satisfied and impressed with our results. We asked 
+group to provide a numeric score (from 0 to 5) for both models, and that what results we get:
+
+|             | whisper-base | whisper-large-v2 | whisper-large-v2 (fine-tuned) |
+|-------------|--------------|------------------|-------------------------------|
+| Candidate 1 | 1            | 5                | 5                             |
+| Candidate 2 | 2            | 4                | 5                             |
+| Candidate 3 | 3            | 4                | 5                             |
+| _Average_   | _~2_         | _~4.33_          | _~5_                          |
+
+
+**TTS-STS**:\
+This one was tricky to test, as there are few other solutions that correlates with us. So we decided 
+to collect feedback via Google forms of two types: with and without deep voice cloning models. We made
+this separation as we think that heavy models should be considered, however they are not the solution 
+we are going for. With this is mind, we provided audio samples of already-existing [lightweight solutions](UnifAI#voice-cloning-tts--sts),
+our first [gTTS approach](UnifAI#voice-cloning-tts--sts), [Piper-designed](UnifAI#iteration-progress) model examples, and samples of [deep-learning clones](https://www.youtube.com/watch?v=Bj8jsz4pwho). 
+
+The mean results of both group and total mean could be found in a table below:
+
+|                       | Light abounded | gTTS-based | Piper-based | Deep clone |
+|-----------------------|----------------|------------|-------------|------------|
+| Without deep-learning | 1.75           | 2.05       | 3.95        |            |
+| With deep-learning    | 1.27           | 1.4        | 2.73        | 4.65       |
+| _Average_             | _~1.54_        | _~1.77_    | _~3.42_     | _~4.65_    |
+
+**User Interface:**\
+In order to collect feedback on the application UI, we contacted potential clients 
+conducted a meeting, and showed the user interface of our application, try it out, and rate it on four 
+metrics, alongside providing comments on each part and where they felt the UI was the weakest:
+* <ins>Responsiveness</ins>\
+Responsiveness was defined as how quickly the UI responded to the user’s inputs, and in general 
+how much it felt like the actions of the user had a meaningful impact on the application. In general, 
+users of the application said that the UI felt mostly pretty responsive, with the only delays in the 
+updates of the UI being the time it takes for the application to send a request to the server and 
+receive in response, and apart from that, the application felt generally responsive and quick.
+* <ins>Design</ins>\
+The design rating of the UI was defined as how nice the application felt to look at. As the UI of 
+our application is built upon the Dear PyGui framework, which uses ImGui, it provides by default 
+a sleek, clean, dark design with blue colors, a design that the vast majority of the users found 
+pleasing to the eyes and refreshingly minimalistic, alongside invoking a sense of nostalgia for 
+those people that have worked with this GUI framework before.
+* <ins>Natural flow</ins>\
+The “natural flow” of the UI was defined as how intuitive it felt to use - how the actual flow of 
+the interface correlates with the flow that the users expect. As our application is still in 
+active development, we have not yet ironed out all the parts of the UI, meaning that the users 
+did not find it completely intuitive - in general, there was a number of problems in the flow 
+of the UI that our users found, but despite that, they found it still adequately usable.
+* <ins>Functionality</ins>\
+The functionality of the UI was defined as how much of the UI actually had meaningful functions 
+at the current stage of development. As we have mentioned previously, we are still at an active 
+stage of development of the application, and as such, we have not yet fully connected the frontend 
+of the application with the backend. Because of this, the users were somewhat disappointed that a 
+moderate chunk of the UI were still placeholders or did not hold meaningful functionality.
+
+The results of these meeting are summarized in a table below:
+
+|             | Responsiveness | Design  | Natural flow | Functionality |
+|-------------|----------------|---------|--------------|---------------|
+| Candidate 1 | 3              | 5       | 2            | 2             |
+| Candidate 2 | 5              | 4       | 1            | 2             |
+| Candidate 3 | 5              | 5       | 3            | 3             |
+| _Average_   | _~4.33_        | _~4.66_ | _~2_         | _~2.33_       |
+
+
+## Collaboration with other students
+
+Just for a small promotion we posted a message in a telegram chat about our project, and asked people to
+check it out. We weren't expecting such a flow of ideas from people who were interested to help us. 
+Some people messages us directly about their suggestions and concerns. One of a feedback 
+we received is how models perform on a sentences with several-meanings. Let's take a look on a simple example:
+> "I didn't say YOU stole my money" - someone else stole them\
+> "I DIDN'T SAY you stole my money" - I said something else
+
+And this could be even applied to a word-only mistake (russian example):
+> "Рабочие устали, им нужно передохнУть" - seems right\
+> "Рабочие устали, им нужно передОхнуть" - yea... that's bad
+
+
+Also, some people asked us whether models have language bias. What they meant by that is if took 
+non-gendered sentence in one language, that will be gendered after translation, how would model perform?
+If an english-speaking user would say "Sam bought some food", and one of an end-gate users will
+receive text on russian, is sentence going to be gendered as "Sam купил" (masculine) or "Sam купила" (feminine)?
+
+We need a lot of time to test all this, but we are gratefull to hear such an interesting and important 
+ideas from other students on this course. In addition, we would like to thank [Karim Galliamov](https://github.com/KGallyamov),
+an amazing ML engineer from "Try this" team, for raising some of these question to our attention.
+
+
+## Technical improvements
+
+**Backend:**\
+This week was spent completing and polishing our core systems:
+* Major refactoring of the project structure to be more adaptable and reliable
+* Completed users room functionality
+* Implemented gRPC client for contact with translation server
+* Adapted the code to facilitate OpenApi 2 schema generation from code (for use with swagger and postman)
+* Integrated server tests via postman, to check correctness and stability of out system
+
+Right now we are working on updating a several core functionalities:
+* Room tests (now with swagger!)
+* Redesign database interaction code (to allow flawless concurrency and decrease stress on a database)
+
+In addition, we are planing to make sure Docker image works as expected, and finally we plan to
+combine Opus models with a server within the next week.
+
+**TTS licence issues:**\
+Last week [we mentioned](https://huggingface.co/rhasspy/piper-voices) that Piper is now available 
+on Hugging face, which demonstrated us one of the most important parts. Models licence depends on 
+a dataset they were created. And we didn't know that before, so during this week we clicked through
+all 100+ voices Piper offers now, through all 22 languages, all different qualities, to separate
+non-commercial-use and commercial-use models. Also, it seemed we were the first one to do this, as
+we found some issues with either dataset locations or licences mentioned, so we [opened an issue](https://github.com/rhasspy/piper/issues/123) on 
+official Piper's repository, and even [contacted creator](https://community.mycroft.ai/t/can-i-use-alan-piper-model-for-commercial-purposes/13744) 
+of Piper to help us during this process. 
+
+After filtering all models, we are left with 21 languages (all Swahili models were under their own 
+Lanfrica's licence that only permits "non-profit, educational, and public benefit purposes"). And we
+already modified our code so that our solution will install only permitted models.
+
+**Connected SST & TTS-STS:**\
+This week we combined two major parts of our project - all client-side models. So now we can locally run
+speech recognition and speech syntheses withing one laptop. However, we faced some problems during this
+part as libraries-dependencies seems to differ, resulting in several conflicts, but with several days of
+googling and redesigning - it all works together.
+
+**TTTT language map:**\
+We downloaded all existing models for 20 languages that were available in Piper model. Then we 
+created a map that describes possible translations between languages in Opus-MT models. Here is a 
+map of all language model connections that we wanted to use.
+
+![Opus language map v1](https://i.imgur.com/otFAP3T.png)
+
+How to read: name of a row indicates origin language, name of column says in what language we 
+want to receive output.
+
+After close analysis we found out that some of the 20 languages were not provided, for example 
+we can see that no model translates to Kazakhstan, Georgia and Nepal languages. Because there were 
+no ability to make translation to those languages, we decided to exclude them from our project, 
+and we got following map:
+
+![Opus language map](https://i.imgur.com/0DLLzUg.png)
+
+We have implemented an algorithm that can make translations between languages that previously 
+were not possible. To make this happen, the program finds language that can make connections 
+between two languages that haven’t had connection before. For example:
+* We can not translate from English to Norwegian, but we can translate from English to Spanish and 
+from Spanish to Norwegian. Using this type of logic we can make translations from almost any 
+language to any other.
+
+**Application UI:**\
+While working on the UI of our project this week, we focused on several tasks related to it:
+* Implementing changes from previously received feedback:\
+Previously received feedback let us understand the weakest parts of the user experience while 
+using our application. Because of this, a sizable amount of time was dedicated to making sure that 
+all the feedback was taken in account and the changes were implemented with said feedback in 
+mind - some general changes to improve the user experience of the interface.
+* Implementing user authentication into the interface:\
+Another important part was implementing the user authentication process into the UI. To accomplish 
+this, we added registration functionality on the frontend, that lets a user register an account 
+with the application, alongside the functionality of logging in with an existing account.
+![New UI](https://i.imgur.com/UJelNr4.png)
+* Implementing the initial audio sample recording screen, room joining/creating screen and the main “chat” window:\
+Lastly, we focused on implementing three more parts of the UI: audio sample recording screen, 
+room management and the main application window.\
+\
+The audio sample recording screen is the screen that appears the first time the user uses 
+our application - in this screen, the user records their own voice so that it can be retransmitted 
+to other users for the voice cloning process. Additionally, on this screen the user is asked to 
+select their language settings, through the previously created language settings screen.\
+\
+The room management screen is the screen where users are able to choose between creating their 
+own “chat” room, or joining an existing one.\
+\
+And finally, the main application window - in the main application window, a text log of the 
+messages in the current chat room is shown to the users. Alongside that, this is the window 
+where the users actually hear what other people in the chat room are saying, translated into 
+the user’s language and spoken using TTS and voice-cloning.
+
+

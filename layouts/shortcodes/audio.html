@@ -1,0 +1,37 @@
+{{ $caption := .Get "caption" -}}
+{{ $class := .Get "class" -}}
+{{ $preload := .Get "preload" | default "metadata" -}}
+{{ $src := .Get "src" -}}
+
+{{ $resource := false -}}
+{{ $static := false -}}
+{{ $type := false -}}
+
+{{ if and $src (fileExists (path.Join "/static" $src)) -}}
+  {{ $static = true -}}
+  {{ $src = relURL $src -}}
+{{ else if $src -}}
+  {{ $src = strings.TrimLeft "/" $src -}}
+  {{ with resources.Get $src -}}
+    {{ $resource = . -}}
+  {{ end -}}
+  {{ with .Page.Resources.Get $src -}}
+    {{ $resource = . -}}
+  {{ end -}}
+{{ end -}}
+
+{{ if $resource -}}
+  {{ $src = $resource.RelPermalink -}}
+  {{ $type = $resource.MediaType }}
+{{ end -}}
+
+{{ if not $src -}}
+{{ warnf "%s shortcode number %d in \"content/%s\" is missing the \"src\" attribute." .Name .Ordinal .Page.File.Path -}}
+{{ else if not (or $static $resource) -}}
+{{ warnf "%s shortcode number %d in \"content/%s\" has an error in the \"src\" attribute." .Name .Ordinal .Page.File.Path -}}
+{{ end -}}
+
+
+<audio controls preload="{{ $preload }}">
+<source src="{{ $src }}" {{ with $type }}type="{{ . }}"{{ end }}>
+</audio>

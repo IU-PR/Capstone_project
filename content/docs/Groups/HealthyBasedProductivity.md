@@ -382,7 +382,10 @@ We have created a [google form](https://docs.google.com/forms/d/e/1FAIpQLSfKDd3z
 6. ‘Party mode’ - user may choose a category of the task and get a new previously unknown task in schedule;
 7. Implement user input fully in natural language.
 
-
+<p align="center">
+    <img width="500" src="../../../static/HealthyBasedProductivity/feedback1.png" alt="Feedback 1">
+    <img width="500" src="../../../static/HealthyBasedProductivity/feedback2.png" alt="Feedback 2">
+</p>
 
 ## **Priority list for week 5**
 - [x] Based on our goals and short-term feedback, we set a list of tasks for this week:
@@ -394,7 +397,7 @@ We have created a [google form](https://docs.google.com/forms/d/e/1FAIpQLSfKDd3z
 - [x] Tune the sequence of questions inside add task and add event (start time-duration-date);
 - [x] Add menu buttons.
 
-In addition, after quite a long time of thought and discussion, our team designed a logo for our project and bot.
+In addition, after quite a long time of thought and discussion, our team designed a logo for our project and bot 😁
 
 ## **Roadmap**
 We plan to continue our project in the future as a part of the startup “Healthy Based Productivity”. First of all, we got some feedback that adding tasks in a format of chat-bot may not be so easy. We will gather more opinions and if this is really a case, we will move the functionality to a mobile app format. Otherwise continue to develop chat bot based on the obtained feedback.

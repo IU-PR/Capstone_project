@@ -504,3 +504,119 @@ Especially the testing part. it seems you didn't do any testing
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+# Weekly Task 5
+
+The task for week 5 of the Capstone Project.
+
+## Improvements upon the feedback provided on Week 4 Tasks:
+We will also try to improve on what you suggest every week so we will able to deliver a more better product. Here are our plans on how we will improve this week:
+
+ - **External Feedback**: We did the feedbacks personally on our computers, as we have not published the site anywhere right now. So for this time, we created a google form and send it to the same people that revied at the first place. We have included them here.
+ - **Testing**: We understand how not providing enough evidence is not enough but tests have been indeed written and using the supertests library for an efficient testing.  
+ Here are some screenshot of how testing was carried out:
+ <br><br>
+ ![Testing 1](https://drive.google.com/uc?id=1V9g04XFiWy-y_Z9MhGwr6qdjdeDWmTtK)
+ <br><br>
+ ![Testing 2](https://drive.google.com/uc?id=1uQ9tFssB_PQ1HKjmz3eaNlxiVu4hkBPy)
+
+
+### We understand the including the evidence is sometimes necessary and we have included them here. We will take care of it from now. Thus we request you to please reevaluate our grades for last report based on this evidence. Once again, thanks for the amazing feedback!!
+
+## Extra Features
+
+### Additional to general testing, we decided to take a step further and include security measures to protect our site from various attacks which includes:
+
+## 1. Denial of Services or Brute Force Attacks (Solution: Rate Limiting):
+
+The Deniel of services attack can occur when a user from an IP is sending mulitple requests from the same IP with not good intentions. This continuous pining of the server can lead to crashing. To prevent this, we have implemented rate limiting which will prevent multiple requests from the same IP stopping the chance of a breakdown.
+
+Used **Rate Limiter** library for this security concern.
+
+In our server, we have a rate limit of over 100 requests from the same IP, but here as an example, we have shown a rate limit of 3 about how it will the server will responds to multiple requests from the same source:
+
+After sending the first request,
+![DOS 1](https://drive.google.com/uc?id=1DVHTEF5jDZavYZk6H-fK2qrmBcuz6haK)
+
+ - The fields X-RateLimit-Limit and X-RateLimit-Remaining are self explainiatory in this situation.
+
+After sending all the 3 limit requests:
+
+![DOS 2](https://drive.google.com/uc?id=1t1qiyzxJSkOKU6ZPwj0fEZLTFmXmmgwi)
+
+Hence stopping the DOS attack from breaking down the server!!
+
+## 2. Secure HTTP Headers
+
+Security headers are directives used by web applications to configure security defenses in web browsers. Based on these directives, browsers can make it harder to exploit client-side vulnerabilities such as Cross-Site Scripting or Clickjacking.
+
+![Secure HTTP Headers](https://drive.google.com/uc?id=1X6hpbFGyShw_7A0HzkIQBsEotQF09HUI)
+
+## 3. NoSQL Query Injection and XSS attacks (Solution: Data Sanitization)
+
+NoSQL injection occurs when a query, most commonly delivered by an end-user, is not sanitized, allowing the attacker to include malicious input that executes an unwanted command on the database.  
+For example:
+
+Here instead of passing the email address, the user passes this particular string:
+
+![NOSQL Query Injection](https://drive.google.com/uc?id=1u04quuN2tocKMCOvO45HHOtD77-cNUaq)
+
+This particular string with a common password let that user to log in the site wihout even having an account on the website.  
+To prevent this we use mongoSanitize library for the website to prevent such strings from being added in the response body thus preventing these types of injections.
+
+
+Apart from this, we have XSS attacks. To prevent this, we use another library which XSS, which will prevent injections of HTML code with javascript code attahced to them. Using this middleware, we convert all those HTML symbols.
+
+![NoSQl and XSS code](https://drive.google.com/uc?id=1OubzsSnBLq3nk95fZ13jXE2n7821vqnF)
+
+### We have included many features which make the site experience invaluable but can't include all of them here, that's why we will show them in our final presentation and their importance for making the site function better, which was the main goal of this project.
+
+
+## Feedback Plan
+
+Currently we do not have a site published, but a setted up local environment. So for collecting feedback, we asked few friends, other students and staff members to provide a feedback for our project by showing the local dev environment.
+
+After showing the products we asked every user to fill a google form for the site where we asked the questions which were based on user experience, Ease of User, comparison between the old site and the new one. By which we can take in consideration of the improvements that we have done and we can have more.
+
+The feedback we recieved were a mix of positive and negative emotions. 
+
+https://docs.google.com/spreadsheets/d/1vQl9IosrlwDDQZ3Y_Vd3ewQJgbxQdsB3fVihHwtUm7s/edit?usp=sharing  
+
+For example:  
+
+![Feedback example](https://drive.google.com/uc?id=1WFgx1ReJBL4VB1LAucMXcmgRtvHR9Emw)
+
+
+
+## Stakeholders
+Our Stakeholders at this moment are:
+ - Innopolis University students and professors
+ - 319 staff members
+ - Team of the former InnoStore website
+
+## Feedback analysis and improvements
+
+### Changes in Features in frontend
+
+After receiving feedback from stakeholders, friends, and mentor, we made several improvements to the frontend based on their suggestions. In addition to our original plan of features, we successfully implemented the search functionality, as well as sorting and filtering options for products. Moreover, we introduced admin privileges to facilitate the addition and removal of products. Furthermore, we addressed the issue of quantity synchronization, which was highlighted in the feedback we received.
+
+**Feedback we received about the functionality of the website is that the new site doesn't have innopoints. As we have mentioned, earlier that our MVP will not have the feature of InnoPoints. We will focus on purchasing the items using real payment systems. We plan to include the Innopoints payment system in our plans after capstone project.** 
+
+### Changes in features in Backend
+
+1. No Payment system right now: It will be implemented in this week which is the final goal of our project.
+2. Add more security measures.
+
+## Next Plans
+
+1. Incorporate Payment System.
+2. Finish all the Admin Privileges.
+3. Improve UI more based on the feedback recevied.
+4. Prepare the final presentation.
+5. Final packaging of the software.
+
+
+## Plans after the Capstone
+
+We will plan on incorporating the Innopoints system after the capstone project. Tanmay and Roukaya will be working on it after the capstone project ends.

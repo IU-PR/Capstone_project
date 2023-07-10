@@ -547,7 +547,7 @@ In past week, we have made significant progress in terms of iteration and refine
 
 Throughout this week, we have made improvements to front-end, created database, tested it and server, and collected valuable feedback from our friends. These efforts have significantly contributed to our progress, and we are determined to continue iterating and refining our platform to ensure a seamless user experience.
 
-## Week 5
+## **Week 5**
 This week, we proactively scheduled meetings and interviews with users and fellow students. By engaging in direct conversations, we aim to collect valuable feedback on the current version of UniHub. This feedback will provide insights into usability, functionality and overall satisfaction of our product. We believe that gathering broader feedback will help us refine and enhance **UniHub** to better meet needs of our target users.
 
 To ensure a systematic approach to feedback collection, we prepared a comprehensive feedback collection plan. This plan includes specific questions and areas of focus to gather feedback on, covering aspects such as usability, functionality and overall satisfaction.  Online forms or surveys enable users to quantitatively assess our product and its features, providing us with valuable data to analyze and incorporate into our refinements.

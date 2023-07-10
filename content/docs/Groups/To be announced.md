@@ -1,16 +1,16 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "To be announced - Identification of organic compounds"
+title: "To be announced - Identification of compounds"
 ---
 
-# **To be announced - Identification of organic compounds**
+# **To be announced - Identification of compounds**
 
 # **Week #1 Progress report**
 
-### **Team Formation and Project Proposal**
+## **Team Formation and Project Proposal**
 
-#### **Team Members**
+### **Team Members**
 
 | Team Member        | Telegram ID | Email Address                     |
 |--------------------|-------------|-----------------------------------|
@@ -18,29 +18,29 @@ title: "To be announced - Identification of organic compounds"
 | Vitaly Mahonin     | tNabuki     | v.mahonin@innopolis.university    |
 | Timolai Andrievich | tandrievich | t.andrievich@innopolis.university |
 
-### **Value Proposition**
+## **Value Proposition**
 
-#### Identify the Problem:
+### Identify the Problem:
 For decades, chemical scientists and students have wasted their time on converting compound representations from one form to another. It is not only a problem of wasting several minutes per formula, but also the fact that the algorithms for such conversions are pretty complex and require students to study them for about half a year before they can be applied. Even experienced scientists can make errors due to human factors, so double-checking the formula is usually required. People also tend to forget things, so they need to restudy the algorithm from time to time. Additionally, sometimes even non-chemistry people need to do some chemistry, but the main obstacle for them may be not knowing how to identify the name of the molecule from a drawing, as well as not having enough time to learn how to do it.
 
-#### Solution Description:
+### Solution Description:
 To provide the most user-friendly experience possible, we need a mobile application that can instantly name a compound and provide its simple string notation (e.g. SMILES/InChl/IUPAC) by just taking a picture of its graphical representation.
 
-#### Benefits to Users:
+### Benefits to Users:
 With this solution all three groups of users will be satisfied:
 - Scientists will no longer waste their precious time doing mechanical work.
 - Students can study less boring material.
 - Non-chemistry people now have no barriers to doing basic chemistry.
 
-#### Differentiation:
+### Differentiation:
 There are already some applications that solve a part of this problem. The closest analog is the "Organic Compound Identifier" app, but it does not detect the compound from the photo/drawing. Rather, it prompts the user to input the formula in the graph form by placing predetermined blocks of atoms and then connecting them. It is also limited to organic compounds only. Our application, on the other hand, is general-purpose for any compound, faster to apply, and easier to use.
 
-#### User Impact:
+### User Impact:
 The major impact is made on students. While they still need to study the principles of compound representation conversions, now knowing only the essentials reduces the half-year course to several weeks. Scientists will be able to concentrate more on the research they are doing, spending no time identifying and searching for molecules in the database by hand. Lastly, now even inexperienced people can be involved in some parts of science.
 
 Overall, all the positive impact leads us to a faster growth of this science in both aspects: study and researching, as well as simplification of some domains of chemistry.
 
-#### Use Cases:
+### Use Cases:
 1. Scientist
 - A chemical scientist working on a research project needs to identify a compound from a graphical representation. She opens the app, takes a picture of the compound, and obtains its name and linear notation instantly, saving her time and effort.
 - Another chemical scientist is looking at a molecule structure in a conference presentation but cannot recognize it. He quickly takes a photo of it using the app and gets an accurate name and SMILES string.
@@ -80,8 +80,6 @@ Overall, all the positive impact leads us to a faster growth of this science in 
 We are **NOT** looking for new teammates.
 
 ## **Defining the Vision for Your Project**
-
-A clear and compelling vision is crucial for successful project planning. When you have a well-defined concept and a shared vision of what you aim to achieve, executing on that vision becomes significantly easier. Therefore, after thorough discussions and settling on a promising idea, it is essential to craft a comprehensive vision with your team. This vision should be detailed, encompassing your chosen tech stack, and anticipate potential future challenges. Below, describe your project using schematic drawings and provide elaborate explanations of all significant components.
 
 ### Overview:
 - Summary:
@@ -128,4 +126,70 @@ I think this is a wonderful project that can benefit a lot of professional chemi
 
 Overall, your report effectively presents a problem-solution approach and conveys the potential impact and benefits of the proposed mobile application. It would be valuable to further elaborate on the implementation plan, including the technology stack, development roadmap, and potential challenges to be addressed. 
 
+{{< /hint >}}
+
+# **Week #2 Progress report**
+## **Tech Stack Selection**
+
+We have already chosen our tech stack on week 1 and decided to keep it.
+
+## **Architecture Design**
+
+1. **Component Breakdown**: There are two basic components: UI and AI, which interact in a request-response manner. The UI requests to analyze a taken photo, and the AI responds with the detected SMILES/InChl/IUPAC notations.
+
+2. **Data Management**: The UI module is supposed to store some user settings, which will be stored using *Hive*. We don't need any database for the AI component as it is self-sufficient.
+
+3. **User Interface (UI) Design**:
+
+There wil be two basic screens:
+
+### Shot screen
+![](https://i.ibb.co/GMQz5xL/shot.png)
+
+### Analysis result screen
+![](https://i.ibb.co/ZB2wtm7/res.png)
+
+4. **Integration and APIs**: Our application is designed to be fully autonomous, so we will not use any external APIs.
+
+5. **Scalability and Performance**: There is no scaling problem at all since each application is complete and does not require external resources, so there is nothing to scale. Also we will pay more attention to performance since we are working on mobile app without separated backend.
+
+6. **Security and Privacy**: Since the application is designed to be ready-to-use out of the box without any registration, we have no private data to store anywhere.
+
+7. **Error Handling and Resilience**: We plan to use Firebase Crashlytics to handle application crashes for further analysis and fixes.
+
+8. **Deployment and DevOps**: We plan to use CI/CD to automatically build and deploy new application versions to all distribution platforms, as well as registering new Crashlytics handlers for it on the push into the `main` branch. We will use the `dev` branch for application development.
+
+## **Week 2 questionnaire:**  
+
+1) Tech Stack Resources: We are already familiar with our tech stack so we do not use any books on it.
+
+2) Mentorship Support: We are not seeking a mentor for our project.
+
+3) Exploring Alternative Resources: We are going to use official documentation on Flutter, Python and Pytorch.
+
+4) Identifying Knowledge Gaps: We have no knowledge gaps related to our tech stack. See our team allocation below.
+
+5) Engaging with the Tech Community: We have not engaged with tech community and do not plan to do so.
+
+6) Learning Objectives: We did not set any specific learning objectives.
+
+7) Sharing Knowledge with Peers: We did not organized any knowledge-sharing sessions or discussions, since we do not have teammates unfamiliar with our tech stack.
+
+8) Compensating Lacking Expertise with AI: As mentioned above, we are already familiar with our tech stack, so we did not compensate for any lacking expertise in our tech stack.
+
+
+## **Tech Stack and Team Allocation**
+
+
+| Team Member        | Responsibilities | Tech Stack |
+|--------------------|------------------|------------|
+| Evgenij Ivankin    | AI               | Pytorch    |
+| Vitaly Mahonin     | Mobile App       | Flutter    |
+| Timolai Andrievich | AI               | Pytorch    |
+
+{{< hint danger >}}
+**Feedback**
+Overall, the progress report is very short and do not describe your group progress very well. It is good that you feel confident in your tech stack, but it will also be wonderful to see a more detailed description of the work done. If you think this is an easy project and that you and your team knows exactly how it needs to be build, consider adding some features that you haven't implemented before. You may take an opportunity to learn new things and have fun while you building this app.
+  
+Some specific comments - this project report say that main goal of the app is doing image processing and classification, but no details on the model, ML architecture and data is provided. To mee it seems rather strange, because the main part of this project is the model. Are you taking the open-source model or training your own? Are the pictures provided from the app that you already build or this is a mockup of the app? This report raised more questions than it provides answers, so make sure to provide more details on your next week progress report. 3/5 
 {{< /hint >}}

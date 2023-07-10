@@ -877,3 +877,122 @@ So far this is the best report I graded this week out of 11 teams
 **Grade: 5/5**
 
 _Feedback by Moofiy_ {{< /hint >}}
+
+# **Week 5**
+
+> Fifth week progress report
+
+## **Backend**
+
+This week we were focused primarily on the backend part of our project. What we
+have done:
+
+- **Outlook API adapter** that simplifies difficulty of Outlook API providing
+  only necessary set of operations for our API implementation
+- **Regression testing for Outlook API**
+- **Authentication for our API.** Currently, we have implemented two types: by
+  API Key and by Access Token:
+  - **Authentication by API Key.** Our service maintains a set of keys that
+    provide an access to room booking functionality. We will use this type of
+    authentication for connecting booking telegram bots, developing by teams
+    from Software Project. API-KEYs will be spread by administrators of our
+    service separately.
+  - **Authentication by Access Token.** This type of authentication is dedicated
+    for personal use of booking service. Our frontend will redirect unauthorized
+    users to Innopolis SSO, where they will enter their e-mail with password,
+    and will be redirected to our site. Then our backend will generate an Access
+    Token, using which the frontend will make requests to our API to interact on
+    behalf of the user.
+
+## **Frontend**
+
+As for frontend, we’ve understood that we are unlikely to have time to make a
+complete markup so that it looks as we designed before. Especially hard part of
+UI is inputs and forms, that is why we tried to find some ready, stable and
+open-source UI-components library for Vue.js framework. We’ve settled on the
+[Naive UI](https://www.naiveui.com/en-US/os-theme) — Vue 3 Component Library
+that is covered with tests and has a very similar design to what we’ve already
+created.
+
+We reorganized our project and started to utilize Naive UI and not finished yet,
+unfortunately. However, with ready components our frontend part development will
+move faster and we’re going to finish UI part until 12 July and start finalizing
+logic to work with our backend API.
+
+## **Now, We Are on the Finish Line. Deadlines Are Close.**
+
+Here is our plan to finish the MVP on the timeline:
+
+![MVP deadlines timeline](/bookinng/week-5/mvp-timeline.png)
+
+## **Feedback**
+
+To check the direction of our development we have collected feedback from
+students in known chats about our application usability. We created a google
+form where we explained the basic principles of interaction with our graphical
+interface:
+
+> The booking page for the 3rd floor of Innopolis University:- you can set a
+> title, time and room that you prefer to book- when you set time you can see
+> which rooms are free for this time on the map (they are marked with a green
+> color)- by clicking on the room, you can check all scheduled meetings for this
+> room
+>
+> ![App screenshot](/bookinng/week-5/app-screenshot.png)
+
+After this we asked to evaluate out interface numerically and to add any extra
+comment for suggested improvements. Here is the distribution that we have
+obtained:
+
+![Google Form results](/bookinng/week-5/google-form-results.png)
+
+And we got a lot of constructive feedback about possibilities of improvement:
+
+- Do the same as in outlook, we can firstly choose time and then see what is
+  free
+- add numbers of rooms for options. And maybe add sighs for dorm
+  direction/entrance to uni :)
+- Make the interface of meeting rooms dashboards also simple and convenient as
+  you do for booking. Because sometimes it's hard to see what is booked in the
+  meeting room at the existing monitor. Excellent UX, thank you for following
+  the university guidelines. Also the map you provided can be improved.
+- It already looks like a game changer. Maybe you can a bit modify visualization
+  and add silhouettes of rooms so the separation and location will be more
+  obvious
+- Why room names are not sorted (on the screenshot)?
+
+Most things that they highlighted are not part of MVP but we will consider them
+in near future.
+
+As well, we requested feedback from our stakeholders Andrey and Mike:
+
+> Mike Kuskov (translated from Russian): The design looks concise and pretty,
+> the appropriate color scheme is used and the main functional requirements are
+> taken into account)
+
+> Andrey Markov (translated from Russian): All I can say is that it looks
+> awesome
+
+## **Outcomes**
+
+Overall, we are moving in a right direction. Our main goal now is to finish the
+MVP prototype and release its alpha version for some scope of users.
+
+## **Roadmap for Further Development**
+
+We are going to move further and support this project after the Capstone Project
+course finishes. So here is our brief roadmap:
+
+1. First, we need to stabilize our project:
+   1. Improve frontend design to be mobile-friendly
+   2. Fix all bugs from existing functionality
+   3. Cover project code with tests
+   4. Make it fault tolerant
+   5. Release it for the whole university
+2. Next, when project is in use we should provide additional functionality as
+   received in feedback:
+   - Fix schedule boards
+   - Deploy Telegram bot for booking — 1st-year students are already actively
+     working on it and we only will need to couple the bot with our API
+   - Implement design and functionality we’ve created for TV-screens near the
+     meeting rooms

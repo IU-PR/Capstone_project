@@ -35,8 +35,26 @@ title: "Week #5"
 
 ## Feedback collection plan
 
+Our survey was aimed at researching the product’s usability, functionality, and overall satisfaction. 
+
+We have prepared the following outline of questions:
+- How much time do you spend processing GTD inbox per day?
+- On what device do you prefer to process the inbox?
+- How comfortable and quick is it to processing the inbox?
+- If there was an option to do a inbox processing on the go, on the bus, etc., would you take advantage of it?
+- Are there situations where the processing is skipped because there is no access to a pc or laptop?
+- What system do you use to maintain GTD?
+- Imagine the most convenient, fastest, most efficient way for you to process inbox sorting on a mobile device.
+Describe what you have imagined
+- Have you found an app created specifically for GTD?
+- Selection mechanics like tinder - is that convenient for you?
+- If similar mechanics will be used for GTD inbox processing - how convenient is it for you? (the number of directions and their order can be changed)
+- How comfortable (after getting used to it quickly) do you find the swipe mechanics?
 ## Conducting a survey
 
+In order to collect and analyze the information we used Google Forms and Google Sheets.
+
 ## Feedback analysis
+
 
 ## Roadmap refinement

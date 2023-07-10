@@ -313,3 +313,54 @@ Overall, somewhat dry reports and not very impressive progress on the project.
 4/5 for the week 3
 3/5 week 4
 {{< /hint >}}
+
+## **Week #5 Progress report**
+
+During the previous week, we actively sought feedback from 10 chemistry students to gather valuable
+insights and understand their needs better. As we delved into the feedback, we realized that we had
+somewhat underestimated the complexity of porting our AI model to the mobile platform. However, we
+approached this challenge head-on during this week, dedicating our efforts to fixing the problems
+and implementing the features that were highlighted in the previous week's feedback. Additionally,
+our primary objective was to successfully port the AI model to mobile while ensuring optimal
+performance and user experience.
+
+Considering the substantial progress we made in addressing the feedback, we didn't find it necessary
+to gather another wave of feedback this time. Nevertheless, we are proud to announce that we were
+able to implement about 50% of the crucial features proposed by feedback, indicating the successful incorporation of
+valuable improvements. This achievement, however, means that we still have an ample amount of work
+to accomplish in the upcoming week to ensure the application meets the expectations of our users.
+
+### Implementing necessary changes or enhancements
+
+This week was entirely dedicated to the meticulous implementation of a significant feature that
+significantly enhances our application—a standalone AI capability. Recognizing the potential impact
+it can have, our team members invested a considerable amount of time and effort, approximately 40
+hours each, for a total of five days. Our primary focus was on effectively porting the AI model to
+the mobile platform while taking into account the constraints and challenges inherent to mobile
+devices.
+
+To ensure a seamless integration, we engaged in extensive experimentation with various models,
+configurations, and tech stacks. One notable task we accomplished was the conversion of our AI model
+from PyTorch to TensorFlow. This transition was motivated by the fact that TensorFlow Lite (TFLite)
+offers superior support and optimization for mobile devices compared to PyTorch Lite (PTLite).
+Through meticulous testing and analysis, we verified that TFLite was better suited for our needs and
+would deliver optimal performance on mobile.
+
+During the conversion process, we encountered a roadblock when we discovered internal bugs within
+PTLite that were affecting the functionality of our model. To resolve this, we dedicated a full day
+to investigating the issue and ensuring that the problem was not due to any shortcomings on our end.
+Through thorough debugging and collaboration with the framework's developers, we were able to
+identify and address the internal bugs, ultimately ensuring the smooth functioning of our AI model
+on the mobile platform.
+
+Despite the challenges we encountered along the way, we are pleased to share that by the end of this
+week, we successfully integrated the AI model into our application, marking a significant milestone
+in our development journey. However, it is important to note that this task consumed the entirety of
+our focus and efforts throughout the week, underlining the dedication, problem-solving skills, and
+commitment of our team members.
+
+As we look forward to the upcoming week, we acknowledge that there is still plenty of work to be
+done. With the major feature of the AI model successfully implemented, we will now shift our
+attention to other necessary changes and enhancements identified in the feedback. Our goal is to
+ensure a seamless user experience, robust functionality, and the delivery of a truly valuable tool
+for chemistry students.

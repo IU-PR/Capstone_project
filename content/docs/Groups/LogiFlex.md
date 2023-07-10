@@ -458,3 +458,4 @@ Obviously, this is only a small piece of what can be done with a really working 
 ---
 
 Week 5 marked the narrowing of the work scope and the completion of tasks such as the data parser and the main algorithm for stacking goods. These parts were officially accepted by the customer, and the focus shifted towards preparing the final presentation and visualization of data. The upcoming week is expected to be busy as the team balances the desire for further enhancements and the need to conclude the project. The team looks forward to the final defense in two weeks.
+

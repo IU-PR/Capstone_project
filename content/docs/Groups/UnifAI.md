@@ -779,11 +779,11 @@ our first [gTTS approach](UnifAI#voice-cloning-tts--sts), [Piper-designed](UnifA
 
 The mean results of both group and total mean could be found in a table below:
 
-|                       | Light abounded | gTTS-based | Piper-based | Deep clone |
-|-----------------------|----------------|------------|-------------|------------|
-| Without deep-learning | 1.75           | 2.05       | 3.95        |            |
-| With deep-learning    | 1.27           | 1.4        | 2.73        | 4.65       |
-| _Average_             | _~1.54_        | _~1.77_    | _~3.42_     | _~4.65_    |
+|                       | Light abandoned | gTTS-based | Piper-based | Deep clone |
+|-----------------------|-----------------|------------|-------------|------------|
+| Without deep-learning | 1.75            | 2.05       | 3.95        |            |
+| With deep-learning    | 1.27            | 1.4        | 2.73        | 4.65       |
+| _Average_             | _~1.54_         | _~1.77_    | _~3.42_     | _~4.65_    |
 
 **User Interface:**\
 In order to collect feedback on the application UI, we contacted potential clients 
@@ -818,10 +818,10 @@ The results of these meeting are summarized in a table below:
 
 |             | Responsiveness | Design  | Natural flow | Functionality |
 |-------------|----------------|---------|--------------|---------------|
-| Candidate 1 | 3              | 5       | 2            | 2             |
-| Candidate 2 | 5              | 4       | 1            | 2             |
+| Candidate 1 | 3              | 5       | 4            | 2             |
+| Candidate 2 | 5              | 4       | 4            | 2             |
 | Candidate 3 | 5              | 5       | 3            | 3             |
-| _Average_   | _~4.33_        | _~4.66_ | _~2_         | _~2.33_       |
+| _Average_   | _~4.33_        | _~4.66_ | _~3.66_      | _~2.33_       |
 
 
 ## Collaboration with other students
@@ -896,7 +896,7 @@ How to read: name of a row indicates origin language, name of column says in wha
 want to receive output.
 
 After close analysis we found out that some of the 20 languages were not provided, for example 
-we can see that no model translates to Kazakhstan, Georgia and Nepal languages. Because there were 
+we can see that no model translates to Kazakh, Georgian and Nepalese languages. Because there were 
 no ability to make translation to those languages, we decided to exclude them from our project, 
 and we got following map:
 

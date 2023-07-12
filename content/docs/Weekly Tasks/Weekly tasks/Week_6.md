@@ -36,7 +36,7 @@ Other important points to remember:
 - The functionality of your UI is more important than the design. We will be looking at how well your UI facilitates the use of your application.
 - And lastly, you and your team likely interacted with many other people inside and outside of the University. Make sure to pay proper credits for the help and support you have received. The fact that you've received help shows your proactivity and attempts to seek out best solutions, rather than being unknowledgeable in some ways.
 
-Presentations will start at 10:00 am. Exact room will be communicated later.
+Presentations will start at 10:00am. Exact room will be communicated later.
 
 Team allocation and final presentation schedule: 
 

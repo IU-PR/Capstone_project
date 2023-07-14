@@ -388,17 +388,17 @@ Our Roadmap after Refinment is shown in the following image:
 <a href="https://ibb.co/RQNtNbf"><img src="https://i.ibb.co/fr9Z9Ff/Roadmap-Cropped.png" alt="Roadmap-Cropped" border="0"></a>
 
 {{< hint danger >}}
-**Feedback**  
+**Feedback**
 
 **Collecting and documenting feedback**<br>
- good!
+good!
 
 
 **Feedback analysis**<br>
- good!
+good!
 
 **Roadmap and enhancement**<br>
- good!
+good!
 
 
 **Grade: 5/5**

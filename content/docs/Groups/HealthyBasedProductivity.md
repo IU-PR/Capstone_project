@@ -3,7 +3,7 @@
 According to research of hh.ru and AIBY*, every second respondent felt burned out. The main reasons were emotional exhaustion and a busy schedule, lack of time for work and personal tasks. The reason could be an “idealized” planning - when a person is too optimistic in estimating the task duration, taking no breaks or overloading the schedule.
 
 <p align="center">
-    <img width="200" src="../../../static/HealthyBasedProductivity/best_logo1.png" alt="InnoPlan logo">
+    <img width="200" src="/HealthyBasedProductivity/best_logo1.png" alt="InnoPlan logo">
 </p>
 
 The solution is the InnoPlan system. It's a chatbot in Telegram that builds a realistic schedule of users' tasks. Unlike other autoschedulers, our solution is personalized because we build a plan based on a person's activity history.
@@ -16,7 +16,7 @@ Github of our project: [github.com/sofi12321/healthy-based-productivity/](https:
 
 Presentation of our project:
 
-{{< embed-pdf url="../../../static/HealthyBasedProductivity/InnoPlanBot.pdf" >}}
+{{< embed-pdf url="/HealthyBasedProductivity/InnoPlanBot.pdf" >}}
 
 {{< hint danger >}}
 

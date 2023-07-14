@@ -649,9 +649,25 @@ Thefore, we define final steps for the future week:
 Plans for the sixth week we will define during the meeting on Tuesday.
 
 
+{{< hint danger >}}
+**Feedback**  
+
+**Collecting and documenting feedback**<br>
+Very good!
 
 
+**Feedback analysis**<br>
+Very good!
 
+**Roadmap and enhancement**<br>
+Very good!
+
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
 
 
 

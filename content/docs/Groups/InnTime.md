@@ -736,3 +736,24 @@ This week we ran into a problem on the frontend side. We decided to add state ma
 ___
 At the end of this week, we can say that we held useful feedback sessions and received useful comments that relate to our project. We will take into account all the comments and try to implement them (we have already corrected some of the comments)
 Also, thanks to another test, we identified some problems related to the frontline, which we promptly eliminated. We are ready for the last week of the project, we will be happy to present it. This week we need to completely double-check everything and make sure that everything works as we intended.
+
+
+{{< hint danger >}}
+**Feedback**
+
+**Collecting and documenting feedback**<br>
+good!
+
+
+**Feedback analysis**<br>
+good!
+
+**Roadmap and enhancement**<br>
+good!
+
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

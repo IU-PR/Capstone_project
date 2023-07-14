@@ -22,7 +22,6 @@ Our platform revolutionizes the healthcare experience by providing a comprehensi
 #### Main Features List
 * A bot for prelimintary diagnosis for the user
 * Doctors Online Booking service for partner diagnostic centers
-* Dataset with additional list of doctors
 * Patient history tracking
 
 #### Additional Features
@@ -83,7 +82,7 @@ We plan to iterate and pivot based on user feedback by continuously collecting a
 Our team has a strategic plan to leverage the following resources for the development and success of our project:
 
 1- AI (Artificial Intelligence):
-    AI is a crucial resource that we will extensively utilize in our project. We will use an AI model for making a preliminary diagnosis based on the user's symptoms. 
+    AI is a crucial resource that we will extensively utilize in our project. We will use an AI model for making a preliminary diagnosis based on the user's symptoms. We will also utilize AI for understanding the topics we do not know using generative models like ChatGPT. Additionally, we will use AI to write the code effectively by using AI extensions like Github Copilot.
 
 2- Open-Source:
     Open-source resources play a significant role in our project's development and success. Our project is based on an open-source AI model that we will leverage for making a preliminary diagnosis based on the user's symptoms. Additionally, we will use open-source tools and libraries for the development of our platform.
@@ -94,11 +93,10 @@ Our team has a strategic plan to leverage the following resources for the develo
 Our project aims to revolutionize the healthcare industry by providing an intelligent and user-friendly platform that enables accurate disease diagnosis and personalized doctor recommendations. By leveraging artificial intelligence (AI) and advanced algorithms, we address the problem of inefficient diagnosis and the challenge of finding suitable doctors for specific conditions. Our platform streamlines the healthcare process, saving time and effort for users while ensuring they receive the most relevant and effective medical care.
 
 ### Tech Stack
-* Frontend: React.js, TailwindCSS, nextJs
-* Backend: Python, Java, LUA
-* Database: PostgreSQL
+* Frontend: React.js, TailwindCSS, nextJs, Redux
+* Backend: Python, FastAPI, Java, Spring Boot
+* Database: Postgresql with PostGIS extension
 * Mobile: Flutter
-* AI: NLP, Decision trees
 
 ### Anticipation Future Problems
 1- Data Privacy and Security: We anticipate the need for robust security measures to protect user data and comply with privacy regulations. Implementing encryption, secure data storage, and strict access controls will be essential.
@@ -129,19 +127,19 @@ We have agreed on the main design for our website and mobile application. The de
 ### Integration and APIs
 We will be using the following APIs:
 * Symptom Checker API
-* Auth0 API
+* Geocoding API
 
 ### Scalability & Performance
-Our platform will utilize Kubernetes (k8s) and Nginx to ensure scalability and optimal performance. Kubernetes allows for easy scaling by dynamically allocating resources based on demand, while Nginx serves as the load balancer, distributing traffic across multiple instances of the application. These technologies work together to handle increased user loads and deliver a high-performance experience.
+Our platform will utilize Kubernetes (k8s) and traefik to ensure scalability and optimal performance. Kubernetes allows for easy scaling by dynamically allocating resources based on demand, while traefik serves as the load balancer, distributing traffic across multiple instances of the application. These technologies work together to handle increased user loads and deliver a high-performance experience.
 
 ### Security and Privacy
 The platform will incorporate robust security measures to protect user data and ensure privacy. This includes implementing authentication and authorization mechanisms, encrypting sensitive data at rest and in transit, and adhering to relevant security standards and best practices.
 
 ### Error Handling and Resilience
-We will employ unit tests for comprehensive code validation and utilize Grafana and Prometheus for effective monitoring and alerting. This approach ensures robust error handling, proactive issue identification, and enhances application resilience.
+We will employ manual testing and unit testing for comprehensive code validation. This approach ensures robust error handling, proactive issue identification, and enhances application resilience.
 
 ### Deployment and DevOps
-We will implement CI/CD (Continuous Integration/Continuous Deployment) using Travis and Jenkins. These tools will automate the build, testing, and deployment process, ensuring efficient software delivery.
+We will implement CI/CD (Continuous Integration/Continuous Deployment) using Terraform and GitHub actions. These tools will automate the build, testing, and deployment process, ensuring efficient software delivery.
 
 
 ## Questionnaire
@@ -277,7 +275,7 @@ But I feel that the home page contains a lot of information. Better to make it s
 Good!
 
 **Next Steps**<br>
-Good. You should relay think of testing with users (Usability testing)
+Good. You should really think of testing with users (Usability testing)
 
 **Overall**<br>
 Good report, you should focus more on testing the product.
@@ -336,7 +334,7 @@ An iteration plan is essentially the plan for an upcoming iteration. It would ty
 **Overall**<br>
 The report ok. Please give some more time reflecting / writing the report!!!.
 
-**Grade: 2/5**
+**Grade: 3/5**
 
 
 

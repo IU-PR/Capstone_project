@@ -470,6 +470,26 @@ Speaking about a **common reaction**, it was as follows: _it's good, but not so 
 
 
 
+{{< hint danger >}}
+**Feedback**
+
+**Collecting and documenting feedback**<br>
+good!
+
+
+**Feedback analysis**<br>
+good!
+
+**Roadmap and enhancement**<br>
+Missing
+
+
+**Grade: 4.5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
 
 
 

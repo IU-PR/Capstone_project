@@ -10,6 +10,7 @@ The solution is the InnoPlan system. It's a chatbot in Telegram that builds a re
 
 This solution is not yet on the market, be the first to try it out! [Link to our chatbot @InnoPlan_bot](https://t.me/Innoplan_bot).
 
+{{< embed-pdf url="../../../static/HealthyBasedProductivity/InnoPlanBot.pdf" >}}
 
 {{< hint danger >}}
 
@@ -49,7 +50,7 @@ For this reason, people use planners to organize their work and personal time, h
 
 Our product offers the opportunity to optimize a person's schedule based on his or her activity history.
 Let's consider an example where the user systematically estimates his capabilities too optimistically and allocates less time to tasks than he or she actually spends on them. In this case, the system notes this issue and generates a more objective schedule for the day. The ability to create a schedule based on activity history is an innovation of our project.
-The project implementation will be a chatbot in Telegram. In it, users will be able to work with the list of tasks - add, modify, delete, as well as mark their execution and receive the generated day schedule.
+The project implementation will be a chatbot in Telegram. In it, users will be able to work with the list of tasks - add, delete and mark task completion, and receive the generated day schedule.
 
 {{< hint danger >}}
 
@@ -74,7 +75,7 @@ One of the most valuable resources people have is time, some of which goes into 
 
 ### User Testimonials or Use Cases
 
-We can take a student of Innopolis University as an example. Student compiles a list of various tasks (study, work, sport, hobby, daily routine) and then receives a schedule from the chatbot with the exact order of the tasks and the allocated time for each task.
+We can take a student of Innopolis University as an example. Student compiles a list of various tasks in natural language (sport, hobby, daily routine, study and work) and then receives a schedule from the chatbot with the exact order of the tasks and the allocated time for each task.
 Another example: a company distributes tasks among employees, but in order not to overload them, it takes into account the possible schedule and changes the workload and priorities.
 
 ## Lean Startup Questionnaire 
@@ -111,7 +112,7 @@ This project idea is a part of a startup idea that was invented before the capst
 
 In summary, our project aims to solve the problem of idealistic task planning by providing users with a personalized and optimized schedule based on their activity history. Current planners often fail to account for the rest and transitions between tasks, causing additional stress and lowered motivation when plans are disrupted.
 
-Our chatbot in Telegram allows users to add, modify, and delete tasks while marking their completion. The innovative feature of our product is the ability to generate a more objective schedule by analyzing the user's activity history. This personalized approach sets us apart from existing competitors.
+Our chatbot in Telegram allows users to add and delete tasks while marking their completion. The innovative feature of our product is the ability to generate a more objective schedule by analyzing the user's activity history. This personalized approach sets us apart from existing competitors.
 
 By using our solution, users can avoid the mistakes and unrealistic expectations often associated with manual planning. This saves them time and eliminates the worry of failed plans, which ultimately contributes to better well-being.
 

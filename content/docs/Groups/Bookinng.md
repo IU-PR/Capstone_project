@@ -996,3 +996,26 @@ course finishes. So here is our brief roadmap:
      working on it and we only will need to couple the bot with our API
    - Implement design and functionality we’ve created for TV-screens near the
      meeting rooms
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**Collecting and documenting feedback**<br>
+Very good!
+
+
+**Feedback analysis**<br>
+I didn't see how did you analysis these feedback and how will it reflect in your product 
+
+**Roadmap and enhancement**<br>
+Very good!
+
+
+**Grade: 4.5/5**
+
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

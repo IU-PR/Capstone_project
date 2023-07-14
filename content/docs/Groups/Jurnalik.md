@@ -798,3 +798,16 @@ Almost all the tasks from the sprint for this week have been completed, here are
 - Add photo categorization to the ML module
 - Make up the REST API for Frontend-Backend communication
 - Expand the dataset to 500 elements
+
+
+
+{{< hint danger >}}
+**Feedback**  
+
+Very good way of collecting feedback and documenting. I like howe you translated the Russian one.
+but I feel now you have a lot of feedback. how will you reflect to all of them?
+
+Grade 5/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

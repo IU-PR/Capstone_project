@@ -1,5 +1,5 @@
 # Pitch Deck
-{{< embed-pdf url="Ayoto/Final_Presentation.pdf" >}}
+{{< embed-pdf url="/Ayoto/Final_Presentation.pdf" >}}
 
 # Week 1 Report
 

@@ -25,3 +25,34 @@ Welcome to Week 5 of our Capstone Project!
 - For prioritizing our tasks, we paid attention to the scope of the product at the MVP stage. In this regard, we have tried to follow the impact/effort matrix, as shown below: 
 ![Impact Effort Matrix](/LearnQuest/impact-effort-matrix.png)
 Following this method has helped us prioritize in a short-term project. 
+
+
+{{< hint danger >}}
+**Feedback**
+
+You don't have stakeholder??? this means that your project wil lno be used by anyone?
+any customer or targeted uses is a stakeholder. you already learn that in SWP!!!!!
+it's not only the owners that are the stakeholder!!!!!!
+
+**Collecting and documenting feedback**<br>
+this is not how you document feedback properly. this is just a generated documents from Google form you didn't even style it properly or make it readable!
+
+
+
+**Feedback analysis**<br>
+27 is very good number for a early stage and sure it's good for analysis. I think you just don't want to do the analysis.
+
+**Roadmap and enhancement**<br>
+Missing
+
+
+Extremely poor Report.
+
+it's really seem that you are saying in this report that you don't want to do anything. Hence the low grade you will get.
+
+
+**Grade: 1/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

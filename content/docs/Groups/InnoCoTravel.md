@@ -660,3 +660,18 @@ After hearing the feedback, this is how we prioritize it:
 - By tackling the feedback according to the established prioritization, we aim to ensure that the most important issues are addressed promptly, resulting in the improvement and refinement of our software based on the valuable input provided by the survey participants.
 
 
+
+**Collecting and documenting feedback**<br>
+Very good!
+
+
+**Feedback analysis**<br>
+Very good!
+
+**Roadmap and enhancement**<br>
+Very good!
+
+
+**Grade: 5/5**
+
+

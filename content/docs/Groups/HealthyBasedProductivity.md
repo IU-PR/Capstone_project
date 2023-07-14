@@ -8,10 +8,13 @@ According to research of hh.ru and AIBY*, every second respondent felt burned ou
 
 The solution is the InnoPlan system. It's a chatbot in Telegram that builds a realistic schedule of users' tasks. Unlike other autoschedulers, our solution is personalized because we build a plan based on a person's activity history.
 
-This solution is not yet on the market, be the first to try it out! [Link to our chatbot @InnoPlan_bot](https://t.me/Innoplan_bot).
+This solution is not yet on the market, be the first to try it out! Link to our chatbot: [@InnoPlan_bot](https://t.me/Innoplan_bot).
 
-* Research of hh.ru and AIBY among 1,250 employees of Russian companies. Source: tass.ru/obschestvo/14631483
 Github of our project: [github.com/sofi12321/healthy-based-productivity/](https://github.com/sofi12321/healthy-based-productivity/tree/main)
+
+*Research of hh.ru and AIBY among 1,250 employees of Russian companies. Source: [tass.ru/obschestvo/14631483](https://tass.ru/obschestvo/14631483)
+
+Presentation of our project:
 
 {{< embed-pdf url="../../../static/HealthyBasedProductivity/InnoPlanBot.pdf" >}}
 

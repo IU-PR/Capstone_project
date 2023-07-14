@@ -492,3 +492,19 @@ We strive to release our course on our own platform in the next few months. In t
 First, integration with Coder remains our biggest priority. With Coder, our coding tasks will bloom at their finest. The coding tasks are the strength of our course, as they show students how their new knowledge is applied in practice. Coder will let the student focus on solving the task, removing the hassle of setting up a local environment.
 
 Second, we will focus on polishing the platform. For students to understand the material better, we need to support videos as well as animated terminal sessions in the theoretical material. In addition, the platform should remember where the student stopped the last time so that students can jump right back in when they come back. Last but not least, we will adapt the website for mobile screens, add PWA support, and fix discovered bugs to ensure the best possible UX for our students.
+
+
+**Collecting and documenting feedback**<br>
+Very good!
+
+
+**Feedback analysis**<br>
+Very good!
+
+**Roadmap and enhancement**<br>
+Missing Roadmap. bit's genraly written what will you do. but this is cou;d not be considered as a roadmap 
+
+
+**Grade: 5/5**
+
+

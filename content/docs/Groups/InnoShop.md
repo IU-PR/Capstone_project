@@ -622,3 +622,26 @@ After receiving feedback from stakeholders, friends, and mentor, we made several
 ## Plans after the Capstone
 
 We will plan on incorporating the Innopoints system after the capstone project. Tanmay and Roukaya will be working on it after the capstone project ends.
+
+
+{{< hint danger >}}
+**Feedback** 
+
+**Collecting and documenting feedback**<br>
+Very good!
+
+
+**Feedback analysis**<br>
+Very good!
+
+**Roadmap and enhancement**<br>
+Very good!
+
+
+**Grade: 5/5**
+
+
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

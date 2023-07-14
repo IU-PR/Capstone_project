@@ -83,3 +83,27 @@ And got the following insights about the majority of users:
 As the idea of the project popped up a long time ago and we developed it
 gradually there are no major changes in our roadmap and we are impressed that
 our potential users gave very positive feedback.
+
+
+
+{{< hint danger >}}
+**Feedback**
+
+**Collecting and documenting feedback**<br>
+good!
+
+
+**Feedback analysis**<br>
+Analysis is what you have learned from the feedback, and how will this feedback impact your project
+
+I think this part is missing
+
+**Roadmap and enhancement**<br>
+Missing 
+
+
+**Grade: 4/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

@@ -441,3 +441,26 @@ The main challenges that people face with choosing clothes:
 1. Spending too much time trying clothes on
 2. Cannot create color matching outfits effectively
 3. Too little clothes range (monotony)
+
+
+
+{{< hint danger >}}
+**Feedback**
+
+**Collecting and documenting feedback**<br>
+good! but it was missing how did you documented the feedback 
+but you need to send me the result if the form 
+
+**Feedback analysis**<br>
+very good!! 
+
+**Roadmap and enhancement**<br>
+missing
+
+your grade is 3.5/5 if you send me the result of the form, i will increase it to 4.5
+
+**Grade: 4/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

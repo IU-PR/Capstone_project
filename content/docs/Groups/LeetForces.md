@@ -1000,3 +1000,28 @@ performance metrics. We think that this are important features, and we will
 try to add it if we have enough time to accomplish this task.
 
 {{< /expand >}}
+
+
+
+{{< hint danger >}}
+**Feedback**
+
+**Collecting and documenting feedback**<br>
+good plan, but how did you collect? and how did you documented?
+where are the results?
+
+
+**Feedback analysis**<br>
+missing
+
+**Roadmap and enhancement**<br>
+Refinement part is good
+missing Roadmap
+
+
+**Grade: 2/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+

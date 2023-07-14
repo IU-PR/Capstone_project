@@ -127,7 +127,7 @@ By using our solution, users can avoid the mistakes and unrealistic expectations
 General workflow of the project
 
 <p align="center">
-    <img width="800" src="../../../static/HealthyBasedProductivity/basic_schema.png" alt="Workflow">
+    <img width="800" src="/HealthyBasedProductivity/basic_schema.png" alt="Workflow">
 </p>
 
 3. Tech Stack
@@ -303,10 +303,10 @@ Interaction with the user works through the Telegram bot @Innoplan_bot. This wee
 
 We have implemented the basic skeleton of each activity, i.e. you can enter all the data in a line (image 2) or item by item (image 3). We have also implemented basic message processing - for example, if the user entered the time in the wrong format, he or she will be asked to repeat the input in the right format (image 5).
 <p align="center">
-    <img src="../../../static/HealthyBasedProductivity/bot1.PNG" title="Image 1" width="180"> <img src="../../../static/HealthyBasedProductivity/bot2.PNG" title="Image 2" width="180">
-    <img src="../../../static/HealthyBasedProductivity/bot3.PNG" title="Image 3" width="160">
-    <img src="../../../static/HealthyBasedProductivity/bot4.PNG" title="Image 4" width="180">
-    <img src="../../../static/HealthyBasedProductivity/bot5.PNG" title="Image 5" width="180">
+    <img src="/HealthyBasedProductivity/bot1.PNG" title="Image 1" width="180"> <img src="/HealthyBasedProductivity/bot2.PNG" title="Image 2" width="180">
+    <img src="/HealthyBasedProductivity/bot3.PNG" title="Image 3" width="160">
+    <img src="/HealthyBasedProductivity/bot4.PNG" title="Image 4" width="180">
+    <img src="/HealthyBasedProductivity/bot5.PNG" title="Image 5" width="180">
 </p>
 
 
@@ -390,8 +390,8 @@ We have created a [google form](https://docs.google.com/forms/d/e/1FAIpQLSfKDd3z
 7. Implement user input fully in natural language.
 
 <p align="center">
-    <img width="500" src="../../../static/HealthyBasedProductivity/feedback1.png" alt="Feedback 1">
-    <img width="500" src="../../../static/HealthyBasedProductivity/feedback2.png" alt="Feedback 2">
+    <img width="500" src="/HealthyBasedProductivity/feedback1.png" alt="Feedback 1">
+    <img width="500" src="/HealthyBasedProductivity/feedback2.png" alt="Feedback 2">
 </p>
 
 ## **Priority list for week 5**

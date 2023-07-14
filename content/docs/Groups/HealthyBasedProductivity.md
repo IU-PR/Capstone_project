@@ -35,7 +35,7 @@ Healthy Based Productivity - consider having a project name that directly tells 
 |Sofi Zaitseva (TeamLead)|@sofi12321|s.zaitseva@innopolis.university|
 |Danila Shulepin|@Mr_Ketch|d.shulepin@innopolis.university|
 |Leon Parepko|@Leon_Parepko|l.parepko@innopolis.university|
-|Yaroslav Sokolov|@buiniy_yarik|ya.sokolov@innopolis.university|
+|Yaroslav Sokolov|@buiniy_yarik|y.sokolov@innopolis.university|
 |Ilnur Khadiev|@Ilnur_ha|i.khadiev@innopolis.university|
 
 ## Value Proposition 

@@ -3,6 +3,7 @@
 We are doing a project called Stock Vision. The aim of this project is to develop an ML tool for traders that provides additional analysis and predictions for stock market / currency pair movements.
 
 ---
+![Logo](/group/stockvision/logo.png)
 
 # **Week #1**
 
@@ -210,4 +211,180 @@ However, I am struggling to see how exactly you are planning to do that.
 Plus, the formatting of the progress reports is also part of the evaluation. Make sure that your reports look neat and clearly written. Avoid very general descriptions that "we will use AI and advanced algorithms" - we want very prices action plan on defined algorithms, frameworks and technologies. 
   
 3/5 
+{{< /hint >}}
+
+{{< hint info >}}
+
+We decided to pivot and make more emphasis on making the model more interpretable. Our main difference from the competitors is that we focus on interpretability, so that the trader can make better decisions based on the ML model. The end user of our app is a trader.
+  
+{{< /hint >}}
+
+# **Week #3**
+
+## **ML Model**
+1. **Introduction**
+The model utilizes data from the paid source, AlphaVantage, which provides hourly price data. The model is built using a transformer encoder architecture, incorporating positional encoding and embeddings for both time and price inputs. It employs multihead attention with 8 heads and consists of 5 encoder blocks to compute the attention scores, which aids in the interpretability of the model. The machine learning service is implemented as a Flask app and follows an event-driven approach, retraining the model every hour to incorporate the latest price data. The training and inference processes are communicated via a RabbitMQ queue to the backend service.
+
+1. **Model Architecture**
+The machine learning model is based on the transformer encoder architecture, which has proven to be highly effective for sequence modeling tasks. The transformer architecture utilizes self-attention mechanisms to capture dependencies between different positions in the input sequence. The inclusion of positional encoding and embeddings allows the model to understand the temporal and price-related aspects of the data.
+
+    2.1 *Input Representation*
+The input to the model consists of two components: price and timestep. The price represents the historical BTC/USD price at each timestep, while the timestep indicates the relative ordering of the data points. Both price and timestep are encoded using embeddings to provide meaningful representations to the model.
+
+
+
+    2.2 *Transformer Encoder*
+The model employs a multihead attention mechanism with 8 heads to capture different types of dependencies in the input data. Each attention head attends to different parts of the input sequence, enabling the model to extract diverse and informative features. The multihead attention is followed by feed-forward layers to further process the attended information.
+
+
+
+    2.3 *Encoder Blocks*
+To enhance the interpretability of the model, we utilize 5 encoder blocks. Each encoder block consists of a multihead attention layer, layer normalization, feed-forward layers, and residual connections. This design choice allows for a deeper understanding of the attention scores, enabling insights into the specific features or time periods that influence the model's predictions.
+
+3. **Machine Learning Service**
+The machine learning service is implemented as a Flask app, providing a robust and scalable infrastructure for handling prediction requests. The service follows an event-driven approach, triggered by an hourly event to retrieve the latest price data. Upon receiving new data, the model is retrained using the updated dataset. The training process incorporates a RabbitMQ queue, where messages containing the training data are sent to the backend service.
+
+4. **Results and Interpretability**
+Through the use of the transformer encoder architecture and attention mechanisms, the model is capable of capturing important temporal and price-related patterns in the data. The multihead attention with 8 heads allows for a comprehensive analysis of the input sequence, providing valuable interpretability. The interpretability of the model is further enhanced by utilizing 5 encoder blocks. By examining the attention scores, we can gain insights into the specific aspects of the data that the model focuses on during inference. This enables users to understand the driving factors behind the model's predictions, aiding decision-making processes.
+
+5. **Challenges**
+The major challenge so far is the training time. Since the model needs to retrain every hour and make a prediction before the market moves by a reasonable amount. The second major problem is that the paid api from which we get our hourly data sometimes goes down and this can affect the training of the model. The model’s architecture is simple for now and there is room for improvement in terms of number of heads and number of layers. We are not implementing any data engineering pipeline and doing all the processing in the python code, for now this is not an issue since we do not have billions of data, but when we include news and other data sources then we would need a big data technology.
+
+{{< hint danger >}}
+
+**Feedback:**   
+So does it predict the future price movements based on the history? It would be nice to see more elaborate explanations here.
+Is this algorithm actually works? Have you done any backtests?  
+{{< /hint >}}
+
+## **Frontend**
+1. **Introduction**
+The frontend is a mobile app written in Flutter. We decided to use clean architecture, since this will allow us to scale better in the future. We are using bloc for our state management, go_router for routing and dio+retrofit to handle network requests. 
+2. **UI Design**
+Below is a prototype design of our application, which was created using Figma: - [Figma Link](https://www.figma.com/file/IXQhGgoVPjEqvQopgBl0FD/Capstone-Project?type=design&node-id=0-1&t=ioboFNrxKdD4CYdt-0)
+{{< hint danger >}}
+
+**Feedback:**   
+Nice figma design!  
+{{< /hint >}}
+
+
+3. **Prototype Features**
+The features are pretty straightforward, for the MVP we have only the authentication and the actual screen that shows the prediction part. Also, we are going to implement push notifications using Firebase Cloud Messaging to make sure that the traders are notified as soon as the new signal comes out.
+
+{{< hint danger >}}
+**Feedback:**   
+How much long does the signal holds? Which ticks are you using to make predictions? I suppose this is hourly data, right? Would it be possible that high-frequency traders will outrun you with the signal?
+{{< /hint >}}
+
+
+4. **What is implemented**
+At this stage, we have a functional version of the application design. As development progresses, we are making changes to enhance the user experience. Currently, our primary focus lies in establishing the application's architecture, work with the application’s backend. We have successfully completed the authentication screens, and our objective is to finalize the design layout by the end of the next iteration.
+
+{{< hint danger >}}
+
+**Feedback:**   
+It is still somewhat cryptic language - do you have an app implemented of only design in figma?   
+{{< /hint >}}
+
+
+1. **Challenges** 
+So far we didn't meet any substantial challenges on the frontend. The only problem we had was with the navigation in the app, but this problem was quickly resolved.
+
+## **Backend**
+1. **Service Architecture**
+We are deploying project on Yandex Cloud, which provides virtual machines and network for inner services. So this network has public ip address, on which API Gateway node will be placed in. API Gateway purpose is to maintain user interactions: auth (jwt), listing models, subscribtions, etc. In this private network will be placed persistent storage (database, etc) where we will collect user information, subscribtion records and metrics. And, of course, models will be placed in private network. So each node can easily make request to another within the network, but out of networks peers will see only API Gateway node with public ip. Architecture will be described in helm/k8s files and automaticaly rollout with kubernetes
+
+{{< hint danger >}}
+
+**Feedback:**   
+Good  
+{{< /hint >}}
+
+
+2. **API Gateway Architecture**
+We choose Fastify framework as it provides modern approaches to build backed services as well as openapi plugins (swagger) in the box. It will provide several endpoints to interact with.
+
+3. **Database**
+We choose postgres for storing users and subscriptions.
+
+4. **Challenges**
+Due to lack of experience it is extremely hard to build infrastructure. So another major problem is to organize all services with kubernetes.
+Also Backend developer faced problems with Fastify. It is modern one and has an excellent documentation, yet not enough real world examples, which with lack of experience makes development slower.
+
+{{< hint danger >}}
+
+**Feedback:**   
+So backend also doesn't work? I am struggling to understand what is already build and functioning and what is in the implementation stage. Please, consider using more precise language to describe actual state of things.     
+{{< /hint >}}
+
+
+
+## **Next Steps**
+Next week, we are going to finish with the UI part on the frontend and start implementing the data and domain layers of the app. Also, we are expecting to have authentication working. Furthermore, the ML part is constantly improving, so most likely, the model will have a better accuracy and the training time will be reduced.
+
+{{< hint danger >}}
+
+**Feedback:**   
+It seems you have some progress but it is hard for me to understand and quantify this progress, due to the way this report was written. Please use the following structure - describe what was done exactly this past week. What are the challenges and how are you planning to overcome them. 
+Also, use the chance to iterate on your reports too - this are an integral part of the project. Consider this as an opportunity to train your skills in project management. 
+Overall 3/5 for the week!
+{{< /hint >}}
+
+
+# **Week #4**
+
+## **External Feedback**
+Our users gave us useful feedback on our app. Here is the list of cons that they found:
+- Navigation bar seems to be excessive, since there are only two buttons. You may have to fix it via deleting it or adding extra navigation buttons. (We fixed this in our app immediately)
+- I find forex pair prediction quite useless for me. I would be glad to see crypto prediction. 
+- It would be much cooler if you add light theme. But it’s an optional feature.
+- It is a little bit hard for me to navigate in your app. Can you add screen hints on first run of the application?
+- I would like to see my profit from following your buying tips. In other words, see the price changing of the shares I bought.<br>
+  
+Also our users pointed out the following pros in our app:
+- I love the minimalistic elegant design. Dark mode is my favourite.
+- Stock bar chart visually helps me a lot.
+- As the representative of the target audience, so far I like the implementation of the app.
+- What I really like about your app is that it collects the real time stock information and makes frequent predictions based on it.
+
+## **Testing**
+We haven't implemented any testing on the frontend yet, but we are following the clean architecture, so our app would be easily testable in the future. On the backend, there is only one thing we did to simplify testing, and it is OpenAPI. With OpenAPI it’s much easier to work with endpoints. So everyone can see the schema of endpoints and validate request / response. 
+
+## **Iteration**
+{{< hint danger >}}
+
+**Feedback:**   
+SO no iteration on the basis of feedback you have received?   
+{{< /hint >}}
+
+### **ML Model**
+This week we didn't implement the model directly, but we worked on the infrastructure of the ML-Backend connection. A cronjob that starts the training at every oclock was implemented, as well as the dockerization of the application. Next week, sending the signal to the backend through Kafka will be implemented.
+
+### **Flutter**
+This week was the final one for creating the design of our application. First of all, edits were made to the application's appearance. It was decided to abandon the bottom navigation and instead remove the settings button from the header of the application. This leads to a more restrained appearance since unnecessary elements do not distract the user's attention.
+Additionally, during a small study, it was decided to use the CandleSticks library to draw charts of currency quote changes. Such a chart is more understandable for those engaged in trading. Its appearance closely resembles similar charts from the popular Binance platform. This solution reduces the entry threshold for new users of our application.
+The following screens were added this week: [Screens Link.](https://docs.google.com/document/d/1tIHRcuAdRDGARpaLYMHx7be-KM58D6L9iwXr5Xp4ihs/edit?usp=sharing)
+Now, our further work will focus on adding the main features: user authentication, drawing real-time graphs, and communicating with the backend to receive predictions from the neural network.
+## **Iteration**
+{{< hint danger >}}
+
+**Feedback:**   
+Good! Nice to see the app taking shape!   
+{{< /hint >}}
+
+
+### **Backend**
+As Backend && DevOps developer I setup a postgres container and a migrations tool (node-pg-migration). Also provided /create-user and /list-users for database endpoints. For now we can run it only locally, however we will deploy it soon. <br>
+For the backend framework I have chosen Fastify, which is the edge of the novice and progressive ideas. Yet I am faced with a lack of examples of the codebase of this framework. Paradigms of Fastify strongly diverge from the more popular Express.
+## **Iteration**
+{{< hint danger >}}
+
+**Feedback:**   
+This is already 4th week. Progress for the week is weak and report is not very impressive either. 
+You have to speed up and make sure that all parts should be working before the finals.
+I think you'll be able to get to the MVP but make sure to make a final sprints a little more intense. 
+You have a great team and a good idea, so do it as planned and not compromise for less.  
+
+Overall, 3.5/5 for the week.
 {{< /hint >}}

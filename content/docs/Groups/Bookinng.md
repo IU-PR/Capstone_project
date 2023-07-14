@@ -586,9 +586,10 @@ our users.
 - **Skorkin Anton** is responsible for creating an interactive map of the
   university and wrapping it into the React-component, which will be improted
   and used in our web-application.
-  
-  {{< hint danger >}}
-  **Feedback**  
+
+
+{{< hint danger >}}
+**Feedback**  
   
   
 **1. Component Breakdown**
@@ -637,6 +638,277 @@ The report is generally good. You have to provide better UI design that can cove
 
 Grade 5/5
 
-  
-  _Feedback by Moofiy_
-  {{< /hint >}}
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+# **Week 3**
+
+> Third week progress report
+
+
+## **Initial Week Plan**
+
+1. **Technical Infrastructure**
+   - The team will create Continuous Integration (CI) and Continuous Delivery
+     (CD) processes to ensure efficient deployment and code integration.
+   - Workflow conventions will be established to streamline the development
+     process.
+2. **Backend Development**
+    - The team will focus on enhancing communications within the backend system.
+      Mostly this part consist of Microsoft Outlook API proxying and API
+      authorization.
+3. **Frontend Development**
+    - The team will commence UI development, working towards creating an
+      intuitive and visually appealing user interface.
+    - The development of the map component will begin, integrating it with the
+      UI to provide interactive features that simplifies room booking process.
+4. **Data Management**
+    - For this week, our team has decided not to prioritize the implementation
+      of caching mechanisms.
+5. **Prototype Testing**
+    - Testing will not be prioritized for this week. The focus will be on
+      developing the core functionalities and refining the prototype. Testing
+      activities will be planned for subsequent weeks to ensure a robust and
+      reliable system.
+
+Throughout the week, we prioritized regular communication and collaboration.
+Daily stand-up meetings were scheduled to ensure that each team member was
+updated on their tasks and progress. These meetings served as opportunities to
+align the backend and frontend development efforts.
+
+
+## **Progress Report**
+
+During Week 3 of the Room Booking Service development, significant progress was
+made on both the frontend and backend aspects of the project. Here is a summary
+of the achievements, challenges faced, and plans for the upcoming weeks.
+
+### Frontend and Design
+
+- **CI/CD**: Continuous Integration (CI) with a linter and Continuous Delivery
+  (CD) were successfully configured. The latest version of the frontend can be
+  accessed at [https://room-booking-app-evermake.vercel.app/](https://room-booking-app-evermake.vercel.app/).
+
+- **Design Implementation**: The team began implementing the UI design but
+  didn't complete it entirely. The focus was on creating an intuitive and
+  visually pleasing interface.
+  ![first-deisgn-screenshot](/bookinng/first-design-screenshot.png)
+
+- **Interactive Map Component**: We’ve received a drawing of the university's
+  third floor and then we manually traced and created a vector image based on
+  the floor plan. Using the exported SVG file from a vector-image editor, an
+  interactive Vue-component for the map was initiated.
+  ![map-component-demo](/bookinng/map-component-demo.gif)
+
+Moving forward, the team will continue refining the UI design and enhancing the 
+interactive map component. Regular collaboration with the backend team will
+ensure a seamless integration between frontend and backend development efforts.
+
+
+### Backend
+
+On the backend we had to use Microsoft Outlook API since this is what
+Innopolis University use. The main challenge is a legacy spaghetti system that
+makes process of properly extracting data from previous bookings problematic.
+*For example*, when we try to extract a room from a given Outlook calendar
+item there are **SIX** (probably more) different scenarios in which field and
+format it could be. But even this isn't sufficient, since sometimes there is
+no room specified at all. However, we are constantly improving our system.
+Currently, it handles *almost* all of the cases correctly by properly
+extracting booking organizer, location and time period.
+
+In order to support our backend development, we handled one **additional meeting
+with Andrey Markov and Mikhail Kuskov**. The following issues have been
+discussed:
+
+1. Backend Architecture: Discussions were held to define the backend
+   architecture and determine the next steps for development.
+2. Interface Feedback and Design: Feedback on the interface was received,
+   highlighting the need to improve the process of selecting time slots and
+   rooms.Design enhancements were initiated to address this feedback.
+3. Microsoft 365 Testing Environment: Mikhail assisted in setting up a
+   dedicated testing environment for Microsoft 365 integration, ensuring
+   the development and testing of APIs without affecting real room bookings.
+
+The meeting with Andrey Markov and Mikhail Kuskov provided valuable insights
+and guidance for the project, ensuring alignment with objectives and enhancing
+the overall development process.
+ 
+
+## **Future**
+
+Here's our tentative tasks for the next 2 weeks:
+
+- Finish development of the map component
+  - Outline all rooms from the drawing
+- Implement Microsoft Outlook API adapter
+- Implement authorization system of project’s API
+- Bind UI with map
+- Bind UI with backend API
+
+
+## **Useful Links**
+
+- [Backend repository on GitHub](https://github.com/Inno-Gang/room-booking)
+- [Frontend repository on GitHub](https://github.com/Inno-Gang/room-booking-app)
+- [Latest frontend deployment preview](https://room-booking-app-evermake.vercel.app/)
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Missing from reports, you should list the feature of the app in the report
+
+**User Interface**<br>
+This is not a complete UI yet, it’s missing some actions like booking the room. And other features.
+Why you haven’t completed it yet?
+
+>The focus was on creating an intuitive and visually pleasing interface.
+It look good, but  not pleasing as I don’t see how to operate with it.
+
+The interactive map is very good!!!
+
+
+
+**Challenges and Solutions**<br>
+Good!
+
+**Next Steps**<br>
+Good. You should relay think of testing with users (Usability testing)
+
+**Overall**<br>
+Good report, you should focus more on development of the fronted now.
+
+**Grade<br> 4/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+# **Week 4**
+
+> Fourth week progress report
+
+## **External Feedback**
+
+We asked the opinion of our friends and our mentors (Mike Kuskov and
+Andrei Markov) about our frontend part. Here is a summarized feedback we’ve
+received:
+
+- The design of the project is described as concise and appealing, with a
+  suitable color scheme and consideration of the key functional requirements.
+  This positive feedback highlights the effectiveness of the design choices
+  made.
+- We have taken into account the feedback regarding the mobile version, as we
+  recognize that the majority of users access our service through their phones;
+  and, therefore, we plan to adapt the design to mobile devices in the coming
+  weeks.
+
+## **Testing and Narrowing the Scope**
+
+This week we focused on improving UI design and frontend part of our
+application as well. After creating a minimal layout, we created E2E tests,
+so now and in the future we always be confident that basic functionality in
+the application works as expected. Here is the demo of our E2E-tests:
+
+![e2e-test-demo.gif](/bookinng/week-4/e2e-test-demo.gif)
+
+We have not accomplished yet creating tests for our backend, since we are
+currently actively working on it and modifying the behavior. As soon as we will decide on final API and required behavior we will write unit-tests for the authorization, Outlook adapter and business logic.
+
+This week we also checked our past reports and decided to exclude the calendar 
+functionality, the Telegram Bot API and focus solely on the booking
+functionality plus the map component.
+
+
+## **Iteration and Refinement**
+
+- Each week we improve our application design, consulting with frontend team.
+  Here are improvements of the current week:
+    - We did the menu for the current bookings where the user can see all his
+      bookings and also cancel them.
+    - We redesigned all fields in booking menu and now it is the final variant.
+    - We have chosen another size for fonts and formed a set of colors for the
+      whole site.
+
+      ![design-changes.png](/bookinng/week-4/design-changes.png)
+    
+    - We added the drop-down menu for room choosing. The rooms would be colored according to their availability (green is free, red is occupied and gray is unavailable for booking).
+
+    ![dropdown.png](/bookinng/week-4/dropdown.png)
+    
+    - Also, we designed a pop-up that will be shown next to a room on the map,
+      which will show the brief information about the room and upcoming events
+      in it.
+
+    ![popup.png](/bookinng/week-4/popup.png)
+    
+
+## **Progress Report**
+
+- Progress has been made on the authentication module, as evidenced by the pull
+  request at **[github.com/Inno-Gang/room-booking/pull/12](https://github.com/Inno-Gang/room-booking/pull/12)**.
+  Specification is [here](https://github.com/Inno-Gang/room-booking/issues/8).
+  There was a misunderstanding between task analysts and its implementer.
+  We made a meeting where studied basic concepts authentication, figured out
+  what is JWT tokens, Access/Refresh tokens and how we should use it in the
+  project.
+
+- An Outlook adapter was developed, as indicated by the pull request at
+  **[github.com/Inno-Gang/room-booking/pull/13](https://github.com/Inno-Gang/room-booking/pull/13)**.
+  For this task we have studied Outlook API of Innopolis university and parsed
+  it to envelope. However, it is important to note that the adapter has not been
+  tested yet. This week we conducted meeting with Mike Kuskov, one of our
+  customers, and he provided test Outlook API server for testing our backend.
+  We are currently testing our adapter to eventually merge this functionality
+  to main branch of backend development repository.
+- Design was improved drastically.
+- Faced problem with the map component: the project encountered difficulties
+  with the map component due to the lack of support and absence of recent
+  development in the only identified JavaScript library (`VueWaypoint`). We need
+  the library to attach info about rooms to their pictures.
+- During this week, we met several times to synchronize our progress and to
+  check our priorities.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Very Good, but maybe better to follow some kind of User statisifaction metrics like NPS to better utilise this feedback.
+
+Also, you should provide links to this servey to proof what you are saying and to get feedback on them.
+
+
+**Testing**<br>
+Very Good
+
+
+**Iteration**<br>
+Good iteration plan
+But keep in mind
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+
+**Overall**<br>
+The report is Amazing!!!.
+
+So far this is the best report I graded this week out of 11 teams
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

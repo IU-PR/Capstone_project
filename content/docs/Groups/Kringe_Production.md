@@ -3,6 +3,12 @@ weight: 1
 bookFlatSection: true
 title: "Kringe Production"
 ---
+-- what is the secret of Boris the cat's energy?
+-- he saves time on homework because he uses UniHub
+**Be a cat and you, use UniHub!**
+
+![logo](/kringe_production_images/logo.jpg)
+
 
 # **Introduction**
 
@@ -192,14 +198,12 @@ Our application does not require transaction support and at the same time we nee
 ## User Interface (UI) Design
 Now we have the first version of the main page of the site. In the attached file you can see the layout of the main page.
 
-![Course Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Course_Page.jpg)
-![Forum](https://github.com/inga-zimnya/Images_for_Project/blob/main/Forum.jpg)
-![Main Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Main_Page.jpg)
-![Sign In Log In Page](https://github.com/inga-zimnya/Images_for_Project/blob/main/Sign_In_Log_In_Page.jpg)
+![Course Page](/kringe_production_images/Course_Page.jpg)
+![Forum](/kringe_production_images/Forum.jpg)
+![Main Page](/kringe_production_images/Main_Page.jpg)
+![Sign In Log In Page](/kringe_production_images/Sign_In_Log_In_Page.jpg)
 
 
-
-https://github.com/inga-zimnya/Images_for_Project/blob/main/Course_Page.jpg
 
 ## Integration and APIs
 Assess any external systems, services, or APIs that need to be integrated into your application. Plan how these integrations will be implemented and how data will flow between systems.
@@ -467,29 +471,29 @@ Greetings, IU students! Kringe Production are excited to introduce UniHub, platf
 
 Main page of forum feature a clean and intuitive design with sections for recent and popular discussions and resource categories.
 
-![Main Page dark](https://github.com/inga-zimnya/Images_for_Project/blob/main/main_dark.png)
+![Main Page dark](/kringe_production_images/main_dark.png)
 Pic. 1. Main Page in desktop version in dark mode
 
-![Main Page dark mobile](https://github.com/inga-zimnya/Images_for_Project/blob/main/main_dark_mobile.png)
+![Main Page dark mobile](/kringe_production_images/main_dark_mobile.png)
 Pic. 2. Main Page in mobile version in dark mode
 
-![Main Page light](https://github.com/inga-zimnya/Images_for_Project/blob/main/main_light.png)
+![Main Page light](/kringe_production_images/main_light.png)
 Pic. 3. Main Page in desktop version in light mode
 
 Sidebar with course navigation display a list of courses, organized by year of study, e.g. first-year undergraduate students. Clicking on a course in the sidebar would lead to the corresponding course page, where users can find and interact with course-specific resources and discussions.
 
-![Sidebar dark mobile](https://github.com/inga-zimnya/Images_for_Project/blob/main/sidebar_dark_mobile.png)
+![Sidebar dark mobile](/kringe_production_images/sidebar_dark_mobile.png)
 Pic. 4. Sidebar in mobile version in dark mode
 
 Course files page present a clear layout with options to upload and download files, along with features for filtering and searching for specific resources within the course.
 
-![Upload Page dark](https://github.com/inga-zimnya/Images_for_Project/blob/main/upload_dark.png)
+![Upload Page dark](/kringe_production_images/upload_dark.png)
 Pic. 5. Upload Page in desktop version in dark mode
 
-![Upload Page light](https://github.com/inga-zimnya/Images_for_Project/blob/main/upload_light.png)
+![Upload Page light](/kringe_production_images/upload_light.png)
 Pic. 6. Upload Page in desktop version in light mode
 
-![Upload Page light mobile](https://github.com/inga-zimnya/Images_for_Project/blob/main/upload_light_mobile.png)
+![Upload Page light mobile](/kringe_production_images/upload_light_mobile.png)
 Pic. 6. Upload Page in mobile version in light mode
 
 ## **Development Report** 
@@ -524,3 +528,30 @@ Good job, 5/5 for the week!
 
 {{< /hint >}}
 
+# **Week #4**
+
+## **External Feedback:**
+Gathering feedback from our target audience has been a top priority for us. We have taken initiative to collect valuable firsthand feedback from our community, our friends in university. Their perspectives and insights have been immensely helpful in assessing the usability, functionality, and overall satisfaction with our forum platform. For example, one of the testers noted that if he does not remember what year the course was in, then finding it can be a little problematic and suggested doing something like an input field for searching by course name. Another user mentioned that a button to change site's theme would be a great addition. This kind of feedback serves as a basis for our upcoming refinements and iterations, allowing us to enhance user experience and make necessary improvements. We are grateful for honest feedback received, which has played a vital role in shaping direction of our project.
+
+## **Testing:**
+Testing is an essential aspect of our development process, and we have made significant progress in this area. We conducted load testing using K6 to evaluate performance of our platform. During testing, we simulated various scenarios, such as having 100 users for a few minutes to simulate exam-related load, and using 350 users for a minute to test stress conditions. In case of stress test we encountered a 42% request failure rate, which highlights need for further optimization. However, we have planned to address these issues on next week or after minimum viable product (MVP) stage. Additionally, we performed testing with 50 users for 30 minutes to simulate normal usage of forum. Furthermore, we ensured that our database is functioning correctly and we tested our server to verify its stability. These testing efforts have provided us with valuable insights into the user experience, allowing us to identify areas for improvement and address any issues or bugs that arose during development.
+
+![stress for 50 users](/kringe_production_images/50_users.jpg)
+![stress for 100 users](/kringe_production_images/100_users.jpg)
+![stress for 200 users](/kringe_production_images/200_users.jpg)
+![stress for 350 users](/kringe_production_images/350_users.jpg)
+
+
+## **Iteration:**
+In past week, we have made significant progress in terms of iteration and refinement. We have regularly assessed our project's progress, comparing it against our initial goals and objectives. Based on feedback we collected, we made and will continue to make necessary adjustments and refinements to our design, features, and functionalities. This iterative approach has allowed us to create a product that continuously evolves and improves. While it may seem challenging to iterate on early version of project, we recognize that this is opportunity to eliminate most of mistakes and make substantial improvements. 
+
+Throughout this week, we have made improvements to front-end, created database, tested it and server, and collected valuable feedback from our friends. These efforts have significantly contributed to our progress, and we are determined to continue iterating and refining our platform to ensure a seamless user experience.
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Looks good, keep up the good work and I am sure you will finish with the nice and neat prototype!
+Overall, good report and progress.
+5/5 for the week
+
+{{< /hint >}}

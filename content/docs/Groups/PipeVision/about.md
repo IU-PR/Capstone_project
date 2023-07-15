@@ -9,7 +9,7 @@ title: "About us"
 _PipeVision_ is a project which aims to develop an automated pipeline marking recognition system based on a neural network.
 
 <p align="center">
- <img src="/PipeVision/logo.png" />
+ <img src="/PipeVision/logotype.png" />
 </p>
  The system addresses the challenge of manual pipeline and metal marking recognition, which is time-consuming, error-prone, and inefficient. Our solution provides accurate recognition, improving the pipeline construction and maintenance industry.
 

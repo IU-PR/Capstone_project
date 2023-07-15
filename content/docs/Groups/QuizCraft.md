@@ -490,6 +490,7 @@ Speaking about a **common reaction**, it was as follows: _it's good, but not so 
     - ML: chatgpt generates description for the quizes. This allows users to quickly understand what a quiz is about before viewing it.  
 
 
+## **Feedback**
 
 {{< hint danger >}}
 **Feedback**

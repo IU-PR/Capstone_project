@@ -40,3 +40,16 @@ Furthermore, our ML engineers made a significant step in CV development. They te
 
 For those of us keen on continuing the project after Capstone, we made time to discuss and refine the product roadmap, taking into account the feedback and improvements identified. Our discussion included potential feature additions for the next few months depending on the decision of Gazstroyprom regarding the involvement of our team in the full-scale deployment of this project.
 
+
+{{< hint danger >}}
+**Feedback**  
+
+Good job gathering the feedback. now the feedback you collected is good. but you need t learn more rather than getting just a number. 
+you can ask them additional question like Why did you chose the number above. this will give you more insight why they pick a number. 
+
+you have someone who picked 3/5 -- but do you know why?
+
+Grade 5/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

@@ -4,7 +4,7 @@
 
 Hi! We a group called "LeetForces" and we do the `LeetForces` project.
 
-
+{{< embed-pdf url="/LeetForcesResources/LeetForces.pdf" >}}
 
 # **Weekly reports**
 

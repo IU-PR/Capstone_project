@@ -17,6 +17,8 @@ title: "LogiFlex"
 
 The project idea was so successful that the team managed to attract investments from interested investors immediately after its inception. Just nine days later, the project team successfully negotiated with [_the largest network of building materials in the Far East_](https://999111.ru/), securing payment for the development process, project delivery, and obtaining copyrights. This partnership aims to address the network's own logistical problems and optimize their transport processes.
 
+{{< embed-pdf url="/LogiFlex_images/LogiFlex_presentation.pdf" >}}
+
 **For collaboration inquiries or if you have any questions, feel free to reach out to me at: [_@GeorgiyBudnik_](https://t.me/GeorgiyBudnik) (Team Lead)**
 
 
@@ -420,7 +422,7 @@ Above is an example of laying the same order without taking into account / takin
 The team also made significant advancements in data visualization and animation. A legend of the order was developed, and the sequence of laying goods, along with their interactions, was visualized. Slide animation of the layout was implemented to demonstrate the results effectively:
 
 <div style="text-align: center;">
-  <img src="/LogiFlex_images/Animation_slices.gif" alt="LogiFlex" width="400" height="500">
+  <img src="/LogiFlex_images/order1.gif" alt="LogiFlex" width="700" height="500">
 </div>
 
 This result was achieved due to a well-written and structured parser, which initially supplied values in "pure form", which greatly simplified and at the same time increased the efficiency of work.
@@ -461,3 +463,48 @@ Week 5 marked the narrowing of the work scope and the completion of tasks such a
 
 
 
+# **Week Six**
+
+## Progress report - Week 6
+---
+Agenda:
+ - Weekly Progress Report 
+ - Visualization of result
+ - Final presentation 
+ ---
+
+### Weekly Progress Report
+
+Despite the fact that the sixth week mainly concerned the completion of the work done on the course, the LogiFlex team was in full swing implementing new modifications and features of the product packaging algorithm.
+
+First of all, a re-collection of all tasks and improvements that had not yet touched (at that time) the algorithm was carried out. For example, visualization of cylinders and "stacking" of homogeneous goods. This and much more was implemented at almost four additional meetings this week. All tasks were recorded in the already used workspace:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/WorkSpace_updates.jpg" alt="LogiFlex" width="700" height="1500">
+</div>
+
+{{< hint info >}}
+It's important to note that due to LogiFlex being a commercial project, the team cannot share the solution or any specifics as all copyrights belong to the customer.
+{{< /hint >}}
+
+Each task was worked out and redone several times, which made it possible to achieve a more specific vision of the product in detail. It cannot be said that this was a mandatory job, but it will definitely help us to continue to cooperate with the customer, which is in our opinion a very wise step.
+
+### Visualization of result 
+
+The visualization aspect of the project reached its finalized state. The layout of "emerging" orders, adaptation to different screen sizes, and internal functions for deploying the interface to various devices were completed.
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/Instruction_final.png" alt="LogiFlex" width="700" height="1500">
+</div>
+
+The final visualization includes a pool of completed tasks and presents the results of the algorithm in the form of an instruction. The instruction features a color palette, intuitive symbols, and displays additional information, providing a comprehensive view of the packaging arrangement.
+
+### Final presentation 
+
+The LogiFlex team developed a comprehensive presentation that showcases the progress made over the course of 6-7 weeks. The presentation highlights the project's significance and serves as the first impression of the work accomplished. The team prioritized the value of the presentation and aimed to convey the progress and achievements effectively.
+
+---
+
+Week 6 represented a motivating final push to complete the tasks, despite delays and challenges encountered in previous weeks. The team successfully completed the assigned tasks and expressed confidence in the market demand for the LogiFlex project.
+
+Such experience of work and collaboration has shown that the algorithm of optimal arrangement of heterogeneous goods is relevant in the market and further development of LogiFlex will definitely go beyond the student course.

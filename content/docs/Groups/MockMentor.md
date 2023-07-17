@@ -4,6 +4,9 @@ bookFlatSection: true
 title: "MockMentor"
 ---
 # **MockMentor**
+
+- https://docs.google.com/presentation/d/1zovQb_PR696bnXYWAZnWumElyF3NsTbc4F1QvEJkTNw/edit#slide=id.p
+
 # **Introduction**
  
 {{< hint danger >}}
@@ -330,3 +333,10 @@ Good, we still have some time to integrate the front with the backend. Make it a
 ## **Presentation**
 
 - https://docs.google.com/presentation/d/1zovQb_PR696bnXYWAZnWumElyF3NsTbc4F1QvEJkTNw/edit#slide=id.p
+
+{{< hint danger >}}
+
+I am pleased to see that project is rapidly taking shape! Merging the front and back is a great leap forward. 
+Moved the presentation to the top. You guys have accomplished a lot! Thank you for the hard work and dedication.
+5/5 for the week, and see you soon! Cheers, Rustam
+{{< /hint >}}

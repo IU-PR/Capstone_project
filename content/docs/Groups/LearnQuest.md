@@ -315,9 +315,8 @@ However, it is important to note that abovementioned features will be implemente
 
 {{< expand "Week 5 Report" >}}
 
-# **LearnQuest**
 
-# **Week #5**
+# **Week 5**
 
 Welcome to Week 5 of our Capstone Project! 
 
@@ -336,5 +335,16 @@ Welcome to Week 5 of our Capstone Project!
 - For prioritizing our tasks, we paid attention to the scope of the product at the MVP stage. In this regard, we have tried to follow the impact/effort matrix, as shown below: 
 ![Impact Effort Matrix](/LearnQuest/impact-effort-matrix.png)
 Following this method has helped us prioritize in a short-term project. 
+
+
+
+{{< expand "Week 5 Report" >}}
+
+
+# **Week 6**
+
+Welcome to Week 6 of our Capstone Project! 
+
+This week we have polished up our application and fixed bugs. Also, we have deployed our [application](https://learnquest.vercel.app) and [API](https://learnquest-backend.vercel.app) on Vercel. 
 
 {{< /expand >}}

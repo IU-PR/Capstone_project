@@ -7,6 +7,19 @@ title: "InnoCoTravel"
 
 <img src="/InnoCoTravel/week4_logo.png" alt="drawing" width="450"/>
 
+# **Link to the final presentation**
+
+
+[Main link](/InnoCoTravel/InnoCoGo.pdf)
+
+
+[Spare link](https://drive.google.com/drive/folders/1IPNBVe81upI2KEr8ktRw6RYiMlYRK1xO?usp=sharing)
+
+# **Link to deployed solution**
+
+![](/InnoCoTravel/week6_qr.png)
+
+[https://t.me/inno_co_go_bot](https://t.me/inno_co_go_bot)
 
 # **Week #1**
 
@@ -673,5 +686,56 @@ Very good!
 
 
 **Grade: 5/5**
+
+# **Week #6**
+
+## **Link to the final presentation**
+
+
+[Main link](/InnoCoTravel/InnoCoGo.pdf)
+
+
+[Spare link](https://drive.google.com/drive/folders/1IPNBVe81upI2KEr8ktRw6RYiMlYRK1xO?usp=sharing)
+
+## **Link to deployed solution**
+
+![](/InnoCoTravel/week6_qr.png)
+
+[https://t.me/inno_co_go_bot](https://t.me/inno_co_go_bot)
+
+## **Weekly tasks**
+
+We have accomplished a substantial amount of work this week. During our sprint, we successfully addressed several bugs and implemented various features based on user feedback.
+- focused on frontend and improved visuals
+- fixed several bugs
+- added immediate feedback on some actions: alerts and warnings
+
+More info in backlog.
+
+
+### **AI Integration**
+
+The main achievement of this week is the addition of an AI translator to our project. We consider the availability in both Russian and English as a key feature, which is why we have integrated LibreTranslate as a crucial component of our project. 
+Our decision to opt for LibreTranslate was driven by several important factors that align perfectly with our project's goals.
+- Firstly, LibreTranslate is an open-source solution, which means that it is developed and maintained by a community of passionate individuals, making it transparent, accessible, and continuously evolving.
+
+- Secondly, the ability to host LibreTranslate locally on our own server provides us with a level of control and independence that is crucial for our project's success. By having it within our own infrastructure, we can fine-tune and customize its functionalities to suit our specific requirements. This localized hosting also ensures data privacy and security, as sensitive information remains within our organization's confines.
+
+- Furthermore, LibreTranslate's open-source nature and local hosting not only give us the freedom to modify and adapt the tool but also allow us to seamlessly integrate it into our existing workflow and system architecture. This integration will enhance the overall efficiency and performance of our project, enabling us to deliver a more robust and user-friendly solution to our valued users.
+
+Overall, LibreTranslate stands out as the ideal choice for us, providing the perfect blend of openness, adaptability, and security, all of which are instrumental in driving our project towards success and making it a valuable asset for our users.
+
+### **Making the presentation**
+
+During this week, another critical task on our agenda was to create a presentation that would adeptly showcase our project to the course instructors. To ensure the presentation's effectiveness, we employed the following strategies:
+
+- Conducted two team meetings: Collaboration and communication are vital for a successful presentation. Therefore, we held two team meetings to brainstorm ideas, discuss key points, and delegate responsibilities among team members. These meetings allowed us to align our thoughts and ensure a cohesive and well-structured presentation.
+
+- Utilized previous reports: Building upon the groundwork laid in our previous reports, we gathered relevant data, research findings, and project milestones. This enabled us to present a comprehensive overview of our project's progress and accomplishments so far. By referencing our previous work, we ensured that the presentation remained consistent with our overall project narrative.
+
+- Leveraged material from other courses: Drawing from the knowledge gained in our CEO Toolkit and Public Speaking courses, we incorporated best practices in communication, presentation techniques, and storytelling. This approach helped us craft a compelling narrative, engage the audience effectively, and deliver the message with clarity and confidence.
+
+By combining insights from multiple sources and aligning our team's efforts, we created a presentation that not only showcases the hard work we've put into the project but also highlights its value and potential impact. With a well-prepared presentation, we are confident in our ability to impress the course instructors and effectively convey the significance of our project's contributions.
+
 
 

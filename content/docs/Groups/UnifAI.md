@@ -12,6 +12,12 @@ title: "UnifAI"
 ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Whisper](https://img.shields.io/badge/Whisper-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
 
+
+# **Presentation**
+
+{{< embed-pdf url="/UnifAI/UnifAI.pdf" >}}
+
+
 # **About us**
 
 **UnifAI** is a platform that cracks language barrier with Artificial Intelligence. 

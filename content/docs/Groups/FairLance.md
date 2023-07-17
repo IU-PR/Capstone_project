@@ -785,3 +785,10 @@ Here are some of the major features we have planned:
 - **Embeded CV**: We have a straightforward yet impactful plan to enhance the visual appeal of our website. Instead of a plain CV on the profile page, we intend to incorporate sections for achievements, previous experience, and education, creating a more engaging and aesthetically pleasing experience for our users.
 
 - **Messaging system**: We are working to develop a robust messaging system, and we are striving to have it completed in time for the presentation. This feature will enable seamless communication between users, and making deals.
+
+{{< hint danger >}}
+Alright, you project and reports are mature, professional and to the point. Noted the final presentation on the top of the file.
+Need to say that it was a bliss to read your reports and see your project grow. I think you are determined engineers who can accomplish much more. Thus, keep the focus, iterate and ship. 
+
+5 the week! And good luck with the project and the final presentation! You have accomplished a lot! Cheers 
+{{< /hint >}}

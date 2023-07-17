@@ -395,3 +395,11 @@ Overall, this week was dedicated to gathering a broader range of feedback and re
 Speaking about  improvements which our back-enders and front-enders worked on this week: 
 — members responsible for Django administration worked on balances and implementing the methods for ordering and buying. 
 — front-end dealt with shopping basket, subscriptions; for farmers ordering list now can be shown (in alphabet order)
+
+
+{{< hint danger >}}
+Alright, report looks good. Liked the survey data - good work!. Noted the absence of the final presentation on the top of the file. Please add the PDF file to the top of the md file.
+5 for the week!
+
+Overall, I am optimistic and excited about your project. Good luck with the project and the final presentation! You have accomplished a lot! Cheers, Rustam 
+{{< /hint >}}

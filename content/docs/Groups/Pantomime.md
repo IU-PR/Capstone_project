@@ -7,6 +7,9 @@
 Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
 {{< /hint >}}
+
+{{< embed-pdf url="/pantomime/Pantomime.pdf" >}}
+
 # **Week 1 report**
 
 ## **Team Formation and Project Proposal**

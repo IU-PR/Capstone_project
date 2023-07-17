@@ -6,6 +6,12 @@ title: "Onemenu"
 
 # **Onemenu**
 
+## **Project presentation**
+
+Figma link: [Presentation](https://www.figma.com/proto/m78xN6GSOK6ZTT8gnUGFHx/OneMenu?page-id=0%3A1&type=design&node-id=402-84&viewport=-463%2C25%2C0.08&t=Avourwa6f0BT7WkG-1&scaling=scale-down-width&starting-point-node-id=402%3A84&mode=design)
+
+{{< embed-pdf url="/Onemenu/combinepdf.pdf" >}}
+
 ## **Description**
 
 Nowadays there are many ways for customers to order goodies and services. Big corporations such as Ozon, Avito and Yandex have already taken part of the market. However, small businesses still in need of a single customizable application, which will allow better customer experience. After some research, we found that all the available solutions are lacking essential functionalities, such as intuitive UI/UX design, quick in-application support, useful statistics, etc. **Onemenu** is our solution to the problem.

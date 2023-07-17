@@ -4,11 +4,13 @@ bookFlatSection: true
 title: "InnoMastery"
 ---
 <img src="/InnoMastery/logo.png" alt="Tuxi" width="300"/> \
-**Welcome to InnoMastery — a new course platform for everyone!**
+**Welcome to InnoMastery — study Linux on a brand new platform!**
 
-# **Week #1 Report**
+# **Project presentation**
 
-## Team Members
+[<img src="/InnoMastery/presentation-icon.png" alt="Presentation link" width="300">](/InnoMastery/InnoMastery-presentation.pdf)
+
+# **Team Members**
 
 | Team Member        | Telegram ID                                          | Email Address                       |
 | ------------------ | ---------------------------------------------------- | ----------------------------------- |
@@ -18,6 +20,9 @@ title: "InnoMastery"
 | Dmitrii Alekhin    | [@dmfrpro](https://t.me/dmfrpro)                     | d.alekhin@innopolis.university      |
 | Leila Khaertdinova | [@leila1kh](https://t.me/leila1kh)                   | l.khaertdinova@innopolis.university |
 | Roman Molochkov    | [@roman_molochkov](https://t.me/roman_molochkov)     | r.molochkov@innopolis.university    |
+
+
+# **Week #1 Report**
 
 ## Value Proposition
 

@@ -25,7 +25,7 @@ Designing a robust and scalable architecture is crucial for the long-term succes
    ![UI design](/PipeVision/UIdesign.png "Design").
 
 4. **Integration and APIs**:
-   We will have APIs for communication with a model, FastAPI for frontend callings. Documentation of these APIs will be introduced in the document after its development. We plan to show part of this documentation in special section on site (e.g. how to use, model and data description).
+   We will have APIs for communication with a model, FastAPI for frontend callings. Documentation of these APIs will be introduced in the document after its development.
 
 5. **Scalability and Performance**:
    We will utilize university servers with CPU and GPU parts. This will ensure that our application can scale to handle increasing user loads. For improving performance, we'll employ efficient neural network models and optimize our database queries.

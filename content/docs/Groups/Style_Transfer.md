@@ -13,6 +13,9 @@ Write concise and well-written project description here. To enhance it further, 
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of potential readers. 
 {{< /hint >}}
 
+{{< hint danger >}}
+Please upload the final presenation here and update the comments from weeks ago{{< /hint >}}
+
 # Week 1
 
 | Team Member            | Telegram ID   | Email Address       |
@@ -271,3 +274,9 @@ In this week we made huge progress in our model, now it generates visual pleasin
 <img src="/StyleTransfer/week5_example2.png">
 <img src="/StyleTransfer/week5_example3.png">
 <img src="/StyleTransfer/week5_example4.png">
+
+
+{{< hint danger >}}
+Images do look amazing!. Noted the absence of the final presentation on the top of the file. Please update the file accordingly
+5 the week! And good luck with the project and the final presentation! You have accomplished a lot! Cheers 
+{{< /hint >}}

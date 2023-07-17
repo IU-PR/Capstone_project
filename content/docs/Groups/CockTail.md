@@ -6,6 +6,8 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
 <img src='/CockTail/logo.png' width="300" height="300"> 
 </div>
 
+{{< embed-pdf url="/CockTail/Presentation.pdf" >}}
+
 # **Week 1**
 
 ## **Team Formation and Project Proposal**
@@ -77,11 +79,11 @@ _Feedback by Moofiy_
     
 3. How will you validate and test your assumptions about the project?
     
-    *We ask our users to estimate the result (cocktail)* 
+    *We ask our users to estimate the result (cocktail). They should rate the cocktail by flavor and strength* 
     
 4. What metrics will you use to measure the success of your project?
     
-    *Client satisfaction, time of performance* 
+    *Client satisfaction, time of response* 
     
 5. How do you plan to iterate and pivot if necessary based on user feedback?
     
@@ -112,7 +114,7 @@ _Feedback by Moofiy_
 
 - AI (Artificial Intelligence):
     
-    *To do this task we will use NLP model for working with text. Also the dataset  of cocktails recipes that we have do not contain any information about the cocktail flavor.  For that purpose we will use OpenAI Chat-GPT source.*
+    *To do this task we will use Greedy Algorithm and Text model. Also the dataset  of cocktails recipes that we have do not contain any information about the cocktail flavor.  For that purpose we will use OpenAI Chat-GPT source.*
     
 - Open-Source:
     

@@ -457,3 +457,8 @@ The implementation of multi-head attention and time encoding techniques, along w
 
 ## **Feedback**
 We have collected a small amount of feedback from the people who are somewhat interested in trading, and these are the results of the survey: https://docs.google.com/forms/d/1zeGz3OToET72KEXrfhcWx6o9Lwf3bdlXqS1AIGdmZgY/viewanalytics
+
+{{< hint danger >}}
+Alright, report looks good. Liked the survey data visualizations. Noted the final presentation on the top of the file.
+5 the week! And good luck with the project and the final presentation! You have accomplished a lot! Cheers 
+{{< /hint >}}

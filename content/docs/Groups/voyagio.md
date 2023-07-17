@@ -4,6 +4,20 @@ bookFlatSection: true
 title: "Voyagio"
 ---
 
+{{< embed-pdf url="/voyagio/final-view.pdf" >}}
+
+Voyagio is an  web application designed to simplify the process of finding and planning your next trip. Using artificial intelligence technologies, Voyagio offers users a reliable and efficient search experience.
+
+Voyagio makes it easy to find a variety of interesting places, create a personalized lists of must-see places and visualize them on a map. If you are an avid traveler or just looking for new experiences, Voyagio allows you to find the perfect places to travel with ease.
+
+If you have any suggestions, you can contact Alexandra Chupkova at [telegram](https://t.me/KMnSO4)
+
+
+
+
+
+
+
 
 # **Week 01 - report**
 
@@ -668,6 +682,5 @@ Very good!
 
 _Feedback by Moofiy_
 {{< /hint >}}
-
 
 

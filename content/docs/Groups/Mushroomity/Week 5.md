@@ -25,3 +25,27 @@ for users to answer, ensuring better feedback collection in the future.
 Moving forward, our focus for the upcoming week will be on updating the application to improve its appearance and
 performance for our users. We plan to add more features, particularly descriptions for as many types of mushrooms as we
 can complete.
+
+
+{{< hint danger >}}
+**Feedback**
+
+**Collecting and documenting feedback**<br>
+Missing
+
+
+**Feedback analysis**<br>
+missing
+
+**Roadmap and enhancement**<br>
+missing
+the enhancement part is short.
+
+The report is weak and doesn't relate to any of the requested tasks 
+
+
+**Grade: 0/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

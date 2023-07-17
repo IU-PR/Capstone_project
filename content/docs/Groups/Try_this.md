@@ -464,3 +464,6 @@ your grade is 3.5/5 if you send me the result of the form, i will increase it to
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+# **Week #6**
+[Try This.pdf](https://github.com/IU-PR/Capstone_project/files/12070660/Try.This.pdf)

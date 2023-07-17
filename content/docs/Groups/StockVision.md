@@ -4,6 +4,9 @@ We are doing a project called Stock Vision. The aim of this project is to develo
 
 ---
 ![Logo](/group/stockvision/logo.png)
+---
+<!-- ![Presentation](/group/stockvision/final1.pdf) -->
+{{< embed-pdf url="/group/stockvision/final1.pdf" >}}
 
 # **Week #1**
 

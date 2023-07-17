@@ -232,3 +232,9 @@ Moreover, we have not deployed our product yet, as we are still working on it, s
 
 This week, we implemented a primary functionality that wasn't done yet - want to read list. We also made some tweaks to UI and fixed broken links to some books' covers.
 We are not planning to expand our product after the final presentation, so we will not be making a product roadmap. Until the final presentation, we will be working on fixing the problems of the product, such as lack of information on Want to Read page, and finalizing the UI. After that is done, if we have time, we will be working on adding extra features proposed during interviews, such as a separate page for more information about books, and a functionality for deleting ratings and the account itself.
+
+{{< hint danger >}}
+Alright, good to see the convergence of the feedback - so you know exactly what to improve. I personally liked the bee related design - it's pretty. Noted the final presentation on the top of the file.
+5 the week! And good luck with the project and the final presentation!
+ 
+{{< /hint >}}

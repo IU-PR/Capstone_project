@@ -366,3 +366,8 @@ done. With the major feature of the AI model successfully implemented, we will n
 attention to other necessary changes and enhancements identified in the feedback. Our goal is to
 ensure a seamless user experience, robust functionality, and the delivery of a truly valuable tool
 for chemistry students.
+
+
+{{< hint danger >}}
+The report is good. And noted the PDF on top - good. 5 for the week. Good work! Good luck with project and final presentation!
+{{< /hint >}}

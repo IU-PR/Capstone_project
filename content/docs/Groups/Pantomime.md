@@ -423,3 +423,9 @@ This week, the project team held several feedback sessions with users who alread
 
 We are very happy that we have found a consultant who knows RSL and can help us with the development of the project. We are also glad that we have contacted with All-Russian Society of the Deaf, and they have provided a cool long video. Also, we enjoyed the feedback sessions with users, because we have found a lot of bugs and issues, that we can fix in the future. But these bugs and issues are minor, it means that we are on the right way.
 We will continue to work on design and frontend on the next week. Also, we will try to fix the bugs and issues that we have found during the feedback sessions.
+
+
+{{< hint danger >}}
+I am very pleased to see your project making impact and helping people. This is exactly the reason why we started the Capstone. Please, if you will have any major updates on the project, we are kindly asking you to add short reports about the state of your startup. Noted the final presentation on the top of the file.
+5 the week! And good luck with the project and the final presentation! You have accomplished a lot! Cheers, Rustam 
+{{< /hint >}}

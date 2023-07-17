@@ -18,3 +18,31 @@ The following work has been done: GUI and back end, data partitioning within the
 - The main pattern that we have deduced is that the neural network arouses the greatest interest in the customer, while we perform other parts of the project in order to provide a more convenient service for further testing.
 - Often feedback affects each part of the project a little bit at a time, so each group within our team has 1-2 tasks that can be performed in parallel (e.g. ml and backend).
 - At the moment our team is reaching the goal we set at the beginning of the course and is moving along the plan. The development of a plan for further work on the customer's task will be discussed afterwards, as it will strongly depend on the willingness to continue working of each individual team member.
+
+
+
+{{< hint danger >}}
+**Feedback**
+
+**Collecting and documenting feedback**<br>
+again you have only 1 feedback from Mark. now I'm not sure who is Mark. but is that enough?
+are you building the solution for 1 company? that's it?
+
+beside, the documentation we ask her is to document the feedback not the project. 
+
+Documenting the project should be done by default.
+
+
+
+**Feedback analysis**<br>
+i'm not sure that is this enough analysis. again you don't have much feedback 
+
+**Roadmap and enhancement**<br>
+missing
+
+
+**Grade: 2/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

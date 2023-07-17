@@ -1,3 +1,6 @@
+# Pitch Deck
+{{< embed-pdf url="/Ayoto/Final_Presentation.pdf" >}}
+
 # Week 1 Report
 
 ## Team Members
@@ -22,7 +25,6 @@ Our platform revolutionizes the healthcare experience by providing a comprehensi
 #### Main Features List
 * A bot for prelimintary diagnosis for the user
 * Doctors Online Booking service for partner diagnostic centers
-* Dataset with additional list of doctors
 * Patient history tracking
 
 #### Additional Features
@@ -83,7 +85,7 @@ We plan to iterate and pivot based on user feedback by continuously collecting a
 Our team has a strategic plan to leverage the following resources for the development and success of our project:
 
 1- AI (Artificial Intelligence):
-    AI is a crucial resource that we will extensively utilize in our project. We will use an AI model for making a preliminary diagnosis based on the user's symptoms. 
+    AI is a crucial resource that we will extensively utilize in our project. We will use an AI model for making a preliminary diagnosis based on the user's symptoms. We will also utilize AI for understanding the topics we do not know using generative models like ChatGPT. Additionally, we will use AI to write the code effectively by using AI extensions like Github Copilot.
 
 2- Open-Source:
     Open-source resources play a significant role in our project's development and success. Our project is based on an open-source AI model that we will leverage for making a preliminary diagnosis based on the user's symptoms. Additionally, we will use open-source tools and libraries for the development of our platform.
@@ -94,11 +96,10 @@ Our team has a strategic plan to leverage the following resources for the develo
 Our project aims to revolutionize the healthcare industry by providing an intelligent and user-friendly platform that enables accurate disease diagnosis and personalized doctor recommendations. By leveraging artificial intelligence (AI) and advanced algorithms, we address the problem of inefficient diagnosis and the challenge of finding suitable doctors for specific conditions. Our platform streamlines the healthcare process, saving time and effort for users while ensuring they receive the most relevant and effective medical care.
 
 ### Tech Stack
-* Frontend: React.js, TailwindCSS, nextJs
-* Backend: Python, Java, LUA
-* Database: PostgreSQL
+* Frontend: React.js, TailwindCSS, nextJs, Redux
+* Backend: Python, FastAPI, Java, Spring Boot
+* Database: Postgresql with PostGIS extension
 * Mobile: Flutter
-* AI: NLP, Decision trees
 
 ### Anticipation Future Problems
 1- Data Privacy and Security: We anticipate the need for robust security measures to protect user data and comply with privacy regulations. Implementing encryption, secure data storage, and strict access controls will be essential.
@@ -129,19 +130,19 @@ We have agreed on the main design for our website and mobile application. The de
 ### Integration and APIs
 We will be using the following APIs:
 * Symptom Checker API
-* Auth0 API
+* Geocoding API
 
 ### Scalability & Performance
-Our platform will utilize Kubernetes (k8s) and Nginx to ensure scalability and optimal performance. Kubernetes allows for easy scaling by dynamically allocating resources based on demand, while Nginx serves as the load balancer, distributing traffic across multiple instances of the application. These technologies work together to handle increased user loads and deliver a high-performance experience.
+Our platform will utilize Kubernetes (k8s) and traefik to ensure scalability and optimal performance. Kubernetes allows for easy scaling by dynamically allocating resources based on demand, while traefik serves as the load balancer, distributing traffic across multiple instances of the application. These technologies work together to handle increased user loads and deliver a high-performance experience.
 
 ### Security and Privacy
 The platform will incorporate robust security measures to protect user data and ensure privacy. This includes implementing authentication and authorization mechanisms, encrypting sensitive data at rest and in transit, and adhering to relevant security standards and best practices.
 
 ### Error Handling and Resilience
-We will employ unit tests for comprehensive code validation and utilize Grafana and Prometheus for effective monitoring and alerting. This approach ensures robust error handling, proactive issue identification, and enhances application resilience.
+We will employ manual testing and unit testing for comprehensive code validation. This approach ensures robust error handling, proactive issue identification, and enhances application resilience.
 
 ### Deployment and DevOps
-We will implement CI/CD (Continuous Integration/Continuous Deployment) using Travis and Jenkins. These tools will automate the build, testing, and deployment process, ensuring efficient software delivery.
+We will implement CI/CD (Continuous Integration/Continuous Deployment) using Terraform and GitHub actions. These tools will automate the build, testing, and deployment process, ensuring efficient software delivery.
 
 
 ## Questionnaire
@@ -277,7 +278,7 @@ But I feel that the home page contains a lot of information. Better to make it s
 Good!
 
 **Next Steps**<br>
-Good. You should relay think of testing with users (Usability testing)
+Good. You should really think of testing with users (Usability testing)
 
 **Overall**<br>
 Good report, you should focus more on testing the product.
@@ -308,7 +309,6 @@ Additionally, we received some feedback from users and we will be considering it
 
 On top of that, our team is also working on implementing the rest of the features in the prototype.
 
-
 {{< hint danger >}}
 **Feedback**  
 
@@ -337,10 +337,52 @@ An iteration plan is essentially the plan for an upcoming iteration. It would ty
 **Overall**<br>
 The report ok. Please give some more time reflecting / writing the report!!!.
 
-
-**Grade: 2/5**
+**Grade: 3/5**
 
 
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+# Week 5 Report
+
+## Collected Feedback Results
+
+We have conducted a survey to gather feedback from users about the prototype we have developed. 11 Persons filled the survey. The survey was mainly about the user experience of the prototype and the functionality of the chatbot. The results of the survey is shown in the following photos:
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/cb0z4Nz/q1.png" alt="q1" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/02JBdpp/q2.png" alt="q2" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/JmRg6f2/q3.png" alt="q3" border="0"></a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/rk3Bjk0/q4.png" alt="q4" border="0"></a>
+<a href="https://ibb.co/VpnSwh4"><img src="https://i.ibb.co/M5wVBj0/q5.png" alt="q5" border="0"></a>
+
+From the feedback we collected, we found that most of the users liked the idea of the prototype and they find it useful. Also, most of the users found the chatbot easy to use and they liked the design of the chatbot. However, some users reported some problems regarding their experience with the platform. We will be considering the feedback we got to make our product better.
+
+## Feedback Collection Plan
+To ensure systematic and standardized feedback collection, we will be following the follwoing methods:
+
+### 1. Algorithmic Feedback Collection
+Online forms and charts will be created to quantitatively assess the product or its specific features. This approach will allow for the collection of standardized feedback from a larger user base. The online forms will be designed to capture relevant metrics such as usability, functionality, and overall satisfaction.
+
+### 2. One-on-One Feedback Sessions:
+One-on-One Feedback Sessions:
+In addition to the algorithmic approach, individual user surveys and feedback sessions will be conducted. These sessions will provide an opportunity for users to provide detailed feedback, share their experiences, and suggest improvements. The sessions will be structured using specific questions or areas of focus to gather feedback on.
+
+By following this feedback collection plan, we aim to gather comprehensive and valuable insights, ensuring a well-rounded understanding of the product's strengths, weaknesses, and areas for improvement.
+
+## Feedback Documentation
+All feedback received from stakeholders will be carefully documented to ensure clear identification of specific areas for improvement or enhancement. Each feedback item will be attributed to the respective stakeholder and categorized based on the identified themes or issues. This documentation will serve as a reference for further analysis and prioritization.
+
+## Feedback Analysis and Prioritization
+The feedback collected will be analyzed to identify the most common themes or issues. These themes will be prioritized based on the frequency of occurrence and the severity of the issue. The prioritized themes will be used to guide the development of the product roadmap and the prioritization of future features.
+
+## Implementation of changes
+Some users reported bugs and suggestions to improve the UX of the prototype such as the auto scrolling feature in the chatbot. Our developers are currently working on fixing these bugs and implementing the suggestions we got from the users.
+
+## Refinement of Product Roadmap
+We have refined our road map based on the feedback we recieved and the problems we discovered during developing and testing the platform. One of the main aspects we decided to change is to develop our own AI chatbot in the future instead of using a third party chatbot.
+
+ We received some comments from the users about the performance of the current chatbot but we are not able to modify them as we are not the owners of the chatbot. Therefore, we decided to develop our own chatbot in the future to have more control over it and improve its performance.
+
+Our Roadmap after Refinment is shown in the following image:
+<a href="https://ibb.co/RQNtNbf"><img src="https://i.ibb.co/fr9Z9Ff/Roadmap-Cropped.png" alt="Roadmap-Cropped" border="0"></a>

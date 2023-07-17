@@ -753,6 +753,10 @@ During this week we collected even more feedback, provided a list of upgrades to
 analyzed server requirements, filtered TTS-STS models by license, and contacted main Piper 
 developer for help. We are on a productivity streak!
 
+{{< hint danger >}}
+Alright, amazing reports, as usual. Kudos for being active! 
+{{< /hint >}}
+
 ## External feedback v2
 
 **STT:**\
@@ -944,4 +948,11 @@ messages in the current chat room is shown to the users. Alongside that, this is
 where the users actually hear what other people in the chat room are saying, translated into 
 the user’s language and spoken using TTS and voice-cloning.
 
+{{< hint danger >}}
+Alright, report is good. Liked the survey data. Noted the absence of the final presentation on the top of the file. Please add that.
+Overall, 5 the week! And good luck with the project and the final presentation!
 
+Your team is doing wonders and I am sincerely wish you success!
+If you'll need any support even after project - do not hesitate to contact me.   
+Cheers, Rustam
+{{< /hint >}}

@@ -4,11 +4,13 @@ bookFlatSection: true
 title: "InnoMastery"
 ---
 <img src="/InnoMastery/logo.png" alt="Tuxi" width="300"/> \
-**Welcome to InnoMastery — a new course platform for everyone!**
+**Welcome to InnoMastery — study Linux on a brand new platform!**
 
-# **Week #1 Report**
+# **Project presentation**
 
-## Team Members
+[<img src="/InnoMastery/presentation-icon.png" alt="Presentation link" width="300">](/InnoMastery/InnoMastery-presentation.pdf)
+
+# **Team Members**
 
 | Team Member        | Telegram ID                                          | Email Address                       |
 | ------------------ | ---------------------------------------------------- | ----------------------------------- |
@@ -18,6 +20,9 @@ title: "InnoMastery"
 | Dmitrii Alekhin    | [@dmfrpro](https://t.me/dmfrpro)                     | d.alekhin@innopolis.university      |
 | Leila Khaertdinova | [@leila1kh](https://t.me/leila1kh)                   | l.khaertdinova@innopolis.university |
 | Roman Molochkov    | [@roman_molochkov](https://t.me/roman_molochkov)     | r.molochkov@innopolis.university    |
+
+
+# **Week #1 Report**
 
 ## Value Proposition
 
@@ -240,7 +245,7 @@ Good, but the component isn’t really connected. I mean what is the difference 
 
 Good
 
-**3. UI Design **
+**3. UI Design**
 
 I like the design very much.
 
@@ -493,6 +498,7 @@ First, integration with Coder remains our biggest priority. With Coder, our codi
 
 Second, we will focus on polishing the platform. For students to understand the material better, we need to support videos as well as animated terminal sessions in the theoretical material. In addition, the platform should remember where the student stopped the last time so that students can jump right back in when they come back. Last but not least, we will adapt the website for mobile screens, add PWA support, and fix discovered bugs to ensure the best possible UX for our students.
 
+{{< hint danger >}}
 
 **Collecting and documenting feedback**<br>
 Very good!
@@ -502,9 +508,53 @@ Very good!
 Very good!
 
 **Roadmap and enhancement**<br>
-Missing Roadmap. bit's genraly written what will you do. but this is cou;d not be considered as a roadmap 
+Missing Roadmap. bit's genraly written what will you do. but this is could not be considered as a roadmap 
 
 
 **Grade: 5/5**
 
+{{< /hint >}}
 
+
+
+# **Week #6 report**
+
+This week, we primarily focused on polishing our website to improve the UX and make it feel like a complete product. Nonetheless, we’ve also finalized a new big feature that we started working on a few weeks ago: a chatbot to help students learn.
+
+## Chatbot
+
+When you open a lesson, you can now see a button to open the chatbot in the bottom-right corner of the screen.
+
+![Tuxibot closed](/InnoMastery/tuxi-bot-closed.png)
+
+When you click it, you’re presented with a chat with our Tuxibot. You can ask it any question that comes up to your mind while studying the material.
+
+![Tuxibot opened](/InnoMastery/tuxi-bot-opened.png)
+
+Moreover, you can ask it for hints when you get stuck answering a question or solving a coding task. Tuxibot is available on those steps as well—but it won’t give you the solution away.
+
+Our tuxibot is powered by ChatGPT, a model from OpenAI. We utilized their API to implement our own chatbot for the platform.
+
+## Polishing the website
+
+While our ML engineers were building the chatbot, the rest of the team focused on finalizing features in development and ensuring a smooth user experience before the MVP.
+
+Some articles include videos or GIFs to better illustrate a particular point, e.g. what happens when running the exit command. This week, we added support for videos in the article viewer.
+
+![GIFs on site](/InnoMastery/gifs-on-site.png)
+
+Although one could already switch between articles and questions, trying to open a coding task showed a white screen. Now coding tasks are supported on the website.
+
+![Coding tasks](/InnoMastery/coding-tasks.png)
+
+Moreover, we added a button at the bottom of the page to take you to the next step. This significantly simplifies navigation between steps.
+
+![Next step button](/InnoMastery/next-step-button.png)
+
+Last but not least, we hid features that are still in development. For example, after signing up, the user can start studying right away, no longer waiting for a confirmation email that will never arrive.
+
+![No email confirmation](/InnoMastery/no-email-confirmation.png)
+
+Likewise, the “Last time, you stopped at…” message on the landing page is removed too, waiting for the times to get better.
+
+Overall, our platform is now viable for wider use, and we can’t wait to show it on the Final presentation and tell more about the course we’re building upon it.

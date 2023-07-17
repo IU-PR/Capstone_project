@@ -172,3 +172,9 @@ Please, consider accelerating the dev process to make it to the finals
 3/5 for both weeks
 
 {{< /hint >}}
+
+{{< hint danger >}}
+Hi, all good? Please add the final presentation to the top of the file. 
+Is there any updates for the week 5? Please add them if you have any. 
+Otherwise - 0 for the week. 
+{{< /hint >}}

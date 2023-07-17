@@ -4,7 +4,7 @@ bookFlatSection: true
 title: "FairLance"
 ---
 
-# **Project presentaion**
+# **Fairlance presentaion**
 
 {{< embed-pdf url="/fairlance/fairlance.pdf" >}}
 

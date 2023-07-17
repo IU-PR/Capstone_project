@@ -11,6 +11,16 @@ InтTime is a project that will help students and professors save time searching
     <img src="/InnTime/logo.svg" width="500" height="300">
 </div>
 
+Link to the deployed project:
+[InnTime Schedule](https://kurl.ru/yoXYM)
+
+Link to the project Demo:
+[InnTime Schedule Demo Video](https://drive.google.com/drive/folders/11XC5d4RO6XgTQb6lS9epTrZrShrZHy8m?usp=sharing)
+
+Below, you can find a PDF explaining project:
+
+{{< embed-pdf url="/InnTime/InnTime.pdf" >}}
+
 
 
 # **Week #1**
@@ -325,7 +335,7 @@ As a use in our project, we will do the following: small pieces of our project w
 
 ### **Tech Stack and Team Allocation**
 - Nikita - reports + product manager + textwriter + developer
-- Evgeny is the architecture manager of the entire project + techlid
+- Evgeny is the architecture manager of the entire project + techlead
 - Insaf - Data processing and markup specialist + tester
 - Vladimir - API development
 - Boris - Database design + devops

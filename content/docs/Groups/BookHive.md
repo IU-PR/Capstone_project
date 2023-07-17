@@ -1,5 +1,8 @@
 # **<p style="text-align: center">BookHive</p>**
 
+## **Presentation**
+{{< embed-pdf url="/BookHive/BookHive.pdf" >}}
+
 ## **Week 1 report**
 
 This week, our main task was to form a balanced all-around team and choose the general theme and outline of our project. Creating a team was not hard, as we mostly already knew each other and our strengths. Below is the list of our members and the roles they can fill out during project development:

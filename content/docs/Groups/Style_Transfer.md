@@ -273,3 +273,9 @@ In this week we made huge progress in our model, now it generates visual pleasin
 <img src="/StyleTransfer/week5_example2.png">
 <img src="/StyleTransfer/week5_example3.png">
 <img src="/StyleTransfer/week5_example4.png">
+
+
+{{< hint danger >}}
+Images do look amazing!. Noted the absence of the final presentation on the top of the file. Please update the file accordingly
+5 the week! And good luck with the project and the final presentation! You have accomplished a lot! Cheers 
+{{< /hint >}}

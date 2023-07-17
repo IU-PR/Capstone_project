@@ -11,7 +11,7 @@ title: "AI Career Guide"
 
 In an ocean of different paths, finding a career that suits *you* was never an easy task. Some people do not know were to start, while others question themselves about the choice after few steps.
 
-![Logo](/AICareerGuide/presentation.pdf)
+![Logo](/AICareerGuide/AICareerGuide.pdf)
 
 **AI Career Guide** is an [open-source](https://gitlab.com/ai-career-guide) online service that helps people find and follow their career path. By completing series of single choice questions about their preferences, a person receives *AI-generated job suggestions* that suit them. The Guide offers *roadmaps* for the suggested careers to make learning easier and *real vacancies* to motivate people.
 

@@ -4,6 +4,10 @@ bookFlatSection: true
 title: "FairLance"
 ---
 
+# **Project presentaion**
+
+{{< embed-pdf url="/fairlance/fairlance.pdf" >}}
+
 # **FairLance**
 
 Introducing [FairLance](http://fairlance.ru/), an innovative platform that aims to provide fair opportunities to freelancers worldwide. Leveraging decentralized technologies, our website will transcend geographical boundaries, empowering freelancers to expand their reach without worrying about excessive fees, unlike other conventional freelancing platforms

@@ -13,6 +13,8 @@ Write concise and well-written project description here. To enhance it further, 
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of potential readers. 
 {{< /hint >}}
 
+{{< embed-pdf url="/StyleTransfer/StyleTransfer.pdf" >}}
+
 # Week 1
 
 | Team Member            | Telegram ID   | Email Address       |

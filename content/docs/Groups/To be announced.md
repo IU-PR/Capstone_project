@@ -6,6 +6,8 @@ title: "To be announced - Identification of compounds"
 
 # **To be announced - Identification of compounds**
 
+{{< embed-pdf url="/PDF/To_be_announced.pdf" >}}
+
 # **Week #1 Progress report**
 
 ## **Team Formation and Project Proposal**

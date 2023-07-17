@@ -508,3 +508,9 @@ The LogiFlex team developed a comprehensive presentation that showcases the prog
 Week 6 represented a motivating final push to complete the tasks, despite delays and challenges encountered in previous weeks. The team successfully completed the assigned tasks and expressed confidence in the market demand for the LogiFlex project.
 
 Such experience of work and collaboration has shown that the algorithm of optimal arrangement of heterogeneous goods is relevant in the market and further development of LogiFlex will definitely go beyond the student course.
+
+
+{{< hint danger >}}
+Alright, reports are good, as usual. Liked the data visualizations. Please upload the final presentation to the top of the file.
+5 for both weeks
+{{< /hint >}}

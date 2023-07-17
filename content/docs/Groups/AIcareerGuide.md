@@ -9,6 +9,8 @@ title: "AI Career Guide"
 # **Week 1**
 # **Introduction**
 
+Our final ![presentation](/AICareerGuide/presentation.pdf)!
+
 {{< hint danger >}}
 
 **Feedback**  

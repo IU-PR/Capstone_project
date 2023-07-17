@@ -323,3 +323,10 @@ Good, we still have some time to integrate the front with the backend. Make it a
 - As for the documentation of the feedback, we used Google Docs to assign importance of each problem. The areas of improvement and enhacement were written down and are currently being either fixed or improved. 
 
 - Right now, our team finally merged frontend and backend. We faced several problems (our hosting banned us, one of our team members left), we finally merged all parts and our project can at least function. For now, some functions are not fully implemented and few problems occured.
+
+
+# **Week #6**
+
+## **Presentation**
+
+- https://docs.google.com/presentation/d/1zovQb_PR696bnXYWAZnWumElyF3NsTbc4F1QvEJkTNw/edit#slide=id.p

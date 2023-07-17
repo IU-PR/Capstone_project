@@ -952,7 +952,7 @@ the user’s language and spoken using TTS and voice-cloning.
 Alright, report is good. Liked the survey data. Noted the absence of the final presentation on the top of the file. Please add that.
 Overall, 5 the week! And good luck with the project and the final presentation!
 
-Your team is doing wonders and I am sincerely wish you success!
+Your team is doing wonders and I am sincerely wishing you success!
 If you'll need any support even after project - do not hesitate to contact me.   
 Cheers, Rustam
 {{< /hint >}}

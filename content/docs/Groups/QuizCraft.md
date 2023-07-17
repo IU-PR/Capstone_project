@@ -19,6 +19,11 @@ Using QuizCraft is as **easy** as this:
 
 **Ready** to Get Started? **[Visit website](http://10.90.138.70:9000)**
 
+Also, check out the **source code**. You are welcome to contribute!
+- [Our Django Server](https://github.com/QuizCraftCorporation/DjangoQuizCraftBackend)
+- [Quiz Generation GitHub repo](https://github.com/QuizCraftCorporation/QuizGeneratorModel)
+- [SearchEngine for quizzes](https://github.com/QuizCraftCorporation/SearchEngine)
+- [Flutter Website](https://github.com/QuizCraftCorporation/FlutterWebsite)
 
 
 ## **Team Members**
@@ -511,6 +516,33 @@ Missing
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+# Week 6
+
+## Polishing the website
+
+### Frontend:
+- Increased font
+- Centered some components
+- Shrinked the length of fields
+- Added explore and logout buttons to a header
+- Added landing page with some instructions
+- Explore page is populated
+- Handle errors when registering
+- Icons for public and private own quizzes
+
+
+### Backend:
+- Enhance question evaluation to proportional (instead of binary)
+- Add explore metrics such as views and passes
+- Added history of own views
+- display all quizzes
+
+### AI:
+- Comprehensive description of quizzes is created
+- Search is integrated successfully
+- Fixed bugs with quiz desccription and answers
 
 
 

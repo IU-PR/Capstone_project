@@ -2,6 +2,14 @@
 
 > _— desirable room booking service for Innopolis University_
 
+# **👉 Presentation 👈**
+
+- Check out <u> [our slides (PDF)](/bookinng/presentation.pdf)</u>
+- Come to the room #314 on 19th of July
+- Try our BETA-release (TBA)
+
+---
+
 # **Week 1**
 
 > Team formation and project proposal
@@ -997,25 +1005,15 @@ course finishes. So here is our brief roadmap:
    - Implement design and functionality we’ve created for TV-screens near the
      meeting rooms
 
+{{< hint danger >}} **Feedback**
 
-{{< hint danger >}}
-**Feedback**  
+**Collecting and documenting feedback**<br> Very good!
 
-**Collecting and documenting feedback**<br>
-Very good!
+**Feedback analysis**<br> I didn't see how did you analysis these feedback and
+how will it reflect in your product
 
-
-**Feedback analysis**<br>
-I didn't see how did you analysis these feedback and how will it reflect in your product 
-
-**Roadmap and enhancement**<br>
-Very good!
-
+**Roadmap and enhancement**<br> Very good!
 
 **Grade: 4.5/5**
 
-
-
-
-_Feedback by Moofiy_
-{{< /hint >}}
+_Feedback by Moofiy_ {{< /hint >}}

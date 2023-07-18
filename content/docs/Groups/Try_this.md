@@ -416,3 +416,54 @@ The report is ok, you need to reflect on what is requested an do it properly
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+# **Week #5**
+
+Last week, our team conducted solution interviews to gather feedback and insights from users. These interviews allowed us to understand their needs, preferences, and pain points related to our solution. However, we recognized the need to streamline and scale this feedback collection process. So, to address this issue we launched a [Google Form](https://forms.gle/u8F91wtgtUudewhQ9). It is important to note that it does not provide statistical analysis or quantitative metrics. Instead, we focused on analyzing the responses to identify common themes, patterns, and recurring issues raised by users. 
+
+Here are the insights:
+1. Most people believe that we covered all features that were announced
+2. Add more options for outfit circumstances
+3. User flow is intuitive but outfit estimation is not clear. So, we are going to add instructions at the beginning
+
+These were the most frequent comments, so it is only fair to address those issues first.
+
+
+As part of our user research efforts, we recently launched a [Google Form](https://forms.gle/G2fC2ooNTiunbkr89) aimed at collecting a database of individuals who experience challenges with styling and fashion choices. The form was designed to identify potential users who would be interested in being the first adopters of our MVP.
+
+This engaged group of individuals will play a crucial role in shaping the direction and success of our product. Their experiences and feedback will guide us in tailoring our solution to meet their specific needs and deliver a more effective and user-centered experience.
+
+Based on the statistics gathered from our Google Form, we have confirmed the target audience for our solution. The data revealed that 53.1% of respondents fall within the age range of 18-25, indicating strong interest from young people. Additionally, 68.8% of respondents identified as women, suggesting a significant preference for our solution among this demographic.
+
+These insights validate our initial assumptions about the target audience and highlight the potential demand for our product among young individuals, particularly women. Understanding the specific demographics that are most interested in our solution allows us to tailor our marketing and product development strategies accordingly. 
+
+The main challenges that people face with choosing clothes:
+1. Spending too much time trying clothes on
+2. Cannot create color matching outfits effectively
+3. Too little clothes range (monotony)
+
+
+
+{{< hint danger >}}
+**Feedback**
+
+**Collecting and documenting feedback**<br>
+good! but it was missing how did you documented the feedback 
+but you need to send me the result if the form 
+
+**Feedback analysis**<br>
+very good!! 
+
+**Roadmap and enhancement**<br>
+missing
+
+your grade is 3.5/5 if you send me the result of the form, i will increase it to 4.5
+
+**Grade: 3.5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+# **Week #6**
+[Try This.pdf](https://github.com/IU-PR/Capstone_project/files/12070660/Try.This.pdf)

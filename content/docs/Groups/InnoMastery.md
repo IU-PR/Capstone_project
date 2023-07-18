@@ -4,11 +4,13 @@ bookFlatSection: true
 title: "InnoMastery"
 ---
 <img src="/InnoMastery/logo.png" alt="Tuxi" width="300"/> \
-**Welcome to InnoMastery — a new course platform for everyone!**
+**Welcome to InnoMastery — study Linux on a brand new platform!**
 
-# **Week #1 Report**
+# **Project presentation**
 
-## Team Members
+[<img src="/InnoMastery/presentation-icon.png" alt="Presentation link" width="300">](/InnoMastery/InnoMastery-presentation.pdf)
+
+# **Team Members**
 
 | Team Member        | Telegram ID                                          | Email Address                       |
 | ------------------ | ---------------------------------------------------- | ----------------------------------- |
@@ -18,6 +20,9 @@ title: "InnoMastery"
 | Dmitrii Alekhin    | [@dmfrpro](https://t.me/dmfrpro)                     | d.alekhin@innopolis.university      |
 | Leila Khaertdinova | [@leila1kh](https://t.me/leila1kh)                   | l.khaertdinova@innopolis.university |
 | Roman Molochkov    | [@roman_molochkov](https://t.me/roman_molochkov)     | r.molochkov@innopolis.university    |
+
+
+# **Week #1 Report**
 
 ## Value Proposition
 
@@ -240,7 +245,7 @@ Good, but the component isn’t really connected. I mean what is the difference 
 
 Good
 
-**3. UI Design **
+**3. UI Design**
 
 I like the design very much.
 
@@ -449,3 +454,107 @@ _Feedback by Moofiy_
 {{< /hint >}}
 
 
+
+# **Week #5 Report**
+
+## Feedback
+
+This week, we wanted to gather feedback not just from our friends but from a wider audience. We already had it: a few months ago, we gathered a focus group to collect feedback about our course. Now we have asked them to review the platform that we are building for this course.
+
+![Course beta-test telegram chat](/InnoMastery/telegram-chat.png)
+
+To collect feedback in a more convenient and insightful way, we have created a survey of user satisfaction with our product. By doing this survey, we hoped to learn more about our product from the user’s perspective. We asked about the feelings about our platform, UI/UX, as well as any encountered issues or bugs. For those interested, here is the [<ins>survey</ins>](https://forms.gle/n6DHyqRf7VgJJ6cV7).
+
+As a result, we have collected a lot of useful feedback. From the responses, we have gathered the following observations:
+
+- Our name and domain are catchy, which is great. Almost 70% of users can easily type the domain into a browser.
+![Name feedback](/InnoMastery/name-feedback.jpeg)
+- The majority of users are satisfied with the color palette used in the product.
+![Colors feedback](/InnoMastery/colors-feedback.jpeg)
+- Users have no trouble signing up.
+- Some users did not like the font used in the UI, as the numbers "3" and "6" are shifted downwards from the rest of the text.
+- Certain uses have raised concerns about how images are loaded and how some of them are too big.
+- Luckily, our platform is considered reliable by the majority of users.
+![Trustworthy feedback](/InnoMastery/trustworthy-feedback.jpeg)
+
+If the respondent wanted to provide their contacts, they could do so in the survey. Some of the people did, and we’re going to reach out to those who provided insightful feedback soon. This will let us ask them additional questions through which we’ll learn more about how users want to interact with our product.
+
+Now that we conducted the feedback survey, we have evaluated the user satisfaction and identified areas for improvements that we will prioritize in the remaining time.
+
+## Improvement
+
+Before the final presentation of our MVP, we will focus on the details of the platform, so the platform feels complete and ready for production. Based on the feedback received, we decided on the following improvements:
+
+1. Change the sign-up flow until we implement email verification;
+2. Finish implementing automatic question grading;
+3. Add navigation between steps;
+4. Improve the design of the website so it responds to user interaction (hovering over elements, clicking them, etc.).
+
+## Reflection
+
+We strive to release our course on our own platform in the next few months. In the current state, the prototype mostly replaces Stepik for our needs. However, we have to put more effort before publishing the course: we must bring in features that will distinguish our platform among already popular ones and bring the best experience to our students.
+
+First, integration with Coder remains our biggest priority. With Coder, our coding tasks will bloom at their finest. The coding tasks are the strength of our course, as they show students how their new knowledge is applied in practice. Coder will let the student focus on solving the task, removing the hassle of setting up a local environment.
+
+Second, we will focus on polishing the platform. For students to understand the material better, we need to support videos as well as animated terminal sessions in the theoretical material. In addition, the platform should remember where the student stopped the last time so that students can jump right back in when they come back. Last but not least, we will adapt the website for mobile screens, add PWA support, and fix discovered bugs to ensure the best possible UX for our students.
+
+{{< hint danger >}}
+
+**Collecting and documenting feedback**<br>
+Very good!
+
+
+**Feedback analysis**<br>
+Very good!
+
+**Roadmap and enhancement**<br>
+Missing Roadmap. bit's genraly written what will you do. but this is could not be considered as a roadmap 
+
+
+**Grade: 5/5**
+
+{{< /hint >}}
+
+
+
+# **Week #6 report**
+
+This week, we primarily focused on polishing our website to improve the UX and make it feel like a complete product. Nonetheless, we’ve also finalized a new big feature that we started working on a few weeks ago: a chatbot to help students learn.
+
+## Chatbot
+
+When you open a lesson, you can now see a button to open the chatbot in the bottom-right corner of the screen.
+
+![Tuxibot closed](/InnoMastery/tuxi-bot-closed.png)
+
+When you click it, you’re presented with a chat with our Tuxibot. You can ask it any question that comes up to your mind while studying the material.
+
+![Tuxibot opened](/InnoMastery/tuxi-bot-opened.png)
+
+Moreover, you can ask it for hints when you get stuck answering a question or solving a coding task. Tuxibot is available on those steps as well—but it won’t give you the solution away.
+
+Our tuxibot is powered by ChatGPT, a model from OpenAI. We utilized their API to implement our own chatbot for the platform.
+
+## Polishing the website
+
+While our ML engineers were building the chatbot, the rest of the team focused on finalizing features in development and ensuring a smooth user experience before the MVP.
+
+Some articles include videos or GIFs to better illustrate a particular point, e.g. what happens when running the exit command. This week, we added support for videos in the article viewer.
+
+![GIFs on site](/InnoMastery/gifs-on-site.png)
+
+Although one could already switch between articles and questions, trying to open a coding task showed a white screen. Now coding tasks are supported on the website.
+
+![Coding tasks](/InnoMastery/coding-tasks.png)
+
+Moreover, we added a button at the bottom of the page to take you to the next step. This significantly simplifies navigation between steps.
+
+![Next step button](/InnoMastery/next-step-button.png)
+
+Last but not least, we hid features that are still in development. For example, after signing up, the user can start studying right away, no longer waiting for a confirmation email that will never arrive.
+
+![No email confirmation](/InnoMastery/no-email-confirmation.png)
+
+Likewise, the “Last time, you stopped at…” message on the landing page is removed too, waiting for the times to get better.
+
+Overall, our platform is now viable for wider use, and we can’t wait to show it on the Final presentation and tell more about the course we’re building upon it.

@@ -6,6 +6,8 @@ Hi! We are team CockTail and our project is an AI which generates a cocktail bas
 <img src='/CockTail/logo.png' width="300" height="300"> 
 </div>
 
+{{< embed-pdf url="/CockTail/Presentation.pdf" >}}
+
 # **Week 1**
 
 ## **Team Formation and Project Proposal**
@@ -77,11 +79,11 @@ _Feedback by Moofiy_
     
 3. How will you validate and test your assumptions about the project?
     
-    *We ask our users to estimate the result (cocktail)* 
+    *We ask our users to estimate the result (cocktail). They should rate the cocktail by flavor and strength* 
     
 4. What metrics will you use to measure the success of your project?
     
-    *Client satisfaction, time of performance* 
+    *Client satisfaction, time of response* 
     
 5. How do you plan to iterate and pivot if necessary based on user feedback?
     
@@ -112,7 +114,7 @@ _Feedback by Moofiy_
 
 - AI (Artificial Intelligence):
     
-    *To do this task we will use NLP model for working with text. Also the dataset  of cocktails recipes that we have do not contain any information about the cocktail flavor.  For that purpose we will use OpenAI Chat-GPT source.*
+    *To do this task we will use Greedy Algorithm and Text model. Also the dataset  of cocktails recipes that we have do not contain any information about the cocktail flavor.  For that purpose we will use OpenAI Chat-GPT source.*
     
 - Open-Source:
     
@@ -488,4 +490,49 @@ Server:
 Overall I've had a good impression about your project. Reports are up to the point. 
 Make sure to do the last sprints to achive the MVP
 5/5 for the week!
+{{< /hint >}}
+
+# **Week 5**
+
+## **Application**
+
+https://cocktail.chickenkiller.com/
+
+## **Feedback collection**
+
+ On this week in addition to ordinary feedback collection we had a meeting with bartenders. We ask them about cocktail recipes and if the app features works correctly. During that meeting among other things we came to the conclusion that our web application will be more convenient for non-professional users, and bartenders are unlikely to use it in professional activity. 
+
+ Summarize bartenders’ and ordinary users’ feedback we have the next information:
+
+**Positive**:
+
+- Majority of users like new feature with redirecting from ingredient name to relevant google page
+- Scales at PickUp page become more understandable
+- Cocktail page looks clear and representative
+
+**Negative**:
+
+- Interface needs tweaking: fit pictures size, text location
+- For PickUp page cocktails needs actual images
+- Some users wants resizable list of possible ingredients at MixUp page
+- If Top10 list looped it would be more comfortable
+
+## **Necessary changes**
+
+1. Add images to cocktails for PickUp
+2. Improve the ingredient’s amount for MixUp algorithm
+3. Add MixUp algorithm to generate recipes for ingredient list
+4. Probably, add calorie counter
+
+## **Comments from interviews**:
+
+- “Overall, the application is interesting, but it is more suitable for average users in everyday life. For bartenders it will be difficult, since it will be hard to calculate the price of such cocktails . Also it will be pleasant to add calorie counter, since many people keep track of the amount of calories they consume.”
+
+{{< hint danger >}}
+
+I am pleased to see that project is rapidly taking shape and already deployed!
+Agree with the comments - price level for new cocktails is hard to pick.
+Overall, nice report and progress.
+  
+5/5 for the week, and see you soon! Cheers, Rustam
 {{< /hint >}}

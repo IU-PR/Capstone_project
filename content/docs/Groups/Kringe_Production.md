@@ -19,6 +19,10 @@ Write concise and well-written project description here. To enhance it further, 
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of a potential reader. 
 {{< /hint >}}
 
+![Presentation of the project](/kringe_production_images/Kringe_Production.pdf)
+Pic. 1. Presentation of the project "UniHub" by team Kringe Production.
+
+
 # **Week #1**
 
 **Identify the Problem:**

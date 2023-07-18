@@ -4,6 +4,9 @@ bookFlatSection: true
 title: "MockMentor"
 ---
 # **MockMentor**
+
+- https://docs.google.com/presentation/d/1zovQb_PR696bnXYWAZnWumElyF3NsTbc4F1QvEJkTNw/edit#slide=id.p
+
 # **Introduction**
  
 {{< hint danger >}}
@@ -300,3 +303,40 @@ Good, we still have some time to integrate the front with the backend. Make it a
 {{< /hint >}}
 
 ---
+
+
+# **Week #5**
+
+## **Weekly tasks**
+
+- Regarding stakeholders, our team came up with the idea ourselves and do not have any funding or stakeholders. 
+
+- Our target audience is people looking for a job. Therefore, Innopolis students are ideal users to test our product. 
+
+- We used the Google Forms to receive feedback from our peers. The feedback showed that there were several points that users liked:
+    - the simplicity of the UI
+    - the idea of a project 
+    - the ability to use voice mesages that are translated into text on the fly. 
+- However, there were also some drawbacks that users faced. The main problems that users highlighted:
+    - the number of questions, there are still not enough of them, our team is planning to add more
+    - the absence of feedback (because right now, our product only gives you the percent of how correct your answer is) 
+    - problem with recognizing the voice (especially with different accents)
+    - users wanted some summary of the interview, showing how well the users performed it, and which themes
+
+- As for the documentation of the feedback, we used Google Docs to assign importance of each problem. The areas of improvement and enhacement were written down and are currently being either fixed or improved. 
+
+- Right now, our team finally merged frontend and backend. We faced several problems (our hosting banned us, one of our team members left), we finally merged all parts and our project can at least function. For now, some functions are not fully implemented and few problems occured.
+
+
+# **Week #6**
+
+## **Presentation**
+
+- https://docs.google.com/presentation/d/1zovQb_PR696bnXYWAZnWumElyF3NsTbc4F1QvEJkTNw/edit#slide=id.p
+
+{{< hint danger >}}
+
+I am pleased to see that project is rapidly taking shape! Merging the front and back is a great leap forward. 
+Moved the presentation to the top. You guys have accomplished a lot! Thank you for the hard work and dedication.
+5/5 for the week, and see you soon! Cheers, Rustam
+{{< /hint >}}

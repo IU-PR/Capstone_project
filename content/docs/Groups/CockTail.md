@@ -528,3 +528,11 @@ https://cocktail.chickenkiller.com/
 
 - “Overall, the application is interesting, but it is more suitable for average users in everyday life. For bartenders it will be difficult, since it will be hard to calculate the price of such cocktails . Also it will be pleasant to add calorie counter, since many people keep track of the amount of calories they consume.”
 
+{{< hint danger >}}
+
+I am pleased to see that project is rapidly taking shape and already deployed!
+Agree with the comments - price level for new cocktails is hard to pick.
+Overall, nice report and progress.
+  
+5/5 for the week, and see you soon! Cheers, Rustam
+{{< /hint >}}

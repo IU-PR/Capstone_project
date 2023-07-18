@@ -17,6 +17,8 @@ title: "LogiFlex"
 
 The project idea was so successful that the team managed to attract investments from interested investors immediately after its inception. Just nine days later, the project team successfully negotiated with [_the largest network of building materials in the Far East_](https://999111.ru/), securing payment for the development process, project delivery, and obtaining copyrights. This partnership aims to address the network's own logistical problems and optimize their transport processes.
 
+{{< embed-pdf url="/LogiFlex_images/LogiFlex_presentation.pdf" >}}
+
 **For collaboration inquiries or if you have any questions, feel free to reach out to me at: [_@GeorgiyBudnik_](https://t.me/GeorgiyBudnik) (Team Lead)**
 
 
@@ -379,15 +381,136 @@ This week was also the most unstable - one of our participants in our work fell 
 
 The next week will be devoted to the formation of a single file with the code that will perform all planned iterations, as well as the digitalization of the technology of the mutual arrangement of goods.
 
+# **Week Five**
+
+## Progress report - Week 5
+---
+Agenda:
+ - Weekly Progress Report 
+ - Final presentation preparation 
+ - Regular feedback and further development
+ ---
+
+### Weekly Progress Report
+
+Since product development and project implementation are coming to their logical end, the fifth week for our team meant structuring and highlighting the boundaries of work agreed with the customer. And also, the allocation of increased attention to the tasks that the customer has designated as paramount.
+
+Our week began with a meeting and feedback from Alexander, the head of the IT department of our customer, as a result of which the boundaries indicated above were formed. All the remaining points and moments were divided into tasks (evenly relative to the value for the customer) and presented in the form of a workspace:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/WorkSpace.jpg" alt="LogiFlex" width="700" height="1500">
+</div>
+
+{{< hint info >}}
+It's important to note that due to LogiFlex being a commercial project, the team cannot share the solution or any specifics as all copyrights belong to the customer.
+{{< /hint >}}
+
+During the fifth week, most of the tasks were completed, but this does not mean that there was little work left, since only the priority tasks necessary for further work were completed, and the rest was postponed to the sixth week. Roughly speaking, it can be said that the completion of all tasks on the blackboard means the end of paid work.
+
+Mainly, the tasks related to the construction of a more detailed structure and the case of non-standard location of objects, even taking into account the many existing restrictions.
+
+_For example: a toilet bowl, as a commodity, has sufficiently high indicators of fragility, but it is delivered in rigid sealed boxes, which allows you to put quite heavy objects on it (~40% of the total weight of the toilet bowl can be put on it). BUT, since it is delivered disassembled (main part + drain tank + lid + mechanism), it needs to be supplied to provide additional safety conditions and reduce all shaking in the truck to a minimum. After consulting with the customer and logisticians, it was decided to always put the toilet bowl to the lower left/right corner as close as possible to the cab of the truck. But such an arrangement and additional conditions exclude the laying of additional goods from above._
+
+We have been dealing with such, literally, paradoxes of opportunities-anti-opportunities all week and were able to achieve a working result of non-standard layouts for most products:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/FullyGeneticSolution.jpg" alt="LogiFlex" width="600" height="1500">
+</div>
+
+Above is an example of laying the same order without taking into account / taking into account non-standard cases of laying. According to the customer's estimates, 85-95% of all theoretical non-standard situations were taken into account by us. The key thing that pleases us is that we managed to achieve such a result WITHOUT losing capacity on all text orders.
+
+The team also made significant advancements in data visualization and animation. A legend of the order was developed, and the sequence of laying goods, along with their interactions, was visualized. Slide animation of the layout was implemented to demonstrate the results effectively:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/order1.gif" alt="LogiFlex" width="700" height="500">
+</div>
+
+This result was achieved due to a well-written and structured parser, which initially supplied values in "pure form", which greatly simplified and at the same time increased the efficiency of work.
+
+### Final presentation preparation 
+
+Based on our extensive experience of public speaking, we immediately concluded that most of the perception of our work depends on the presentation, and as it seems at first glance on the work done.
+
+Therefore, touching on this topic a little deeper, we began to develop an approximate speech plan and even tried to speak at one of the project defense sites to try to assess our strengths, highlight weaknesses. The recording of the 15-minute speech can be viewed [***here***](https://drive.google.com/file/d/1s24sBEynDkNC1CyzRS_L9BmKALoANutB/view?usp=sharing).
+
+The presentation of the project, the speaker and the format of the speech have not yet been finalized, since the main task was to try to speak and convey to the audience the key information of the project, motivating them to learn more.
+
+Based on the results of our presentation, we can conclude that the main idea was conveyed, but we need to make a greater bias on the ability to explain the work itself, showing it on the one hand complex and voluminous, but not to go into confusion and an unsurgmented strategy of "proving" the solution to our problem.
+
+In general, such experience was useful and showed our strengths and weaknesses during the defense of the idea, a brief explanation of the principle of work, as well as the design of our results.
+
+### Regular feedback and further development
+
+The LogiFlex team greatly valued regular feedback from external sources, including the head of the customer's IT department, colleagues, and friends. While collecting statistical feedback would have been useful, the team focused on informing and exploring different approaches to stacking goods due to time constraints and uncertain tasks. Feedback and opinions played a significant role in shaping the final vision and product.
+
+Our product does not need statistics or feedback directly. Of course, this would be useful, but in view of the limited amount of time and a large number of uncertain tasks, the decision was made based precisely on informing and thinking about different approaches to stacking goods. Unfortunately, we cannot disclose some of the subtle details of our work, but believe me, feedback and opinion have greatly influenced our final vision and product.
+
+Also, this week a record number of meetings were held (after the transaction) with the CEO of the customer company - 3 pieces. The head of the company shared his vision and further development of this project.
+
+As a result of numerous discussions (both with the customer and with people who have no connection with the project), we began to form further ideas for the development of our product:
+
+- In the customer company, our developments and understanding of the stowage of goods can be used not only in cargo vehicles, but also in warehouse areas. This approach will make it possible to build an already efficient ecosystem of cargo transportation, which can increase efficiency by another 12% according to our approximate calculations! (i.e., the overall efficiency of work relative to the current moment may increase by 35% or more).
+
+- Another aspect of further cooperation is the mutual stacking of goods between different trucks, taking into account their route maps. Such a thesis expands the mathematical problem that we have already solved, making the problem multifaceted. Also, it can increase the efficiency of work several times.
+
+- To complete improvements and unexplored algorithms. The most obvious, but effective method. The customer company, inspired by our results, became interested in further employment of employees in the state, which may be possible with the successful completion of the current project.
+
+Obviously, this is only a small piece of what can be done with a really working product. Nevertheless, the beginning of planning for further development has been laid, and the main thing is that there is interest on both sides in this!
+
+---
+
+Week 5 marked the narrowing of the work scope and the completion of tasks such as the data parser and the main algorithm for stacking goods. These parts were officially accepted by the customer, and the focus shifted towards preparing the final presentation and visualization of data. The upcoming week is expected to be busy as the team balances the desire for further enhancements and the need to conclude the project. The team looks forward to the final defense in two weeks.
+
+
+
+# **Week Six**
+
+## Progress report - Week 6
+---
+Agenda:
+ - Weekly Progress Report 
+ - Visualization of result
+ - Final presentation 
+ ---
+
+### Weekly Progress Report
+
+Despite the fact that the sixth week mainly concerned the completion of the work done on the course, the LogiFlex team was in full swing implementing new modifications and features of the product packaging algorithm.
+
+First of all, a re-collection of all tasks and improvements that had not yet touched (at that time) the algorithm was carried out. For example, visualization of cylinders and "stacking" of homogeneous goods. This and much more was implemented at almost four additional meetings this week. All tasks were recorded in the already used workspace:
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/WorkSpace_updates.jpg" alt="LogiFlex" width="700" height="1500">
+</div>
+
+{{< hint info >}}
+It's important to note that due to LogiFlex being a commercial project, the team cannot share the solution or any specifics as all copyrights belong to the customer.
+{{< /hint >}}
+
+Each task was worked out and redone several times, which made it possible to achieve a more specific vision of the product in detail. It cannot be said that this was a mandatory job, but it will definitely help us to continue to cooperate with the customer, which is in our opinion a very wise step.
+
+### Visualization of result 
+
+The visualization aspect of the project reached its finalized state. The layout of "emerging" orders, adaptation to different screen sizes, and internal functions for deploying the interface to various devices were completed.
+
+<div style="text-align: center;">
+  <img src="/LogiFlex_images/Instruction_final.png" alt="LogiFlex" width="700" height="1500">
+</div>
+
+The final visualization includes a pool of completed tasks and presents the results of the algorithm in the form of an instruction. The instruction features a color palette, intuitive symbols, and displays additional information, providing a comprehensive view of the packaging arrangement.
+
+### Final presentation 
+
+The LogiFlex team developed a comprehensive presentation that showcases the progress made over the course of 6-7 weeks. The presentation highlights the project's significance and serves as the first impression of the work accomplished. The team prioritized the value of the presentation and aimed to convey the progress and achievements effectively.
+
+---
+
+Week 6 represented a motivating final push to complete the tasks, despite delays and challenges encountered in previous weeks. The team successfully completed the assigned tasks and expressed confidence in the market demand for the LogiFlex project.
+
+Such experience of work and collaboration has shown that the algorithm of optimal arrangement of heterogeneous goods is relevant in the market and further development of LogiFlex will definitely go beyond the student course.
 
 
 {{< hint danger >}}
-
-**Feedback by Rustam**  
-I understand that sometimes the setbacks can kick-in. But it seems you and your team have a narrow focus and will be able to accomplish a lot during our short timeframe of only 7 weeks. 
-Please, keep up the pace, and make sure that the MVP will be delivered on time. 
-Good plan today is better than a perfect tomorrow. 
-
-5/5 for the week
-
+Alright, reports are good, as usual. Liked the data visualizations. Please upload the final presentation to the top of the file.
+5 for both weeks
 {{< /hint >}}

@@ -576,7 +576,7 @@ We have received valuable feedback from our users, which has been instrumental i
 
 During this week, our team made significant progress in enhancing UniHub based on user feedback and addressing technical aspects. Here are the key achievements:
 
-1) **Feature Enhancements:** We actively listened to user requests from previous week and successfully implemented highly requested features. Addition of search functionality in courses has greatly improvedusability of **UniHub**, enabling users to quickly locate specific resources and engage in focused discussions. Additionally, we introduced a theme switcher feature, allowing users to customize interface based on their preferences.
+1) **Feature Enhancements:** We actively listened to user requests from previous week and successfully implemented highly requested features. Addition of search functionality in courses has greatly improved usability of **UniHub**, enabling users to quickly locate specific resources and engage in focused discussions. Additionally, we introduced a theme switcher feature, allowing users to customize interface based on their preferences.
 
 2) **Backend API Development:** Our team successfully completed development of backend API, ensuring seamless communication between frontend and server. This milestone enables efficient data management, user authentication and smooth integration of features across platform.
 
@@ -588,5 +588,9 @@ During this week, our team made significant progress in enhancing UniHub based o
 Pic. 1. Stress test for 500 users
 
 
+{{< hint danger >}}
+Alright, amazing progress!. Stress tests are nice!. Noted the absence of the final presentation on the top of the file - please, upload the file.
 
+5 the week! And good luck with the project and the final presentation! 
+{{< /hint >}}
 

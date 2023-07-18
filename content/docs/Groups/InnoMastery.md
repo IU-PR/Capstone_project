@@ -3,17 +3,14 @@ weight: 1
 bookFlatSection: true
 title: "InnoMastery"
 ---
-# **Introduction**
+<img src="/InnoMastery/logo.png" alt="Tuxi" width="300"/> \
+**Welcome to InnoMastery — study Linux on a brand new platform!**
 
-{{< hint danger >}}
-**Feedback by Rustam**  
+# **Project presentation**
 
-Create here a short introductory text, so people reading about your work can immediately get what the project is about. It is also good to have some logo or visual materials as they can help make your project more memorable for the potential reader
-{{< /hint >}}
+[<img src="/InnoMastery/presentation-icon.png" alt="Presentation link" width="300">](/InnoMastery/InnoMastery-presentation.pdf)
 
-# **Week #1 Report**
-
-## Team Members
+# **Team Members**
 
 | Team Member        | Telegram ID                                          | Email Address                       |
 | ------------------ | ---------------------------------------------------- | ----------------------------------- |
@@ -23,6 +20,9 @@ Create here a short introductory text, so people reading about your work can imm
 | Dmitrii Alekhin    | [@dmfrpro](https://t.me/dmfrpro)                     | d.alekhin@innopolis.university      |
 | Leila Khaertdinova | [@leila1kh](https://t.me/leila1kh)                   | l.khaertdinova@innopolis.university |
 | Roman Molochkov    | [@roman_molochkov](https://t.me/roman_molochkov)     | r.molochkov@innopolis.university    |
+
+
+# **Week #1 Report**
 
 ## Value Proposition
 
@@ -245,7 +245,7 @@ Good, but the component isn’t really connected. I mean what is the difference 
 
 Good
 
-**3. UI Design **
+**3. UI Design**
 
 I like the design very much.
 
@@ -286,3 +286,275 @@ Grade 5/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+
+# **Week #3 Report**
+
+## Prototype
+
+The course platform is available at [<ins>innomastery.ru</ins>](https://innomastery.ru). You may also check Coder, our Self-hosted Remote Development Environment, at [<ins>coder.innomastery.ru</ins>](https://coder.innomastery.ru).
+
+### Prototype Features
+
+The features that we have successfully integrated into our prototype are the following:
+- Authentication via JWT tokens
+- Authorization
+- A table of contents for the course
+- A self-hosted Remote Development Environment [<ins>Coder</ins>](https://coder.com/)
+
+### User Interface
+
+1. When the user visits our website, they see our landing page that tells them about our course. From here, the user can sign up for our course or continue their studies if they are already signed in.
+![Index page](/InnoMastery/pages/index.jpeg)
+
+2. After signing up, the student sees a table of contents for the course. Here, they can pick a lesson they want to study. The lessons are organized into chapters for easier navigation.
+![Table of contents page](/InnoMastery/pages/table-of-contents.jpeg)
+
+3. Each lesson consists of several steps of three kinds: theory, questions, and coding tasks. Theory steps are articles for the student to study, with each step dedicated to a single topic.
+![Article page](/InnoMastery/pages/article.jpeg)
+
+4. Question steps let the student evaluate the knowledge gained from the theoretical material.
+![Question page](/InnoMastery/pages/question.jpeg)
+
+5. By solving coding tasks, the student can apply new knowledge to solve real-world tasks. These tasks are solved in Coder. In Coder, the student can create their workspace from a template:
+![Coder workspaces](/InnoMastery/pages/coder-workspaces.jpeg)
+![Coder create workspace](/InnoMastery/pages/coder-create-workspace.jpeg)
+
+6. Once they create a workspace, the student can access it using either VS Code in the browser or a locally installed VS Code.
+![Coder access workspace](/InnoMastery/pages/coder-access-workspace.jpeg)
+![Coder vscode online](/InnoMastery/pages/coder-vscode-online.jpeg)
+
+## Challenges and Solutions
+
+We faced challenges related to: 
+
+1. *Authentication and Authorization.* JWT (JSON Web Tokens) is commonly used for authentication and authorization purposes. One of the challenges of implementing JWT is effectively managing tokens for people who have logged in. This can be addressed by implementing token revocation for logging out, token expiration, and refreshing tokens.
+
+2. *Proper design mappings from sqlalchemy classes to strawberry classes.* It wasn’t so obvious at first, but then we managed to find a [<ins>relevant resource</ins>](https://blog.logrocket.com/using-graphql-strawberry-fastapi-next-js/) on the topic and resolved the issues with the database whatsoever.
+
+## Next Steps
+
+1. **Parsing course material.** So far, the table of contents is hard-coded into the prototype. We intend to implement a parser for all the material we already have, organized in Markdown files. This will give us an easy and automated way to deploy our course.
+
+2. **Viewing course material on the website.** The lesson viewer isn’t in the working prototype yet. We plan to implement it during the next week.
+
+3. **Grading questions.** Once we have the lesson viewer working, we’ll start implementing questions. Hopefully, we will do it during the fifth week.
+
+4. **Integrating with Coder.** We also plan to integrate with Coder for the MVP. We want to implement authentication via OAuth and redirection to Coder for coding tasks.
+
+
+{{< hint danger >}}
+**Feedback** 
+
+
+Note:
+I couldn’t log into my account. Please don’t make the registration and using your service hard on first time users. It will make them run away.
+Let me use the service once. If I like it then I will register.
+
+**Prototype Features**<br>
+You should list her all features you will provide. This is too short
+
+
+**User Interface**<br>
+AMAZING!!!
+Very nice design. But did you test it with users?
+
+**Challenges and Solutions**<br>
+Good!,
+**Next Steps**<br>
+Good. You should relay think of testing (Usability testing)
+
+**Overall**<br>
+Good report, you should focus more on finalising the project. and test it with real users.
+**Grade<br> 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+
+# **Week #4 Report**
+
+## External Feedback
+
+The feedback we received from our friends was overall positive. They appreciated the idea of the course platform and really liked the website design.
+
+However, they pointed out several issues with our UX. For example, one person suggested to swap the buttons `I want a hint` and `Check` in question steps, as the check button is harder to reach than necessary.
+
+![Hint and check buttons](/InnoMastery/hint-and-check-buttons.jpg)
+
+Another issue is that Chrome does not suggest an auto-generated password on the sign-up page. We will need to improve the page markup with hints for browser autocompletion.
+
+![Password auto generation](/InnoMastery/password-auto-generation.jpg)
+
+Despite the issues mentioned above, the feedback shows that our project is going in the right direction.
+
+## Testing
+
+We tested the platform internally and discovered several issues. For example, the sign-up form didn’t accept the Russian letter `Ё`.
+
+![Registration problem](/InnoMastery/registration-problem.jpg)
+
+In addition, the password was checked against a regular expression that was hard to satisfy. For example, Firefox’s automatically generated password did not validate.
+
+![Invalid password](/InnoMastery/invalid-password.jpg)
+
+Once discovered, we relaxed the restrictions on the name and the password. We don’t really care about the user’s name, and putting many restrictions on the password often only leads to easier brute-force, hence is insecure.
+
+Besides these issues with the sign-up form, testing didn’t reveal any other bugs in our prototype.
+
+## Iteration and refinement
+
+After collecting feedback and thoroughly testing our prototype, we created the appropriate issues and organized a retro session.
+
+![Gitlab issues](/InnoMastery/gitlab-issues.jpg)
+
+We noticed a lack of synchronization in our team, so we clarified several points about the project. For example, we discussed how different entities (namely, chapters, lessons, and three kinds of steps) should relate to each other in the database. This question is important for several interlinked issues. First, it affects how these entities are retrieved via the API and the API performance. Second, it affects how our URLs are composed, because it must be possible to fetch a particular step using only the information provided in the URL. Third, URLs matter for SEO, as search engines deprioritize ugly links in favor of simple and human-readable ones.
+
+![URL structure](/InnoMastery/url-structure.jpg)
+
+Second, we refined and agreed on our git flow. We also eliminated all stale branches. Third, we clarified further steps and noticed once again that it is important not to overcomplicate things and focus only on the features that are most important right now. Based on discussions during our meeting, we plan to implement these features during the next two weeks for our MVP:
+- Viewing course material on the website
+- Grading questions
+
+{{< hint danger >}}
+**Feedback**  
+**External Feedback**<br>
+Very Good, but maybe better to follow some kind of User statisifaction metrics like NPS to better utilise this feedback.
+
+Now how will you adapt to this feedback?
+
+
+**Testing**<br>
+Good
+
+Have you considered unit testing also?
+
+
+**Iteration**<br>
+Good iteration plan but keep in mind:
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+**Overall**<br>
+The report is good.
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+
+# **Week #5 Report**
+
+## Feedback
+
+This week, we wanted to gather feedback not just from our friends but from a wider audience. We already had it: a few months ago, we gathered a focus group to collect feedback about our course. Now we have asked them to review the platform that we are building for this course.
+
+![Course beta-test telegram chat](/InnoMastery/telegram-chat.png)
+
+To collect feedback in a more convenient and insightful way, we have created a survey of user satisfaction with our product. By doing this survey, we hoped to learn more about our product from the user’s perspective. We asked about the feelings about our platform, UI/UX, as well as any encountered issues or bugs. For those interested, here is the [<ins>survey</ins>](https://forms.gle/n6DHyqRf7VgJJ6cV7).
+
+As a result, we have collected a lot of useful feedback. From the responses, we have gathered the following observations:
+
+- Our name and domain are catchy, which is great. Almost 70% of users can easily type the domain into a browser.
+![Name feedback](/InnoMastery/name-feedback.jpeg)
+- The majority of users are satisfied with the color palette used in the product.
+![Colors feedback](/InnoMastery/colors-feedback.jpeg)
+- Users have no trouble signing up.
+- Some users did not like the font used in the UI, as the numbers "3" and "6" are shifted downwards from the rest of the text.
+- Certain uses have raised concerns about how images are loaded and how some of them are too big.
+- Luckily, our platform is considered reliable by the majority of users.
+![Trustworthy feedback](/InnoMastery/trustworthy-feedback.jpeg)
+
+If the respondent wanted to provide their contacts, they could do so in the survey. Some of the people did, and we’re going to reach out to those who provided insightful feedback soon. This will let us ask them additional questions through which we’ll learn more about how users want to interact with our product.
+
+Now that we conducted the feedback survey, we have evaluated the user satisfaction and identified areas for improvements that we will prioritize in the remaining time.
+
+## Improvement
+
+Before the final presentation of our MVP, we will focus on the details of the platform, so the platform feels complete and ready for production. Based on the feedback received, we decided on the following improvements:
+
+1. Change the sign-up flow until we implement email verification;
+2. Finish implementing automatic question grading;
+3. Add navigation between steps;
+4. Improve the design of the website so it responds to user interaction (hovering over elements, clicking them, etc.).
+
+## Reflection
+
+We strive to release our course on our own platform in the next few months. In the current state, the prototype mostly replaces Stepik for our needs. However, we have to put more effort before publishing the course: we must bring in features that will distinguish our platform among already popular ones and bring the best experience to our students.
+
+First, integration with Coder remains our biggest priority. With Coder, our coding tasks will bloom at their finest. The coding tasks are the strength of our course, as they show students how their new knowledge is applied in practice. Coder will let the student focus on solving the task, removing the hassle of setting up a local environment.
+
+Second, we will focus on polishing the platform. For students to understand the material better, we need to support videos as well as animated terminal sessions in the theoretical material. In addition, the platform should remember where the student stopped the last time so that students can jump right back in when they come back. Last but not least, we will adapt the website for mobile screens, add PWA support, and fix discovered bugs to ensure the best possible UX for our students.
+
+{{< hint danger >}}
+
+**Collecting and documenting feedback**<br>
+Very good!
+
+
+**Feedback analysis**<br>
+Very good!
+
+**Roadmap and enhancement**<br>
+Missing Roadmap. bit's genraly written what will you do. but this is could not be considered as a roadmap 
+
+
+**Grade: 5/5**
+
+{{< /hint >}}
+
+
+
+# **Week #6 report**
+
+This week, we primarily focused on polishing our website to improve the UX and make it feel like a complete product. Nonetheless, we’ve also finalized a new big feature that we started working on a few weeks ago: a chatbot to help students learn.
+
+## Chatbot
+
+When you open a lesson, you can now see a button to open the chatbot in the bottom-right corner of the screen.
+
+![Tuxibot closed](/InnoMastery/tuxi-bot-closed.png)
+
+When you click it, you’re presented with a chat with our Tuxibot. You can ask it any question that comes up to your mind while studying the material.
+
+![Tuxibot opened](/InnoMastery/tuxi-bot-opened.png)
+
+Moreover, you can ask it for hints when you get stuck answering a question or solving a coding task. Tuxibot is available on those steps as well—but it won’t give you the solution away.
+
+Our tuxibot is powered by ChatGPT, a model from OpenAI. We utilized their API to implement our own chatbot for the platform.
+
+## Polishing the website
+
+While our ML engineers were building the chatbot, the rest of the team focused on finalizing features in development and ensuring a smooth user experience before the MVP.
+
+Some articles include videos or GIFs to better illustrate a particular point, e.g. what happens when running the exit command. This week, we added support for videos in the article viewer.
+
+![GIFs on site](/InnoMastery/gifs-on-site.png)
+
+Although one could already switch between articles and questions, trying to open a coding task showed a white screen. Now coding tasks are supported on the website.
+
+![Coding tasks](/InnoMastery/coding-tasks.png)
+
+Moreover, we added a button at the bottom of the page to take you to the next step. This significantly simplifies navigation between steps.
+
+![Next step button](/InnoMastery/next-step-button.png)
+
+Last but not least, we hid features that are still in development. For example, after signing up, the user can start studying right away, no longer waiting for a confirmation email that will never arrive.
+
+![No email confirmation](/InnoMastery/no-email-confirmation.png)
+
+Likewise, the “Last time, you stopped at…” message on the landing page is removed too, waiting for the times to get better.
+
+Overall, our platform is now viable for wider use, and we can’t wait to show it on the Final presentation and tell more about the course we’re building upon it.

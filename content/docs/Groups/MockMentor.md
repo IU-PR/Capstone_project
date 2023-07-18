@@ -4,6 +4,9 @@ bookFlatSection: true
 title: "MockMentor"
 ---
 # **MockMentor**
+
+- https://docs.google.com/presentation/d/1zovQb_PR696bnXYWAZnWumElyF3NsTbc4F1QvEJkTNw/edit#slide=id.p
+
 # **Introduction**
  
 {{< hint danger >}}
@@ -271,4 +274,69 @@ In general, I think this project can be very influential, as virtually everyone 
 I think this project is innovative and exciting - and I am sure backend integration with the frontend will be timely completed. I also like that you decided to keep simple UI with only basic features. 
 Keep up the pace and continue the good work!
 5/5 for both weeks.
+{{< /hint >}}
+
+
+# **Week #4**
+
+## **External Feedback**
+We asked our collegues and friends to test and give feedback on our prototype. Right now, frontend and backend are not merged, therefore testing was done on each part separately. Overall, the feedback was mostly positive, but there were some moments that testing group found lacking and gave us some suggestions.
+
+Testing group liked the simplicity of the frontend, but the ML part still needs adjustments. NLP and text-to-speech were the parts with most problems. Ranking the correctness of the user's answer still needs some adjustments and parametrisation. For now, our team also needs to enlargen the dataset of answers (which are used to check correctness of user's answer to a question) for interview questions. Also, generating voiced questions takes longer than desired and needs optimising.
+
+## **Testing**
+We used manual testing to test our prototype and found bugs and parts that still need adjustments.
+
+Right now, NLP and text-to-speech are continuously tested and improved. Still, it needs improvements: text-to-speech still needs more human-like voice(more intonations and less memos and empty spaces), NLP that is used to check the correctness(the similarity between received and one of expected answers) is not yet perfected and needs adjustments. 
+
+In frontend some bugs were found related to showing the message to the user. Also, the voiced question sometimes took too long.
+
+## **Iteration**
+Throughout the development several points of our project were reconsidered and changed. The desing was firstly a bit different, but then more simple desing with more contrast coloring were used. For backend, our team got rid of some libraries and decided to use others. Also, our team considered voicing the questions in interview ourselves, but then decided to go for text-to-speech. Moreover, the use of answers by voice was introduced from beginning, it was a decision we made to make the interview closer to real life job interview. For frontend, it was decided not to use redux, since the frontend part was not that large.
+
+
+{{< hint danger >}}
+
+**Feedback**  
+Good, we still have some time to integrate the front with the backend. Make it a priority for the next week!
+5/5 for both weeks.
+{{< /hint >}}
+
+---
+
+
+# **Week #5**
+
+## **Weekly tasks**
+
+- Regarding stakeholders, our team came up with the idea ourselves and do not have any funding or stakeholders. 
+
+- Our target audience is people looking for a job. Therefore, Innopolis students are ideal users to test our product. 
+
+- We used the Google Forms to receive feedback from our peers. The feedback showed that there were several points that users liked:
+    - the simplicity of the UI
+    - the idea of a project 
+    - the ability to use voice mesages that are translated into text on the fly. 
+- However, there were also some drawbacks that users faced. The main problems that users highlighted:
+    - the number of questions, there are still not enough of them, our team is planning to add more
+    - the absence of feedback (because right now, our product only gives you the percent of how correct your answer is) 
+    - problem with recognizing the voice (especially with different accents)
+    - users wanted some summary of the interview, showing how well the users performed it, and which themes
+
+- As for the documentation of the feedback, we used Google Docs to assign importance of each problem. The areas of improvement and enhacement were written down and are currently being either fixed or improved. 
+
+- Right now, our team finally merged frontend and backend. We faced several problems (our hosting banned us, one of our team members left), we finally merged all parts and our project can at least function. For now, some functions are not fully implemented and few problems occured.
+
+
+# **Week #6**
+
+## **Presentation**
+
+- https://docs.google.com/presentation/d/1zovQb_PR696bnXYWAZnWumElyF3NsTbc4F1QvEJkTNw/edit#slide=id.p
+
+{{< hint danger >}}
+
+I am pleased to see that project is rapidly taking shape! Merging the front and back is a great leap forward. 
+Moved the presentation to the top. You guys have accomplished a lot! Thank you for the hard work and dedication.
+5/5 for the week, and see you soon! Cheers, Rustam
 {{< /hint >}}

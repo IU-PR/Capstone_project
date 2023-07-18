@@ -11,6 +11,16 @@ InтTime is a project that will help students and professors save time searching
     <img src="/InnTime/logo.svg" width="500" height="300">
 </div>
 
+Link to the deployed project:
+[InnTime Schedule](https://kurl.ru/yoXYM)
+
+Link to the project Demo:
+[InnTime Schedule Demo Video](https://drive.google.com/drive/folders/11XC5d4RO6XgTQb6lS9epTrZrShrZHy8m?usp=sharing)
+
+Below, you can find a PDF explaining project:
+
+{{< embed-pdf url="/InnTime/InnTime.pdf" >}}
+
 
 
 # **Week #1**
@@ -325,7 +335,7 @@ As a use in our project, we will do the following: small pieces of our project w
 
 ### **Tech Stack and Team Allocation**
 - Nikita - reports + product manager + textwriter + developer
-- Evgeny is the architecture manager of the entire project + techlid
+- Evgeny is the architecture manager of the entire project + techlead
 - Insaf - Data processing and markup specialist + tester
 - Vladimir - API development
 - Boris - Database design + devops
@@ -525,3 +535,235 @@ Summing up the past week results: it was a productive implementation week. Unfor
 Nevertheless, the work on the prototype was done, and all critical points were checked. Now we need to focus our attention on finding out the possible problems of our project. And the implementation of the functionality that is specified in the paragraph
 
 
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Very good.
+I would advice you to name the feature in order to be able to track it.
+And give more description for it though User stories
+
+**User Interface**<br>
+AMAZING!!!
+
+**Challenges and Solutions**<br>
+Very good
+
+**Next Steps**<br>
+Very good
+
+**Overall**<br>
+Good report, you should focus more on finalising the project and make it perfect. Since your project is stable some how.
+
+**Grade<br> 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+# **Week #4**
+
+# Weekly Progress Report
+
+
+This progress report highlights the key developments and insights gained during the week in three main areas: external feedback, testing, and iteration. These aspects have played a crucial role in shaping our project and moving it closer to its final form. We conduct several meetings with a whole team to discuss a current state of the project and get a feedback from each teammate. 
+___
+
+### **External Feedback**
+
+During this week, we focused on gathering external feedback to gain valuable insights into the usability, functionality, and overall satisfaction of our project. Recognizing the importance of user acceptance testing (UAT), we engaged with a group of individuals from our community, including fellow students and friends, who agreed to provide us with honest feedback.
+
+One particularly enlightening feedback session stood out. We conducted an interactive demonstration of our project, showcasing its features and functionality. The participants expressed their enthusiasm for the centralized schedule platform, highlighting the convenience it offered in eliminating the need for multiple platforms and tables. They appreciated the ease of specifying groups and electives and praised the ability to export schedules to popular formats like Google Calendar.
+
+However, during the feedback session, we also received constructive criticism regarding the user interface (UI) design and certain aspects of the user experience (UX). This feedback allowed us to identify areas for improvement, such as streamlining the navigation flow and enhancing the visual aesthetics. It served as a valuable basis for refining our project and ensured that we were aligning it with the expectations and needs of our target audience.
+
+### **Testing and Narrowing the Scope**
+
+Testing played a significant role this week in evaluating the effectiveness and reliability of our project. We focused on testing our backend, built with Flask and PostgreSQL, to ensure seamless integration and efficient data management.
+
+Through rigorous testing, we identified certain areas that required improvement. We encountered performance issues during high traffic periods, which impacted the responsiveness of the website. To address this, we optimized our database queries and fine-tuned the server configuration. Additionally, we implemented caching mechanisms to enhance the overall speed and scalability of the system.
+
+Moreover, we discovered some minor bugs and inconsistencies in the data synchronization process between the website and the real-time updates. By thoroughly testing and identifying these issues, we were able to rectify them promptly, ensuring a smoother experience for both students and instructors.
+
+### **Iteration and Refinement**
+
+Iteration remained at the forefront of our development process this week. We continuously evaluated our project's progress, comparing it against our initial goals and objectives. The feedback received from external sources, along with the insights gained from testing, played a pivotal role in refining our design, features, and functionalities.
+
+To address the feedback regarding the UI design, we initiated a thorough review and made some minor but important improvements. We worked on enhancing the visual appeal by refining search and sorting algorithms, and different colors for events of different cources and electives. We also incorporated new features, such as changable buttons, allowing users to see which cources and electives they already add.
+
+![img_1.png](/InnTime/improve_design.gif)
+
+In addition to visual enhancements, we iterated on the user flow based on user feedback, ensuring a more intuitive and seamless navigation experience. We simplified the process of specifying groups and electives, minimizing user effort and increasing the efficiency of schedule generation.
+
+Furthermore, we dedicated time to optimize the backend. We have discussed the format of data storage in the database. Based on the meeting, we were able to make some changes to the database for more convenient storage of data.
+We also discussed the work of the API part and made edits to the API functions for more convenient communication with the frontend part.
+Among the innovations, it became possible to add teachers and the type of classes in the table, the ability to update user data, and support for CORS. 
+
+Next, you can see the format of the backend admin panel and the ability to edit the course
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/courses_back.png">
+</div>
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/courses_edit_back.png">
+</div>
+
+Also we have introduced JWT token to save user settings such as cources and electives after logging or registration.
+
+By adopting an iterative approach, we have successfully eliminated several early-stage mistakes and made significant progress towards achieving our project's objectives.
+
+___
+In conclusion, this week's progress report emphasizes the importance of external feedback, testing, and iteration in shaping our project. We actively sought feedback from our target audience, refining our project based on their insights. Thorough testing allowed us to identify and address issues, ensuring a robust and reliable backend. Additionally, through iterative refinement, we enhanced the frontend design, added new features, and improved the overall user experience. As we move forward, we remain committed to continuous evaluation, adjustment, and refinement to deliver a high-quality, user-centric solution.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Good, you did feedback? Is there any proof to what you said?
+You should have showed the feedback here.
+
+Since in the report you didn’t show any real feedback form real users. It hard to say wether you are making changes by yourself or based on a feedback.
+
+**Testing**<br>
+Ok you you made testing, where is the proof?
+
+Please show proof of what you are saying that you were doing. Because words without evidence is just words.
+
+> Through rigorous testing?
+
+What kind of testing did you do? Uni testing, System testing, Usability testing?
+
+How did you mange reporting / fixing bugs?
+How did you make sure it was fixed?
+
+You didn’t show any of this in the report.
+
+
+**Iteration**<br>
+
+Good iterate plan
+
+
+**Overall**<br>
+The report is ok. your report doesn’t reflect your work. I Think you should spent more time reflecting / writing the report.
+
+**Grade: 3/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+# **Week #5**
+
+# Weekly Progress Report
+
+Throughout the week, our primary focus was on improving our product. To gain a deeper understanding of the necessary fixes and changes, we conducted feedback sessions and performed thorough testing. As we near the final stages of development, we are committed to investing maximum effort in collecting feedback and enhancing our product.
+
+### **Feedback Collection**
+
+The feedback collection process involved two meetings with students from Innopolis University. We provided them with a glimpse of our product during these sessions, followed by the opportunity to share their thoughts through a Google form. The feedback we received over the past week provides valuable insights that we would like to share.
+
+Next, we will show you the feedback that we managed to collect over the past week
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback0.png">
+</div>
+For the first two questions, we can notice that most students look at their schedule at least several times a week. And it takes them 1 to 5 minutes, which is quite long for just viewing the schedule.
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback1.png">
+</div>
+On the following two issues, we can notice that using a regular schedule in the form of tables located in different places is very inconvenient. And people want to see an alternative way that will really be effective and convenient.
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback2.png">
+</div>
+Further, we see that most of all people would like to be able to view the schedule in one place. The second in a row is the possibility of updating this schedule by adding new courses or electives. And also, based on our feedback, many who voted would really like to use our site.
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback3.png">
+</div>
+The ease of use of our product is high, which we consider to be a fairly strong plus of our product. And also, judging by the feedback, we see that the main features of our site can be called viewing the schedule in one place, as well as the convenience of adding new courses and electives. Another feature is the export of the entire compiled schedule in Google format
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback4.png">
+</div>
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback5.png">
+</div>
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback6.png">
+</div>
+In terms of what is missing on our website, we can highlight the following main things: we need to redo the design in some places, finish the design so that a mobile version of our product appears. And also a few of those who voted would like to see authentication through the Innopolis account.
+
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/feedback7.png">
+</div>
+In general, those who voted are satisfied with our product.
+
+Also at the end we inserted a question related to NPS.
+Scores of 1-6: Detractors - Users who are unhappy and may actively discourage others from using the project.
+Scores of 7-8: Passives - Users who are somewhat satisfied but could be easily swayed by competition.
+Scores of 9-10: Promoters - Users who are highly satisfied and likely to recommend the project to others.
+
+**Net Promoter Score** for out project is **45%**. And to give you some context, the average score across all companies is **43%**.
+
+In conclusion, the feedback collected during the week provided valuable insights and highlighted the areas where our product excels as well as the aspects that require further attention. We are committed to addressing the concerns raised, including optimizing the schedule viewing process, redesigning certain elements, developing a mobile version, and exploring authentication options. The positive NPS score indicates that our project has made a favorable impression on users and holds potential for further success. We will try to take into account most of the feedback comments and fix all the problems.
+
+
+### **Testing Continue...**
+
+This week we continued testing our product. We used unit tests for the backend and frontend, as well as manual testing of some components.
+
+**Tests for Fronted part before improving**
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/test_front.jpg">
+</div>
+We use unit tests. For example, in the output image of the tests, you can notice that the 13th and 15th tests were not executed, which is responsible for displaying messages that the schedule cards were not found or something was not loaded from the backend. After testing, we corrected these points.
+
+**Tests for Fronted part after improving**
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/test_front_after.jpg">
+</div>
+
+
+
+**Tests for Backend part**
+<div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
+    <img src="/InnTime/test_back.png">
+</div>
+
+test_users.py is testing the correct development of the authorization system, including registration and user login. As well as updating the user's group and changing his password.
+
+The remaining tests test the correct use of getters and getting information from the database.
+
+
+### **Problems of this week**
+
+This week we ran into a problem on the frontend side. We decided to add state manager MobX for ease of use in code, and specifically for creating contexts: user (for registration and login), card (for selecting a group or an item, filtering it, adding it to favorites), event (for displaying events on the calendar). But the lack of experience with this technology affected the system failure. After some time we solved this problem with the help of a tutor.
+
+___
+At the end of this week, we can say that we held useful feedback sessions and received useful comments that relate to our project. We will take into account all the comments and try to implement them (we have already corrected some of the comments)
+Also, thanks to another test, we identified some problems related to the frontline, which we promptly eliminated. We are ready for the last week of the project, we will be happy to present it. This week we need to completely double-check everything and make sure that everything works as we intended.
+
+
+{{< hint danger >}}
+**Feedback**
+
+**Collecting and documenting feedback**<br>
+good!
+
+
+**Feedback analysis**<br>
+good!
+
+**Roadmap and enhancement**<br>
+good!
+
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}

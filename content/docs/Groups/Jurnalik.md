@@ -498,7 +498,316 @@ Priority list:
 7. Improve the accuracy of the model by expanding the dataset
 
 
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Very good!!
+
+**User Interface**<br>
+Good progress.
+Unfortunately the deign doesn’t look very good. You created everything form scratch. and it seems you didn’t follow any standards like Material design for example
+This led to a design that look strange on Mobile.
+
+But I thing you have done good effort doing it.
+
+**Challenges and Solutions**<br>
+Good!
+
+**Next Steps**<br>
+Good. have you considered testing the app with real users, listen to them?
+
+**Overall**<br>
+Good report, great progress form last week.
+Good job!!!
+
+**Grade<br> 5/5**
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+## Week 4
+
+### External feedback on our project
+
+To assess the needs of the target audience and in-depth analysis of their experience, we conducted a survey that evaluated the daily routine of potential users (in relation to social networks, respectively) and their attitude towards our prototype.
+
+The questions were aimed at studying the frequency of visiting social networks, the regulation of consumed content, the presence or absence of information overload, and interest in our product. In addition to general questions aimed at the experience of potential consumers, there were also questions about the evaluation of our prototype and its functionality. The collected feedback helps us understand the strengths of the implemented prototype and the desire of the target audience to improve the product for further development.
+
+We provided an interactive prototype and a GIF showing how our app works to users, along with a survey for the most honest and realistic feedback possible.
+
+Below are statistics from our representative sample of consumers:
+
+![Снимок экрана 2023-07-02 в 15.38.50.png](/Jurnalik/week4_1.png)
+
+![Untitled](/Jurnalik/week4_2.png)
+
+![Снимок экрана 2023-07-02 в 15.41.13.png](/Jurnalik/week4_3.png)
+
+![Untitled](/Jurnalik/week4_4.png)
+
+*’Restrict myself in time spent in social media, scroll only content I'm interested in (clean up my subscriptions, set up posts)’
+
+![Снимок экрана 2023-07-02 в 15.53.25.png](/Jurnalik/week4_5.png)
+
+![Снимок экрана 2023-07-02 в 15.53.57.png](/Jurnalik/week4_6.png)
+
+![Untitled](/Jurnalik/week4_7.png)
+
+![Снимок экрана 2023-07-02 в 15.55.17.png](/Jurnalik/week4_8.png)
+
+*’Big amount of social media and fast search’
+
+![Снимок экрана 2023-07-02 в 16.00.35.png](/Jurnalik/week4_9.png)
+
+![Снимок экрана 2023-07-02 в 16.02.31.png](/Jurnalik/week4_10.png)
+
+![Снимок экрана 2023-07-02 в 16.05.05.png](/Jurnalik/week4_11.png)
+
+*’Post source and its category’
+
+![Снимок экрана 2023-07-02 в 16.06.38.png](/Jurnalik/week4_12.png)
+
+![Снимок экрана 2023-07-02 в 16.07.50.png](/Jurnalik/week4_13.png)
+
+*’The transparency of the upper line on the feed page (where the categories could be chosen). Maybe make it not transparent?’
+
+![Снимок экрана 2023-07-02 в 16.09.53.png](/Jurnalik/week4_14.png)
+
+*’5, everything is attractive and intuitively understandable’
+
+![Снимок экрана 2023-07-02 в 16.13.20.png](/Jurnalik/week4_15.png)
+
+After analyzing the results, we found out the subtleties of the needs of our target audience, we realized that most of them check the news several times a day, spend a total of 1> hours consuming such content and often experience an oversaturation of information, which is a statistical confirmation of relevance for us our project. People from different fields of activity and different age categories were interviewed, so the sample is diverse and representative. The people surveyed confirmed the lack of algorithms regulating content consumption, none of the respondents expressed disinterest in our project, and 62.5% even answered that they would definitely use such an application. Many noted the design and idea as interesting and attractive to them, the respondents liked the news collected together with the ability to filter. People told what functionality in such an application could be of interest to them, and also gave criticism to our project. All comments were taken into account and sorted into tasks. We have already corrected some of them after a joint discussion, the relevance of some is still being considered, as well as the timing of their implementation.
+
+### Testing
+
+Due to the constant testing of our project and the constant exchange of information between team members, the following adjustments to existing solutions were identified:
+
+#### Back Botton
+
+The back button on the feed page with a full scroll down the page obscured part of the last post, which interfered with the quality perception of the content. As a solution, we could expand the frame / page, but for aesthetic reasons, we decided to remove the button altogether and rebuild the logistics: phone users use either the button back at the bottom of the built-in panel, or swipe.
+
+#### Following Tag
+
+The "Following" button on the post page was a good ethical but bad logistical decision. Since it had no practical value, but was only a subscription flag, we decided to replace it with a thematic tag.
+
+#### Telegram Client
+
+At first, teleton was chosen as a client for telegram, but it turned out to be a very insecure solution, since all user data would be available to us, as developers, which is already a violation of our user's security, moreover, this data could be lost or "leaked" . Therefore, as the best alternative, we chose to create a telegram bot.
+
+#### Comparison Method
+
+On the part of the ML, the choice of the comparison method used was changed. We changed the comparison method from MinHash to TfidfVectorizer, since the comparison accuracy was low - different news were given out as the same, and the same ones were recognized as completely different from each other.
+
+#### gRPc → REST API
+
+From the backend side, initially we’ve decided to do the interaction between the front and the back through gRPc, but in the end we came with new solution - implement it through the REST API, because there is more information about the latter + more popular choice.
+
+#### Architecture
+
+Initially, it was planned to make one monolithic service for all backend part, but we decided to do it through micro-services, due to the advantages of micro-services.
+
+#### Temporary Data Transfer
+
+Instead of the initial choice of storing data in RAM, a decision was made to store data in the database due to higher reliability and simplicity (if one service crashes, the whole system won’t work properly while choosing RAM, what will not happen using a database).
+
+### Iteration
+
+We consistently discuss our decisions in the implementation of different parts of the project, consult and test, therefore, in addition to the changes described above (initial decision -> alternative + reason), there are also aspects in which, due to a general conversation and advice, nothing has changed.
+
+After 4 weeks of constant development, testing and reflection, we were able to improve our project by changing several approaches (see in the Testing section), this upgraded:
+
+- security of our product (client created via telebot -> telegram bot)
+- perception of the interface (became even more intuitive due to tag replacements and the removal of interstitial navigation buttons)
+- accuracy of news selection (comparison models have been replaced)
+- architecture (monolith → microservices, gRPc → REST API, returned pings instead of RabbitMQ, RAM storage → database)
+- reliability of the system (RAM → DB)
+
+### Progress Report
+
+All tasks from the sprint for this week have been completed, here are the changes, thus
+
+#### What’s done
+
+- [x]  Implemented reading and writing to our database
+- [x]  Comparison model added to the module
+- [x]  Written get and push for the module
+- [x]  Made authorization bot
+- [x]  Made the layout of the authorization page
+- [x]  Research on photo/video categorization was done
+
+#### What’s planned
+
+- [ ]  Customize PostgeSQL
+- [ ]  Customize Swagger
+- [ ]  Make communication with the service
+- [ ]  Write the necessary functionality for the Frontend
+- [ ]  Add categorization by photo to the module
+- [ ]  Expand the dataset to 500 items
+- [ ]  Make a selector for Telegram
+- [ ]  Set up infrastructure
+
+
 ## Instagram Remark
 *Признаны экстремистскими организациями и запрещены на территории РФ
 
 *Recognized as extremist organizations and banned on the territory of the Russian Federation
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Very Good!!
+But you should really make your feedback collecting consistent. For example, have one consistent categorical data
+I agree, disagree, strongly disagree … etc.
+
+This way you can assign numbers to this categorical data and gain some insights form choses data.
+
+
+**Testing**<br>
+Very Good
+You should explain more about the testing you did.
+How did you mange bug reporting / fixing / documenting?
+Do you have a process for that?
+
+**Iteration**<br>
+Good but keep in mind:
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+
+**Overall**<br>
+Report is very Good!. Now focus more on development side and finished the product.
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+## Week 5
+
+### Continued collection of feedback
+
+This week we continued to work on the project, gathering more feedback and comments about our prototype, and building a plan to improve our project in parallel with the tasks from the sprint.
+
+10 people were added to the existing 16 respondents, as a result of which the statistics changed slightly. The overall result is the following:
+
+84.6% of respondents check their social networks for content consumption several times a day, 73.1% of them spend 1 hour or more, almost half experience information overload after and do not organize the content they consume. None of the respondents expressed disinterest in our project, on the contrary, 50% of the respondents expressed active interest. Most people would like to have an independent platform with our concept and have expressed their desire to try our product. The respondents gave their recommendations, which we took into account and described the most frequent ones below.
+
+This further convinced us of the relevance of our project. We see how many people are interested in the proposed algorithms and our idea, and our motivation is also strengthened by the diversity of the respondents - different fields of activity, gender, age and experience.
+
+Below are updated diagrams, we will insert old comments together with the new ones from open questions.
+
+![Снимок экрана 2023-07-10 в 15.14.47.png](/Jurnalik/week5_1.png)
+
+![Снимок экрана 2023-07-10 в 15.15.50.png](/Jurnalik/week5_2.png)
+
+![Снимок экрана 2023-07-10 в 15.16.39.png](/Jurnalik/week5_3.png)
+
+![Снимок экрана 2023-07-10 в 15.17.47.png](/Jurnalik/week5_4.png)
+
+![Снимок экрана 2023-07-10 в 15.18.42.png](/Jurnalik/week5_5.png)
+
+![Снимок экрана 2023-07-10 в 15.20.01.png](/Jurnalik/week5_6.png)
+
+![* big amount of social media and fast search of news](/Jurnalik/week5_6.png)
+
+* big amount of social media and fast search of news
+
+![Снимок экрана 2023-07-10 в 15.24.37.png](/Jurnalik/week5_7.png)
+
+![* make the app tracking my traffic, notify me about limit is over and sending me working or sporting for instance * it would be great to have a limited content in such app](/Jurnalik/week5_8.png)
+
+* make the app tracking my traffic, notify me about limit is over and sending me working or sporting for instance 
+* it would be great to have a limited content in such app
+
+![Снимок экрана 2023-07-10 в 15.28.25.png](/Jurnalik/week5_10.png)
+
+![Снимок экрана 2023-07-10 в 15.29.30.png](/Jurnalik/week5_11.png)
+
+![Снимок экрана 2023-07-10 в 15.30.27.png](/Jurnalik/week5_12.png)
+
+![Снимок экрана 2023-07-10 в 15.34.57.png](/Jurnalik/week5_13.png)
+
+![* transparency of the menu bar - maybe it should not be transparent?](/Jurnalik/week5_14.png)
+
+* transparency of the menu bar - maybe it should not be transparent?
+
+![Снимок экрана 2023-07-10 в 15.37.44.png](/Jurnalik/week5_15.png)
+
+![Снимок экрана 2023-07-10 в 15.40.26.png](/Jurnalik/week5_16.png)
+
+![Снимок экрана 2023-07-10 в 15.27.36.png](/Jurnalik/week5_9.png)
+
+![%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-07-02%20%D0%B2%2016.13.20.png](/Jurnalik/week5_17.png)
+
+![%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-07-02%20%D0%B2%2016.13.20.png](/Jurnalik/week5_18.png)
+
+
+The collected feedback also made us think about making some changes. We have come to the following conclusions:
+
+#### Transparency of the top panel
+
+Despite several suggestions to remove the transparency of the menu bar on the feed page, we consulted after the UI/UX designer's comments and decided that the advantage of our choice was the lack of complete content overlap when scrolling, convenience and constant access to the panel (fixed on the screen and moving when scrolling ) and a slight contrast that creates volume and a more pleasing interface. Due to these arguments, we left the original version.
+
+#### Amount of info on front page
+
+We will listen to this recommendation, there have been several similar reviews, it is likely that such a grid is too overloaded for the phone screen, and it will be difficult for some users to perceive the information. We will keep the concept of block news on the page, but increase their size, as user experience is more important than a fancy interface.
+
+#### Guide page
+
+We have received a request to create a guide page, probably in the future with the introduction of more functionality, pages, tags and social networks, we will create something similar to a guide for orientation in our application, however now we do not have many pages and wide functionality, so everything is intuitive for the user. We would like to continue making the interface intuitive so that the user does not even have questions when using.
+
+#### More tags/social networks/functionality
+
+Of course, we would like to immediately provide an extensive service, but we are still at the development stage and the final product for the course will be an MVP. In the future, it is planned to upgrade everything requested by those who have passed the survey, but for now we are focusing on developing a high-quality MVP with a small, but well-thought-out and working functionality.
+
+#### News feed update period
+
+The proposal to extend the period of keeping news in the feed seems interesting to us. Most likely, we will provide the user with the opportunity to choose the period for updating the feed from the proposed period options. In the MVP phase, we will introduce a resource with a daily update.
+
+### Progress Report
+
+Almost all the tasks from the sprint for this week have been completed, here are the changes
+
+#### What’s done:
+
+- Make up CD
+- Set up PostgreSQL
+- Make up instructions for working with CI/CD
+- Add video to a carousel
+- Set up infrastructure
+    
+    ![Снимок экрана 2023-07-10 в 16.14.50.png](/Jurnalik/week5_19.png)
+    
+
+#### What’s planned:
+
+- Rewrite cateorization for specific user
+- Add photo categorization to the ML module
+- Make up the REST API for Frontend-Backend communication
+- Expand the dataset to 500 elements
+
+
+
+{{< hint danger >}}
+**Feedback**  
+
+Very good way of collecting feedback and documenting. I like howe you translated the Russian one.
+but I feel now you have a lot of feedback. how will you reflect to all of them?
+
+Grade 5/5
+
+_Feedback by Moofiy_
+{{< /hint >}}

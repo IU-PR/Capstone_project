@@ -1,4 +1,4 @@
-# InnoShop 
+# InnoShop
 
 # Weekly Task 1
 
@@ -122,10 +122,10 @@ Benefits to users you provided I don’t think users will care for them maybe th
 
 Good
 
-Not real uses cases. 
+Not real uses cases.
 Use case is how users will use your app. And by whom
 
-**AI** 
+**AI**
 
 Very good
 
@@ -306,7 +306,7 @@ Good, for the money you need to talk to the university how will you handle trans
 
 **1. Component Breakdown**
 
-Good division, But I would say that you have to make the product listing the main one. 
+Good division, But I would say that you have to make the product listing the main one.
 You don’t really need a home page. Look how Ozone is doing it.
 
 Very good in the other categories, I like the fact that you’ve added analytics. But which Analytic platform you will use? Mixpanle is good option if you don’t know.
@@ -341,6 +341,166 @@ Good
 Good. But did you decide in a git workflow between the team? You should state it here.
 
 Grade: 5/5
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+# Weekly Task 3
+
+The task for week 3 of the Capstone Project.
+
+## Improvements upon the feedback provided on Week 2 Tasks:
+We will also try to improve on what you suggest every week so we will able to deliver a more better product. Here are our plans on how we will improve this week:
+
+ - **Improvement section**: Yes we will. Thanks for pointing that out.
+ - **Component Breakdown**: Yes will consider that.
+ - **UI Design**: We will change the color.
+ - **Integration and APIs**: We will research on that.
+
+
+## Prototype Features:
+
+In the prototype, we have successfully implemented a React frontend that communicates with the backend API. The frontend includes several pages such as the Store Page, Item Display Page, and Home Page. These pages retrieve information from the API to display relevant data to the users.
+
+On the backend or API side, we have implemented the necessary functionalities to serve continuous requests and transfer data that ensures a smooth interaction between the frontend and backend components of the application.
+
+
+## User Interface:
+
+We have implemented the store page, item page, and the home page of the application currently in the UI Interface. Screenshots are provided here:
+![StoragePage 1](https://github.com/RoukayaZaki/innoshop-frontend/blob/main/src/assets/result-images/StoragePage%201.png?raw=true)
+![StoragePage 2](https://github.com/RoukayaZaki/innoshop-frontend/blob/main/src/assets/result-images/StoragePage%202.png?raw=true)
+![ItemDisplayPage](https://github.com/RoukayaZaki/innoshop-frontend/blob/main/src/assets/result-images/ItemPage.png?raw=true)
+
+[InnoShop Front-end Repository](https://github.com/RoukayaZaki/innoshop-frontend)
+
+
+## Challenges and Solutions:
+
+During the development of our prototype, we faced challenges related to working with new technologies and establishing a proper project schema. To address this, we organized meetings this week to discuss and plan how all the components of the project will come together. These meetings helped us gain clarity on the implementation process and establish a solid foundation for the project.
+
+Another challenge we encountered was a lack of proper coordination among the team members. However, we resolved this issue by establishing github workflow and scheduling regular meetings. These meetings facilitated effective communication, improved collaboration, and ensured that everyone was on the same page regarding the project's progress and goals.
+
+## Next Steps:
+
+Our next step will involve implementing the following things in our project:
+ 1. User Authentication and User Creation
+ 2. Proper Error Handling of both the front end and back end environment using respective frameworks and libraries.
+ 3. In frontend part, we plan to implement the whole UI of the application including the Routing, Purchase page, and User profile page.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+
+**Prototype Features**<br>
+Theses are not features.
+Features in an app are specific functionalities or capabilities designed to meet user needs, such as user authentication, push notifications, social sharing, search functionality, and customization options
+
+**User Interface**<br>
+AMAZING!!!
+
+**Challenges and Solutions**<br>
+First part are not real challenges.
+
+> faced challenges related to working with new technologies and establishing a proper project schema
+
+This is too generic, what do you mean. What was the problems you faced. How did you solve them.
+
+> Another challenge we encountered was a lack of proper coordination among the team members.
+
+This is a challenge.
+
+Another example of challenges are:
+
+- Testing and Quality Assurance: Finding and fixing bugs can be time-consuming and expensive, especially if testing is not well planned.
+- User Experience: Designing intuitive and easy-to-use interfaces is not straightforward and needs continuous refinement based on user feedback.
+- Technical debt: Rapid development or lack of proper design may lead to poor quality code, making future changes harder.
+- Integration problems: It's often challenging to integrate different components, especially when they're developed by different teams or use different technologies.
+  **Next Steps**<br>
+  good
+
+**Overall**<br>
+Good report, you should focus more on finalising the project. And test it with real users form Uni
+
+**Grade<br> 4/5**
+_Feedback by Moofiy_
+{{< /hint >}}
+
+# Weekly Task 4
+
+The task for week 4 of the Capstone Project.
+
+## Improvements upon the feedback provided on Week 2 Tasks:
+We will also try to improve on what you suggest every week so we will able to deliver a more better product. Here are our plans on how we will improve this week:
+
+ - **Prototype features**: Understandable that's why this week we have introduced features such as user authentication and search functionality.
+ - **Challenges and Solutions**: Understandable. As mentioned, we faced problem in designing the UI experience as it is a tedious task. We are continuosuly improving the UI based on the feedback we are receiving. We are also facing the integration problems while different components of frontends as they are developed by different people.
+
+## External Feedback:
+
+We have applied User Acceptance Testing (UAT) to our MVP. We asked a group of friends and our mentor to test it and give us feedback. The feedbacks were very helpful.  
+First feedback, there were some initialized items in the cart. We fixed it.  
+Second feedback, the layout is weird on mobile phones. So, we made it reponsive to sizes and that fixed the layout.  
+Third feedback, it was a real UX feedback, that when the quantity of an item reaches 0, it gets removed automatically and if it was by mistake, the person has to go to the store again to add it. So, we are fixing it by alerting the user before deleting the item.  
+Fourth and fifth feedbacks were positive.  
+
+## Testing
+
+We have been testing the backend part of the application using the respective libraries. After the frontend is completed we are aiming to test the prototype features (We will be testing the features that we implemented this week). We plan to use the respective libraries for both ends.
+
+## Iteration
+
+During this week's evaluation, we found problem in the idea of integrating innopoint system with the application. So in our MVP we are planning to keep the real currency in our system rather than innopoints. Also, we are planning on introdcuing features such as email integrations. This will help the users to keep a track of their orders and earlier transactions.
+
+Upon receving the feedback from last weeks, we have made many changes which includes: prioritising prototype features, removing the HomePage from the web application etc. Also while asking other users, we came to know the importance of font size in the website. Feedback included that the size of font on the website should be big enough as it would be read for ease by avergae user.
+
+On testing the application's ends, we came to know about security breaches that we improved using good coding practices, and advanced security measures such as user authentication.
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Good, you did feedback? Is there any proof to what you said?
+You should have showed the feedback here.  Or a link to it.
+
+
+
+**Testing**<br>
+Ok you you made testing, where is the proof?
+
+Please show proof of what you are saying that you were doing. Because words without evidence is just words.
+
+>  respective libraries
+
+What kind of libraries you used?
+
+How did you mange reporting / fixing bugs?
+How did you make sure it was fixed?
+
+You didn’t show any of this in the report.
+
+
+**Iteration**<br>
+
+Good plan but keep in mind:
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+**Overall**<br>
+The report is ok. your report doesn’t reflect your work. I Think you should spent more time reflecting / writing the report.
+Especially the testing part. it seems you didn't do any testing 
+
+**Grade: 3/5**
+
+
 
 _Feedback by Moofiy_
 {{< /hint >}}

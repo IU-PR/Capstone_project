@@ -186,6 +186,7 @@ Backend Django interface - https://fspmainservice.onrender.com/
 - Make search working
 - Make states of order with status and estimated time
 
+
 {{< hint danger >}}
 
 **Feedback by Rustam**  
@@ -193,4 +194,212 @@ It seems that you have an ordered approach to the project and already have main 
 I hope you and your team will be able to keep the pace and make the necessary adjustments on the way. 
 Progress report is a little too short, would be interesting to see more details on current considerations and trade-offs regarding the choices you make.  
 5/5 for the week
+{{< /hint >}}
+
+# **Week #4**
+
+**External Feedback**
+
+Parallel to this course, some of our team members have another one called the Basics of Product Management, in which they had to take some interviews with potential customers to collect some information about their problem (pain the customer face), what they already tried to do, cost and frequency, and also some insights. 
+So,  overall, they talked to 6 different farmers and asked them about some issues connected to their work 
+
+According to the results of the interview on the first week of our courses, we specified the first part of customer segment - farmers, who want to sell their products but can't find enough clients or have no time to sit and sell their products on a fair. So 2 biggest problems are time and finding new clients. Because it is done offline or with groups in messengers. So our goal should be to make ONLINE platform and make it convenient, so people would use it.
+
+Then, three weeks later, they had different task to collect feedback already about the prototype. That is why we took the interview with the farmer from Verhniy Uslon Alexey Arhireev (the
+same person we took an interview with during problem validation). After showing him
+the prototype and describing some functionalities that it will have we took feedback
+about it. He said that solution is what he needed exactly, it looks pretty user-friendly
+and has the functions that he needs. The most important advantages that he had
+pointed:
+1. It is an online platform, so the number of clients is not limited by distance.
+2. Also if the platform will be used by customers then selling the products will be
+easier.
+3. User-friendly interface will allow people of all ages to use it, even if people are not
+experienced smartphone or PC users. (that is really important point for old people)
+4. We have subscription functionality. He pointed out that never saw it, so he will be
+able to have regular customers.
+5. He will not spend time sitting on fairs, he will be able to spend more time on
+farming and just post products on the platform.
+6. He really appreciates that the platform is free, so more people will use it.
+Actually he didn’t mention the weak spots of such a platform except for the number
+of users who will use it. He said that it will not be a useful platform until a big number
+of clients will use it. So it will take some time before this platform will be used by
+farmers.
+So as a result, the farmer told us that it is a good and useful platform, so if it will be
+used by both clients and other farmers it will help him to do his job.
+
+
+**Testing** 
+
+**In flutter** we have tests:
+- Unit tests for functions and classes
+- Widget tests for widgets
+- Integration tests for the whole app
+
+Because we are making startup - we only need unit and widget tests
+Especcialy unit tests are important for us because we are making a lot of cost calculations, transport estimations and balance operations
+
+Unit tests are written in the different file with the same name but with _test suffix
+It helped us to separate tests from the code and to make code more readable
+And also find bug which could make order without enough balance for customer
+
+**In django** backend we have tests:
+- Model tests
+- Form tests
+- Api tests
+
+Because of not enoght time we tried only to test model and api test in django
+It held us to catch some bugs about enums in models and waiting time in api tests
+
+
+**Iteration**
+
+We are using iterations like week springs and every week we have changes and we are coming closer to goals which we made.
+
+We understood these things:
+- The iterative approach is indeed a crucial aspect of successful project development
+- By continuously evaluating and refining the project based on feedback and testing results, teams can adapt to changing circumstances and improve the product over time
+-  But we don't have time to really feel the full power of this approach, because it requires several dozens such sprints
+
+But because some of us working - we can illustrate our history in industry:
+- Table with tasks and backlog is necessary
+- Weeks to evaluate working period of each person
+- For each feature we have to clip the person who will be response in any next iteration to debug or improve
+
+
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Not sure about the comment about time - we are already 4 weeks in - not much time left for the prototype.
+I've visited your repo and website - same as it was 3 weeks ago (just a navbar and few icons). Backend repo - 12 commits and once a week activity. 
+I am a little concerned with the speed of your dev process - are you using different repo? 
+If yes, please provide up to date information and screens of the current state 
+Liked the interviews - good work.
+Not much progress in developing the prototype
+3/5 for the week
+{{< /hint >}}
+
+# **Week #5**
+
+This week, our team focused on entering the second iteration of feedback collection for our online platform for farmers and customers. 
+
+To accomplish our goals for the week, we executed the given tasks:
+
+**1.** Scheduled meetings or interviews with relevant stakeholders: We reached out to potential clients, users, and fellow students to gather feedback on the current version of our product. By engaging with a diverse range of stakeholders, we aimed to obtain a broader perspective on our platform's strengths and areas that require refinement.
+There were some farmers we met with on the first week of doing the project during the Basics of Product Management course; and some of our friends from our study groups who could really value our product and give detailed feedback. 
+
+**2.** We developed a comprehensive plan that outlined specific questions and areas of focus to gather feedback on. Instead of conducting one-on-one meetings, we utilized algorithmic ways such as online forms to collect standardized feedback. This approach allowed us to quantitatively assess user satisfaction with our product and its features.
+
+Questions were following: 
+1. How often do you purchase fresh produce from local farmers?
+- Daily
+- Weekly
+- Monthly
+- Rarely
+- Never
+
+2. What are the main challenges you face when trying to buy local fresh products?
+- Limited availability
+- Lack of information about local farmers and their products
+- Difficulty in finding a variety of products in one place
+- Inconvenient purchasing process (e.g., long travel distances, limited payment options)
+- Other (please specify)
+
+3. On a scale of 1 to 5, how important is it for you to support local farmers and their businesses?
+- 1 (Not important at all)
+- 2
+- 3
+- 4
+- 5 (Extremely important)
+
+4. How likely are you to use an online platform that connects farmers and customers for purchasing local fresh products?
+- Very unlikely
+- Unlikely
+- Neutral
+- Likely
+- Very likely
+
+5. What features or functionalities would you expect from an online platform connecting farmers and customers for purchasing local fresh products? (Select all that apply)
+- Detailed farmer profiles with information about their farming practices and certifications.
+- Search filters to find specific types of produce or products.
+- User reviews and ratings for farmers and their products.
+- Secure payment options.
+- Delivery or pickup options.
+- Integration with social media platforms for sharing experiences.
+- Other (please specify)
+
+6. How user-friendly do you find the current design/layout of the online platform?
+(open-ended feedback)
+
+7. Are there any specific improvements or additions you would like to see in the online platform?
+(open-ended feedback)
+
+8. On a scale of 1 to 5, how satisfied are you with the overall experience of using the online platform?
+
+9. Would you recommend this online platform to others who are interested in buying local fresh products?
+- Yes
+- No
+- Maybe
+
+10. Please provide any additional comments or suggestions you may have to help us improve the online platform.
+
+
+
+**3.** We ensured clear identification of specific areas of improvement or enhancement by documenting all the feedback received from stakeholders. This documentation will serve as a reference point for future iterations and enhancements.
+There are some statistics for first questions: 
+
+1. 
+- Daily: 5%
+- Weekly: 30%
+- Monthly: 40%
+- Rarely: 20%
+- Never: 5%
+
+2. 
+- Limited availability: 25%
+- Lack of information about local farmers and their products: 35%
+- Difficulty in finding a variety of products in one place: 20%
+- Inconvenient purchasing process (e.g., long travel distances, limited payment options): 15%
+- Other (please specify): 5%
+
+3. 
+- Average rating: 4.6
+
+4. 
+- Very unlikely: 2%
+- Unlikely: 8%
+- Neutral: 10%
+- Likely: 50%
+- Very likely: 30%
+
+5. 
+- Detailed farmer profiles with information about their farming practices and certifications: 70%
+- Search filters to find specific types of produce or products: 80%
+- User reviews and ratings for farmers and their products: 60%
+- Secure payment options: 90%
+- Delivery or pickup options: 85%
+- Integration with social media platforms for sharing experiences: 40%
+Other (please specify): N/A
+
+6. How user-friendly do you find the current design/layout of the online platform?
+- Average rating: 3.8
+
+
+**4.** We carefully analyzed all the feedback collected from stakeholders to identify common themes, patterns, or recurring issues. This analysis allowed us to gain a deeper understanding of user needs and expectations.
+With those who estimated our features lower than 4 we talked individually to get more feedback on what to improve. 
+
+**5.** After analyzing the collected feedback, we prioritized it based on its impact on user experience and feasibility of implementation. This step will guide us in making informed decisions about which improvements or enhancements to focus on first.
+Overall, this week was dedicated to gathering a broader range of feedback and refining our product based on the insights obtained. 
+
+
+Speaking about  improvements which our back-enders and front-enders worked on this week: 
+— members responsible for Django administration worked on balances and implementing the methods for ordering and buying. 
+— front-end dealt with shopping basket, subscriptions; for farmers ordering list now can be shown (in alphabet order)
+
+
+{{< hint danger >}}
+Alright, report looks good. Liked the survey data - good work!. Noted the absence of the final presentation on the top of the file. Please add the PDF file to the top of the md file.
+5 for the week!
+
+Overall, I am optimistic and excited about your project. Good luck with the project and the final presentation! You have accomplished a lot! Cheers, Rustam 
 {{< /hint >}}

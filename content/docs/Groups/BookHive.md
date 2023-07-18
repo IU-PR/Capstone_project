@@ -1,5 +1,8 @@
 # **<p style="text-align: center">BookHive</p>**
 
+## **Presentation**
+{{< embed-pdf url="/BookHive/BookHive.pdf" >}}
+
 ## **Week 1 report**
 
 This week, our main task was to form a balanced all-around team and choose the general theme and outline of our project. Creating a team was not hard, as we mostly already knew each other and our strengths. Below is the list of our members and the roles they can fill out during project development:
@@ -203,13 +206,35 @@ Below are screenshots of the current site iteration to show the progress we have
 ![alt text](https://i.ibb.co/Fm1dQGX/5.png)
 ![alt text](https://i.ibb.co/xStRNKj/6.png)
 
-
 {{< hint danger >}}
 
 **Feedback by Rustam**  
-I've read through week 3 and week 4 progress reports and so far looks good. It is nice to see that you and your team have accomplished a lot during this weeks. Make sure to keep the pace and move fast. 
+I've read through week 3 and week 4 progress reports and so far looks good. It is nice to see that you and your team have accomplished a lot during this weeks. Make sure to keep the pace and move fast.
 
 Overall, good reports and progress.
 5/5 for both weeks
 
+{{< /hint >}}
+
+## **Week 5 report**
+
+To begin with, the target audience of our project is reading students and adults. In terms of feedback collection, we showed an updated version of our product to some of the people who gave us feedback last week, and they were satisfied with the changes. We also conducted **3 more one on one interviews** with other Innopolis students, and converted their feedback into a bullet point list of issues, that were added to issues on GitHub.
+Most of the interviewees pointed out the same issues as the previous ones, that we just didn't have time to fix yet, but there were some new ones:
+
+1. On Want to Read page, there is no way to remove books from the list.
+2. On Want to Read page, there is information about books other than their covers, we should add at least book names and annotations.
+3. Some system alerts have typos in them.
+4. Some interviewees didn't like the bright honey-themed color palette, however, we will not change it, as it is a part of our vision.
+
+Overall, the customers liked the design direction and primary functionality, but generally wanted more little features.
+We did not make any online forms for feedback collection, as we believe that one on one interviews are more effective, generate more feedback and are more personal.
+Moreover, we have not deployed our product yet, as we are still working on it, so the online form would at best provide screenshots and descriptions of the app flow, which is not as good as a live demo. We also tried getting feedback from ChatGPT, but it was hard to explain our app in such a way, that would result in AI giving any useful feedback.
+
+This week, we implemented a primary functionality that wasn't done yet - want to read list. We also made some tweaks to UI and fixed broken links to some books' covers.
+We are not planning to expand our product after the final presentation, so we will not be making a product roadmap. Until the final presentation, we will be working on fixing the problems of the product, such as lack of information on Want to Read page, and finalizing the UI. After that is done, if we have time, we will be working on adding extra features proposed during interviews, such as a separate page for more information about books, and a functionality for deleting ratings and the account itself.
+
+{{< hint danger >}}
+Alright, good to see the convergence of the feedback - so you know exactly what to improve. I personally liked the bee related design - it's pretty. Noted the final presentation on the top of the file.
+5 the week! And good luck with the project and the final presentation!
+ 
 {{< /hint >}}

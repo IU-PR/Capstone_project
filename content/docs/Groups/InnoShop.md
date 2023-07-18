@@ -1,5 +1,8 @@
 # InnoShop
 
+## Link to presentation:  
+https://drive.google.com/file/d/1Mx_-OnB6ZqCy5dwjeWKumcElcd8Wp5f2/view?usp=sharing
+
 # Weekly Task 1
 
 The task for week 1 of the Capstone Project.

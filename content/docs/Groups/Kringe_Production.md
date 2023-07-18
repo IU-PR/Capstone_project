@@ -547,11 +547,46 @@ In past week, we have made significant progress in terms of iteration and refine
 
 Throughout this week, we have made improvements to front-end, created database, tested it and server, and collected valuable feedback from our friends. These efforts have significantly contributed to our progress, and we are determined to continue iterating and refining our platform to ensure a seamless user experience.
 
+## **Week 5**
+This week, we proactively scheduled meetings and interviews with users and fellow students. By engaging in direct conversations, we aim to collect valuable feedback on the current version of UniHub. This feedback will provide insights into usability, functionality and overall satisfaction of our product. We believe that gathering broader feedback will help us refine and enhance **UniHub** to better meet needs of our target users.
+
+To ensure a systematic approach to feedback collection, we prepared a comprehensive feedback collection plan. This plan includes specific questions and areas of focus to gather feedback on, covering aspects such as usability, functionality and overall satisfaction.  Online forms or surveys enable users to quantitatively assess our product and its features, providing us with valuable data to analyze and incorporate into our refinements.
+
+We will conduct user surveys and feedback sessions to gather input on UniHub's usability, functionality and overall satisfaction. These sessions will provide us with direct insights into users' experiences and perspectives, allowing us to understand their needs and expectations better. By actively engaging users in the feedback process, we can make informed decisions and prioritize improvements based on their input.
+
+Throughout feedback collection process, we diligently document all feedback received from our friends. This documentation ensures that specific areas of improvement or enhancement are clearly identified and recorded. By documenting feedback, we can refer back to it during refinement and implementation stages, ensuring that we address all relevant suggestions and concerns.
+
+Based on the feedback received and prioritization process, we implement necessary enhancements to UniHub. These changes carried out following our project's development process, ensuring that each modification is carefully integrated into existing system. By following structured approach, we can effectively incorporate user feedback and continuously improve functionality and user experience of UniHub.
+
+**User Feedback:**
+
+We have received valuable feedback from our users, which has been instrumental in shaping the further development of **UniHub**. Here are some examples of feedback we have collected:
+
+1) *"I appreciate theme switcher feature as it allows me to customize interface based on my preferences. It adds a personal touch to the overall user experience. Now I can choose a theme that suits my style, making UniHub more visually appealing and engaging."*
+
+2) *"Notifications feature will be a great addition to UniHub. With it I will stay updated on relevant discussions and announcements without constantly checking the platform. It would help me stay engaged with my courses and new files and ensures that I don't miss any important information."*
+
+3) *"User interface is intuitive and user-friendly. Navigating through different sections and accessing course materials is straightforward. Clear organization of resources and discussions enhances the overall user experience and makes it easier to find what I need."*
+
+**Team Progress:**
+
+During this week, our team made significant progress in enhancing UniHub based on user feedback and addressing technical aspects. Here are the key achievements:
+
+1) **Feature Enhancements:** We actively listened to user requests from previous week and successfully implemented highly requested features. Addition of search functionality in courses has greatly improved usability of **UniHub**, enabling users to quickly locate specific resources and engage in focused discussions. Additionally, we introduced a theme switcher feature, allowing users to customize interface based on their preferences.
+
+2) **Backend API Development:** Our team successfully completed development of backend API, ensuring seamless communication between frontend and server. This milestone enables efficient data management, user authentication and smooth integration of features across platform.
+
+3) **Database and User Management:** We dedicated time and effort to refine database structure and optimize user management functionalities. These improvements enhance overall performance and reliability of UniHub, ensuring that user data is securely stored and accessible when needed.
+
+4) **Server Architecture and Resource Usage:** We made significant advancements in optimizing server architecture and resource utilization. As a result, our server is now capable of handling a high load of 500 users with only a minimal loss of requests (0.1%). This improvement guarantees a smooth and reliable user experience, especially during peak usage periods such as exams or when there is a surge in activity.
+
+![stress test for 500 users](/kringe_production_images/500_users.png)
+Pic. 1. Stress test for 500 users
+
+
 {{< hint danger >}}
+Alright, amazing progress!. Stress tests are nice!. Noted the absence of the final presentation on the top of the file - please, upload the file.
 
-**Feedback by Rustam**  
-Looks good, keep up the good work and I am sure you will finish with the nice and neat prototype!
-Overall, good report and progress.
-5/5 for the week
-
+5 the week! And good luck with the project and the final presentation! 
 {{< /hint >}}
+

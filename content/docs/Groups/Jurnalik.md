@@ -6,7 +6,9 @@
   <img src="/Jurnalik/jurnalik.svg" alt="Jurnalik Logo" width="300" height="300">
 </div>
 
-Jurnalik is a mobile application, an electronic "newspaper" that collects and provides the user with the latest news, posts and photos from their social networks, news channels and subscriptions in one application.
+Jurnalik is a mobile application, an electronic "newspaper" that collects and provides the user with the latest news, posts and photos from their social networks and news channels in one application.
+
+{{< embed-pdf url="/Jurnalik/Jurnalik.pdf" >}}
 
 ## Week 1. The Beginning
 ### Team Formation and Project Proposal
@@ -18,22 +20,44 @@ Jurnalik is a mobile application, an electronic "newspaper" that collects and pr
 | Nikita Semeritskiy| [@FatM1nd](https://t.me/FatM1nd)                 | n.semeritskiy@innopolis.university      |
 | Nikita Fedorovich    | [@Fedorovich_Nikita](https://t.me/Fedorovich_Nikita) | n.fedorovich@innopolis.university     |
 | Yana Pavlova| [@pavlova_yana_1](https://t.me/pavlova_yana_1)                   | y.pavlova@innopolis.university     |
-| Valeria Kharina    | [@exemplerie](https://t.me/exemplerie)                     | v.kharina@innopolis.university     |
+| Valeriia Kharina    | [@exemplerie](https://t.me/exemplerie)                     | v.kharina@innopolis.university     |
 | Dilyara Farkhutdinova| [@d_farkhutdinova](https://t.me/d_farkhutdinova)| d.farkhutdinova@innopolis.university |
 | Oksana Konovalova   | [@ksko02](https://t.me/ksko02)     | o.konovalova@innopolis.university    |
 | Adelina Kildeeva   | [@yumiue](https://t.me/yumiue)     | a.kildeeva@innopolis.university    |
 
 #### Value proposition
 
-**Jurnalik** is a mobile application, an electronic "**newspaper**" that collects and provides the user with the latest news, posts and photos from their social networks, news channels and subscriptions. The main purpose of the project is to solve the problem of **information overload** and inefficient use of users' time in social networks. We strive to provide a convenient and unique resource that allows users to **focus** on each piece of content, **avoid holding back algorithms** and get only the most important information.
+**Problem** 
 
-Our app provides several benefits. Firstly, it helps users reduce the time they spend on social media by limiting the information they publish and consume. This allows users to be more focused and concentrated on the topics of interest to them. Secondly, the app provides protection from corporate retention algorithms by offering a more independent and objective source of information. Finally, our app offers users a lot of interesting content and news tailored to each user, allowing them to stay up-to-date with the latest news and events of interest.
+In today's world, people live in a state of information overload. Social networks are accompanied by an endless feed and recommendation systems, forcing users to spend hours of their time scrolling through thousands of news and posts. In addition, many users read the news in multiple apps, switching from one to another. What if we could offer a convenient solution to these problems?
 
-Users of our app will enjoy several benefits. Firstly, they can manage their time more efficiently, avoiding endless scrolling and information overload in social networks. They will only receive information that is relevant and interesting to them. This contributes to increased productivity and focus in users' daily lives. In addition, users will have access to varied and high-quality content selected specifically for them, allowing them to stay up-to-date with the latest news and events of interest.
+**Solution** 
 
-Our application differs from competitive solutions in several aspects. Firstly, we offer a unique combination of collected content, combining it from various sources of the user. This creates a more complete and comprehensive picture of what is happening. In addition, we focus on personalisation of content for each user, which creates a unique and optimised user experience. Our app also protects users from retention algorithms, which sets it apart from social media platforms.
+Jurnalik is a mobile application, an electronic "newspaper" that each day collects and provides the user with the daily news, posts and photos from their social networks, news channels and subscriptions. The app contains a limited amount of content from a few selected sources and divides all news into categories, allowing the user to read posts based on their interests.
 
-Our project is expected to have a positive impact on users and stakeholders. Users will be able to manage their time more efficiently by avoiding endless scrolling and information overload on social media. They will only receive information that is relevant and interesting to them. This contributes to increased productivity and focus in users' daily lives. In addition, users will have access to varied and high-quality content tailored specifically to them, allowing them to stay up-to-date with the latest news and events of interest. Our app also provides an independent and objective source of information
+**Benefits to Users**
+
+- Reduce time spent on social media by consuming a limited amount of content. Focus on the latest news without the distraction of recommendation systems and corporate retention algorithms.
+- Read news from several social networks at once. Our app allows users to get information in a single feed so they don't have to switch between apps.
+- News filters based on post source and category. The user can customize the feed by selecting news by specific categories or sources.
+- Removal of identical news and advertisements. The algorithms of our application will remove repetitive news and advertising posts from the feed that take up time and attention of users.
+
+Social networks available in the app: Telegram, VKontakte, Instagram. News categories: accident, business, entertainment, politics, sport, technology.
+
+**Differentiation:**
+
+Jurnalik provides a single news feed collected from multiple social networks with post categorization features. No app with an identical idea has been found on the market so far. 
+
+Most apps with similar functionality are designed to manage multiple social networks (publishing posts, accessing private messages, scheduling a user's personal content). Thus, Sprout Social and Scruddle don't have category news separation, and Hootsuite and Bynd don't have a unified feed at all. Feedly and NewsBlur provide great functionality and a unified feed but are designed for news apps (BBC, Time etc.) and articles. Also the above applications do not have a limit on the amount of content.
+
+**User Impact:**
+
+Users will be able to manage their time more efficiently by avoiding endless scrolling and information overload on social media. They will only receive information that is relevant and interesting to them. This contributes to increased productivity and focus in users' daily lives.
+
+**User Testimonials or Use Cases:**
+
+- People who want to spend less time on social media. Using Jurnalik, they will read a limited amount of news from the selected groups and channels, without sticking to the recommendations from the social media apps.
+- A person experiencing panic and nervousness from the news happening in the world can remove the politics category and read only news that does not contain political content.
 
 {{< hint danger >}}
 **Feedback**  
@@ -43,7 +67,7 @@ Our project is expected to have a positive impact on users and stakeholders. Use
 _Feedback by Moofiy_
 {{< /hint >}}
 
-### **Lean Startup Questionnaire**
+### Lean Startup Questionnaire
 
 1. `What problem or need does your software project address?`
     
@@ -52,7 +76,7 @@ _Feedback by Moofiy_
 
 2. `Who are your target users or customers?`
     
-    Our target users are people who actively use social media, news and information resources but face information overload and distracting algorithms. They can be both ordinary users and professionals who need to keep abreast of the latest developments in their field.
+    Our target users are people who want to reduce information overload and spend less time on social media.
     
 {{< hint danger >}}
 **Feedback**  
@@ -68,7 +92,7 @@ When knowing your uses, you can target their needs better.
 
 3. `How will you validate and test your assumptions about the project?`
     
-    To test and verify our assumptions, we may use different methods, such as surveys and interviews with target users, conducting focus groups, analyzing user behavior in the app, and collecting feedback. We will be able to examine how well the app addresses the problem of information overload and assess user satisfaction with its functionality and usability.
+    Firstly, we will use analytics metrics and conduct MVP testing to consider overall feedback. Then, we will conduct user surveys and use A/B testing to validate and test our assumptions abput the app.
 
 {{< hint danger >}}
 **Feedback**  
@@ -94,8 +118,9 @@ _Feedback by Moofiy_
     
     - Number of app downloads and active users.
     - Time spent by users in the app.
-    - Level of user engagement: number of posts, photos, news they consume in the app.
     - User feedback and feedback on the app.
+    - Net Promoter Score (NPS)
+    - Retention Rate
     
 {{< hint danger >}}
 **Feedback**  
@@ -107,11 +132,10 @@ Good, but you should take into account other metrics like:
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
 5. `How do you plan to iterate and pivot if necessary based on user feedback?`
     
-    We plan to actively collect feedback from users through various channels,
-    
-    such as the in-app feedback feature, email, social media, etc. We will listen and analyse user feedback carefully, and if necessary, we will be ready to make changes and adjust our development strategy and app functionality. This may include adding new features, optimising the user interface or changing content sources to better meet the needs of our users.
+    Firstly, we will reqularly gather feedback from user surveys and interviews. Secondly, analyze feedback to find pain points and areas for improvement. Thirdly, prioritize feedback based on frequency and significance. Finally, release updates or new features and evaluate their impact on user satisfaction.
    
 {{< hint danger >}}
 **Feedback**  
@@ -133,10 +157,11 @@ _Feedback by Moofiy_
 {{< /hint >}}
    
     
-### **Leveraging AI, Open-Source, and Experts**
-Our team plans to use AI technology to develop and train our model to identify and classify news/advertisements. We will use open standards and web libraries to ensure our projects are accessible and affordable. We will also continue to improve our AI algorithms by following the latest developments in the study.
+### Leveraging AI, Open-Source, and Experts
+- AI: Our team plans to develop and train NLP model to classify news, identify the advertisements and find near-duplicate content. 
+- Open-Source: We will use open-source libraries to interact with social media APIs. 
+- Experts: We plan to seek advice and input from experts in the field through University.
 
-We are aware of the importance of having experts in our team, but we cannot find experts due to time constraints. However, we plan to seek advice and input from experts in the field through University.
 {{< hint danger >}}
 **Feedback** 
 >  We will use open standards and web libraries to ensure our projects are accessible and affordable 
@@ -148,9 +173,9 @@ We are aware of the importance of having experts in our team, but we cannot find
 
 _Feedback by Moofiy_
 {{< /hint >}}
-### **Inviting other students**
+### Inviting other students
 
-Of course, we are open to inviting other students to join our project. We believe in the power of collaboration and are keen to expand our team in the future.
+We are open to invite other students to join our project. We believe in the power of collaboration and are keen to expand our team in the future.
 
 {{< hint danger >}}
 **Feedback**  
@@ -161,14 +186,13 @@ say no, don't fill in fluff words!
 _Feedback by Moofiy_
 {{< /hint >}}
 
-### **Vision for Your Project**
+### Vision for Your Project
 
 #### Project overview
-Our project is a mobile application, an electronic "newspaper" that collects and provides the user with the latest news, posts, and photos from their social networks, news channels, and subscriptions. The main purpose of the project is to solve the problem of information overload and inefficient use of the user's time on social networks. We aim to provide a user-friendly and unique resource that allows users to focus on each piece of content, avoid holding back algorithms and get only the most important information.
+Jurnalik is a mobile application, an electronic "newspaper" that each day collects and provides the user with the daily news, posts and photos from their social networks, news channels and subscriptions. The app contains a limited amount of content from a few selected sources and divides all news into categories, allowing the user to read posts based on their interests.
+
 #### Schematic Drawing
 ![Structure](/Jurnalik/structureJurnalik.svg)
-#### Value Proposition
-Our app offers a number of meaningful benefits. First, it helps users reduce the time they spend on social media by limiting the information they post and consume. This allows users to be more focused and concentrated on a topic of interest to them. Secondly, the app provides protection from corporate retention algorithms by offering a more independent and objective source of information. Finally, our app offers the user lots of interesting content and news tailored to each user, creating a personalized and unique experience.
 
 #### Tech Stack
  - Frontend
@@ -177,7 +201,7 @@ Our app offers a number of meaningful benefits. First, it helps users reduce the
  - Backend
 	 - Python
 	 - Flask
-	 - FastAPI
+	 - RestAPI
 	 - PostgreSQL
  - ML
 	 - Python
@@ -189,6 +213,7 @@ Our app offers a number of meaningful benefits. First, it helps users reduce the
 	- GitHub Actions
 	- Docker
 	- Kubernetes
+  - gRPC
 	
 	
 {{< hint danger >}}
@@ -206,12 +231,13 @@ I mean it's ok to make people return to the app. but you need to give them good 
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
 #### Anticipating Future Problems
 Now we've already found some possible problems that we should overcome during development.
 1. Services integration
    Purpose of app is to pull news from different sources. API or other integration tools would provide pulling. But some services (like Instagram) have strict rules for registring new apps which would use service info (posts in Instagram). 
-2. Comparing posts for clones
-   User can read news from different resources, but sometimes aggregators could post equal news but in the different presentation of the text. Purpose of app to reduce time-spending in smartphone, so we should implement method for identifing "clones"
+2. Comparing posts for near-duplicate content
+   User can read news from different resources, but sometimes aggregators could post equal news but in the different presentation of the text. Purpose of app to reduce time-spending in smartphone, so we should implement method for identifing duplicates.
 3. Rethinking the Newspaper
    The goal of designers to rethink old "newspaper" to new modern mobile app.
 4. An obstacle to the expansion of mind horizons

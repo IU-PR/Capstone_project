@@ -7,6 +7,19 @@ title: "InnoCoTravel"
 
 <img src="/InnoCoTravel/week4_logo.png" alt="drawing" width="450"/>
 
+# **Link to the final presentation**
+
+
+[Main link](/InnoCoTravel/InnoCoGo.pdf)
+
+
+[Spare link](https://drive.google.com/drive/folders/1IPNBVe81upI2KEr8ktRw6RYiMlYRK1xO?usp=sharing)
+
+# **Link to deployed solution**
+
+![](/InnoCoTravel/week6_qr.png)
+
+[https://t.me/inno_co_go_bot](https://t.me/inno_co_go_bot)
 
 # **Week #1**
 
@@ -561,4 +574,168 @@ The report is good.
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+
+
+# **Week #5**
+
+## **Weekly tasks**
+
+To accomplish this, we will focus on the following tasks throughout the week:
+
+### **Scheduling relevant meetings**
+During the previous week, we encountered a problem while collecting feedback. We gave the testers a software that had a significant number of bugs.
+- To solve this problem, we fixed all the bugs that were identified in the previous week.
+- We enlisted the help of several students who acted as quality assurance specialists.
+
+Based on the feedback from the QA team, we identified and resolved the following issues:
+
+
+#### The website supports two languages, but the bot supports only English
+In our first version of the Telegram bot, when we were initially testing our 'join-trip' feature (which is not yet released), we were told that the bot should be able to change languages as well, so we implemented it. To determine the language, we used Telegram's language code for a specific user.
+
+#### Logo is not visible in the dark theme
+Based on the feedback, we made a unique version of our logo for the dark theme: all-white. Now, it can be seen clearer on the dark background.
+
+![](/InnoCoTravel/week5_p1.png)
+
+
+#### Language selection looks bad
+
+Our initial language selection looked like this (top right):
+![](/InnoCoTravel/week5_p2.png)
+
+However, based on feedback, we replaced it with a flag selector:
+![](/InnoCoTravel/week5_p3.png)
+
+
+
+After addressing the aforementioned issues, we conducted the main review for our users.
+### **Prepare a feedback collection plan**
+We chose to use Google Docs for collecting feedback because of the following reasons:
+- Users are familiar with it: Many people already know how to use Google Docs because it is a widely used platform for creating and sharing documents. By using Google Docs for the feedback collection, we made it easier for users to provide their feedback since they were already familiar with the platform.
+- It provides useful survey analysis tools: Google Docs has features that allow us to analyze the feedback we received. We can use these tools to understand the survey responses better, create charts and graphs, and get insights from the collected data. By using Google Docs, we can analyze the feedback and use the information to make informed decisions and improvements based on the survey results
+
+Our survey includes only 6 question, because:
+- we didnt want to overwhelm the reviewers
+- we wanted to collect feedback only on major points of our project, as we don't have time to implement every wish of the target audience within 7 weaks
+
+
+The questions are:
+- Is browser version is essential for you. This question will help us to decide whever we should include in in mvp or postpone for future development.
+- UX
+- UI
+- Functionality
+
+By including the previous three questions in our survey, our intention was to identify the weakest aspect of our project. These questions were designed to pinpoint any specific areas that require improvement or further attention.
+
+On the other hand, the last two questions were left open-ended, allowing highly engaged reviewers to provide valuable feedback and inspiration for improvement. We sought meaningful insights and fresh ideas from these questions, as they offered an opportunity for reviewers to share their perspectives and suggestions beyond the predefined options.
+
+Through this approach, we aimed to gather comprehensive feedback that would help us identify the weaknesses in our project and gather valuable input for its enhancement.
+### **Conduct user surveys and document feedback**
+During the 7-week timeframe, our primary focus was on implementing the MVP. Due to resource limitations, we decided to prioritize the feedback from highly engaged reviewers, as they represent our initial clients and their input is crucial for improving the product.
+The statistics presented below provide an analysis of the responses that contain meaningful answers to open questions.
+![](/InnoCoTravel/week5_1.png)
+
+![](/InnoCoTravel/week5_2.png)
+![](/InnoCoTravel/week5_3.png)
+![](/InnoCoTravel/week5_4.png)
+
+### **Analyzing the feedback**
+
+Based on the feedback from our engaged audience through the open-ended questions, we have identified the following common user problems:
+- **Lack of essential features for trip management**
+Trip removal, and trip joining are two features essential for the MVP, but they were not yet completed when we were gathering the feedback. Therefore, almost all the testers pointed out this problem.
+
+- **Lack of feedback**
+Some users pointed out that some actions (such as trip creation) lack feedback, such as a popup that says that their action was successfully complete. 
+
+- **Inconvinient trip filtering**
+Some users found trip filtering inconvinient: too restrictive in some areas, and non-restrictive enough in others. For example, one of our testers shared that they would like too see all the available trips, without filters. Other users said that trips with no free places are irrelevant and should not be shown to users.
+
+- **Need for more quality-of-life features**
+Some users pointed out that there are some nice quality-of-life features that could be implemented, which would increase the quality of our product in their eyes. Some of such features include: calendar integration, more notifications of different kind to people who joined a trip.
+
+### **Feedback prioritization**
+After hearing the feedback, this is how we prioritize it:
+1. **Lack of essential features for trip management** is our priority number 1, and we intend to add these features in the a couple of days as they are mostly ready
+2. **Lack of feedback** would be our number 2 priority, and we are looking for to adding alerts and pop-ups in different scenarios
+3. **Inconvinient trip filtering** would be our number 3 priority, as we are not yet sure of how to improve the experience in that case
+4. **Need for more quality-of-life features** is the least important feedback for us, as the implementation of the features suggested seems unfeasiable in two weeks left before the final presentation. However, we will consider these features for after the 'Capstone'.
+
+### **Product roadmap after 'Capstone'**
+- Currently, our main focus is on developing a Minimum Viable Product (MVP) which includes only the Telegram Web App, as it is supported with the feedback of our users. However, we have realized that this method is not suitable for certain segments of our audience.  To solve this problem, we plan to provide the same functionality through a website. In order to easily expand our project in the future, we are considering this aspect while designing our architecture.
+- Another important issue we need to address is ensuring the profitability of our project so that it can be properly maintained. Our main idea is to utilize the payment features of Telegram. We believe that charging a commission from the drivers who use our project to find passengers could be a good approach. However, we will tackle this issue after gaining a better understanding of the number of users, in order to properly assess the economics of each transaction.
+### **Implementing necessary changes or enhancements**
+- In the first section, we discussed the features we implemented or fixed based on the QA team's work. 
+
+- By tackling the feedback according to the established prioritization, we aim to ensure that the most important issues are addressed promptly, resulting in the improvement and refinement of our software based on the valuable input provided by the survey participants.
+
+
+
+**Collecting and documenting feedback**<br>
+Very good!
+
+
+**Feedback analysis**<br>
+Very good!
+
+**Roadmap and enhancement**<br>
+Very good!
+
+
+**Grade: 5/5**
+
+# **Week #6**
+
+## **Link to the final presentation**
+
+
+[Main link](/InnoCoTravel/InnoCoGo.pdf)
+
+
+[Spare link](https://drive.google.com/drive/folders/1IPNBVe81upI2KEr8ktRw6RYiMlYRK1xO?usp=sharing)
+
+## **Link to deployed solution**
+
+![](/InnoCoTravel/week6_qr.png)
+
+[https://t.me/inno_co_go_bot](https://t.me/inno_co_go_bot)
+
+## **Weekly tasks**
+
+We have accomplished a substantial amount of work this week. During our sprint, we successfully addressed several bugs and implemented various features based on user feedback.
+- focused on frontend and improved visuals
+- fixed several bugs
+- added immediate feedback on some actions: alerts and warnings
+
+More info in backlog.
+
+
+### **AI Integration**
+
+The main achievement of this week is the addition of an AI translator to our project. We consider the availability in both Russian and English as a key feature, which is why we have integrated LibreTranslate as a crucial component of our project. 
+Our decision to opt for LibreTranslate was driven by several important factors that align perfectly with our project's goals.
+- Firstly, LibreTranslate is an open-source solution, which means that it is developed and maintained by a community of passionate individuals, making it transparent, accessible, and continuously evolving.
+
+- Secondly, the ability to host LibreTranslate locally on our own server provides us with a level of control and independence that is crucial for our project's success. By having it within our own infrastructure, we can fine-tune and customize its functionalities to suit our specific requirements. This localized hosting also ensures data privacy and security, as sensitive information remains within our organization's confines.
+
+- Furthermore, LibreTranslate's open-source nature and local hosting not only give us the freedom to modify and adapt the tool but also allow us to seamlessly integrate it into our existing workflow and system architecture. This integration will enhance the overall efficiency and performance of our project, enabling us to deliver a more robust and user-friendly solution to our valued users.
+
+Overall, LibreTranslate stands out as the ideal choice for us, providing the perfect blend of openness, adaptability, and security, all of which are instrumental in driving our project towards success and making it a valuable asset for our users.
+
+### **Making the presentation**
+
+During this week, another critical task on our agenda was to create a presentation that would adeptly showcase our project to the course instructors. To ensure the presentation's effectiveness, we employed the following strategies:
+
+- Conducted two team meetings: Collaboration and communication are vital for a successful presentation. Therefore, we held two team meetings to brainstorm ideas, discuss key points, and delegate responsibilities among team members. These meetings allowed us to align our thoughts and ensure a cohesive and well-structured presentation.
+
+- Utilized previous reports: Building upon the groundwork laid in our previous reports, we gathered relevant data, research findings, and project milestones. This enabled us to present a comprehensive overview of our project's progress and accomplishments so far. By referencing our previous work, we ensured that the presentation remained consistent with our overall project narrative.
+
+- Leveraged material from other courses: Drawing from the knowledge gained in our CEO Toolkit and Public Speaking courses, we incorporated best practices in communication, presentation techniques, and storytelling. This approach helped us craft a compelling narrative, engage the audience effectively, and deliver the message with clarity and confidence.
+
+By combining insights from multiple sources and aligning our team's efforts, we created a presentation that not only showcases the hard work we've put into the project but also highlights its value and potential impact. With a well-prepared presentation, we are confident in our ability to impress the course instructors and effectively convey the significance of our project's contributions.
+
+
 

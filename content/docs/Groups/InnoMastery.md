@@ -3,13 +3,8 @@ weight: 1
 bookFlatSection: true
 title: "InnoMastery"
 ---
-# **Introduction**
-
-{{< hint danger >}}
-**Feedback by Rustam**  
-
-Create here a short introductory text, so people reading about your work can immediately get what the project is about. It is also good to have some logo or visual materials as they can help make your project more memorable for the potential reader
-{{< /hint >}}
+<img src="/InnoMastery/logo.png" alt="Tuxi" width="300"/> \
+**Welcome to InnoMastery — a new course platform for everyone!**
 
 # **Week #1 Report**
 
@@ -286,3 +281,171 @@ Grade 5/5
 
 _Feedback by Moofiy_
 {{< /hint >}}
+
+
+
+# **Week #3 Report**
+
+## Prototype
+
+The course platform is available at [<ins>innomastery.ru</ins>](https://innomastery.ru). You may also check Coder, our Self-hosted Remote Development Environment, at [<ins>coder.innomastery.ru</ins>](https://coder.innomastery.ru).
+
+### Prototype Features
+
+The features that we have successfully integrated into our prototype are the following:
+- Authentication via JWT tokens
+- Authorization
+- A table of contents for the course
+- A self-hosted Remote Development Environment [<ins>Coder</ins>](https://coder.com/)
+
+### User Interface
+
+1. When the user visits our website, they see our landing page that tells them about our course. From here, the user can sign up for our course or continue their studies if they are already signed in.
+![Index page](/InnoMastery/pages/index.jpeg)
+
+2. After signing up, the student sees a table of contents for the course. Here, they can pick a lesson they want to study. The lessons are organized into chapters for easier navigation.
+![Table of contents page](/InnoMastery/pages/table-of-contents.jpeg)
+
+3. Each lesson consists of several steps of three kinds: theory, questions, and coding tasks. Theory steps are articles for the student to study, with each step dedicated to a single topic.
+![Article page](/InnoMastery/pages/article.jpeg)
+
+4. Question steps let the student evaluate the knowledge gained from the theoretical material.
+![Question page](/InnoMastery/pages/question.jpeg)
+
+5. By solving coding tasks, the student can apply new knowledge to solve real-world tasks. These tasks are solved in Coder. In Coder, the student can create their workspace from a template:
+![Coder workspaces](/InnoMastery/pages/coder-workspaces.jpeg)
+![Coder create workspace](/InnoMastery/pages/coder-create-workspace.jpeg)
+
+6. Once they create a workspace, the student can access it using either VS Code in the browser or a locally installed VS Code.
+![Coder access workspace](/InnoMastery/pages/coder-access-workspace.jpeg)
+![Coder vscode online](/InnoMastery/pages/coder-vscode-online.jpeg)
+
+## Challenges and Solutions
+
+We faced challenges related to: 
+
+1. *Authentication and Authorization.* JWT (JSON Web Tokens) is commonly used for authentication and authorization purposes. One of the challenges of implementing JWT is effectively managing tokens for people who have logged in. This can be addressed by implementing token revocation for logging out, token expiration, and refreshing tokens.
+
+2. *Proper design mappings from sqlalchemy classes to strawberry classes.* It wasn’t so obvious at first, but then we managed to find a [<ins>relevant resource</ins>](https://blog.logrocket.com/using-graphql-strawberry-fastapi-next-js/) on the topic and resolved the issues with the database whatsoever.
+
+## Next Steps
+
+1. **Parsing course material.** So far, the table of contents is hard-coded into the prototype. We intend to implement a parser for all the material we already have, organized in Markdown files. This will give us an easy and automated way to deploy our course.
+
+2. **Viewing course material on the website.** The lesson viewer isn’t in the working prototype yet. We plan to implement it during the next week.
+
+3. **Grading questions.** Once we have the lesson viewer working, we’ll start implementing questions. Hopefully, we will do it during the fifth week.
+
+4. **Integrating with Coder.** We also plan to integrate with Coder for the MVP. We want to implement authentication via OAuth and redirection to Coder for coding tasks.
+
+
+{{< hint danger >}}
+**Feedback** 
+
+
+Note:
+I couldn’t log into my account. Please don’t make the registration and using your service hard on first time users. It will make them run away.
+Let me use the service once. If I like it then I will register.
+
+**Prototype Features**<br>
+You should list her all features you will provide. This is too short
+
+
+**User Interface**<br>
+AMAZING!!!
+Very nice design. But did you test it with users?
+
+**Challenges and Solutions**<br>
+Good!,
+**Next Steps**<br>
+Good. You should relay think of testing (Usability testing)
+
+**Overall**<br>
+Good report, you should focus more on finalising the project. and test it with real users.
+**Grade<br> 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+
+
+# **Week #4 Report**
+
+## External Feedback
+
+The feedback we received from our friends was overall positive. They appreciated the idea of the course platform and really liked the website design.
+
+However, they pointed out several issues with our UX. For example, one person suggested to swap the buttons `I want a hint` and `Check` in question steps, as the check button is harder to reach than necessary.
+
+![Hint and check buttons](/InnoMastery/hint-and-check-buttons.jpg)
+
+Another issue is that Chrome does not suggest an auto-generated password on the sign-up page. We will need to improve the page markup with hints for browser autocompletion.
+
+![Password auto generation](/InnoMastery/password-auto-generation.jpg)
+
+Despite the issues mentioned above, the feedback shows that our project is going in the right direction.
+
+## Testing
+
+We tested the platform internally and discovered several issues. For example, the sign-up form didn’t accept the Russian letter `Ё`.
+
+![Registration problem](/InnoMastery/registration-problem.jpg)
+
+In addition, the password was checked against a regular expression that was hard to satisfy. For example, Firefox’s automatically generated password did not validate.
+
+![Invalid password](/InnoMastery/invalid-password.jpg)
+
+Once discovered, we relaxed the restrictions on the name and the password. We don’t really care about the user’s name, and putting many restrictions on the password often only leads to easier brute-force, hence is insecure.
+
+Besides these issues with the sign-up form, testing didn’t reveal any other bugs in our prototype.
+
+## Iteration and refinement
+
+After collecting feedback and thoroughly testing our prototype, we created the appropriate issues and organized a retro session.
+
+![Gitlab issues](/InnoMastery/gitlab-issues.jpg)
+
+We noticed a lack of synchronization in our team, so we clarified several points about the project. For example, we discussed how different entities (namely, chapters, lessons, and three kinds of steps) should relate to each other in the database. This question is important for several interlinked issues. First, it affects how these entities are retrieved via the API and the API performance. Second, it affects how our URLs are composed, because it must be possible to fetch a particular step using only the information provided in the URL. Third, URLs matter for SEO, as search engines deprioritize ugly links in favor of simple and human-readable ones.
+
+![URL structure](/InnoMastery/url-structure.jpg)
+
+Second, we refined and agreed on our git flow. We also eliminated all stale branches. Third, we clarified further steps and noticed once again that it is important not to overcomplicate things and focus only on the features that are most important right now. Based on discussions during our meeting, we plan to implement these features during the next two weeks for our MVP:
+- Viewing course material on the website
+- Grading questions
+
+{{< hint danger >}}
+**Feedback**  
+**External Feedback**<br>
+Very Good, but maybe better to follow some kind of User statisifaction metrics like NPS to better utilise this feedback.
+
+Now how will you adapt to this feedback?
+
+
+**Testing**<br>
+Good
+
+Have you considered unit testing also?
+
+
+**Iteration**<br>
+Good iteration plan but keep in mind:
+
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+
+**Overall**<br>
+The report is good.
+
+**Grade: 5/5**
+
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+

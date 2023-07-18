@@ -1,7 +1,7 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "TripStatic week1"
+title: "TripStatic"
 ---
 
 # Week 01 - report
@@ -171,3 +171,11 @@ These include:
   
   _Feedback by Moofiy_
   {{< /hint >}}
+
+
+  
+{{< hint danger >}}
+
+**Feedback by Rustam**  
+Hi! Is everything is alright? We didn't receive any reports since week 1!
+{{< /hint >}}

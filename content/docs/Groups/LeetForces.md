@@ -259,11 +259,12 @@ The whole system is easily scalable and maintainable due to usage of Docker and 
 {{< /expand >}}
 
 {{< hint danger >}}
-**Feedback**  
+
+**Feedback**
 
 **1. Component Breakdown**
 
-Good, 
+Good,
 
 **2. Data Management**
 
@@ -272,7 +273,7 @@ Good!!
 **3. UI Design**
 
 Nice designs
-But the design in desktop-8 you should show how will you present the contests 
+But the design in desktop-8 you should show how will you present the contests
 
 **4. Integration and APIs**
 
@@ -285,8 +286,8 @@ Good
 Good
 
 **7. Error handling and Resillience**
-You will do all of that? I highly doubt that it’s manageable. 
-Maybe pick one or tow and focus to perfect them. 
+You will do all of that? I highly doubt that it’s manageable.
+Maybe pick one or tow and focus to perfect them.
 
 **8. Deployment and DevOps**
 Very Good
@@ -299,6 +300,135 @@ The report is  good. But you didn’t answer the questioner
 
 Grade 4/5
 
+
+_Feedback by Moofiy_
+{{< /hint >}}
+
+{{< expand "Week 3 report" >}}
+
+## **Developing the first prototype, creating the priority list**
+As we conclude the third week of our project, we are thrilled to share the development milestones and insights gained from our journey so far. This week, we focused on creating a prototype of our system and are happy to present its main features and functionalities.
+
+
+#### **Technical Infrastructure**
+Speaking of technical infrastructure, setting up a robust technical infrastructure is crucial for the success of our project. The development part of our project does not require renting additional computational resources, so we can use our laptops since they provide enough computational power. We ensured that team members have efficient access to the infrastructure.
+
+#### **Backend development**
+We have designed the first iteration of our internal APIs (for Juggler and Orchestrator) and have written descriptive documentation for them using OpenAPI Specifications. You can find file with specifications [here](https://drive.google.com/drive/folders/1AuQu-GkGnGx5MI5kP3T2BLo-n5bvH5W_), after download you need to import configuration files into  your favourite OpenAPI editor, fer the development part we used the following [resource](https://editor.swagger.io). And we have already implemented all of them, then we will expand our internal APIs based on demand.
+
+#### **Frontend development**
+We started the development process of the frontend part using Flutter framework. We have successfully developed the first iteration of the frontend. We have started to implement the busyness logic of the project, including authentication.
+
+#### **Data Management**
+For the data management we set up the PostgreSQL database. We have developed necessary entities for the first iteration of the development.
+
+#### **Prototype Testing**
+Speaking of testing, we sent our first prototype to our student friends, also we used cross-testing technique, i.e. the team member who developed the juggler tests the orchestrator and the one who wrote the frontend part tests the juggler.
+
+<!-- гера молодец -->
+### **Prototype Features**
+In our first prototype, we have implemented core functionalities to make our project practical for early testing and getting user feedback. Here are the features that we managed to successfully implement:
+1. User registration
+- The Juggler API now supports registering to our system. In the future, it will enable the project and our users to hold a full-fledged web session using the on-site frontend and to implement authorization.
+2. Adding tasks
+- The users can create tasks using the API and telegram bot frontend. The problem statement, tests, reference answers, time and memory limits are all available for the authors to set.
+3. Grading system
+- The users can submit their solutions to the system and consequently receive the submission status.
+4. Telegram frontend
+- The communications with the API can be done using the telegram bot frontend. It supports all the basic commands in our prototype.
+
+### **User interfaces**
+1. On-site interface
+- The on-site part has a minimalistic design, focusing on usability and clean, visually appealing interfaces. The prototype allows users to navigate through the registration and login pages and partially represents the interface of the main page. However, the interface is still work in progress as the team is designing the interface alongside implementing the web frontend.
+
+2. Telegram bot
+- Users can interact with our service directly from Telegram. The bot is capable of guiding users through problem submission, feedback, and progress tracking.
+
+### **Challenges and solutions**
+During the development of the prototype, we encountered some challenges:
+
+1. **Telegram frontend**
+- Integrating the Telegram API into our system was a complex task. We had to ensure that our Telegram bot was able to receive tasks from users, forward them to the Juggler for processing, and return the feedback. We overcame this challenge by thoroughly studying the Telegram API documentation and consulting online forums for specific implementation questions.
+2. **Orchestrator Service**
+- Setting up a reliable, secure, and efficient grading system was another challenge. We had to ensure that user submissions are run in an isolated environment to prevent any malicious activities. Docker provided us with the sandboxing capabilities we needed.
+3. **User Authentication**
+- As we were trying to make the user registration and authentication as secure as possible, we found it challenging to correctly implement JWT token-based authentication. We overcome this issue by studying more about the JWT tokens, their creation, validation, and best practices for this technology.
+
+### **Next steps**
+Looking ahead, we are excited to continue improving our system. Our plans for the upcoming weeks in the order of priorities include:
+1. **Web frontend implementation**
+- The web frontend implementation is underway and currently the number one priority for our project.
+2. **Feature Additions**
+- We plan to introduce additional features such as authorization, contest system and a user profile page.
+3. **UI/UX Improvements**
+- We plan to refine the user interface and enhance user experience based on user feedback and usability testing.
+4. **Improving Test Generation and Result Checking**
+- We will work on the Orchestrator to ensure it can handle a wider variety of tasks and produce more comprehensive test results.
+
+{{< /expand >}}
+
+{{< expand "Week 4 report" >}}
+
+In the fourth week of developing our project during the Capstone project course, we 
+
+### External Feedback
+
+To gather feedback we asked the InnoMastery team to share their thoughts on our project and give us some valuable tips that can only be given by a project observer and they did not disappoint us. Here is their feedback:
+
+> Hello! We are really happy to be the first testers of your project. In our opinion, LeetForces project is a very relevant idea for our university because the existing system for task submission and automatic testing - CodeTest - does not meet the expectations of the students. The latter site suffers from numerous problems, such as lack of server security, dated interface and frequent downtimes. With the prototype you supplied us there was a Telegram interface as the main frontend. Because of the Telegram being a messenger and not a full-fledged platform, it cannot provide a complete user experience. Even though the Telegram bot enables the user to use almost all features of the system, the command-based communication model does not seem to be convenient. Therefore, our team thinks that you should direct more forces into developing a Web Frontend for your project. You also provided us with the incomplete build of your web interface that already contains most of the screens. We really liked your idea to use Material Design in your project. As for your question regarding the effective usage of Machine Learning in your project, we do not see any potential on this stage of development. Right now the implementatino of the main functions should be a higher priority.
+
+
+### Testing and narrowing the scope of the project
+
+#### Testing
+As already mentioned in previous project reports, we continue to employ a cross-testing method where every team member tests the components of other group members. This approached proved to be effective during the course as it helped to prevent a lot of bugs on the early stages of the development of our project.
+
+#### Narrowing the scope of the project
+Based on the feedback, we changed our focus from supporting the Telegram bot by updating it to our backend API specifications to rapidly developing the web frontend with all our forces. Moreover, the Machine Learning applications are no longer a priority and will be implemented only after the main parts of the project are done. 
+
+### Iteration
+In the current iteration, we decided to drop some features based on the advice we got from the InnoMastery team. Namely, we are no longer updating the Telegram bot frontend interface. Also, we have developed all internal back-end requirements features that were so far needed by front-end part of our team. In the next iteration, we are going to mainly test the existing functionality and bring the frontend to the usable state. 
+
+{{< /expand >}}
+
+
+{{< hint danger >}}
+**Feedback**  
+
+**External Feedback**<br>
+Good, but only 1 feedback?
+Do you think it’s enough?
+
+**Testing**<br>
+Ok you have a testing process, can you show results?
+
+>As already mentioned in previous project reports
+
+What exactly was mentioned? You should state it explicitly what you mentioned in order to understand, beside write in what report you talked about testing
+
+If you have a testing process, how do you documents bug finding / fixing?
+
+Please show proof of what you are saying that you were doing.
+
+
+**Iteration**<br>
+So you decided to change your project, just because of one feedback!!!!!
+
+This design should be made on a more stronger basis rather than 1 feedback form other students.
+
+
+Also you didn’t mention an iteration plan:
+An iteration plan is essentially the plan for an upcoming iteration. It would typically outline:
+* The goals and objectives for the iteration: what the team aims to achieve.
+* The features to be developed.
+* The tasks needed to develop these features. This might include coding, testing, design tasks, etc.
+* Any assumptions or dependencies.
+* A timeline for the iteration.
+
+**Overall**<br>
+The report is ok. You should be more focused on your ideas, and do more feedback iteration to see other students opinion
+
+**Grade: 2/5**
 
 _Feedback by Moofiy_
 {{< /hint >}}

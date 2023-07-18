@@ -420,3 +420,10 @@ The following was implemented and changed:
 
 
 The updated version of the service is coming to production soon.
+
+{{< hint danger >}}
+
+I am pleased to see that project is rapidly taking shape! Also, great to see that you are making progress with the mobile. 
+You guys have accomplished a lot! Thank you for the hard work and dedication.
+5/5 for the week, and see you soon! Cheers, Rustam
+{{< /hint >}}

@@ -1,11 +1,13 @@
 ---
 weight: 1
 bookFlatSection: true
-title: "Week #1"
+title: "TryThis"
 ---
 
 # **Week #1**
 
+
+Our final presentation - [Try This.pdf](https://github.com/IU-PR/Capstone_project/files/12070660/Try.This.pdf)
 
 ## **Team Formation and Project Proposal**
 ### **Team Members**

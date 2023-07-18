@@ -9,6 +9,18 @@ title: "AI Career Guide"
 # **Week 1**
 # **Introduction**
 
+In an ocean of different paths, finding a career that suits *you* was never an easy task. Some people do not know were to start, while others question themselves about the choice after few steps.
+
+![Logo](/AICareerGuide/AICareerGuide.pdf)
+
+**AI Career Guide** is an [open-source](https://gitlab.com/ai-career-guide) online service that helps people find and follow their career path. By completing series of single choice questions about their preferences, a person receives *AI-generated job suggestions* that suit them. The Guide offers *roadmaps* for the suggested careers to make learning easier and *real vacancies* to motivate people.
+
+You can check out the Guide at https://aicareerguide.ilnarkhasanov.com/ 
+
+**Note:** only job suggestions in IT are available at the moment
+
+Our final ![presentation](/AICareerGuide/presentation.pdf)!
+
 {{< hint danger >}}
 
 **Feedback**  
@@ -97,7 +109,7 @@ We created our team based on every team member’s hard skills and stack. You ca
 The problem addressed by the application is the difficulty faced by people in finding a career path that matches their skills and preferences. The solution is to create an application that provides services such as finding a job, creating a roadmap for the job, and finding available vacancies. The application's uniqueness is that it provides all these services in one place. The benefits of the application are it saves time for users by providing all the information they need in one place. The application differentiates itself by integrating AI, which is used for finding a job and creating a roadmap, as well as web scraping for searching for vacancies. The application can help users save time by shortening the time it takes to find a suitable job and become a specialist in that field.
 
 ### Schematic Drawings
-![](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuider/architecture.png)
+![](/AICareerGuide/architecture.png)
 
 
 ### Tech Stack
@@ -156,7 +168,7 @@ Overall, I think you have a great team and a very nice project. Try to scale it 
 ## Architecture Design
 1. Component Breakdown:
 
-	![](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/architecture.png)
+	![](/AICareerGuide/architecture.png)
 
 	* Front-end and back-end are "agreeing" on an interface of REST API messages and work with each other using that.
 	* Backend trigger Airflow Directed Acyclic Graph in order to start processing the query of the user.
@@ -257,11 +269,11 @@ We ensure that each team member was effectively assigned to appropriate tasks an
 - Considering machine learning part, we have successfully integrated the career path suggestions feature into our backend. Our focus now shifts towards roadmap generation. We have defined a prompt structure for the OpenAI API and conducted preliminary experiments with few-shot prompting. The next step is to integrate this feature into our MVP.
 The primary challenge lies in parsing the output from the GPT-model to a structured roadmap. This process necessitates a well-defined format for the roadmap. Our proposed solution is to acquire the roadmap as a string from the OpenAI API. This string will adhere to the structure of an enumerated list (i.e., 1, 1.1, 2, 2.1, 2.2, etc.).
 - API response example:
-  ![Components](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/API.png)
+  ![Components](/AICareerGuide/API.png)
 ## Frontend Development: 
 - We created prototype using Figma. You can check it [here](https://www.figma.com/file/QDNRpes5bziKwAiKtTkM7Z/Untitled?type=design&mode=design&t=IO44qdhNKYF3DT6s-1).
 - Here you can see the stucture of project in React:   
-  ![Components](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/components.png)
+  ![Components](/AICareerGuide/components.png)
 - Priority of functionality:
   1. Home page (_Home.js, Header.js components_).
   2. Questions pages (_Question.js_).
@@ -271,7 +283,7 @@ The primary challenge lies in parsing the output from the GPT-model to a structu
 We have a Airflow directed acyclic graph that it responsible for the data processing. At this particular moment our dag can receive the answers on the questions and return the job titles that correlates to the user's interests.
 ## Prototype Testing: 
 - As you can see below, our Figma prototype is quite simple:
-![Prototype](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/prototype.png)
+![Prototype](/AICareerGuide/prototype.png)
 - It performs following flow:
   1. Renders main page and starts quiz after clicking "Start" button.
   2. Give a user opportunity to iterate back and forward among questions.
@@ -288,11 +300,11 @@ In detailes, there is such routing in prototype:
   ![Main](/AICareerGuide/main.png) 
 - User can iterate back, forward or finish answering questions depending on number of question. Also, all questions are multi-choice.
   
-  ![FirstQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/first_question.png)
-  ![MiddleQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/middle_question.png)
-  ![LastQuestion](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/last_question.png)
+  ![FirstQuestion](/AICareerGuide/first_question.png)
+  ![MiddleQuestion](/AICareerGuide/middle_question.png)
+  ![LastQuestion](/AICareerGuide/last_question.png)
 - The last page in prototype is thedown  page with user results: suitable vacancies and roadmap. Maybe, later we can make each "vacancy" component clickable and provide more information about vacancy after click.
-  ![Result](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/result.png)
+  ![Result](/AICareerGuide/result.png)
 ## Challenges and Solutions:
 - Public IP address for our server. The solution is VPN to the university network in order to make it accessible for the GitLab CI/CD.
 - The API we're currently using is not capable to fetch key skills from each job offer. The solution is to use OpenAI technology which obtains job offer description as input and returns the array of key skills as output.
@@ -345,10 +357,10 @@ Anyway, I liked this service!
 - Front-end part:
   - We added new functionality to our site:
     - Top 5 suitable job titles render on the _/results_ page:
-![Results](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/results_MVP.png)
+![Results](/AICareerGuide/results_MVP.png)
   - We improved the User Experience:
     - User can't iterate forward or back until he selects an option. Also, if he moves to previous questions, he can see already selected answers:
-![Iteration](https://github.com/IU-PR/Capstone_project/blob/AICareerGuide/static/AICareerGuide/iteration.png)
+![Iteration](/AICareerGuide/iteration.png)
 - Back-end part:
   - Perform Unit and integration tests for the "Testing" section.
 - ML part:
@@ -364,4 +376,54 @@ Anyway, I liked this service!
 **Feedback**  
 Alright, I like your tempo and fact that all parts are deployed and people already can see what is your project is about. Good job. There are still some work to do, so don't miss the chance to make it a complete project.
 Overall, 5/5 for the week
+{{< /hint >}}
+
+# **Week 5**
+
+## Feedback collection
+
+To improve the user experience for our project, we have expanded feedback collection from the users. Previously, we had only been interviewing several people; now we moved on to surveying more people via [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdmqDHt9qyoFA3cVwxmDlTUeurGfMd53Cgub4Iq92cTTjC_XQ/viewform).
+
+In the form, we focused on gathering opinions on job suggestions, information about technical issues and design enhancements.
+
+## Gathered Feedback
+
+We have gathered broad feedback, from bug reports to test result opinions to aesthetic suggestions. In summary, these are the important takes:
+
+- Several major issues were found:
+    - Questions 7 & 8 are duplicates;
+    - There is no visual feedback for the user when they submit their form;
+    - The service is poorly adapted for mobile browsing;
+    - Sometimes the service returns some gibberish instead of job titles.
+- Most people find the career path suggestions useful and/or insightful
+- Minor issues that we marked as important:
+    - Choice (radio) buttons should be bigger;
+    - The service loads slowly when opened first time
+    - Impossible to go back without answering the current question
+
+## Implemented changes
+
+Our team prioritized technical issues from the feedback, then we took into consideration design enhancements.
+
+The following was implemented and changed:
+
+
+- Adapted service for mobile browsing  
+  ![Mobile main page](/AICareerGuide/main_mobile.png)
+  ![Mobile question page](/AICareerGuide/question_mobile.png)
+  ![Mobile result page](/AICareerGuide/results_mobile.png)
+- Added loading animation for form submition  
+  ![Loading](/AICareerGuide/animation.png)
+- Fixed duplicate questions
+- Fixed going back without answering the current question
+- Added favicon
+
+
+The updated version of the service is coming to production soon.
+
+{{< hint danger >}}
+
+I am pleased to see that project is rapidly taking shape! Also, great to see that you are making progress with the mobile. 
+You guys have accomplished a lot! Thank you for the hard work and dedication.
+5/5 for the week, and see you soon! Cheers, Rustam
 {{< /hint >}}

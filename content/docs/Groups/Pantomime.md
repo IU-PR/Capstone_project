@@ -7,6 +7,9 @@
 Write concise and well-written project description here. To enhance it further, we recommend incorporating additional details that provide an overview of your project. Consider including elements such as a project logo, a link to your project's webpage, or any other relevant visual materials that can help showcase your work effectively.  
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of the potential reader. 
 {{< /hint >}}
+
+{{< embed-pdf url="/pantomime/Pantomime.pdf" >}}
+
 # **Week 1 report**
 
 ## **Team Formation and Project Proposal**
@@ -327,6 +330,7 @@ From the feedback and testing phase, we observed issues in UI and streaming live
 
 This week, we had a team meeting on which we decided to implement several new features, such as a support for American Sign Language, using (making) morphological models for syntax and morphological word agreement, since all words in our dictionary are infinitives and all signs are predicted independently. 
 
+
 {{< hint danger >}}
 
 **Feedback by Rustam**  
@@ -334,4 +338,52 @@ Good to see progress on identifying UI problems and tackling them.
 Please, provide an updated UI screens or a link to the site next week.
 Overall, good reports and progress. 5/5 for the week
 
+{{< /hint >}}
+
+# **Week 5 report**
+
+## **Progress**
+
+We want to share our weekly progress. On this week we have contacted with All-Russian Society of the Deaf, and they have provided a video with the RSL and subtitles for it. Also, we have exchanged contacts for future collaborating.
+
+We submitted our project to the [Innopolis University Accelerator](https://events.innopolis.university/startuphouse), where we were found by a girl who knows RSL and wants to help us work as a tester and consultant.
+
+As we said last week, we decided to rewrite the interface to make it more responsive, easier to navigate, and more code compatible. For the design, we collected feedback several times and updated the UI based on the feedback.
+
+New UI:
+
+<div style="text-align: center;">
+  <img src="/pantomime/image_5_1.png" alt="Video processing" width="500" height="500">
+</div>
+
+<div style="text-align: center;">
+  <img src="/pantomime/image_5_2.png" alt="Video processing" width="500" height="500">
+</div>
+
+A section with information about our team and contacts will also be added.
+
+
+## **External feedback**
+
+Using the help from the consultant, we understood that creating model for word agreement it is very hard because many deaf people have problems with grammar and construct the sentences with mistakes. Therefore, our team decided not to develop this idea. 
+
+This week, the project team held several feedback sessions with users who already know our application, and with new users. These are the most important notes:
+
+- The design of the site has become better, logical indents have appeared to facilitate navigation.
+- There is no button to stop the live stream.
+- Will be better if the live stream will be in the full screen.
+- There is no button for switching the camera (front / back).
+- Live-streaming does not work only on iPhone, but works on Android, iPad and PC.
+- The subtitles look visually bad.
+- If the internet connection is lost, there is no reconnection.
+
+## **Iteration**
+
+We are very happy that we have found a consultant who knows RSL and can help us with the development of the project. We are also glad that we have contacted with All-Russian Society of the Deaf, and they have provided a cool long video. Also, we enjoyed the feedback sessions with users, because we have found a lot of bugs and issues, that we can fix in the future. But these bugs and issues are minor, it means that we are on the right way.
+We will continue to work on design and frontend on the next week. Also, we will try to fix the bugs and issues that we have found during the feedback sessions.
+
+
+{{< hint danger >}}
+I am very pleased to see your project making impact and helping people. This is exactly the reason why we started the Capstone. Please, if you will have any major updates on the project, we are kindly asking you to add short reports about the state of your startup. Noted the final presentation on the top of the file.
+5 the week! And good luck with the project and the final presentation! You have accomplished a lot! Cheers, Rustam 
 {{< /hint >}}

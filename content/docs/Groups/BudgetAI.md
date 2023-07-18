@@ -241,3 +241,10 @@ etc... Quite some work to do!
 Alright, this week report is better. Consider showing some intermediate results and expected timeline for the first prototype
 4/5 for the week
 {{< /hint >}}
+
+{{< hint danger >}}
+
+I know you have been busy building the model, and have accomplished a lot!
+However, I don't see the report.
+0/5 for the week
+{{< /hint >}}

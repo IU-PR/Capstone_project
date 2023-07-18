@@ -4,6 +4,9 @@ We are doing a project called Stock Vision. The aim of this project is to develo
 
 ---
 ![Logo](/group/stockvision/logo.png)
+---
+<!-- ![Presentation](/group/stockvision/final1.pdf) -->
+{{< embed-pdf url="/group/stockvision/final1.pdf" >}}
 
 # **Week #1**
 
@@ -387,4 +390,75 @@ I think you'll be able to get to the MVP but make sure to make a final sprints a
 You have a great team and a good idea, so do it as planned and not compromise for less.  
 
 Overall, 3.5/5 for the week.
+{{< /hint >}}
+
+
+# **Week #5**
+
+## **Progress**
+
+### **Backend**
+All endpoints provided. Backend is reading the message queue from ML services and the frontend can get the latest predictions.
+
+### **Frontend**
+As planned, this week has been dedicated to connecting the backend and frontend parts of our application. Currently, several issues have been resolved:
+
+Real-time graph rendering has been added. The data is sourced from Binance, which enables access to accurate information at any time.
+
+User authorization functionality has been implemented. This will eventually allow for the creation of a personalized user feed, where users can save currency pairs of interest on the main screen, view the history of currency changes, and share a list of user preferences.
+
+Next week, we will finalize getting the predictions from the backend and test everything to make sure that everything works.
+
+
+### **ML Model**
+Objective:
+The objective of this weekly report is to provide an overview of the progress and updates regarding the machine learning service implemented in the application. This report aims to highlight the usage of multi-head attention and time encoding to generate signals for the crypto and forex market, specifically focusing on the BTCUSD pair on a 1-hour timeframe. Additionally, it will cover the scheduling, data retrieval, training pipeline, and deployment aspects of the machine learning service.
+
+1. Development Overview:
+During this week, significant advancements have been made in the machine learning service of the application. The following key areas were addressed:
+
+   a. Multi-Head Attention and Time Encoding:
+      The machine learning model has been successfully implemented using multi-head attention and time encoding techniques. These techniques contribute to the model's ability to capture complex patterns and temporal dependencies in the market data, allowing for more accurate and robust signal predictions.
+
+   b. Data Retrieval:
+      A scheduler has been integrated into the system, ensuring that hourly data for the BTCUSD pair is pulled from the Alpha Vantage APIs. This ensures that the most recent and relevant data is used for training and prediction purposes. The scheduler runs every hour, precisely on the hour, to maintain consistency and timeliness of the data.
+
+   c. Training Pipeline:
+      The training pipeline has been set up to process the retrieved hourly data. This pipeline involves data preprocessing, feature engineering, model training, and evaluation. The pipeline is designed to handle large volumes of data efficiently while maintaining the integrity and quality of the training process.
+
+   d. Prediction and RabbitMQ Integration:
+      Once the model is trained, the predictions for each hour are sent through a RabbitMQ queue. This integration ensures seamless communication between the machine learning service and other components of the application. The RabbitMQ queue acts as a reliable and scalable messaging system, facilitating the distribution of predictions to the relevant parties.
+
+   e. Dockerization and Deployment:
+      The machine learning service has been successfully dockerized, ensuring easy deployment and scalability. The Docker Compose file has been written to orchestrate the RabbitMQ service and the machine learning service, providing a streamlined and efficient infrastructure for the application. The Docker images have been transferred to the backend department for further deployment.
+
+1. Challenges and Mitigation:
+During the development process, a few challenges were encountered. These challenges were promptly addressed with the following mitigation strategies:
+
+   a. Data Consistency:
+     Implementation of error handling to handle cases when the alpha vantage API was unavailable.
+
+1. Next Steps:
+Looking ahead, the following tasks are planned for the upcoming weeks:
+
+   a. Expand Signal Coverage:
+      Expand the coverage of signals to additional currency pairs and timeframes. This will involve extending the existing model and training it on additional datasets to provide a wider range of signals for users.
+
+   b. Performance Evaluation:
+      Conduct comprehensive performance evaluations of the machine learning model to ensure its accuracy and reliability. Fine-tune the model parameters and architecture, if necessary, to optimize its performance.
+
+   c. Backend Deployment:
+      Collaborate with the backend department to facilitate the deployment of the Dockerized machine learning service. Ensure seamless integration with other components of the application and conduct thorough testing to ensure proper functionality in a production environment.
+
+1. Conclusion:
+In summary, significant progress has been made in the development of the machine learning service for the application.
+
+The implementation of multi-head attention and time encoding techniques, along with the integration of data retrieval, training pipeline, prediction, and RabbitMQ communication, has resulted in a robust and scalable machine learning service. The Dockerization of the service further enhances its deployment and scalability. Looking ahead, the focus will be on expanding signal coverage, conducting performance evaluations, and ensuring that the backend connection is written robustly.
+
+## **Feedback**
+We have collected a small amount of feedback from the people who are somewhat interested in trading, and these are the results of the survey: https://docs.google.com/forms/d/1zeGz3OToET72KEXrfhcWx6o9Lwf3bdlXqS1AIGdmZgY/viewanalytics
+
+{{< hint danger >}}
+Alright, report looks good. Liked the survey data visualizations. Noted the final presentation on the top of the file.
+5 the week! And good luck with the project and the final presentation! You have accomplished a lot! Cheers 
 {{< /hint >}}

@@ -13,6 +13,8 @@ Write concise and well-written project description here. To enhance it further, 
 As we plan to promote your work, it's crucial to ensure that this file serves as a compelling introduction that captures the attention of potential readers. 
 {{< /hint >}}
 
+{{< embed-pdf url="/StyleTransfer/StyleTransfer.pdf" >}}
+
 # Week 1
 
 | Team Member            | Telegram ID   | Email Address       |
@@ -250,4 +252,30 @@ It is good to see progress on the app, however, report communicates it poorly
 Please, consider providing a more comprehensive report that allows us to estimate progress on your project
 3/5 for both weeks
 
+{{< /hint >}}
+
+# Week 5
+## **Feedback**
+We showed our project to the instructor of **Applied Machine Learning**. We showed him some images that our model generated. He said that everything is fine, but try to make process of generating faster, maybe real-time. 
+
+## **Testing and Validation**
+For getting better images we tried some set of parameters to see which one is better.
+We changed (tried):
+- `content_weight` in `[5, 10]`, now it's `5`
+- `style_weight` in `[1e2, 1e4]`, now it's `2e2`
+- added `tv_loss` accordingly `tv_weight` in `[1e-5. 1e2]`, now it's `1e-5`
+
+## **Progress Report**
+In this week we made huge progress in our model, now it generates visual pleasing images. We reached this performance by changing our architecture. We also changed preprocessing step. Now our model generates good images in approximately 40 seconds, before it was one minute.
+
+## **Demo of the model**
+<img src="/StyleTransfer/week5_example1.png">
+<img src="/StyleTransfer/week5_example2.png">
+<img src="/StyleTransfer/week5_example3.png">
+<img src="/StyleTransfer/week5_example4.png">
+
+
+{{< hint danger >}}
+Images do look amazing!. Noted the absence of the final presentation on the top of the file. Please update the file accordingly
+5 the week! And good luck with the project and the final presentation! You have accomplished a lot! Cheers 
 {{< /hint >}}

@@ -25,23 +25,15 @@ The following work has been done: GUI and back end, data partitioning within the
 **Feedback**
 
 **Collecting and documenting feedback**<br>
-again you have only 1 feedback from Mark. now I'm not sure who is Mark. but is that enough?
-are you building the solution for 1 company? that's it?
+if the countermen is satisfied. this by itself is success!!
 
-beside, the documentation we ask her is to document the feedback not the project. 
-
-Documenting the project should be done by default.
-
-
-
-**Feedback analysis**<br>
-i'm not sure that is this enough analysis. again you don't have much feedback 
 
 **Roadmap and enhancement**<br>
 missing
 
 
-**Grade: 2/5**
+this is the updated grade.
+**Grade: 4.5/5**
 
 
 _Feedback by Moofiy_

@@ -81,6 +81,9 @@ Elaborate Explanations: The most critical component is implementation of AI mode
 Above I described the final version of the project. In MVP we will include a cross-platform application, that takes a pre-recorded video and apply a created CV model to it.
 {{< /hint >}}
 
+**Our presentation**
+https://docs.google.com/presentation/d/1vf_U2QOAQLdSQhmVvi69q_N8vbg9mq5GcoQtZRyuZ2s/edit#slide=id.g259d7ad0c99_0_214
+
 # **Week #2**
 
 **Tech stack**

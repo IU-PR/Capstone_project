@@ -10,6 +10,7 @@ title: "FreshMarket"
 
 [Website](https://innofreshmarket.github.io/flutter/)  \
 [Github](https://github.com/InnoFreshMarket/)
+[PDF](FreshMarket/assets/FreshMarket.pdf)
 
 # **Introduction**
  

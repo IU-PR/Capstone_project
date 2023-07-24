@@ -45,7 +45,7 @@ Team allocation and final presentation schedule:
 | Pantomime | Stock vision |
 | Just org you | LogiFlex-project |
 | Innomastery | Quiz Craft |
-| LearnQuest (Innopenwarecourse) | To be announced |
+| LearnQuest (InnoOpenCourseWare) | To be announced |
 | Innoshop | we want money |
 | InnTime | LeetForces |
 | InnoCoTravel | Mushroomity |

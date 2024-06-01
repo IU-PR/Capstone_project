@@ -13,7 +13,7 @@ We hope you had a fantastic start to the project and sailed through the first we
 # **Introduction**
 ## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
 
-{{< embed-pdf url="/PDF/Week_2.pdf" >}}
+{{< embed-pdf url="/capstone/Week2.pdf" >}}
 
 Welcome to Week 2 of our project! This week holds immense value as we delve into two critical aspects that will shape the trajectory of our software solution: selecting the appropriate tech stack and designing a robust architecture.
 

@@ -1,12 +1,12 @@
 ---
-weight: 1
+weight: -100000
 bookFlatSection: true
 title: "Introduction"
 ---
 
 
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
-    <img src="/Capstone_logo1.png" alt="Astroniology" width="700" style="padding: 5px; border-radius: 5px; box-shadow: 0 0px 0px rgba(0,0,0,0.45);">
+    <img src="/capstone_logo.png" alt="Astroniology" width="700" style="padding: 5px; border-radius: 5px; box-shadow: 0 0px 0px rgba(0,0,0,0.45);">
 </div>
 
 {{< hint info >}}
@@ -62,7 +62,7 @@ Embrace this incredible opportunity to showcase your skills, creativity, and pro
   
 Below, you can find a PDF explaining project goals, deliverables and grading scheme:
 
-{{< embed-pdf url="/PDF/capstone2.pdf" >}}
+{{< embed-pdf url="/capstone/capstone.pdf" >}}
 
 If you have any questions, please, contacts us
 

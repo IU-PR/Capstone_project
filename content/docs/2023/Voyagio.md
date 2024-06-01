@@ -1,6 +1,7 @@
 ---
-bookFlatSection: true
 title: "Voyagio"
+weight: 1
+underline: true
 ---
 
 {{< embed-pdf url="/2023/Voyagio/final-view.pdf" >}}

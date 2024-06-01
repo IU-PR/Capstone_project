@@ -1,6 +1,4 @@
 ---
-weight: 1
-bookFlatSection: true
 title: "AI Career Guide"
 ---
 

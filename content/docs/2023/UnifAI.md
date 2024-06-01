@@ -1,6 +1,7 @@
 ---
-bookFlatSection: true
-title: "UnifAI"
+title: UnifAI
+weight: 1
+underline: true
 ---
 
 <style> .markdown a{text-decoration: underline !important;} </style>

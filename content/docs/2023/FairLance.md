@@ -1,6 +1,7 @@
 ---
-bookFlatSection: true
 title: "FairLance"
+weight: 1
+underline: true
 ---
 
 # **Fairlance presentaion**

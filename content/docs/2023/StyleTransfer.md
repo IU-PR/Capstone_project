@@ -1,5 +1,4 @@
 ---
-bookFlatSection: true
 title: "Style Transfer"
 ---
 # **Style Transfer**

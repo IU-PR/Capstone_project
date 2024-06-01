@@ -1,5 +1,4 @@
 ---
-bookFlatSection: true
 title: "To be announced - Identification of compounds"
 ---
 

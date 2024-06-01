@@ -1,5 +1,4 @@
 ---
-bookFlatSection: true
 title: "Kringe Production"
 ---
 -- what is the secret of Boris the cat's energy?

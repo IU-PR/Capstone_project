@@ -1,5 +1,4 @@
 ---
-bookFlatSection: true
 title: "InnTime"
 ---
 # **InnTime**

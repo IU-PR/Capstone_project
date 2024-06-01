@@ -81,13 +81,13 @@ to [commit your changes](https://git-scm.com/docs/git-commit) to the local repos
 git push
 ```
 
-or
+to [push your changes](https://git-scm.com/docs/git-push) to the remote repository or
 
 ```bash
 git push --set-upstream origin your-branch-name
 ```
 
-if you are pushing for the first time, to [push your changes](https://git-scm.com/docs/git-push) to the remote repository.
+if you are pushing for the first time.
 
 ## Pull requests
 
@@ -172,6 +172,14 @@ gitGraph
 ```
 
 Refer to [Mermaid documentation](https://mermaid.js.org/intro/) for examples.
+
+### PDF embedding
+
+To embed a PDF file, use the following shortcode:
+
+```md
+{{< embed-pdf url="/2024/dream-team/some-file.pdf" >}}
+```
 
 ### Other shortcodes
 

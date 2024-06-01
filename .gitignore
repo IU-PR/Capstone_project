@@ -1,6 +1,10 @@
-/resources
+resources/
+public/
+
+.idea/
+.vscode/
+
+.hugo_build.lock
 
 # macOS specific
 .DS_Store
-
-.idea

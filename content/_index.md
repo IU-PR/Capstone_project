@@ -3,7 +3,6 @@ title: Introduction
 type: docs
 ---
 
-
 <div class="wrapper" style="display: flex; justify-content: left; align-items: center;">
     <img src="/capstone_logo.png" alt="ads" width="700" style="padding: 5px; border-radius: 5px; box-shadow: 0 0px 0px rgba(0,0,0,0.45);">
 </div>

@@ -13,6 +13,7 @@ Table of contents
   - [Shortcodes](#shortcodes)
     - [LaTeX](#latex)
     - [Mermaid (graphs)](#mermaid-graphs)
+    - [PDF embedding](#pdf-embedding)
     - [Other shortcodes](#other-shortcodes)
 
 ## Setup
@@ -95,16 +96,15 @@ Now that you have made your changes, you will need to properly submit them so th
 
 **Instructions to merge your branch with the master branch**
 
-It should push the branch normally. If not, send the error to the group.
-Make sure to run [`git pull`](https://git-scm.com/docs/git-pull) before you make any new changes after you've pushed, so that you avoid creating merge conflicts.
-
-- Now go to the [github repo](https://github.com/IU-Capstone-Project-2024/reports)
-- Press ["Pull requests"](https://github.com/IU-Capstone-Project-2024/reports/pulls)
-- Press ["New pull requests"](https://github.com/IU-Capstone-Project-2024/reports/compare)
-- Press "Create pull request"
+- Open your github repo (e.g. <https://github.com/john5000/dream-team>)
+- Click on `Contribute` button
+- Click on `Open pull request`
+- Make sure that the base repository is `IU-PR/Capstone_project` and the base branch is `master`
+- Make sure that the head repository is your repository name (e.g. `john5000/dream-team`) and the head branch is `your-branch-name`
 - Name your pull request in a format `My_Cool_Project_Group_Name (Week X): Very short description`
-- Describe what have you modified, maybe provide some suggestions for future improvements
-- Once done, press "Create pull request"
+- Once done, press `Create pull request`
+- Make sure that the CI/CD pipeline has passed. If not, fix the errors and push the changes again to your branch (you don't need to create a new pull request, just push the changes to your branch)
+- You can preview your changes by clicking on `Deploy preview` link provided by netlify bot in the pull request comments
 - Done! Admins will review your work and merge your changes into the main repo soon
 
 ## Shortcodes

@@ -17,19 +17,20 @@ This blog serves as a central platform for important updates and information reg
 
 Once your team is formed, it is essential to pitch and discuss project ideas among yourselves. Select a project that aligns with one of the three tiers: web, mobile, or ML (machine learning). The chosen project should be well-defined, feasible, and have a clear problem statement.
 
-Additionally, we expect each team to maintain a weekly progress report blog. These reports are a crucial means of tracking the progress of your projects. Each team is required to submit a report no later than Friday 18:00 of each week. The reports should be informative, substantive, and provide a detailed account of your progress. It is important to clearly explain what you have accomplished, how you have achieved it, and any obstacles or challenges you have encountered.
+Additionally, we expect each team to maintain a weekly progress report blog. These reports are a crucial means of tracking the progress of your projects. Each team is required to submit a report **no later than Monday 10:00 am of each week**. The reports should be informative, substantive, and provide a detailed account of your progress. It is important to clearly explain what you have accomplished, how you have achieved it, and any obstacles or challenges you have encountered.
 
 These weekly reports will be evaluated, and feedback will be provided to assist you in the successful completion of your projects. Therefore, it is crucial to submit your reports on time and ensure they reflect the substantial progress you have made throughout the week.
 
 We encourage you to use this blog as a platform to share your accomplishments, insights, and challenges. It is a valuable opportunity to communicate your ideas, seek feedback, and engage with your peers. By actively participating and sharing your experiences, you contribute to the collaborative learning environment we aim to foster.
 {{< hint info >}}
-Remember, the success of your projects depends on your commitment, dedication, and effective teamwork. Embrace this opportunity to showcase your skills, innovate, and create impactful projects. Good luck, and let's make this semester a remarkable journey of growth and accomplishment!
+Remember, the success of your projects depends on your commitment, dedication, and effective teamwork. 
+
+Should you have any questions or require further guidance, please do not hesitate to reach out to us. We are here to support you and your team through this process.
 {{< /hint >}}
-Should you have any questions or require further guidance, please do not hesitate to reach out to us. We are here to support and guide you through this exhilarating process.
 
 ## **Team Formation and Project Proposal**
 
-Please provide the following information for your team members and answer the questions listed below. This information will help us understand your team composition and project proposal better.
+Please provide in your reporting markdown file the following information for your team members and answer the questions listed below. This information will help us understand your team composition and project proposal better.
 
 ### **Team Members**
 
@@ -95,11 +96,10 @@ Whenever possible, provide real-world examples, user testimonials, or case studi
 
 Remember to keep your value proposition concise, clear, and compelling. Focus on the most significant benefits and outcomes that resonate with your target users. A well-crafted value proposition effectively communicates the value and impact of your software project, making it more appealing and compelling to users.
 
-**[Your answer here]**
 
-## **Lean Startup Questionnaire**
+## **Lean Questionnaire**
 
-Please answer the following questions related to the lean startup methodology:
+Please answer the following questions related to the lean methodology:
 
 1. What problem or need does your software project address?
 2. Who are your target users or customers?
@@ -107,28 +107,14 @@ Please answer the following questions related to the lean startup methodology:
 4. What metrics will you use to measure the success of your project?
 5. How do you plan to iterate and pivot if necessary based on user feedback?
 
-**[Your answers to the lean startup questionnaire here]**
 
 ## **Leveraging AI, Open-Source, and Experts**
 
-Explain how your team plans to leverage the following resources for the development and success of your project:
+Again, this can be tentative, but explain how your team plans to leverage the following resources for the development and success of your project:
 
-- AI (Artificial Intelligence):
-- Open-Source:
-- Experts in relevant domains:
-
-**[Your answers on leveraging AI, open-source, and experts here]**
-
-## **Inviting Other Students**
-
-Are you open to inviting other students to join your project? If so, it's great to foster collaboration and expand your team. Feel free to discuss the project with your peers and encourage them to join if they are interested and motivated.
-
-When considering inviting other students, you can think about the roles you are looking for and any specific requirements. Be open to diverse skills and expertise that can contribute to the success of your project. Collaboration and teamwork can lead to innovative solutions and a richer learning experience.
-
-Remember, talking to other students and finding potential team members to join your project is not only allowed but also encouraged. Embrace the opportunity to collaborate and create a strong team that can achieve great results together.
-
-
-**[Your answer regarding drafting other students here]**
+- AI (Artificial Intelligence)
+- Open-Source
+- Experts in relevant domains
 
 ## **Defining the Vision for Your Project**
 
@@ -145,18 +131,11 @@ Include all essential components, modules, and interactions within the system.
 Ensure the drawings are clear, labeled, and easily understandable by both technical and non-technical stakeholders.
 
 - Tech Stack:
-Specify the technologies, frameworks, and programming languages you plan to utilize in your project.
+Specify the technologies, frameworks, and programming languages you plan to utilize in your project. This can be preliminary, but it is important for us to see that you have a tentative plan. 
 Justify your tech stack choices based on their suitability for the project requirements and team expertise.
 Consider scalability, performance, security, and ease of development when selecting your tech stack.
 
-- Anticipating Future Problems:
-Foresee potential challenges and obstacles that may arise during the project development and deployment phases.
-Identify risks related to technical complexities, resource limitations, time constraints, or external dependencies.
-Propose mitigation strategies or alternative approaches to address these anticipated problems.
 
-- Elaborate Explanations:
-Provide detailed descriptions of critical components, algorithms, or methodologies employed in your project.
-Explain the core functionalities and how they contribute to achieving the project goals.
-Highlight any innovative or unique aspects of your solution that differentiate it from existing alternatives.
 
-**[Your vision for the project here]**
+---
+Your reports are crucial for us to understand what your project is about. Please, follow the reporting guidelines from github. Do not hesitate to add more points if you think it's needed. ß

@@ -10,7 +10,7 @@ title: "Week #1"
 
 | Team Member              | Telegram ID   | Email Address   |
 |--------------------------|---------------|-----------------|
-| Team Member (Lead) 1     | [Telegram ID] | [Email address] |
+| Team Member (Lead) 1     | @egorled      | [Email address] |
 | Team Member 2            | [Telegram ID] | [Email address] |
 | Team Member 3            | [Telegram ID] | [Email address] |
 | Team Member 4            | [Telegram ID] | [Email address] |

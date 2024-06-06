@@ -18,23 +18,32 @@ title: "Week #1"
 
 ### **Value Proposition**
 
-- Identify the Problem:
-...
+{{<details "Identify the Problem">}}
+Technical issues frequently occur in the dormitories, such as internet and electricity outages, or water supply interruptions. These failures adversely affect the quality of life for students. One significant challenge is the difficulty in determining whether a technical failure is local or more widespread. This ambiguity impedes the speed of problem resolution, leading to inefficiencies in maintenance and response times. The project aims to address these issues through improved monitoring of dormitory infrastructure at Innopolis University.
+{{</details>}}
 
-- Solution Description:
-...
+{{<details "Solution Description">}}
+The proposed solution is to develop a public service where users can report technical failures by specifying the type of issue, its location, and other relevant details. The service will analyze these reports to determine if the problem is local or widespread. It will also notify other students and stakeholders, such as dormitory management, about the issues. This will help speed up the identification and resolution of problems. Users will interact with the service through a Telegram bot, which will allow them to report issues and receive notifications about common problems.
+ {{</details>}}
 
-- Benefits to Users:
+{{<details "Benefits to Users">}}
 ...
+ {{</details>}}
 
-- Differentiation:
-...
+{{<details "Differentiation">}} **Existing Solutions**<br/>
+There are similar projects for infrastructure monitoring in Russia. For example, a government information system for housing and utilitie "ГИС ЖКХ" that allows residents to report problems and track the status of their maintenance requests. An initiative by the Moscow government "Активный гражданин" allows citizens to report and vote on issues related to city improvements, including infrastructure and maintenance needs. There are also similar ideas abroad. A platform "SeeClickFix" allows citizens to report non-emergency issues in their communities, such as potholes or broken streetlights. It integrates with government systems to facilitate quicker responses. One more web-based application "FixMyStreet" enables residents to report local problems like graffiti or road damage to the appropriate authorities.
 
-- User Impact:
-...
+**Unique points of our software project**<br/>
+The project is specifically designed for <u>dormitory infrastructure</u> at Innopolis University. Our solution incorporates <u>real-time feedback</u> from the student community, enabling a faster and more accurate assessment of whether an issue is local or widespread. Unlike traditional facility management systems, our platform relies on <u>crowd-sourced data</u> to improve response times and accuracy. Moreover, the Telegram-bot provides a simple, <u>intuitive interface</u> for users to report issues and receive updates without the need for a separate app or complex navigation. This simplicity and ease of access encourage higher user engagement and quicker reporting, which is critical for timely issue resolution.
+ {{</details>}}
 
-- User Testimonials or Use Cases:
+{{<details "User Impact">}} 
 ...
+ {{</details>}}
+
+{{<details "User Testimonials or Use Cases">}} 
+...
+ {{</details>}}
 
 ## **Lean Questionnaire**
 

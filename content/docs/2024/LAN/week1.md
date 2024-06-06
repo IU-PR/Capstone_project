@@ -21,20 +21,22 @@ title: "Week #1"
 ### **Value Proposition**
 
 - Identify the Problem:
-...
+Finding roommates in universities presents a significant challenge for many students. The difficulties arise from the need of a harmonious environment in which students can live and thrive. Having like-minded friends can be a tremendous source of motivation. In addition to that, managment of day-to-day responsibilities in a group of stangers is a challenging task for many. We seek to offer a solution that would reduce the everyday stress of liviing in a dorm room.
 
 - Solution Description:
-...
+We offer a comprehensive roommate matching platform that is tailored to help find compatable dorm roommates, making the task of moving to a dorm much easier. By utilizing a detailed questionnaire and matching algorithms we ensure that students are paired with compatible roommates based on personality traits and lifestyle preferences
 
 - Benefits to Users:
-...
+   - **Reduced Stress**: With compatible roommates students reduce dayly stress and avoid conflicts.
+   - **Enhanced Academic Performance**: A supportive and peaceful living environment allows students to concentrate better on their studies.
+   - **Improved Social Life**: Living with like-minded individuals can lead to lasting friendships and a more enjoyable university experience.
 
 - Differentiation:
 ...
 
 - User Impact:
-...
-
+  - Positive Living Experience: Students experience a more positive and fulfilling living situation, leading to overall better mental health and well-being.
+  - Stronger Relationships: By living with compatible roommates, students can build stronger and more meaningful relationships.
   
 - User Testimonials or Use Cases:
 ...

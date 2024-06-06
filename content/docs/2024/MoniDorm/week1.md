@@ -16,7 +16,6 @@ title: "Week #1"
 | Daniil Prostiruk            | [@daniil_prostiruk](https://t.me/daniil_prostiruk) | d.prostiruk@innopolis.university |
 | Rufina Gafiiatullina            | [@R_ufina](https://t.me/R_ufina) | r.gafiiatullina@innopolis.university |
 
-
 ### **Value Proposition**
 
 - Identify the Problem:
@@ -39,27 +38,31 @@ title: "Week #1"
 
 ## **Lean Questionnaire**
 
-Please answer the following questions related to the lean methodology:
+### 1. What problem or need does your software project address? 
 
-1. What problem or need does your software project address? 
-   
-   ...
+Our project aims to solve the problem of identifying breakdowns and malfunctions in a dormitory building. It is designed to simplify the process of reporting breakdowns and identifying the area where they occur. This will solve the problem of people not realizing whether a breakdown is local or general. An example of a breakdown: the internet is not working and it is not clear whether it is only in one room or in the whole building, or maybe in all buildings.
 
-2. Who are your target users or customers?
+### 2. Who are your target users or customers?
 
-   ...
+Our target users are the people who live on campus. This includes students, university staff, visitors and guests. In addition, our platform can be useful for dormitory and admissions staff as a support tool to quickly repair issues that have arisen
 
-3. How will you validate and test your assumptions about the project?
+### 3. How will you validate and test your assumptions about the project?
 
-   ...
+To validate and test our assumptions firstly, we will conduct a UX research on “How comfortable are you with finding out about breakdowns and failures in the dormitory building”. This research will include a survey and interviews with students who live in the dorm.
 
-4. What metrics will you use to measure the success of your project?
+### 4. What metrics will you use to measure the success of your project?
 
-   ...
+We will measure the success of our project based on the following metrics:
 
-5. How do you plan to iterate and pivot if necessary based on user feedback?
+- User trust factor: How users trust our service, do they share actual issues. Will they provide us information about their rooms.
 
-   ...
+- Number of Users: The more users our service has, the more efficiently and quickly faults will be detected.
+
+- Failure detection accuracy: We will collect big amount of reports and compare them with actual issues. This ratio will be one of crutial metrics.
+
+### 5. How do you plan to iterate and pivot if necessary based on user feedback?
+
+As our workflow is based on Agile, Lean and Scrum principles, We can adapt to any changes in requirements very easily. Among other things, we are going to develop the project based on feedback from users and survey participants.
 
 ## **Leveraging AI, Open-Source, and Experts**
 

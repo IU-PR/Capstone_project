@@ -45,7 +45,11 @@ The project is specifically designed for <u>dormitory infrastructure</u> at Inno
  {{</details>}}
 
 {{<details "User Impact">}} 
-...
+**Enhanced Living Conditions:** By ensuring timely resolution of infrastructure issues, the project directly improves the quality of life for students.<br/>
+**Reduced Stress:** Students are less likely to experience stress related to unresolved technical issues. This contributes to better mental well-being and allows students to focus more on their studies and personal development.<br/>
+**Model for Other Universities:** The success of this project at Innopolis University can serve as a model for other educational institutions. It demonstrates the potential of integrating community feedback and technology to enhance facility management.<br/>
+**Flexibility:** The solution's design allows it to be adapted for various settings beyond dormitories, such as office buildings, residential complexes, and public facilities.<br/>
+**Better Resource Management:** The data collected through user reports enables more accurate forecasting and planning. This leads to better allocation of resources and improved long-term infrastructure planning.
  {{</details>}}
 
 {{<details "User Testimonials or Use Cases">}} 

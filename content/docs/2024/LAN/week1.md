@@ -8,15 +8,15 @@ title: "Week #1"
 
 ### **Team Members**
 
-| Team Member              | Telegram ID   | Email Address   |
-|--------------------------|---------------|-----------------|
-| Team Member (Lead) 1     | [Telegram ID] | [Email address] |
-| Team Member 2            | [Telegram ID] | [Email address] |
-| Team Member 3            | [Telegram ID] | [Email address] |
-| Team Member 4            | [Telegram ID] | [Email address] |
-| Team Member 5            | [Telegram ID] | [Email address] |
-| (Optional) Team Member 6 | [Telegram ID] | [Email address] |
-| (Optional) Team Member 7 | [Telegram ID] | [Email address] |
+| Team Member              | Telegram ID   | Email Address                      |
+|--------------------------|---------------|------------------------------------|
+| Team Member (Lead) 1     | @fatcakes     | a.tkachnko@innopolis.university    |
+| Team Member 2            | @Margonesex   | a.gerasimov@innopolis.university   |
+| Team Member 3            | @Ellpav       | e.pavlova@innopolis.university     |
+| Team Member 4            | @olikooon     | o.puzhalina@innopolis.university   |
+| Team Member 5            | @reddyiam     | r.chikibaev@innopolis.university   |
+| Team Member 6            | @Marketer7    | k.arkhipov@innopolis.university    |
+| Team Member 7            | @masterhorny1 | t.zheksimbaev@innopolis.university |
 
 ### **Value Proposition**
 

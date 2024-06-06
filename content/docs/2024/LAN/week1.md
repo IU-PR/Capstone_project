@@ -35,6 +35,7 @@ title: "Week #1"
 - User Impact:
 ...
 
+  
 - User Testimonials or Use Cases:
 ...
 
@@ -42,23 +43,19 @@ title: "Week #1"
 
 Please answer the following questions related to the lean methodology:
 
-1. What problem or need does your software project address? 
-   
-   ...
-
-2. Who are your target users or customers?
+1. Who are your target users or customers?
 
    ...
 
-3. How will you validate and test your assumptions about the project?
+2. How will you validate and test your assumptions about the project?
 
    ...
 
-4. What metrics will you use to measure the success of your project?
+3. What metrics will you use to measure the success of your project?
 
    ...
 
-5. How do you plan to iterate and pivot if necessary based on user feedback?
+4. How do you plan to iterate and pivot if necessary based on user feedback?
 
    ...
 

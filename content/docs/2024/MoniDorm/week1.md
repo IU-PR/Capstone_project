@@ -62,15 +62,28 @@ Please answer the following questions related to the lean methodology:
    ...
 
 ## **Leveraging AI, Open-Source, and Experts**
+### AI (Artifitial Intelligence)
+Our team will use generative AI models like ChatGPT and Github Copilot to increase our development speed.
 
-Our team...
+### Open-Source
+For a Telegram bot we will use popular open-source libraries like Aiogram etc.
+
+### Experts
+At the moment we have not involved any experts yet.
 
 ## **Defining the Vision for Your Project**
 
-- Overview: ...
+- Overview: our microservice architecture features a Telegram bot as the front-end, an API to handle user-submitted reports, a database to store report details, and an admin panel for monitoring outages and creating graphs.
 
-- Schematic Drawings: ...
+- Schematic Drawings:
+   #### Backend architecture scheme
+<img src="/2024/Monidorm/backend_architecture.drawio.png"> 
 
-- Tech Stack: ...
+- Tech Stack:
+   - Backend:
+      - API server: Java, Golang
+   - Frontend:
+      - Telegram bot: Python
+      - Admin-panel: Svelte, Graphana, Prometheus
+   - Database: Postgres, MongoDB
 
-*Feel free to add more sections as needed. You are the owners of your project!*

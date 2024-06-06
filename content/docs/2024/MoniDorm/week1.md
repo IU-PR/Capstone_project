@@ -38,7 +38,7 @@ title: "Week #1"
 
 ## **Lean Questionnaire**
 
-### 1. What problem or need does your software project address? 
+### 1. What problem or need does your software project address?
 
 Our project aims to solve the problem of identifying breakdowns and malfunctions in a dormitory building. It is designed to simplify the process of reporting breakdowns and identifying the area where they occur. This will solve the problem of people not realizing whether a breakdown is local or general. An example of a breakdown: the internet is not working and it is not clear whether it is only in one room or in the whole building, or maybe in all buildings.
 
@@ -65,13 +65,17 @@ We will measure the success of our project based on the following metrics:
 As our workflow is based on Agile, Lean and Scrum principles, We can adapt to any changes in requirements very easily. Among other things, we are going to develop the project based on feedback from users and survey participants.
 
 ## **Leveraging AI, Open-Source, and Experts**
+
 ### AI (Artifitial Intelligence)
+
 Our team will use generative AI models like ChatGPT and Github Copilot to increase our development speed.
 
 ### Open-Source
+
 For a Telegram bot we will use popular open-source libraries like Aiogram etc.
 
 ### Experts
+
 At the moment we have not involved any experts yet.
 
 ## **Defining the Vision for Your Project**
@@ -79,7 +83,9 @@ At the moment we have not involved any experts yet.
 - Overview: our microservice architecture features a Telegram bot as the front-end, an API to handle user-submitted reports, a database to store report details, and an admin panel for monitoring outages and creating graphs.
 
 - Schematic Drawings:
-   #### Backend architecture scheme
+
+#### Backend architecture scheme
+
 <img src="/2024/Monidorm/backend_architecture.drawio.png"> 
 
 - Tech Stack:
@@ -90,3 +96,14 @@ At the moment we have not involved any experts yet.
       - Admin-panel: Svelte, Graphana, Prometheus
    - Database: Postgres, MongoDB
 
+## **Distribution of roles in the team**
+
+- Evgeny: Project Manager, GitLab environment maintainer (Issues, Milestones, Time Tracking), CI/CD, Reports
+
+- Matvey: Team Lead, Backend (GoLang), Telegram-Bot (Python), Docker
+
+- Artur: Deputy Team Lead, Backend (Java), GitLab environment maintainer
+
+- Daniil: Frontend (Svelte), CI/CD, Reports
+
+- Rufina: Data Science, Python, Reports

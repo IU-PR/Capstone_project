@@ -153,7 +153,7 @@ CookAInno aims to revolutionize how users interact with their kitchen by integra
      - Food Image Generation: Generate images of the food from generated recipes using DALL-E or Midjourney API.
 
 #### Schematic Drawings:
-  ![](https://hackmd.io/_uploads/user_scenarios.jpg)
+  ![user_scenarios](https://github.com/yeaphm/cookainno_app/blob/main/Docs/Static%20sources/user_scenarios.jpg)
 
 #### Tech Stack:
   - Backend (Java, Spring, Docker)

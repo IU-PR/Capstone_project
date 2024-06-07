@@ -10,13 +10,11 @@ title: "Week #1"
 
 | Team Member              | Telegram ID   | Email Address   |
 |--------------------------|---------------|-----------------|
-| Team Member (Lead) 1     | [Telegram ID] | [Email address] |
-| Team Member 2            | [Telegram ID] | [Email address] |
-| Team Member 3            | [Telegram ID] | [Email address] |
-| Team Member 4            | [Telegram ID] | [Email address] |
-| Team Member 5            | [Telegram ID] | [Email address] |
-| (Optional) Team Member 6 | [Telegram ID] | [Email address] |
-| (Optional) Team Member 7 | [Telegram ID] | [Email address] |
+| Kalviyainen Arsenii (Lead) | @tyw_0 | a.kalviyainen@innopolis.university |
+| Karim Nasybullin | @karim_nasybullin | k.nasybullin@innopolis.university |
+| Arsenii Pavlov | @arsepav | ars.pavlov@innopolis.university |
+| Ilia Sardanadze | @Damncaf_you_crazy | I.sardanadze@innopolis.university |
+| Team Member 5 | @FORZpewpew | i.beltsov@innopolis.university |
 
 ### **Value Proposition**
 

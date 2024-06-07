@@ -53,7 +53,9 @@ The project is specifically designed for <u>dormitory infrastructure</u> at Inno
  {{</details>}}
 
 {{<details "User Testimonials or Use Cases">}} 
-...
+To demonstrate the utility and relevance of our project, we examined the [use case](https://seeclickfix.com/media/seeslickfix_case_study.pdf) of the SeeClickFix application. The integration of Cityworks and SeeClickFix in New Haven has revolutionized the city's response to infrastructure problems by automating issue routing and communication, resulting in improved response times and operational efficiency. Since its implementation in 2008, the system has managed over 20,000 pothole reports and nearly 38,000 resident inquiries, enabling departments such as Transportation, Traffic and Parking, and Public Works to better prioritize and resolve issues with less work time. This streamlined process has increased public engagement, transparency, and data-driven decision-making, significantly enhancing the overall quality of public service delivery.
+
+Similarly, our service can improve the quality of life for students in dormitories.
  {{</details>}}
 
 ## **Lean Questionnaire**

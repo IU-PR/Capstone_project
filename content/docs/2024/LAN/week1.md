@@ -74,6 +74,14 @@ Our team...
 
 - Schematic Drawings: ...
 
-- Tech Stack: ...
+- Tech Stack:
+  Our project will be split into 2 parts: frontend and backend. Here are the techstacks for each part:
+  **Frontend**:
+  - Next.js: Framework back-bone for the entire frontend part of the project
+  - Redux ToolKit: For flexible state management
+  - TypeScript: For flexible type management
+  - SCSS: To write styles
+  - RTK Query: To work with the API
+  - Next Auth: To work with authorization
 
 *Feel free to add more sections as needed. You are the owners of your project!*

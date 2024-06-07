@@ -50,16 +50,19 @@ Please answer the following questions related to the lean methodology:
    ...
 
 2. How will you validate and test your assumptions about the project?
-
-   ...
+   1. **Conduct Market Research**: Understand the demand for roomate matching platfrom by running surveys on potential users.
+   2. **Customer Development**: Develop and conduct interviews with future customers to gain insights into their struggles and needs in day-to-day dorm life.
+   3. **Develop an MVP**: Create a minimum viable product with basic functionality to test initial responses and gather user feedback.
 
 3. What metrics will you use to measure the success of your project?
-
-   ...
+   1. **Feedback and Ratings**: Collect and analyze user feedback and satisfaction levels through ratings and reviews.
+   2. **User Engagement**: Track the frequency and duration of every feature used by users on the platform.
+   3. **Successful Transactions**: Monitor the percentage of users who find roomates and are satisfied with the result.
 
 4. How do you plan to iterate and pivot if necessary based on user feedback?
-
-   ...
+   1. **Implement Changes**: Make changes or add new features based on user feedback and iterate the product accordingly.
+   2. **Continuous Feedback Loop**: Regularly gather feedback through surveys, user interviews, and by monitoring user behavior to identify areas for improvement or potential pivots.
+   3. **Flexibility**: Be open to making significant changes to the platform if user feedback suggests a need for a different approach or additional features.
 
 ## **Leveraging AI, Open-Source, and Experts**
 

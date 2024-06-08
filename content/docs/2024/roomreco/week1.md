@@ -144,7 +144,7 @@ students, campers, and participants in various shared accommodation settings.
 
 ### Schematic Drawings
 
-![Schematic drawing](/2024/roomreco/week1/schematic-drawing.svg)
+![Schematic drawing](/2024/roomreco/week-1-schema.svg)
 
 ### Tech Stack
 

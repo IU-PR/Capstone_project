@@ -32,7 +32,25 @@ We offer a comprehensive roommate matching platform that is tailored to help fin
    - **Improved Social Life**: Living with like-minded individuals can lead to lasting friendships and a more enjoyable university experience.
 
 - Differentiation:
-...
+   - **Search by Criteria:** Ability to find roommates based on interests, habits, and preferences. This significantly increases the likelihood of finding a compatible roommate.
+   - **Communication Functionality:** Built-in chats for discussions and getting acquainted before moving in.
+   - **Managing Shared Living**:
+     - **Shared Budget**: Tools for managing shared expenses such as rent, utilities, groceries, and more.
+     - **Chore Schedule**: Automated schedule for cleaning, trash disposal, and other household chores, helping to avoid conflicts and improve the organization of shared living.
+
+   - **Comparison with Competitors**
+     - Social Networks and Forums:
+       - **Disadvantages:** No specialized tools for finding compatible roommates, managing shared living, or shared budgets.
+       - **Advantage of our project:** Specialized features tailored specifically for finding roommates and managing student shared living.
+     - Housing Search Websites (e.g., Avito, Cian):
+       - **Disadvantages:** Only offer housing search, without functionality for finding roommates by criteria and managing shared living.
+       - **Advantages of our project:** Integration of housing search with functionality for finding roommates and managing shared living.
+     - Home Management Apps (e.g., FlatMate, Splitwise):
+       - **Disadvantages:** Focused only on budget and chore management, not on finding roommates.
+       - **Advantages of our project:** Combining functionality for finding roommates, managing chores, and shared budgets in one app.
+   - Why Users Would Choose Our Project
+     - **Target Audience:** Specializing in students, considering their unique needs and challenges, making the app more relevant and useful for them.
+     - **Comprehensive Solution:** Combining all necessary functions in one app, eliminating the need to use multiple different services.
 
 - User Impact:
   - Positive Living Experience: Students experience a more positive and fulfilling living situation, leading to overall better mental health and well-being.

@@ -113,4 +113,3 @@ We heavily rely on open source frameworks for developing the project. We plan to
   - RTK Query: To work with the API
   - Next Auth: To work with authorization
 
-*Feel free to add more sections as needed. You are the owners of your project!*

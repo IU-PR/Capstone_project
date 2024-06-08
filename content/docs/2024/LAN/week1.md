@@ -99,9 +99,8 @@ We heavily rely on open source frameworks for developing the project. We plan to
 
 ## **Defining the Vision for Your Project**
 
-- Overview: ...
-
-- Schematic Drawings: ...
+- Overview:
+Our project aims to create a comprehensive roommate matching platform designed specifically for university and college students. This platform will address common challenges faced by students living in dorms, such as finding compatible roommates and managing day-to-day shared living responsibilities. We will develop a solution that not only helps students find like-minded roommates but also offers functionalities to streamline household management, reduce stress, and enhance their academic and social experiences.
 
 - Tech Stack:
   Our project will be split into 2 parts: frontend and backend. Here are the techstacks for each part:

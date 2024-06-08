@@ -91,8 +91,11 @@ Please answer the following questions related to the lean methodology:
    3. **Flexibility**: Be open to making significant changes to the platform if user feedback suggests a need for a different approach or additional features.
 
 ## **Leveraging AI, Open-Source, and Experts**
+We plan to use generative AI tools to help us write code faster and bridge any learning gaps that might show up while developing the project. 
 
-Our team...
+We also plan to study common AI-based recommendation algorithms to improve user experience in finding suitable roommates. Since we do not have much expertise in this area, we plan to ask for guidance the professors of Innopolis University. 
+
+We heavily rely on open source frameworks for developing the project. We plan to use industry standard tools, so that we have access to professional documentation and can ask experienced programmers for help if needed.
 
 ## **Defining the Vision for Your Project**
 

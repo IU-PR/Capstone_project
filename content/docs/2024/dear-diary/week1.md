@@ -30,6 +30,8 @@ By using our tool, users gain greater self-awareness and are better equipped to 
 ### **User Testimonials and Use Cases**
 - **Ahmet, a Programmer:** Feeling overwhelmed at work, Ahmet uses our app instead of venting his frustrations on loved ones. This helps him manage stress more constructively.
 - **Aida, a Student:** Facing exam anxiety, Aida loses motivation. Our app helps her understand the importance of her studies for her future, helping her regain focus and motivation.
+- **John, a Bank Worker:** John uses our app to better understand people and improve emotional intelligence, enhancing customer interactions and personal relationships.
+- **Sara, a Teacher:** Sara uses our app to enhance her personal growth and emotional well-being, making her more effective and empathetic in her teaching career.
 
 These examples illustrate how our personalized self-help tool can significantly improve users' lives by providing timely, relevant, and private support.
 

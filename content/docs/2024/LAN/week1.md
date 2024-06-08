@@ -57,7 +57,15 @@ We offer a comprehensive roommate matching platform that is tailored to help fin
   - Stronger Relationships: By living with compatible roommates, students can build stronger and more meaningful relationships.
   
 - User Testimonials or Use Cases:
-...
+We have collected a couple of first-hand stories from Innopolis University
+   - Foreign students
+   > I went to Innopolis University as a foreign student. I didn't know how I will live in a different country and who am going to live with. I got allocated to a 5-person apartment, and we couldn't get along quite well. Luckily, I managed to quickly make some friends and after a while we managed to score a separate room for all of us. I believe it would've been much easier if we had some way to find each other before moving in the first time.
+
+   - Rooming limitations
+   > I went to Innopolis University with 3 friends, but we needed a plus-one to get a 5-person room for all of us. One of us met someone while waiting in line for lunch and we moved in together. Sadly, we quickly found out that this plus-one had some terrible habits that we couldn't tolerate. We are waiting on a place to move out separately. We would appreciate if we could declare our habits and preferences somewhere and find a roommate suitable for us.
+
+   - Day-to-day struggles
+   > I got lucky and moved in with roommates I quickly became friends with. Despite all of the positive sides, we still struggle with managing every day tasks. We always who's turn it is to take out the trash, who's turn it is to do the cleaning. We also tried to implement sort of a "wishlist" system. The idea is when one of us goes for groceries we send a list of groceries to that "shopper", so that they can buy stuff for us. Saves time. But some of us are usually busy, so we can't ping the shopper with our shopping lists. We would deeply appreciate if someone could implement a system where the shopping lists are sent automatically once one roommate announces that they are going shopping.
 
 ## **Lean Questionnaire**
 

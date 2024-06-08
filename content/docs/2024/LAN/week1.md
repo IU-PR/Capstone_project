@@ -111,4 +111,6 @@ Our project aims to create a comprehensive roommate matching platform designed s
   - SCSS: To write styles
   - RTK Query: To work with the API
   - Next Auth: To work with authorization
+  **Backend**:
+  WIP
 

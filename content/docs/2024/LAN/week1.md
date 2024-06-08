@@ -21,13 +21,13 @@ title: "Week #1"
 ### **Value Proposition**
 
 - Identify the Problem:
-Finding roommates in universities presents a significant challenge for many students. The difficulties arise from the need of a harmonious environment in which students can live and thrive. Having like-minded friends can be a tremendous source of motivation. In addition to that, managment of day-to-day responsibilities in a group of stangers is a challenging task for many. We seek to offer a solution that would reduce the everyday stress of liviing in a dorm room.
+Finding roommates in universities presents a significant challenge for many students. The difficulties arise from the need of a harmonious environment in which students can live and thrive. Having like-minded friends can be a tremendous source of motivation. In addition to that, management of day-to-day responsibilities in a group of strangers is a challenging task for many. We seek to offer a solution that would reduce the everyday stress of living in a dorm room.
 
 - Solution Description:
-We offer a comprehensive roommate matching platform that is tailored to help find compatable dorm roommates, making the task of moving to a dorm much easier. By utilizing a detailed questionnaire and matching algorithms we ensure that students are paired with compatible roommates based on personality traits and lifestyle preferences
+We offer a comprehensive roommate matching platform that is tailored to help find compatible dorm roommates, making the task of moving to a dorm much easier. By utilizing a detailed questionnaire and matching algorithms we ensure that students are paired with compatible roommates based on personality traits and lifestyle preferences
 
 - Benefits to Users:
-   - **Reduced Stress**: With compatible roommates students reduce dayly stress and avoid conflicts.
+   - **Reduced Stress**: With compatible roommates students reduce daily stress and avoid conflicts.
    - **Enhanced Academic Performance**: A supportive and peaceful living environment allows students to concentrate better on their studies.
    - **Improved Social Life**: Living with like-minded individuals can lead to lasting friendships and a more enjoyable university experience.
 
@@ -72,18 +72,17 @@ We have collected a couple of first-hand stories from Innopolis University
 Please answer the following questions related to the lean methodology:
 
 1. Who are your target users or customers?
-
-   Our target audience will be primarily students from universities and colledges who struggle to find a sutable place to live, find like-minded roommates, and/or have diffulties managing house-keeping duties. Since we are students as well, we will have much easier time understanding the needs of our users. We also have direct access to a vast number of potential interview targets.
+   Our target audience will be primarily students from universities and colleges who struggle to find a suitable place to live, find like-minded roommates, and/or have difficulties managing house-keeping duties. Since we are students as well, we will have much easier time understanding the needs of our users. We also have direct access to a vast number of potential interview targets.
 
 2. How will you validate and test your assumptions about the project?
-   1. **Conduct Market Research**: Understand the demand for roomate matching platfrom by running surveys on potential users.
+   1. **Conduct Market Research**: Understand the demand for roommate matching platform by running surveys on potential users.
    2. **Customer Development**: Develop and conduct interviews with future customers to gain insights into their struggles and needs in day-to-day dorm life.
    3. **Develop an MVP**: Create a minimum viable product with basic functionality to test initial responses and gather user feedback.
 
 3. What metrics will you use to measure the success of your project?
    1. **Feedback and Ratings**: Collect and analyze user feedback and satisfaction levels through ratings and reviews.
    2. **User Engagement**: Track the frequency and duration of every feature used by users on the platform.
-   3. **Successful Transactions**: Monitor the percentage of users who find roomates and are satisfied with the result.
+   3. **Successful Transactions**: Monitor the percentage of users who find roommates and are satisfied with the result.
 
 4. How do you plan to iterate and pivot if necessary based on user feedback?
    1. **Implement Changes**: Make changes or add new features based on user feedback and iterate the product accordingly.

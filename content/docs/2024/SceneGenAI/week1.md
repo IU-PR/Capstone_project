@@ -12,7 +12,7 @@ title: "Week #1"
 | -------------------- | ------------- | ---------------------------------- |
 | Bulat Akhmatov       | @bulatik1337  | b.akhmatov@innopolis.university    |
 | Alexandra Vabnits    | @sashhhaka    | a.vabnits@innopolis.university     |
-| Amir Nigmatullin     | @cheezy_on_me | a.nigmatullin@innopolis.university |
+| Amir Nigmatullin     | @cheezy_on_me | am.nigmatullin@innopolis.university |
 | Mintimer Karimov     | @JIeru0H      | m.karimov@innopolis.university     |
 | Nurislam Zinnatullin | @zaurall      | n.zinnatullin@innopolis.university |
 | Bahdan Shah          | @bodashkaxd   | b.shakh@innopolis.university       |

@@ -76,9 +76,13 @@ Our team has a strategic plan to leverage the following resources for the develo
    
 ## **Defining the Vision for Your Project**
 
-- Overview: ...
+- Overview:\
+   Our project is an app that includes: a map with markers for each attraction, a list of recommendations based on friends' preferences and categories, a profile with posts and stories, and a system for adding friends. We also have a system of achievements and rankings.\
+   We have only one monetization method: a paid subscription, which gives users access to an audio guide, offline maps, and photo storage.\
+   Our goal is to make it easier for people to find the information they need. Tourism is an important part of many Russian regions' economies, and we want to help tourists by simplifying their experience and saving them time and money.We want our solution to encourage people to travel and discover interesting places in every city in Russia, as many people are afraid or unwilling to start exploring other parts of the world for various reasons. With our application, this can be done right from their own homes.
 
-- Schematic Drawings: ...
+- Schematic Drawings:\
+   <img src="image.svg" alt="Untitled" border="0">
 
 - Tech Stack: ...
 

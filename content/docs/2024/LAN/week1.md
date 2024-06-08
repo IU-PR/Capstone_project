@@ -73,7 +73,7 @@ Please answer the following questions related to the lean methodology:
 
 1. Who are your target users or customers?
 
-   ...
+   Our target audience will be primarily students from universities and colledges who struggle to find a sutable place to live, find like-minded roommates, and/or have diffulties managing house-keeping duties. Since we are students as well, we will have much easier time understanding the needs of our users. We also have direct access to a vast number of potential interview targets.
 
 2. How will you validate and test your assumptions about the project?
    1. **Conduct Market Research**: Understand the demand for roomate matching platfrom by running surveys on potential users.

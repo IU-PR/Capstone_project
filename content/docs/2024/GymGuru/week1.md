@@ -95,6 +95,7 @@ title: "Week #1"
 - The speed of recognition
 - The number of supported physical exercises
 - The satisfaction of a users during testing sessions (scales of assessment for convenience, ease of use, as well as suggestions/discontents)
+- The correctness of advices given to improve the technique of performing physical exercises
 
 **5. How do you plan to iterate and pivot if necessary based on user feedback?**
 

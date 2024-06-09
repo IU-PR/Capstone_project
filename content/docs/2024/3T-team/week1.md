@@ -14,7 +14,7 @@ title: "Week #1"
 | Karim Nasybullin | @karim_nasybullin | k.nasybullin@innopolis.university |
 | Arsenii Pavlov | @arsepav | ars.pavlov@innopolis.university |
 | Ilia Sardanadze | @Damncaf_you_crazy | I.sardanadze@innopolis.university |
-| Team Member 5 | @FORZpewpew | i.beltsov@innopolis.university |
+| Ivan Beltsov | @FORZpewpew | i.beltsov@innopolis.university |
 
 ### **Value Proposition**
 

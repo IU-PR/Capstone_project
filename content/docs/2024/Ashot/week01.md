@@ -129,12 +129,12 @@ Please answer the following questions related to the lean methodology:
 
 4. **What metrics will you use to measure the success of your project?**
 
-   We'll measure the success of A-Shot using user acquisition, growth, and satisfaction,
+   We will measure the success of A-Shot using user acquisition, growth, and satisfaction,
    and time saved in the culling process compared to other methods.
 
 5. **How do you plan to iterate and pivot if necessary based on user feedback?**
 
-   We'll continuously gather and analyze user feedback,
+   We will continuously gather and analyze user feedback,
    prioritize and implement changes in an agile and iterative manner,
    and be prepared to pivot our product strategy or business model
    if required to better address the needs of our target users.

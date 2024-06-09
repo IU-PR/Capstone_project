@@ -119,11 +119,14 @@ Our team is dedicated to leveraging AI, open-source technologies, and expert ins
 ## **Defining the Vision for Your Project**
 
 ### **Overview:** 
-   Our project aims to create an innovative language learning platform that leverages machine learning to enhance pronunciation and accent accuracy. By providing real-time feedback and corrective measures, users can improve their speaking skills more effectively.
+   Our project aims to create an innovative language learning platform that leverages machine learning to enhance pronunciation and accent accuracy. By providing real-time feedback and corrective measures, users can improve their speaking skills more effectively. Our primary focus for this week was finding the main features and groups of users of this platform. We have serfed the web for similar tools to see what are the gaps in this field and understood what to add in ourder to fill the gaps(for example missing languages such as tatar)
+   Those findings showed us that the amount of work needs to be amplified to focus more on giving more accurate feedback to the user to have an extremly unique product.
+   We faced the issue of lack of communication, so from next week we would increase the number of meetings.
+   We have concluded that we need to start splitting the tasks to improve efficiancy. 
 
 ### **Schematic Drawings:**
 <img src="/2024/language_teacher/userstories.drawio.png" alt="drawing" width="450"/>
-
+Above we can see a summary of available functionality for users.
 
 ### **Tech Stack:** 
 

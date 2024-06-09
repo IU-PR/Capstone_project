@@ -82,8 +82,87 @@ Our team has a strategic plan to leverage the following resources for the develo
    Our goal is to make it easier for people to find the information they need. Tourism is an important part of many Russian regions' economies, and we want to help tourists by simplifying their experience and saving them time and money.We want our solution to encourage people to travel and discover interesting places in every city in Russia, as many people are afraid or unwilling to start exploring other parts of the world for various reasons. With our application, this can be done right from their own homes.
 
 - Schematic Drawings:\
-   <img src="image.svg" alt="Untitled" border="0">
+   Before starting development, we created a roadmap for our project to understand how many resources and what we needed to implement our project successfully. Additionally, before the project began, we had already assembled a team of 5 people, including 4 developers and 1 project manager, and assigned responsibilities and scheduled tasks using Trello.
+   <img src="../image.svg" alt="Untitled" border="0" style="max-width: 1600px; margin-top: -120px;">
 
-- Tech Stack: ...
+- Tech Stack:
+   * Back-end:\
+      For this project, the following technologies, frameworks, and programming languages will be utilized:
+      FastAPI,
+      PostgreSQL,
+      SQLAlchemy,
+      PostGIS
 
-*Feel free to add more sections as needed. You are the owners of your project!*
+      1. FastAPI\
+      Reasons for Choosing FastAPI:\
+      Performance: FastAPI is built on Starlette and Pydantic, making it one of the fastest web frameworks for Python. Its asynchronous nature ensures high performance, which is crucial for handling multiple requests efficiently.
+      Ease of Development: FastAPI offers an intuitive and easy-to-use interface with automatic generation of interactive API documentation (Swagger UI and ReDoc). This enhances developer productivity and facilitates debugging.
+      Type Safety: By leveraging Python type hints, FastAPI ensures robust code with fewer bugs and better maintainability.
+      Scalability: FastAPI’s asynchronous support makes it highly scalable, handling large numbers of concurrent connections with ease.
+
+      2. PostgreSQL\
+      Reasons for Choosing PostgreSQL:\
+      Reliability and Robustness: PostgreSQL is known for its stability and reliability, making it an excellent choice for production environments.
+      Advanced Features: PostgreSQL supports advanced data types and performance optimization features, such as indexing, full-text search, and JSON support, which are beneficial for a wide range of applications.
+      Open Source: Being open-source, PostgreSQL has a strong community and a wealth of resources, ensuring continuous improvements and support without licensing costs.
+
+      3. SQLAlchemy\
+      Reasons for Choosing SQLAlchemy:\
+      ORM Capabilities: SQLAlchemy provides a robust Object-Relational Mapping (ORM) system, which simplifies database interactions by allowing developers to work with Python objects instead of raw SQL queries.
+      Flexibility: It offers flexibility by supporting both ORM and Core (SQL Expression Language), making it adaptable to various project needs.
+      Database Agnosticism: SQLAlchemy’s design allows for easy switching between different database backends, which provides future-proofing and flexibility in case the database needs to be changed.
+      
+      4. PostGIS\
+      Reasons for Choosing PostGIS:\
+      Geospatial Data Support: PostGIS extends PostgreSQL to handle geospatial data, providing powerful spatial querying capabilities. This is essential for projects involving geographical information and spatial analysis.
+      Performance: PostGIS is optimized for handling large volumes of spatial data efficiently, making it suitable for applications that require geospatial computations.
+      Integration: As an extension of PostgreSQL, PostGIS integrates seamlessly with the database, ensuring consistent performance and reliability.
+   * Android development:
+   For this project, the following technologies, frameworks, and programming languages will be utilized:
+   Kotlin,
+   Dagger 2,
+   Coroutines,
+   Compose,
+   Flow,
+   MVI/MVVM\
+      1. Kotlin\
+      Reasons for Choosing Kotlin:\
+      Interoperability: Kotlin is fully interoperable with Java, allowing for seamless integration with existing Java codebases and libraries.
+      Conciseness: Kotlin's concise syntax reduces boilerplate code, leading to improved readability and faster development.
+      Safety: Kotlin's null safety features help eliminate null pointer exceptions, resulting in more stable and reliable code.
+      Performance: Kotlin compiles to bytecode, running on the JVM with performance comparable to Java, making it suitable for high-performance applications.
+
+      2. Dagger 2\
+      Reasons for Choosing Dagger 2:\
+      Dependency Injection: Dagger 2 provides a powerful dependency injection framework, allowing for better code organization, testability, and maintainability.
+      Performance: Dagger 2 generates code at compile-time, ensuring efficient dependency injection with minimal runtime overhead.
+      Scalability: It supports complex dependency graphs and scopes, making it suitable for large-scale applications.
+      Community and Support: Dagger 2 has strong community support and is widely adopted in the industry, ensuring availability of resources and best practices.
+
+      3. Coroutines\
+      Reasons for Choosing Coroutines:\
+      Asynchronous Programming: Coroutines simplify asynchronous programming in Kotlin, allowing for easier management of background tasks and concurrency.
+      Readability: They enable writing asynchronous code in a sequential manner, improving code readability and maintainability.
+      Performance: Coroutines are lightweight and efficient, reducing the overhead associated with traditional threading models.
+      Integration: Coroutines integrate seamlessly with other Kotlin libraries and frameworks, enhancing overall developer productivity.
+ 
+      4. Compose\
+      Reasons for Choosing Compose:\
+      Modern UI Development: Compose provides a modern, declarative approach to building UIs, enabling faster development and more intuitive code.
+      Reusability: Compose encourages the creation of reusable UI components, promoting code reuse and modularity.
+      State Management: It simplifies state management with built-in tools, leading to more predictable and maintainable UI code.
+      Compatibility: Compose is designed to work seamlessly with existing Android views and UI frameworks, ensuring easy adoption in existing projects.
+
+      5. Flow\
+      Reasons for Choosing Flow:\
+      Reactive Programming: Flow provides a robust framework for reactive programming in Kotlin, allowing for efficient handling of data streams and events.
+      Concurrency: It offers built-in support for concurrent data streams, enabling responsive and scalable applications.
+      Integration: Flow integrates well with coroutines, providing a cohesive and consistent programming model.
+      Backpressure Handling: Flow includes mechanisms for handling backpressure, ensuring efficient and stable data processing.
+
+      6. MVI/MVVM\
+      Reasons for Choosing MVI/MVVM:\
+      Architecture Patterns: MVI (Model-View-Intent) and MVVM (Model-View-ViewModel) provide structured approaches to building scalable and maintainable applications.
+      Separation of Concerns: Both patterns promote a clear separation of concerns, making the codebase easier to understand, test, and maintain.
+      Reactivity: MVI and MVVM support reactive programming principles, enabling responsive and dynamic UIs.
+      Community and Best Practices: These patterns are widely adopted in the industry, with extensive documentation and best practices available to guide development.

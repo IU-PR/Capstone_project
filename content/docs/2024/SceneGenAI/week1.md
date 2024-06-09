@@ -52,15 +52,17 @@ Please answer the following questions related to the lean methodology:
 
    Our customers are the Leroy Merlin website, who need an efficient way to display their products to their clients.
 
-3. > How will you validate and test your assumptions about the project?
+3. How will you validate and test your assumptions about the project?
 
-   
+   Representatives from Leroy Merlin will provide feedback about our idea and express their wishes.
 
-4. > What metrics will you use to measure the success of your project?
+4. What metrics will you use to measure the success of your project?
 
-   A model has been created for generating and applying a background to a product photo.
+   Representatives from Leroy Merlin will evaluate the project's success based on their satisfaction with the outcomes and few factors such as the realism of the image, speed of processing and the user-interface usability
 
-5. > How do you plan to iterate and pivot if necessary based on user feedback?
+5. How do you plan to iterate and pivot if necessary based on user feedback?
+
+   We will identify areas that need improvement and prioritize them for future updates. We are willing to adjust our approach based on this feedback, ensuring the system aligns with the needs and preferences of our client.
 
    
 
@@ -72,8 +74,10 @@ Please answer the following questions related to the lean methodology:
 - **Open-Source**:  
   Our plans involve using open-source libraries and tools, such as translation APIs, to save time in development of our project.
 
-- > **Experts**:  
-   Our team will seek possible help from experts in relevant domains to achieve the product that satisfies our users needs.
+НАПИШИ ЧЕТКИЕ МОДЕЛИ
+
+- **Experts**:  
+   Our team will consult with experts from Leroy Merlin to develop a product that meets their needs.
 
 
 ## **Defining the Vision for Your Project**
@@ -83,7 +87,12 @@ Please answer the following questions related to the lean methodology:
 - > Schematic Drawings:  
   Отсюда мб https://wiki.yandex.ru/xakaton/tz/
 
-- > Tech Stack: ...
+- Tech Stack:
+  - Backend: Docker, Python, FastAPI, Uvicorn
+  - Frontend: React, Vite, TypeScript
+  - Database: MongoDB
+  - ML: Python, PyTorch, probably MLFlow/AirFlow
+  - HuggingFace libraries: Diffusers, Transformers
 
 >*Feel free to add more sections as needed. You are the owners of your project!*  
 > можно добавить что-то про будущее проекта либо как мерлен тут задействован, а можно и забить

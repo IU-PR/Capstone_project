@@ -112,25 +112,32 @@ improving their professional reputation and increasing the potential for repeat 
 
 Please answer the following questions related to the lean methodology:
 
-1. What problem or need does your software project address?
+1. **What problem or need does your software project address?**
 
-   ...
+   Ashot streamlines the photo culling process,
+   saving photographers time and effort.
 
-2. Who are your target users or customers?
+2. **Who are your target users or customers?**
 
-   ...
+   Target users are photographers of all skill levels,
+   particularly those seeking a cost-effective solution.
 
-3. How will you validate and test your assumptions about the project?
+3. **How will you validate and test your assumptions about the project?**
 
-   ...
+   We will validate and test our assumptions through user interviews, surveys, and an MVP.
+   We will gather feedback and iterate the product based on the insights.
 
-4. What metrics will you use to measure the success of your project?
+4. **What metrics will you use to measure the success of your project?**
 
-   ...
+   We'll measure the success of Ashot using user acquisition, growth, and satisfaction,
+   and time saved in the culling process compared to other methods.
 
-5. How do you plan to iterate and pivot if necessary based on user feedback?
+5. **How do you plan to iterate and pivot if necessary based on user feedback?**
 
-   ...
+   We'll continuously gather and analyze user feedback,
+   prioritize and implement changes in an agile and iterative manner,
+   and be prepared to pivot our product strategy or business model
+   if required to better address the needs of our target users.
 
 ## **Leveraging AI, Open-Source, and Experts**
 

@@ -90,7 +90,7 @@ As our workflow is based on Agile, Lean and Scrum principles, We can adapt to an
 
 ### AI (Artifitial Intelligence)
 
-Our team will use generative AI models like ChatGPT and Github Copilot to increase our development speed.
+Our team will use LLM to find tags in user's comment and assign it to the report and generative AI models like ChatGPT and Github Copilot to increase our development speed.
 
 ### Open-Source
 

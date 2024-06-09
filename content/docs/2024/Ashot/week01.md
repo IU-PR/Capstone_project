@@ -20,23 +20,93 @@ title: "Week #1"
 
 ### **Value Proposition**
 
-- Identify the Problem:
-  ...
+#### Problem Statement
 
-- Solution Description:
-  ...
+Photographers have a multitude of responsibilities,
+from capturing the perfect moment to selecting the best shots (a process called culling) and editing them.
+Culling can be an incredibly time-consuming task,
+as photographers may take thousands of shots in a day,
+especially at high-speed events like sports.
 
-- Benefits to Users:
-  ...
+#### Solution Description
 
-- Differentiation:
-  ...
+Our team is developing a multiplatform tool called Ashot that harnesses the power of computer vision and machine
+learning to expedite and simplify the culling process.
+Ashot can detect blurry or overexposed shots and group similar shots together,
+all within an intuitive and user-friendly interface.
 
-- User Impact:
-  ...
+#### Benefits to Users
 
-- User Testimonials or Use Cases:
-  ...
+Ashot offers several benefits to photographers of all skill levels:
+
+- **Efficient Quality Checks:**
+  Ashot's blur and overexposure detection will quickly identify and eliminate low-quality shots,
+  saving you time and effort.
+
+- **Simplified Comparisons:**
+  The tool's similar shot grouping feature makes it easy to compare and select the best shot
+  from a group of similar images.
+
+- **User-Friendly Interface:**
+  Ashot's intuitive interface simplifies the culling process and makes it less overwhelming,
+  even when dealing with thousands of shots.
+
+- **Cost-Effective Solution:**
+  Ashot is a budget-friendly solution for beginners and amateur photographers,
+  as it does not require a subscription fee like other culling tools.
+
+#### Differentiation
+
+Ashot stands out from other culling tools in the market:
+
+- **Subscription-Free:**
+  Unlike tools like [Capture One](https://www.captureone.com/en/pricing/capture-one-pro)
+  or [Aftershoot](https://account.aftershoot.com/pricing/),
+  which can be expensive with subscription fees ranging from $10 to $100 per month,
+  Ashot is a cost-effective solution for all users.
+
+- **All-in-One Solution:**
+  Free viewers like [FastRaw Viewer](https://www.fastrawviewer.com/)
+  or [FastStone Viewer](https://www.faststone.org/)
+  lack the assistance algorithms that make culling faster and easier.
+  While they can be used with grouping tools like [PictureEcho](https://www.pictureecho.com/),
+  this isn't as convenient as Ashot's all-in-one solution.
+
+- **Optimized for Culling:**
+  Cloud-based solutions like [Google Photos](https://www.google.com/photos/about/) may seem like an option,
+  but they have limited free storage,
+  and uploading thousands of pictures can be slow.
+  Additionally, [Google Photos](https://www.google.com/photos/about/) might be not as convenient for culling as Ashot.
+
+#### User Impact:
+
+By using Ashot,
+photographers can significantly reduce the time and effort spent on the culling process.
+This allows them to focus more on their creative work,
+such as capturing stunning moments and perfecting their editing skills.
+
+Also, with Ashot,
+photographers can deliver their best work to clients more quickly,
+improving their professional reputation and increasing the potential for repeat business and referrals.
+
+#### Use Cases:
+
+- **Use Case 1:**
+  A sports photographer uses Ashot to quickly cull through thousands of action shots taken during a game.
+  Ashot's blur and overexposure detection helps the photographer eliminate low-quality shots,
+  while the similar shot grouping feature allows for easy comparison and selection of the best images.
+  The photographer can then quickly edit and submit the images to their client,
+  meeting tight deadlines and showcasing their best work
+
+- **Use Case 2:**
+  An amateur photographer, passionate about capturing cityscapes and architecture,
+  uses Ashot to improve his/her photography skills and workflow.
+  The cost-effective and user-friendly solution helps the photographer cull his/her images,
+  learn from the mistakes,
+  and identify the strengths.
+  With Ashot,
+  the photographer can focus more on honing their craft and exploring new locations,
+  rather than being bogged down by the time-consuming culling process.
 
 ## **Lean Questionnaire**
 

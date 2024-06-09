@@ -183,14 +183,16 @@ We intend to use open libraries and frameworks such as React, Redux, and FastAPI
 ## Defining the Vision for Your Project
 
 ### Overview
-The "KUDA" project is a web application designed to facilitate the organization of carpooling in Innopolis. Our app offers a convenient and safe way to find ride companions. Users can quickly find shared rides by specifying their preferences for time and route. Additionally, an interface will be implemented for creating joint trips to call a taxi with other passengers or car-sharing.
+The "КУДА" project is a web application designed to facilitate the organization of carpooling in Innopolis. Our app offers a convenient and safe way to find ride companions. Users can quickly find shared rides by specifying their preferences for time and route. Additionally, an interface will be implemented for creating joint trips to call a taxi with other passengers or car-sharing.
 
 ### Schematic Drawings:
 Our current view of what the system's core components may look like on the diagram:
 
+
 <div style="text-align: center;">
 <img src="/2024/kuda_team/week1/scheme.svg" width="600" height="300"> 
 </div>
+
 
 ### Tech Stack
 - **Frontend:** React, Redux, JavaScript

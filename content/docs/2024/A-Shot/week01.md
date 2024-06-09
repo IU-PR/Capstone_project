@@ -154,9 +154,9 @@ Our team is prepared to leverage AI, open-source, and expert knowledge to develo
   We will take advantage of popular open-source libraries, frameworks, and tools to accelerate the
   development process and ensure the quality of our product.
   Specifically, we plan to use:
-	- **PyTorch:** A machine learning framework for model training and deployment.
-	- **Jetpack Multiplatform:** A toolkit for building multiplatform apps using Kotlin.
-	- **OpenCV:** A computer vision library for image and video processing.
+    - **PyTorch:** A machine learning framework for model training and deployment.
+    - **Jetpack Multiplatform:** A toolkit for building multiplatform apps using Kotlin.
+    - **OpenCV:** A computer vision library for image and video processing.
 
 - **Expert Knowledge:**
   We will actively engage with photography experts and our target users to gather insights,
@@ -187,10 +187,10 @@ we will focus on the development of the following essential features:
 ### Schematic Drawings
 
 #### User flow demo
-![user-flow](/2024/Ashot/week01/user-flow.jpg)
+![user-flow](/2024/A-Shot/week01/user-flow.jpg)
 
 #### Features matrix
-![features](/2024/Ashot/week01/features.jpg)
+![features](/2024/A-Shot/week01/features.jpg)
 
 ### Tech Stack
 

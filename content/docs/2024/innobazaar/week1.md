@@ -64,7 +64,7 @@ Our target users are small business owners, individual sellers, and local artisa
 
 ### How will you validate and test your assumptions about the project?
 
-We will validate our assumptions by conducting surveys and interviews with potential users, creating a minimum viable product (MVP), and gathering feedback from early adopters.
+We will validate our assumptions by creating a minimum viable product (MVP), and gathering feedback from early adopters.
 
 ### What metrics will you use to measure the success of your project?
 
@@ -77,7 +77,7 @@ We will validate our assumptions by conducting surveys and interviews with poten
 
 ### How do you plan to iterate and pivot if necessary based on user feedback?
 
-We will regularly collect user feedback through surveys, interviews, and usage analytics. Based on this feedback, we will prioritize and implement changes to improve the platform. If significant issues or new opportunities arise, we will pivot our approach to better meet user needs.
+We will try to collect user feedback through possible surveys, interviews, and usage analytics. Based on this feedback, we will prioritize and implement changes to improve the platform. If significant issues or new opportunities arise, we will pivot our approach to better meet user needs.
 
 ## Leveraging AI, Open-Source, and Experts
 

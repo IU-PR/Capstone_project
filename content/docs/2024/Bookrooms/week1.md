@@ -118,7 +118,7 @@ Our room booking system is a comprehensive solution that addresses the challenge
 
 ### Tech Stack
 
-- Backend: XORM, Gorilla/Mux
+- Backend: Go, XORM, Gorilla/Mux
 - Database: PostgreSQL
 - Frontend: Svelte/React, WebGL/Three.js
 

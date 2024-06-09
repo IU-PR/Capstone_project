@@ -60,7 +60,7 @@ title: "Week #1"
 
 
 - **Differentiation:**
-- 
+
 &nbsp;&nbsp;&nbsp;&nbsp;Researching for the similar applications we found out an [app for yoga](https://apps.apple.com/ru/app/skill-yoga-train-mind-body/id1462051533), which defines points on the user's body and evaluates if the pose is correct. However, this application is not intended for fitness and cannot be launched from a browser. The main feature of our solution is a possibility to check the correctness of physical exercises and use it for fitness test taking. Our web application is a unique product on the Russian market, it will be free and will provide significant benefits to those who want to exercise safely. GymGuru will correct the technique of performing exercises and help achieve the desired result faster, as well as give Innopolis students the opportunity to take a fitness test without the need for presence in the sports complex.
 
 &nbsp;&nbsp;&nbsp;&nbsp;The alternative for usual fitness test can be for example an online conference with a trainer, but it will not solve the problem of timing: students still can not take a test at any time. Moreover, coaches still have no chance to oversee everyone. Our product will allow students to take a fitness test in a convenient time and it will be fair.

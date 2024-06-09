@@ -38,8 +38,6 @@ title: "Week #1"
 
 ## **Lean Questionnaire**
 
-Please answer the following questions related to the lean methodology:
-
 1. What problem or need does your software project address? 
    
    The software project addresses several key problems and needs, such as time-consuming meal planning, calorie management, dietary restrictions and preferences. 

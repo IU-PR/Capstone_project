@@ -35,25 +35,24 @@ title: "Week #1"
 
 - **Identify the Problem:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;In the Innopolis University the Sport exam flows in the following way: at the end of the semester students choose the timeslot to take the fitness test, then come to the sport complex and take a tilt one-by-one, then take crunches in pairs and do push-ups without trainer control. At the end students say the results to the trainer one-by-one. 
+&nbsp;&nbsp;&nbsp;&nbsp;Self-training is a popular format of exercise, but it often lacks professional supervision, leading to incorrect techniques that may cause injuries and reduce the effectiveness of the training. Proper guidance on performing exercises correctly can be highly beneficial.
 
-&nbsp;&nbsp;&nbsp;&nbsp;There is a possibility that the following problems could emerge in this situation: during the exams students have to come to the SC, moreover, the time slots could be inconvenient. Additionally, coaches are not able to supervise everyone simultaneously, hence students may do exercises in the wrong way or cheat. Incorrect exercise technique may cause injuries. Summarizing, students and trainers must visit SC just to do monotonic work. 
+&nbsp;&nbsp;&nbsp;&nbsp;At Innopolis University, the Sport exam is conducted as follows: at the end of the semester, students select a time slot to take the fitness test. They then go to the sports complex where they perform a tilt, do crunches in pairs, and complete push-ups. Finally, students report their results to the trainer one by one.
 
-&nbsp;&nbsp;&nbsp;&nbsp;We conducted a survey among students to identify existing problems and to gather students' opinions on the feasibility of conducting fitness tests online
+&nbsp;&nbsp;&nbsp;&nbsp;This process presents several potential issues: students must physically come to the sports complex, the available time slots may be inconvenient, and there are other problems highlighted in the survey results below. Additionally, coaches are unable to supervise all students simultaneously, which could lead to improper exercise execution or cheating.
+
+&nbsp;&nbsp;&nbsp;&nbsp;To address these concerns, we conducted a survey among students to identify existing problems and gather their opinions on the feasibility of conducting fitness tests online.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Based on the survey results, we see that a significant portion of students encounter challenges related to the current fitness test process. Given these challenges, an IT solution may offer a more flexible and efficient approach. An online platform could allow students to complete their exercises at their convenience while ensuring proper technique through virtual supervision. Additionally, students could use the platform for regular training, benefiting from continuous virtual guidance. Implementing such a solution could streamline the fitness test process, making it more accessible and effective for both students and coaches.
 
 <p float="left">
   <img src="/2024/GymGuru/Week1_Pool1.png" width="320" height="480">
   <img src="/2024/GymGuru/Week1_Pool2.png" width="320" height="320">
 </p>
 
-&nbsp;&nbsp;&nbsp;&nbsp;Also, according to a All-Russian Center for the Study of Public Opinion study, more than half of Russians are engaged in sports or physical education, and fitness ranks second in popularity [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija). Self-training is the most popular training format [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija), however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. Coach Tansu Sungatova notes that incorrect technique can make exercises useless or even lead to injuries [[3]](https://entermedia.io/people/15-glupyh-voprosov-o-trenirovkah-doma/).
-
-
-
-
 - **Solution Description:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Our solution leverages pose estimation and exercise recognition to evaluate students' fitness performances in real-time, providing immediate feedback and ensuring correct exercise execution. By allowing remote participation, our software eliminates the need for students to visit the sports complex, offering flexibility and convenience. Nowadays, the alternative can be for example an online conference with a trainer, but it will not solve the problem of timing: students still can not take a test at any time. Moreover, coaches still have no chance to oversee everyone, which may give rise to the following issue: students' trauma due to the incorrect technique. Our product will allow students to take an exam in a convenient time and the exam will be fair.
+&nbsp;&nbsp;&nbsp;&nbsp;Our solution leverages pose estimation and exercise recognition to evaluate students' fitness performances in real-time, providing immediate feedback and ensuring correct exercise execution. By allowing remote participation, our software eliminates the need for students to visit the sports complex, offering flexibility and convenience. Nowadays, the alternative can be for example an online conference with a trainer, but it will not solve the problem of timing: students still can not take a test at any time. Moreover, coaches still have no chance to oversee everyone. Our product will allow students to take an exam in a convenient time and the exam will be fair.
 
 
 - **Benefits to Users:**
@@ -63,10 +62,9 @@ title: "Week #1"
 &nbsp;&nbsp;&nbsp;&nbsp;Students stand to gain numerous benefits from our software project, including the flexibility to take the fitness test at any time and the elimination of the need to visit the sports complex. This flexibility enables students to focus more effectively on their preparations. Moreover, our application ensures the correct execution of exercises, reducing the risk of injury.
 
 
-
 - **Differentiation:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Researching for the similar applications we found out [[1]](https://apps.apple.com/ru/app/skill-yoga-train-mind-body/id1462051533) an app for yoga, which defines points on the user's body and evaluates if the pose is correct. However, this application is not intended for fitness and cannot be launched from a browser. The main feature of our solution is a possibility to use it for the fitness test taking and checking the correctness of physical exercises. Our web application is a unique product on the Russian market, it will be free and will provide significant benefits to those who want to exercise safely. GymGURU will correct the technique of performing exercises and help achieve the desired result faster, as well as give Innopolis students the opportunity to take a fitness test without the need for presence in the sports complex.
+&nbsp;&nbsp;&nbsp;&nbsp;Researching for the similar applications we found out an [app for yoga](https://apps.apple.com/ru/app/skill-yoga-train-mind-body/id1462051533), which defines points on the user's body and evaluates if the pose is correct. However, this application is not intended for fitness and cannot be launched from a browser. The main feature of our solution is a possibility to use it for the fitness test taking and checking the correctness of physical exercises. Our web application is a unique product on the Russian market, it will be free and will provide significant benefits to those who want to exercise safely. GymGuru will correct the technique of performing exercises and help achieve the desired result faster, as well as give Innopolis students the opportunity to take a fitness test without the need for presence in the sports complex.
 
 - **User Impact:**
 
@@ -75,21 +73,25 @@ title: "Week #1"
 
 - **User Testimonials or Use Cases:**
 
+Our web application will be useful for:
+- Self-trainings: monitoring exercise techniques and enhancing the effectiveness of sports training.
+- Fitness test: simplifying the examination process for both students and coaches.
+
 We created the following Use Cases Diagram that shows possible use cases from user side and trainer side:
 
 <img src="/2024/GymGuru/Week1_UseCases.jpg" width="640" height="720">
 
 To describe the diagram above there are several user stories:
 
-- As a user, I want to create an account, so that I can view statistics on previous exercises performe .
-- As a user, I want to receive tips on how to correct exercise technique, so that I can avoid injuries during the trainings.
-- As a user, I want to see video from camera, so that I can understand tips and correct mistakes immediately.
-- As a user, I want to see the number of repetitions of an exercise, so that I can focus on the proper technique without worrying about counting.
-- As a user, I want to review the correct exercise technique before starting my training, so that I can ensure I perform it correctly.
-- As a user, I want to review the correct exercise technique before starting my training, so that I can ensure I perform it correctly.
-- As a user, I want to see the rating of users and understand my place, so that I can see the progress.
-- As a user, I want to perform the exercises required for the fitness test, so that I can pass it without attending sport complex.
-- As a coach, I want to download fitness test results for each course, so that I can upload them on the sport website and to the grade sheet.
+- As a student, I want to create an account or log in to existing one, so that I can view statistics on previous exercises performe .
+- As a student, I want to receive tips on how to correct exercise technique, so that I can avoid injuries during the trainings and perform exercises more efficiently.
+- As a student, I want to see video from camera, so that I can understand tips and correct mistakes immediately.
+- As a student, I want to see the number of repetitions of an exercise, so that I can focus on the proper technique without worrying about counting.
+- As a student, I want to review the correct exercise technique before starting my training, so that I can ensure I perform it correctly.
+- As a student, I want to see the rating of users and understand my place, so that I can see the progress.
+- As a student, I want to perform the exercises required for the fitness test, so that I can pass it without attending sport complex.
+- As a coach, I want to create an account or log in to existing one, so that I can see the fitness test results for each student.
+- As a coach, I want to download fitness test results for each student, so that I can upload them on the sport website and to the grade sheet.
 
 ## **Lean Questionnaire**
 
@@ -168,7 +170,7 @@ After that, service will define a correctness of a physical exercise by calculat
 
 -- HTML + CSS + JS: base of a frontend
 
--- TailwindCSS: open-source CSS framework used to style each element by mixing and matching, by using that we can adopt the app for different devices
+-- TailwindCSS: open-source CSS framework used to add styles to HTML elements that helps to adapt the app for different devices
 
 -- Mediapipe: Open-Source ML Tool that allow us to determine coordinates of a human body, and then use it for the app purposes
 
@@ -178,22 +180,12 @@ Tech stack can change during the working process because of different reasons, s
 
 ## **Reflection**
 
-**What was done**
+**Conclusions**
 
 - During this week we create a team consisting of 7 members, each of us ready to work on the presented project and use our hard and soft skills in programming and team communication.
 - We defined a project that will be implemented during summer semester
 - We determined a roles of each team member
 - Also, we conducted an analysis of existing solutions and created an expected view of MVP, which we will strive for
-
-**Challenges**
-
-We faced several troubles during this week, such as:
-
-- Creating a team of 7 members, only after Wednesday we had a full team. Initially we organized a team of friends and classmates that already worked together, and then we found remaining members using google spreadsheet.
-
-- Idea of a project came to our minds relatively quickly. However, to define all aspects we spent a lot of time. Well-organized teamwork and communication helped to solve all the issues and difficulties.
-
-- We have encountered difficulties in writing a report that is quite voluminous and fully discloses the essence of the project. However, we were able to distribute the work so that we could quickly and accurately finish the report before the deadline.
 
 **Next Steps**
 
@@ -203,11 +195,14 @@ We faced several troubles during this week, such as:
 
 - Learn all principles of working with MediaPipe
 
-## **References**
+**Challenges & Solutions**
 
-[1] - https://apps.apple.com/ru/app/skill-yoga-train-mind-body/id1462051533
+We faced several troubles during this week, such as:
 
-[2] - https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija
+- Creating a team of 7 members, only after Wednesday we had a full team. Initially we organized a team of friends and classmates that already worked together, and then we found remaining members using google spreadsheet.
 
-[3] - https://entermedia.io/people/15-glupyh-voprosov-o-trenirovkah-doma/
+- Idea of a project came to our minds relatively quickly. However, to define all aspects we spent a lot of time. Well-organized teamwork and communication helped to solve all the issues and difficulties.
 
+- We have encountered difficulties in writing a report that is quite voluminous and fully discloses the essence of the project. However, we were able to distribute the work so that we could quickly and accurately finish the report before the deadline.
+
+The main lesson learned through these challenges is that through communication and the engagement of team members, we can solve our problems.

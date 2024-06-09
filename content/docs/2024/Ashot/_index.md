@@ -1,4 +1,4 @@
 ---
 bookCollapseSection: true
-title: "Ashot"
+title: "A-Shot"
 ---

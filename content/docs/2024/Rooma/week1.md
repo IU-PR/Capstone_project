@@ -148,19 +148,19 @@ Our team recognizes the importance of collaborating with experts in UX/UI design
 
 - Schematic Drawings:  
   
-  ![img1](/2024/Room/image-1.png)
+  ![img1](/2024/Rooma/image-1.png)
   Selecting a game from the list (e.g. Public Chat game)  
 
-  ![img2](/2024/Room/image-2.png)
+  ![img2](/2024/Rooma/image-2.png)
   Game customization  
 
-  ![img3](/2024/Room/image-3.png)
+  ![img3](/2024/Rooma/image-3.png)
   Participants joining the game (e.g. by QR code)  
 
-  ![img4](/2024/Room/image-4.png)
+  ![img4](/2024/Rooma/image-4.png)
   Process of the game
 
-  ![img5](/2024/Room/image-5.png)
+  ![img5](/2024/Rooma/image-5.png)
   When the game is over, the player statistics are displayed
 
 - Tech Stack:  

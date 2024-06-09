@@ -112,12 +112,12 @@ At the moment we have not involved any experts yet.
 
 <img src="/2024/Monidorm/backend_architecture.drawio.png"> 
 
-- Tech Stack:
+- Possible Tech Stack:
    - Backend:
       - API server: Java, Golang
    - Frontend:
       - Telegram bot: Python
-      - Admin-panel: Svelte, Graphana, Prometheus
+      - Admin-panel: Svelte, Grafana, Prometheus
    - Database: Postgres, MongoDB
 
 ## **Distribution of roles in the team**

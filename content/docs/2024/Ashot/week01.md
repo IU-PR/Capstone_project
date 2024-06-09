@@ -186,7 +186,11 @@ we will focus on the development of the following essential features:
 
 ### Schematic Drawings
 
-???
+#### User flow demo
+![user-flow](/2024/Ashot/week01/user-flow.jpg)
+
+#### Features matrix
+![features](/2024/Ashot/week01/features.jpg)
 
 ### Tech Stack
 

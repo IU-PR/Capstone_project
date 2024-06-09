@@ -42,11 +42,11 @@ Please answer the following questions related to the lean methodology:
 
 1. What problem or need does your software project address? 
    
-   ...
+   The software project addresses several key problems and needs, such as time-consuming meal planning, calorie management, dietary restrictions and preferences. Time-Consuming Meal Planning: the bot automates the meal planning process, saving users time and effort by providing a ready-made menu for the week. Calorie Management: the bot provides meal plans with precise calorie counts, helping users stay within their desired calorie range. Dietary Restrictions and Preferences: the bot customizes meal plans to accommodate various dietary restrictions and preferences, ensuring all meals are suitable for the user.
 
 2. Who are your target users or customers?
-
-   ...
+    
+    Our target users are individuals who are actively trying to manage their weight, whether they are trying to lose, maintain, or gain weight. This includes Individuals with specific dietary restrictions or preferences such as vegetarian, vegan, gluten-free, dairy-free, or other allergen considerations. Additionally, our platform can be useful for people who have limited time for meal planning and prefer a convenient solution to ensure they eat balanced and nutritious meals.
 
 3. How will you validate and test your assumptions about the project?
 

@@ -76,7 +76,7 @@ Please answer the following questions related to the lean methodology:
 
   - transparent-background: A tool for removing the background from images. More details can be found [here](https://pypi.org/project/transparent-background/).
   - photo-background-generation: A model for generating photo backgrounds. More details can be found [here](https://huggingface.co/yahoo-inc/photo-background-generation).
-  - BLIP image captioning large: A model for generating image captions. More details can be found here [here](https://huggingface.co/Salesforce/blip-image-captioning-large).
+  - BLIP image captioning large: A model for generating image captions. More details can be found [here](https://huggingface.co/Salesforce/blip-image-captioning-large).
     
    We also assume that this list may change in the final product.
 

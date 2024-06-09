@@ -22,7 +22,7 @@ title: "Week #1"
 
 - Identify the Problem:
 ...
-  ![Casual-NotCasual-statistics](static/2024/Frontline-Walker/Casual-NotCasual-statistics.jpg)
+  ![Casual-NotCasual-statistics](/2024/Frontline-Walker/Casual-NotCasual-statistics.jpg)
 
 
 

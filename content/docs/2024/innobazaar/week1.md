@@ -93,12 +93,6 @@ We will regularly collect user feedback through surveys, interviews, and usage a
 
 Our goal is to create a simple and affordable online marketplace that empowers small businesses and individual sellers to thrive by connecting them with their local communities and providing the tools they need to succeed.
 
-### Schematic Drawings:
-
--   **Homepage:** Featuring product categories, featured items, and a search bar.
--   **Seller Dashboard:** Tools for managing inventory, orders, and customer interactions.
--   **Product Listing Page:** Details, images, and reviews of listed products.
-
 ### Tech Stack:
 
 -   **Frontend:** React.js for dynamic and responsive user interface.

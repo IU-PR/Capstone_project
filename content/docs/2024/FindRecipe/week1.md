@@ -64,13 +64,15 @@ Please answer the following questions related to the lean methodology:
 
 ## **Leveraging AI, Open-Source, and Experts**
 
-Our team...
+In this project our team decided to build everything up from scratch, so we will use open-source Python libraries and MongoDB or PostgreSQL for data storing. As for AI, we will consult with chatbots like ChatGPT or Claude models to get more experience in unknown fields faster and resolve confusing errors. We will also contact advanced nutritionists to review the quality of generated menus.
 
 ## **Defining the Vision for Your Project**
 
-- Overview: ...
+- Overview: We want to create an app for people who keep track of what they need to eat and who don't want to make up their own menus and keep track of what foods they need to buy. There will be a large number of parameters in the application to generate the appropriate menu.
 
-- Schematic Drawings: ...
+- Schematic Drawings:
+   Preliminary simplified schema of our project:
+   ![project_schema](/static/2024/FindRecipe/project_schema.jpg)
 
 - Tech Stack: ...
 

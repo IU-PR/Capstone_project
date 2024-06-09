@@ -166,10 +166,55 @@ Our team is prepared to leverage AI, open-source, and expert knowledge to develo
 
 ## **Defining the Vision for Your Project**
 
-- Overview: ...
+### Overview
 
-- Schematic Drawings: ...
+A-Shot is a user-friendly, multiplatform tool that leverages computer vision
+and machine learning to simplify and accelerate the photo culling process for photographers.
+Within the given timeframe of several weeks,
+we will focus on the development of the following essential features:
 
-- Tech Stack: ...
+1. **Blur detection:**
+   To automatically identify and eliminate low-quality, blurry shots.
 
-*Feel free to add more sections as needed. You are the owners of your project!*
+2. **Overexposure detection:**
+   To detect and remove images with poor exposure,
+   ensuring that only the best-exposed shots are presented for selection.
+
+3. **Grouping of similar shots:**
+   To automatically group similar images together,
+   making it easy to compare and choose the best shot from each group.
+
+### Schematic Drawings
+
+???
+
+### Tech Stack
+
+Our tech stack will include the following tools and technologies:
+
+- **PyTorch:** For the training and deployment of machine learning models.
+- **Jetpack Multiplatform:** For the creation of a multiplatform app using Kotlin.
+- **OpenCV:** For image and video processing, as well as computer vision tasks.
+
+### Future Vision
+
+In the future, if time permits or as part of our post-launch development plan,
+we aim to incorporate additional features such as:
+
+1. **Face detection:**
+   To automatically identify and emphasize faces in images,
+   aiding in the selection of shots with the best facial expressions.
+
+2. Closed eyes detection:
+   To assist photographers in quickly eliminating shots where subjects' eyes are closed.
+
+3. Image ranking by different properties:
+   To automatically rank images based on factors like composition, exposure, and sharpness,
+   further streamlining the culling process.
+
+4. Grouping by faces:
+   To automatically group images based on the identified faces,
+   making it easier to select the best shots of each individual.
+
+These features will enhance A-Shot's capabilities,
+making it an invaluable tool for photographers of all skill levels.

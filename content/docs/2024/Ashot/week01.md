@@ -141,7 +141,28 @@ Please answer the following questions related to the lean methodology:
 
 ## **Leveraging AI, Open-Source, and Experts**
 
-Our team...
+Our team is prepared to leverage AI, open-source, and expert knowledge to develop A-Shot:
+
+- Artificial Intelligence (AI):
+  We will employ cutting-edge machine learning algorithms,
+  such as convolutional neural networks (CNNs),
+  and computer vision techniques to power A-Shot's core features.
+  Our team members, Timofey Brayko, Arthur Rakhmetov, Mikhail Romanov, and Artemii Miasoedov will focus on training and
+  optimizing models for blur and overexposure detection and similar shot grouping.
+
+- Open-Source:
+  We will take advantage of popular open-source libraries, frameworks, and tools to accelerate the
+  development process and ensure the quality of our product.
+  Specifically, we plan to use:
+	- PyTorch: A machine learning framework for model training and deployment.
+	- Jetpack Multiplatform: A toolkit for building multiplatform apps using Kotlin.
+	- OpenCV: A computer vision library for image and video processing.
+
+- Expert Knowledge:
+  We will actively engage with photography experts and our target users to gather insights,
+  validate our assumptions, and refine our product.
+  Our UX/UI designer, Rusakov Matthew, will work closely with the users to ensure that A-Shot's interface is intuitive,
+  user-friendly, and tailored to their needs.
 
 ## **Defining the Vision for Your Project**
 

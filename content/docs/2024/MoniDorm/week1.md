@@ -94,7 +94,9 @@ Our team will use generative AI models like ChatGPT and Github Copilot to increa
 
 ### Open-Source
 
-For a Telegram bot we will use popular open-source libraries like Aiogram etc.
+- We will use these programming languages with open-source code: [Python](https://github.com/python/cpython) , [Go](https://github.com/golang)
+- For a Telegram bot we will use popular open-source libraries like [Aiogram](https://github.com/aiogram/aiogram)
+- For writing code and reports - [Visual Studio Code](https://github.com/microsoft/vscode)
 
 ### Experts
 

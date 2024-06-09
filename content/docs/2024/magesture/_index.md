@@ -1,4 +1,4 @@
 ---
 bookCollapseSection: true
-title: "Magestic"
+title: "Magesture"
 ---

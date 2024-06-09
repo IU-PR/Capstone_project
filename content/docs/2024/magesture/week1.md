@@ -69,9 +69,9 @@ Our team will use AI for real-time gesture recognition, utilizing open-source li
 
 - Schematic Drawings: 
    - Gesture Recognition Flowchart:
-   ![gesture-recognition-flowchart](/2024/Magestic/week1/gesture.svg)
+   ![gesture-recognition-flowchart](/2024/magesture/week1/gesture.svg)
    - Gameplay Interface Layout:
-   ![gameplay-interface-layout](/2024/Magestic/week1/gameplay.svg)
+   ![gameplay-interface-layout](/2024/magesture/week1/gameplay.svg)
 
 - Tech Stack:
    - Programming Languages: Python, C#.

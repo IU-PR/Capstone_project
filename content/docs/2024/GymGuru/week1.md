@@ -39,11 +39,12 @@ title: "Week #1"
 &nbsp;&nbsp;&nbsp;&nbsp;There is a possibility that the following problems could emerge in this situation: during the exams students have to come to the SC, moreover, the time slots could be inconvenient. Additionally, coaches are not able to supervise everyone simultaneously, hence students may do exercises in the wrong way or cheat. Incorrect exercise technique may cause injuries. Summarizing, students and trainers must visit SC just to do monotonic work. 
 &nbsp;&nbsp;&nbsp;&nbsp;We conducted a survey among students to identify existing problems and to gather students' opinions on the feasibility of conducting fitness tests online
 
-
 <p float="left">
   <img src="/2024/GymGuru/Week1_Pool1.png" width="320" height="480">
   <img src="/2024/GymGuru/Week1_Pool2.png" width="320" height="320">
 </p>
+
+Also, according to a All-Russian Center for the Study of Public Opinion study, more than half of Russians are engaged in sports or physical education, and fitness ranks second in popularity [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija). Self-training is the most popular training format [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija), however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. Coach Tansu Sungatova notes that incorrect technique can make exercises useless or even lead to injuries [[3]](https://entermedia.io/people/15-glupyh-voprosov-o-trenirovkah-doma/).
 
 
 
@@ -71,14 +72,28 @@ title: "Week #1"
 
 - **User Testimonials or Use Cases:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;According to a All-Russian Center for the Study of Public Opinion study, more than half of Russians are engaged in sports or physical education, and fitness ranks second in popularity [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija). Self-training is the most popular training format [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija), however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. Coach Tansu Sungatova notes that incorrect technique can make exercises useless or even lead to injuries [[3]](https://entermedia.io/people/15-glupyh-voprosov-o-trenirovkah-doma/). Using the GymGURU could prevent the wrong technique of performing the exercise and save you from getting seriously injured.
+We created the following Use Cases Diagram that shows possible use cases from user side and trainer side:
+
+<img src="/2024/GymGuru/Week1_UseCases.jpg" width="640" height="720">
+
+To describe the diagram above there are several user stories:
+
+- As a user, I want to create an account, so that I can view statistics on previous exercises performe .
+- As a user, I want to receive tips on how to correct exercise technique, so that I can avoid injuries during the trainings.
+- As a user, I want to see video from camera, so that I can understand tips and correct mistakes immediately.
+- As a user, I want to see the number of repetitions of an exercise, so that I can focus on the proper technique without worrying about counting.
+- As a user, I want to review the correct exercise technique before starting my training, so that I can ensure I perform it correctly.
+- As a user, I want to review the correct exercise technique before starting my training, so that I can ensure I perform it correctly.
+- As a user, I want to see the rating of users and understand my place, so that I can see the progress.
+- As a user, I want to perform the exercises required for the fitness test, so that I can pass it without attending sport complex.
+- As a coach, I want to download fitness test results for each course, so that I can upload them on the sport website and to the grade sheet.
 
 ## **Lean Questionnaire**
 
 **1. What problem or need does your software project address?**
    
-&nbsp;&nbsp;&nbsp;&nbsp;Self-training is the most popular training format, however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. In turn, improper technique of performing exercises with additional weights can lead to the development of muscle imbalance and postural abnormalities, which can lead to injury and negatively affect health and performance in the long term. This application allows for independent monitoring of the accuracy of exercises in order to prevent potential consequences. GymGURU will also help students take fitness tests without having to stand in queue while participating in the test in the sports complex.
-
+&nbsp;&nbsp;&nbsp;&nbsp;Self-training is the most popular training format, however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. In turn, improper technique of performing exercises with additional weights can lead to the development of muscle imbalance and postural abnormalities, which can lead to injury and negatively affect health and performance in the long term. This application allows for independent monitoring of the accuracy of exercises in order to prevent potential consequences. 
+&nbsp;&nbsp;&nbsp;&nbsp;During the fitness test at the sports complex, students have to wait several times for their turn to enter their results at the table with the coach.  GymGURU will also help students take a fitness test without having to be present in person, which will help save time and make it easier to pass.
 
 **2. Who are your target users or customers?**
 

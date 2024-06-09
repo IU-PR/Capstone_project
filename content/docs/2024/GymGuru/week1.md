@@ -41,7 +41,7 @@ title: "Week #1"
 
 &nbsp;&nbsp;&nbsp;&nbsp;This process presents several potential issues: students must physically come to the sports complex, the available time slots may be inconvenient, and there are other problems highlighted in the survey results below. Additionally, coaches are unable to supervise all students simultaneously, which could lead to improper exercise execution or cheating. To address these concerns, we conducted a survey among students to identify existing problems and gather their opinions on the feasibility of conducting fitness tests online.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Based on the survey results, we see that a significant portion of students encounter challenges related to the current fitness test process. Given these challenges, an IT solution may offer a more flexible and efficient approach. An online platform could allow students to complete their exercises at their convenience while ensuring proper technique through virtual supervision. Additionally, students could use the platform for regular training, benefiting from continuous virtual guidance. Implementing such a solution could streamline the fitness test process, making it more accessible and effective for both students and coaches.
+&nbsp;&nbsp;&nbsp;&nbsp;Based on the survey results, we see that some students encounter challenges related to the current fitness test process. Given these challenges, an IT solution may offer a more flexible and efficient approach. 
 
 <p float="left">
   <img src="/2024/GymGuru/Week1_Pool1.png" width="320" height="480">
@@ -50,8 +50,7 @@ title: "Week #1"
 
 - **Solution Description:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Our solution leverages pose estimation and exercise recognition to evaluate students' fitness performances in real-time, providing immediate feedback and ensuring correct exercise execution. By allowing remote participation, our software eliminates the need for students to visit the sports complex, offering flexibility and convenience. Nowadays, the alternative can be for example an online conference with a trainer, but it will not solve the problem of timing: students still can not take a test at any time. Moreover, coaches still have no chance to oversee everyone. Our product will allow students to take an exam in a convenient time and the exam will be fair.
-
+&nbsp;&nbsp;&nbsp;&nbsp;Our solution leverages pose estimation and exercise recognition to evaluate students' fitness performances in real-time, providing immediate feedback and ensuring correct exercise execution. Users could use the platform for regular training, benefiting from continuous virtual guidance. Additionally, by allowing remote participation, our software eliminates the need for students to visit the sports complex, offering flexibility to complete fitness test at their convenience while ensuring proper technique through virtual supervision. 
 
 - **Benefits to Users:**
 
@@ -61,8 +60,9 @@ title: "Week #1"
 
 
 - **Differentiation:**
+&nbsp;&nbsp;&nbsp;&nbsp;Researching for the similar applications we found out an [app for yoga](https://apps.apple.com/ru/app/skill-yoga-train-mind-body/id1462051533), which defines points on the user's body and evaluates if the pose is correct. However, this application is not intended for fitness and cannot be launched from a browser. The main feature of our solution is a possibility to check the correctness of physical exercises and use it for fitness test taking. Our web application is a unique product on the Russian market, it will be free and will provide significant benefits to those who want to exercise safely. GymGuru will correct the technique of performing exercises and help achieve the desired result faster, as well as give Innopolis students the opportunity to take a fitness test without the need for presence in the sports complex.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Researching for the similar applications we found out an [app for yoga](https://apps.apple.com/ru/app/skill-yoga-train-mind-body/id1462051533), which defines points on the user's body and evaluates if the pose is correct. However, this application is not intended for fitness and cannot be launched from a browser. The main feature of our solution is a possibility to use it for the fitness test taking and checking the correctness of physical exercises. Our web application is a unique product on the Russian market, it will be free and will provide significant benefits to those who want to exercise safely. GymGuru will correct the technique of performing exercises and help achieve the desired result faster, as well as give Innopolis students the opportunity to take a fitness test without the need for presence in the sports complex.
+&nbsp;&nbsp;&nbsp;&nbsp;The alternative for usual fitness test can be for example an online conference with a trainer, but it will not solve the problem of timing: students still can not take a test at any time. Moreover, coaches still have no chance to oversee everyone. Our product will allow students to take a fitness test in a convenient time and it will be fair.
 
 - **User Impact:**
 

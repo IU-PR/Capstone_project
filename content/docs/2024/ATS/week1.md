@@ -18,7 +18,7 @@
 
 #### **Problem**:
 
-The primary problem addressed by our ATS (automatic trade system) project is unpredictability and complexity of modern trading exchanges and financial markets. Due to the gigantic amount of information and changes every second, it is difficult for a person to make a quick and effective sell or buy decisions.
+The primary problem addressed by our ATS (Automatic Trade System) project is unpredictability and complexity of modern trading exchanges and financial markets. Due to the gigantic amount of information and changes every second, it is difficult for a person to make a quick and effective sell or buy decisions.
 
 From our point of view, a modern trader and investor faces the following challenges:
 
@@ -30,7 +30,7 @@ From our point of view, a modern trader and investor faces the following challen
 
 #### **Solution Description**:
 
-Our ATS project automates and speed up the trading/investment process by integrating machine learning (ML) for decision-making, various trade algorithms, and an API-driven trade bot. Our project enables users to rigorously test their strategies and hypotheses in a sandbox environment before deploying them in the live market. Additionally, the system facilitates real-time trading and market monitoring. Key features include:
+Our ATS project automates and speeds up the trading/investment process by integrating machine learning (ML) for decision-making, various trade algorithms, and an API-driven trade bot. Our project enables users to rigorously test their strategies and hypotheses in a sandbox environment before deploying them in the live market. Additionally, the system facilitates real-time trading and market monitoring. Key features include:
 
 * **ML-Based Decision Engine:** Utilizes machine learning to analyze market data and select the most appropriate trading algorithm based on current conditions.
 * **Diverse Trade Algorithms:** Implements multiple trading strategies to handle different market scenarios, such as trend following, mean reversion, and arbitrage.
@@ -66,7 +66,7 @@ Moreover, our interactive online system for real-time analysis of trading algori
 
 1. ***Use Case: Novice Trader's Learning Journey:***
 
-   * **User Profile:** A novice trader eager to delve into automated trading but lacking extensive experience.
+   * **User Profile:** A novice trader is eager to delve into automated trading but lacks an extensive experience.
    * **Challenge:** Limited knowledge and understanding of automated trading systems, seeking a platform to facilitate learning and participation.
    * **Solution:** Utilized the open-source aspect of the platform to access public developments and contribute ideas, accelerating learning and fostering a sense of community involvement. Leveraged personalized implementation services to tailor the software to individual trading style, resulting in enhanced satisfaction and performance. Utilized real-time analysis feature for informed decision-making.
    * **Outcome:** Experienced accelerated learning curve, increased confidence, and improved trading performance, becoming an active participant in the trading community.
@@ -103,8 +103,6 @@ Moreover, our interactive online system for real-time analysis of trading algori
 
 ## **Leveraging AI, Open-Source, and Experts**
 
-Explain how your team plans to leverage the following resources for the development and success of your project
-
 ### AI
 
 Our team plans to leverage AI technologies **(ANN for time series anomalies detection)** extensively throughout the development and implementation of our project. AI will play a crucial role in several aspects, including market analysis, algorithm selection, and trade execution. We will utilize advanced machine learning algorithms to analyze large volumes of market data, identify patterns, and predict market trends with greater accuracy. Additionally, AI will be employed to dynamically select the most effective trading algorithms based on current market conditions, ensuring optimal performance and adaptability. Furthermore, AI-powered trade execution systems will enable fast and precise transactions, minimizing latency and maximizing efficiency in the trading process. Overall, AI will be a cornerstone of our project, empowering us to deliver sophisticated and competitive automated trading solutions to our users.
@@ -135,10 +133,10 @@ Overall, our project aims to revolutionize the way traders and investors interac
 
 In out project we are planning to use the following tech stack:
 
-1. **Programming languages:** Python and Java Script
-2. **Libraries and frameworks:** pandas, numpy, pytourch, tensorflow, scikit-learn, Vue.js ...
+1. **Programming languages:** Python and JavaScript
+2. **Libraries and frameworks:** pandas, numpy, pytorch, tensorflow, scikit-learn, Vue.js ...
 3. **API:** Binance Rest API or Tinkoff API
 4. **Git CI|CD**
-5. **Databases:** MongoDB, Postgress
+5. **Databases:** MongoDB, Postgres
 
 *Note: we haven't finalized the stack yet and it may change in the future.*

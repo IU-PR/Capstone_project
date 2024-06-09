@@ -12,11 +12,11 @@ title: "Week #1"
 |--------------------------|---------------|-----------------|
 | Sergei Polin (Lead)     | @vilfer | s.polin@innopolis.university |
 | Eleonora Pikalo            | @elpi_tg | e.pikalo@innopolis.university |
-| Alexandra Egorova            | [Telegram ID] | [Email address] |
-| Mikita Drazdou            | [Telegram ID] | [Email address] |
-| Iakov Saparov            | [Telegram ID] | [Email address] |
-| Natalia Agapova | [Telegram ID] | [Email address] |
-| Anastasiia Ankudinova | [Telegram ID] | [Email address] |
+| Alexandra Egorova            | @kurkune | a.egorova@innopolis.university |
+| Mikita Drazdou            | @droz_nik | m.drazdou@innopolis.university |
+| Iakov Saparov            | @outrun32 | i.saparov@innopolis.university |
+| Natalia Agapova | @nhefy | n.agapova@innopolis.university |
+| Anastasiia Ankudinova | @solncemy | a.ankudinova@innopolis.university§ |
 
 ### **Value Proposition**
 
@@ -72,6 +72,6 @@ Our team...
 
 - Schematic Drawings: ...
 
-- Tech Stack: ...
+- Tech Stack: Next.js, Tailwind CSS, PyTorch, LangChain, diffusers
 
 *Feel free to add more sections as needed. You are the owners of your project!*

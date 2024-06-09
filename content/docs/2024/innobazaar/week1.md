@@ -93,7 +93,7 @@ We will regularly collect user feedback through surveys, interviews, and usage a
 
 Our goal is to create a simple and affordable online marketplace that empowers small businesses and individual sellers to thrive by connecting them with their local communities and providing the tools they need to succeed.
 
-### Tech Stack:
+### Tech Stack (Subject to change):
 
 -   **Frontend:** React.js for dynamic and responsive user interface.
 -   **Backend:** Python Django for server-side logic.

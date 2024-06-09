@@ -7,7 +7,7 @@ title: "Week #1"
 ## <p style="text-align: center;">*Team GymGuru*</p>
 
 
-### **Team Formation and Project Proposal**
+## **Team Formation and Project Proposal**
 
 #### **Team Members**
 
@@ -31,7 +31,7 @@ title: "Week #1"
 - Liana Mardanova - frontend, has experience working with the ML tool that we plan to use
 - Milana Sirozhova - system design, will focus on various graphs/schemas/descriptions of weekly reports.
 
-### **Value Proposition**
+## **Value Proposition**
 
 - **Identify the Problem:**
 
@@ -73,7 +73,7 @@ title: "Week #1"
 
 &nbsp;&nbsp;&nbsp;&nbsp;According to a All-Russian Center for the Study of Public Opinion study, more than half of Russians are engaged in sports or physical education, and fitness ranks second in popularity [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija). Self-training is the most popular training format [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija), however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. Coach Tansu Sungatova notes that incorrect technique can make exercises useless or even lead to injuries [[3]](https://entermedia.io/people/15-glupyh-voprosov-o-trenirovkah-doma/). Using the GymGURU could prevent the wrong technique of performing the exercise and save you from getting seriously injured.
 
-### **Lean Questionnaire**
+## **Lean Questionnaire**
 
 **1. What problem or need does your software project address?**
    
@@ -100,7 +100,7 @@ title: "Week #1"
 
 &nbsp;&nbsp;&nbsp;&nbsp;During the work process we are planning to conduct polls and testing sessions. Depending on the feedback from users, we will focus on the weak parts of our project and fix any bugs. Moreover, our team will conduct a meeting with experts to collect professional opinion about everything that will be done, and about missing by their view features that we will try to create.
 
-### **Leveraging AI, Open-Source, and Experts**
+## **Leveraging AI, Open-Source, and Experts**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Our team plans to leverage the following resources for the development and success of our project:
 
@@ -112,7 +112,7 @@ title: "Week #1"
 
 &nbsp;&nbsp;&nbsp;&nbsp;We are planning to contact Innopolis Sport Complex coaches to address several questions regarding correctness of physical exercises and the intricacies of passing physical standards (fitness test) in Innopolis. Moreover, we already have a deal with Yana Bogdanovich (teacher of the School of physical education and healthy lifestyle / Institute of Humanities and Social Sciences of Innopolis University) about QA session.
 
-### **Defining the Vision for Your Project**
+## **Defining the Vision for Your Project**
 
 - **Overview:**
 
@@ -150,7 +150,38 @@ After that, service will define a correctness of a physical exercise by calculat
 
 -- Mediapipe: Open-Source ML Tool that allow us to determine coordinates of a human body, and then use it for the app purposes
 
-### **References**
+**Important note:**
+
+Tech stack can change during the working process because of different reasons, such as finding more sufficient language/framework/model or changing/appending features of a product we developing.
+
+## **Reflection**
+
+**What was done**
+
+- During this week we create a team consisting of 7 members, each of us ready to work on the presented project and use our hard and soft skills in programming and team communication.
+- We defined a project that will be implemented during summer semester
+- We determined a roles of each team member
+- Also, we conducted an analysis of existing solutions and created an expected view of MVP, which we will strive for
+
+**Challenges**
+
+We faced several troubles during this week, such as:
+
+- Creating a team of 7 members, only after Wednesday we had a full team. Initially we organized a team of friends and classmates that already worked together, and then we found remaining members using google spreadsheet.
+
+- Idea of a project came to our minds relatively quickly. However, to define all aspects we spent a lot of time. Well-organized teamwork and communication helped to solve all the issues and difficulties.
+
+- We have encountered difficulties in writing a report that is quite voluminous and fully discloses the essence of the project. However, we were able to distribute the work so that we could quickly and accurately finish the report before the deadline.
+
+**Next Steps**
+
+- Start to code the main logic of a web application, as well as frontend part
+
+- Define a convenient flow of work with GitHub, create a list of issues depending on the tasks for the next week sprint
+
+- Learn all principles of working with MediaPipe
+
+## **References**
 
 [1] - https://apps.apple.com/ru/app/skill-yoga-train-mind-body/id1462051533
 

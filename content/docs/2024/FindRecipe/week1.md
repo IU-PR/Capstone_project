@@ -70,7 +70,7 @@ In this project our team decided to build everything up from scratch, so we will
 
 - Overview: 
 
-  We want to create an app for people who keep track of what they need to eat and who don't want to make up their own menus and keep track of what foods they need to buy. There will be a large number of parameters in the application to generate the appropriate menu.
+  We want to ease people's lives by solving a serious problem - deciding, what to eat on each day. Main product we are going to provide is a menu consisting of several days and several meals for each day. We are intending to provide the most diverse set of options in the market to satisfy a greater range of customers. Such menus could help people stay fit, manage time for cooking as well as money for spending on products, since our menu will be constructed to optimize product use, minimize time spendings, and count calories. But even with such great surrounding qualities, main goal of our menu is to relief stress of people, providing concrete, high quality, and diverse meal schedule.
 
 - Schematic Drawings:
 

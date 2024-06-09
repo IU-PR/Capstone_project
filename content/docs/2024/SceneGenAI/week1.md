@@ -35,7 +35,7 @@ title: "Week #1"
    Existing software for background image generation, such as Photoroom, 24 AI, and PicWish, generate acceptable results on general requests. However, this background is usually not related to the product or topic, which is integral to our needs. Additionally, each of these products works well only in English, which presents its own problems. On the positive side, we discovered some convenient features such as the ability to easily redact the original image, which we will consider implementing in the tool.
 
 - **User Impact**:  
-   Beyond improving user engagement, our software project extends to driving sales through enhanced visualization, and potentially optimizing the e-commerce industry's approach to product representation by reducing resource-intensive photoshoots.
+   Beyond improving user engagement, our software project extends to driving sales through enhanced visualization and potentially optimizing the e-commerce industry's approach to product representation by reducing resource-intensive photoshoots.
 
 - **User Testimonials or Use Cases**:  
    Potential user testimonials might highlight how the tool helped them accurately visualize furniture in their living space, leading to a satisfying purchase and a seamless online shopping experience.
@@ -58,11 +58,11 @@ Please answer the following questions related to the lean methodology:
 
 4. What metrics will you use to measure the success of your project?
 
-   Leroy Merlin representatives will evaluate the success of the project based on their satisfaction with the results and factors such as image realism, processing speed and user interface usability.
+   Leroy Merlin representatives will evaluate the success of the project based on their satisfaction with the results and factors such as image realism, processing speed, and user interface usability.
 
 5. How do you plan to iterate and pivot if necessary based on user feedback?
 
-   We will identify areas that need improvement and prioritize them for future updates. We are willing to adjust our approach based on this feedback, ensuring the system aligns with the needs and preferences of our client.
+   We will identify areas that need improvement and prioritize them for future updates. We are willing to adjust our approach based on the feedback from case holder, ensuring the system aligns with his needs and preferences.
 
    
 
@@ -77,7 +77,7 @@ Please answer the following questions related to the lean methodology:
   - transparent-background: A tool for removing the background from images. More details can be found [here](https://pypi.org/project/transparent-background/).
   - photo-background-generation: A model for generating photo backgrounds. More details can be found [here](https://huggingface.co/yahoo-inc/photo-background-generation).
   - BLIP image captioning large: A model for generating image captions. More details can be found here [here](https://huggingface.co/Salesforce/blip-image-captioning-large).
-  - 
+    
    We also assume that this list may change in the final product.
 
 - **Experts**:  
@@ -89,7 +89,8 @@ Please answer the following questions related to the lean methodology:
 - Overview: Our project is a software that uses AI to generate backgrounds for images to be used in the Leroy Merlin store. It solves the problem of innefficient creation of product display images by offering a quick and cost-effective way to generate said images.
 
 - > Schematic Drawings:  
-  Отсюда мб https://wiki.yandex.ru/xakaton/tz/
+  ![image](https://github.com/Brvcket/SceneGenAI/assets/88503011/179d9a31-fca1-4e68-9b1b-df9f5502a780)
+
 
 - Tech Stack:
   - Backend: Docker, Python, FastAPI, Uvicorn
@@ -98,5 +99,5 @@ Please answer the following questions related to the lean methodology:
   - ML: Python, PyTorch, probably MLFlow/AirFlow
   - HuggingFace libraries: Diffusers, Transformers
 
->*Feel free to add more sections as needed. You are the owners of your project!*  
-> можно добавить что-то про будущее проекта либо как мерлен тут задействован, а можно и забить
+- Our expert:
+   Our expert is Leroy Merlin, the case holder in the hackathon organized by Yandex Cloud, which takes place from 1st June until 15th June. We regularly have calls with them and receive feedback on what kind of product they want to see. Yandex Cloud provides us with access to their services to facilitate development. We plan to develop a prototype by the deadline of the hackathon, continue to improve the product further by getting feedback from an expert

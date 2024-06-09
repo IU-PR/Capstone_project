@@ -25,9 +25,8 @@ Configuring and managing a Kubernetes cluster can be a complex and time-consumin
 Our project streamlines the Kubernetes cluster setup and management process. Developers only need to provide a link to their Docker image, and our system automatically handles the rest. We create a dedicated namespace within our Kubernetes cluster where the application will run. Additionally, we offer comprehensive monitoring solutions to ensure the application runs smoothly and efficiently.
 
 #### Benefits to Users:
-* Ease of Use: Developers can focus on coding rather than managing infrastructure. By simply providing a Docker image link, they bypass the intricate setup of Kubernetes.
+* Ease of Use: Developers can focus on coding rather than managing infrastructure. By simply providing a Docker image link, they bypass the complex setup of Kubernetes.
 * Time Efficiency: Rapid deployment reduces time-to-market for applications.
-* Reduced Complexity: No need for deep Kubernetes knowledge or specialized DevOps skills.
 * Enhanced Monitoring: Built-in monitoring tools provide insights into application performance and health, facilitating proactive issue resolution.
 
 #### Differentiation:
@@ -42,7 +41,7 @@ Our project stands out by offering an all-in-one solution that combines simplici
 Our solution significantly enhances productivity and reduces the operational burden on developers. By automating the Kubernetes setup, developers can deploy applications quickly and with confidence, knowing that they are running in a well-configured and monitored environment. This leads to faster iteration cycles, improved application reliability, and better resource utilization.
 
 #### User Testimonials or Use Cases:
-* Rapid Deployment: Developers who previously struggled with complex Kubernetes setups can now deploy their applications swiftly. By simply providing a Docker image link, they can have their applications running within minutes, significantly reducing deployment time.
+* Rapid Deployment: Our project leverages Kubernetes' main feature of high availability and facilitates quick deployment without requiring a deep understanding of Kubernetes. By simply providing a Docker image link, developers can have their applications running within minutes, significantly reducing deployment time.
 
 * Enhanced Monitoring: Development teams benefit from the integrated monitoring tools, which offer real-time insights into application performance. This proactive approach helps identify and resolve issues before they escalate, ensuring smoother operations and higher uptime.
 
@@ -78,7 +77,9 @@ Please answer the following questions related to the lean methodology:
 
 ## **Leveraging AI, Open-Source, and Experts**
 
-AI Integration: Utilize AI tools like ChatGPT to ask questions and gain insights during the development process./
+AI Integration: 
+* Utilize AI tools like ChatGPT to ask questions and gain insights during the development process.
+
 Open-Source Technologies:
 * Kubernetes: For container orchestration.
 * Splunk: For monitoring.
@@ -119,7 +120,7 @@ sequenceDiagram
     Website ->> User: Display metrics link
 {{</mermaid>}}
 
-   User visits the website to register, providing their information, which is stored in a PostgreSQL database via the IAM server. Upon authorization, user fills out a form, triggering the creation of a Kubernetes cluster by the Manifest Builder Server, whose IP is then communicated back to the user via the website. Simultaneously, the monitoring system tracks server activities, including the user's cluster, forwarding metrics to Grafana for visualization. Finally, the website displays a link to these metrics for the user's access.
+User visits the website to register, providing their information, which is stored in a PostgreSQL database via the IAM server. Upon authorization, user fills out a form, triggering the creation of a Kubernetes cluster by the Manifest Builder Server, whose IP is then communicated back to the user via the website. Simultaneously, the monitoring system tracks server activities, including the user's cluster, forwarding metrics to Grafana for visualization. Finally, the website displays a link to these metrics for the user's access.
 
 - Tech Stack: Python, React, FastAPI, kubernetes, Grafana, PostgreSQL.
 

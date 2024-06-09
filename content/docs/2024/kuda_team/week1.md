@@ -6,15 +6,15 @@
 
 | **Team Member**          | **Telegram ID**                                | **Email Address**                     |
 |--------------------------|------------------------------------------------|---------------------------------------|
-| Dmitry Zvidrin (Lead) 1  | [@Hyperlope](https://t.me/Hyperlope)           | d.zvidrin@innopolis.university        |
-| Danila Tretyakov 2       | [@Ezzy\_a](https://t.me/Ezzy_a)                | d.tretyakov@innopolis.university      |
-| Anton Fadeenkov 3        | [@friji\_off](https://t.me/friji_off)          | a.fadeenkov@innopolis.university      |
-| Kseniia Voronova 4       | [@ksushechkavoron9](https://t.me/ksushechkavoron9) | k.voronova@innopolis.university    |
-| Yassine Allala 5         | [@Bidrift](https://t.me/Bidrift)               | m.allala@innopolis.university         |
+| Dmitry Zvidrin (Lead)   | [@Hyperlope](https://t.me/Hyperlope)           | d.zvidrin@innopolis.university        |
+| Danila Tretyakov        | [@Ezzy\_a](https://t.me/Ezzy_a)                | d.tretyakov@innopolis.university      |
+| Anton Fadeenkov         | [@friji\_off](https://t.me/friji_off)          | a.fadeenkov@innopolis.university      |
+| Kseniia Voronova        | [@ksushechkavoron9](https://t.me/ksushechkavoron9) | k.voronova@innopolis.university    |
+| Yassine Allala          | [@Bidrift](https://t.me/Bidrift)               | m.allala@innopolis.university         |
 
 ## Value Proposition
 
-- ### Problem Identification
+### Problem Identification
 In Innopolis, residents and visitors face difficulties finding reliable and convenient carpooling options. Currently, a Telegram chat is used for coordinating rides, but this method has several drawbacks:
 
 - **Lack of structure:** The chat format is disorganized, making it difficult to quickly find necessary information.
@@ -23,7 +23,7 @@ In Innopolis, residents and visitors face difficulties finding reliable and conv
 
 
 
-- ### Solution Description
+### Solution Description
 Our project offers a specialized web application for finding ride companions in Innopolis, similar to BlaBlaCar but tailored to local conditions. Key features include:
 
 - **User profiles and verification:** Comprehensive user profiles.
@@ -36,7 +36,7 @@ Our project offers a specialized web application for finding ride companions in 
 
 
 
-- ### Benefits to Users
+### Benefits to Users
 By using our web application, users will gain the following benefits:
 
 - **Increased convenience:** A user-friendly platform for quickly finding and booking rides, creating their own group for finding companions for taxi or car-sharing, and calling local taxis.
@@ -47,7 +47,7 @@ By using our web application, users will gain the following benefits:
 
 
 
-- ### Differentiation
+### Differentiation
 Our web application stands out from existing solutions due to:
 
 - **Local focus:** Tailored specifically for the Innopolis community, considering local needs and preferences.
@@ -57,7 +57,7 @@ Our web application stands out from existing solutions due to:
 
 
 
-- ### User Impact
+### User Impact
 Implementing our web application for finding ride companions will have a significant positive impact:
 
 - **Improved mobility:** Facilitating access to transportation options for residents and visitors of Innopolis, enhancing overall mobility in the city.
@@ -67,36 +67,74 @@ Implementing our web application for finding ride companions will have a signifi
 
 
 
-- ### User Testimonials or Use Cases:
- **Actors**:
-- User (Passenger)
-- Fellow Traveler (Driver)
+### User Testimonials or Use Cases:
+#### 1. Driver Creates a Ride
+**Actor:** Driver  
+**Description:** A driver wants to offer a ride to potential passengers heading in the same direction.  
+**Steps:**
+1. The driver logs into the app and selects the option to create a ride.
+2. The driver enters the ride details, including departure time, destination, number of available seats, and any other relevant information.
+3. The driver submits the ride details and waits for passengers to join.
+4. The app notifies the driver when passengers join the ride.
+5. The driver confirms the ride and proceeds to pick up the passengers.
 
- **Preconditions**:
-- User and Fellow Traveler are registered and logged into the app.
-- User has a need for transportation.
+**Preconditions:** The driver has an account and is logged into the app.  
+**Postconditions:** The ride is successfully created and visible to passengers searching for rides.
 
-**Main Flow**:
-1. User opens the app and selects the "Order Taxi" option.
-2. User enters the desired pick-up and drop-off locations, as well as the date and time for the ride.
-3. The app displays available taxi options, including solo rides and shared rides with Fellow Travelers.
-4. User selects a taxi option and confirms the booking.
-5. If the user chooses a shared ride, the app matches them with a Fellow Traveler who has a similar route and schedule.
-6. The Fellow Traveler receives a notification and can accept or decline the request to share the ride.
-7. If accepted, the app provides the User and Fellow Traveler with each other's contact information and meeting point details.
-8. User and Fellow Traveler meet at the designated location and complete the ride together.
+#### 2. Passenger Searches for a Ride
+**Actor:** Passenger  
+**Description:** A passenger is looking for a ride to a specific destination.  
+**Steps:**
+1. The passenger logs into the app and enters the desired ride details, such as destination, departure time, and any other preferences.
+2. The app displays a list of available rides that match the passenger's criteria.
+3. The passenger reviews the available rides and selects one to join.
+4. The app notifies the driver of the passenger's request to join the ride.
+5. The passenger receives confirmation from the driver and prepares for the ride.
 
-**Alternative Flow (User as a Fellow Traveler)**:
-- Instead of ordering a taxi, the User can choose to be a Fellow Traveler by offering a ride to others.
-- The process is similar, but the User selects the "Offer a Ride" option and provides details about their trip.
-- Other Users looking for rides can then see the User's offer and request to join as a Fellow Traveler.
+**Preconditions:** The passenger has an account and is logged into the app.  
+**Postconditions:** The passenger successfully joins a ride that matches their criteria.
 
-**Postconditions**:
-- User reaches their destination safely and efficiently.
-- Fellow Traveler earns a share of the ride cost and contributes to a more sustainable transportation system.
+#### 3. Passenger Orders a Taxi
+**Actor:** Passenger  
+**Description:** A passenger cannot find a suitable ride and decides to order a taxi.  
+**Steps:**
+1. The passenger logs into the app and selects the option to order a taxi.
+2. The passenger enters the pickup location and destination.
+3. The app displays estimated fare and arrival time of the taxi.
+4. The passenger confirms the order.
+5. The app assigns a nearby taxi to the passenger.
+6. The passenger receives confirmation and real-time updates on the taxi's arrival.
 
-**Exceptional Flow**:
-- If no Fellow Travelers are available for a shared ride, the User can proceed with a solo taxi ride.
+**Preconditions:** The passenger has an account and is logged into the app.  
+**Postconditions:** The passenger successfully orders a taxi and receives transportation to their destination.
+
+#### 4. Passenger Finds a Group to Share a Taxi
+**Actor:** Passenger  
+**Description:** A passenger wants to find a group of people to share a taxi ride.  
+**Steps:**
+1. The passenger logs into the app and selects the option to find a group.
+2. The passenger enters the desired destination and departure time.
+3. The app searches for other passengers with similar ride requirements.
+4. The app displays a list of potential groups for the passenger to join.
+5. The passenger selects a group and requests to join.
+6. The app notifies the group members of the passenger's request.
+7. The group members accept the request, and the app coordinates the shared taxi booking.
+
+**Preconditions:** The passenger has an account and is logged into the app.  
+**Postconditions:** The passenger successfully joins a group to share a taxi ride, reducing individual costs.
+
+#### 5. Driver Manages Ride Requests
+**Actor:** Driver  
+**Description:** A driver manages requests from passengers wanting to join their ride.  
+**Steps:**
+1. The driver receives notifications of passenger requests to join their ride.
+2. The driver reviews the requests and passenger profiles.
+3. The driver accepts or declines each request.
+4. The app updates the ride details and notifies the accepted passengers.
+5. The driver and passengers communicate through the app to finalize details.
+
+**Preconditions:** The driver has created a ride and is logged into the app.  
+**Postconditions:** The driver successfully manages passenger requests and finalizes the ride details.
 
 
 

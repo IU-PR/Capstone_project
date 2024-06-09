@@ -22,10 +22,10 @@ title: "Week #1"
 
 - Identify the Problem:
   Now the mobile games market is saturated with casual games, even somewhat monotonous games. However, such games are not of interest to the entire gaming community, games that have complex mechanics and require skills to obtain high results are also required. The statistics below show that not all players play casual games. Also, the examples below show the popularity of non-casual games: Genshin Impact (as one of the most popular representatives of non-casual games), Tanks Blitz (as a popular session multiplayer game in a similar setting) and Warplanes (as one of the references of a project with a similar setting, genre and features). In addition, there are even fewer games in a dieselpunk setting that allow you to get behind the wheel of a heavy vehicle than just non-casual games, but they are also in demand (Warplanes is the clearest example). It is the absence of such a project that our team is called upon to solve.
-  ![Casual-NotCasual-statistics](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/66997f55-6023-4634-93b4-03bd8e2e2a02)
-  <img width="354" alt="Genshin-Impact-popularity" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/82e9cb16-bc4d-4fa1-846a-20a1b060e6a3">
-  <img width="345" alt="Tanks-popularity" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/d7c9a555-7dfd-4177-a72d-b67d0e2925ac">
-  ![Warplane-popularity](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/81e93e93-5260-456e-8b32-6f2330f6d5b8)
+  ![Casual-NotCasual-statistics](/2024/Frontline-Walker/Casual-NotCasual-statistics.jpg)
+  ![Genshin-Impact-popularity](/2024/Frontline-Walker/Genshin-Impact-popularity.png)
+  ![Tanks-popularity](/2024/Frontline-Walker/Tanks-popularity.png)
+  ![Warplane-popularity](/2024/Frontline-Walker/Warplane-popularity.png)
 
 - Solution Description:
  The team will create a game using the Unity game engine in a dieselpunk style. The game is planned to have ports for mobile and PC platforms. The gameplay will be tied to the complex control of the walker, whose task will be to continuously break through enemy fortifications.
@@ -85,10 +85,10 @@ Our team is planning to use AI for generating scripts and sprites. It is also po
 
 ## **References for project**
 - Videogames:
-  <img width="710" alt="Highfleet-reference" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/9bc3eb77-86bc-4c2e-98f1-c5a9510f70cb">
-  <img width="957" alt="Warplane-reference" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/a49b04b9-ec71-4b95-82d8-05265cbbf01e">
+  ![Highfleet-reference](/2024/Frontline-Walker/Highfleet-reference.png)
+  ![Warplane-reference](/2024/Frontline-Walker/Warplane-reference.png)
 - Images:
-  ![Dieselpunk-reference1](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/51e697ff-038e-4831-9844-bf96430ffa9e)
-  ![Dieselpunk-reference2](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/8ce383ba-e84f-4a6a-af0b-33df33ea87e1)
-  <img width="539" alt="Dieselpunk-reference3" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/0104d423-b654-4e97-abd8-ee39cf90b232">
+  ![Dieselpunk-reference1](/2024/Frontline-Walker/Dieselpunk-reference1.jpg)
+  ![Dieselpunk-reference2](/2024/Frontline-Walker/Dieselpunk-reference2.jpg)
+  ![Dieselpunk-reference2](/2024/Frontline-Walker/Dieselpunk-reference3.jpg)
 *Feel free to add more sections as needed. You are the owners of your project!*

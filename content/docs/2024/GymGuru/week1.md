@@ -36,7 +36,9 @@ title: "Week #1"
 - **Identify the Problem:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;In the Innopolis University the Sport exam flows in the following way: at the end of the semester students choose the timeslot to take the fitness test, then come to the sport complex and take a tilt one-by-one, then take crunches in pairs and do push-ups without trainer control. At the end students say the results to the trainer one-by-one. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;There is a possibility that the following problems could emerge in this situation: during the exams students have to come to the SC, moreover, the time slots could be inconvenient. Additionally, coaches are not able to supervise everyone simultaneously, hence students may do exercises in the wrong way or cheat. Incorrect exercise technique may cause injuries. Summarizing, students and trainers must visit SC just to do monotonic work. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;We conducted a survey among students to identify existing problems and to gather students' opinions on the feasibility of conducting fitness tests online
 
 <p float="left">
@@ -44,7 +46,7 @@ title: "Week #1"
   <img src="/2024/GymGuru/Week1_Pool2.png" width="320" height="320">
 </p>
 
-Also, according to a All-Russian Center for the Study of Public Opinion study, more than half of Russians are engaged in sports or physical education, and fitness ranks second in popularity [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija). Self-training is the most popular training format [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija), however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. Coach Tansu Sungatova notes that incorrect technique can make exercises useless or even lead to injuries [[3]](https://entermedia.io/people/15-glupyh-voprosov-o-trenirovkah-doma/).
+&nbsp;&nbsp;&nbsp;&nbsp;Also, according to a All-Russian Center for the Study of Public Opinion study, more than half of Russians are engaged in sports or physical education, and fitness ranks second in popularity [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija). Self-training is the most popular training format [[2]](https://wciom.ru/analytical-reviews/analiticheskii-obzor/sportivnaja-rossija), however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. Coach Tansu Sungatova notes that incorrect technique can make exercises useless or even lead to injuries [[3]](https://entermedia.io/people/15-glupyh-voprosov-o-trenirovkah-doma/).
 
 
 
@@ -57,6 +59,7 @@ Also, according to a All-Russian Center for the Study of Public Opinion study, m
 - **Benefits to Users:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Our software project offers significant benefits for trainers by eliminating the need for physical presence at the sports complex and simplifying the process of collecting results. 
+
 &nbsp;&nbsp;&nbsp;&nbsp;Students stand to gain numerous benefits from our software project, including the flexibility to take the fitness test at any time and the elimination of the need to visit the sports complex. This flexibility enables students to focus more effectively on their preparations. Moreover, our application ensures the correct execution of exercises, reducing the risk of injury.
 
 
@@ -92,7 +95,8 @@ To describe the diagram above there are several user stories:
 
 **1. What problem or need does your software project address?**
    
-&nbsp;&nbsp;&nbsp;&nbsp;Self-training is the most popular training format, however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. In turn, improper technique of performing exercises with additional weights can lead to the development of muscle imbalance and postural abnormalities, which can lead to injury and negatively affect health and performance in the long term. This application allows for independent monitoring of the accuracy of exercises in order to prevent potential consequences. 
+&nbsp;&nbsp;&nbsp;&nbsp;Self-training is the most popular training format, however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. In turn, improper technique of performing exercises with additional weights can lead to the development of muscle imbalance and postural abnormalities, which can lead to injury and negatively affect health and performance in the long term. This application allows for independent monitoring of the accuracy of exercises in order to prevent potential consequences.
+
 &nbsp;&nbsp;&nbsp;&nbsp;During the fitness test at the sports complex, students have to wait several times for their turn to enter their results at the table with the coach.  GymGURU will also help students take a fitness test without having to be present in person, which will help save time and make it easier to pass.
 
 **2. Who are your target users or customers?**
@@ -132,8 +136,10 @@ To describe the diagram above there are several user stories:
 
 - **Overview:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;GymGURU is a web application for evaluating the correctness of performing physical exercises. Users put their device with an enabled camera in front of them during the exercise and receive feedback and tips on improving the technique from the application. 
+&nbsp;&nbsp;&nbsp;&nbsp;GymGURU is a web application for evaluating the correctness of performing physical exercises. Users put their device with an enabled camera in front of them during the exercise and receive feedback and tips on improving the technique from the application.
+
 &nbsp;&nbsp;&nbsp;&nbsp;A large number of people, unaware of this, due to the incorrect technique perform useless or dangerous exercises during self training. This application makes it possible to independently monitor the correctness of the exercises in order to avoid injury.
+
 &nbsp;&nbsp;&nbsp;&nbsp;In addition, it can be used to meet fitness tests in online format without the need for a coach. The web app determines the type of exercise, automatically records the quantity and quality of performance, and after completing the test compiles a table with results for all students and submits it to the coach instead of manually entering each person's information on a first come, first served basis during the gym test. 
 
 

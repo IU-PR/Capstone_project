@@ -1,18 +1,22 @@
-# Week 1 report
+---
+title: "Week #1"
+---
+
+# Week #1 report
 
 ## Team Formation and Project Proposal
 
 ### Team Members
 
-| Team Member          | Telegram ID     | Email Address                       |
-|----------------------|-----------------|-------------------------------------|
-| Ruslan Belkov (Lead) | @dantetemplar   | r.belkov@innopolis.university       |
-| Artem Bulgakov       | @ArtemSBulgakov | art.bulgakov@innopolis.university   |
-| Anatoly Soldatov     | @podyapolskiyaa | a.soldatov@innopolis.university     |
-| Alyona Artemeva      | @Art_libra      | a.artemeva@innopolis.university     |
-| Eldar Mametov        | @eldarlek       | e.mametov@innopolis.university      |
-| Nikita Sannikov      | @raydenoir      | n.sannikov@innopolis.university     |
-| Amir Gubaidullin     | @mng_cry        | am.gubaidullin@innopolis.university |
+| Team Member          | Telegram ID                                    | Email Address                       |
+|----------------------|------------------------------------------------|-------------------------------------|
+| Ruslan Belkov (Lead) | [@dantetemplar](https://t.me/dantetemplar)     | r.belkov@innopolis.university       |
+| Artem Bulgakov       | [@ArtemSBulgakov](https://t.me/ArtemSBulgakov) | art.bulgakov@innopolis.university   |
+| Anatoly Soldatov     | [@podyapolskiyaa](https://t.me/podyapolskiyaa) | a.soldatov@innopolis.university     |
+| Alyona Artemeva      | [@Art_libra](https://t.me/Art_libra)           | a.artemeva@innopolis.university     |
+| Eldar Mametov        | [@eldarlek](https://t.me/eldarlek)             | e.mametov@innopolis.university      |
+| Nikita Sannikov      | [@raydenoir](https://t.me/raydenoir)           | n.sannikov@innopolis.university     |
+| Amir Gubaidullin     | [@mng_cry](https://t.me/mng_cry)               | am.gubaidullin@innopolis.university |
 
 ### Value Proposition
 

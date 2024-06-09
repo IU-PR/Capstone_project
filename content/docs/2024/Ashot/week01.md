@@ -205,16 +205,20 @@ we aim to incorporate additional features such as:
    To automatically identify and emphasize faces in images,
    aiding in the selection of shots with the best facial expressions.
 
-2. Closed eyes detection:
+2. **Closed eyes detection:**
    To assist photographers in quickly eliminating shots where subjects' eyes are closed.
 
-3. Image ranking by different properties:
+3. **Image ranking by different properties:**
    To automatically rank images based on factors like composition, exposure, and sharpness,
    further streamlining the culling process.
 
-4. Grouping by faces:
+4. **Grouping by faces:**
    To automatically group images based on the identified faces,
    making it easier to select the best shots of each individual.
+
+5. **Any ideas that will appear during the development cycles:**
+   We will remain open to new ideas and innovations that emerge during the development process,
+   and evaluate their potential for enhancing A-Shot's capabilities and user experience.
 
 These features will enhance A-Shot's capabilities,
 making it an invaluable tool for photographers of all skill levels.

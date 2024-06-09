@@ -8,13 +8,13 @@ title: "Week #1"
 
 ### **Team Members**
 
-| Team Member              | Telegram ID   | Email Address   |
-|--------------------------|---------------|-----------------|
-| Team Member (Lead) 1     | [Telegram ID] | [Email address] |
-| Team Member 2            | [Telegram ID] | [Email address] |
-| Team Member 3            | [Telegram ID] | [Email address] |
-| Team Member 4            | [Telegram ID] | [Email address] |
-| Team Member 5            | [Telegram ID] | [Email address] |
+| Team Member              | Telegram ID   | Email Address                  |
+|--------------------------|---------------|--------------------------------|
+| Team Member (Lead) 1     | @Barabacha474 | a.sobolev@innopolis.university |
+| Team Member 2            | @Dmitriyllama | [Email address] |
+| Team Member 3            | @InoyBobr     | [Email address] |
+| Team Member 4            | @NikitaRUNI   | [Email address] |
+| Team Member 5            | @NedoDoud     | [Email address] |
 | (Optional) Team Member 6 | [Telegram ID] | [Email address] |
 | (Optional) Team Member 7 | [Telegram ID] | [Email address] |
 

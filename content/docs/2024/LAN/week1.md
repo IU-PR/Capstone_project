@@ -111,5 +111,7 @@ Our project aims to create a comprehensive roommate matching platform designed s
   - RTK Query: To work with the API
   - Next Auth: To work with authorization
   **Backend**:
-  WIP
+  - Aiogram: Asynchronous framework for Telegram Bot API written in Python
+  - Postgresql: DBMS
+  - Django: Backend part for our TG web application
 

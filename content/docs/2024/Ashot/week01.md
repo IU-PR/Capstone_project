@@ -8,15 +8,15 @@ title: "Week #1"
 
 ### **Team Members**
 
-| Team Member              | Telegram ID   | Email Address   |
-|--------------------------|---------------|-----------------|
-| Team Member (Lead) 1     | [Telegram ID] | [Email address] |
-| Team Member 2            | [Telegram ID] | [Email address] |
-| Team Member 3            | [Telegram ID] | [Email address] |
-| Team Member 4            | [Telegram ID] | [Email address] |
-| Team Member 5            | [Telegram ID] | [Email address] |
-| (Optional) Team Member 6 | [Telegram ID] | [Email address] |
-| (Optional) Team Member 7 | [Telegram ID] | [Email address] |
+| Team Member              | Telegram ID                                    | Email Address                                                                 |
+|--------------------------|------------------------------------------------|-------------------------------------------------------------------------------|
+| Artemii Miasoedov (Lead) | [@pagromist](https://t.me/pagromist)           | [a.miasoedov@innopolis.university](mailto:a.miasoedov@innopolis.university)   |
+| Timofey Brayko           | [@Shintifo](https://t.me/Shintifo)             | [t.brayko@innopolis.university](mailto:t.brayko@innopolis.university)         |
+| Nikita Kurkulskiu        | [@dadagust](https://t.me/dadagust)             | [n.kurkulskiu@innopolis.university](mailto:n.kurkulskiu@innopolis.university) |
+| Artur Rakhmetov          | [@R2R_6](https://t.me/R2R_6)                   | [a.rakhmetov@innopolis.university](mailto:a.rakhmetov@innopolis.university)   |
+| Egor Valikov             | [@EgorValikov](https://t.me/EgorValikov)       | [e.valikov@innopolis.university](mailto:e.valikov@innopolis.university)       |
+| Matthew Rusakov          | [@WD72984](https://t.me/WD72984)               | [m.rusakov@innopolis.university](mailto:m.rusakov@innopolis.university)       |
+| Mikhail Romanov          | [@RomashkinOFF28](https://t.me/RomashkinOFF28) | [m.romanov@innopolis.university](mailto:m.romanov@innopolis.university)       |
 
 ### **Value Proposition**
 

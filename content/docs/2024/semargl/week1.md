@@ -103,17 +103,18 @@ We use AI for code checking and documentation, however all code is written by ha
 - Overview: We aim to create a versatile and powerful command-and-control (C2) framework tailored for red team operations. The framework is targeting not only security professionals, but also tries to be closer to buisness customers.
 
 - Schematic Drawings:
-  {{<mermaid>}}
-  graph TD;
-  Client1[Client] -->|gRPC| Server[Semargl C2 Server]
-  Client2[Client] -->|gRPC| Server
-  Redirector1 -->|TCP| Server
-  Redirector2 -->|TCP| Server
-  Agent1[Agent] -->|TCP| Redirector1[Redirector]
-  Agent2[Agent] -->|HTTP| Redirector1[Redirector]
-  Agent3[Agent] -->|DNS| Redirector2[Redirector]
-  Agent4[Agent] -->|ICMP| Server
-  {{</mermaid>}}
+
+{{<mermaid>}}
+graph TD;
+Client1[Client] -->|gRPC| Server[Semargl C2 Server]
+Client2[Client] -->|gRPC| Server
+Redirector1 -->|TCP| Server
+Redirector2 -->|TCP| Server
+Agent1[Agent] -->|TCP| Redirector1[Redirector]
+Agent2[Agent] -->|HTTP| Redirector1[Redirector]
+Agent3[Agent] -->|DNS| Redirector2[Redirector]
+Agent4[Agent] -->|ICMP| Server
+{{</mermaid>}}
 
 - Tech Stack:
   - Backend (server):

@@ -39,9 +39,7 @@ title: "Week #1"
 
 &nbsp;&nbsp;&nbsp;&nbsp;At Innopolis University, the Sport exam is conducted as follows: at the end of the semester, students select a time slot to take the fitness test. They then go to the sports complex where they perform a tilt, do crunches in pairs, and complete push-ups. Finally, students report their results to the trainer one by one.
 
-&nbsp;&nbsp;&nbsp;&nbsp;This process presents several potential issues: students must physically come to the sports complex, the available time slots may be inconvenient, and there are other problems highlighted in the survey results below. Additionally, coaches are unable to supervise all students simultaneously, which could lead to improper exercise execution or cheating.
-
-&nbsp;&nbsp;&nbsp;&nbsp;To address these concerns, we conducted a survey among students to identify existing problems and gather their opinions on the feasibility of conducting fitness tests online.
+&nbsp;&nbsp;&nbsp;&nbsp;This process presents several potential issues: students must physically come to the sports complex, the available time slots may be inconvenient, and there are other problems highlighted in the survey results below. Additionally, coaches are unable to supervise all students simultaneously, which could lead to improper exercise execution or cheating. To address these concerns, we conducted a survey among students to identify existing problems and gather their opinions on the feasibility of conducting fitness tests online.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Based on the survey results, we see that a significant portion of students encounter challenges related to the current fitness test process. Given these challenges, an IT solution may offer a more flexible and efficient approach. An online platform could allow students to complete their exercises at their convenience while ensuring proper technique through virtual supervision. Additionally, students could use the platform for regular training, benefiting from continuous virtual guidance. Implementing such a solution could streamline the fitness test process, making it more accessible and effective for both students and coaches.
 

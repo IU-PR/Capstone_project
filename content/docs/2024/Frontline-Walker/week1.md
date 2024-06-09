@@ -21,25 +21,26 @@ title: "Week #1"
 ### **Value Proposition**
 
 - Identify the Problem:
-...
-  ![Casual-NotCasual-statistics](/2024/Frontline-Walker/Casual-NotCasual-statistics.jpg)
-
-
+  Now the mobile games market is saturated with casual games, even somewhat monotonous games. However, such games are not of interest to the entire gaming community, games that have complex mechanics and require skills to obtain high results are also required. The statistics below show that not all players play casual games. Also, the examples below show the popularity of non-casual games: Genshin Impact (as one of the most popular representatives of non-casual games), Tanks Blitz (as a popular session multiplayer game in a similar setting) and Warplanes (as one of the references of a project with a similar setting, genre and features). In addition, there are even fewer games in a dieselpunk setting that allow you to get behind the wheel of a heavy vehicle than just non-casual games, but they are also in demand (Warplanes is the clearest example). It is the absence of such a project that our team is called upon to solve.
+  ![Casual-NotCasual-statistics](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/66997f55-6023-4634-93b4-03bd8e2e2a02)
+  <img width="354" alt="Genshin-Impact-popularity" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/82e9cb16-bc4d-4fa1-846a-20a1b060e6a3">
+  <img width="345" alt="Tanks-popularity" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/d7c9a555-7dfd-4177-a72d-b67d0e2925ac">
+  ![Warplane-popularity](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/81e93e93-5260-456e-8b32-6f2330f6d5b8)
 
 - Solution Description:
-...
+ The team will create a game using the Unity game engine in a dieselpunk style. The game is planned to have ports for mobile and PC platforms. The gameplay will be tied to the complex control of the walker, whose task will be to continuously break through enemy fortifications.
 
 - Benefits to Users:
-...
+ Fans of this genre and style will find a game that will provide a challenge worthy of their skill.
 
 - Differentiation:
-...
+ There are few such projects. Considering some of the most famous with simmilar style or mechanics - warplane and tanks blitz, we can confidently say that there is a demand. However, there are very few single-player games like this. Therefore, we want to occupy a place in this niche.
 
 - User Impact:
-...
+ Users will be provided with entertainment that will allow them to better relax in their free time and perhaps inspire them.
 
 - User Testimonials or Use Cases:
-...
+ From the above statistics, which indicate the high demand for the project, I would like to specifically point out Warplanes. This game, like our planned project, is also a 2D side-view game with an emphasis on complex control and advancement through enemy fortifications. The success of this game and the name of the developer instead of the company inspires hope for success, convincing us of a significant demand for projects like ours.
 
 ## **Lean Questionnaire**
 
@@ -47,27 +48,27 @@ Please answer the following questions related to the lean methodology:
 
 1. What problem or need does your software project address? 
    
-   ...
+   Lack of projects of similar genre and style on the market.
 
 2. Who are your target users or customers?
 
-   ...
+   Players from mobile platforms who want to play complex games, as well as fans of style and genre from both platforms.
 
 3. How will you validate and test your assumptions about the project?
 
-   ...
+   User experience will be assessed through a survey of a group of players who will be given a game build for testing. Game performance will be assessed using software to evaluate RAM usage, number of frames per second, etc.
 
 4. What metrics will you use to measure the success of your project?
 
-   ...
+   Initially planned main metrics are project performance, project weight, project satisfaction. Additional - the amount and nature of content in the game.
 
 5. How do you plan to iterate and pivot if necessary based on user feedback?
 
-   ...
+   Mechanics and content in the project will be added/removed/adapted based on user experience whenever possible. (Such as difficulty, behavior and types of enemies, environment style, balance, etc.).
 
 ## **Leveraging AI, Open-Source, and Experts**
 
-Our team...
+Our team is planning to use AI for generating scripts and sprites. It is also possible to use a neural network as a “brain” for opponents (for example, another walker). The use of the Unity Assets Store is planned as Open-Source. Also we are planning to get consultation from industry developers (GD course professors and GDE community)
 
 ## **Defining the Vision for Your Project**
 

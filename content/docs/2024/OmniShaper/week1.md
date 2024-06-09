@@ -67,7 +67,7 @@ Our team will use various research papers and open-source models with datasets t
 - Overview: 
 Our main goal is to make high quality software that provides various 3D models to people with any experience in 3D modeling. We aim to leverage the problems of time saving and insufficient experience of users. 
 
-Graphical representation of the application: 
+Graphical representation of the application:\
 ![Test picture](/2024/OmniShaper/schema.png)
 
 - Tech Stack:

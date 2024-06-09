@@ -62,7 +62,7 @@ title: "Week #1"
 
 - **Differentiation:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Researching for the similar applications we found out [[1]](https://apps.apple.com/ru/app/skill-yoga-train-mind-body/id1462051533) an app for yoga, which defines points on the user's body and evaluates if the pose is correct. However, this application is in English, and it is not intended for fitness and cannot be launched from a browser.. The main feature of our solution is a possibility to use it for the fitness test taking and checking the correctness of physical exercises. Our web application is a unique product on the Russian market, it will be free and will provide significant benefits to those who want to exercise safely. GymGURU will correct the technique of performing exercises and help achieve the desired result faster, as well as give Innopolis students the opportunity to take a fitness test without the need for full-time presence in the sports complex.
+&nbsp;&nbsp;&nbsp;&nbsp;Researching for the similar applications we found out [[1]](https://apps.apple.com/ru/app/skill-yoga-train-mind-body/id1462051533) an app for yoga, which defines points on the user's body and evaluates if the pose is correct. However, this application is not intended for fitness and cannot be launched from a browser. The main feature of our solution is a possibility to use it for the fitness test taking and checking the correctness of physical exercises. Our web application is a unique product on the Russian market, it will be free and will provide significant benefits to those who want to exercise safely. GymGURU will correct the technique of performing exercises and help achieve the desired result faster, as well as give Innopolis students the opportunity to take a fitness test without the need for presence in the sports complex.
 
 - **User Impact:**
 
@@ -92,9 +92,9 @@ title: "Week #1"
 
 &nbsp;&nbsp;&nbsp;&nbsp; We defined several metrics, such as:
 
-- The accuracy of recognizing the quality and quantity of exercises performed
 - The speed of recognition
-- The number of users of the web application
+- The number of supported physical exercises
+- The satisfaction of a users during testing sessions (scales of assessment for convenience, ease of use, as well as suggestions/discontents)
 
 **5. How do you plan to iterate and pivot if necessary based on user feedback?**
 

@@ -8,13 +8,13 @@ title: "Week #1"
 
 ### **Team Members**
 
-| Team Member              | Telegram ID   | Email Address   |
-|--------------------------|---------------|-----------------|
-| Evgeny Bobkunov     | [@eugengold](https://t.me/eugengold) | e.bobkunov@innopolis.university |
-| Matvey Korinenko            | [@m0t9_tg](https://t.me/m0t9_tg) | m.korinenko@innopolis.university |
-| Artur Mukhutdinov            | [@CatOrLeader](https://t.me/CatOrLeader) | a.mukhutdinov@innopolis.university |
-| Daniil Prostiruk            | [@daniil_prostiruk](https://t.me/daniil_prostiruk) | d.prostiruk@innopolis.university |
-| Rufina Gafiiatullina            | [@R_ufina](https://t.me/R_ufina) | r.gafiiatullina@innopolis.university |
+|      Team Member     |                     Telegram ID                    |            Email Address             |
+|----------------------|----------------------------------------------------|--------------------------------------|
+| Evgeny Bobkunov      | [@eugengold](https://t.me/eugengold)               | e.bobkunov@innopolis.university      |
+| Matvey Korinenko     | [@m0t9_tg](https://t.me/m0t9_tg)                   | m.korinenko@innopolis.university     |
+| Artur Mukhutdinov    | [@CatOrLeader](https://t.me/CatOrLeader)           | a.mukhutdinov@innopolis.university   |
+| Daniil Prostiruk     | [@daniil_prostiruk](https://t.me/daniil_prostiruk) | d.prostiruk@innopolis.university     |
+| Rufina Gafiiatullina | [@R_ufina](https://t.me/R_ufina)                   | r.gafiiatullina@innopolis.university |
 
 ### **Value Proposition**
 
@@ -120,12 +120,12 @@ At the moment we have not involved any experts yet.
 
 ## **Distribution of roles in the team**
 
-- Evgeny: Project Manager, GitLab environment maintainer (Issues, Milestones, Time Tracking), CI/CD, Reports
+- **Evgeny**: Project Manager, Reports writer
 
-- Matvey: Team Lead, Backend (GoLang), Telegram-Bot (Python), Docker
+- **Matvey**: Team Lead, Backend & Telegram-Bot Developer
 
-- Artur: Deputy Team Lead, Backend (Java), GitLab environment maintainer
+- **Artur**: Deputy Team Lead, Backend Developer, Manager
 
-- Daniil: Frontend (Svelte), CI/CD, Reports
+- **Daniil**: Frontend Developer, Reports writer
 
-- Rufina: Data Science, Python, Reports
+- **Rufina**: Data Science engineer, Reports writer

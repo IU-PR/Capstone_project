@@ -22,7 +22,9 @@ title: "Week #1"
 
 - Identify the Problem:
 ...
-  <img src="/2024/Frontline-Walker/Casual-NotCasual-statistics.jpg" alt="Test picture">
+  ![Casual-NotCasual-statistics](static/2024/Frontline-Walker/Casual-NotCasual-statistics.jpg)
+
+
 
 - Solution Description:
 ...

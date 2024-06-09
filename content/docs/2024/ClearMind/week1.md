@@ -16,7 +16,7 @@ title: "Week #1"
 | Mikita Drazdou            | @droz_nik | m.drazdou@innopolis.university |
 | Iakov Saparov            | @outrun32 | i.saparov@innopolis.university |
 | Natalia Agapova | @nhefy | n.agapova@innopolis.university |
-| Anastasiia Ankudinova | @solncemy | a.ankudinova@innopolis.university§ |
+| Anastasiia Ankudinova | @solncemy | a.ankudinova@innopolis.university |
 
 ### **Value Proposition**
 

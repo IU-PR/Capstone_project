@@ -83,7 +83,7 @@ Our team is planning to use AI for generating scripts and sprites. It is also po
 - Tech Stack:
   The team is trained on the GD track (one of the participants was a guest on the video game development course) and has experience developing on the Unity game engine. Therefore, the project will be implemented using Unity in C#. It is assumed to use programs that allow image editing (for creating sprites, for example sites for pixel-by-pixel drawing). It is also possible to use AI to assist in development.
 
-## **References for rojects**
+## **References for project**
 - Videogames:
   <img width="710" alt="Highfleet-reference" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/9bc3eb77-86bc-4c2e-98f1-c5a9510f70cb">
   <img width="957" alt="Warplane-reference" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/a49b04b9-ec71-4b95-82d8-05265cbbf01e">

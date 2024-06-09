@@ -94,7 +94,7 @@ The intended benefit of our project is two-fold: enhancing educational outcomes 
 
 - Schematic Drawings: 
 
-![Schematic drawing](/static/2024/A-Level/architecture_drawing.jpg).
+![Schematic drawing](/2024/A-Level/architecture_drawing.jpg).
 
 
 - Tech Stack: 

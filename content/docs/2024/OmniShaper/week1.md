@@ -10,13 +10,13 @@ title: "Week #1"
 
 | Team Member              | Telegram ID   | Email Address   |
 |--------------------------|---------------|-----------------|
-| Arthur Gubaidullin     | [@V11P3R] | [a.gubaidullin@innopolis.university] |
-| Amir Bikineyev            | [@Mastermind1250] | [a.bikineyev@innopolis.university] |
-| Makar Brednikov           | [@shinygummy] | [m.brednikov@innopolis.university] |
-| Dmitry Dydalin           | [@Dmntya] | [d.dydalin@innopolis.university] |
-| Leonid Novikov            | [@MagiaDrive] | [l.novikov@innopolis.university] |
-| Denis Nesterov | [@denisbliz] | [d.nesterov@innopolis.university] |
-| Nikita Borisov | [@NktBrsv_jr] | [n.borisov@innopolis.university] |
+| Arthur Gubaidullin     | @V11P3R | a.gubaidullin@innopolis.university |
+| Amir Bikineyev            | @Mastermind1250 | a.bikineyev@innopolis.university |
+| Makar Brednikov           | @shinygummy | m.brednikov@innopolis.university |
+| Dmitry Dydalin           | @Dmntya | d.dydalin@innopolis.university |
+| Leonid Novikov            | @MagiaDrive | l.novikov@innopolis.university |
+| Denis Nesterov | @denisbliz | d.nesterov@innopolis.university |
+| Nikita Borisov | @NktBrsv_jr | n.borisov@innopolis.university |
 
 ### **Value Proposition**
 

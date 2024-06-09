@@ -142,4 +142,4 @@ Please answer the following questions related to the lean methodology:
   Our expert is Leroy Merlin, the case holder in the hackathon organized by Yandex Cloud, which takes place from 1st
   June until 15th June. We regularly have calls with them and receive feedback on what kind of product they want to see.
   Yandex Cloud provides us with access to their services to facilitate development. We plan to develop a prototype by
-  the deadline of the hackathon, continue to improve the product further by getting feedback from an expert
+  the deadline of the hackathon, continue to improve the product further by getting feedback from an expert.

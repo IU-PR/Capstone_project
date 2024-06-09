@@ -81,7 +81,7 @@ Our team has a strategic plan to leverage the following resources for the develo
 
 - Overview: Defining the vision for our project is essential for setting clear objectives and guiding our efforts. Our project aims to modernize meal planning through the strategic integration of technology, promoting healthier eating habits and efficient food management. By offering personalized meal plans tailored to users' dietary preferences, ingredient availability, and nutritional requirements, we seek to empower individuals to make informed decisions about their diet while minimizing waste and optimizing resources. Through the utilization of AI, open-source tools, and expert insights, our vision is to develop a user-centric platform that simplifies meal planning, enhances user satisfaction, and contributes to sustainable food practices.
 
-- Schematic Drawings: ![alt text](./week1_scheme.png)
+- Schematic Drawings: ![alt text](https://github.com/Nikoali01/SafeShelf/blob/master/content/docs/2024/SafeShelf/week1_scheme.png)
     
 
 - Tech Stack: 

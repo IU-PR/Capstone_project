@@ -26,7 +26,7 @@ There are several difficulties with the existing Innopolis University room reser
 - Time-consuming and frustrating procedure: To find availability, users must manually check each room's calendar, which may be especially difficult when looking for a room at a certain time.
 - Difficulty Finding Rooms: Not only is it difficult to make reservations, but students and staff sometimes have trouble finding particular rooms, auditoriums, and offices inside the university's walls.
 
-To gain a deeper understanding of these challenges, a team of developers at Innopolis University conducted a survey in the previous year. The survey yielded the following insights:
+To gain a deeper understanding of these challenges, a team of developers [^1] at Innopolis University conducted a survey in the previous year. The survey yielded the following insights:
 - A majority of participants (over 50%) spend more than 5 minutes on average to choose and book a room.
 - Participants expressed general dissatisfaction with the usability of the current system, with none rating its convenience as highly as 5 out of 5.
 - A large majority of participants (over 66%) would like to see a feature that allows them to view all rooms available within a specific time range, while a quarter found this to be a good idea.
@@ -114,7 +114,7 @@ Our room booking system is a comprehensive solution that addresses the challenge
 
 ### Schematic Drawings
 
-   ![Schematic drawing](/2024/Capstone_project/schema.jpg "Schema").
+   ![Schematic drawing](/2024/Bookrooms/schema.jpg "Schema").
 
 ### Tech Stack
 
@@ -123,3 +123,7 @@ Our room booking system is a comprehensive solution that addresses the challenge
 - Frontend: Svelte/React, WebGL/Three.js
 
 
+
+### References
+
+[^1]: [Bookinng](docs/2023/bookinng/)

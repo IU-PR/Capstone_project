@@ -98,7 +98,7 @@ To describe the diagram above there are several user stories:
    
 &nbsp;&nbsp;&nbsp;&nbsp;Self-training is the most popular training format, however, such training is often not supervised by professional trainers, which can lead to incorrect exercise technique. In turn, improper technique of performing exercises with additional weights can lead to the development of muscle imbalance and postural abnormalities, which can lead to injury and negatively affect health and performance in the long term. This application allows for independent monitoring of the accuracy of exercises in order to prevent potential consequences.
 
-&nbsp;&nbsp;&nbsp;&nbsp;During the fitness test at the sports complex, students have to wait several times for their turn to enter their results at the table with the coach.  GymGURU will also help students take a fitness test without having to be present in person, which will help save time and make it easier to pass.
+&nbsp;&nbsp;&nbsp;&nbsp;During the fitness test at the sports complex, students have to wait several times for their turn to enter their results at the table with the coach. GymGuru will also help students take a fitness test without having to be present in person, which will help save time and make it easier to pass.
 
 **2. Who are your target users or customers?**
 
@@ -137,7 +137,7 @@ To describe the diagram above there are several user stories:
 
 - **Overview:**
 
-&nbsp;&nbsp;&nbsp;&nbsp;GymGURU is a web application for evaluating the correctness of performing physical exercises. Users put their device with an enabled camera in front of them during the exercise and receive feedback and tips on improving the technique from the application.
+&nbsp;&nbsp;&nbsp;&nbsp;GymGuru is a web application for evaluating the correctness of performing physical exercises. Users put their device with an enabled camera in front of them during the exercise and receive feedback and tips on improving the technique from the application.
 
 &nbsp;&nbsp;&nbsp;&nbsp;A large number of people, unaware of this, due to the incorrect technique perform useless or dangerous exercises during self training. This application makes it possible to independently monitor the correctness of the exercises in order to avoid injury.
 

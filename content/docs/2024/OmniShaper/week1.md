@@ -72,5 +72,5 @@ Graphical representation of the application:\
 
 - Tech Stack:
 Primary language for ML pipeline: Python
-Application architecture: 
+Web application architecture: JS
 

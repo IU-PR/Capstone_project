@@ -89,7 +89,7 @@ Please answer the following questions related to the lean methodology:
 - Overview: Our project is a software that uses AI to generate backgrounds for images to be used in the Leroy Merlin store. It solves the problem of innefficient creation of product display images by offering a quick and cost-effective way to generate said images.
 
 - > Schematic Drawings:  
-  ![image](2024/SceneGenAI/TechnicalDiagram.jpg)
+  ![image](/2024/SceneGenAI/TechnicalDiagram.jpg)
 
 
 - Tech Stack:

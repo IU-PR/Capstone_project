@@ -93,7 +93,7 @@ improving their professional reputation and increasing the potential for repeat 
 
 - **Use Case 1:**
   A sports photographer uses A-Shot to quickly cull through thousands of action shots taken during a game.
-  A-Shot's blur and overexposure detection helps the photographer eliminate low-quality shots,
+  A-Shot's blur and exposure imbalance detection helps the photographer eliminate low-quality shots,
   while the similar shot grouping feature allows for easy comparison and selection of the best images.
   The photographer can then quickly edit and submit the images to their client,
   meeting tight deadlines and showcasing their best work
@@ -148,7 +148,7 @@ Our team is prepared to leverage AI, open-source, and expert knowledge to develo
   such as convolutional neural networks (CNNs),
   and computer vision techniques to power A-Shot's core features.
   Our team members, Timofey Brayko, Arthur Rakhmetov, Mikhail Romanov, and Artemii Miasoedov will focus on training and
-  optimizing models for blur and overexposure detection and similar shot grouping.
+  optimizing models for blur and exposure imbalance detection and similar shot grouping.
 
 - Open-Source:
   We will take advantage of popular open-source libraries, frameworks, and tools to accelerate the
@@ -176,7 +176,7 @@ we will focus on the development of the following essential features:
 1. **Blur detection:**
    To automatically identify and eliminate low-quality, blurry shots.
 
-2. **Overexposure detection:**
+2. **Exposure imbalance detection:**
    To detect and remove images with poor exposure,
    ensuring that only the best-exposed shots are presented for selection.
 

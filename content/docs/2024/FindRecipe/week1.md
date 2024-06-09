@@ -68,12 +68,23 @@ In this project our team decided to build everything up from scratch, so we will
 
 ## **Defining the Vision for Your Project**
 
-- Overview: We want to create an app for people who keep track of what they need to eat and who don't want to make up their own menus and keep track of what foods they need to buy. There will be a large number of parameters in the application to generate the appropriate menu.
+- Overview: 
+
+  We want to create an app for people who keep track of what they need to eat and who don't want to make up their own menus and keep track of what foods they need to buy. There will be a large number of parameters in the application to generate the appropriate menu.
 
 - Schematic Drawings:
+
    Preliminary simplified schema of our project:
-   ![project_schema](/static/2024/FindRecipe/project_schema.jpg)
+   
+  ![project_schema](/2024/FindRecipe/project_schema.jpg)
+    
+    Database structure:
 
-- Tech Stack: ...
+  ![database](/2024/FindRecipe/DataBase.png)
+    
+- Tech Stack: 
 
-*Feel free to add more sections as needed. You are the owners of your project!*
+  We are planing to use:
+     * Python (FastAPI, Mongodb, telebot)
+     * MongoDatabase / SQL database
+

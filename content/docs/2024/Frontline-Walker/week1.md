@@ -72,10 +72,23 @@ Our team is planning to use AI for generating scripts and sprites. It is also po
 
 ## **Defining the Vision for Your Project**
 
-- Overview: ...
+- Overview:
+  The team is going to make a 2D game with a side view. The player is given the opportunity to control the walker with separate control of each limb, as well as control over the direction of the main and additional weapons. The player’s task will be to overcome rough terrain and obstacles while simultaneously destroying fortifications and aircraft using the main and additional guns. In addition to these key mechanics, a number of additional ones are expected (modularity of walker damage, the ability to upgrade and replace individual components of the walker, endless generation of landscape, limited resources with the possibility of resuply, etc.). Additional mechanics are not required to be implemented, but are desirable.
 
-- Schematic Drawings: ...
+- Schematic Drawings:
+  This is one of the first prototypes of game ideas. Here walker control is not as complicated as in current. In current idea, player will be given two joystics (or arrows), one for each limb, and player will need to walk manually as well as adjust degree of main cannon and Anti-Aircraft (a.k.a. additional) cannon.
+  ![handdrawn-prototype](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/1bbb5a59-8eac-41fd-992a-f5adb0080c02)
 
-- Tech Stack: ...
 
+- Tech Stack:
+  The team is trained on the GD track (one of the participants was a guest on the video game development course) and has experience developing on the Unity game engine. Therefore, the project will be implemented using Unity in C#. It is assumed to use programs that allow image editing (for creating sprites, for example sites for pixel-by-pixel drawing). It is also possible to use AI to assist in development.
+
+## **References for rojects**
+- Videogames:
+  <img width="710" alt="Highfleet-reference" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/9bc3eb77-86bc-4c2e-98f1-c5a9510f70cb">
+  <img width="957" alt="Warplane-reference" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/a49b04b9-ec71-4b95-82d8-05265cbbf01e">
+- Images:
+  ![Dieselpunk-reference1](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/51e697ff-038e-4831-9844-bf96430ffa9e)
+  ![Dieselpunk-reference2](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/8ce383ba-e84f-4a6a-af0b-33df33ea87e1)
+  <img width="539" alt="Dieselpunk-reference3" src="https://github.com/Barabacha474/Frontline-Walker/assets/108589486/0104d423-b654-4e97-abd8-ee39cf90b232">
 *Feel free to add more sections as needed. You are the owners of your project!*

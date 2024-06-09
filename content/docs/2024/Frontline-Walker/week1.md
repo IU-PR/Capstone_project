@@ -77,7 +77,7 @@ Our team is planning to use AI for generating scripts and sprites. It is also po
 
 - Schematic Drawings:
   This is one of the first prototypes of game ideas. Here walker control is not as complicated as in current. In current idea, player will be given two joystics (or arrows), one for each limb, and player will need to walk manually as well as adjust degree of main cannon and Anti-Aircraft (a.k.a. additional) cannon.
-  ![handdrawn-prototype](https://github.com/Barabacha474/Frontline-Walker/assets/108589486/1bbb5a59-8eac-41fd-992a-f5adb0080c02)
+  ![handdrawn-prototype](/2024/Frontline-Walker/handdrawn-prototype.jpg)
 
 
 - Tech Stack:

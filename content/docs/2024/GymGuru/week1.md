@@ -6,6 +6,7 @@ title: "Week #1"
 
 ## <p style="text-align: center;">*Team GymGuru*</p>
 
+Our focus this week is to make a team capable of creating a project, as well as clarifying its scope and future vision. This week's work is important because it ensures that the entire team shares a common understanding of our direction and the specific product we want to create.
 
 ## **Team Formation and Project Proposal**
 

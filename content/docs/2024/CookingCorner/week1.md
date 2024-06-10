@@ -20,7 +20,7 @@ title: "Week #1"
 
 #### Identify the Problem:
 
-Need for a source of recipes and convenient way of storing, finding and sharing them and photos of them.
+Need for a source of cooking recipes and convenient way of storing, finding and sharing them and photos of them.
 
 #### Solution Description:
 
@@ -70,16 +70,19 @@ People need a convenient and beautiful service where they can create, search and
 
 ### 2. Who are your target users or customers?
 
-All people who like to cook or want to know how to cook.
+All people who like to cook or want to learn how to cook.
 
 ### 3. How will you validate and test your assumptions about the project?
 
-We will ask several friends to test our mobile application and our website in order to identify the advantages and
+We will ask several people to test our mobile application and our website in order to identify the advantages and
 disadvantages of our product, so we can improve it in the future.
 
 ### 4. What metrics will you use to measure the success of your project?
 
-User satisfaction, appearance, quantity and quality of functionality.
+- User satisfaction
+- Appearance 
+- Quantity of functionality
+- Quality of functionality
 
 ### 5. How do you plan to iterate and pivot if necessary based on user feedback?
 

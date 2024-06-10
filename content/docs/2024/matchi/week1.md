@@ -81,6 +81,9 @@ Our team plans to leverage AI, open-source software, and domain experts in the f
 
   "Match&Watch" is an innovative website designed to solve the issue of decision fatigue when choosing a movie, series, or anime to watch. By leveraging AI, we analyze a user's current mood and preferences, gathered through a personal profile and a unique questionnaire. This allows us to provide personalized recommendations, saving users time and enhancing their viewing experience. Our project stands out by considering the user's current mood, making our recommendations more personalized and accurate. The intended benefits for users include quicker decision-making, less frustration, and more enjoyment from watching content that aligns with their mood and preferences. Stakeholders, such as streaming platforms and content creators, could also benefit from our service by gaining a better understanding of viewer preferences and improving user engagement.
 
+- Use Case Diagram:
+  ![Use Case Diagram](/2024/matchi/diagram.jpg)
+
 - Tech Stack:
 
 The project work will be divided into 3 main parts:

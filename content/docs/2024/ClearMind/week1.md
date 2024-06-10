@@ -94,7 +94,8 @@ Please answer the following questions related to the lean methodology:
 
 - Overview: ClearMind aims to be the go-to AI psychologist for those who find it hard to trust others with their mental health concerns. Our vision is to create an accessible, user-friendly platform that offers immediate, empathetic, and personalized support to individuals in need. We aim to provide a reliable first step for people seeking mental health assistance.
 
-- Schematic Drawings: ...
+- Schematic Drawings: 
+![Schematic](/2024/ClearMind/schema.png)
 
 - Tech Stack: Next.js for the frontend, Tailwind CSS for styling, PyTorch for machine learning, LangChain for natural language processing, Diffusers for calling AI models, and FastAPI for the backend.
 

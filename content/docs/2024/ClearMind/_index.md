@@ -1,4 +1,4 @@
 ---
 bookCollapseSection: true
-title: "Example Project"
+title: "ClearMind"
 ---

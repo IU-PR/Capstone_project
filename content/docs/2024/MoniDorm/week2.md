@@ -8,7 +8,36 @@ title: "Week #2"
 
 ### **Tech Stack Selection**
 
-...
+**Python 3** 🐍
+- [aiogram3](https://docs.aiogram.dev/en/latest/) — for Telegram bot
+- [pylint](https://pypi.org/project/pylint/) — python code linter
+- [jinja2](https://pypi.org/project/Jinja2/) — generate emails for email confirmation, generate json file for crashes
+
+**HTML/CSS** — appearance of email confirmation email
+
+**MongoDB** 🌱 — a database for storing the state of bot users
+
+**CI/CD** ⚙️
+- GitHub Actions — Fully Qualified CI/CD pipelines with the immediate pushing of the latest version of product
+- bash — for writing automation scripts
+- SonarQube — Linter for the code quality
+
+**Docker** 🐳 — running microservices in containers
+
+**Docker-compose** 🐙 — managing the launch sequence of all containers
+
+**Java 21** ☕️
+
+- [SpringBoot 3.2](https://spring.io/projects/spring-boot) — Web, REST Controllers
+- [SpringBoot WebFlux](https://docs.spring.io/spring-framework/reference/web/webflux.html) — HttpClient
+- [SpringData JPA](https://spring.io/projects/spring-data-jpa) — Database Manipulation
+- [SpringBoot Metrics](https://docs.spring.io/spring-boot/reference/actuator/metrics.html) (Actuator, DevTools) — Metrics
+- [Lombok](https://projectlombok.org/) — Code Boilerplate Reduction
+- [JUnit](https://junit.org/junit5/), [AssertJ](https://assertj.github.io/doc/), [TestContainers](https://java.testcontainers.org/) — Unit + Integration Test
+
+**PostgreSQL** 🐘 — main database with all records about reports
+
+**Liquibase** — Version management of DB (migrations)
 
 ### **Architecture Design**
 

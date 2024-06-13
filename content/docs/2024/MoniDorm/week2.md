@@ -48,15 +48,13 @@ title: "Week #2"
 
 ### **Tech Stack and Team Allocation**
 
-| Team Member              | Track                                       | Responsibilities   |
-|--------------------------|---------------------------------------------|--------------------|
-| Team Member (Lead) 1     | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 2            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 3            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 4            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 5            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| (Optional) Team Member 6 | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| (Optional) Team Member 7 | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
+| Team Member              | Track                                       | Responsibilities                                                                                                                      |
+|--------------------------|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+| Evgeny Bobkunov          | Project Management                          | Team management, [GitHub repository](https://github.com/IU-Capstone-Project-2024/MoniDorm) support, Issues creation and task tracking |
+| Matvey Korinenko         | Team Lead, Fullstack                        | Creating a Telegram bot as a frontend interface for users, Development of the project architecture, Working with MongoDB database     |
+| Artur Mukhutdinov        | Backend, Deputy Team Lead                   | Development of API and architecture, Working with PostgreSQL database                                                                 |
+| Daniil Prostiruk         | Frontend                                    | Development of Telegram WebApp for the administration panel                                                                           |
+| Rufina Gafiiatullina     | ML                                          | Exploring the feasibility of applying LLM to the project                                                                              |
 
 ### **Weekly Progress Report**
 

@@ -54,7 +54,7 @@ title: "Week #2"
 | Matvey Korinenko         | Team Lead, Fullstack                        | Creating a Telegram bot as a frontend interface for users, Development of the project architecture, Working with MongoDB database     |
 | Artur Mukhutdinov        | Backend, Deputy Team Lead                   | Development of API and architecture, Working with PostgreSQL database                                                                 |
 | Daniil Prostiruk         | Frontend                                    | Development of Telegram WebApp for the administration panel                                                                           |
-| Rufina Gafiiatullina     | ML                                          | Exploring the feasibility of applying LLM to the project                                                                              |
+| Rufina Gafiiatullina     | ML, DS                                      | Exploring the feasibility of applying LLM to the project, Development of a fault detection algorithm                                  |
 
 ### **Weekly Progress Report**
 

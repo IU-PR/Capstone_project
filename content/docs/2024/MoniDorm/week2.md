@@ -41,7 +41,64 @@ title: "Week #2"
 
 ### **Architecture Design**
 
-1. **Component Breakdown**: ...
+1. **Component Breakdown**:
+    
+    **Backend Components**
+
+    - <u>API:</u>
+
+        1. Serve as the primary interface for data interaction between the frontend, Telegram bot, and databases.
+        2. Handle requests related to reporting issues, fetching user data, and managing statistics.
+        3. Ensure secure and efficient communication between components.
+
+        Interactions:
+        Receives and processes data from the Telegram bot and WebApp.
+        Communicates with PostgreSQL for report storage and MongoDB for user information.
+        Interfaces with the LLM system for comment analysis.
+    - <u>PostgreSQL Database for reports:</u>
+
+        1. Store and manage reports related to dormitory infrastructure issues.
+        2. Maintain data integrity and support complex queries for report statistics and analysis.
+        
+        Interactions:
+        API communicates with PostgreSQL to store, retrieve, and update report data.
+        WebApp queries PostgreSQL for generating statistics and reports.
+     - <u>MongoDB Database for bot:</u>
+
+        1. Store and manage user information, including user profiles and interaction history.
+        2. Provide a flexible schema for handling diverse user data.
+        
+        Interactions:
+        API communicates with MongoDB to store, retrieve, and update user information.
+    - <u>LLM System:</u>
+
+        1. Analyze comments in reports to extract insights and detect patterns.
+        2. Assist in categorizing issues and providing additional context for reported problems.
+        
+        Interactions:
+        Receives comments from the API for analysis.
+        Sends analysis results back to the API to enhance report data.
+
+    **Frontend Components**
+
+    - <u>Telegram Bot (+ REST Listener):</u>
+
+        1. Provide a user-friendly interface for students to report issues.
+        2. Collect data such as the type of failure, location, and user comments.
+        3. Send notifications and updates to users about the status of their reports.
+        
+        Interactions:
+        Sends collected report data to the API.
+        Receives notifications and updates from the API to send back to users.
+    - <u>WebApp for Admins:</u>
+
+        1. Provide a dashboard for administrators to view statistics and manage reports.
+        2. Display data visualizations for better understanding of infrastructure issues and user interactions.
+        3. Allow admins to update report statuses and communicate with users if necessary.
+        
+        Interactions:
+        Queries the API to fetch report data, user information, and analysis results.
+        Displays statistics and insights fetched from PostgreSQL and MongoDB.
 
 2. **Data Management**: ...
 

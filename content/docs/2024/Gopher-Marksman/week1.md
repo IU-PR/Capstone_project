@@ -61,7 +61,7 @@ Our project aims to revolutionize cryptocurrency trading on the TON blockchain b
 - Schematic Drawings:
 
 <div style="text-align: center;">
-  <img src="/2024/Gopher%20Marksman/UserFlow.png" alt="User Flow">
+  <img src="/2024/Gopher-Marksman/UserFlow.png" alt="User Flow">
 </div>
 
 - Tech Stack:

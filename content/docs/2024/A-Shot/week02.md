@@ -70,7 +70,12 @@ title: "Week #2"
 
 ### **Weekly Progress Report**
 
-Our team did...
+During this week our team:
+
+1. Identified required tools and libraries
+2. Created desktop app UI design
+2. Identified existing solutions for blur detection and image grouping
+3. Implemented UI drafts in demo desktop app
 
 ### **Challenges & Solutions**
 

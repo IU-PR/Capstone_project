@@ -10,9 +10,7 @@ title: "Week #2"
 
 ## **Tech Stack Selection**
 
-After several discussions our team defined a final at this moment Tech Stack that will allow us to implement all stated tasks for GymGuru project.
-
-We will use:
+After several discussions our team defined a final at this moment Tech Stack that will allow us to implement all stated tasks for GymGuru project:
 
 - MoveNet: Open-Source ML Tool that allow us to determine coordinates of a human body
 
@@ -21,6 +19,8 @@ We will use:
 - TailwindCSS: open-source CSS framework used to add styles to HTML elements that helps to adapt the app for different devices
 
 - Flask: convenient for creating web applications on Python, we can use it to quickly obtain sufficient results
+
+- PostgreSQL: for database of the application
 
 ## **Architecture Design**
 
@@ -151,4 +151,6 @@ List of resources:
 
 &nbsp;&nbsp;&nbsp;&nbsp;This is a list of the next steps that our team is going to follow:
 
-- 
+- Create a Database for application
+- Code a checker of correctness of the performing physical exercises
+- Finish the main web pages

@@ -183,7 +183,11 @@ title: "Week #2"
 
 6) **Learning Objectives:** ...
 
-7) **Sharing Knowledge with Peers:** ...
+7) **Sharing Knowledge with Peers:**
+
+    As a team, we have established an effective information-sharing strategy. We use a Telegram chat divided into several sections (general, project reports, meeting organization, useful resources, daily reports). This structure facilitates easy access to necessary information, ensuring each team member quickly inform about project updates. Our communication extends beyond the digital space because we organize two meetings every week (one at the beginning and one near the end), where all team members participate. These meetings, conducted either offline or online, allow us to discuss achieved results and plan next steps. Additionally, team members working on the same component can arrange extra calls or meetings during the week as needed.
+
+    We organize week-long sprints to enhance productivity, using GitHub issues to track tasks, assign responsibilities, and label components. To avoid last-minute rushes, we report daily on our progress to motivate each other and keep everyone informed about the project's status.
 
 8) **Leveraging AI:** ...
 

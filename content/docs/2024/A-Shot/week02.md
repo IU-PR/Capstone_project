@@ -13,7 +13,8 @@ title: "Week #2"
   as it is a developer-friendly and efficient tool for creating multiplatform applications.
 
 - **Neural Networks:**
-  [PyTorch](https://pytorch.org/) will be our choice for training and operating neural networks due to its extensive toolset.
+  [PyTorch](https://pytorch.org/) will be our choice for training and operating neural networks due to its extensive
+  toolset.
 
 - **Image Handling:**
   For loading images, we will opt for [ImageMagick](https://imagemagick.org/), as it supports over 100 image formats,
@@ -57,15 +58,15 @@ title: "Week #2"
 
 ### **Tech Stack and Team Allocation**
 
-| Team Member              | Track                                       | Responsibilities   |
-|--------------------------|---------------------------------------------|--------------------|
-| Team Member (Lead) 1     | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 2            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 3            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 4            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 5            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| (Optional) Team Member 6 | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| (Optional) Team Member 7 | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
+| Team Member              | Track                | Responsibilities               |
+|--------------------------|----------------------|--------------------------------|
+| Artemii Miasoedov (Lead) | ML                   | Product and Project management |
+| Timofey Brayko           | ML                   | Image grouping                 |
+| Artur Rakhmetov          | ML                   | Image grouping                 |
+| Nikita Kurkulskiu        | ML                   | Desktop app                    |
+| Egor Valikov             | Cybersecurity        | Desktop app                    |
+| Matthew Rusakov          | Software Development | UX/UI design, Desktop app      |
+| Mikhail Romanov          | ML                   | Blur detection                 |
 
 ### **Weekly Progress Report**
 

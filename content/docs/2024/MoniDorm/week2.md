@@ -119,9 +119,7 @@ title: "Week #2"
 
     <u>Data Types Stored:</u>
 
-    Report ID, type of failure, location, timestamp, status.
-    User comments associated with each report.
-    Analysis results from the LLM system.
+    Report ID, category of failure, placement, failure date, proceeded date, owner email, information about failure confirmation by admin or analysis mechanism, information about resolving problem by admin or user, full description.
 
     **MongoDB Database (for User Information)**
 
@@ -136,8 +134,7 @@ title: "Week #2"
     
     <u>Data Types Stored:</u>
 
-    User ID, name, contact details, and role (e.g., student, admin).
-    Interaction history, including reports submitted and notifications received.
+    User ID, name, contact details, interaction history, including reports submitted and notifications received.
 
 3. **User Interface (UI) Design**: ...
 
@@ -161,7 +158,22 @@ title: "Week #2"
 
     Currently, we do not have a mentor involved in our project, as our idea is in the early stages of development. However, we are considering the option of hiring a mentor in the future to enhance our system and expand its scope beyond the student dormitory level. After implementing the minimum functionality of our project, we plan to seek feedback from the dormitory administration. This feedback will be invaluable, as it will allow us to effectively tailor the project to our target audience and facilitate its adoption by users.
 
-3) **Exploring Alternative Resources:** ...
+3) **Exploring Alternative Resources:**
+
+    We have explored various other resources to expand our understanding of the technology stack. These include online courses, video tutorials, and comprehensive documentation.
+
+    The documentation acted as the definitive reference for syntax, features, and best practices, ensuring standards compliance, optimization of our implementations, and code cleanliness:
+    - [Python Documentation](https://docs.python.org/3)
+    - [StringBoot Documentation](https://docs.spring.io/spring-boot/index.html)
+    - [MongoDB Documentation](https://www.mongodb.com/docs)
+    - [PostgreSQL Documentation](https://www.postgresql.org/docs)
+
+    The tutorials provided practical knowledge and examples to facilitate the implementation and debugging of our technology stack components:
+    - [PostgreSQL Tutorial](https://www.postgresqltutorial.com)
+    - [Docer Compose Tutorial](https://youtu.be/SXwC9fSwct8?si=IshiKzRXBZQfRABD)
+    - [HTML & CSS Full Course](https://youtu.be/G3e-cpL7ofc?si=q3fhcyvZi7J7iAqL)
+
+    By utilizing these diverse resources, we were able to deepen our understanding of our technology stack, overcome challenges, and ensure the robust development of MoniDorm.
 
 4) **Identifying Knowledge Gaps:** ...
 

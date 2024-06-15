@@ -8,7 +8,16 @@ title: "Week #2"
 
 ### **Tech Stack Selection**
 
-...
+- **Desktop App:**
+  We will use [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) for A-Shot,
+  as it is a developer-friendly and efficient tool for creating multiplatform applications.
+
+- **Neural Networks:**
+  [PyTorch](https://pytorch.org/) will be our choice for training and operating neural networks due to its extensive toolset.
+
+- **Image Handling:**
+  For loading images, we will opt for [ImageMagick](https://imagemagick.org/), as it supports over 100 image formats,
+  including those preferred by photographers but not supported by common libraries like [OpenCV](https://opencv.org/).
 
 ### **Architecture Design**
 

@@ -177,7 +177,9 @@ title: "Week #2"
 
 4) **Identifying Knowledge Gaps:** ...
 
-5) **Engaging with the Tech Community:** ...
+5) **Engaging with the Tech Community:**
+
+    We frequently turn to online forums and groups, such as Stack Overflow, to ask and review questions related to Python, Docker, Spring Boot, and other components of our technology stack. Additionally, we use GitHub repositories to explore open-source projects, where we can find answers to our queries and extract practical information from code reviews and community feedback.
 
 6) **Learning Objectives:** ...
 

@@ -52,32 +52,33 @@ title: "Week #2"
         3. Ensure secure and efficient communication between components.
 
         Interactions:
-        Receives and processes data from the Telegram bot and WebApp.
-        Communicates with PostgreSQL for report storage and MongoDB for user information.
-        Interfaces with the LLM system for comment analysis.
+        - Receives and processes data from the Telegram bot and WebApp.
+        - Communicates with PostgreSQL for report storage.
+        - Interfaces with the LLM system for comment analysis.
     - <u>PostgreSQL Database for reports:</u>
 
         1. Store and manage reports related to dormitory infrastructure issues.
         2. Maintain data integrity and support complex queries for report statistics and analysis.
         
         Interactions:
-        API communicates with PostgreSQL to store, retrieve, and update report data.
-        WebApp queries PostgreSQL for generating statistics and reports.
+        - API communicates with PostgreSQL to store, retrieve, and update report data.
+        - WebApp queries PostgreSQL for generating statistics and reports.
      - <u>MongoDB Database for bot:</u>
 
         1. Store and manage user information, including user profiles and interaction history.
         2. Provide a flexible schema for handling diverse user data.
         
         Interactions:
-        API communicates with MongoDB to store, retrieve, and update user information.
+        - Telegram Bot uses MongoDB to store, retrieve, and update user information.
     - <u>LLM System:</u>
 
         1. Analyze comments in reports to extract insights and detect patterns.
         2. Assist in categorizing issues and providing additional context for reported problems.
+        3. Summarize comments in several reports to identify one common problem.
         
         Interactions:
-        Receives comments from the API for analysis.
-        Sends analysis results back to the API to enhance report data.
+        - Receives comments from the API for analysis.
+        - Sends analysis results back to the API to enhance report data.
 
     **Frontend Components**
 
@@ -86,10 +87,11 @@ title: "Week #2"
         1. Provide a user-friendly interface for students to report issues.
         2. Collect data such as the type of failure, location, and user comments.
         3. Send notifications and updates to users about the status of their reports.
+        4. Perform authorization for security.
         
         Interactions:
-        Sends collected report data to the API.
-        Receives notifications and updates from the API to send back to users.
+        - Sends collected report data to the API.
+        - Receives notifications and updates from the API to send back to users.
     - <u>WebApp for Admins:</u>
 
         1. Provide a dashboard for administrators to view statistics and manage reports.
@@ -97,10 +99,45 @@ title: "Week #2"
         3. Allow admins to update report statuses and communicate with users if necessary.
         
         Interactions:
-        Queries the API to fetch report data, user information, and analysis results.
-        Displays statistics and insights fetched from PostgreSQL and MongoDB.
+        - Queries the API to fetch report data, user information, and analysis results.
+        - Displays statistics and insights fetched from PostgreSQL and MongoDB.
 
-2. **Data Management**: ...
+2. **Data Management**:
+
+    Our system has two databases for reports (PostgreSQL) and for user information (MongoDB).
+
+    **PostgreSQL Database (for Reports)**
+    
+    <u>Why we deciced to choose this database:</u>
+    - Relational database structure to handle structured data efficiently.
+    - Support for advanced querying and indexing to enhance performance.
+    - ACID compliance to guarantee transactional integrity and reliability.
+
+    <u>Purpose:</u>
+    1. Store and manage all reports related to dormitory infrastructure issues.
+    2. Ensure data integrity, support complex queries, and facilitate efficient data retrieval for reporting and analysis.
+
+    <u>Data Types Stored:</u>
+    
+    Report ID, type of failure, location, timestamp, status.
+    User comments associated with each report.
+    Analysis results from the LLM system.
+
+    **MongoDB Database (for User Information)**
+
+    <u>Why we deciced to choose this database:</u>
+    - NoSQL database structure for handling unstructured and semi-structured data.
+    - Schema-less design allowing easy updates and scaling.
+    - High availability and scalability to accommodate growing data volumes.
+
+    <u>Purpose:</u>
+    1. Store and manage user information, including user profiles and interaction history.
+    2. Provide a flexible schema to handle diverse and evolving user data requirements.
+    
+    <u>Data Types Stored:</u>
+
+    User ID, name, contact details, and role (e.g., student, admin).
+    Interaction history, including reports submitted and notifications received.
 
 3. **User Interface (UI) Design**: ...
 

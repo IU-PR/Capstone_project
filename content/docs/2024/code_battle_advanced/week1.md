@@ -115,7 +115,7 @@ help us measure the user satisfaction and engagement.
   The teachers benefit since their students will be more involved with the class,
   whilst the students get a friendly environment for educational activities.
 
-- Schematic Drawings: ![Diagram.png](\2024\code_battle_advanced\Diagram.png)
+- Schematic Drawings: ![Diagram.png](/2024/code_battle_advanced/Diagram.png)
   The user (both teacher and student types) logs in the website, where Web-app servers are handling all actions and
   Nodeport distributes the workload.
   The tasks, checkers, solutions and results are stored on our database MongoDB.

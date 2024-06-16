@@ -49,6 +49,14 @@ title: "Week #2"
 
 3. **User Interface (UI) Design**:
    The UI design is ready and available on Figma: ...
+   The application consists of several screens, here are some of them:
+
+	- **Import Screen:**
+	  The initial screen for selecting the image source.
+	- **Overview Screen:**
+	  Enables navigation between sorted shots.
+	- **Cull screen:**
+	  The core application interface for viewing grouped images and selecting the best ones.
 
 4. **Integration and APIs**:
    A-Shot currently operates as a standalone application, performing model inference locally.

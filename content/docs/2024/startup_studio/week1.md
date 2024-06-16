@@ -93,32 +93,8 @@ Open-Source Technologies:
 
 - Schematic Drawings: 
 
-{{<mermaid>}}
-sequenceDiagram
-    participant User
-    participant Website
-    participant IAM Server
-    participant PostgreSQL Database
-    participant Manifest Builder Server
-    participant Cluster Manager
-    participant Monitoring System
-    participant User's Cluster
-    participant Grafana
-    
-    User ->> Website: Visit and Register
-    Website ->> IAM Server: Register User
-    IAM Server ->> PostgreSQL Database: Add User
-    User ->> Website: Authorize and fill form
-    Website ->> Manifest Builder Server: Send form data
-    Manifest Builder Server ->> Cluster Manager: Prepare Kubernetes Cluster and apply manifest
-    Cluster Manager ->> Manifest Builder Server: Cluster is ready
-    Manifest Builder Server ->> Website: Send IP to User
-    Monitoring System ->> User's Cluster: Add monitoring IP
-    Cluster namespace ->> Monitoring System: Send metrics
-    Monitoring System ->> Grafana: Send metrics to Grafana
-    Grafana ->> Website: Provide link to metrics
-    Website ->> User: Display metrics link
-{{</mermaid>}}
+![Sequence diagram](https://github.com/tolmachdr/startup_studio/tree/master/static/2024/startup_studio/sequence_diagram.png)
+
 
 User visits the website to register, providing their information, which is stored in a PostgreSQL database via the IAM server. Upon authorization, user fills out a form, triggering the creation of a Kubernetes cluster by the Manifest Builder Server, whose IP is then communicated back to the user via the website. Simultaneously, the monitoring system tracks server activities, including the user's cluster, forwarding metrics to Grafana for visualization. Finally, the website displays a link to these metrics for the user's access.
 

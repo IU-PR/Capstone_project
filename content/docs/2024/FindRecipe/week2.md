@@ -8,10 +8,10 @@ title: "Week #2"
 
 ### **Tech Stack Selection**
 
-* Python - All of our team members have extensive experience with python.
 * FastAPI - A good framework for backend development.
 * telebot - It is a lib for bot development on python.
 * MongoDB - We know this database well. It's proven itself.
+* Python - All of our team members have extensive experience with python.
 * Others - Other technical tools that will emerge during the development process.
 
 ### **Architecture Design**
@@ -64,21 +64,44 @@ The system is very flexible on any of the nodes since they are separated and not
 
 ### **Week 2 questionnaire:**
 
-1) Tech Stack Resources: ...
+1) Tech Stack Resources: 
 
-2) Mentorship Support: ...
+We do not use any project-based books as source of technical information. 
+Instead we utilize internet resources
 
-3) Exploring Alternative Resources: ...
+2) Mentorship Support: 
 
-4) Identifying Knowledge Gaps: ...
+Currently, we do not have a mentor actively involved in our project, nor have we sought one. 
+However, we may consider seeking mentorship in the future for guidance and support, especially in addressing specific project-related queries and challenges.
 
-5) Engaging with the Tech Community: ...
+3) Exploring Alternative Resources: 
 
-6) Learning Objectives: ...
+As a main source of information within out tech stack we use technical documentation of the tools we use. 
+If specific questions appear we seek for help  in video tutorials and blogs.
 
-7) Sharing Knowledge with Peers: ...
+4) Identifying Knowledge Gaps: 
 
-8) Leveraging AI: ...
+There are indeed knowledge gaps within our tech stack that we aim to address. 
+We plan to fill these gaps through the use of video tutorials, detailed documentation reviews, and by actively seeking clarification through inquiries.
+
+5) Engaging with the Tech Community: 
+
+We actively engage with the tech community of our unversity (coursemates, professors). 
+These engagements allow us to seek guidance and learn from professionals in our tech stack.
+
+6) Learning Objectives: 
+
+This week, our specific learning objectives include deepening our understanding of advanced features within our tech stack and understanding what specifically is needed for our project. 
+To achieve these objectives, we will utilize video tutorials, participate in focused discussions, and explore advanced technical documentation.
+
+7) Sharing Knowledge with Peers: 
+
+We facilitate the exchange of insights and experiences related to our tech stack through organized knowledge-sharing sessions and discussions among team members. 
+Moreover, whenever some of us has a technical related question, we seek for help in our chat where everyone is ready to help.
+
+8) Leveraging AI: 
+
+We leverage LLMs if there are specific issues or to structure our knowledge.
 
 ### **Tech Stack and Team Allocation**
 

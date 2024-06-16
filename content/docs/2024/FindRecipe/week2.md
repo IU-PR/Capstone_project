@@ -8,11 +8,16 @@ title: "Week #2"
 
 ### **Tech Stack Selection**
 
-* FastAPI - A good framework for backend development.
-* telebot - It is a lib for bot development on python.
-* MongoDB - We know this database well. It's proven itself.
-* Python - All of our team members have extensive experience with python.
-* Others - Other technical tools that will emerge during the development process.
+* Backend framework: FastAPI was chosen for its reliability and efficiency in backend development, allowing for quick API creation in Python.
+
+* Bot development: We chose telebot, a Python library designed for bot development, to take advantage of our team's Python knowledge and make bot development easier.
+
+* Database: MongoDB was chosen because of its reliability and compatibility with Python, allowing for easy data management and scalability as required by our project.
+
+* Programming Language: Python is preferred by all because to the significant experience and skill of all team members, resulting in smooth development and maintenance.
+
+* Containerization: Docker is used to increase deployment flexibility and consistency across multiple environments, ensuring that our program scales and is managed efficiently.
+
 
 ### **Architecture Design**
 

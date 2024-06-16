@@ -92,7 +92,12 @@ title: "Week #2"
 
 2) Mentorship Support: ...
 
-3) Exploring Alternative Resources: ...
+3) **Exploring Alternative Resources:**
+   In addition to documentation, we use websites like [StackOverflow](https://stackoverflow.com/) and
+   LLMs ([ChatGPT](https://chat.openai.com/), [Chat Mistral](https://chat.mistral.ai/)).
+   For ML solutions,
+   we refer to [Papers With Code](https://paperswithcode.com/), [Google Scholar](https://scholar.google.com/),
+   and search engines.
 
 4) Identifying Knowledge Gaps: ...
 

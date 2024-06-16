@@ -15,7 +15,7 @@ title: "Week #1"
 | Makar Brednikov           | @shinygummy | m.brednikov@innopolis.university |
 | Dmitry Dydalin           | @Dmntya | d.dydalin@innopolis.university |
 | Leonid Novikov            | @MagiaDrive | l.novikov@innopolis.university |
-| Denis Nesterov | @denisbliz | d.nesterov@innopolis.university |
+| Denis Nesterov | @denisbliz | de.nesterov@innopolis.university |
 | Nikita Borisov | @NktBrsv_jr | n.borisov@innopolis.university |
 
 ### **Value Proposition**

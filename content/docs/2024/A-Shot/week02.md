@@ -144,10 +144,27 @@ title: "Week #2"
 
 During this week our team:
 
-1. Identified required tools and libraries
-2. Created desktop app UI design
-2. Identified existing solutions for blur detection and image grouping
-3. Implemented UI drafts in demo desktop app
+1. **Completed the desktop app UI design:**
+   After completing the user flow and UI sketch, Matthew created Lo-Fi and Hi-Fi UI designs in Figma.
+   The designs were evaluated by other team members, all required improvements were done.
+   His work will be used in the following weeks to implement the desktop application.
+
+2. **Implemented UI drafts in demo desktop app:**
+   Nikita used UI sketches to create a demo application.
+   The application contains all required screens and transitions between them.
+   Moreover, application successfully runs both on Windows and Linux.
+
+3. **Identified existing solutions for blur detection and image grouping:**
+	- Arthur and Timofey looked for existing image similarity ranking methods.
+	  They have found several solutions and identified the most promising works:
+      - https://arxiv.org/pdf/1906.07589
+      - https://arxiv.org/pdf/1610.07940
+    - Michael and Artemii checked papers on blur detection, highlighting the following ones:
+      - https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13567?saml_referrer
+      - https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur
+
+4. **Identified required tools and libraries.**
+	- Egor helped to find the library for image manipulations. 
 
 ### **Challenges & Solutions**
 

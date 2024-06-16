@@ -6,12 +6,15 @@ title: "Week #2"
 
 ## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
 
+
 ### **Tech Stack Selection**
 
-
+- ML: Langchain, Transformers, Ollama
+- Frontend: SvelteKit
+- Backend: Python, Django, DRF
+- Database: PostgreSQL, ChromaDB
 
 ### **Architecture Design**
-
 
 1. **Component Breakdown**: 
 
@@ -92,7 +95,6 @@ To stay adaptable and informed, we will explore alternative resources. Here is t
 
 - Frontend Development:
     - The previous year's Svelte course from Innopolis University has enhanced our understanding of modern front-end development.
-    - Official documentation of the SvelteKit framework
     - We used the [official SvelteKit documentation](https://kit.svelte.dev/docs/) for a better understanding and more proficient usage of the framework
 
 These resources are vital in filling our knowledge gaps by offering structured learning paths, practical examples, and detailed technical explanations.
@@ -147,13 +149,13 @@ We will leverage AI to enhance our project in the following ways:
 
 
 
-| Team Member              | Track                                       | Responsibilities   |
-|--------------------------|---------------------------------------------|--------------------|
-|Aruzhan Shinbayeva    | [product manager]                               | [writing reports/leading the team]  |
-| Anushervon Qodirzoda | [backend]                                       | [tg bot/databases/authorization]      |
-| Ilia Mistiurin       | [ML]                                            | [working with LLM models]      |
-|Ivan Smirnov          | [frontend]                                      | [creation of the website] |
-|Muhammad Allayarov    | [backend]                                       | [tg bot/api]         |
+| Team Member          | Track             | Responsibilities                   |
+| -------------------- | ----------------- | ---------------------------------- |
+| Aruzhan Shinbayeva   | [product manager] | [writing reports/leading the team] |
+| Anushervon Qodirzoda | [backend]         | [tg bot/databases/authorization]   |
+| Ilia Mistiurin       | [ML]              | [working with LLM models]          |
+| Ivan Smirnov         | [frontend]        | [creation of the website]          |
+| Muhammad Allayarov   | [backend]         | [tg bot/api]                       |
 
 
 ### **Weekly Progress Report**
@@ -178,4 +180,3 @@ Throughout our development process, we have successfully navigated challenges in
 
 ### **Conclusions & Next Steps**
 Concluding Week 2, we have successfully closed milestones related to machine learning templates and initiated the setup of a secure PostgreSQL database for user data storage. Looking ahead to Week 3 and beyond, our focus will shift to key tasks: developing the basic Embedder + Vector Database module to enhance data management capabilities, creating an evaluation module for application quality assessment, integrating frontend and backend components to prototype the project, and linking machine learning models with backend data pipelines for streamlined processing. Finalizing the PostgreSQL database configuration remains critical for ensuring robustness and security. These tasks are pivotal as we progress towards project milestones, aiming for comprehensive and efficient implementation.
-

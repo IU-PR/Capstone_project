@@ -26,15 +26,43 @@ After several discussions our team defined a final at this moment Tech Stack tha
 
 1. **Component Breakdown**:
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;Overall, our system architecture consists of web-interface, backend and database:
+
+1) In the web-interface the main component is exercise control manager, it do all functionality: tells user if his pose is correct, shows the picture of user with dots skeleton, on the fitness test mode it tells the time left and maintains other user-included features.
+
+2) The backed part components are login manager (for user registration), rating manager (for user personal statistics collecting), profile manager (for defining that user is not an other student to avoid cheating), fitness test manager (for timing, calculating passing etc.)
+
+3) In the database there are user personal information and exercises results.
+
+<img src="../../../../static/2024/GymGuru/Week2_Architecture.jpg" width="780" height="990">
 
 2. **Data Management**:
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;The concept of data management of GymGuru is presented on the diagram below:
+
+<img src="../../../../static/2024/GymGuru/Week2_DataFlow.png" width="600" height="540">
+
+&nbsp;&nbsp;&nbsp;&nbsp;Data flow is organised the following way: video from user’s camera is processed in the web interface, MoveNet adds skeleton to the video, then in the web interface results are calculating and translating to the user. Web interface sends user results or user credentials for log in to the backend and gets user data. Backend communicates with database to store or request user data.
+
+&nbsp;&nbsp;&nbsp;&nbsp;As is was stated above, in **Tech Stack Selection** section, PostgreSQL RDBMS is chosen for creating a database of GymGuru web application. The reasons of this decision are:
+
+- PostgreSQL is a powerful client-server relational database management system that is fully sufficient for our project;
+- We already have an experience in creating PostgreSQL database for the web application;
+- PostgreSQL is known by each team member, as we all passed the DataBases course in the previous semester.
 
 3. **User Interface (UI) Design**:
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;Over the past week, we have developed prototypes of the user interface using Figma. You can view some of the pages below in the screenshots, as well as the full prototype at [this link](https://www.figma.com/design/JWNuJgSjWY8XHJ4CfsVzB6/Untitled?node-id=0-1&t=60raqLQQw0dLg9PE-1).
+
+<img src="../../../../static/2024/GymGuru/Week2_UI1.jpg" width="780" height="480">
+
+<img src="../../../../static/2024/GymGuru/Week2_UI2.jpg" width="780" height="440">
+
+&nbsp;&nbsp;&nbsp;&nbsp;Moreover, that is a User Flow Diagram of our web application (and its text description below):
+
+<img src="../../../../static/2024/GymGuru/Week2_UserFlow.jpg" width="1050" height="825">
+
+&nbsp;&nbsp;&nbsp;&nbsp;Entering the site the user gets to the main page where the general information about the product is presented. Then, in order to use the offered functionality, the user must log in to his account (if he has already registered before) or register and set up account (specify info, such as first name, last name, e-mail, password and type of account: student or coach). Both student and coach can perform the exercises and view the rating of the chosen exercise. To do the exercise it is necessary to choose it from the list, allow access to the camera and start performing it. When completed, click on the finish button to save the statistics and display it in the rating page and in the profile. The student additionally can pass the fitness test. The procedure is similar to performing a single exercise, except that in this mode it is necessary to perform in sequence all 3 types of exercises included in the fitness test list and the time of doing them is limited. The coach has the ability to download fitness test results by selecting the desired group or course.
 
 4. **Integration and APIs**:
 
@@ -76,7 +104,7 @@ After several discussions our team defined a final at this moment Tech Stack tha
 List of books:
 - [HTML and CSS using examples](https://docs.yandex.ru/docs/view?tm=1718275506&tld=ru&lang=ru&name=html_i_css_na_primerakh_3642805.pdf&text=HTML%20Css%20book&url=https%3A%2F%2Fbooks.4nmv.ru%2Fbooks%2Fhtml_i_css_na_primerakh_3642805.pdf&lr=121642&mime=pdf&l10n=ru&sign=d252d2ecfe359e5088c1d978ed6ca0df&keyno=0&nosw=1&serpParams=tm%3D1718275506%26tld%3Dru%26lang%3Dru%26name%3Dhtml_i_css_na_primerakh_3642805.pdf%26text%3DHTML%2BCss%2Bbook%26url%3Dhttps%253A%2F%2Fbooks.4nmv.ru%2Fbooks%2Fhtml_i_css_na_primerakh_3642805.pdf%26lr%3D121642%26mime%3Dpdf%26l10n%3Dru%26sign%3Dd252d2ecfe359e5088c1d978ed6ca0df%26keyno%3D0%26nosw%3D1)
 - [Fluent Python: Clear, Concise, and Effective Programming](https://zlib.pub/book/fluent-python-clear-concise-and-effective-programming-6hf31q1i8010)
-- [Developing web applications using Flask in Python](https://docs.yandex.ru/docs/view?tm=1718275875&tld=ru&lang=ru&name=Razrabotka_Veb-Prilozheny_S_Ispolzovaniem_Flask_Na_Yazyke_Python__PDFDrive_com.pdf&text=flask%20book&url=https%3A%2F%2Flibrary.eol.pw%2FUNSORTED%2FRazrabotka_Veb-Prilozheny_S_Ispolzovaniem_Flask_Na_Yazyke_Python__PDFDrive_com.pdf&lr=121642&mime=pdf&l10n=ru&sign=6172397770a29342eb1863a48f86fc2c&keyno=0&nosw=1&serpParams=tm%3D1718275875%26tld%3Dru%26lang%3Dru%26name%3DRazrabotka_Veb-Prilozheny_S_Ispolzovaniem_Flask_Na_Yazyke_Python__PDFDrive_com.pdf%26text%3Dflask%2Bbook%26url%3Dhttps%253A%2F%2Flibrary.eol.pw%2FUNSORTED%2FRazrabotka_Veb-Prilozheny_S_Ispolzovaniem_Flask_Na_Yazyke_Python__PDFDrive_com.pdf%26lr%3D121642%26mime%3Dpdf%26l10n%3Dru%26sign%3D6172397770a29342eb1863a48f86fc2c%26keyno%3D0%26nosw%3D1)
+- [Flask Web Development](https://coddyschool.com/upload/Flask_Web_Development_Developing.pdf)
 
 2) **Mentorship Support:**
 

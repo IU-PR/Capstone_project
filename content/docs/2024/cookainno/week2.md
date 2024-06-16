@@ -1,163 +1,194 @@
 ---
-title: "Week #1"
+title: "Week #2"
 ---
 
-# **Week #1**
+# **Week #2**
 
-## **Team Formation and Project Proposal**
+## **Tech Stack Selection**
 
-### **Team Members**
+According to the chosen project, the following tech stack was formed for ensuring smooth execution and long-term success. This week, we evaluated various technologies and tools, considering factors like scalability, performance, security, and our team's expertise. Our final tech stack is as follows, divided into three layers:
 
-| Team Member              | Telegram ID   | Email Address                     |
-|--------------------------|---------------|-----------------------------------|
-| Efim Puzhalov (Lead)     | @yeaphm       | e.puzhalov@innopolis.university   |
-| Egor Meganov             | @KezhKesh     | e.meganov@innopolis.university    |
-| Vladislav Grigorev       | @VLADISLAVVV777 | v.grigorev@innopolis.university |
-| Renata Latypova          | @renalaty     | r.latypova@innopolis.university   |
-| Polina Pushkareva        | @pupolina     | p.pushkareva@innopolis.university |
-| Milyausha Shamsutdinova  | @mili_sham    | m.shamsutdinova@innopolis.university |
-| Aliia Bogapova           | @ch3rnushka   | a.bogapova@innopolis.university   |
+### **Android:**
 
-### **Value Proposition**
+- **Android**: Android’s widespread adoption allows us to reach a broad audience with high accessibility to a large user base.
+- **Kotlin**: A modern, concise, and safe programming language that integrates nicely with Android, reducing boilerplate code and increasing development efficiency.
+- **Jetpack Compose**: A modern toolkit for building native UI. It simplifies and accelerates UI development on Android with less code, powerful tools, and Kotlin APIs.
+- **Retrofit**: A type-safe HTTP client for Android and Java, making it easier to connect to a web service with a REST API, which is essential for sending the fridge image to our remote API.
+- **Room**: An abstraction layer over SQLite, providing robust database access to SQLite. It's great for storing recipes locally in a structured and accessible manner.
+- **CameraX**: An addition to Jetpack that makes it easier to add camera capabilities to our app. Its purpose is to take photos of the fridge's contents.
 
-#### Identify the Problem:
-  Many people struggle with meal planning, finding recipes that match their dietary preferences, managing their daily calorie intake, and efficiently using ingredients they already have at home. Moreover, one big problem is food waste, which is often associated with a fridge full of seemingly mismatched ingredients. Therefore, an environment that helps people save time and use food rationally is needed.
+### **Backend:**
 
-#### Solution Description:
-  CookAInno is a mobile app that simplifies meal planning by providing personalized recipe suggestions based on user preferences, dietary restrictions, and available ingredients. The app leverages AI to recognize food items from photos of the user's fridge and generates new recipes.
+The backend of our application is designed to handle several critical functions:
 
-#### Benefits to Users:
-  - Personalized recipe recommendations.
-  - Efficient use of ingredients already available at home.
-  - Easy tracking and management of daily calorie intake.
-  - Simplified meal planning that accommodates dietary restrictions.
-  - Enhanced cooking experience with AI-generated recipes and images.
+- **Data Persistence**: Ensure the secure and efficient storage of user data, including personal information and favorite recipes.
+- **Authentication**: Manage user authentication processes to ensure secure access to the application.
 
-#### Differentiation:
-  - Advanced AI integration for food recognition and personalized recipe generation.
-  - Use of AI models for creating unique recipes and generating appetizing images.
-  - A holistic approach that combines meal planning, dietary management, and recipe discovery in one app.
-  - Seamless user experience from fridge photo upload to meal preparation.
+#### Tech stack:
 
-#### User Impact:
-  - Reduces the stress of meal planning and grocery shopping.
-  - Encourages healthier eating habits by providing calorie-managed meal options.
-  - Saves time and reduces food waste by suggesting recipes based on available ingredients.
-  - Enhances cooking skills with diverse and creative recipes.
+- **Java**: Chosen for its robust performance, scalability, and widespread use in enterprise applications.
+- **Spring**: A comprehensive framework that simplifies the development of Java applications and offers built-in support for security, data access, and web services.
+- **Docker**: Ensures consistent development environments, enables microservices architecture, and simplifies deployment.
+- **PostgreSQL**: Serves as the primary database for our application, providing reliable and efficient data storage for user information and favorite recipes. Its advanced features and strong ACID compliance ensure the integrity and consistency of our data.
 
-#### User Testimonials or Use Cases:
-  - A student, after a long studying day, comes home, downloads a photo of the food in the fridge to CookAInno, and gets recipes that require minimal time and effort.
-  - Before grocery shopping, one can download a photo of the fridge to see what can already be cooked and also get a list of other ingredients for meals for the next few days.
-  - A person trying to lose weight can download a meal photo to see the caloric intake of the meal without wasting much time.
+### **ML:**
 
-## **Lean Questionnaire**
+- **Python**: The primary programming language for ML efforts.
+- **Google Colab**: Chosen for its accessible and scalable environment for developing and training ML models. Moreover, Colab provides free access to powerful GPUs.
+- **YOLOv8**: Pretrained model known for its high performance in object detection tasks. This model will serve as the base for ingredients recognition.
+- **Roboflow**: Used for dataset management and creating annotations for images. Roboflow simplifies the process of creating and managing custom datasets, which is crucial for training object detection models on specific grocery products.
+- **CVAT**: Utilized for creating detailed annotations for custom datasets.
+- **Kaggle**: Used to source additional datasets that can enhance the training of the object detection model.
+- **Flask/FastAPI**: These lightweight web frameworks will be used to deploy our ML models as APIs.
 
-1. What problem or need does your software project address? 
-   
-   The app addresses the problem of meal planning, recipe discovery, and dietary management by providing personalized and AI-driven solutions to make cooking easier and more efficient.
+## **Architecture Design**
 
-2. Who are your target users or customers?
+### **Component Breakdown:**
 
-   - Individuals with specific dietary preferences or restrictions (e.g., vegans, vegetarians, lactose-intolerant).
-   - Health-conscious users who want to manage their calorie intake.
-   - Home cooks who want to reduce food waste and use available ingredients efficiently.
-   - Mothers.
-   - Students.
-   - Everyone who wants to study cooking.
+- **Frontend: Android App**
+  - **Technology**: Kotlin and Jetpack Compose
+  - **Features**:
+    - **Photo Tab**: Capture or upload photos for AI food recognition.
+    - **Main Feed Page**: Search recipes by name, ingredients, or AI-generated suggestions.
+    - **Profile Page**: Manage personal information, settings, and favorite recipes.
 
-3. How will you validate and test your assumptions about the project?
+- **Backend: Java with Spring (Containerized using Docker)**
+  - **Technology**: Java, Spring, Docker
+  - **Features**:
+    - **User Authentication**: Secure user authentication and account management.
+    - **Data Persistence**: Store and manage user-specific information, favorite recipes, and profile data.
+    - **Calorie Calculations**: Calculate and recommend daily calorie intake based on user data.
+    - **API Integration**: Handle data exchange between the frontend and backend, ensuring smooth functionality and data flow.
 
-   - User Interest and Engagement
-     - Surveys and Interviews: Conduct a survey among potential users (students of Innopolis University) to understand their interest in such an app. Ask about their cooking habits, pain points, and willingness to use technology in their kitchen.
-   - AI Image Recognition Accuracy
-     - Training and Testing: Train the AI model on a portion of the data and test it on the rest. Measure performance.
-     - User Testing: Have users take pictures of their fridge and compare the AI's recognition results with manual inventories.
-   - User Interface and User Experience
-     - Prototyping and Usability Testing: Create a prototype of the app and conduct usability testing sessions with real users. Gather feedback on the layout, navigation, and overall user experience.
-     - System Testing: Test the entire system as a whole to ensure it meets the project requirements and functions as expected.
+- **ML Models: Python Scripts**
+  - **Technology**: Python, OpenCV, Scikit-learn, PyTorch, TensorFlow, Keras
+  - **Features**:
+    - **AI Food Recognition**: Identify food items from uploaded photos.
+    - **AI Recipe Generation**: Generate personalized recipes based on recognized ingredients.
+    - **Personalized Recommendations**: Suggest recipes and daily menus based on user preferences and dietary restrictions.
 
-4. What metrics will you use to measure the success of your project?
+### **Data Management:**
 
-   - User engagement metrics
-     - Daily Active Users/Monthly Active Users
-     - Session Length 
-     - Session Frequency
-   - AI performance metrics
-     - Image Recognition Accuracy
-     - Processing Time
-   - User interface and experience metrics
-     - User Feedback and Ratings
+- **Database**: PostgreSQL for reliable, robust, and scalable data storage. Room for local storage on the Android app.
+- **Database Tables Breakdown**:
+  - **User Table**: Stores personal information of users.
+    - **Columns**:
+      - **Id**: Unique identifier for each user.
+      - **Nickname**: User's chosen display name.
+      - **Height**: User's height.
+      - **Weight**: User's weight.
+      - **Age**: User's age.
+  - **Favorites Table**: Stores user's favorite recipes.
+    - **Columns**:
+      - **UserId**: Identifier linking the favorite recipe to a specific user.
+      - **Name**: Name of the favorite recipe.
+      - **Recipe**: Details or content of the recipe.
+      - **Date_added**: The date when the recipe was added to favorites.
 
-5. How do you plan to iterate and pivot if necessary based on user feedback?
+### **User Interface (UI) Design:**
 
-   We plan to iterate based on user feedback by making:
-   - Prioritization 
-     - Address critical pain points that significantly affect user satisfaction and app usability.
-   - Development Sprints
-     - Aim for frequent, smaller releases rather than large, infrequent updates. This allows us to address issues and introduce new features more quickly.
+- **[Homepage](https://www.figma.com/design/vpqc9bsK1bBngEr7yXHRUP/Untitled?node-id=1-1034&t=0N3sdE2SwdI2E2E7-1)**:
+  - Features recommended recipes and a search bar for recipe names.
+- **Camera Page**:
+  - Includes a camera for capturing images of a user's refrigerator.
+  - Allows users to search for recipes based on the ingredients identified in the image, even if some ingredients are not recognized.
+- **Profile Page**:
+  - Stores favorite recipes and user profile information.
+- **Design Inspiration**:
+  - The app's design draws inspiration from the user interfaces of Yandex Delivery and YouTube.
 
-   We plan to pivot if necessary based on user feedback choosing from these strategies:
-   - Feature Pivot: Shift focus to a different set of features or capabilities that better meet user needs.
-   - Technology Pivot: Switch to a different technology or platform if current technical limitations are hindering progress.
+### **Integration and APIs:**
 
-## **Leveraging AI, Open-Source, and Experts**
+For implementation, we used a Mistral API, specifically a client library written in Python. Mistral provides an API for requesting their models. They have 3 models for generating text, and we chose "Mixtral 8x22B" because it was the most suitable for us, providing a good tradeoff between its cost and performance. For the integration of the API, we plan to receive ingredients from the backend of the mobile app and pass them to our model's request. Then the recipe will be generated in JSON format, and we will process it, save it, and send it back to the backend of our app.
 
-### AI (Artificial Intelligence):
+### **Scalability and Performance:**
 
-- AI food recognition: We will utilize ML models to identify food items in photos provided by users, enabling accurate recipe suggestions based on recognized ingredients.
-- Recipe generation: We will use ready LLM and prompt engineering for generating the recipes in case the recipe was not found in the database.
-- Personalized recipe recommendations: We will create a recommendation system based on user-saved recipes.
-- Menu Composing: We will either use the ChatGPT model for generating menus based on users' preferences or implement straightforward logic for choosing food recipes for the menu from a database based on users’ saved recipes.
+Our application is designed with scalability in mind to accommodate future growth and increasing user loads. The architecture utilizes microservices, allowing individual components to scale independently based on demand. This ensures that as user numbers grow, our system can expand without significant reconfiguration or downtime. To ensure our application maintains high performance under load, we implement performance optimization techniques at various levels of the stack.
 
-By leveraging AI in these areas, CookAInno aims to provide personalized, efficient, and engaging user experiences.
+### **Security and Privacy:**
 
-### Open-Source:
+Ensuring the security of user data is paramount. We are integrating robust security measures into our architecture to protect against potential vulnerabilities. We are implementing secure user authentication methods and ensuring secure integration with third-party APIs through secure API keys and tokens. Protecting user privacy and complying with data protection regulations are critical aspects of our project.
 
-Open-source resources play a significant role in the project’s development and success. The AI features of our project will be implemented using open-source ML models, datasets, and libraries. Additionally, we will use open-source tools and libraries for the development of the application.
+### **Error Handling and Resilience:**
 
-### Experts in Relevant Domains:
+Implementing robust error handling mechanisms is essential for maintaining a reliable application. We have defined strategies for logging, monitoring, and gracefully recovering from errors.
 
-For our project on AI recognition of fridge contents through a phone camera and recipe suggestion based on available ingredients, we will seek the expertise of several key professionals. While we aim to develop the app independently, we will reach out to experts for guidance and assistance. We expect to collaborate with computer vision experts, including university professors, to enhance the accuracy of object detection and recognition algorithms. Additionally, we may consult backend and Android developers whose expertise will be helpful in project creation. Furthermore, we will seek insights from chefs and culinary experts, such as those from the university canteen, to ensure the correctness of product placement in the fridge and to cater to various dietary preferences.
+### **Deployment and DevOps:**
 
-## **Defining the Vision for Your Project**
+In our project, we have established a comprehensive deployment and DevOps strategy to ensure smooth development and reliable deployment of our application. We have set up a GitHub repository, which serves as the central hub for all our code and documentation. To maintain code quality and ensure collaborative development, we have implemented protection rules for our main branch. Any changes or additions to the main branch will require thorough reviews through pull requests before merging. Each team member is responsible for creating their own branch to work on new features or bug fixes. This practice helps in isolating changes and facilitates easy integration and testing. We will use Docker Compose for local orchestration of containers, allowing each developer to have a consistent and isolated development environment, mirroring the production setup as closely as possible. Additionally, we plan to publish the application in a container registry, ensuring that our deployment process is streamlined and that we can easily manage and deploy containerized applications.
 
-#### Overview: 
+## **Week 2 Questionnaire:**
 
-CookAInno aims to revolutionize how users interact with their kitchen by integrating AI-driven food recognition and personalized recipe recommendations. Here's a detailed breakdown of its key functionalities:
+1. **Tech Stack Resources**:
+   - **Patterns of Enterprise Application Architecture**
+     - **Purpose**: Provides comprehensive guidelines on designing robust enterprise applications.
+     - **Utilization**:
+       - Architecture Design: Enhance our understanding of designing scalable and maintainable backend systems.
+       - Best Practices: Implement industry-standard patterns to improve application reliability and performance.
+       - Complex Problem-Solving: Apply architectural solutions to address complex challenges in our application.
+   - **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow**
+     - **Purpose**: Offers practical guidance on building and deploying machine learning models using popular frameworks.
+     - **Utilization**:
+       - Model Development: Improve our proficiency in developing machine learning models for food recognition and recipe generation.
+       - Implementation Techniques: Gain insights into effective techniques for training and optimizing ML models.
+       - Integration: Learn to seamlessly integrate ML models into our application, enhancing its functionality with AI-driven features.
+   - **Universal Principles of Design, Revised and Updated**
+     - **Purpose**: Provides key principles and guidelines for creating user-centered designs.
+     - **Utilization**:
+       - User Interface Design: Apply design principles to create intuitive and user-friendly interfaces for our app.
+       - User Experience Enhancement: Focus on improving the overall user experience through well-thought-out design choices.
+       - Design Consistency: Ensure consistency and coherence in the visual and interactive elements of the application.
 
-1. User Authentication and Account Management:
-   - MVP 1:
-     - Sign-Up and Login Functionality: Users can create an account and log in securely.
-     - User Profile Management: Store and manage user-specific information such as height, weight, and age.
-     - Favorite/Saved Recipes: Users can save and categorize their favorite recipes for easy access and better recommendations.
-   - MVP 2:
-     - Daily Calorie Calculation: Automatically calculate the recommended daily calorie intake based on the user’s weight and height. 
+2. **Mentorship Support**:
+   - Currently, our project team does not have an actively involved mentor. We recognize the significant value a mentor could bring, including expert guidance in mobile app development and AI, resource utilization, networking opportunities, skill development, and enhanced problem-solving. To secure a mentor, we plan to reach out to professors, industry experts, and utilize online communities. Having a mentor would provide the expertise and support necessary to ensure the success of our product.
 
-2. AI Food Recognition
-   - MVP 1:
-     - Photo Upload/Capture: Users can upload or capture photos of their fridge contents.
-     - Image Recognition: Utilize AI to identify food items in the uploaded images.
-     - Immediate Suggestions: Instantly display recipes that can be made with recognized ingredients.
-   - MVP 2:
-     - Manual Adjustment: Allow users to manually adjust identified items before displaying possible recipes in case of wrong recognition.
+3. **Exploring Alternative Resources**:
+   - To expand our understanding of the tech stack for CookAInno, we've explored several valuable resources beyond project-based books. Online courses from platforms like Coursera, and Udemy have provided in-depth knowledge on Spring framework, Kotlin, Docker, Roboflow, and YOLO models. Additionally, we've leveraged official documentation for frameworks like Spring and Kotlin, along with industry blogs on Medium and Dev.to, to stay updated with best practices and detailed guidance. Video tutorials from YouTube channels such as "Tech with Tim" and "freeCodeCamp.org" also have offered practical insights into Python, Java, Spring Boot, and advanced Android development. These resources have been instrumental in filling knowledge gaps and enhancing our project development skills.
 
-3. Personalized Menu Planning
-   - MVP 1:
-     - Recipe Search: Allow users to search for recipes by name.
-     - Ingredient-Based Filtering: Enable users to filter recipes that can be made with the ingredients they have on hand.
-   - MVP 2:
-     - Dietary Filters: Provide filters for specific diets like vegan, vegetarian, halal, and lactose-free options.
-     - Daily Menu Suggestions: Generate daily menu suggestions based on the user’s calorie needs and preferences using a recommendation system (RecSys) or GPT API.
-   - MVP 3:
-     - Recipe Generation: Use GPT API to create recipes based on identified food items or suggest items to purchase if ingredients are missing.
-     - Food Image Generation: Generate images of the food from generated recipes using DALL-E or Midjourney API.
+4. **Identifying Knowledge Gaps**:
+   - Within our tech stack division, there are identified knowledge gaps on the Backend side in JWT (JSON Web Token) authentication, particularly concerning understanding JWT structure, security best practices, and token lifecycle management like revocation and renewal. To address these gaps comprehensively, we're planning targeted training sessions to explore Spring Security functionality, fostering peer reviews for code implementation, leveraging external resources for diverse perspectives, and establishing a culture of continuous learning and feedback. These initiatives aim to enhance team members' proficiency in JWT authentication, ensuring robust security practices and efficient implementation within our applications.
 
-#### Schematic Drawings:
-  ![user_scenarios](/2024/cookainno/user_scenarios.jpg)
+5. **Engaging with the Tech Community**:
+   - As students embarking on a project to develop an AI-based application for fridge content recognition and recipe suggestions, we understand the importance of engaging with the tech community. Our approach will be to attend relevant meetups and university consultations where we can interact with professors and experts in the field. We plan to seek advice from university professors specializing in computer vision, backend, and Android development. Additionally, we will ensure thorough beta testing by collaborating with culinary enthusiasts and students, who can provide practical feedback on the app’s functionality. This engagement will not only enhance our learning experience but also contribute to the app’s success by including diverse perspectives and expert knowledge.
 
-#### Tech Stack:
-  - Backend (Java, Spring, Docker)
-  - Database (PostgreSQL) 
-  - Third-party APIs
-  - Android (Kotlin, Jetpack Compose, Retrofit, Room, CameraX)
-  - ML (Python, OpenCV, Scikit-learn, PyTorch, TensorFlow, Keras)
+6. **Learning Objectives**:
+   - This week, our primary learning objective is to gain a comprehensive understanding of integrating AI and machine learning models within our tech stack. Specifically, we aim to deepen our knowledge of: image recognition, GPT API integration, and Docker for containerization. Additionally, we will continuously retrospect our decisions on the functionality of the application to ensure we provide users with a solid, usable product and the relative technologies to implement this. By employing these strategies, we aim to not only enhance our technical proficiency but also ensure the development of a robust and user-centric application.
+
+7. **Sharing Knowledge with Peers**:
+   - Our approach to sharing knowledge and expertise within the team includes several strategies: weekly knowledge-sharing sessions and collaborative documentation.
+
+8. **Leveraging AI**:
+   - To compensate for gaps in our technical expertise while developing, we leveraged AI by integrating AI-powered tools and platforms. We used AI-driven code assistance tools such as BlackBox AI to enhance our proficiency and streamline the coding process, ensuring efficient and effective implementation of the app's features.
+
+## **Tech Stack and Team Allocation**
+
+| Team Member              | Track                                       | Responsibilities   |
+|--------------------------|---------------------------------------------|--------------------|
+| Efim Puzhalov (Lead)     | Backend, System Architect                    | Team management, project architecture, database access, backend integration with Android app |
+| Egor Meganov             | Frontend (Android)                           | Main Android app functionality |
+| Vladislav Grigorev       | Backend, DevOps                              | Authentication process, backend deployment |
+| Renata Latypova          | Design, ML                                   | UI design, ML integration with Android app |
+| Polina Pushkareva        | ML                                           | Recipe generation, user recommendation system |
+| Milyausha Shamsutdinova  | ML                                           | Groceries recognition model |
+| Aliia Bogapova           | Design, Frontend (Android)                   | UI design, Android app functionality |
+
+## **Weekly Progress Report**
+
+### **Challenges and Solutions**
+
+- **Implemented functionality for storing and retrieving user data**, ensuring efficient and secure data management.
+- **Developed comprehensive features for managing users' favorite recipes**, allowing full manipulation capabilities such as search by name, update, and other CRUD operations.
+- **Researched object detection models and explored available datasets** for a grocery image detection project.
+- **Successfully implemented authentication functionality on Android devices**, ensuring secure user access through JWT and email confirmation.
+- **Drafted the camera screen interface**, which will serve as the gateway for the machine learning component to recognize ingredients from photos.
+- **Developed a screen that presents a list of recipes**, which includes recipe cards that load images from the internet. Organized these cards into a grid layout on the screen, providing an intuitive and visually engaging way for users to discover and browse through different recipes.
+- **Faced the challenge of selecting a modern LLM model for recipe generation**. Evaluated four models (Gpt-4o, Mistral, Gemini, Claude) and selected Mistral (22b params) for its user-friendly API, good pricing per million tokens, multilingual capabilities, 64k context window, and native function calling capacities.
+- **Started implementing recipe generation using the Mistral API**, including creating an account, obtaining an API key, reading the documentation, and writing the recipe generating function.
+
+### **Future Work**
+
+- **Deploy the backend part and add new features** according to calories management and user recommendations.
+- **Begin creating the custom dataset for object detection**, starting with image sourcing and annotation. Train YOLOv8 with the created dataset.
+- **Integrate the camera screen interface** with the backend and machine learning component to recognize ingredients from photos.
+- **Continue enhancing the user interface for recipe discovery**, focusing on improving the visual appeal and functionality of the recipe cards.
+- **Complete the implementation of recipe generation using the Mistral API**, refine the starting prompt for the model to set the context, and test the functionality to ensure it meets project requirements.

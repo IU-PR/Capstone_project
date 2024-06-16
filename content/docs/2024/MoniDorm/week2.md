@@ -189,7 +189,9 @@ title: "Week #2"
 
     We organize week-long sprints to enhance productivity, using GitHub issues to track tasks, assign responsibilities, and label components. To avoid last-minute rushes, we report daily on our progress to motivate each other and keep everyone informed about the project's status.
 
-8) **Leveraging AI:** ...
+8) **Leveraging AI:**
+
+    We sometimes use artificial intelligence-based tools, in particular ChatGPT, to accelerate knowledge acquisition and improve the development process. ChatGPT provides instant resolution of technical issues, helps us understand complex concepts, and supplements formal documentation with explanations. We also use AI-based code review tools to optimize performance and maintain high code quality. This AI integration has accelerated our learning, increased productivity, and enhanced the overall capabilities of our team, allowing us to solve problems more efficiently and stay up-to-date on the latest best practices.
 
 ### **Tech Stack and Team Allocation**
 

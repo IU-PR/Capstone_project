@@ -157,19 +157,52 @@ During this week our team:
 3. **Identified existing solutions for blur detection and image grouping:**
 	- Arthur and Timofey looked for existing image similarity ranking methods.
 	  They have found several solutions and identified the most promising works:
-      - https://arxiv.org/pdf/1906.07589
-      - https://arxiv.org/pdf/1610.07940
-    - Michael and Artemii checked papers on blur detection, highlighting the following ones:
-      - https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13567?saml_referrer
-      - https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur
+		- https://arxiv.org/pdf/1906.07589
+		- https://arxiv.org/pdf/1610.07940
+	- Michael and Artemii checked papers on blur detection, highlighting the following ones:
+		- https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13567?saml_referrer
+		- https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur
 
-4. **Identified required tools and libraries.**
-	- Egor helped to find the library for image manipulations. 
+4. **Found datasets that can be used for training:**
+	- Image grouping:
+		- [Paper](https://strathprints.strath.ac.uk/55814/1/Connor_etal_VISAPP_2015_identification_of_mir_flickr_near_duplicate_images.pdf)
+		  and [dataset](http://www.mir-flickr-near-duplicates.appspot.com/)
+		- [Paper](https://www.researchgate.net/publication/256986331_California-ND_An_annotated_dataset_for_near-duplicate_detection_in_personal_photo_collections)
+		  and [dataset](https://qualinet.github.io/databases/image/california_nd_an_annotated_dataset_for_near_duplicate_detection_in_personal_photo_collections/)
+
+	- Blur detection:
+		- ...
+        - ...
+
+5. **Identified required tools and libraries.**
+	- Egor helped to find the library for image manipulations.
 
 ### **Challenges & Solutions**
 
-...
+Several challenges were identified during this week:
+
+- **Blur detection:**
+  The first solution for blur detection primarily focuses on defocus blur detection.
+  The accuracy of motion blur detection has yet to be determined.
+  Furthermore, the code is provided without model checkpoints, meaning the model needs to be trained.
+  The second paper claims to detect both types of blur, but no code is provided,
+  making it impossible to evaluate quickly.
+  Therefore, we plan to train the model from the first paper and use it in the MVP.
+
+- **Image grouping:**
+  The promising model for image retrieval was trained on Landmarks, Oxford, and Paris datasets,
+  which consist mostly of building pictures.
+  This means it is highly likely that we will need to retrain these models on the datasets we have found.
+
+- **Image caching:**
+  High-resolution pictures are quite large and take up a lot of time to load and memory space.
+  This week, a demo solution was implemented in which large pictures are cached,
+  and lighter versions are used in the future.
+  This results in improved app performance.
 
 ### **Conclusions & Next Steps**
 
-...
+Throughout this week, we have determined the final view of the application and identified potential machine learning solutions to use.
+As the minimum viable product (MVP) is due next week, we do not have enough time to conduct extensive experiments.
+Currently, Artur, Timofey, and Mikhail will focus on adapting existing solutions and training them on custom datasets.
+In parallel, Nikita, Egor, and Matthew will work on the desktop application.

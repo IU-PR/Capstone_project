@@ -34,13 +34,13 @@ After several discussions our team defined a final at this moment Tech Stack tha
 
 3) In the database there are user personal information and exercises results.
 
-<img src="../../../../static/2024/GymGuru/Week2_Architecture.jpg" width="780" height="990">
+<img src="/2024/GymGuru/Week2_Architecture.jpg" width="780" height="990">
 
 2. **Data Management**:
 
 &nbsp;&nbsp;&nbsp;&nbsp;The concept of data management of GymGuru is presented on the diagram below:
 
-<img src="../../../../static/2024/GymGuru/Week2_DataFlow.png" width="600" height="540">
+<img src="/2024/GymGuru/Week2_DataFlow.png" width="600" height="540">
 
 &nbsp;&nbsp;&nbsp;&nbsp;Data flow is organised the following way: video from user’s camera is processed in the web interface, MoveNet adds skeleton to the video, then in the web interface results are calculating and translating to the user. Web interface sends user results or user credentials for log in to the backend and gets user data. Backend communicates with database to store or request user data.
 
@@ -54,13 +54,13 @@ After several discussions our team defined a final at this moment Tech Stack tha
 
 &nbsp;&nbsp;&nbsp;&nbsp;Over the past week, we have developed prototypes of the user interface using Figma. You can view some of the pages below in the screenshots, as well as the full prototype at [this link](https://www.figma.com/design/JWNuJgSjWY8XHJ4CfsVzB6/Untitled?node-id=0-1&t=60raqLQQw0dLg9PE-1).
 
-<img src="../../../../static/2024/GymGuru/Week2_UI1.jpg" width="780" height="480">
+<img src="/2024/GymGuru/Week2_UI1.jpg" width="780" height="480">
 
-<img src="../../../../static/2024/GymGuru/Week2_UI2.jpg" width="780" height="440">
+<img src="/2024/GymGuru/Week2_UI2.jpg" width="780" height="440">
 
 &nbsp;&nbsp;&nbsp;&nbsp;Moreover, that is a User Flow Diagram of our web application (and its text description below):
 
-<img src="../../../../static/2024/GymGuru/Week2_UserFlow.jpg" width="1050" height="825">
+<img src="/2024/GymGuru/Week2_UserFlow.jpg" width="1050" height="825">
 
 &nbsp;&nbsp;&nbsp;&nbsp;Entering the site the user gets to the main page where the general information about the product is presented. Then, in order to use the offered functionality, the user must log in to his account (if he has already registered before) or register and set up account (specify info, such as first name, last name, e-mail, password and type of account: student or coach). Both student and coach can perform the exercises and view the rating of the chosen exercise. To do the exercise it is necessary to choose it from the list, allow access to the camera and start performing it. When completed, click on the finish button to save the statistics and display it in the rating page and in the profile. The student additionally can pass the fitness test. The procedure is similar to performing a single exercise, except that in this mode it is necessary to perform in sequence all 3 types of exercises included in the fitness test list and the time of doing them is limited. The coach has the ability to download fitness test results by selecting the desired group or course.
 

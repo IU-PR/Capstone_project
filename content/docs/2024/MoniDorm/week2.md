@@ -140,7 +140,17 @@ title: "Week #2"
 
 4. **Integration and APIs**: ...
 
-5. **Scalability and Performance**: ...
+5. **Scalability and Performance**:
+
+    In the future, we plan to expand the use of our system and implement it for larger universities, districts, and even cities. To accommodate future application growth and increased user load without sacrificing performance, we incorporated several aspects of scalability into the MoniDorm architecture:
+
+    1. Microservices Architecture: We use a microservices architecture to separate different functionalities of the application (API, Telegram bot, LLM system, WebApp) into independent services. This modular approach allows each service to scale independently based on demand.
+    2. Database Scalability: We use PostgreSQL for storing reports due to its robustness and ability to handle large datasets. Moreover, MongoDB for storing user information is chosen for its flexible schema design and horizontal scaling capabilities. We will use the built-in striping feature to distribute data across multiple servers, which will ensure that large amounts of user information can be processed efficiently.
+    3. Docker and Docker-compose: By containerizing our microservices with Docker and managing them with Docker-compose, we can easily deploy, scale, and manage multiple instances of each service.
+    4. CI/CD Pipeline in GitHub: We will use CI/CD pipeline to provide continuous integration and deployment, allowing us to quickly release updates and scale the application without downtime. Automated testing and deployment also helps maintain stability and performance.
+    5. Spring Boot Metrics: Using Spring Boot Actuator and other monitoring tools, we will continuously monitor application performance and resource utilization. This data will help us proactively address any scalability issues and optimize performance in the future.
+
+    By incorporating these scalability considerations into our architectural design, MoniDorm will be well prepared for increased user load and data volumes, ensuring consistent performance and reliability as the application grows.
 
 6. **Security and Privacy**: ...
 

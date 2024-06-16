@@ -127,35 +127,19 @@ Tech Stack:
 
  Accomplishments:
 
-- Developed a prototype in Figma with collaborative input from team members to achieve optimal user experience.
-- Collaboratively designed and refined the machine learning pipeline, exploring alternative solutions for enhanced performance.
-- Curated and preprocessed the dataset, employing manual parsing and neural network-based preprocessing techniques to ensure data quality.
+- developed a prototype in Figma;
+- collaboratively designed and refined the machine learning pipeline, exploring alternative solutions for best performance;
+- curated and preprocessed the dataset by using manual parsing and neural network-based preprocessing techniques to ensure data quality.
 
- Challenges Faced:
+ Challenges faced:
 
-- Designing a highly intuitive user interface posed a development challenge, requiring extensive iteration and collaboration.
-- Determining the optimal behavior of the machine learning pipeline in various scenarios presented a development hurdle.
-- Data collection and preprocessing involved manual parsing and neural network utilization, demanding additional time and effort.
+- designing an intuitive user interface proved to be a significant challenge, requiring extensive iteration;
+- determining the optimal behavior of the machine learning pipeline in various scenarios;
+- data collection and preprocessing involved manual parsing, demanding additional time and effort.
   
- Steps Taken to Overcome Challenges:
+ Steps taken to overcome challenges:
 
-- Leveraged the collective expertise of team members to refine the user interface design iteratively.
-- Engaged in collaborative brainstorming sessions to explore diverse approaches and refine the machine learning pipeline's functionality.
-- Employed manual parsing techniques and neural network-based preprocessing to ensure the dataset's quality and relevance.
-  
- Achievements:
+- used the collective expertise of team members to continuously refine the user interface;
+- analyzed a number of different open source machine learning models and collectively decided on the best approach.
 
-- Successfully developed a prototype with an intuitive user interface, enhancing the project's usability and appeal.
-- Collaboratively designed a robust machine learning pipeline, paving the way for efficient data processing and model training.
-- Curated a high-quality dataset, essential for training accurate machine learning models and achieving project objectives.
-
- Strategies Employed:
-
-- Fostered collaboration and communication among team members to leverage collective insights and expertise.
-- Embraced iterative design and development approaches to refine project components and address emerging challenges.
-- Employed a combination of manual and automated techniques to streamline data collection and preprocessing processes.
-
- Lessons Learned:
-
-- The importance of collaborative design and development in achieving optimal project outcomes was reaffirmed.
-- Flexibility and adaptability are essential when exploring diverse solutions and addressing unforeseen challenges.
+ **Result**: confirmed the importance of collaborative design and development.

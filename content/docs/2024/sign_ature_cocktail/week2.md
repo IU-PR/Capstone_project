@@ -11,7 +11,7 @@ Python, 3ds Max, Unity, C#, Blender, Topogun, 3DCoat, Substance Painter - we dec
 **Data Management:** At the moment, we store and record the coordinate data of various hand positions for training and improving the model.
 
 **User Interface (UI) Design:** 
-![alt text](../ATS/sign_ature_cocktail/sign_ature_cocktail_week2_1.png)
+![alt text](./ATS/sign_ature_cocktail_week2_1.png)
 
 **Integration and APIs:** We did not need to create an API for our project. It consists of several elements: hand tracking using a camera, gesture detection using artificial intelligence, Blender models, and Unity. All final parts of the project will be added to Unity and work within it.
 

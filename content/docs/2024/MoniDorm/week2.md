@@ -13,7 +13,7 @@ title: "Week #2"
 - [pylint](https://pypi.org/project/pylint/) — python code linter
 - [jinja2](https://pypi.org/project/Jinja2/) — generate emails for email confirmation, generate json file for crashes
 
-**HTML/CSS** — appearance of email confirmation email
+**HTML/CSS** — appearance of email confirmation
 
 **MongoDB** 🌱 — a database for storing the state of bot users
 
@@ -174,13 +174,13 @@ title: "Week #2"
 
     The documentation acted as the definitive reference for syntax, features, and best practices, ensuring standards compliance, optimization of our implementations, and code cleanliness:
     - [Python Documentation](https://docs.python.org/3)
-    - [StringBoot Documentation](https://docs.spring.io/spring-boot/index.html)
+    - [SpringBoot Documentation](https://docs.spring.io/spring-boot/index.html)
     - [MongoDB Documentation](https://www.mongodb.com/docs)
     - [PostgreSQL Documentation](https://www.postgresql.org/docs)
 
     The tutorials provided practical knowledge and examples to facilitate the implementation and debugging of our technology stack components:
     - [PostgreSQL Tutorial](https://www.postgresqltutorial.com)
-    - [Docer Compose Tutorial](https://youtu.be/SXwC9fSwct8?si=IshiKzRXBZQfRABD)
+    - [Docker Compose Tutorial](https://youtu.be/SXwC9fSwct8?si=IshiKzRXBZQfRABD)
     - [HTML & CSS Full Course](https://youtu.be/G3e-cpL7ofc?si=q3fhcyvZi7J7iAqL)
 
     By utilizing these diverse resources, we were able to deepen our understanding of our technology stack, overcome challenges, and ensure the robust development of MoniDorm.
@@ -189,13 +189,13 @@ title: "Week #2"
 
 5) **Engaging with the Tech Community:**
 
-    We frequently turn to online forums and groups, such as Stack Overflow, to ask and review questions related to Python, Docker, Spring Boot, and other components of our technology stack. Additionally, we use GitHub repositories to explore open-source projects, where we can find answers to our queries and extract practical information from code reviews and community feedback.
+    We frequently turn to online forums and groups, such as Stack Overflow, to ask and review questions related to Python, Docker, Spring Boot, and other components of our technology stack. Additionally, we use GitHub repositories to explore open-source projects, where we can find answers to our questions and extract practical information from code reviews and community feedback.
 
 6) **Learning Objectives:** ...
 
 7) **Sharing Knowledge with Peers:**
 
-    As a team, we have established an effective information-sharing strategy. We use a Telegram chat divided into several sections (general, project reports, meeting organization, useful resources, daily reports). This structure facilitates easy access to necessary information, ensuring each team member quickly inform about project updates. Our communication extends beyond the digital space because we organize two meetings every week (one at the beginning and one near the end), where all team members participate. These meetings, conducted either offline or online, allow us to discuss achieved results and plan next steps. Additionally, team members working on the same component can arrange extra calls or meetings during the week as needed.
+    As a team, we have established an effective information-sharing strategy. We use a Telegram chat divided into several sections (general, project reports, meeting organization, useful resources, daily reports). This structure facilitates easy access to necessary information, ensuring each team member quickly inform about project updates. Our communication extends beyond the digital space because we organize two meetings every week (one at the beginning and one near the end), where all team members participate. These meetings that are conducted either offline or online allow us to discuss achieved results and plan next steps. Additionally, team members working on the same component can arrange extra calls or meetings during the week as needed.
 
     We organize week-long sprints to enhance productivity, using GitHub issues to track tasks, assign responsibilities, and label components. To avoid last-minute rushes, we report daily on our progress to motivate each other and keep everyone informed about the project's status.
 

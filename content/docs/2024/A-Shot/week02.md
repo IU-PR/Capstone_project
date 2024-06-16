@@ -48,15 +48,24 @@ title: "Week #2"
 	  A-Shot displays thumbnails of high-resolution images within the user interface.
 
 3. **User Interface (UI) Design**:
-   The UI design is ready and available on Figma: ...
+   The UI design is ready and available on [Figma](https://www.figma.com/design/b8ToEj62puE2vTCj8EqwfG/A-Shot-Prototype?node-id=54795-26409).
    The application consists of several screens, here are some of them:
 
 	- **Import Screen:**
 	  The initial screen for selecting the image source.
+
+	  ![ui-import](/2024/A-Shot/week02/ui/import.png)
+	  ![ui-loading](/2024/A-Shot/week02/ui/loading.png)
+
 	- **Overview Screen:**
 	  Enables navigation between sorted shots.
+
+	  ![ui-overview-good](/2024/A-Shot/week02/ui/overview-good.png)
+
 	- **Cull screen:**
 	  The core application interface for viewing grouped images and selecting the best ones.
+
+	  ![ui-cull](/2024/A-Shot/week02/ui/cull.png)
 
 4. **Integration and APIs**:
    A-Shot currently operates as a standalone application, performing model inference locally.
@@ -153,6 +162,19 @@ During this week our team:
    Nikita used UI sketches to create a demo application.
    The application contains all required screens and transitions between them.
    Moreover, application successfully runs both on Windows and Linux.
+   Artemii helped to implement image caching and loading.
+
+	- **Import screen:**
+
+	  ![app-import](/2024/A-Shot/week02/app/loading.png)
+
+	- **Overview screen:**
+
+	  ![app-loading](/2024/A-Shot/week02/app/overview.png)
+
+	- **Cull screen:**
+
+	  ![app-cull](/2024/A-Shot/week02/app/cull.png)
 
 3. **Identified existing solutions for blur detection and image grouping:**
 	- Arthur and Timofey looked for existing image similarity ranking methods.
@@ -160,7 +182,7 @@ During this week our team:
 		- https://arxiv.org/pdf/1906.07589
 		- https://arxiv.org/pdf/1610.07940
 	- Michael and Artemii checked papers on blur detection, highlighting the following ones:
-		- https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13567?saml_referrer
+		- https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13567
 		- https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur
 
 4. **Found datasets that can be used for training:**
@@ -171,7 +193,8 @@ During this week our team:
 		  and [dataset](https://qualinet.github.io/databases/image/california_nd_an_annotated_dataset_for_near_duplicate_detection_in_personal_photo_collections/)
 
 	- Blur detection:
-		- [Paper](https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur) and [dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view)
+		- [Paper](https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur)
+		  and [dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view)
 
 5. **Identified required tools and libraries.**
 	- Egor helped to find the library for image manipulations.
@@ -201,7 +224,8 @@ Several challenges were identified during this week:
 
 ### **Conclusions & Next Steps**
 
-Throughout this week, we have determined the final view of the application and identified potential machine learning solutions to use.
+Throughout this week, we have determined the final view of the application and
+identified potential machine learning solutions to use.
 As the minimum viable product (MVP) is due next week, we do not have enough time to conduct extensive experiments.
 Currently, Artur, Timofey, and Mikhail will focus on adapting existing solutions and training them on custom datasets.
 In parallel, Nikita, Egor, and Matthew will work on the desktop application.

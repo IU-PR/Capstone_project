@@ -211,6 +211,19 @@ title: "Week #2"
         <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/pipeline.jpg">
     </div>
 
+    We ensure the robustness and security of our deployment process by integrating various stages in our CI/CD pipeline, including:
+    - **Automated Testing:** All code changes undergo rigorous automated tests to ensure functionality and stability. This includes unit tests, integration tests, and end-to-end tests.
+    - **Static Code Analysis:** Tools like SonarQube are used to analyze the code for potential bugs, code smells, and vulnerabilities.
+    - **Continuous Integration:** Every code change triggers a build process, ensuring that all parts of the application are compatible and work as expected when integrated.
+    - **Continuous Deployment:** Once the code passes all the tests and checks, it is automatically deployed to our staging environment for further testing. If everything is verified, it moves to production.
+
+    Looking ahead, we plan to enhance our deployment strategy by integrating Kubernetes and Terraform:
+
+    - **Kubernetes:** By leveraging Kubernetes, we aim to improve the scalability and management of our containerized applications. Kubernetes will help us orchestrate our Docker containers, manage their lifecycle, and scale them based on demand.
+    - **Terraform:** To manage our infrastructure as code, we plan to use Terraform. This will allow us to define our infrastructure in configuration files, making it easier to provision and manage. Terraform will enable us to create, update, and version our infrastructure safely and efficiently.
+
+    By incorporating Kubernetes and Terraform, we will further enhance our ability to deploy and manage our microservices in a scalable, reliable, and secure manner. This will also streamline our infrastructure management, reduce manual interventions, and ensure that our deployment process remains consistent and reproducible across different environments.
+
 ### **Week 2 questionnaire:**
 
 1) **Tech Stack Resources:**
@@ -238,13 +251,21 @@ title: "Week #2"
 
     By utilizing these diverse resources, we were able to deepen our understanding of our technology stack, overcome challenges, and ensure the robust development of MoniDorm.
 
-4) **Identifying Knowledge Gaps:** ...
+4) **Identifying Knowledge Gaps:**
+
+    We have not worked with LLM before, but we have an idea of how to work with API. Maybe there are nuances there that we don't know about yet.
+
+    We have no experience in creating a WebApp on React, since the frontend was originally supposed to be on Svelte. We also have difficulties with working with Grafana
+
+    Fortunately, for all technologies we found the necessary documentation and started to study it.
 
 5) **Engaging with the Tech Community:**
 
     We frequently turn to online forums and groups, such as Stack Overflow, to ask and review questions related to Python, Docker, Spring Boot, and other components of our technology stack. Additionally, we use GitHub repositories to explore open-source projects, where we can find answers to our questions and extract practical information from code reviews and community feedback.
 
-6) **Learning Objectives:** ...
+6) **Learning Objectives:**
+
+    The main learning objectives of this week was to learn how to send email confirmations, connect the interface to the database, and set up configuration files on a remote server. We successfully achieved these goals by reading documentation, using internet resources and writing code in sandboxes. This helped us to learn and practice new skills.
 
 7) **Sharing Knowledge with Peers:**
 
@@ -270,12 +291,50 @@ title: "Week #2"
 
 ### **Weekly Progress Report**
 
-Our team did...
+#### **Team Work:**
+
+We conducted 2 offline and 2 online meetings, where we discussed architecture of microservices, API, database structure and LLM. Results of these meetings are stored in [wiki.](https://github.com/IU-Capstone-Project-2024/MoniDorm/wiki/Architecture)
+
+#### **Telegram Bot:**
+
+- [x] The bot's interface is implemented
+
+- [x] Authentication by mail has been added
+
+- [x] Added persistence for bot, using MongoDB
+
+#### **[API Server:](http://10.90.138.215:8080/swagger-ui)**
+
+- [x] Filter for security token
+
+- [x] Integration with PostgreSQL database via Spring Data JPA
+
+- [x] Swagger specification via openapi-doc
+
+- [x] Implementation of REST API service
+
+- [x] Automatic migrations of database schemas at service startup
+
+- [x] Integration testing, using testcontainers
 
 ### **Challenges & Solutions**
 
-...
+We also faced challenges this week:
+
+**Frontend Admin panel:**
+
+- Grafana did not display graphs and charts on Svelte site. We solved this problem by moving to another web framework: React. It was more suitable not only for working with Grafana, but also for working with Telegram WebApp.
+
+**API Server:**
+
+- We had difficulties in writing the [contract](https://github.com/IU-Capstone-Project-2024/MoniDorm/wiki/Architecture#api-rest-contract). We had constant revisions going on. And we were reworking the existing version. We were able to solve this problem by updating our approaches to the vision of the contract.
+
+**Deployment:**
+
+- We encountered difficulties in deploying services to a remote machine, had problems in configuration setup.
+
+- We had difficulty setting up CI/CD as there was no way to add a self-hosted runner in GitHub.
 
 ### **Conclusions & Next Steps**
 
-...
+We have done a lot of work and written the basic code for the API server and the Bot, Next we are going to connect them so that communication via contracts happen. Also, we are starting to research LLM for our project and slowly developing an adimn panel in the form of a WebApp.

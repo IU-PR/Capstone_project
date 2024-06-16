@@ -10,7 +10,7 @@ title: "Week #2"
 
 - **Desktop App:**
   We will use [Compose Multiplatform](https://www.jetbrains.com/lp/compose-multiplatform/) for A-Shot,
-  as it is a developer-friendly and efficient tool for creating multiplatform applications.
+  as it is an easy-to-use and efficient tool for creating multiplatform applications.
 
 - **Neural Networks:**
   [PyTorch](https://pytorch.org/) will be our choice for training and operating neural networks due to its extensive
@@ -22,7 +22,19 @@ title: "Week #2"
 
 ### **Architecture Design**
 
-1. **Component Breakdown**: ...
+1. **Component Breakdown**:
+   A-Shot is composed of several key elements:
+
+	- **Multiplatform Desktop Application:**
+	  This is the user-friendly interface that photographers interact with.
+
+	- **Machine Learning Modules:**
+		- **Blur Detection:**
+		  This module identifies and flags blurry images.
+
+		- **Similar Shot Grouping:**
+		  This module groups similar shots together.
+
 
 2. **Data Management**: ...
 

@@ -15,12 +15,16 @@ title: "Week #2"
 
 **HTML/CSS** — appearance of email confirmation
 
+**React** ⚛️ — appearance of WebApp for admin panel
+- [TailwindCSS](https://tailwindcss.com/)
+- [daisyUI](https://daisyui.com/)
+
 **MongoDB** 🌱 — a database for storing the state of bot users
 
 **CI/CD** ⚙️
-- GitHub Actions — Fully Qualified CI/CD pipelines with the immediate pushing of the latest version of product
+- GitHub Actions — fully qualified CI/CD pipelines with the immediate pushing of the latest version of product
 - bash — for writing automation scripts
-- SonarQube — Linter for the code quality
+- SonarQube — linter for the code quality
 
 **Docker** 🐳 — running microservices in containers
 
@@ -30,14 +34,14 @@ title: "Week #2"
 
 - [SpringBoot 3.2](https://spring.io/projects/spring-boot) — Web, REST Controllers
 - [SpringBoot WebFlux](https://docs.spring.io/spring-framework/reference/web/webflux.html) — HttpClient
-- [SpringData JPA](https://spring.io/projects/spring-data-jpa) — Database Manipulation
-- [SpringBoot Metrics](https://docs.spring.io/spring-boot/reference/actuator/metrics.html) (Actuator, DevTools) — Metrics
+- [SpringData JPA](https://spring.io/projects/spring-data-jpa) — database manipulation
+- [SpringBoot Metrics](https://docs.spring.io/spring-boot/reference/actuator/metrics.html) (Actuator, DevTools) — metrics
 - [Lombok](https://projectlombok.org/) — Code Boilerplate Reduction
 - [JUnit](https://junit.org/junit5/), [AssertJ](https://assertj.github.io/doc/), [TestContainers](https://java.testcontainers.org/) — Unit + Integration Test
 
 **PostgreSQL** 🐘 — main database with all records about reports
 
-**Liquibase** — Version management of DB (migrations)
+**Liquibase** — version management of DB (migrations)
 
 ### **Architecture Design**
 
@@ -121,7 +125,9 @@ title: "Week #2"
 
     Report ID, category of failure, placement, failure date, proceeded date, owner email, information about failure confirmation by admin or analysis mechanism, information about resolving problem by admin or user, full description.
 
-    <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/report_schema.png">
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/report_schema.png">
+    </div>
 
     **MongoDB Database (for User Information)**
 
@@ -142,21 +148,29 @@ title: "Week #2"
 
     Since our system involves user interaction, its design is crucial. We selected a Telegram bot for user engagement due to its simplicity and ease of use. The accompanying image illustrates the communication logic between the user and the bot, highlighting the intuitive flow we want to implement.
 
-    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/bot-dialogue-fsa.png">
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/bot-dialogue-fsa.png">
+    </div>
 
     Below is an illustration of user authorization and interaction with the bot.
 
-    <img style="max-width: 30%; height: auto;" src="/2024/Monidorm/authorization.jpg">
-    <img style="max-width: 30%; height: auto;" src="/2024/Monidorm/bot_view.jpg">
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <img style="max-width: 30%; height: auto;" src="/2024/Monidorm/authorization.jpg">
+        <img style="max-width: 30%; height: auto;" src="/2024/Monidorm/bot_view.jpg">
+    </div>
 
     As one of the components of our project is the WebApp, its design requires careful consideration. Currently, we are in the process of creating its design, focusing on optimizing elements to ensure administrators can easily navigate and swiftly access essential information.
     
     We also designed several logos for our system to ensure that users immediately grasp its purpose.
     In the future we will select one of these logos.
 
-    <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/logo_variants.png">
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/logo_variants.png">
+    </div>
 
-4. **Integration and APIs**: ...
+4. **Integration and APIs**: 
+
+    We plan to use integration for LLM service. For now, we want to run a python microservice using an integration with [OpenAI API](https://openai.com/index/openai-api/) to summarise text. This API will communicate with a Java server and handle comments. Another possible scenario is to use an [open-sourced self-hosted LLM service](https://github.com/kariminf/allsummarizer) on a Java server.
 
 5. **Scalability and Performance**:
 
@@ -178,9 +192,24 @@ title: "Week #2"
 
     To ensure secure system operation, the admin role is added manually in the database, preventing unauthorized individuals from accessing sensitive data from reports. Additionally, we plan to use SonarQube to check our code for security and maintainability issues, monitor code coverage, detect code smells, and enforce manual security checks if needed. Given our extensive database integrations, ensuring their security is a top priority.
 
-7. **Error Handling and Resilience**: ...
+    Also, all API keys and passwords will not be stored in the code directly. This will be done via GitHub secrets and they will be inserted during the pipeline.
 
-8. **Deployment and DevOps**: ...
+7. **Error Handling and Resilience**:
+
+    Most part of our application is covered by Unit and Integration Tests. This provides reliability when developing new functionality that the application will not break. In addition to checking that the application was successfully built, tests are run to check for RunTimeErrors. The frontend is tested manually by team members and all interface bugs are accounted for.
+    
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/test_coverage.jpg">
+    </div>
+
+
+8. **Deployment and DevOps**:
+
+    We follow DevOps principles and use tools for secure and rapid deployment. Since our application is a microservice architecture, all services reside in Docker containers that are run on servers using Docker-compose. Before being deployed to the servers, the code goes through a [CI/CD pipeline](https://github.com/IU-Capstone-Project-2024/MoniDorm/actions) where it is built and tested.
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/pipeline.jpg">
+    </div>
 
 ### **Week 2 questionnaire:**
 

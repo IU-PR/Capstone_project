@@ -37,9 +37,10 @@ title: "Week #2"
 * MongoDB is chosen for data storage and management due to its fast, flexible, scalable, and Python-integrated capabilities. The server will access and manipulate data using MongoDB drivers and libraries, ensuring efficient processing and data integrity. The diagram depicts the MongoDB schema, outlining the structure and relationships of stored data for efficient menu generation and recipe management.
 
 3. **User Interface (UI) Design**:
-The following image demonstrates the preliminary design of a Telegram Bot, showcasing its user interface.
+The following image demonstrates the preliminary design of a Telegram Bot, showcasing its user interface. The picture shows only possible style of the bot and not demonstrating the final variant.
 ![UI design](/2024/FindRecipe/Visual.jpg)
 
+The bot logic will be based on the following diagram
 ![UI design](/2024/FindRecipe/BotUI.jpg)
 
 4. **Integration and APIs**: 

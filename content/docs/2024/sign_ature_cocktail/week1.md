@@ -60,10 +60,7 @@ Our team plans to use openal and opensource models to speed up work and find ref
 At the end of these 7 weeks, we will present an mvp of the ALS training model that will recognize basic human gestures (fist, opening palm, etc.), letters of the English alphabet (additions are possible in the future) using computer vision.
 
 ### Schematic Drawings: 
-![alt text](./sign_ature_cocktail_week1_1.jpg)
-![alt text](./sign_ature_cocktail_week1_2.jpg)
-![alt text](./sign_ature_cocktail_week1_3.jpg)
-![alt text](./sign_ature_cocktail_week1_4.jpg)
+Could not upoload any images (folder structure error).
 At the moment, we have created several sketches of our game, and also selected the style of all the necessary elements.
 
 ### Tech Stack: 

@@ -48,7 +48,8 @@ title: "Week #2"
 	  A-Shot displays thumbnails of high-resolution images within the user interface.
 
 3. **User Interface (UI) Design**:
-   The UI design is ready and available on [Figma](https://www.figma.com/design/b8ToEj62puE2vTCj8EqwfG/A-Shot-Prototype?node-id=54795-26409).
+   The UI design is ready and available
+   on [Figma](https://www.figma.com/design/b8ToEj62puE2vTCj8EqwfG/A-Shot-Prototype?node-id=54795-26409).
    The application consists of several screens, here are some of them:
 
 	- **Import Screen:**
@@ -139,15 +140,15 @@ title: "Week #2"
 
 ### **Tech Stack and Team Allocation**
 
-| Team Member              | Track                | Responsibilities               |
-|--------------------------|----------------------|--------------------------------|
-| Artemii Miasoedov (Lead) | ML                   | Product and Project management |
-| Timofey Brayko           | ML                   | Image grouping                 |
-| Artur Rakhmetov          | ML                   | Image grouping                 |
-| Nikita Kurkulskiu        | ML                   | Desktop app                    |
-| Egor Valikov             | Cybersecurity        | Desktop app                    |
-| Matthew Rusakov          | Software Development | UX/UI design, Desktop app      |
-| Mikhail Romanov          | ML                   | Blur detection                 |
+| Team Member              | Track                | Responsibilities                                  |
+|--------------------------|----------------------|---------------------------------------------------|
+| Artemii Miasoedov (Lead) | ML                   | Product and Project management<br/>Blur detection |
+| Timofey Brayko           | ML                   | Image grouping                                    |
+| Artur Rakhmetov          | ML                   | Image grouping                                    |
+| Nikita Kurkulskiu        | ML                   | Desktop app                                       |
+| Egor Valikov             | Cybersecurity        | Desktop app                                       |
+| Matthew Rusakov          | Software Development | UX/UI design, Desktop app                         |
+| Mikhail Romanov          | ML                   | Blur detection                                    |
 
 ### **Weekly Progress Report**
 
@@ -195,6 +196,8 @@ During this week our team:
 	- Blur detection:
 		- [Paper](https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur)
 		  and [dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view)
+		- [Paper](https://ieeexplore.ieee.org/document/6909775)
+		  and [dataset](https://www.cse.cuhk.edu.hk/~leojia/projects/dblurdetect/dataset.html)
 
 5. **Identified required tools and libraries.**
 	- Egor helped to find the library for image manipulations.
@@ -204,12 +207,18 @@ During this week our team:
 Several challenges were identified during this week:
 
 - **Blur detection:**
-  The first solution for blur detection primarily focuses on defocus blur detection.
-  The accuracy of motion blur detection has yet to be determined.
-  Furthermore, the code is provided without model checkpoints, meaning the model needs to be trained.
-  The second paper claims to detect both types of blur, but no code is provided,
-  making it impossible to evaluate quickly.
-  Therefore, we plan to train the model from the first paper and use it in the MVP.
+	- The first solution for blur detection primarily focuses on defocus blur detection.
+	  The accuracy of motion blur detection has yet to be determined.
+	  Furthermore, the code is provided without model checkpoints, meaning the model needs to be trained.
+	  The second paper claims to detect both types of blur, but no code is provided,
+	  making it impossible to evaluate quickly.
+	  Therefore, we plan to train the model from the first paper and use it in the MVP.
+	- Both methods only identify blurred areas, not distinguishing between harmful or benign blur (like bokeh).
+	  Classifying based on the size of the blurred area isn't effective.
+	  Large blurred regions can be present in good bokeh shots (focused subject with a blurred background),
+	  and small blurred areas don't necessarily mean a good photo
+	  (unsuccessful bokeh with an unfocused subject and focused background).
+	  A potential solution is to train additional neural network to distinguish harmful and benign blur maps.
 
 - **Image grouping:**
   The promising model for image retrieval was trained on Landmarks, Oxford, and Paris datasets,

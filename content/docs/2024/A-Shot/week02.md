@@ -220,6 +220,8 @@ Several challenges were identified during this week:
 	  and small blurred areas don't necessarily mean a good photo
 	  (unsuccessful bokeh with an unfocused subject and focused background).
 	  A potential solution is to train additional neural network to distinguish harmful and benign blur maps.
+	  However, right now a more practical solution is to remove the images with extremely high blur areas,
+	  for example, 90–100%.
 
 - **Image grouping:**
   The promising model for image retrieval was trained on Landmarks, Oxford, and Paris datasets,

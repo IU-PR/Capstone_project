@@ -39,6 +39,7 @@ title: "Week #2"
 
 
 3. **User Interface (UI) Design**:
+
 The following image demonstrates the preliminary design of a Telegram Bot, showcasing its user interface. The picture shows only possible style of the bot and not demonstrating the final variant.
 ![UI design](/2024/FindRecipe/Visual.jpg)
 

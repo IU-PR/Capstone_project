@@ -83,7 +83,12 @@ title: "Week #2"
 
 ### **Week 2 questionnaire:**
 
-1) Tech Stack Resources: ...
+1) **Tech Stack Resources:**
+   Our team utilizes the following tool documentations:
+	- [Compose Multiplatform](https://www.jetbrains.com/help/kotlin-multiplatform-dev/get-started.html)
+	- [PyTorch](https://pytorch.org/docs/stable/index.html)
+	- [Image Magick](https://imagemagick.org/script/develop.php)
+	- [Material Design 3](https://m3.material.io/)
 
 2) Mentorship Support: ...
 

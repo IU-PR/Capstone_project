@@ -135,11 +135,10 @@ We started parsing the food.ru website and converting the information into a dat
 
 ### **Challenges & Solutions**
 
-The problem with parsing turned out to be query limitation and user ban.
-This problem was solved by correctly selected optimal timeouts.
+The parsing issue was identified as stemming from query limitations and user bans in the food.ru, significantly affecting our operations. Through diligent troubleshooting, we successfully resolved the issue by implementing carefully selected optimal timeouts. This solution has effectively restored functionality and improved the stability of our parsing system, ensuring smoother and more reliable performance moving forward.
+Now, we have a comprehensive dataset of recipes at our disposal.
+
 
 ### **Conclusions & Next Steps**
 
-Now we can say that we have a database to work with.
-Of course, it can be extended, but it allows us to start server development.
-But first we need to put the database on any resource for remote access.
+Now that we have a database in place, we're ready to proceed with server development. While the database can be expanded over time, its current state allows us to initiate the next phase of our project. Our immediate priority is to securely host the database on a remote resource to enable seamless access and integration into our server infrastructure. This step is crucial for facilitating efficient data management and ensuring our development efforts progress smoothly. With the database securely accessible remotely, we can begin laying the foundation for robust server functionalities and further advancements in our project goals.

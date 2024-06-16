@@ -35,8 +35,17 @@ title: "Week #2"
 		- **Similar Shot Grouping:**
 		  This module groups similar shots together.
 
+2. **Data Management**:
+   A-Shot is optimized for handling large image volumes efficiently, maximizing performance and resource utilization.
 
-2. **Data Management**: ...
+	- **In-Place Sorting:**
+	  Images are organized within their original directories,
+	  offering disk space conservation and maintaining a streamlined,
+	  user-friendly file structure.
+
+	- **Thumbnail Generation:**
+	  For fast operation and low memory usage,
+	  A-Shot displays thumbnails of high-resolution images within the user interface.
 
 3. **User Interface (UI) Design**: ...
 

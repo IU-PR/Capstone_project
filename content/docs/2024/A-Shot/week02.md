@@ -182,8 +182,8 @@ During this week our team:
 		- https://arxiv.org/pdf/1906.07589
 		- https://arxiv.org/pdf/1610.07940
 	- Michael and Artemii checked papers on blur detection, highlighting the following ones:
-		- https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13567
 		- https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur
+		- https://onlinelibrary.wiley.com/doi/full/10.1111/cgf.13567
 
 4. **Found datasets that can be used for training:**
 	- Image grouping:

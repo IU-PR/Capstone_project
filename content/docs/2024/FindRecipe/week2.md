@@ -35,6 +35,8 @@ title: "Week #2"
 2. **Data Management**: 
 
 * MongoDB is chosen for data storage and management due to its fast, flexible, scalable, and Python-integrated capabilities. The server will access and manipulate data using MongoDB drivers and libraries, ensuring efficient processing and data integrity. The diagram depicts the MongoDB schema, outlining the structure and relationships of stored data for efficient menu generation and recipe management.
+![UI design](/2024/FindRecipe/DataBase.png)
+
 
 3. **User Interface (UI) Design**:
 The following image demonstrates the preliminary design of a Telegram Bot, showcasing its user interface. The picture shows only possible style of the bot and not demonstrating the final variant.
@@ -44,6 +46,8 @@ The bot logic will be based on the following diagram
 ![UI design](/2024/FindRecipe/BotUI.jpg)
 
 4. **Integration and APIs**: 
+
+Our application's API has a "create" method that allows to generate menus depending on specific parameters. This method supports parameters such as calories, cooking time, recipe difficulty, spiciness degree, and amount of ingredients/products. These options are used to dynamically construct a menu based on the user's preferences, and the method returns the generated menu. The data is formatted  as JSON objects, making them easy to use.
 
 Structure of request for our server:
 

@@ -44,8 +44,7 @@ For creating the 3D graphics, we've chosen JavaScript with the Three.js framewor
 
 - Easy Integration: Three.js works flawlessly with our JavaScript frontend, minimizing integration overhead and creating a cohesive development workflow.
 
-- Unmatched Power: Three.js offers a robust set of features for creating stunning 3D graphics, perfectly suited to our project's demands. It allows us to create the interactive 3D campus model and potentially add other 3D elements in the future.
-
+- Necessary Tools: Three.js provides the tools we need to create the 3D campus model, and potentially other 3D elements in the future.
 
 ### **Architecture Design**
 
@@ -56,15 +55,15 @@ User Management Module:
 
 - Registration/Authentication: Handle user registration and authentication using Google SSO, including storing user information and handling password resets.
 
-- User Roles: Define different user roles (Student, Faculty, Admin) and manage permissions accordingly. 
+- User Roles: Define different user roles (Student, Faculty, Admin) and manage permissions accordingly.
 
-??? - Profile Management: Allow users to update their profile information, including contact details and preferred notification settings.
+- Contact Information: The profile information (email) can be used by users to communicate with each other.
 
 Room Management Module:
 
 - Room Data Storage:  Store room details (name, capacity, location, facilities, type) in the PostgreSQL database.
 
-- Availability Management: Track room availability in real-time, considering existing bookings and room capacity.  Use a scheduling system (potentially time-based) to manage room availability.
+- Availability Management: Track room availability in real-time, considering existing bookings and room capacity. Use a time-based scheduling system to manage room availability.
 
 - Room Visualization:  Use Three.js to create the interactive 3D model of the university, allowing users to easily identify room locations.
 
@@ -72,13 +71,7 @@ Booking Management Module:
 
 - Booking Requests: Handle user booking requests, including date/time selection, room selection, and number of participants.
 
-???- Confirmation and Notifications: Send booking confirmations and notifications to users via email or other preferred channels.
-
 - Cancellation Handling: Allow users to cancel bookings within a specific timeframe and update room availability accordingly. 
-
-Calendar Synchronization Module:
-
-???- Integrate with External Calendar:  Integrate with a calendar service (e.g., Google Calendar) to sync room availability and display booked times directly on the user's calendar.
 
 Data Analytics Module:
 
@@ -92,13 +85,13 @@ Database Schema: Design a relational database schema (using PostgreSQL) to store
 
 - Relationships: Define relationships between tables (e.g., one-to-many relationship between users and bookings, many-to-many relationship between rooms and bookings). 
 
-Data Validation: Implement data validation rules (e.g., ensure room capacity is not exceeded, booking dates are valid, user inputs are correct) to maintain data integrity. 
+Data Validation: Implement data validation rules (e.g. ensure booking dates are valid, user inputs are correct) to maintain data integrity.
 
 Query Optimization: Optimize database queries for efficient data retrieval, especially for room availability searches.
 
 3. **User Interface (UI) Design**:
 
-???- Responsive Web Design:  Create a user-friendly and visually appealing web-based interface that works seamlessly on different devices (desktops, tablets, mobile phones).
+- Responsive Web Design:  Create a user-friendly and visually appealing web-based interface.
 
 - 3D University Model: Use Three.js to create an interactive 3D model of the university campus that allows users to explore room locations visually.
 
@@ -110,19 +103,11 @@ Query Optimization: Optimize database queries for efficient data retrieval, espe
 
 4. **Integration and APIs**:
 
-
-- Google SSO Integration: Implement API calls to integrate with Google's SSO system for user authentication and authorization. 
-
-???- Calendar API Integration: Integrate with a calendar service API (e.g., Google Calendar API) to sync room availability and display booked times on user calendars.
+- Google SSO Integration: Implement API calls to integrate with Google's SSO system for user authentication.
 
 5. **Scalability and Performance**:
 
-
 - Database Scalability:  Use PostgreSQL's features (e.g., indexes, database clustering, query optimization) to ensure the database can handle increasing user volume and booking requests.
-
-???- Caching: Implement caching mechanisms (e.g., use Redis or other caching solutions) to reduce database load and improve the response times for room availability queries.
-
-???- Load Balancing (If hosting on cloud): Implement load balancing to distribute requests across multiple servers, preventing performance bottlenecks.
 
 6. **Security and Privacy**:
 
@@ -163,13 +148,9 @@ Query Optimization: Optimize database queries for efficient data retrieval, espe
 
 - Google SSO: Google Sign-In (https://developers.google.com/identity/sign-in/web) 
 
-???- Google Calendar API: Google Calendar API (https://developers.google.com/calendar/api) 
-
 2) Mentorship Support:
 
-???- University Development Department
-
-???- Previous year Capstone team (Bookinng)
+- We plan to reach out to the University Development Department to discuss our project and seek their guidance. Additionally, we will connect with the previous year's team (Bookinng) for insights and advice. 
 
 3) Exploring Alternative Resources:
 
@@ -180,11 +161,15 @@ Query Optimization: Optimize database queries for efficient data retrieval, espe
 
 4) Identifying Knowledge Gaps:
 
-???
+- 3D Web Development: We need to improve our understanding of WebGL and Three.js for creating and integrating 3D models in web applications.
+
+- Frontend Pipeline: We need to strengthen our knowledge of efficient frontend development workflows, including build processes, testing, and code optimization. 
+
+- Communication & Collaboration: We need to enhance our communication strategies, particularly around technical aspects and task management.
 
 5) Engaging with the Tech Community:
 
-??? - 
+Seek out mentors within the tech community: Platforms like Stack Overflow can help connect us with experienced developers.
 
 6) Learning Objectives:
 
@@ -200,9 +185,7 @@ Query Optimization: Optimize database queries for efficient data retrieval, espe
 
 7) Sharing Knowledge with Peers:
 
-???- Document Learning: Create internal documentation or tutorials.
-
-- Team Workshops/Sessions: Dedicate time for knowledge sharing.
+- We plan to share documentation between internal teams on how to interconnect services.
 
 8) Leveraging AI:
 
@@ -210,16 +193,14 @@ Query Optimization: Optimize database queries for efficient data retrieval, espe
 
 ### **Tech Stack and Team Allocation**
 
-???
-
 | Team Member              | Track                                       | Responsibilities   |
 |--------------------------|---------------------------------------------|--------------------|
 | Ismagil Iskakov (Lead)    | Frontend/Design/3D modeling | • Overall project leadership and coordination. <br> • Guiding the design and visual direction of the user interface. <br> • Overseeing the development of the 3D campus model, including its integration with the frontend.• Managing team communication and workflow. |
 | Mikhail Gladyshev            | Backend/Database | • Developing the backend API using Go. <br> • Designing and implementing the PostgreSQL database schema. <br> • Ensuring efficient and secure data management.  |
-| Alexander Sevastyanov            | Frontend | • Building user interface components, including search, booking, and user profile features. <br> • Implementing the frontend logic for interactions with the backend API. <br> • Ensuring responsiveness and cross-browser compatibility. |
+| Alexander Sevastyanov            | Frontend | • Assistance and RND in frontend |
 | Vladislav Kishkovskiy           | Backend | • Assisting in backend API development using Go. <br> • Implementing specific API endpoints and logic for handling data requests. <br> • Working closely with Mikhail to ensure seamless data integration.  |
 | Said Nurullin             | Reports | • Writing progress reports and other documentation. <br> • Communicating project updates to stakeholders. |
-| Matvey Platonov | Frontend | • Contributing to the development of the frontend user interface, particularly focusing on user interactions and the booking flow. <br> • Working closely with Alexander to ensure a cohesive and user-friendly experience. |
+| Matvey Platonov | Frontend | • Building user interface components, including search, booking, and user profile features. <br> • Implementing the frontend logic for interactions with the backend API. <br> • Ensuring responsiveness and cross-browser compatibility. |
 | Aleksandr Ryabov | Frontend/3D graphics | • Developing the 3D campus model using Three.js. <br> • Integrating the 3D model with the frontend user interface. <br> • Ensuring visual consistency and engaging interaction with the 3D environment. |
 
 ### **Weekly Progress Report**
@@ -267,7 +248,7 @@ Our initial work has laid a solid foundation. Now, we focus on building key func
 
 3. Google SSO Integration:
 
-- User Authentication Testing: We'll integrate Google SSO for testing user authentication and authorization workflows.
+- User Authentication Testing: We'll integrate Google SSO for testing user authentication workflow.
 
 4. Advanced Database Schema:
 

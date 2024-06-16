@@ -47,17 +47,31 @@ title: "Week #2"
 	  For fast operation and low memory usage,
 	  A-Shot displays thumbnails of high-resolution images within the user interface.
 
-3. **User Interface (UI) Design**: ...
+3. **User Interface (UI) Design**:
+   The UI design is ready and available on Figma: ...
 
-4. **Integration and APIs**: ...
+4. **Integration and APIs**:
+   A-Shot currently operates as a standalone application, performing model inference locally.
+   Additional features may include integration with popular tools such as Adobe Lightroom and Adobe Photoshop,
+   once the core functionality has been fully developed and optimized.
 
-5. **Scalability and Performance**: ...
+5. **Scalability and Performance**:
+   A-Shot's standalone nature and Jetpack Multiplatform development ensure
+   effortless scalability across nearly all PC/laptop platforms.
+   However, machine learning models should be optimized for efficient execution on lower-spec devices.
 
-6. **Security and Privacy**: ...
+6. **Security and Privacy**:
+   A-Shot ensures user privacy, as it operates offline without storing sensitive data.
 
-7. **Error Handling and Resilience**: ...
+7. **Error Handling and Resilience**:
+   A-Shot prioritizes user data safety by avoiding sensitive operations like modification or deletion,
+   ensuring that application errors do not affect user images.
+   Furthermore, A-Shot will undergo testing under various conditions to guarantee reliability and resilience.
 
-8. **Deployment and DevOps**: ...
+8. **Deployment and DevOps**:
+   A-Shot's CI/CD pipeline, using GitHub Actions, will ensure regular updates with automated testing, version control,
+   and build processes.
+   Deployments will be managed through GitHub Releases for seamless distribution.
 
 ### **Week 2 questionnaire:**
 

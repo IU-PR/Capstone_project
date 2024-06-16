@@ -61,6 +61,7 @@ title: "Week #2"
 	- **Overview Screen:**
 	  Enables navigation between sorted shots.
 
+	  ![ui-overview](/2024/A-Shot/week02/ui/overview.png)
 	  ![ui-overview-good](/2024/A-Shot/week02/ui/overview-good.png)
 
 	- **Cull screen:**

@@ -143,3 +143,7 @@ Tech Stack:
 - analyzed a number of different open source machine learning models and collectively decided on the best approach.
 
  **Result**: confirmed the importance of collaborative design and development.
+
+### **Next steps**
+
+With the plan and tech stack settled, our next goal will be implementing primitive backend, frontend and label prediction model, as well as writing and testing the first prototypes of the machine learning pipeline.

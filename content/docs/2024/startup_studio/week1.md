@@ -93,7 +93,7 @@ Open-Source Technologies:
 
 - Schematic Drawings: 
 
-![Sequence diagram](https://github.com/tolmachdr/startup_studio/tree/master/static/2024/startup_studio/sequence_diagram.png)
+![Sequence diagram](https://github.com/tolmachdr/startup_studio/blob/startup_branch/static/2024/startup_studio/sequence_diagram.png)
 
 
 User visits the website to register, providing their information, which is stored in a PostgreSQL database via the IAM server. Upon authorization, user fills out a form, triggering the creation of a Kubernetes cluster by the Manifest Builder Server, whose IP is then communicated back to the user via the website. Simultaneously, the monitoring system tracks server activities, including the user's cluster, forwarding metrics to Grafana for visualization. Finally, the website displays a link to these metrics for the user's access.

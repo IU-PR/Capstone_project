@@ -44,18 +44,6 @@ title: "Grading and reports"
 **Total: 10 points**
 
 
-# **Deadline and Late submission policy**
-
-The deadline for the submission of the reports is **Monday 10 am**.
-
-Late submission policy:
-* every one hour after the deadline cost 5 percent of the grade
-  * for example, if you submit the report at 10:00:01, you will lose 5% of the grade
-  * if you submit the report at 11:00:01, you will lose 10% of the grade
-  * and so on
-* after 20 hours - you loose all points
-
-
 # **How projects overall will be graded?**
 We have a following grade allocation strategy: 60% reports, 40% final demo.
 

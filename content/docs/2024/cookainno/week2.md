@@ -61,7 +61,7 @@ The backend of our application is designed to handle several critical functions:
     - **API Integration**: Handle data exchange between the frontend and backend, ensuring smooth functionality and data flow.
 
 - **ML Models: Python Scripts**
-  - **Technology**: Python, OpenCV, Scikit-learn, PyTorch, TensorFlow, Keras
+  - **Technology**: Python, YOLOv8, PyTorch, Roboflow
   - **Features**:
     - **AI Food Recognition**: Identify food items from uploaded photos.
     - **AI Recipe Generation**: Generate personalized recipes based on recognized ingredients.
@@ -179,6 +179,8 @@ In our project, we have established a comprehensive deployment and DevOps strate
 - **Implemented functionality for storing and retrieving user data**, ensuring efficient and secure data management.
 - **Developed comprehensive features for managing users' favorite recipes**, allowing full manipulation capabilities such as search by name, update, and other CRUD operations.
 - **Researched object detection models and explored available datasets** for a grocery image detection project.
+- **Researched object detection models** for a grocery image detection project. Evaluated several models, including YOLOv8, Faster R-CNN, and EfficientDet. Selected YOLOv8 for its optimal balance between accuracy and speed, crucial for real-time detection.
+- **No even a remotely suitable dataset for the ingredient detection model.** Determined that creating a custom dataset was necessary, as no existing datasets fully met our needs. This realization presented a significant challenge.
 - **Successfully implemented authentication functionality on Android devices**, ensuring secure user access through JWT and email confirmation.
 - **Drafted the camera screen interface**, which will serve as the gateway for the machine learning component to recognize ingredients from photos.
 - **Developed a screen that presents a list of recipes**, which includes recipe cards that load images from the internet. Organized these cards into a grid layout on the screen, providing an intuitive and visually engaging way for users to discover and browse through different recipes.
@@ -188,7 +190,7 @@ In our project, we have established a comprehensive deployment and DevOps strate
 ### **Future Work**
 
 - **Deploy the backend part and add new features** according to calories management and user recommendations.
-- **Begin creating the custom dataset for object detection**, starting with image sourcing and annotation. Train YOLOv8 with the created dataset.
+- **Сreatе the custom dataset for object detection**, starting with image sourcing and annotation. Train YOLOv8 with the created dataset.
 - **Integrate the camera screen interface** with the backend and machine learning component to recognize ingredients from photos.
 - **Continue enhancing the user interface for recipe discovery**, focusing on improving the visual appeal and functionality of the recipe cards.
 - **Complete the implementation of recipe generation using the Mistral API**, refine the starting prompt for the model to set the context, and test the functionality to ensure it meets project requirements.

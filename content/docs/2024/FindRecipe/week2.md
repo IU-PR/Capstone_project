@@ -25,14 +25,16 @@ title: "Week #2"
 
 ![project_schema](/2024/FindRecipe/project_schema.jpg)
 
-* Telegram Bot - service to communicate with the customer. It contacts the server to get information.
-* Server - it's used to calculate and compose the optimal menu.
-  The server communicates with the database and processes the results.
-  Responds to requests from the bot.
-* DB - stores recipe information. communicates with the server.
+* Telegram bot: A Telegram bot acts as the primary interface for communicating with clients, allowing them to interact with the server and obtain information. It is in charge of receiving user requests, routing them to the server for processing, and returning results to users. 
+
+* Server: The server functions as a computational engine, calculating and optimizing menu composition based on incoming requests. It communicates with the database to retrieve recipe information, processes Telegram bot requests, and creates ideal menu suggestions, effectively centralizing the system's main operation.
+
+* Database: The database contains and manages the recipe information necessary for menu design. It communicates with the server to deliver data updates and receive recipe information as needed.
 
 
-2. **Data Management**: ...
+2. **Data Management**: 
+
+* MongoDB is chosen for data storage and management due to its fast, flexible, scalable, and Python-integrated capabilities. The server will access and manipulate data using MongoDB drivers and libraries, ensuring efficient processing and data integrity. The diagram depicts the MongoDB schema, outlining the structure and relationships of stored data for efficient menu generation and recipe management.
 
 3. **User Interface (UI) Design**:
 
@@ -53,19 +55,27 @@ Structure of response from our server:
 
 5. **Scalability and Performance**: 
 
-We implement part of the server on a framework (FastAPI) that has a large number of pluses. 
-The first is asynchrony, which allows us to process many clients at one moment. 
-Performance, it has proven itself in the labor market.
-It will also easily handle your current server architecture.
+We built the server using FastAPI, a technology known for its multiple benefits. One of its primary characteristics is its support for asynchronous processing, which allows it to handle multiple clients at the same time, increasing scalability significantly. FastAPI is also known for its great performance in the market, ensuring that our server can easily manage current architecture while also supporting future development.
 
-Also, given our archeitecture, we can say that the funcionale can be added at any stage. 
-The system is very flexible on any of the nodes since they are separated and not connected in any way.
+Our architecture's design enables for the addition of new functionalities at any stage, demonstrating the system's inherent flexibility. Each component runs independently, ensuring that scalability is maintained across all nodes with no interdependencies, allowing the system to handle increased user loads and data volumes without sacrificing speed.
 
-6. **Security and Privacy**: ...
+6. **Security and Privacy**: 
 
-7. **Error Handling and Resilience**: ...
+As our application operates on Telegram, we don't offer standard registration processes, passwords, or other authentication methods. Furthermore, we don't collect any personal user data, which reduces the need for extensive encryption and strong database security against data leakage. Users communicate with our Telegram bot using predefined buttons, which minimizes the danger of SQL injection attacks and reduces the need for further input validation.
 
-8. **Deployment and DevOps**: ...
+However, we focus security by increasing fault tolerance to reduce potential risks like DoS/DDoS attacks. To protect against this, we want to establish a rate-limiting policy that limits the amount of queries a user may make in a given interval. To avoid service disruptions, our system will temporarily ban a single user if they make too many requests. Once the blocking time expires, the user will be unblocked, ensuring continued service availability and resilience against malicious activities.
+
+7. **Error Handling and Resilience**: 
+
+To ensure a reliable application, we are planning to build comprehensive strategies for error handling and exception management. Our approach includes the implementation of  error logging and monitoring systems to detect and analyze issues in real-time. By using try/catch blocks and raising exceptions appropriately, we aim to manage unexpected errors gracefully, minimizing their impact on the user experience.
+
+Furthermore, we plan to enhance the robustness of our service by covering our code with unit tests. This measure will help us identify and address potential issues early in the development cycle, ensuring the stability of our application. 
+
+8. **Deployment and DevOps**: 
+
+We will leverage Docker to containerize all components of our product, creating consistent and isolated environments for each service. Dockerfiles will be written for each component to automate the building and deployment processes, ensuring reproducibility and ease of scaling.
+
+For deployment, we will use an online service to host and manage our containers, providing greater stability and reliability.  For robust development workflow we are thinking of building CI/CD pipelines to automate testing, building, and deployment tasks.
 
 ### **Week 2 questionnaire:**
 

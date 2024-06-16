@@ -171,8 +171,7 @@ During this week our team:
 		  and [dataset](https://qualinet.github.io/databases/image/california_nd_an_annotated_dataset_for_near_duplicate_detection_in_personal_photo_collections/)
 
 	- Blur detection:
-		- ...
-        - ...
+		- [Paper](https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur) and [dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view)
 
 5. **Identified required tools and libraries.**
 	- Egor helped to find the library for image manipulations.

@@ -10,13 +10,13 @@ title: "Week #1"
 
 | Team Member              | Telegram ID   | Email Address                      |
 |--------------------------|---------------|------------------------------------|
-| Team Member (Lead) 1     | @fatcakes     | a.tkachnko@innopolis.university    |
-| Team Member 2            | @Margonesex   | a.gerasimov@innopolis.university   |
-| Team Member 3            | @Ellpav       | e.pavlova@innopolis.university     |
-| Team Member 4            | @olikooon     | o.puzhalina@innopolis.university   |
-| Team Member 5            | @reddyiam     | r.chikibaev@innopolis.university   |
-| Team Member 6            | @Marketer7    | k.arkhipov@innopolis.university    |
-| Team Member 7            | @masterhorny1 | t.zheksimbaev@innopolis.university |
+| Alexey Tkachenko         | @fatcakes     | a.tkachenko@innopolis.university   |
+| Andrey Gerasimov         | @Margonesex   | a.gerasimov@innopolis.university   |
+| Elina Pavlova            | @Ellpav       | e.pavlova@innopolis.university     |
+| Olga Puzhalina           | @olikooon     | o.puzhalina@innopolis.university   |
+| Rodion Chikibaev         | @reddyiam     | r.chikibaev@innopolis.university   |
+| Kirill Archipov          | @Marketer7    | k.arkhipov@innopolis.university    |
+| Timur Zheksimbaev        | @masterhorny1 | t.zheksimbaev@innopolis.university |
 
 ### **Value Proposition**
 

@@ -12,7 +12,7 @@ title: "Week #2"
 
 After several discussions our team defined a final at this moment Tech Stack that will allow us to implement all stated tasks for GymGuru project:
 
-- MoveNet: Open-Source ML Tool that allow us to determine coordinates of a human body
+- MoveNet: ML Tool that allow us to determine coordinates of a human body
 
 - HTML + CSS + JS: base of a frontend, also JS allow to integrate MoveNet into the client side of application
 

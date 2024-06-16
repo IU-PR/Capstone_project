@@ -191,13 +191,13 @@ No, we have not leveraged AI to compensate for any lacking expertise in our tech
 
 ### **Tech Stack and Team Allocation**
 
-| Team Member               | Track                                       | Responsibilities                               |
-|---------------------------|---------------------------------------------|------------------------------------------------|
-| Nursultan Abdullaev       | ML, Management                              | Report, Planning, LLM API Inference, Data      |
-| Ruslan Izmailov           | ML, Backend                                 | Planning, Parsing Mechanism, Embeddings, Data  |
-| Alisher Kabardiyadi       | Backend, DevOps                             | API Design, Unit/User Tests, Parsing Mechanism |
-| Kira Strelnikova          | Frontend, Design                            | Figma Prototype, Analysis & Framework choosing |
-| Ammar Meslmani            | Frontend, Design                            | Figma Prototype, Analysis & Framework choosing |
+| Team Member               | Track                                   | Responsibilities                               |
+|---------------------------|-----------------------------------------|------------------------------------------------|
+| Nursultan Abdullaev       | ML, Management                          | Report, Planning, LLM API Inference, Data      |
+| Ruslan Izmailov           | ML, Backend                             | Planning, Parsing Mechanism, Embeddings, Data  |
+| Alisher Kabardiyadi       | Backend, DevOps                         | API Design, Unit/User Tests, Parsing Mechanism |
+| Kira Strelnikova          | Frontend, Design                        | Figma Prototype, Analysis & Framework choosing |
+| Ammar Meslmani            | Frontend, Design                        | Figma Prototype, Analysis & Framework choosing |
 
 
 # Project Progress Report

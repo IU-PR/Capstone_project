@@ -1,4 +1,0 @@
----
-bookCollapseSection: true
-title: "PipeVision"
----

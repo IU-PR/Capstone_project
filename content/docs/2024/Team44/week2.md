@@ -26,11 +26,11 @@ Our project architecture consists of several key components, each with distinct 
 - Backend:
     - Initial data parsing and processing
     - Integration with ML/NLP functionalities without independent servers to reduce costs and simplify deployment
-- Machine Learning (ML):
+- Machine Learning (ML) using RAG:
     - Action Router: Directs requests to appropriate ML modules
     - Quiz Generator: Creates quizzes based on user notes
     - Summary Generator: Summarizes user notes
-    - Search Engine: Searches through user notes using NLP
+    - Search Engine: Searches through user notes
 - Databases:
     - Vector Database: Stores user notes and serves as the primary data repository
     - Postgres Database: Manages user data, including authentication details
@@ -52,7 +52,7 @@ User experience is central to our application’s success. The UI should be intu
 
 4. **Integration and APIs**:
 
-External integrations and APIs are essential for extending our application’s functionality. While we are considering the use of open-source LLM APIs for machine learning tasks, we will evaluate the trade-offs between data security and the cost-effectiveness of using external APIs versus hosting models in-house. Our priority is to ensure secure and reliable data flow between systems, and we will only use external APIs if they meet our stringent security and cost requirements.
+External integrations and APIs may be essential for extending our application’s functionality. While we are considering the use of open-source LLM APIs for machine learning tasks, we will evaluate the trade-offs between data security and the cost-effectiveness of using external APIs versus hosting models in-house. Our priority is to ensure secure and reliable data flow between systems, and we will only use external APIs if they meet our stringent security and cost requirements.
 
 5. **Scalability and Performance**:
 
@@ -86,7 +86,7 @@ To stay adaptable and informed, we will explore alternative resources. Here is t
 - Machine Learning:
     - LangChain/LangGraph Tutorials: The [LangGraph Docs and LangChain Docs](https://langchain-ai.github.io/langgraph/) have provided comprehensive guidance on implementing and optimizing our ML models.
     - Community Examples: [The Pinecone examples on GitHub](https://github.com/pinecone-io/examples/tree/master) have been invaluable in demonstrating practical applications and best practices for vector databases (excluding fact of using the Pinecone Vector Database).
-    - Machine Learning Models and Documentation, [Hugging Face](https://huggingface.co): We regularly refer to Hugging Face for models and the transformer's documentation to keep up with the latest advancements and integrate cutting-edge NLP techniques into our project.
+    - Machine Learning Models and Documentation of [Hugging Face](https://huggingface.co): We regularly refer to Hugging Face for models and the transformer's documentation to keep up with the latest advancements and integrate cutting-edge NLP techniques into our project.
 
 - Backend Development:
     - GeeksforGeeks Videos: Specifically, videos such as "How to Create a Login System in Python Using Django?" have helped us understand practical implementations.
@@ -129,6 +129,7 @@ We will identify and address knowledge gaps in the following areas:
 6) Learning Objectives:
 
 - Mastering the integration of ML models into a backend system.
+- Understanding the NLP and Vector Database principles from ML engineer perspective.
 - Understanding and implementing scalable and secure API designs.
 - Gaining proficiency in deploying applications using Docker.
 - Enhancing UI/UX design skills for creating intuitive and responsive user interfaces.
@@ -149,13 +150,13 @@ We will leverage AI to enhance our project in the following ways:
 
 
 
-| Team Member          | Track             | Responsibilities                   |
-| -------------------- | ----------------- | ---------------------------------- |
-| Aruzhan Shinbayeva   | [product manager] | [writing reports/leading the team] |
-| Anushervon Qodirzoda | [backend]         | [tg bot/databases/authorization]   |
-| Ilia Mistiurin       | [ML]              | [working with LLM models]          |
-| Ivan Smirnov         | [frontend]        | [creation of the website]          |
-| Muhammad Allayarov   | [backend]         | [tg bot/api]                       |
+| Team Member              | Track                                       | Responsibilities   |
+|--------------------------|---------------------------------------------|--------------------|
+|Aruzhan Shinbayeva    | [product manager]                               | [writing reports/leading the team]  |
+| Anushervon Qodirzoda | [backend]                                       | [tg bot/databases/authorization]      |
+| Ilia Mistiurin       | [ML]                                            | [working with LLM models]      |
+|Ivan Smirnov          | [frontend]                                      | [creation of the website] |
+|Muhammad Allayarov    | [backend]                                       | [tg bot/api]         |
 
 
 ### **Weekly Progress Report**
@@ -174,7 +175,7 @@ Addressing the integration of Gmail for registration confirmation involved selec
 
 3.  **Continuous Search and Optimization of Models:**
 
-Addressing the challenge of continuous search and optimization of models, especially as we progress into weeks 6-7, involves implementing strategies for ongoing model refinement and performance enhancement. This includes leveraging techniques such as hyperparameter tuning, iterative training cycles, and monitoring model performance metrics. By dedicating time to regularly review and update our models based on real-world data and feedback, we ensure that our application maintains high accuracy and efficiency in delivering results.
+Addressing the challenge of continuous search of suitable models for the task: optimal ratio of models performance, inference speed, memory footprint; especially as we progress into weeks 6-7, involves implementing strategies for ongoing model refinement and performance enhancement. This includes monitoring model results (retrieval metrics) and overall performance on the task.
 
 Throughout our development process, we have successfully navigated challenges including establishing seamless inter-application communication and integrating Gmail for registration confirmation. Looking ahead into weeks 6-7, our focus will be on continuously optimizing and refining our models to ensure they deliver accurate and efficient results.
 

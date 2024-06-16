@@ -14,9 +14,9 @@ title: "Week #2"
 
 1. **Component Breakdown**: 
 * User Interface (UI): The front-end part where users interact with the system. This includes pages for registration, login, form submission, and displaying results.
-* IAM Server: Manages user authentication and authorization, communicating with the PostgreSQL database.
+* IAM Service: Manages user authentication and authorization, communicating with the PostgreSQL database.
 * PostgreSQL Database: Stores user information and other necessary data.
-* Manifest Builder Server: Processes the form data and interacts with the Cluster Manager to create namespaces within the Kubernetes cluster.
+* Manifest Builder Service: Processes the form data and interacts with the Cluster Manager to create namespaces within the Kubernetes cluster.
 * Cluster Manager: Manages the Kubernetes cluster, creating new namespaces for each user.
 * Monitoring System: Utilizes Splunk to collect logs and metrics from the Kubernetes cluster.
 * Grafana: Visualizes metrics collected by Splunk.
@@ -31,8 +31,8 @@ title: "Week #2"
 * Uses modern web technologies to ensure a smooth and efficient user experience.
 
 4. **Integration and APIs**: 
-* IAM Server built with Python and FastAPI provides APIs for authentication and authorization.
-* Manifest Builder Server exposes APIs to handle form submissions and interact with the Cluster Manager.
+* IAM Service built with Python and FastAPI provides APIs for authentication and authorization.
+* Manifest Builder Service exposes APIs to handle form submissions and interact with the Cluster Manager.
 * Splunk APIs for collecting and sending metrics to Grafana.
 
 5. **Scalability and Performance**:
@@ -72,7 +72,7 @@ title: "Week #2"
 * Contributing to open-source projects related to our tech stack.
 
 5) Learning Objectives:
-* Deepening knowledge in Kubernetes management and optimization.
+* Deepening knowledge in Kubernetes management.
 * Enhancing skills in monitoring and observability using Splunk.
 * Mastering CI/CD pipelines and automation.
 
@@ -94,7 +94,7 @@ title: "Week #2"
 | Nikita Bagrov            | Backend  | Configure monitoring, write configuration for user namespace monitoring, display metrics in Grafana |
 | Saveliy Lekhtin          | Backend  | Tech lead, control backend process, assist team members |
 | Egor Salnikov            | Backend  | Create cluster manager |
-| Egor Solodovnikov        | Backend  | Create IAM server |
+| Egor Solodovnikov        | Backend  | Create IAM service |
 | Evgeniy Spiridonov       | Frontend | Develop website according to design |
 
 ### **Weekly Progress Report**
@@ -104,13 +104,13 @@ Our team made significant strides this week. We successfully claimed the designs
 ### **Challenges & Solutions**
 
 Challenge: 
-* Frequent re-deployments of monitoring due to issues with virtual machines used as pods.
+* Frequent re-deployments of monitoring due to issues with virtual machines used as nods.
 
 Solution: 
 * Developed a playbook to automate the deployment process. This ensures that in case of an error with the monitoring machine connection, everything can be easily re-deployed.
 
 Challenge: 
-* Initially, the frontend entry point was set as the manifest builder.
+* Initially, the frontend entry point was set as the manifest builder, that is not logically correct.
 
 Solution: 
 * Realigned the frontend entry point to the cluster manager for better logical flow.

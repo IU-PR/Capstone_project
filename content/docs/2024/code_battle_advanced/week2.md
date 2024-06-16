@@ -30,7 +30,7 @@ created in Figma and integrated with CSS, both industry standard solutions.
 
 1. **Component Breakdown**:
 
-![SimplifiedDiagram.png](/static/2024/code_battle_advanced/SimplifiedDiagram.png)
+![SimplifiedDiagram.png](/2024/code_battle_advanced/SimplifiedDiagram.png)
 
 This diagram should showcase all the major internal components.
 
@@ -56,10 +56,10 @@ they were assigned but not completed in a fixed timeframe and delete tasks if th
    Our design was inspired by [Codewars](https://www.codewars.com/)
    and [Moodle](https://moodle.innopolis.university/login/index.php).
 
-![w2figma1.jpg](/static/2024/code_battle_advanced/w2figma1.jpg)
-![w2figma2.jpg](/static/2024/code_battle_advanced/w2figma2.jpg)
-![w2figma3.jpg](/static/2024/code_battle_advanced/w2figma3.jpg)
-![w2figma4.jpg](/static/2024/code_battle_advanced/w2figma4.jpg)
+![w2figma1.jpg](/2024/code_battle_advanced/w2figma1.jpg)
+![w2figma2.jpg](/2024/code_battle_advanced/w2figma2.jpg)
+![w2figma3.jpg](/2024/code_battle_advanced/w2figma3.jpg)
+![w2figma4.jpg](/2024/code_battle_advanced/w2figma4.jpg)
 
 4. **Integration and APIs**: We have no integrations and APIs in our project and will not be using them in the main part
    of our project. However, we might use APIs in some activities.
@@ -97,7 +97,7 @@ Actions CI/CD approach.
 
 ### This diagram showcases the complete structure of the project:
 
-![Diagram.png](/static/2024/code_battle_advanced/Diagram.png)
+![Diagram.png](/2024/code_battle_advanced/Diagram.png)
 
 The Users connect to Nodeport, which distributes them to the Web-app server, which updates the database in the MongoDB
 and asks the WorkQueue to start testing. The WorkQueue distributes the workload on the Judge servers and notifies the

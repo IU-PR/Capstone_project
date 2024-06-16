@@ -102,7 +102,7 @@ We have divided our responsibilities among team members, with each person handli
 ### Authorization Page
 ![auth_screen](/2024/Alumni/auth_screen.png)
 
-### Application for Mentoring Page
+### Application for Mentoring Page Progress
 ![ment1_screen](/2024/Alumni/ment1_screen.png)
 ![ment2_screen](/2024/Alumni/ment2_screen.png)
 

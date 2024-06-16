@@ -2,7 +2,7 @@
 title: "Week #1"
 ---
 
-# Week #1 report
+# Week 1 - Project Proposal
 
 ## Team Formation and Project Proposal
 

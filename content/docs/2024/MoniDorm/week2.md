@@ -144,15 +144,21 @@ title: "Week #2"
 
     In the future, we plan to expand the use of our system and implement it for larger universities, districts, and even cities. To accommodate future application growth and increased user load without sacrificing performance, we incorporated several aspects of scalability into the MoniDorm architecture:
 
-    1. Microservices Architecture: We use a microservices architecture to separate different functionalities of the application (API, Telegram bot, LLM system, WebApp) into independent services. This modular approach allows each service to scale independently based on demand.
-    2. Database Scalability: We use PostgreSQL for storing reports due to its robustness and ability to handle large datasets. Moreover, MongoDB for storing user information is chosen for its flexible schema design and horizontal scaling capabilities. We will use the built-in striping feature to distribute data across multiple servers, which will ensure that large amounts of user information can be processed efficiently.
-    3. Docker and Docker-compose: By containerizing our microservices with Docker and managing them with Docker-compose, we can easily deploy, scale, and manage multiple instances of each service.
-    4. CI/CD Pipeline in GitHub: We will use CI/CD pipeline to provide continuous integration and deployment, allowing us to quickly release updates and scale the application without downtime. Automated testing and deployment also helps maintain stability and performance.
-    5. Spring Boot Metrics: Using Spring Boot Actuator and other monitoring tools, we will continuously monitor application performance and resource utilization. This data will help us proactively address any scalability issues and optimize performance in the future.
+    1. **Microservices Architecture:** We use a microservices architecture to separate different functionalities of the application (API, Telegram bot, LLM system, WebApp) into independent services. This modular approach allows each service to scale independently based on demand.
+    2. **Database Scalability:** We use PostgreSQL for storing reports due to its robustness and ability to handle large datasets. Moreover, MongoDB for storing user information is chosen for its flexible schema design and horizontal scaling capabilities. We will use the built-in striping feature to distribute data across multiple servers, which will ensure that large amounts of user information can be processed efficiently.
+    3. **Docker and Docker-compose:** By containerizing our microservices with Docker and managing them with Docker-compose, we can easily deploy, scale, and manage multiple instances of each service.
+    4. **CI/CD Pipeline in GitHub:** We will use CI/CD pipeline to provide continuous integration and deployment, allowing us to quickly release updates and scale the application without downtime. Automated testing and deployment also helps maintain stability and performance.
+    5. **Spring Boot Metrics:** Using Spring Boot Actuator and other monitoring tools, we will continuously monitor application performance and resource utilization. This data will help us proactively address any scalability issues and optimize performance in the future.
 
     By incorporating these scalability considerations into our architectural design, MoniDorm will be well prepared for increased user load and data volumes, ensuring consistent performance and reliability as the application grows.
 
-6. **Security and Privacy**: ...
+6. **Security and Privacy**:
+
+    To protect user data and guard against potential vulnerabilities, we have integrated a set of security measures into the MoniDorm architecture.
+
+    When a user interacts with the MoniDorm Telegram bot for the first time, they are prompted to authenticate by entering a one-time code sent to their registered email to confirm their identity. Users are assigned roles based on their status, such as regular user or administrator. The bot verifies these roles before granting access to specific commands and functions; for instance, only users with the 'admin' role can access administrative commands.
+
+    To ensure secure system operation, the admin role is added manually in the database, preventing unauthorized individuals from accessing sensitive data from reports. Additionally, we plan to use SonarQube to check our code for security and maintainability issues, monitor code coverage, detect code smells, and enforce manual security checks if needed. Given our extensive database integrations, ensuring their security is a top priority.
 
 7. **Error Handling and Resilience**: ...
 

@@ -121,6 +121,8 @@ title: "Week #2"
 
     Report ID, category of failure, placement, failure date, proceeded date, owner email, information about failure confirmation by admin or analysis mechanism, information about resolving problem by admin or user, full description.
 
+    <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/report_schema.png">
+
     **MongoDB Database (for User Information)**
 
     <u>Why we deciced to choose this database:</u>
@@ -136,7 +138,23 @@ title: "Week #2"
 
     User ID, name, contact details, interaction history, including reports submitted and notifications received.
 
-3. **User Interface (UI) Design**: ...
+3. **User Interface (UI) Design**:
+
+    Since our system involves user interaction, its design is crucial. We selected a Telegram bot for user engagement due to its simplicity and ease of use. The accompanying image illustrates the communication logic between the user and the bot, highlighting the intuitive flow we want to implement.
+
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/bot-dialogue-fsa.png">
+
+    Below is an illustration of user authorization and interaction with the bot.
+
+    <img style="max-width: 30%; height: auto;" src="/2024/Monidorm/authorization.jpg">
+    <img style="max-width: 30%; height: auto;" src="/2024/Monidorm/bot_view.jpg">
+
+    As one of the components of our project is the WebApp, its design requires careful consideration. Currently, we are in the process of creating its design, focusing on optimizing elements to ensure administrators can easily navigate and swiftly access essential information.
+    
+    We also designed several logos for our system to ensure that users immediately grasp its purpose.
+    In the future we will select one of these logos.
+
+    <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/logo_variants.png">
 
 4. **Integration and APIs**: ...
 
@@ -204,6 +222,8 @@ title: "Week #2"
     As a team, we have established an effective information-sharing strategy. We use a Telegram chat divided into several sections (general, project reports, meeting organization, useful resources, daily reports). This structure facilitates easy access to necessary information, ensuring each team member quickly inform about project updates. Our communication extends beyond the digital space because we organize two meetings every week (one at the beginning and one near the end), where all team members participate. These meetings that are conducted either offline or online allow us to discuss achieved results and plan next steps. Additionally, team members working on the same component can arrange extra calls or meetings during the week as needed.
 
     We organize week-long sprints to enhance productivity, using GitHub issues to track tasks, assign responsibilities, and label components. To avoid last-minute rushes, we report daily on our progress to motivate each other and keep everyone informed about the project's status.
+
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/GitHub_issues.png">
 
 8) **Leveraging AI:**
 

@@ -90,7 +90,10 @@ title: "Week #2"
 	- [Image Magick](https://imagemagick.org/script/develop.php)
 	- [Material Design 3](https://m3.material.io/)
 
-2) Mentorship Support: ...
+2) Mentorship Support:
+   We are supported by Vladimir Bazelevich,
+   a master's student skilled in mathematics and machine learning (ML),
+   who will help us navigate potential ML challenges.
 
 3) **Exploring Alternative Resources:**
    In addition to documentation, we use websites like [StackOverflow](https://stackoverflow.com/) and
@@ -99,15 +102,31 @@ title: "Week #2"
    we refer to [Papers With Code](https://paperswithcode.com/), [Google Scholar](https://scholar.google.com/),
    and search engines.
 
-4) Identifying Knowledge Gaps: ...
+4) **Identifying Knowledge Gaps:**
+   Given the evolving nature of ML, we acknowledge the existence of knowledge gaps,
+   especially when dealing with problems that traditional algorithms cannot solve.
+   For instance, we plan to use siamese networks for image grouping,
+   a method that has yielded satisfactory results in similar tasks.
+   However, we are open to exploring new techniques or insights to enhance performance.
+   An example of this is providing a model with depth insight to detect defocus blur,
+   which resulted in improved performance.
+   To assess our ideas and gain valuable insights, we will consult our mentor.
 
-5) Engaging with the Tech Community: ...
+5) **Engaging with the Tech Community:**
+   We actively follow GitHub, Papers with Code, and Google Scholar to keep up with the latest ML developments.
 
-6) Learning Objectives: ...
+6) **Learning Objectives:**
+   Our goals include:
+	- Gaining hands-on experience in machine learning, particularly within the context of image processing and analysis.
+	- Experimenting with novel methods for blur detection and similar shot grouping.
+	- Enhancing our team collaboration skills through the joint implementation and publication of a user-friendly ool.
 
-7) Sharing Knowledge with Peers: ...
+7) **Sharing Knowledge with Peers:**
+   We regularly discuss relevant topics, share solutions, and brainstorm ideas in our Telegram group and calls.
 
-8) Leveraging AI: ...
+8) **Leveraging AI:**
+   We employ AI tools like [ChatGPT](https://chat.openai.com/) and [Chat Mistral](https://chat.mistral.ai/)
+   to gain clarity on technical aspects.
 
 ### **Tech Stack and Team Allocation**
 

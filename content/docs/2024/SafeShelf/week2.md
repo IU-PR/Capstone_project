@@ -1,7 +1,3 @@
----
-title: "Week #2"
----
-
 # **Week #2**
 
 ## **Week 2 - Choosing the Tech Stack, Designing the Architecture**

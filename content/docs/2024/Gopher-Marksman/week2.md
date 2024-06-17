@@ -149,7 +149,7 @@ The low-fidelity wireframes are designed to illustrate initial interface concept
 | Georgii Butakov (Lead)   | Backend           | Teamlead, Backend development, integration with blockchain      |
 | Artyom Shaposhnikov      | Backend           | Backend development, DevOps |
 | Nikita Ruchkin           | UI/UX,Frontend    | UI/UX designer |
-| Ivan Platonov            | Data Visualization| Backend development |
+| Ivan Platonov            | Backend           | Backend development, DevOps |
 | Mikhail Dudinov          | Frontend/Design   | Frontend development|
 
 ### **Weekly Progress Report**

@@ -15,6 +15,9 @@ title: "Week #2"
 | Olga Puzhalina           | Marketing & Client researcher | Marketing management, customer development, UX elaboration |
 | Rodion Chikibaev         | Leader of Backend development | Lead the backend team                    |
 | Timur Zheksimbaev        | Assistant backend developer   | Primary backend developer                |
+| Danil Shemetov           | Telegram bot developer        | Developing the Telegram bot for our application      |
+
+We have gained an additional teammember that would help us with Telegram API. He is a student from another university.
 
 ## Architecture Design 
 1. **Component Breakdown:**

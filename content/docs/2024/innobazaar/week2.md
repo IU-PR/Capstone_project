@@ -48,12 +48,12 @@
   - We have not yet engaged with a tech community or tech forum. But if necessary, we can always ask questions in online forums like stackoverflow, quora, reddit.
 - **Learning Objectives**:
   - Become proficient in Django, focus on mastering its capabilities for efficient data management, robust API development, and secure backend operations.
-  - Enhance ability to integrate React.js with Django seamlessly. This involves improving skills in handling data synchronization and ensuring smooth communication between frontend and backend components.
+  - Improve ability to integrate React.js with Django correctly. This involves improving skills in handling data synchronization and ensuring correct communication between frontend and backend components.
   - Improving frontend development skills, including proficiency in React.js, to be able to develop robust frontend components.
 - **Sharing Knowledge with Peers**:
-  - We have a telegram group chat, to where we also send the links with materials which we think can help us with the project. 
+  - We have a telegram group chat to where we also send the links with materials which we think can help us with the project. 
 - **Leveraging AI**:
-  - We use ChatGPT and Gemini to quickly access the documentations, and to write repetitive code.
+  - We use ChatGPT and Gemini to quickly access the documentations, and to write repetitive code (for example writing a script to add initial entries to the database, to do some testing).
 
 #### Tech Stack and Team Allocation
 Because many of our members are backend developers, we have thought of an idea to distribute endpoints between them, meaning everyone gets to write a code for 1-2 endpoints.
@@ -66,15 +66,10 @@ Because many of our members are backend developers, we have thought of an idea t
 | Aleksei Kureikin | Backend, Testing | Testing, API development |
 | Kamil Mirgasimov | Frontend | Develop frontend part of the website |
 | Muhibullo Khujabekov | Backend, Testing | Testing, API development |
-| Yoqub Davlatov | Backend | Architect API design, API development |
+| Yoqub Davlatov | Backend | Backend architecture, API development |
 
 #### Weekly Progress Report
-- **Our team did**:
-  - Finalized the tech stack.
-  - Designed the initial architecture.
-  - Created a responsive prototype.
-  - Created an API to retrieve list of products, to which filters(category, sort by, min/max price) can be applied.
-  - Created and API to retrieve info about a specific product.
+- During this week, our team finalized the tech stack, designed the initial architecture for backend, created a responsive prototype, and created an organized project structure. We developed an API to get a list of products with filters like category, sort by, and price range. Additionally, we made an API to retrieve details about a specific product. In this week, we have made a significant progress in addressing initial knowledge gaps. By focusing on practice, and using the resources provide in the internet, we are constantly learning something new.
 
 #### Challenges & Solutions
 - **Challenge**: Ensuring correct communation between frontend and backend.

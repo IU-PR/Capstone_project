@@ -8,6 +8,12 @@ title: "Week #2"
 
 ## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
 
+## **Overall purpose and relevance**
+The GymGuru project's main objective is to create a web application that uses computer vision technology to provide users with real-time feedback on their workout. This project is significant because it meets the rising need for efficient and reasonably priced exercise solutions by promoting health via the use of innovative technology.
+
+## **Week's focus and its relevance**
+This week, we concentrated on developing the GymGuru app's architecture, selecting the most suitable technological stack, searching for the necessary literature and resources, distributing areas of responsibility among team members, and determining such important aspects of the project as Scalability, Security, Deployment and so on. These activities are critical because they provide a basis for future development.
+
 ## **Tech Stack Selection**
 
 After several discussions our team defined a final at this moment Tech Stack that will allow us to implement all stated tasks for GymGuru project:
@@ -145,8 +151,8 @@ List of resources:
 | Team Member              | Track                                       | Responsibilities   |
 |--------------------------|---------------------------------------------|--------------------|
 | Gleb Bugaev      | Management (TeamLead) | Control of the working process, GitHub management (Backlog, Milestones, Issues) | 
-| Mariia Shmakova  | Reporter              | Report Writting |
-| Milana Sirozhova | Reporter              | Report Writting |
+| Mariia Shmakova  | Reporter              | Report Writing |
+| Milana Sirozhova | Reporter              | Report Writing |
 | Anna Gromova     | Backend               | Pose detection, Conditions for the correct performance of exercises |
 | Nail Minnemullin | Backend               | MoveNet connection, Database, Deployment with Docker, Prometheus + Grafana |
 | Arina Goncharova | Frontend              | Web Pages Development |
@@ -158,12 +164,22 @@ List of resources:
     - Arina Goncharova - Main, Profile, Login, Registration pages
     - Liana Mardanova - Exercises (preview + performing), Fittest, Rating pages
 - There are 2 reporters who responsible for the different parts of each weekly report:
-    - Mariia Shmakova - Desctiption of the necessary for report parts of project
+    - Mariia Shmakova - Description of the necessary for report parts of project
     - Milana Sirozhova - Diagrams and descriptions of project concepts
 
 ## **Weekly Progress Report**
 
 &nbsp;&nbsp;&nbsp;&nbsp;Throughout the week, our team was engaged in one of the main steps for the project - designing the structure of the web application. We have developed an application structure that includes all its components and a data management scheme. In addition, the team began implementing web pages and working with MoveNet to recognize the position of the human body.
+
+### **Feedback from TA**
+
+During our recent meeting with the TA, several important points were discussed:
+
+1. **Project Concept and Vision**: We reviewed our project concept and vision with the TA. He satisfied with our approach and had no major concerns, which was encouraging for our team's direction and strategy.
+
+2. **Milestones**: The discussion emphasized the importance of setting clear and achievable milestones. We learned best practices for defining and tracking these milestones to ensure steady progress.
+
+3. **Deployment**: We explored resource [(GitHub Education Pack)](https://education.github.com/pack/offers), which provides various tools to support our project's development and deployment stages.
 
 ## **Challenges & Solutions**
 
@@ -172,6 +188,8 @@ List of resources:
 - We discussed the different types of project structure, trying to figure out which one would best meet the needs of the project. After planning and several tests, the team decided that the best option would be to use the "fat client" approach, which will minimize the impact of Internet quality on the result and the load on the main server (this solution is described in more detail in the chapter **Scalability and Performance**).
 
 - We were faced with the choice of ML-tool for determining the position of the human body: the known ones  were MoveNet and MediaPipe. We tested both models with the simplest implementation on the server, which helped us choose MoveNet among these options. This model was characterized by a higher speed of human "skeleton" construction and it was more convenient for us to work with it to integrate into the client part using JavaScript.
+
+This week, our team learned the importance of choosing the right project structure and tools for optimal performance and efficiency. By selecting the "fat client" approach and using MoveNet for human body position detection, we were able to minimize server load and improve implementation speed, enhancing overall project scalability and user experience.
 
 ## **Conclusions & Next Steps**
 

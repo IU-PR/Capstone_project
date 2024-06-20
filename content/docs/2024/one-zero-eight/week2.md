@@ -16,7 +16,7 @@ title: "Week #2"
 
 ### Overview Schema
 
-{{<mermaid>}}
+```mermaid
 graph TD
     %% Styles %%
     style User fill:#f99,stroke:#333,stroke-width:2px,color:#000
@@ -48,11 +48,11 @@ graph TD
     %% Data Flow %%
     MoodleExtension -->|Send pdfs| SearchAPI
     TelegramUserBot -->|Send posts| SearchAPI
-{{</mermaid>}}
+```
 
 ### NLP Search Pipeline Schema
 
-{{<mermaid>}}
+```mermaid
 graph TD
     style Scrapers fill:#f9f,stroke:#333,stroke-width:2px,color:#000
     style RawData fill:#bbf,stroke:#333,stroke-width:2px,color:#000
@@ -88,7 +88,7 @@ graph TD
     QueryVectors -->|Searches| Similarity
     ScoreIndex -->|Provides| Answer["Relevant Data, Sources"]
     Answer -->|Displayed to| User["User"]
-{{</mermaid>}}
+```
 
 1. **Component Breakdown**: 
     1. **ASGI API app**. The ASGI (Asynchronous Server Gateway Interface) API application forms the core of the backend infrastructure for your project, facilitating efficient and scalable web service development tailored to handle asynchronous operations and high concurrency demands. This component's responsibilities and design are critical as it directly impacts both the performance and maintainability of the system. Technologies: FastAPI, MongoDB & Beanie, Qdrant | FAISS, MinIO. Below is a breakdown of functionality:

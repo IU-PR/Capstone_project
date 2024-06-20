@@ -19,16 +19,16 @@ title: "Week #2"
 ```mermaid
 graph TD
 		%% Styles %%
-    style User fill:#f99,stroke:#333,stroke-width:2px
-    style SearchPage fill:#f9f,stroke:#333,stroke-width:2px
-    style SearchAPI fill:#f9f,stroke:#333,stroke-width:2px
-    style MongoDB fill:#b3ff99,stroke:#333,stroke-width:2px
-    style Qdrant fill:#b3ff99,stroke:#333,stroke-width:2px
-    style MinIO fill:#b3ff99,stroke:#333,stroke-width:2px
-    style MoodlePage fill:#bbf,stroke:#333,stroke-width:2px
-    style MoodleExtension fill:#f9f,stroke:#333,stroke-width:2px
-    style TelegramChannel fill:#bbf,stroke:#333,stroke-width:2px
-    style TelegramUserBot fill:#f9f,stroke:#333,stroke-width:2px
+    style User fill:#f99,stroke:#333,stroke-width:2px,color:#000
+    style SearchPage fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style SearchAPI fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style MongoDB fill:#b3ff99,stroke:#333,stroke-width:2px,color:#000
+    style Qdrant fill:#b3ff99,stroke:#333,stroke-width:2px,color:#000
+    style MinIO fill:#b3ff99,stroke:#333,stroke-width:2px,color:#000
+    style MoodlePage fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style MoodleExtension fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style TelegramChannel fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style TelegramUserBot fill:#f9f,stroke:#333,stroke-width:2px,color:#000
 	
     %% User Interaction %%
     User[User] -->|Make query and see results| SearchPage["innohassle.ru/search"]
@@ -54,21 +54,21 @@ graph TD
 
 ```mermaid
 graph TD
-    style Scrapers fill:#f9f,stroke:#333,stroke-width:2px
-    style RawData fill:#bbf,stroke:#333,stroke-width:2px
-    style Cleaner fill:#f9f,stroke:#333,stroke-width:2px
-    style Storage fill:#b3ff99,stroke:#333,stroke-width:2px
-    style Chunks fill:#bbf,stroke:#333,stroke-width:2px
-    style Tokenizer fill:#f9f,stroke:#333,stroke-width:2px
-    style Vectors fill:#bbf,stroke:#333,stroke-width:2px
-    style Similarity fill:#b3ff99,stroke:#333,stroke-width:2px
-    style ScoreIndex fill:#bbf,stroke:#333,stroke-width:2px
-    style Query fill:#f99,stroke:#333,stroke-width:2px
-    style ChunkGenerator fill:#f9f,stroke:#333,stroke-width:2px
-    style Answer fill:#bff,stroke:#333,stroke-width:2px
-    style QueryTokenizer fill:#f9f,stroke:#333,stroke-width:2px
-    style QueryVectors fill:#bbf,stroke:#333,stroke-width:2px
-    style User fill:#f99,stroke:#333,stroke-width:2px
+    style Scrapers fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style RawData fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style Cleaner fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style Storage fill:#b3ff99,stroke:#333,stroke-width:2px,color:#000
+    style Chunks fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style Tokenizer fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style Vectors fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style Similarity fill:#b3ff99,stroke:#333,stroke-width:2px,color:#000
+    style ScoreIndex fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style Query fill:#f99,stroke:#333,stroke-width:2px,color:#000
+    style ChunkGenerator fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style Answer fill:#bff,stroke:#333,stroke-width:2px,color:#000
+    style QueryTokenizer fill:#f9f,stroke:#333,stroke-width:2px,color:#000
+    style QueryVectors fill:#bbf,stroke:#333,stroke-width:2px,color:#000
+    style User fill:#f99,stroke:#333,stroke-width:2px,color:#000
 
     %% Document Pipeline %%
     Scrapers["Scrapers"] -->|Collects| RawData["Raw Data"]

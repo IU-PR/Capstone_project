@@ -17,6 +17,7 @@ title: "Week #2"
 ### Overview Schema
 
 ```mermaid
+%% {{< mermaid >}}
 graph TD
 		%% Styles %%
     style User fill:#f99,stroke:#333,stroke-width:2px,color:#000
@@ -48,11 +49,13 @@ graph TD
     %% Data Flow %%
     MoodleExtension -->|Send pdfs| SearchAPI
     TelegramUserBot -->|Send posts| SearchAPI
+%% {{< /mermaid >}}
 ```
 
 ### NLP Search Pipeline Schema
 
 ```mermaid
+%% {{< mermaid >}}
 graph TD
     style Scrapers fill:#f9f,stroke:#333,stroke-width:2px,color:#000
     style RawData fill:#bbf,stroke:#333,stroke-width:2px,color:#000
@@ -88,7 +91,7 @@ graph TD
     QueryVectors -->|Searches| Similarity
     ScoreIndex -->|Provides| Answer["Relevant Data, Sources"]
     Answer -->|Displayed to| User["User"]
-
+%% {{< /mermaid >}}
 ```
 
 1. **Component Breakdown**: 

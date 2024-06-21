@@ -1,7 +1,3 @@
----
-title: "Week #2"
----
-
 # **Week #2**
 
 ## **Week 2 - Choosing the Tech Stack, Designing the Architecture**
@@ -126,13 +122,13 @@ Team discussions led to the selection of a tech stack focused on machine learnin
 
 | Team Member              | Track                                       | Responsibilities   |
 |--------------------------|---------------------------------------------|--------------------|
-| Team Member (Lead) 1     | [ML]                                        | [MLEngineer/Lead]  |
-| Team Member 2            | [DataAnalysis/DataDeepUnderstanding]        | [DA/DataPrep]      |
-| Team Member 3            | [DataAnalysis/DataDeepUnderstanding]        | [DA/DataPrep]      |
-| Team Member 4            | [Backend]                                   | [PythonBack/TgBot] |
-| Team Member 5            | [Backend]                                   | [JavaBack]         |
-| (Optional) Team Member 6 | [ML]                                        | [MLEngineer]       |
-| (Optional) Team Member 7 | [DataAnalysis/DataDeepUnderstanding]        | [DAHelp/Reports]   |
+| Erokhin Evgenii (Lead)   | [DS]                                        | [MLEngineer/Lead]  |
+| Daniil Zimin             | [SD]                                        | [DA/DataPrep]      |
+| Pakhomov Roman           | [SD]                                        | [DA/DataPrep]      |
+| Krasheninnikov Ilya      | [AI]                                        | [PythonBack/TgBot] |
+| Zverev Demyan            | [SD]                                        | [JavaBack]         |
+| Davydov Danil            | [DS]                                        | [MLEngineer]       |
+| Niyaz Shaydullin         | [SD]                                        | [DAHelp/Reports]   |
 
 ### **Weekly Progress Report**
 

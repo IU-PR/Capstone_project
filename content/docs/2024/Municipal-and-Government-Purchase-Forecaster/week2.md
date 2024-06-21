@@ -15,26 +15,35 @@ After careful deliberation, our team chose the following tech stack:
 
 1. **Component Breakdown**: 
     
+
     1.1. Python Model:
+
         * Responsibilities:
             Develop algorithms for data analysis, including detection of regular purchase patterns and forecasting future needs.
             Implement machine learning models to improve prediction accuracy over time.
+
         * Interactions:
             Interacts with the database to fetch and store data for analysis.
             Provides data outputs and forecasts to the bot and web interface for user consumption.
+
     1.2. Python Bot:
+
         * Responsibilities:
             Serve as the primary user interaction interface through Telegram.
             Handle user requests for data visualizations, forecasts, and download links for JSON files.
+
         * Interactions:
             Communicates with the Telegram API to receive and send messages.
             Interacts with the Python model to request data analysis and forecasts.
             Fetches data from the database as needed.
             Utilizes the Keycloak API for user authentication and authorization.
+
     1.3. Java Backend:
+
         * Responsibilities:
             Manage core business logic and handle backend processing.
             Facilitate communication between the frontend (bot and web interface) and the database.
+
         * Interactions:
             Acts as a bridge between the user interfaces and the database.
             Handles API requests from the Python bot and web interface.

@@ -43,7 +43,35 @@ gitGraph
   merge telegram-bot
 {{</mermaid>}}
 
-- **Backend Development**: Start implementing the backend functionality of your prototype. This involves developing the server-side logic, ML model development, and APIs necessary to support the desired features. Focus on building the core functionality that will enable the primary user interactions and data management.
+To review code, we use pull requests: https://github.com/IU-Capstone-Project-2024/MoniDorm/pulls
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/pull.jpg">
+    <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/review.jpg">
+</div>
+
+- **Backend Development**:
+
+The backend development is progressing rapidly:
+
+We designed 4 versions of API REST Contracts: [API REST Contracts](https://github.com/IU-Capstone-Project-2024/MoniDorm/wiki/Architecture#api-rest-contract)
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/contract.jpg">
+</div>
+
+We have also started implementing them: [Implementation PR](https://github.com/IU-Capstone-Project-2024/MoniDorm/pull/19)
+
+Later, we allocated time to refactor the code: [Refactor PR](https://github.com/IU-Capstone-Project-2024/MoniDorm/pull/27)
+
+Now, the API is deployed and is being used by other services: [API Swagger UI](http://10.90.138.215:8080/swagger-ui/index.html)
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/swagger.jpg">
+</div>
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/swagger2.jpg">
+</div>
 
 - **Frontend Development**: Begin developing the frontend components of your prototype. Use the wireframes created earlier as a guide and start building the user interface elements using appropriate technologies and frameworks. Pay attention to creating an intuitive and user-friendly interface that aligns with your MVP feature set. Make sure that you are implementing all main components. Secondary feature set can be postponed till second or third iteration. Prioritize functionality over appearance.
 

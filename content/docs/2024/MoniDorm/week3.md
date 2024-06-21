@@ -6,7 +6,42 @@ title: "Week #3"
 
 ## **Developing the first prototype, creating the priority list**
 
-- **Technical Infrastructure**: All of the necessary technical infrastructure required to support your prototype development should be ready to use. If this is still not done, make it a priority number one. This may involve creating a shared development environment, including all necessary frameworks and platforms (i.e., GPU servers). Ensure that your development environment is ready for efficient coding and testing. Make sure all team members can efficiently utilize the development infrastructure, if not - organize learning sessions explaining the process. This is an absolute priority for the success of the project.
+- **Technical Infrastructure**: 
+
+Currently, all the technical infrastructure for the prototype is ready. We deploy all microservices on remote virtual machines and support them using CI/CD. All pipelines run on self-hosted runners:
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/self-hosted_runners.jpg">
+</div>
+
+Since all microservices run in Docker containers, it is easy to add new functionality without the problems of changing server infrastructure:
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/docker_container.jpg">
+</div>
+
+We also follow the Git-flow approach in developing the code:
+{{<mermaid>}}
+gitGraph
+  commit
+  branch api-server
+  commit
+  checkout main
+  branch telegram-bot
+  commit
+  commit
+  checkout api-server
+  commit
+  commit
+  checkout main
+  branch frontend
+  commit
+  commit
+  checkout telegram-bot
+  commit
+  checkout main
+  merge frontend
+  merge api-server
+  merge telegram-bot
+{{</mermaid>}}
 
 - **Backend Development**: Start implementing the backend functionality of your prototype. This involves developing the server-side logic, ML model development, and APIs necessary to support the desired features. Focus on building the core functionality that will enable the primary user interactions and data management.
 

@@ -83,8 +83,6 @@ After finalizing the tech stack and team allocation, how did you ensure that eac
 
 ### **Weekly Progress Report**
 
-We kindly remind you to continue maintaining your weekly progress report blog. These reports are an integral part of tracking the progress of your projects and ensuring effective communication. Each team is required to submit a detailed report by Friday 18:00 of each week.
-
 In your progress reports this week, provide informative and substantive accounts of your accomplishments, challenges faced, and the steps taken to overcome them. Clearly explain your achievements, the strategies you employed, and the lessons learned. These reports will be evaluated, and constructive feedback will be provided to support your project's successful completion.
 
 We encourage you to view the blog as a platform to share your accomplishments, insights, and challenges. Use it as an opportunity to engage with your peers, seek feedback, and showcase your growth throughout this journey.

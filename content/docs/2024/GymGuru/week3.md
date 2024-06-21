@@ -30,10 +30,27 @@ title: "Week #3"
 ## **User Interface**
 
 
+## **Developing the first prototype, creating the priority list**
 
-## **Testing (by team members)**
+- **Technical Infrastructure**:
 
+...
 
+- **Backend Development**:
+
+&nbsp;&nbsp;&nbsp;&nbsp;During this week our team was focused on the following tasks: recognition of a body by using MoveNet (pose detection model) was implemented, then correct execution checking was developed for some exercises. Moreover, we chose a domain name, rented a server and hosted your web application.
+
+- **Frontend Development**:
+
+&nbsp;&nbsp;&nbsp;&nbsp;As about our progress on fronted: we have finished with all important pages: main page, registration and login page, rating page with possibility to flipping through pages with exercises results, page with exercises, where user can click on the exercise preview and see the page with the video of a correct technique and can train with the help of video model assistant. Also, we have implemented a fitness test page, where users can see the necessary thresholds to pass for each exercise. 
+
+- **Data Management**:
+
+...
+
+- **Prototype Testing**:
+
+...
 
 ## **Challenges & Solutions**
 

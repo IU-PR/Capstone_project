@@ -18,72 +18,69 @@ After careful deliberation, our team chose the following tech stack:
 
     1.1. Python Model:
 
-        * Responsibilities:
+    * Responsibilities:
             Develop algorithms for data analysis, including detection of regular purchase patterns and forecasting future needs.
             Implement machine learning models to improve prediction accuracy over time.
-
-        * Interactions:
+    * Interactions:
             Interacts with the database to fetch and store data for analysis.
             Provides data outputs and forecasts to the bot and web interface for user consumption.
 
     1.2. Python Bot:
 
-        * Responsibilities:
+    * Responsibilities:
             Serve as the primary user interaction interface through Telegram.
             Handle user requests for data visualizations, forecasts, and download links for JSON files.
-
-        * Interactions:
+    * Interactions:
             Communicates with the Telegram API to receive and send messages.
             Interacts with the Python model to request data analysis and forecasts.
             Fetches data from the database as needed.
             Utilizes the Keycloak API for user authentication and authorization.
 
     1.3. Java Backend:
-
-        * Responsibilities:
+   
+    * Responsibilities:
             Manage core business logic and handle backend processing.
             Facilitate communication between the frontend (bot and web interface) and the database.
-
-        * Interactions:
+    * Interactions:
             Acts as a bridge between the user interfaces and the database.
             Handles API requests from the Python bot and web interface.
             Implements security measures and data encryption.
 
-2. **Data Management**: 
+3. **Data Management**: 
 
     * Parsing Initial Dataset: Extract data from provided files (e.g., “Выгрузка контрактов по Заказчику”, “КПГЗ, СПГЗ, СТЕ”, “Складские остатки”, “Обороты по счету”) and load into a database.
     * Database Setup: Choose a database (e.g., PostgreSQL, MongoDB) to store parsed data.
     * Data Analysis: Implement algorithms to analyze purchase data, detect regular purchase patterns, and forecast future needs.
 
-3. **User Interface (UI) Design**:
+4. **User Interface (UI) Design**:
     
     * Telegram Bot Interface: Develop a chatbot using the Telegram API to interact with users, allowing them to request data visualizations, forecasts, and download JSON files.
 
-4. **Integration and APIs**:
+5. **Integration and APIs**:
 
     * Telegram API: For creating the bot and handling user interactions.
     * GPT API: For processing natural language commands if needed for advanced interaction.
     * Keycloak API: For handling user authentication and authorization.
 
-5. **Scalability and Performance**:
+6. **Scalability and Performance**:
 
     * Service Scalability: Design the service to support multiple organizations and various time periods.
     * Load Balancing: Use load balancing techniques to ensure service stability under high demand.
     * Database Optimization: Implement indexing and caching strategies to handle large datasets efficiently.
 
-6. **Security and Privacy**:
+7. **Security and Privacy**:
     
     * User Authentication and Authorization: Implement Keycloak for secure user authentication and authorization.
     * Role Management: Differentiate between common users and administrators, restricting access to sensitive functionalities and data.
     * Data Encryption: Encrypt sensitive data both in transit and at rest.
 
-7. **Error Handling and Resilience**:
+8. **Error Handling and Resilience**:
     
     * Error Logging: Implement comprehensive logging for tracking errors and issues.
     * Retry Mechanisms: Develop retry mechanisms for failed operations, especially for API calls.
     * Graceful Degradation: Ensure the system can still function with reduced capabilities in case of partial failures.
 
-8. **Deployment and DevOps**:
+9. **Deployment and DevOps**:
     * Docker Containers: Containerize the application using Docker for consistency across development, testing, and production environments.
     * Remote Server: Deploy the application on a remote server (e.g., AWS, Azure) for accessibility and scalability.
 

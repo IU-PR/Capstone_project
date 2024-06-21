@@ -6,7 +6,7 @@ title: "Week #3"
 
 ## **Developing the first prototype, creating the priority list**
 
-- **Technical Infrastructure**: 
+### **Technical Infrastructure**: 
 
 Currently, all the technical infrastructure for the prototype is ready. We deploy all microservices on remote virtual machines and support them using CI/CD. All pipelines run on self-hosted runners:
 <div style="display: flex; justify-content: center; align-items: center;">
@@ -50,7 +50,7 @@ To review code, we use pull requests: https://github.com/IU-Capstone-Project-202
     <img style="max-width: 50%; height: auto;" src="/2024/Monidorm/review.jpg">
 </div>
 
-- **Backend Development**:
+### **Backend Development**:
 
 The backend development is progressing rapidly:
 
@@ -73,11 +73,17 @@ Now, the API is deployed and is being used by other services: [API Swagger UI](h
     <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/swagger2.jpg">
 </div>
 
-- **Frontend Development**: Begin developing the frontend components of your prototype. Use the wireframes created earlier as a guide and start building the user interface elements using appropriate technologies and frameworks. Pay attention to creating an intuitive and user-friendly interface that aligns with your MVP feature set. Make sure that you are implementing all main components. Secondary feature set can be postponed till second or third iteration. Prioritize functionality over appearance.
+### **Frontend Development**:
 
-- **Data Management**: Implement the necessary data management capabilities for your prototype. This may involve setting up databases, designing data models, and implementing data retrieval and storage functionalities. Ensure that your prototype can effectively handle and manage user data as required by the prioritized features. Make it as simple as possible, but initial version of your database should do some basic operations from the MVP feature set.  
+ Begin developing the frontend components of your prototype. Use the wireframes created earlier as a guide and start building the user interface elements using appropriate technologies and frameworks. Pay attention to creating an intuitive and user-friendly interface that aligns with your MVP feature set. Make sure that you are implementing all main components. Secondary feature set can be postponed till second or third iteration. Prioritize functionality over appearance.
 
-- **Prototype Testing**: By the end of the week 3, conduct initial rounds of testing to identify and address any usability issues or bugs in your prototype. Test the implemented features against the defined user flows and scenarios to ensure they function as intended. Collect feedback from your team members to gain insights and make necessary refinements to improve the user experience.
+### **Data Management**:
+
+ Implement the necessary data management capabilities for your prototype. This may involve setting up databases, designing data models, and implementing data retrieval and storage functionalities. Ensure that your prototype can effectively handle and manage user data as required by the prioritized features. Make it as simple as possible, but initial version of your database should do some basic operations from the MVP feature set.  
+
+### **Prototype Testing**:
+
+ By the end of the week 3, conduct initial rounds of testing to identify and address any usability issues or bugs in your prototype. Test the implemented features against the defined user flows and scenarios to ensure they function as intended. Collect feedback from your team members to gain insights and make necessary refinements to improve the user experience.
 
 ---
 

@@ -79,7 +79,34 @@ Now, the API is deployed and is being used by other services: [API Swagger UI](h
 
 ### **Data Management**:
 
- Implement the necessary data management capabilities for your prototype. This may involve setting up databases, designing data models, and implementing data retrieval and storage functionalities. Ensure that your prototype can effectively handle and manage user data as required by the prioritized features. Make it as simple as possible, but initial version of your database should do some basic operations from the MVP feature set.  
+For data storage, we followed the plan outlined in our Week 2 report.
+
+**PostgreSQL:**
+- Purpose: Store reports on dormitory infrastructure issues.
+- Basic Operations: Insert, update, retrieve, and delete reports.
+```
+CREATE TABLE IF NOT EXISTS report(
+    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    category varchar(128) NOT NULL,
+    placement varchar(128) NOT NULL,
+    failure_date TIMESTAMP WITH TIME ZONE,
+    proceeded_date TIMESTAMP WITH TIME ZONE,
+    owner_email varchar(128),
+    is_confirmed_by_analysis BOOLEAN NOT NULL,
+    is_confirmed_by_admin BOOLEAN NOT NULL,
+    is_resolved_by_user BOOLEAN NOT NULL,
+    is_resolved_by_admin BOOLEAN NOT NULL,
+    description varchar(256)
+);
+```
+
+We use PostgreSQL for storing reports, adding data via API, and providing functionality for deleting and modifying certain fields (is_confirmed_by_analysis, is_confirmed_by_admin, is_resolved_by_user, is_resolved_by_admin, description). 
+
+**MongoDB:**
+- Purpose: Store user information, including authentication details and roles.
+- Basic Operations: Insert, update, retrieve, and delete user data.
+
+The Telegram bot is connected to a MongoDB database, where it stores user emails, used commands, and other critical parts of the dialog.
 
 ### **Prototype Testing**:
 

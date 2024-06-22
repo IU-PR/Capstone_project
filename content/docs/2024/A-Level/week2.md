@@ -8,7 +8,17 @@ title: "Week #2"
 
 ### **Tech Stack Selection**
 
-...
+- **Frontend**
+  - **Technologies**: React, Next.js, Figma
+
+- **Backend**
+  - **Technologies**: FastAPI, MongoDB
+
+- **Machine Learning (ML)**
+  - **Technologies**: PyTorch, Python libraries, IPython Notebook
+
+- **DevOps**
+  - **Technologies**: Docker, Docker Compose
 
 ### **Architecture Design**
 

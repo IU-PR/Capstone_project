@@ -42,7 +42,7 @@ We did not build our AI pipeline yet (all models are not connected yet). However
     * Secondly, LLM model generated a new prompt for a Diffusion model:
     "mansion house, two-storey house, country living, English countryside, small cottage, modern house, large house, family home";
     * Thirdly, we pass the modified prompt to a Diffusion model, that generates the following image:
-![House_1_img](/static/2024/OmniShaper/House_1.jpg)
+![House_1_img](/static/2024/OmniShaper/House_1.png)
 
     * Fourthly, we pass the image to Wonder3D to get the set of images of and object from different angles:
 ![House_1_img](/static/2024/OmniShaper/House_1_collage.png)

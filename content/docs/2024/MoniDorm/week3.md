@@ -87,6 +87,8 @@ For the Frontend development we have created a website with embedded Grafana vis
     <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/frontend.png">
 </div>
 
+During the creation of the page we have faced some difficulties, but the most important is how to visualize data. We tried some methods, but the most successful was the embedded interactive Grafana dashboard, which you can see on the screenshot above. We plan to have a set of dashboards on the page, on which an admin can easily navigate and see detailed statistics.
+
 ### **Data Management**:
 
 For data storage, we followed the plan outlined in our Week 2 report.

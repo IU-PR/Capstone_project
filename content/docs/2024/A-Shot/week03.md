@@ -27,25 +27,20 @@ Our model showed promising results during testing on our internal dataset, as de
 our [GitHub issue](https://github.com/IU-Capstone-Project-2024/A-Shot/issues/12).
 This model leverages depth and depth-of-field cues to enhance blur detection accuracy significantly.
 
-Here you can see video of model work:
-
-
 - **Image Grouping Model**:
 
 For the **Image Grouping model**, we
 utilized [CVNet](https://github.com/shihaoshao-gh/superglobal?tab=readme-ov-file),
 informed by the research in this [paper](https://arxiv.org/abs/2308.06954) and further supported by a
 second [study](https://strathprints.strath.ac.uk/55814/1/Connor_etal_VISAPP_2015_identification_of_mir_flickr_near_duplicate_images.pdf).
-The model was trained on
-the [California-ND dataset](https://www.researchgate.net/publication/256986331_California-ND_An_annotated_dataset_for_near-duplicate_detection_in_personal_photo_collections),
-which is specifically annotated for near-duplicate detection in personal photo collections. This approach has
-significantly improved the accuracy and reliability of our image grouping functionality.
+The model was trained on the [Oxford5k]{https://paperswithcode.com/dataset/oxford5k) and [Paris6K](https://paperswithcode.com/dataset/paris6k) datasets.
+We tested it firstly on Oxford5k dataset, then edited some code to add ability to run our own photos through the model and exported model we tested on custom dataset.
 
 ### **Frontend Development**
 
 Our application was developed using *Kotlin Multiplatform Compose*, leveraging the IntelliJ IDEA environment for an
 efficient development workflow. Kotlin Multiplatform allows us to share code across multiple platforms, ensuring a
-seamless and consistent user experience.
+seamless and consistent user experience. We used Hi-Fi UI Prototype v2.0 from previous week
 
 ### **Data Management**
 
@@ -56,9 +51,8 @@ capabilities, providing a solid foundation for future application scalability.
 
 ### **Prototype Testing**
 
-We conducted extensive testing of our prototype to ensure reliability and performance.
-The testing phase involved evaluating the models' accuracy, the application's responsiveness, and overall system
-stability.
+The testing phase involved evaluating the models' accuracy and desktop app testing. They are working really well, with high accuracy. Moreover, 
+we tried the desktop application, and unsatisfied with screen space waste, that we will make adjustments
 Also, we created CI/CD pipelines based on **Gradle** and **CMake** building for different operating systems to improve testing
 In plans, CI/CD pipelines for deployment using GitHub Releases
 
@@ -90,6 +84,12 @@ the key accomplishments:
 - Implemented the code to execute the blur detection model on the uploaded images.
 - Connected the C++ backend logic with the Java application, ensuring smooth functionality.
 
+Here you can see screenshots of blur-detection model work:
+
+![First image](/2024/A-Shot/week03/blur-detection/blur-1.png)
+![Second image](/2024/A-Shot/week03/blur-detection/blur-2.png)
+![Third image](/2024/A-Shot/week03/blur-detection/blur-3.png)
+
 [Here you can see the video of blur-detection model work](https://drive.google.com/drive/u/0/folders/18jDpyZYHyM5TImLloxhwcTvzpyfWj6Ws)
 
 Here you can see screenshots of image-groiping model work:
@@ -102,6 +102,12 @@ Here you can see screenshots of image-groiping model work:
 
 - Integrated most of the UI components into the existing UX skeleton created in the previous week.
 
+Here you can see the screenshots of working prototype:
+
+![First image](/2024/A-Shot/week03/app/app-1.png)
+![Second image](/2024/A-Shot/week03/app/app-2.png)
+![Third image](/2024/A-Shot/week03/app/app-3.png)
+
 [Here you can see the video of working prototype](https://drive.google.com/file/d/1KzaFrnpbjQm7oWYZ74eE02lWsVIItn-N/view?usp=sharing)
 
 ### **Testing and CI/CD**
@@ -111,37 +117,31 @@ Here you can see screenshots of image-groiping model work:
   and consistency.
 
 ### **Challenges & Solutions**
-- **1st Problem** Trained models must be run from the application. We could have called code from Java and Python using libraries, or run a separate subprocess and use stdout/in for communication, but this did not suit us.
-  
-- **1st Solution** We decided to use onnxruntime, a tool that allows you to run neural networks on any device.  To do this, we exported the models to the .onnx format. We wrote a C++ library that uses ImageMagick to upload images and Onnxruntime to launch neurons. Next, the application accesses this library using JNI (Java Native Interface).
 
+- **Challenge 1: Running Trained Models from the Application**  
+  *Problem*: Directly calling code from Java and Python using libraries, or running a separate subprocess and using stdout/in for communication, was not suitable for our requirements.  
+  *Solution*: We utilized onnxruntime, a tool that allows neural networks to run on any device. The models were exported to the .onnx format. We then wrote a C++ library that leverages ImageMagick for image uploading and onnxruntime for running neural models. The application accesses this library via JNI (Java Native Interface).
 
-- **2nd Problem** onnxruntime and imagemagick are required to run our library
+- **Challenge 2: Dependencies for Running Our Library**  
+  *Problem*: Our library requires onnxruntime and ImageMagick to function.  
+  *Solution*: We compiled these libraries from source with the necessary configurations and included them in our library.
 
-- **2nd Solution** We have compiled these libraries from the source with the necessary configurations for us and included them in our library
+- **Challenge 3: Exporting the Model with Specific Functionality**  
+  *Problem*: The model required two photos to train and return a similarity score, but we needed a feature vector from a single photo input. Additionally, there was an export error that was difficult to track due to a lack of documentation.  
+  *Solution*: We parsed and analyzed the model's code and wrapped the model class in another class to ensure the necessary functions were called correctly.
 
 ### **Conclusions & Next Steps**
 
 Despite significant progress, several tasks remain:
 
-1. **Model Performance Improvement**:
-
-- While the current model accuracy is satisfactory, we aim to further enhance performance through additional
-  training and fine-tuning. Also, it will be nice to optimize blur detection model to reduce the complexity and weight
-  of the model
-- Also we need to integrate Image-Grouping model into our application
+1. **Models Performance Improvement**:
+   - Enhance the current models' performance through additional training and fine-tuning.
+   - Optimize the blur detection model to reduce complexity and weight.
+   - Integrate the Image-Grouping model into our application.
 
 2. **Frontend Completion**:
-
-- At testing phase we understand, that UI 'eats' a lot of extra space, it seems informate, so we will brainstorm 
-about new ways to update UI features and finalize the remaining parts of the frontend to ensure complete 
-functionality and a polished user experience.
+   - Address UI issues identified during testing, such as excessive space usage, and brainstorm new ways to update UI features.
+   - Finalize the remaining parts of the front end to ensure complete functionality and a polished user experience.
 
 3. **Database Integration**:
-
-- Integrate SQLite and Room for database management to improve application performance and user experience.
-- This will eliminate the need for importing libraries every time, streamlining data handling processes.
-
-3. **Multiplatforming**:
-
-- While our library has been compiled and tested on Linux, next week we will build it for Windows and macOS
+   - Integrate SQLite and Room for database management to improve application performance and user experience. This integration will streamline data handling processes and eliminate the need for importing libraries every time.

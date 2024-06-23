@@ -28,7 +28,7 @@ title: "Week #3"
 
 &nbsp;&nbsp;&nbsp;&nbsp;That is our project architecture, red elements are not implemented yet. Others are implemented and they are the base of our first prototype:
 
-<img src="/GymGuru-master/static/2024/GymGuru/Week3_ImplementedParts.jpg" width="880" height="1200">
+<img src="/2024/GymGuru/Week3_ImplementedParts.jpg" width="880" height="1050">
 
 ## **User Interface**
 
@@ -36,31 +36,31 @@ title: "Week #3"
 
 - Main page
 
-<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_1.png" width="880" height="660">
+<img src="/2024/GymGuru/Week3_UI_1.png" width="880" height="520">
 
 - Registration page
 
-<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_2.png" width="880" height="660">
+<img src="/2024/GymGuru/Week3_UI_2.png" width="880" height="520">
 
 - Login page
 
-<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_3.png" width="880" height="660">
+<img src="/2024/GymGuru/Week3_UI_3.png" width="880" height="520">
 
 - Rating page (Buttons “Next” and “Previous” are clickable to see other exercises rating)
 
-<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_4.png" width="880" height="660">
+<img src="/2024/GymGuru/Week3_UI_4.png" width="880" height="520">
 
 - Exercises page
 
-<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_5.png" width="880" height="660">
+<img src="/2024/GymGuru/Week3_UI_5.png" width="880" height="520">
 
 - Exercises` buttons are clickable, user can see the videos of a correct performing (now it is done for Push-Ups)
 
-<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_6.png" width="880" height="660">
+<img src="/2024/GymGuru/Week3_UI_6.png" width="880" height="520">
 
 - Fitness test page
 
-<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_7.png" width="880" height="660">
+<img src="/2024/GymGuru/Week3_UI_7.png" width="880" height="520">
 
 
 

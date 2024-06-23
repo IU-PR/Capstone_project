@@ -34,14 +34,35 @@ title: "Week #3"
   project.
 
 - **Video showcase**
+-
 
 https://youtu.be/aW6B97lPjbg
+
+That is what is visible from the client side, but for the insides you can see the logs of Kubernetes:
 
 ![w3KubernetesStatistics.png](/2024/code_battle_advanced/w3KubernetesStatistics.png)
 
 ## **Weekly Progress Report**:
 
-Our team did...
+For a video of the prototype please click on the video that is put before this section with a photo of the Kubernetes
+logs. Now, for the code itself, you can visit [GitHub](https://github.com/IU-Capstone-Project-2024/code-battle-advanced)
+to view it.
+
+### **Prototype features**
+
+Whilst we are still lacking the activities that we were promising, the underlying structure is now sufficient to start
+implementing them, as well as the judging is now in working order, although it requires us to make more adjustments to
+improve security. As for core interactions, all of them are already working as described several times with this photo
+in mind:
+
+![Diagram.png](/2024/code_battle_advanced/Diagram.png)
+
+Other than that we do not see what needs to be reported in this part of the document.
+
+### **User Interface**
+
+We are already working on it, and it is already in working order, just needs polishing and improving. For a more visible
+understanding, please refer to the video that we have showcased.
 
 ### **Challenges & Solutions**
 
@@ -54,9 +75,21 @@ Our team did...
    with elements.
 5. Creating user interface elements. Using CSS to style elements to add interactivity to create custom interface
    elements such as buttons, shapes.
-
-...
+6. One of the teammates took desperate measures on trying to learn coding via Vim Code Editor for a more productive
+   development along with the use of git commands via Terminal. Roughly, this mistake took two weeks that could bring
+   successful code delivery. Now the lessons demonstrated that IDE is an integral part of creating the projects.
+7. Regular changes of database structure(number of tables and its columns) should have been avoided originally from the
+   initial project planning of week 1. Violating such precautions led to a substantial amount of time wasted on this
+   little part of the code.
+8. Designing and partially implementing a simple but powerful system for contest customization. It is very hard to make
+   everything fit nicely with the systems that are already implemented, although I believe I have managed to do it.
+9. Debugging of just one container from the system. Rebuilding the whole architecture takes a while. Thankfully,
+   kubernetes allows removing any part and substituting it with a newly built version with changes applied in the code.
 
 ### **Conclusions & Next Steps**
 
-...
+A set of wrong decisions have been made that caused significantly reduced efficiency of some developers. Still, the
+platform keeps its evolution with features planned to appear in the next week that will set us apart from the
+competitors. As for the next steps, the team is now ready to work at full capacity and will attempt to do so to improve
+the existing code and make the planned modules such as activities into reality, which should separate the workload
+between the two directions and allow us all to achieve greater effectiveness. 

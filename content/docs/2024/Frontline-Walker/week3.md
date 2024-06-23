@@ -24,6 +24,7 @@ procedural animation, the mechanics of the behavior of air opponents and turrets
 An analogue of the frontend for our project is everything directly related to the user interface and touch controls. Until most of the mechanics are completed, the interface cannot be fully formed. However, the team begins to make blanks (such as a sprite of binoculars on top of the camera in the test scene).
 For the interface, controls are the first priority, followed by information about the walker's condition and amount of ammunition, then visual effects such as hit marks or the effect of a lens in binoculars. All of the above is planned to be added to the project, if possible, in parallel with the development of basic mechanics not related to the interface.
 
+
 - **Data Management**:
 
 The analogue of a database for our project is the assets stored in it. At this moment, the asset components are in development, upon completion of which they will be placed in the appropriate folders. The exchange of information between codes is also carried out using internal tools of Unity and C#.
@@ -34,11 +35,13 @@ Most of the implemented mechanics did not require changes during testing.
 The air enemy mechanics have been restructured into two separate scripts to ensure proper modularity of the project and simplify future development.
 The walking mechanics, based on the physical control of each joint of both legs, were implemented and worked properly, but were considered unsuitable. The user was required to simultaneously control both limbs with both hands, something most people cannot do effectively. In addition, although such mechanics made it possible to use neural networks as a controller for an enemy walker, but based on the experience of similar implementations found on the Internet for neural networks, it should have produced a result different from the required one.
 The previous version was replaced by a walking mechanic using procedural generation. An empty object with a round collider was used as a controller, which became the root for the entire walker model. The body, legs and feet of the walker were sequentially attached to this object. A procedural animation script has been added to the body of the walker, based on a script from a third party source (https://www.youtube.com/watch?v=hrIimDYV0IA). The walker's leg joints were used for the skeleton of the procedural animation, the direction of the feet was controlled by a separately created script that rotated them down.
-![ProceduralWalkingV1Demonstration](/2024/Frontline-Walker/ProceduralWalkingV1Demonstration.zip)
+(please, check the video in static/2024/Frontline-Walker/ProceduralWalkingV1Demonstration.zip)
 
 ## **Weekly Progress Report**:
 
 The team mostly continued developing atomic mechanics as planned, as well as drawing prototypes of in-game models and environments.
+![WalkerPrototype](/2024/Frontline-Walker/WalkerPrototype.jpg)
+
 
 ### **User Interface**:
 
@@ -48,11 +51,13 @@ Sprites for the game environment and interface are being actively developed. At 
 ### **Challenges & Solutions**
 
 Sprites challenges: It was difficult to choose colors without it looking cheap. I selected several pictures with sunset lighting and after several attempts, the most successful one, in my opinion, was chosen. The success was in minimizing the number of colors so that the eyes would not run wild.
+![NewBackground](/2024/Frontline-Walker/NewBackground.jpg)
+![oldBackground](/2024/Frontline-Walker/oldBackground.jpg)
+
 Some of the difficulties are described above (for example, the need to replace the walking mechanics and the replacement itself).
 It was also noticed that the walker's feet do not always point down when walking, as we would like them to, but follow the direction of the lower leg joint to which they are hierarchically attached. The solution was a script attached to the walker's torso as a root element and constantly turning the feet in its direction.
 While adapting the code from the above video, a slight modification of the code was required - the walker began to take a new step not upon completion of the previous one, but after a certain time had passed. This was done to comply with the style of the project.
 The remaining mechanics were based on past projects of team members and did not pose any difficulties during development and testing. (However, some mechanics have been reformatted while maintaining the logic of work, to increase modularity and simplify code modification)
-
 
 ### **Conclusions & Next Steps**
 

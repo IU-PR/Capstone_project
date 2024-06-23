@@ -22,6 +22,7 @@ procedural animation, the mechanics of the behavior of air opponents and turrets
 - **Frontend Development**:
 
 An analogue of the frontend for our project is everything directly related to the user interface and touch controls. Until most of the mechanics are completed, the interface cannot be fully formed. However, the team begins to make blanks (such as a sprite of binoculars on top of the camera in the test scene).
+![BinoclePrototype](/2024/Frontline-Walker/BinoclePrototype.png)
 For the interface, controls are the first priority, followed by information about the walker's condition and amount of ammunition, then visual effects such as hit marks or the effect of a lens in binoculars. All of the above is planned to be added to the project, if possible, in parallel with the development of basic mechanics not related to the interface.
 
 

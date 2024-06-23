@@ -34,12 +34,13 @@ Most of the implemented mechanics did not require changes during testing.
 The air enemy mechanics have been restructured into two separate scripts to ensure proper modularity of the project and simplify future development.
 The walking mechanics, based on the physical control of each joint of both legs, were implemented and worked properly, but were considered unsuitable. The user was required to simultaneously control both limbs with both hands, something most people cannot do effectively. In addition, although such mechanics made it possible to use neural networks as a controller for an enemy walker, but based on the experience of similar implementations found on the Internet for neural networks, it should have produced a result different from the required one.
 The previous version was replaced by a walking mechanic using procedural generation. An empty object with a round collider was used as a controller, which became the root for the entire walker model. The body, legs and feet of the walker were sequentially attached to this object. A procedural animation script has been added to the body of the walker, based on a script from a third party source (https://www.youtube.com/watch?v=hrIimDYV0IA). The walker's leg joints were used for the skeleton of the procedural animation, the direction of the feet was controlled by a separately created script that rotated them down.
+![ProceduralWalkingV1Demonstration](/2024/Frontline-Walker/ProceduralWalkingV1Demonstration.zip)
 
 ## **Weekly Progress Report**:
 
 The team mostly continued developing atomic mechanics as planned, as well as drawing prototypes of in-game models and environments.
 
-### **User Interface: **
+### **User Interface**:
 
 Sprites for the game environment and interface are being actively developed. At this point in the project, the layering of sprites on top of the camera has been implemented, prototypes of the walker, background, etc. have also been drawn. For the needs of the interface and user experience, the walking mechanics were changed (instead of two joysticks to control each leg - one to adjust the height and movement of the walker, as on the interface prototype). The final version of the interface will be discussed by the team after the implementation of complex mechanics.
 ![handdrawn-prototype](/2024/Frontline-Walker/handdrawn-prototype.jpg)

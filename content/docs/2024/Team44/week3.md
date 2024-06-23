@@ -176,10 +176,10 @@ Quizzes structure is validating during generation by using the Pydantic output p
 ## **Weekly Progress Report**:
 
 This is the result of our team's work.
-    ![Quiz Generation procedure](/static/2024/Team44/QG_1.jpg)
-    ![Quiz Generation procedure](/static/2024/Team44/QG_2.jpg)
-    ![Text summarizer procedure](/static/2024/Team44/SM_1.jpg)
-    ![Text summarizer procedure](/static/2024/Team44/SM_2.jpg)
+    ![Quiz Generation procedure](/2024/Team44/QG_1.jpg)
+    ![Quiz Generation procedure](/2024/Team44/QG_2.jpg)
+    ![Text summarizer procedure](/2024/Team44/SM_1.jpg)
+    ![Text summarizer procedure](/2024/Team44/SM_2.jpg)
 
 
 

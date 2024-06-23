@@ -14,10 +14,13 @@ title: "Week #3"
 &nbsp;&nbsp;&nbsp;&nbsp;This week we have been working on turning our idea into a real working prototype, and this is important because it is necessary to create a high-quality prototype, since our further actions will be based on it. To achieve this, we had to complete several intermediate stages and link them together. Our plan was to complete a section with verification of the accuracy of physical exercises, finalize the design of the website, find a platform for deployment, integrate all the parts, connect the database, and run the first prototype tests.
 
 
-### **Feedback from TA**
+## **Web application**
 
-&nbsp;&nbsp;&nbsp;&nbsp;During our recent meeting with the TA, several important points were discussed:
+&nbsp;&nbsp;&nbsp;&nbsp;This is a link to our web application GymGuru - https://gymgu.ru/
 
+&nbsp;&nbsp;&nbsp;&nbsp;You could registed, login, сhose a physical exercise (for the first prototype, only push-ups are avilable) and see how it recognizes the correctness of performing a physical exercise.
+
+&nbsp;&nbsp;&nbsp;&nbsp;**Important note:** Testing is preferable on Google Chrome browser, and we do not recommend to use Yandex Browser for now. Because of some reasons, there can be issues with registration and camera permission.
 
 ## **Prototype Features**
 
@@ -29,16 +32,47 @@ title: "Week #3"
 
 ## **User Interface**
 
+&nbsp;&nbsp;&nbsp;&nbsp;These are the UI (Web Pages) that we implemented on this week:
+
+- Main page
+
+<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_1.png" width="880" height="660">
+
+- Registration page
+
+<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_2.png" width="880" height="660">
+
+- Login page
+
+<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_3.png" width="880" height="660">
+
+- Rating page (Buttons “Next” and “Previous” are clickable to see other exercises rating)
+
+<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_4.png" width="880" height="660">
+
+- Exercises page
+
+<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_5.png" width="880" height="660">
+
+- Exercises` buttons are clickable, user can see the videos of a correct performing (now it is done for Push-Ups)
+
+<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_6.png" width="880" height="660">
+
+- Fitness test page
+
+<img src="/GymGuru-master/static/2024/GymGuru/Week3_UI_7.png" width="880" height="660">
+
+
 
 ## **Developing the first prototype, creating the priority list**
 
 - **Technical Infrastructure**:
 
-...
+Before the working process of this week we organized all necessary technical infrastructure for convenient development process. We set up a GitHub Project with backlog, roadmap, milestones and issues to control features development process. Also, as a deployment platform we chose and rent a server with satisfactory parameters to maintain the main application logic and database. Of course, each team member has a software for the coding customized specifically for his/her preferences. In addition, since our team has 2 reporters, we creates a shared document for each report where all team members could see the progress in report writting and suggest any additions or recommendations.
 
 - **Backend Development**:
 
-&nbsp;&nbsp;&nbsp;&nbsp;During this week our team was focused on the following tasks: recognition of a body by using MoveNet (pose detection model) was implemented, then correct execution checking was developed for some exercises. Moreover, we chose a domain name, rented a server and hosted your web application.
+&nbsp;&nbsp;&nbsp;&nbsp;During this week our team was focused on the following tasks: recognition of a body by using MoveNet (pose detection model) was implemented, then correct execution checking was developed for some exercises. Moreover, we chose a domain name, rented a server and hosted our web application.
 
 - **Frontend Development**:
 
@@ -46,11 +80,17 @@ title: "Week #3"
 
 - **Data Management**:
 
-...
+During this week we set up a PostgreSQL database on a rented server. For now, this database is connected to the web application GymGuru and support the main operation - authorization. A user can create new account, if he/she has no it yet, log in, or log out. It is worth noting that the password is transmitted only in hashed form. For the creating of a new account, the name, surname, email and password are required, while for login user should enter the email and the password. During a testing session by all team members, there were detected no problems with this functionality of the database.
 
 - **Prototype Testing**:
 
-...
+Right after the deployment of the first prototype of our web application to the rented server and the fixing of several bugs, we conduct a testing session by all team members. In general, the web application is quite satisfactory for each of us, have a good UI and functionality as for the prototype. However, we found several more bugs and parts that we can improve during the next weeks. This is a list of them:
+
+- In the mobie version of a web site the video from the camera of a smartphone has wrong size, it expands to the whole width of a screen;
+
+- The main page is not complete yet, several improvements will be delivered in a week;
+
+- The main page is not fully adapted for the mobile version of a web site.
 
 ## **Challenges & Solutions**
 
@@ -66,6 +106,8 @@ title: "Week #3"
 
 - To add more supported physical exercises;
 
--
+- Fix several bugs that we found during testing session;
 
--
+- Finish UI with respect to fixing all inaccuracies and adaptation for the mobile version;
+
+- Expand the list of supported database operations according to the data flow diagram.

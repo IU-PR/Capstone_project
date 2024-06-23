@@ -20,7 +20,7 @@ title: "Week #3"
 ### Machine Learning (ML):
 
 - **YOLOv8 Model Training:**
-  - Trained on a Retail Store Dataset, showing good performance for well-represented ingredients but struggled with underrepresented classes due to dataset imbalance.
+  - - Trained on a [Retail Store Dataset](https://universe.roboflow.com/muhammadmoin-y1qrz/retail-store-axhqk), showing good performance for well-represented ingredients but struggled with underrepresented classes due to dataset imbalance.
   - Defined a basic set of ingredients for consistent recognition and commenced image collection from grocery stores to improve dataset quality.
 
 - **MistralAPI Functionality:**
@@ -81,6 +81,8 @@ During the third week there have been some useful assumptions and serious reorga
 
 - **User Interface:**
   - Includes registration, sign-up/sign-in, receipt recommendations, AI camera (take/upload photo, add ingredients manually), search receipts, view liked food items, get daily advice, set user parameters (height, weight, daily calories).
+  - Link to [user flow](https://www.figma.com/board/1cEHXZAlCBIHG2Nmt6B9MQ/Untitled?node-id=1-899&t=SJurddamCnsLBnRv-1)
+  - Link to [figma design](https://www.figma.com/design/vpqc9bsK1bBngEr7yXHRUP/Untitled?node-id=179-301&t=xYZ4KH6osEuln5xc-0)
 
   ![design2](/2024/cookainno/design2.jpg)
 

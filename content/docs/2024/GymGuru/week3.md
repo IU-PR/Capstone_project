@@ -11,7 +11,7 @@ title: "Week #3"
 
 ## **Week's focus and importance**
 
-&nbsp;&nbsp;&nbsp;&nbsp;This week we have been working on turning our idea into a real working prototype, and this is important because it is necessary to create a high-quality prototype, since our further actions will be based on it. To achieve this, we had to complete several intermediate stages and link them together. Our plan was to complete a section with verification of the accuracy of physical exercises, finalize the design of the website, find a platform for deployment, integrate all the parts, connect the database, and run the first prototype tests.
+&nbsp;&nbsp;&nbsp;&nbsp;This week we have been working on turning our idea into a real working prototype, and this is important because it is necessary to create a high-quality prototype, since it allows to check the initial concept and identify any technical or design issues early, allowing us to address them before fully completing the work. To achieve this, we had to complete several intermediate stages and link them together. Our plan was to complete a section with verification of the accuracy of physical exercises, finalize the design of the website, find a platform for deployment, integrate all the parts, connect the database, and run the first prototype tests.
 
 
 ## **Web application**
@@ -58,7 +58,7 @@ title: "Week #3"
 
 <img src="/2024/GymGuru/Week3_UI_6.png" width="880" height="520">
 
-- Recogniotion page
+- Recognition page
 
 <img src="/2024/GymGuru/Week3_UI_7.png" width="880" height="520">
 

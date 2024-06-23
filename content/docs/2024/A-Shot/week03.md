@@ -33,7 +33,7 @@ For the **Image Grouping model**, we
 utilized [CVNet](https://github.com/shihaoshao-gh/superglobal?tab=readme-ov-file),
 informed by the research in this [paper](https://arxiv.org/abs/2308.06954) and further supported by a
 second [study](https://strathprints.strath.ac.uk/55814/1/Connor_etal_VISAPP_2015_identification_of_mir_flickr_near_duplicate_images.pdf).
-The model was trained on the [Oxford5k]{https://paperswithcode.com/dataset/oxford5k) and [Paris6K](https://paperswithcode.com/dataset/paris6k) datasets.
+The model was trained on the [Oxford5k](https://paperswithcode.com/dataset/oxford5k) and [Paris6K](https://paperswithcode.com/dataset/paris6k) datasets.
 We tested it firstly on Oxford5k dataset, then edited some code to add ability to run our own photos through the model and exported model we tested on custom dataset.
 
 ### **Frontend Development**

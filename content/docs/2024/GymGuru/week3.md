@@ -58,9 +58,13 @@ title: "Week #3"
 
 <img src="/2024/GymGuru/Week3_UI_6.png" width="880" height="520">
 
-- Fitness test page
+- Recogniotion page
 
 <img src="/2024/GymGuru/Week3_UI_7.png" width="880" height="520">
+
+- Fitness test page
+
+<img src="/2024/GymGuru/Week3_UI_8.png" width="880" height="520">
 
 
 

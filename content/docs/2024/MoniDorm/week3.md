@@ -73,9 +73,19 @@ Now, the API is deployed and is being used by other services: [API Swagger UI](h
     <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/swagger2.jpg">
 </div>
 
+And we have also slightly reworked the Backend architecture scheme:
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/backend.drawio (2).png">
+</div>
+
 ### **Frontend Development**:
 
- Begin developing the frontend components of your prototype. Use the wireframes created earlier as a guide and start building the user interface elements using appropriate technologies and frameworks. Pay attention to creating an intuitive and user-friendly interface that aligns with your MVP feature set. Make sure that you are implementing all main components. Secondary feature set can be postponed till second or third iteration. Prioritize functionality over appearance.
+For the Frontend development we have created a website with embedded Grafana visualization. For the future plans there is an idea to convert it fully to a Telegram Web App.
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/frontend.png">
+</div>
 
 ### **Data Management**:
 

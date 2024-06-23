@@ -80,7 +80,7 @@ Before the working process of this week we organized all necessary technical inf
 
 - **Frontend Development**:
 
-&nbsp;&nbsp;&nbsp;&nbsp;As about our progress on fronted: we have finished with all important pages: main page, registration and login page, rating page with possibility to flipping through pages with exercises results, page with exercises, where user can click on the exercise preview and see the page with the video of a correct technique and can train with the help of video model assistant. Also, we have implemented a fitness test page, where users can see the necessary thresholds to pass for each exercise. 
+&nbsp;&nbsp;&nbsp;&nbsp;As about our progress on frontend: we have finished with all important pages: main page, registration and login page, rating page with possibility to flipping through pages with exercises results, page with exercises, where user can click on the exercise preview and see the page with the video of a correct technique and can train with the help of video model assistant. Also, we have implemented a fitness test page, where users can see the necessary thresholds to pass for each exercise. 
 
 - **Data Management**:
 

@@ -20,7 +20,7 @@ title: "Week #3"
 ### Machine Learning (ML):
 
 - **YOLOv8 Model Training:**
-  - - Trained on a [Retail Store Dataset](https://universe.roboflow.com/muhammadmoin-y1qrz/retail-store-axhqk), showing good performance for well-represented ingredients but struggled with underrepresented classes due to dataset imbalance.
+  - Trained on a [Retail Store Dataset](https://universe.roboflow.com/muhammadmoin-y1qrz/retail-store-axhqk), showing good performance for well-represented ingredients but struggled with underrepresented classes due to dataset imbalance.
   - Defined a basic set of ingredients for consistent recognition and commenced image collection from grocery stores to improve dataset quality.
 
 - **MistralAPI Functionality:**

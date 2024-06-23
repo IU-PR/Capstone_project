@@ -6,9 +6,9 @@ title: "Week #3"
 
 ## **Developing the prototype, creating the priority list**
 
-- **Technical Infrastructure**:
+### **Technical Infrastructure**:
 
-###### Development Environment (issues)
+##### Development Environment (issues)
 
 Currently, everyone is working online by sharing data on GitHub and analyzing everything. For instance, backenders and frontenders namely Anushervon, Muhammad, and Ivan are working on their machines and developing their parts.  Due to technical issues, some of the backend's tasks are tested on Illia's laptop, since only his device can run LLM models. We are thinking of hosting his part so that other colleagues can continue developing their project tasks.
 
@@ -18,7 +18,7 @@ We have researched some ways to host our application: using CPU only or GPU serv
 
 We have not created a Development Environment yet, since the need to use LLM models outside the ML engineer arose during integration on the weekends, so the first priority for the following week is to get a server since it is needed for testing purposes too
 
-###### Overall
+##### Overall
 
 We organize study-coding sessions every two days, where our team:
 - Develop our product
@@ -26,69 +26,69 @@ We organize study-coding sessions every two days, where our team:
 - Discuss plan of action for the next few days
 
 
-- **Backend Development**:
+### **Backend Development**:
 
 This week, we developing API endpoints using Django Rest Framework.
 
+
 ***Authentication Endpoints***
 
-1. **SignUp** - POST endpoint (localhost/authentication/api/signup)
+1. **SignUp** - POST endpoint
    - Parameters: `username`, `email`, `first_name`, `last_name`, `telegram_id`
    - Description: When the parameters are provided the request is validated by UserSerializer. If it is valid, create a new user account and return a success response with the user data and a 201 status code. If data is not valid, it returns an error response with the validation errors and a 400 status code. 
    
-2. **SignIn** - POST endpoint (localhost/authentication/api/signin)
+2. **SignIn** - POST endpoint
    - Parameters: `username`, `password`
    - Description: After providing parameters it validates the request data using the SignInSerializer and, if valid, authenticates the user with the provided username and password. If the authentication is successful and the user is active, it returns a token in the response with a 200 status code. If the user is not active or the credentials are invalid, it returns an error message with a 400 status code. If the data is invalid, it returns the validation errors with a 400 status code.
 
-3. **SignOut** - POST endpoint (localhost/authentication/api/signup)
+3. **SignOut** - POST endpoint
    - Description: Deletes the user's authentication token, effectively ending their session. Only authenticated users can access this endpoint.
 
 ***ML Model Integration Endpoints***
 
-1. **SummaryView** - POST endpoint (localhost/summary)
+1. **SummaryView** - POST endpoint
    - Parameters: `query` (string)
    - Description: Returns a summary of the query.
 
-2. **QuizView** - POST endpoint (localhost/quiz)
+2. **QuizView** - POST endpoint
    - Parameters: `text` (string)
    - Description: Returns a quiz based on the text. The `text` parameter is validated using the `TextSerializer`. If the text is valid, it's used to generate a quiz, which is then returned in the response. To use this endpoint, make a POST request with a JSON body containing the `text` parameter.
 
 These endpoints provide a robust interface for user authentication and interaction with ML models.
 
-- **ML**
+### **ML**
 
-###### Quiz Generation
+##### Quiz Generation
 
 Quiz Generator now uses Pydantic output parser:
 - Validates if output corresponds to request in a prompt
 - Automatically converts the model output to the data type (Pydantic model), so it can be easily passed to the Backend without any extra steps
 
 
-###### Router for Backend integration
+##### Router for Backend integration
 
 The router stands as gateway/abstraction layer between the Backend ob Django and the LLM Model on LangChain (LangGraph usage was omitted since currently, we do not need flexibility).
 Our backend API uses a router, so any changes in the ML logic will not affect the backend API as long as router function signatures does not change
 
 
-- **Frontend Development**:
+### **Frontend Development**:
 
-The frontend is currently under development.
+The frontend is under development.
 
+### **Data Management**:
 
-- **Data Management**:
-
-###### Relational Database
+##### Relational Database
 
 By utilizing PostgreSQL we aim to store user info to be able to sign him so that he can use the application
 
-###### Vector Database
+##### Vector Database
 
 Vector Database works with the backend and could be used in model pipeline, but before adding this feature some functionality robustness must be addressed.
 
 
-- **Prototype Testing**:
+### **Prototype Testing**:
 
-###### Vector Database
+##### Vector Database
 
 Security of newly added files will be a crucial consideration in the near future, as there is a risk that users may upload malicious content.
 However, for now, we need to prioritize tasks that address core functionality and improve overall performance. Possible solution is to allow people with some rights to use this feature or to use another LLM / semantic router for discovering malicious content.
@@ -96,12 +96,12 @@ However, for now, we need to prioritize tasks that address core functionality an
 For now it is possible to add many identical documents - future vector retrieval could get these document at once, so the main idea of using vector database with retrieval shutters.
 
 
-###### Summary generator
+##### Summary generator
 
 No problems were detected, but we need to handle larger text sizes since the model context size is limited
 
 
-###### Quiz Generator
+##### Quiz Generator
 
 Quizzes structure is validating during generation by using the Pydantic output parser for LLM in the LangChain
     - All field types are consistent, so further action does not need any validation
@@ -176,10 +176,12 @@ Quizzes structure is validating during generation by using the Pydantic output p
 ## **Weekly Progress Report**:
 
 This is the result of our team's work.
-    ![Quiz Generation procedure](/2024/Team44/QG_1.jpg)
-    ![Quiz Generation procedure](/2024/Team44/QG_2.jpg)
-    ![Text summarizer procedure](/2024/Team44/SM_1.jpg)
-    ![Text summarizer procedure](/2024/Team44/SM_2.jpg)
+
+
+![Quiz Generation procedure](/2024/Team44/QG_1.jpg)
+![Quiz Generation procedure](/2024/Team44/QG_2.jpg)
+![Text summarizer procedure](/2024/Team44/SM_1.jpg)
+![Text summarizer procedure](/2024/Team44/SM_2.jpg)
 
 
 
@@ -192,7 +194,7 @@ It was hard to make the model use pedantic validation: the challenge with model 
 - The third step was to discover, that the model used for generation is the Llama3:8b Chat model and by using Llama3:instruct no problems arose. The conclusion is to research the tasks for which the model was created.
 
 
-###### Team coordination
+##### Team coordination
 Do not permit workarounds or quick fixes that involve commenting out problematic code. Instead, require proper error resolution when issues
 arise during integration, as temporarily addressing errors through 'comment-out fixes' can create unintended bugs, particularly if these 'fixes' are committed to the main repository (e.g., GitHub).
 

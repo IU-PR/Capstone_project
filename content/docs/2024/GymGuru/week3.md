@@ -94,7 +94,7 @@ Right after the deployment of the first prototype of our web application to the 
 
 - The main page is not complete yet, several improvements will be delivered in a week;
 
-- The main page is not fully adapted for the mobile version of a web site.
+- The main page is not fully adapted for the mobile version of a website.
 
 ## **Challenges & Solutions**
 

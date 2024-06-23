@@ -39,7 +39,8 @@ title: "Week #3"
   <source src="2024/code_battle_advanced/w3videoprot.mp4" type="video/mp4">
 </video>
 
-![w3videoprot.mp4](/2024/code_battle_advanced/w3videoprot.mp4)
+[![w3videoprot.mp4](/2024/code_battle_advanced/w3videoprot.mp4)](https://github.com/Magel0n/code_battle_advanced/blob/master/static/2024/code_battle_advanced/w3videoprot.mp4)
+
 ![w3KubernetesStatistics.png](/2024/code_battle_advanced/w3KubernetesStatistics.png)
 
 ## **Weekly Progress Report**:

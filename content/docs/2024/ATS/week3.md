@@ -2,7 +2,7 @@
 
 # **Developing the first prototype, creating the priority list**
 
-## **Project week focus & Approach **
+## Project week focus & Approach 
 
 The overarching goal of our project is to develop an effective predictive-algorithmic trading system. This week, we specifically focused on testing the profitability of our trading ideas and beginning the practical implementation of the technical infrastructure. This work is crucial as it lays the foundation for a robust and efficient trading platform, ensuring that our algorithms and infrastructure are both scalable and maintainable.
 

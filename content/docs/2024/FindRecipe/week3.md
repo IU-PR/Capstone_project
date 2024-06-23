@@ -49,7 +49,8 @@ We planned out the structure of iur database in furst week, extracted all necess
 
 - **Prototype Testing**:
 
-...
+By the end of week three, all team members had completed shortly rounds of testing to identify and resolve any usability issues or bugs in our prototype. Each member tested the implemented features against the defined user flows and scenarios to confirm that they worked as expected. During this testing step, we discovered no logical problems in the operation of our bot. 
+However, we observed that the style of messages may be changed to improve understanding and readability. Furthermore, we felt that including photos in the recipes would greatly improve the user experience. Collecting feedback from team members gave us crucial insights, allowing us to plan the necessary improvements to upcoming weeks.
 
 ## **Weekly Progress Report**:
 

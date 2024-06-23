@@ -18,7 +18,7 @@ We started implementing the backend functionality of our prototype. This involve
 
 #### Frameworks
 
-We chose React for developing our application due to its high performance, component-based approach, large community, cross-platform nature,
+We chose React for developing our application due to its high performance, component-based approach, large community, cross-platform nature.
 
 #### UI/UX Design
 

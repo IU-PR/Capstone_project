@@ -11,7 +11,7 @@ As of now, we are still working on stable technical infrastructure. Every team m
 For example, different open source models use different version libraries. This may cause severe errors in the work of our application.
 
 - **Backend Development**:
-ML part:
+* ML part:
     * Stable Diffusion V1.5 + TensoRF
     TensoRF generates scene based on set of images of specific object from different angles. However, techniques that allow the creation of a scene without initial image(s) exist. TensoRF "не завелся". To calculate the value of loss-function, TensoRF require an image of an object from a specific angle. While generating such images we do not give any foreshortenings as a parameter, but we need to determine an angle without any information given. Since it is difficult to perform such an operation precisely, the model cannot update its weights in a proper way.
 
@@ -23,7 +23,7 @@ ML part:
 
 ![Girl_1](/static/2024/OmniShaper/Girl_1.gif)
 
-Web part:
+* Web part:
     * Unfortunately, we did not manage complete the web backend due to unfinished ML part of our backend.
     Without working AI pipeline, there will be no working backend for our web application. As you know, the ML part is the hardest to implement. We will finish the first prototype (something like MVP) before the next meeting with our TA.
 

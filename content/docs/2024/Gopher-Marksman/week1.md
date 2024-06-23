@@ -8,13 +8,13 @@ title: "Week #1"
 
 ### **Team Members**
 
-| Team Member              | Telegram ID   | Email Address   |
-|--------------------------|---------------|-----------------|
-| Georgii Butakov (Lead)   | [@mazzz3r](https://t.me/mazzz3r) | g.butakov@innopolis.university      |
-| Artyom Shaposhnikov      | [@ortieom](https://t.me/ortieom) | a.shaposhnikov@innopolis.university |
-| Nikita Ruchkin            | [@reterman](https://t.me/reterman)| n.ruchkin@innopolis.university |
-| Ivan Platonov            | [@dpttk](https://t.me/dpttk) | i.platonov@innopolis.university |
-| Mikhail Dudinov          | [@ez4gotit](https://t.me/ez4gotit) | m.dudinov@innopolis.university |
+| Team Member              | Telegram ID                       | Email Address                       |
+|--------------------------|-----------------------------------|-------------------------------------|
+| Georgii Butakov (Lead)   | [@mazzz3r](https://t.me/mazzz3r)  | g.butakov@innopolis.university      |
+| Artyom Shaposhnikov      | [@ortieom](https://t.me/ortieom)  | a.shaposhnikov@innopolis.university |
+| Nikita Ruchkin           | [@reterman](https://t.me/reterman)| n.ruchkin@innopolis.university      |
+| Ivan Platonov            | [@dpttk](https://t.me/dpttk)      | i.platonov@innopolis.university     |
+| Mikhail Dudinov          | [@ez4gotit](https://t.me/ez4gotit)| m.dudinov@innopolis.university      |
 
 ### **Value Proposition**
 
@@ -28,7 +28,20 @@ Our platform provides a robust solution by offering automated tools for sniping 
 Users benefit from real-time, low-latency trading, enhanced security against common blockchain attacks, and comprehensive token analysis, which altogether enhance trading efficiency and safety.
 
 - Differentiation:
-Our platform stands out by integrating direct blockchain interactions, which reduces dependency on third-party APIs and minimizes latency. Additionally, our advanced features like liquidity filtering and customizable buy slippage options provide users with unparalleled control over their trading strategies. 
+Our platform stands out by integrating direct blockchain interactions, which reduces dependency on third-party APIs and minimizes latency. Additionally, our advanced features like liquidity filtering and customizable buy slippage options provide users with unparalleled control over their trading strategies.
+Here is a table of competitor analysis:
+| Bot Name          | Interface Design         | Usability | Performance Monitoring      | Security Features              | Supported Platforms | User Experience Highlights                                                                   | Functionality                           | Key Features                                                             | Cost                       | Supported Networks                      |
+|-------------------|--------------------------|-----------|-----------------------------|--------------------------------|---------------------|----------------------------------------------------------------------------------------------|-----------------------------------------|--------------------------------------------------------------------------|----------------------------|-----------------------------------------|
+| **Mizar**         | Clean, modern            | High      | Real-time analytics         | Two-factor authentication      | Web, Mobile         | User-friendly with clear navigation, suitable for both beginners and advanced traders        | Hybrid sniping, copy trading            | Multi-strategy, Telegram integration, TradingView signals                | $0, $15, $30 per month     | Uniswap, Binance, MEXC, Gate.io, KuCoin |
+| **Unibot**        | Simplified, Telegram     | Very High | Fast market updates         | Privacy-focused                | Telegram            | Simplified access via Telegram, privacy-focused with seamless trading experience             | Multi-network support, Telegram scanner | Copy trading, bridge aggregator, market scanner                          | Not specified              | Ethereum, Base, Solana, Arbitrum        |
+| **Maestro**       | Detailed, Telegram       | High      | Detailed ICO                | Anti-rug pull                  | Telegram            | Convenient for ICO investments and whale tracking, highly customizable for advanced users    | Whale tracking                          | Anti-rug pull, DEX sniping, customizable settings                        | Not specified              | Ethereum, BNB Chain, Arbitrum           |
+| **Launch Sniper** | Professional, plan-based | High      | High-speed operations       | Full node security             | Web                 | High-speed operations with user-focused support, tailored plans for different user needs     | AI-driven picks                         | Full private node, fastest server, unlimited AI picks, 24/7 support      | $395 - $995 lifetime       | Not specified                           |
+| **Banana Gun**    | Competitive, detailed    | High      | Transaction status tracking | Anti-rug, private transactions | Web                 | Easy transaction management with anti-rug and private transaction features                   | Auto and manual sniping                 | Anti-rug, private transactions, sandwich protection, adjustable slippage | 0.5% fee on buys and sells | Ethereum                                |
+| **Photon**        | Specific, Solana-focused | Medium    | Performance filters         | Rug pull protection            | Web                 | Detailed filters and settings for precise sniping, suitable for Solana ecosystem users       | Solana-specific sniping                 | Liquidity filters, minimum holders, customizable parameters              | Not specified              | Solana                                  |
+| **Trojan**        | Simple, Telegram         | Medium    | Basic tracking via Telegram | Simple security                | Telegram            | Simple and easy to use, ideal for Telegram users focused on Solana trading                   | DCA tools                               | Accessible via Telegram, easy to use                                     | Not specified              | Solana                                  |
+| **DexBot**        | Advanced, versatile      | High      | Real-time status monitor    | Anti-blacklisting              | Web                 | Comprehensive trading tools with detailed analytics, suitable for diverse trading strategies | Advanced trading tasks                  | Contract security scan, anti-blacklisting, batch buy/sell                | Not specified              | Multiple main-nets                      |
+| **BullX.io**      | Intuitive, multi-chain   | High      | Real-time data              | Contract security              | Web, Mobile         | Versatile and intuitive with real-time data and customizable options for various networks    | Multi-chain trading                     | Real-time charts, customizable gas fees, contract security, copy-trading | Not specified              | Ethereum, BNB, Polygon                  |
+
 
 - User Impact:
 Traders will experience a more streamlined and secure trading environment, leading to better management of their investments and potentially higher profits due to timely and informed decision-making.

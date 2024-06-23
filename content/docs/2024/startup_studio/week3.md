@@ -108,7 +108,7 @@ that were not connected with each other (no downgrade revision specified). So we
 ones. In real production this would lead to disaster xD, since we will probably lose tables consistency and lose user
 data.
 
-### **What cloud be done better**:
+### **What could be done better**:
 
 Metrics, we could spend more time on research and not stop at one not-so-successful monitoring solution (Splunk).
 

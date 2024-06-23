@@ -104,7 +104,7 @@ During the third week, significant progress was made across backend, ML, and mob
 
 **Next Steps:**
 
-- Annotate newly collected images and retrain the model on the extended dataset to address dataset imbalance and enhance performance across all ingredient classes.
+- Collect and annotate images for dataset and retrain the model on the extended dataset to enhance performance across all ingredient classes.
 - Research and consider using remote storage for recipes to enable searching non-generated recipes by ingredients.
 - Implement logic and endpoints for calorie recommendation calculations.
 - Involve first real users to test the app prototype.

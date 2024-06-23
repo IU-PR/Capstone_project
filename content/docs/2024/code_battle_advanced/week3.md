@@ -36,7 +36,7 @@ title: "Week #3"
 - **Video showcase**
 
 <video width="800" height="300" controls>
-  <source src="/static/2024/code_battle_advanced/w3videoprot.mp4" type="video/mp4">
+  <source src="2024/code_battle_advanced/w3videoprot.mp4" type="video/mp4">
 </video>
 
 ![w3videoprot.mp4](/2024/code_battle_advanced/w3videoprot.mp4)

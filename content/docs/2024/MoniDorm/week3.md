@@ -94,9 +94,12 @@ During the creation of the page we have faced some difficulties, but the most im
 For data storage, we followed the plan outlined in our Week 2 report.
 
 **PostgreSQL:**
+
 - Purpose: Store reports on dormitory infrastructure issues.
+
 - Basic Operations: Insert, update, retrieve, and delete reports.
-```
+
+```SQL
 CREATE TABLE IF NOT EXISTS report(
     id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     category varchar(128) NOT NULL,
@@ -112,7 +115,7 @@ CREATE TABLE IF NOT EXISTS report(
 );
 ```
 
-We use PostgreSQL for storing reports, adding data via API, and providing functionality for deleting and modifying certain fields (is_confirmed_by_analysis, is_confirmed_by_admin, is_resolved_by_user, is_resolved_by_admin, description). 
+We use PostgreSQL for storing reports, adding data via API, and providing functionality for deleting and modifying certain fields (`is_confirmed_by_analysis`, `is_confirmed_by_admin`, `is_resolved_by_user`, `is_resolved_by_admin`, `description`).
 
 **MongoDB:**
 - Purpose: Store user information, including authentication details and roles.
@@ -122,7 +125,22 @@ The Telegram bot is connected to a MongoDB database, where it stores user emails
 
 ### **Prototype Testing**:
 
- By the end of the week 3, conduct initial rounds of testing to identify and address any usability issues or bugs in your prototype. Test the implemented features against the defined user flows and scenarios to ensure they function as intended. Collect feedback from your team members to gain insights and make necessary refinements to improve the user experience.
+ We manually tested the prototype of the Telegram Bot according to the FSA Schema:
+ <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/bot-dialogue-fsa.png">
+ </div>
+
+ We concluded that it passes all states and transitions successfully, so now we rely on that information. Tests are completed every time after new features appear.
+
+ Backend API is tested automaticaly in CI/CD pipeline with unit and integration tests:
+ <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/codeCoveWeek3.jpg">
+ </div>
+
+Although we goal to enhance test set and to reach the coverage >= 75%
+ <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/goalToTests.jpg">
+ </div>
 
 ### **LLM model research**:
 
@@ -202,7 +220,7 @@ This approach can understand and integrate both text and images. It matches text
 
 ---
 
-## **Progress report**:  
+## **Progress report**:
 As a key deliverable for this week, we kindly request a progress report showcasing your first prototype. We understand that sharing code directly in the blog might not be preferable for everyone, so if you feel comfortable to provide a link to your prototype - this would be wonderful. However, if you prefer not to share the code publicly, we kindly ask you provide screenshots of your prototype to clearly illustrate the state of affairs.
 
 The progress report should offer insights into the development process and highlight the significant milestones achieved during this week. It should include the following elements:

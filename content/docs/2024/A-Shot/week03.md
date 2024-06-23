@@ -107,6 +107,7 @@ Here you can see the screenshots of working prototype:
 ![First image](/2024/A-Shot/week03/app/app-1.png)
 ![Second image](/2024/A-Shot/week03/app/app-2.png)
 ![Third image](/2024/A-Shot/week03/app/app-3.png)
+![Fourth image](/2024/A-Shot/week03/app/app-4.png)
 
 [Here you can see the video of working prototype](https://drive.google.com/file/d/1KzaFrnpbjQm7oWYZ74eE02lWsVIItn-N/view?usp=sharing)
 

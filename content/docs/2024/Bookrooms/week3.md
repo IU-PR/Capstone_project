@@ -6,9 +6,13 @@ title: "Week #3"
 
 ## **Developing the first prototype, creating the priority list**
 
+ Our project's GitLab: https://gitlab.pg.innopolis.university/bookrooms
+
+ Demo version is available here: https://bookrooms.gladov.ru
+
 ### **Technical Infrastructure**:
 
-???- Hosting Environment: Currently running on a local server using Docker Compose for development and testing. We plan to transition to a cloud-based hosting solution (AWS, Azure, or GCP) in future iterations.
+- Hosting Environment: Currently running on a local server using Docker Compose for development and testing. We plan to transition to the private server in future iterations.
 - Deployment Method: Currently, we are using Docker Compose for containerizing and deploying the application locally. We will implement a CI/CD pipeline for automated deployments as the project matures.
 - Logging: We are using basic logging mechanisms within our Go backend and Javascript frontend. We will consider implementing a centralized log aggregator like Splunk for more comprehensive error tracking and analysis as the project progresses.
 
@@ -17,25 +21,17 @@ title: "Week #3"
 - API Endpoints: By the end of 3 weeks, we developed the following API endpoints: 
   * Room Availability Query: This endpoint allows users to retrieve available rooms within a specified time range.
   * Booking Creation: This endpoint handles booking requests, including validation of user input and booking constraints.
-???- Data Validation: We implemented data validation rules to ensure the integrity of bookings. These rules include:
+- Data Validation: We implemented data validation rules to ensure the integrity of bookings. These rules include:
   * Validating date and time formats
   * Verifying room availability within the specified time range
-  * Ensuring the booking capacity does not exceed the room's maximum capacity
-???- Security: We implemented basic security measures, including:
-  * Input sanitization to prevent injection attacks
-  * Authorization rules to control user access to sensitive data
-  * Data encryption for sensitive information stored in the database.
 
 ### **Frontend Development**:
 
 - User Interface Components: We developed the following user interface components:
   * Search Bar: Allows users to search for rooms by name, building, room type, and availability.
   * Booking Form: Enables users to create and manage booking requests.
-???- User Interaction: We implemented user interactions using:
-  * Event listeners to handle user input and actions
-  * AJAX requests for communication between the frontend and backend API
-???- 3D Model: We developed the 3D campus model using Three.js:
-  * Created a 3D model in ... and imported it using Three.js.
+- 3D Model: We developed the 3D campus model using Three.js:
+  * Created a 3D model in 3ds max and imported it using Three.js.
   * Created interactive parts of the 3D model that change texture when a button is pressed.
   * Integrated the 3D model with the frontend interface.
 
@@ -70,6 +66,8 @@ This ensures the database has a starting point with essential rooms, simplifying
 - Created a basic 3D viewer with features like loading multiple models, moving, and scaling
 - Designed interactive 3D model elements that respond to button presses by altering their texture.
 
+![3D](/2024/Bookrooms/3d.jpg "3D").
+
 3. Created the basic frontend layout:<br>
 We designed and implemented a basic layout for the frontend user interface. This included a rough sketch of the layout elements based on the provided requirements. This initial layout provides a visual foundation for further development.
 
@@ -82,7 +80,9 @@ We defined our database schema that includes tables for:
 - Room Type: Categorizes room types (lecture room, meeting room, etc.).
 - User Favorite Room: Allows users to mark specific rooms as favorites. 
 
-???5. Conducted a meeting<br>:
+![Database](/2024/Bookrooms/db.png "Database").
+
+5. Conducted a meeting:<br>
 We held a meeting with the team leader of last year’s capstone team "Bookinng". We received useful information:
 - Integration: We received some advice on how to integrate our system into IU Outlook.
 - Contacts: The team leader shared the contacts of the developers of the current room booking service.
@@ -90,14 +90,18 @@ We held a meeting with the team leader of last year’s capstone team "Bookinng"
 
 ### **Challenges & Solutions**
 
-???...
+Miscommunication and CI/CD Implementation: 
+Initial difficulties setting up the CI/CD pipeline arose due to miscommunication regarding requirements and configurations. We addressed this by clarifying roles, ensuring shared understanding, and creating collaborative documentation. We are now confident in implementing a robust CI/CD process. 
+
+Uneven Workload Distribution:
+We observed uneven workload distribution, with some team members underloaded while others carried heavier tasks. We addressed this by openly discussing workloads, implementing a task management system, and encouraging proactive communication. These steps aim to create a more balanced and efficient workflow within the team.
 
 ### **Conclusions & Next Steps**
 
 Our priority list for the next weeks:
 - Continue Backend Development: Expand API endpoints to include booking cancellation, user management, and other essential features.
 - Frontend Development: Develop the complete user interface, including user profile pages, booking history, calendar integration, and more.
-- 3D Model Development: Refine the 3D campus model, adding more detail, navigation features, and user interactions.
+- 3D Model Development: Create a new 3D campus model using Blender, adding more details, navigation features, and user interaction.
 - Database Optimization: Optimize database queries and implement data migration strategies.
 - Integration Testing: Develop comprehensive integration tests for the backend and frontend.
 - User Testing: Conduct user testing with real students, faculty, and staff to gather feedback and identify areas for improvement.

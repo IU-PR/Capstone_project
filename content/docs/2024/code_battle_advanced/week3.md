@@ -35,7 +35,7 @@ title: "Week #3"
 
 - **Video showcase**
 
-https://youtu.be/aW6B97lPjbg
+https://www.youtube.com/watch?v=aW6B97lPjbg
 
 ![w3KubernetesStatistics.png](/2024/code_battle_advanced/w3KubernetesStatistics.png)
 

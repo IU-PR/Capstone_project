@@ -124,7 +124,7 @@ The Telegram bot is connected to a MongoDB database, where it stores user emails
 
 ### **LLM model research**:
 
-**OpenAI's GPT-4**([useful link](https://openai.com/index/gpt-4-research/))
+**OpenAI's GPT-4** ([useful link](https://openai.com/index/gpt-4-research/) )
 
 This model can create human-like text and generate creative and coherent sentences.It is also capable of writing summaries by understanding and paraphrasing content, generating new sentences. ChatGPT participates in human-like dialogs by answering questions and maintaining context in interactions. It can also translate text from one language to another with a high degree of fluency.
 
@@ -139,7 +139,7 @@ This model can create human-like text and generate creative and coherent sentenc
 * Length Limitation: Limited contextual window, which can be problematic for very long documents.
 
 
-**Google's BERT (Bidirectional Encoder Representations from Transformers)**([useful link](https://arxiv.org/abs/1810.04805))
+**Google's BERT (Bidirectional Encoder Representations from Transformers)** ([useful link](https://arxiv.org/abs/1810.04805) )
 
 This model is adept at understanding the context of a word in a sentence, paying attention to the words before and after it. It also identifies and extracts key sentences from a document to create a summary. Moreover, it answers questions based on a given passage, used in search engines and chatbots. It is able to categorize text into categories, identifies proper nouns and specific information in the text.
 
@@ -151,7 +151,7 @@ This model is adept at understanding the context of a word in a sentence, paying
 * Extractive generalization: Generally better suited for extractive rather than abstract generalization.
 * Resource intensive: Requires significant computational power for fine-tuning and inference.
 
-**T5 (Text-to-Text Transfer Transformer) by Google**([useful link](https://arxiv.org/abs/1910.10683))
+**T5 (Text-to-Text Transfer Transformer) by Google** ([useful link](https://arxiv.org/abs/1910.10683) )
 
 This model treats all NLP tasks as transforming input text into output text, making it very versatile. Also like previous systems it generates new, coherent summaries from text. It provides answers to questions based on given passages, translates text from one language to another, and is able to categorize text into given categories.
 
@@ -163,7 +163,7 @@ This model treats all NLP tasks as transforming input text into output text, mak
 * Resource intensive: High computational requirements for fine-tuning and inference.
 * Fine-tuning: Requires careful fine-tuning to achieve optimal performance for specific tasks.
 
-**Pegasus by Google**([useful link](https://arxiv.org/abs/1912.08777))
+**Pegasus by Google** ([useful link](https://arxiv.org/abs/1912.08777) )
 
 Specially designed for summarization, the model excels at generating concise and informative summaries and efficiently handles and summarizes long documents. Moreover, it generates coherent and contextually appropriate text.
 
@@ -174,7 +174,7 @@ Specially designed for summarization, the model excels at generating concise and
 * Limited specialization: May not be as versatile for other NLP tasks.
 * Training cost: high computational cost for training and fine-tuning.
 
-**Abstractive Summarization models (Pointer-Generator Networks)**([useful link](https://arxiv.org/abs/1704.04368))
+**Abstractive Summarization models (Pointer-Generator Networks)** ([useful link](https://arxiv.org/abs/1704.04368) )
 
 This model generates new sentences to create a coherent and concise summary. It can manage non-vocabulary words using a pointer mechanism. Moreover, it combines extractive and abstractive methods to improve performance.
 
@@ -186,7 +186,7 @@ This model generates new sentences to create a coherent and concise summary. It 
 * Complexity: More complex learning models and processes.
 * Resource intensive: Requires significant computational resources.
 
-**Multimodal Models (CLIP by OpenAI (for image-text tasks))**([useful link](https://arxiv.org/abs/2103.00020))
+**Multimodal Models (CLIP by OpenAI (for image-text tasks))** ([useful link](https://arxiv.org/abs/2103.00020) )
 
 This approach can understand and integrate both text and images. It matches text descriptions with corresponding images. It can also potentially summarize content that includes both text and images. Moreover, it can search images based on text queries and vice versa.
 

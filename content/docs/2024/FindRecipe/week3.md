@@ -61,8 +61,11 @@ Our team did...
 
 ### **Challenges & Solutions**
 
-...
+During the development of our prototype, we had significant deployment obstacles, mostly due to a lack of DevOps experience and problems finding a suitable web service that provides free VPS. To solve the DevOps knowledge gap, we spent a significant amount of time researching internet materials to provide a solid basis. 
+When it came to choosing a good online service, we discovered various free services that provide free vps. 
+We divided the Telegram bot's functions into three parts, which made it tough to integrate these components. To overcome this, we held discussions to ensure a smooth integration. Finally, our persistence and collaborative problem-solving approach helped us overcome these challenges and successfully deploy our prototype.
 
 ### **Conclusions & Next Steps**
 
-...
+In the coming weeks, our primary focus will be on completing the deployment of our server and database, allowing our Telegram bot to submit queries to a real server and return actual menus. This deployment is critical for transitioning our prototype from a testing environment to the live operating stage. 
+Following that, we intend to enhance the functionality of our Telegram bot by including features like tagging recipes as favorites, which will boost user experience and engagement. Furthermore, we intend to include the option to add images to menus, making the bot more visually appealing and instructive. These actions will greatly progress our project and lay the groundwork for future advances.

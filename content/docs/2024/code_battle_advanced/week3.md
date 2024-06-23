@@ -35,11 +35,8 @@ title: "Week #3"
 
 - **Video showcase**
 
-<video width="800" height="300" controls>
-  <source src="2024/code_battle_advanced/w3videoprot.mp4" type="video/mp4">
-</video>
+https://youtu.be/aW6B97lPjbg
 
-![w3videoprot.mp4](/2024/code_battle_advanced/w3videoprot.mp4)
 ![w3KubernetesStatistics.png](/2024/code_battle_advanced/w3KubernetesStatistics.png)
 
 ## **Weekly Progress Report**:

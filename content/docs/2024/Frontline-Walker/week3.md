@@ -40,7 +40,7 @@ The previous version was replaced by a walking mechanic using procedural generat
 ## **Weekly Progress Report**:
 
 The team mostly continued developing atomic mechanics as planned, as well as drawing prototypes of in-game models and environments.
-![WalkerPrototype](/2024/Frontline-Walker/WalkerPrototype.jpg)
+![WalkerPrototype](/2024/Frontline-Walker/WalkerPrototype.png)
 
 
 ### **User Interface**:

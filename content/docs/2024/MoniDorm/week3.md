@@ -76,7 +76,7 @@ Now, the API is deployed and is being used by other services: [API Swagger UI](h
 And we have also slightly reworked the Backend architecture scheme:
 
 <div style="display: flex; justify-content: center; align-items: center;">
-    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/backend.drawio (2).png">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/backend_drawio.png">
 </div>
 
 ### **Frontend Development**:

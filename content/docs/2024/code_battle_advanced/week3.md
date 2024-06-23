@@ -34,9 +34,9 @@ title: "Week #3"
   project.
 
 - **Video showcase**
--
 
-[![Prject video](https://img.youtube.com/vi/aW6B97lPjbg/0.jpg)](https://www.youtube.com/watch?v=aW6B97lPjbg)
+Click the video, we had to upload it to Youtube:
+[![Project video](https://img.youtube.com/vi/aW6B97lPjbg/0.jpg)](https://www.youtube.com/watch?v=aW6B97lPjbg)
 
 That is what is visible from the client side, but for the insides you can see the logs of Kubernetes:
 

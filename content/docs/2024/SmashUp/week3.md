@@ -1,4 +1,23 @@
 ## **Week 3 - Finishing the Plans**
+
+### **Developing the first prototype, creating the priority list**
+
+**Technical Infrastructure:**
+We rented cloud server, where MariaDB database server and back-end application are located, to write front-end without the need for running local back-end application.
+
+**Backend Development:**
+All API endpoints necessary for the current project stage were designed together with their request and response formats. Authorization system, content streaming and some other content access functions are made. Some endpoints are not fully realized yet, substituted with mock endpoints.
+
+**Frontend Development:**
+Frontend is fully designed, design is available at Figma.
+
+**Data Management:**
+MariaDB database following the presented scheme is deployed.
+
+**Prototype Testing:**
+Feedback among the team members was collected and we are currently working on enhancing the prototype based on it.
+
+
 ### **Weekly Progress Report**
 **Frontend**:
 - Different languages are now supported
@@ -6,6 +25,7 @@
 - Several critical bugs fixed
 
 **Backend and Database**:
+- Implemented authorization
 - Database schema outline created
 
 ![Database schema](/2024/SmashUp/week3/database_schema.png)
@@ -16,25 +36,6 @@
 
 **Machine Learning**:
 - Research performed
-
----
-
-**Technical Infrastructure:**
-We rented cloud server, where MariaDB database server and back-end application are located, to write front-end without the need for running local back-end application.
-
-**Backend Development:**
-All API endpoints necessary for the current project stage were designed together with their request and response formats. Authorization system, content streaming and some other content access functions are made. Some endpoints are not fully realized yet, substituted with mock endpoints.
-
-**Frontend Development:**
-Frontend is fully designed, design is available at Figma. 
-
-**Data Management:**
-MariaDB database following the presented scheme is deployed.
-
-**Prototype Testing:**
-Feedback among the team members was collected and we are currently working on enhancing the prototype based on it.
-
----
 
 ### **Challenges & Solutions**
 

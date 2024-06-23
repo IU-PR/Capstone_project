@@ -26,25 +26,31 @@ As we had a dataset available from our customers, we expanded and applied prepro
 
 The prototype was collectively tested by us on a number of subjects, which showed us the areas that needed attention, mainly the prompt generation and glitches.
 
+{{<details "Examples of different generation results" >}}
+
 ![A great generation](/2024/SceneGenAI/actual_generation.jpg)
 ![Generation with artifacts](/2024/SceneGenAI/magic_hammock.jpg)
 ![Generation with too many objects in prompt](/2024/SceneGenAI/table_heater.jpg)
+
+{{</details>}}
+
+![Prototype](/2024/SceneGenAI/prototype_showcase.png)
 
 ## **Weekly Progress Report**:
 
 ### **Challenges & Solutions**
 
-- Yandex GPT prompts being hard to work with.  
-
+- Yandex GPT prompts being hard to work with.   
     **Solution**: lots of experiments and general reading in the topic of prompts.
 
-- Too many artifacts.
-
+- Too many artifacts.  
     **Solution**: writing negative prompts for Stable Diffusion.
 
-- UI breaking in different screen resolutions.
-
+- UI breaking in different screen resolutions.  
     **Solution**: reading about the solutions and asking other developers both in the team and from the Leroy Merlen.
+
+- Difficulties in parsing data due to the security measures of the Leroy Merlin website.  
+    **Solution**: a script was written to transfer the necessary cookies (taking them from the browser) and parsing using BeautifulSoup
 
 ### **Conclusions & Next Steps**
 

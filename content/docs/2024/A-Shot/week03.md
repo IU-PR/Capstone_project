@@ -8,7 +8,7 @@ title: "Week #3"
 
 ### **Technical Infrastructure**
 
-For the initial launch of our models, we utilized a laptops with NVIDIA RTX 3060 and NVIDIA GTX 1650M GPUs.
+For the initial launch of the models, we utilized a laptops with NVIDIA RTX 3060 and NVIDIA GTX 1650M GPUs.
 When they were launched successfully, for the next processing we transitioned to using server with
 an NVIDIA TESLA P40 GPU. This powerful infrastructure allowed us to handle the computational demands of our deep
 learning tasks efficiently.
@@ -23,7 +23,7 @@ faster processing and improved efficiency in future iterations.
 For the **Blur Detection model**, we adopted
 the [D-DFFNet](https://paperswithcode.com/paper/depth-and-dof-cues-make-a-better-defocus-blur),
 which was trained on a specialized [dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view).
-Our model showed promising results during testing on our internal dataset, as detailed in
+The model showed promising results during testing on our internal dataset, as detailed in
 our [GitHub issue](https://github.com/IU-Capstone-Project-2024/A-Shot/issues/12).
 This model leverages depth and depth-of-field cues to enhance blur detection accuracy significantly.
 
@@ -51,8 +51,9 @@ capabilities, providing a solid foundation for future application scalability.
 
 ### **Prototype Testing**
 
-The testing phase involved evaluating the models' accuracy and desktop app testing. They are working really well, with high accuracy. Moreover, 
-we tried the desktop application, and unsatisfied with screen space waste, that we will make adjustments
+The testing phase involved evaluating the models' accuracy and desktop app testing.
+Currently, we are satisfied with model accuracy, but the inference time may need some improvement in the future.
+Moreover, we tried the desktop application, and are unsatisfied with screen space wastage, that we will make adjustments.
 Also, we created CI/CD pipelines based on **Gradle** and **CMake** building for different operating systems to improve testing
 In plans, CI/CD pipelines for deployment using GitHub Releases
 
@@ -68,7 +69,7 @@ the key accomplishments:
 
 2. **Model Execution with ONNX Runtime**:
 
-- Incorporated the ONNX Runtime library into our C++ code, allowing our models to run on multiple operating systems and
+- Incorporated the ONNX Runtime library into our C++ code, allowing to run the models on multiple operating systems and
   devices, including Windows, Mac, Linux, Android, and iOS.
 - Exported the trained models in the .onnx format for compatibility and deployment efficiency.
 

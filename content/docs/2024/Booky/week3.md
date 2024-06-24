@@ -32,17 +32,17 @@ In Week 3, we started hands-on development, and created the first functional pro
 
 ### Prototype Features
 
-- Create course
-- Create post
 - View list of courses
 - View course
-- View post 
+- View post
+- Change language
+- View notifications 
 
 
 ### User Interface
-![Prototype Screenshot 1](static\2024\Booky\photo_2024-06-24_04-54-23 (2).jpg)
-![Prototype Screenshot 2](static\2024\Booky\photo_2024-06-24_04-54-23.jpg)
-![Prototype Screenshot 3](static\2024\Booky\photo_2024-06-24_04-54-24 (2).jpg)
-![Prototype Screenshot 4](static\2024\Booky\photo_2024-06-24_04-54-24 (3).jpg)
-![Prototype Screenshot 5](static\2024\Booky\photo_2024-06-24_04-54-24 (4).jpg)
-![Prototype Screenshot 6](static\2024\Booky\photo_2024-06-24_04-54-24.jpg)
+![Prototype Screenshot 1](static\2024\Booky\screen1.jpg)
+![Prototype Screenshot 2](static\2024\Booky\screen2.jpg)
+![Prototype Screenshot 3](static\2024\Booky\screen3.jpg)
+![Prototype Screenshot 4](static\2024\Booky\screen4.jpg)
+![Prototype Screenshot 5](static\2024\Booky\screen5.jpg)
+![Prototype Screenshot 6](static\2024\Booky\screen6.jpg)

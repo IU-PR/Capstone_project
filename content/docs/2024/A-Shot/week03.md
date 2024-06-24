@@ -87,7 +87,7 @@ Here you can see screenshots of blur-detection model work:
 
 [Here you can see the video of blur-detection model work](https://drive.google.com/drive/u/0/folders/18jDpyZYHyM5TImLloxhwcTvzpyfWj6Ws)
 
-Here you can see screenshots of image-groiping model work:
+Here you can see screenshots of image grouping model work:
 
 ![First image](/2024/A-Shot/week03/image-grouping/1sta-shot.png)
 ![Second image](/2024/A-Shot/week03/image-grouping/2nda-shot.png)
@@ -116,7 +116,7 @@ Here you can see the screenshots of working prototype:
 
 - **Challenge 1: Running Trained Models from the Application**  
   *Problem*: Directly calling code from Java and Python using libraries, or running a separate subprocess and using stdout/in for communication, was not suitable for our requirements.  
-  *Solution*: We utilized onnxruntime, a tool that allows neural networks to run on any device. The models were exported to the .onnx format. We then wrote a C++ library that leverages ImageMagick for image uploading and onnxruntime for running neural models. The application accesses this library via JNI (Java Native Interface).
+  *Solution*: We used onnxruntime, a tool that allows neural networks to run on any device. The models were exported to the .onnx format. We then wrote a C++ library that leverages ImageMagick for image uploading and onnxruntime for running neural models. The application accesses this library via JNI (Java Native Interface).
 
 - **Challenge 2: Dependencies for Running Our Library**  
   *Problem*: Our library requires onnxruntime and ImageMagick to function.  
@@ -133,7 +133,7 @@ Despite significant progress, several tasks remain:
 1. **Models Performance Improvement**:
    - Enhance the current models' performance through additional training and fine-tuning.
    - Optimize the blur detection model to reduce complexity and weight.
-   - Integrate the Image-Grouping model into our application.
+   - Integrate the image grouping model into our application.
 
 2. **Frontend Completion**:
    - Address UI issues identified during testing, such as excessive space usage, and brainstorm new ways to update UI features.

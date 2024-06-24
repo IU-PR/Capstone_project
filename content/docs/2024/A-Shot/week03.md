@@ -24,6 +24,10 @@ The model showed promising results during testing on our internal dataset, as de
 our [GitHub issue](https://github.com/IU-Capstone-Project-2024/A-Shot/issues/12).
 This model leverages depth and depth-of-field cues to enhance blur detection accuracy significantly.
 
+![Blur Map 1](/2024/A-Shot/week03/blur-detection/map-1.jpg)
+![Blur Map 1](/2024/A-Shot/week03/blur-detection/map-2.jpg)
+![Blur Map 1](/2024/A-Shot/week03/blur-detection/map-3.jpg)
+
 - **Image Grouping Model**:
 
 For the **Image Grouping model**, we used [CVNet](https://github.com/shihaoshao-gh/superglobal?tab=readme-ov-file), guided by the research in this [paper](https://arxiv.org/abs/2308.06954).

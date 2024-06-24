@@ -80,7 +80,7 @@ Before the working process of this week we organized all necessary technical inf
 
 - **Frontend Development**:
 
-&nbsp;&nbsp;&nbsp;&nbsp;As about our progress on frontend: we have finished with all important pages: main page, registration and login page, rating page with possibility to flipping through pages with exercises results, page with exercises, where user can click on the exercise preview and see the page with the video of a correct technique and can train with the help of video model assistant. Also, we have implemented a fitness test page, where users can see the necessary thresholds to pass for each exercise. 
+&nbsp;&nbsp;&nbsp;&nbsp;As about our progress on frontend: we have finished with all important pages: main page, registration and login page, rating page with possibility to flipping through pages with exercises results, page with exercises, where user can click on the exercise preview and see the page with the video of a correct technique and can train with the help of video model assistant. Also, we have implemented a fitness test page, where users can see the necessary thresholds to pass for each exercise. The html was used to create the layout of the web pages and the Tailwind css framework contributed to quick and efficient styling.
 
 - **Data Management**:
 
@@ -96,11 +96,20 @@ Right after the deployment of the first prototype of our web application to the 
 
 - The main page is not fully adapted for the mobile version of a website.
 
+
+
+## **Using the feedback from TA**
+
+- We listened to the advice to use GitHub project for backlog, milestone and issues organization into roadmap and iterations. This advice was extremely useful, we significantly improved the delivering and visualization of tasks.
+
+- To deliver more progress on the meeting with TA we almost finished a report and deployed a prototype to the server before the meeting, not before the deadline, to show everything and receive more useful feedback.
+
+
 ## **Challenges & Solutions**
 
-1) When writing the part of the code related to recognizing the correctness of an exercise, a problem arose: how to evaluate the correctness, and which parts of the body to look at specifically. We were able to solve this problem with the help of additional resources, including YouTube.
+1) When writing the part of the code related to recognizing the correctness of an exercise, a problem arose: how to evaluate the correctness, and which parts of the body to look at specifically. We were able to solve this problem with the help of additional resources, including YouTube. This experience taught us the importance of using external sources to learn more information in an unfamiliar areas.
 
-2) Our main problem was finding a place to deploy the project. During the last review session, we were recommended the Github platform, but we could not use it due to special registration requirements for a foreign bank card. We resolved this issue by using a rented server instead.
+2) Our main problem was finding a place to deploy the project. During the last review session, we were recommended the Github platform, but we could not use it due to special registration requirements for a foreign bank card. We resolved this issue by using a rented server instead. We understood that finding alternative solutions is helpful for overcoming constraints.
 
 ## **Conclusions & Next Steps**
 

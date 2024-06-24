@@ -28,7 +28,7 @@ We organize study-coding sessions every two days, where our team:
 
 ### **Backend Development**:
 
-This week, we developing API endpoints using Django Rest Framework.
+This week, we were developing API endpoints using Django Rest Framework.
 
 
 ***Authentication Endpoints***
@@ -49,7 +49,7 @@ This week, we developing API endpoints using Django Rest Framework.
 1. **SummaryView** - POST endpoint
    - Parameters: `query` (string)
    - Description: Returns a summary of the query.
-
+  
 2. **QuizView** - POST endpoint
    - Parameters: `text` (string)
    - Description: Returns a quiz based on the text. The `text` parameter is validated using the `TextSerializer`. If the text is valid, it's used to generate a quiz, which is then returned in the response. To use this endpoint, make a POST request with a JSON body containing the `text` parameter.
@@ -73,7 +73,14 @@ Our backend API uses a router, so any changes in the ML logic will not affect th
 
 ### **Frontend Development**:
 
-The frontend is under development.
+##### Behind-the-scenes part
+- Implemented receiving authentication from POST endpoints from backend (described above). Svelte stores allow for caching user's authentication and data, so we used svelte stores to handle incoming data. 
+##### UX/UI 
+- We decided to make the design of our app to be as usable as possible. For that we drew inspiration from Google's service, Google Drive. Main inspiration were the top and left bar: while being rather simplistic, they provide vast functionality. Here is an example screenshot:
+
+ ![Design](/2024/Team44/DD_1.jpg)
+
+- Worth noting, that further work on UI will be needed since for now, not all of the features have been implemented.
 
 ### **Data Management**:
 
@@ -178,10 +185,10 @@ Quizzes structure is validating during generation by using the Pydantic output p
 This is the result of our team's work.
 
 
-![Quiz Generation procedure](/2024/Team44/QG_1.jpg)
-![Quiz Generation procedure](/2024/Team44/QG_2.jpg)
-![Text summarizer procedure](/2024/Team44/SM_1.jpg)
-![Text summarizer procedure](/2024/Team44/SM_2.jpg)
+ ![Quiz Generation procedure](/2024/Team44/QG_1.jpg)
+ ![Quiz Generation procedure](/2024/Team44/QG_2.jpg)
+ ![Text summarizer procedure](/2024/Team44/SM_1.jpg)
+ ![Text summarizer procedure](/2024/Team44/SM_2.jpg)
 
 
 
@@ -210,4 +217,8 @@ This week was crucial for our team especially, for the prototype development. We
     - By doing this, we could lower the initial waiting time for users to get the first question
     - Time for generating all quizzes stays the same, but it is distributed among users more-or-less evenly
     - The code logic complexity increases, so the better way is to plan these features ahead
+- Continue the work on frontend
+    - Implement other POST requests reception and sending.
+    - Continue the never-ending work on improving the UI and UX.
+    - Finalize all the necessary windows, pages and pop-ups.
 

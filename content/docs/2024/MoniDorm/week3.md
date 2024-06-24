@@ -218,19 +218,64 @@ This approach can understand and integrate both text and images. It matches text
 * Specialization complexity: Specialized training data may be required for effective generalization.
 * Complexity: More complex implementation and fine-tuning for specific tasks.
 
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/LLM_models.png">
+ </div>
+
+<u>**Conclusion:**</u>
+1. For High Accuracy: GPT-4 and Pegasus are ideal.
+2. For Speed: BERT is the best choice.
+3. For Scalability and Ease of Use: BERT and T5 are highly recommended.
+4. For Moderate Resource Requirements: BERT and T5 are more efficient.
+5. For Complex, Multimodal Tasks: Multimodal Models, though resource-intensive, are necessary for integrating text and image data.
+
 ---
 
 ## **Progress report**:
-As a key deliverable for this week, we kindly request a progress report showcasing your first prototype. We understand that sharing code directly in the blog might not be preferable for everyone, so if you feel comfortable to provide a link to your prototype - this would be wonderful. However, if you prefer not to share the code publicly, we kindly ask you provide screenshots of your prototype to clearly illustrate the state of affairs.
 
-The progress report should offer insights into the development process and highlight the significant milestones achieved during this week. It should include the following elements:
+### Prototype Features:
+We made significant progress on our prototype this week, focusing on backend development, frontend development, and data management:
+- **REST API Contracts**: We developed four versions of REST Contracts APIs to define clear interactions between services. We have successfully implemented and deployed these APIs, which are currently being used by other services. The API Contracts ensure consistency and reliability across the system.
+- **Website with embedded Grafana visualization**: Created a website with an embedded interactive Grafana data visualization dashboard. This dashboard allows administrators to easily navigate through various metrics and statistics. Future plans are to convert the website into a full-featured Telegram web app to increase accessibility.
+- **Telegram bot for sending reports**: We created a bot that accepts reports from users. The bot is already connected to a MongoDB database to store all the necessary user data, such as email and dialog details. This feature allows for a convenient user-system interaction.
+- **Configuring and connecting the database to API for storing reports**: Utilized PostgreSQL for storing reports on dormitory infrastructure issues. Implemented basic CRUD operations (Insert, Update, Retrieve, Delete) for managing reports. 
 
- - Prototype Features: Outline the features and functionalities that you have successfully implemented in your prototype. Include any core interactions, user flows, or data management capabilities that are essential to your project's goals.
+### Additional weekly work:
 
- - User Interface: Showcase the user interface design of your prototype through screenshots or interactive prototypes. Highlight the key screens and explain how users will interact with your application. If your project has no UI elements, you may skip this part.
+- **Code Refactoring**: Allocated time to refactor the code for improved maintainability and performance. The backend architecture has been slightly reworked to accommodate new features and enhance scalability.
+- **Docker progress**: Integrated Docker into our CI/CD pipelines, allowing for automated building, testing, and deployment of Docker images. This automation accelerates our development cycle and reduces the risk of human error.
+- **LLM Model Reaserch**: A small study was done to identify the most appropriate language model for further use in analyzing the reports.
 
- - Challenges and Solutions: Share any challenges or obstacles you encountered during the development of your prototype. Describe how you addressed these challenges and provide insights into the solutions you implemented.
+### User Interface:
+The project is mainly focused on the backend and data management. However, the built-in Grafana dashboard on our website provides a visual representation of the data for admin users. There is also a user-friendly interface for the user, which is implemented through a Telegram bot.
 
-- Next Steps: Discuss your plans for the upcoming weeks and outline the features or improvements you intend to focus on. Create a priority list of features needed to be implemented. This will demonstrate your project's trajectory and provide a glimpse into the future development phases.
+### Challenges and Solutions:
+
+**Challenges:**
+
+Data Visualization: One of the major challenges was how to effectively visualize data on the frontend. Initial methods proved insufficient for our needs.
+
+Backend Refactoring: Ensuring that the refactored backend code maintained functionality and performance was a complex task.
+
+LLM model comparison: While searching for the best model to analyze the reports, it was difficult to know which model was better.
+
+**Solutions:**
+
+Grafana Dashboard: By embedding an interactive Grafana dashboard, we managed to overcome the visualization challenge. This approach provided a flexible and powerful way to present data.
+
+Iterative Refactoring: We approached backend refactoring iteratively, ensuring that each step was thoroughly tested and validated. This minimized disruption and maintained system stability.
+
+Use of articles and graphs: Graphs were constructed with data taken from articles to make a visual comparison.
+
+### Next Steps:
+
+- Convert the current website to a Telegram Web App to enhance user engagement and accessibility;
+- Add more dashboards to the Grafana visualization for detailed insights;
+- Add notifications first for all users when a failure is found, and then implement subscriptions to specific locations in the building;
+- Implement an algorithm to search for failures based on reports;
+- Add a LLM model to the system to summarize all reports and identify a single problem at a particular location;
+- Continue refining API endpoints and improving performance;
+- Enhance test coverage to achieve >= 75% to ensure robust;
+- Automate more tests within the CI/CD pipeline to cover new features.
 
 ---

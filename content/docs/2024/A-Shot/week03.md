@@ -135,13 +135,13 @@ Here you can see the screenshots of working prototype:
 Despite significant progress, several tasks remain:
 
 1. **Models Performance Improvement**:
-   - Enhance the current models' performance through additional training and fine-tuning.
-   - Optimize the blur detection model to reduce complexity and weight.
-   - Integrate the image grouping model into our application.
+	- Enhance the current models' performance through additional training and fine-tuning.
+	- Optimize the blur detection model to reduce complexity and weight.
+	- Integrate the image grouping model into our application.
 
 2. **Frontend Completion**:
-   - Address UI issues identified during testing, such as excessive space usage, and brainstorm new ways to update UI features.
-   - Finalize the remaining parts of the front end to ensure complete functionality and a polished user experience.
+	- Address UI issues identified during testing, such as excessive space usage, and brainstorm new ways to update UI features.
+	- Finalize the remaining parts of the front end to ensure complete functionality and a polished user experience.
 
 3. **Database Integration**:
-   - Integrate SQLite and Room for database management to improve application performance and user experience. This integration will streamline data handling processes and eliminate the need for importing libraries every time.
+	- Integrate SQLite and Room for database management to improve application performance and user experience. This integration will streamline data handling processes and eliminate the need for importing libraries every time.

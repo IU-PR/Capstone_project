@@ -25,10 +25,12 @@ In our prototype, we have implemented the following features:
 ### Frontend Development
 - Developed initial UI components using the GO/Walls framework.
 
-![User Interface Screenshot 1](ui_screenshot1.png)
+We considered two variants of UI, and conducted a poll among Information Security Specialists to choose the better one.
+
+![User Interface Screenshot 1](/2024/semargl/ui1.png)
 *User Interface Screenshot 1*
 
-![User Interface Screenshot 2](ui_screenshot2.png)
+![User Interface Screenshot 2](/2024/semargl/ui2.png)
 *User Interface Screenshot 2*
 
 ## Challenges and Solutions

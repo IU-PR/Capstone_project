@@ -68,6 +68,11 @@ It will most probably change, because we are planning to add more functionality 
 -   Tested the entire navigation flow from the home page to the product list page with various categories and filters.
 
 ### Weekly Progress Report:
+This week, our team primarily focused on advancing the frontend development of our application. We concentrated on creating an interactive and seamless user experience by designing and implementing key components like the CategoryCarousel, FilterPage, and ProductList. These components were integrated with smooth navigation and dynamic data fetching capabilities, allowing users to easily switch between categories and see relevant products.
+
+We also set up routing using react-router-dom to facilitate smooth transitions between the home page and the product listing page. Additionally, we integrated Axios for efficient API requests, enabling the frontend to fetch and display product data based on selected filters and categories.
+
+Our efforts extended to styling and layout improvements to ensure the application is visually appealing and user-friendly. We have started initial user testing to identify and address any potential issues, laying a solid foundation for further enhancements in the upcoming weeks.
 
 ### Challenges & Solutions
 

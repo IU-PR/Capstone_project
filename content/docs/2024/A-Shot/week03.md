@@ -8,13 +8,10 @@ title: "Week #3"
 
 ### **Technical Infrastructure**
 
-For the initial launch of the models, we utilized a laptops with NVIDIA RTX 3060 and NVIDIA GTX 1650M GPUs.
-When they were launched successfully, for the next processing we transitioned to using server with
+For the initial launch of the models, we used a laptops with NVIDIA RTX 3060 and NVIDIA GTX 1650M GPUs.
+When the prototypes were launched successfully, for the training we transitioned to using server with
 an NVIDIA TESLA P40 GPU. This powerful infrastructure allowed us to handle the computational demands of our deep
 learning tasks efficiently.
-
-While these laptops' GPUs provided adequate performance for development, we recommend using higher-performance GPUs for
-faster processing and improved efficiency in future iterations.
 
 ### **Backend Development**
 

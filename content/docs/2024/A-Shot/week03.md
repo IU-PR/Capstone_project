@@ -32,9 +32,9 @@ We tested it firstly on Oxford5k dataset, then edited some code to add the abili
 
 ### **Frontend Development**
 
-Our application was developed using *Kotlin Multiplatform Compose*, leveraging the IntelliJ IDEA environment for an
-efficient development workflow. Kotlin Multiplatform allows us to share code across multiple platforms, ensuring a
-seamless and consistent user experience. We used Hi-Fi UI Prototype v2.0 from previous week
+Our application was developed using *Kotlin Multiplatform Compose*, leveraging the IntelliJ IDEA environment for an efficient development workflow.
+Kotlin Multiplatform allows us to share code across multiple platforms, ensuring a seamless and consistent user experience.
+We used Hi-Fi UI Prototype v2.0 from previous week.
 
 ### **Data Management**
 

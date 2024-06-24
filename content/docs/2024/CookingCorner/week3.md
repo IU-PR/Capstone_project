@@ -8,9 +8,9 @@ title: "Week #3"
 
 - **Technical Infrastructure**:
 
-Currelntly our team is sticking to the initial scheme of infrastructure:
+Currently, our team is sticking to the initial scheme of infrastructure:
 
-![](/2024/CookingCorner/General_infrastructure.png)
+![](/2024/CookingCorner/General_infrastructure_with_user.png)
 
 - **Backend Development**:
 
@@ -133,7 +133,7 @@ Current prototype is available through this link: https://www.figma.com/design/V
 
 2) Validation and data retrieval from fields on sign-in/sign-up pages
 
-3) Implemented recipe cards where a brief information about the recipe and who added it is displayed.
+3) Implemented recipe cards where brief information about the recipe and who added it is displayed.
 
 4) Implemented the display of information about the user in the profile
 
@@ -142,7 +142,10 @@ Current prototype is available through this link: https://www.figma.com/design/V
 
 ### **Challenges & Solutions**
 
-Current week was accomplished according to our plans, hence, we did not meet any extra challenges
+We were thinking about integrating AI. So we have decided to use it to get all the information from raw description of 
+some recipe provided by user (from some website), such as price of products, time to cook, nutritional value etc. It
+can be useful because not all recipes contains such small details, but these details (even if they are generated and 
+calculated approximately) can really help people with cooking.
 
 ### **Conclusions & Next Steps**
 
@@ -156,7 +159,7 @@ For the next week our team is planning to:
 
 4) Continue working on recipe routes and other requested routes
 
-5) Figure out how to integrate AI
+5) Integrate AI
 
 6) Connect backend with frontend design and test it manually
 

@@ -8,7 +8,7 @@ title: "Week #3"
 
 - **Technical Infrastructure**:
 
-Currently, our team is sticking to the initial scheme of infrastructure:
+Currently, our team is sticking to the initial scheme of infrastructure (but now with user):
 
 ![](/2024/CookingCorner/General_infrastructure_with_user.png)
 

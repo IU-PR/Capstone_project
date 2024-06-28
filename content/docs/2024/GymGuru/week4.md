@@ -18,13 +18,15 @@ title: "Week #4"
 
 ## **Feedback from TA**
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;During our recent meeting with the TA, several points and advices were discussed.
 
-1. 
+&nbsp;&nbsp;&nbsp;&nbsp;The main advices about **backlog maintaining** were:
 
-2. 
+1. Creating all milestones at the beginning of the project work, not at the beginning of each week.
 
-3. 
+2. Adding a section "In review" to the backlog with assigned reviewer.
+
+&nbsp;&nbsp;&nbsp;&nbsp;Also, a different model of pose estimation and recognition - Yolo - was proposed by the TA. We definitely will get to know this model and explore will its integration be an improvement of our web application or not.
 
 
 ## **External Feedback**

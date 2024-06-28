@@ -7,7 +7,7 @@ title: "Week #3"
 This week's progress report outlines significant developments and strategic adjustments as we advance towards our project goals.
 
 ## Prototype Features *Developed*:
-*Currently we have ~1000 lines of functional code written in go in the backend part, web-design and around 150-200 of YAML/Dockerfile configuration lines*
+*Currently we have Backend Prototype that can be tested via Postman on local machine and web-design on Figma*
 - **Additional Requests Service:** Implemented RESTful API endpoints for managing additional requests with full CRUD functionality.
 - **Auth Service:** Finalized user authentication features including signup, login, and token validation, supported by robust middleware for role-based access control.
 - **Community & Donation & Event/Project Services:** Started development of these services. After finalizing, MVP core functionality on the back-end part will be finalized.
@@ -49,11 +49,14 @@ Our team has chosen Trello as a platform for task management. Currently we have 
 ## Backend development progress
 *Can be found here: [Backend branch](https://github.com/IU-Capstone-Project-2024/AlumniPortal-Innopolis/tree/backend_services)*
 
+## Postman collection
+*Can be found here: [Postman Collection](https://app.getpostman.com/join-team?invite_code=fde776bd389ac0d1d62a65b07324b15c)*
+
 ## Completed Web Design
 *Can be found here: [Figma Link](https://www.figma.com/design/SfF0bsqgwOKq8h1XcPZ87I/Untitled?node-id=0-1&t=1AkJuqLnqNlBNXH5-0)*
 
 ## Feedback (core aspects) received from 319 Office
-
+*This week we also held a meeting with 319 Office to prenet our plan of service development*
 - The idea of supporting events is promising, but a crucial question remains: will graduates donate and sustain these initiatives? Success hinges on motivating them effectively.
 
 - Graduates cannot request passes even for the duration of events, per Semenikhin's decision. Their only option is to obtain a university pass. Additionally, no one will be housed in dormitories for free during events unless the graduate rents a room themselves.

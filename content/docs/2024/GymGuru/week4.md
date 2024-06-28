@@ -44,6 +44,17 @@ title: "Week #4"
 |Dmitry Okoneshnikov, 2nd year|8|4|2|I really like the idea of using a pose|It is worth adding an inscription that the download /initialization is in progress|
 |Overall|7.8|6.4|7.1|Most of interviewees highlighted the design and the main idea|Respondents noted that they want to see more hints and alerts of success/fail|
 
+&nbsp;&nbsp;&nbsp;&nbsp;Here you can see the screens of users testing process. *All participants of the testing session agreed to publish screenshots from their devices in this report.*
+
+<p float="left">
+  <img src="/2024/GymGuru/Week4_User1.jpg" width="480" height="360">
+  <img src="/2024/GymGuru/Week4_User2.jpg" width="480" height="360">
+  <img src="/2024/GymGuru/Week4_User3.jpg" width="480" height="360">
+  <img src="/2024/GymGuru/Week4_User4.jpg" width="480" height="360">
+  <img src="/2024/GymGuru/Week4_User5.jpg" width="480" height="360">
+  <img src="/2024/GymGuru/Week4_User6.jpg" width="480" height="360">
+</p>
+
 
 ## **Testing**
 

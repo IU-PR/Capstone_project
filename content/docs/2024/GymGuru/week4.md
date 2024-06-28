@@ -11,7 +11,9 @@ title: "Week #4"
 
 ## **Week's focus and importance**
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;This week, we have been focusing on testing and incorporating feedback, which is important because we need to see independent reviews from third parties in order to identify any potential issues and plan our next steps. To do this, we have gone through several stages.
+&nbsp;&nbsp;&nbsp;&nbsp;Our plan was to conduct continuous integration/continuous delivery (CI/CD) testing, user interface (UI) testing, and user acceptance testing (UAT) to gather user feedback. We also continued integrating our initial ideas for the project that we didn't have time to finish last week.
+
 
 
 ## **Feedback from TA**
@@ -61,6 +63,8 @@ title: "Week #4"
 
 - Connection to the Database
 
+&nbsp;&nbsp;&nbsp;&nbsp;Moreover, regarding the recognition of the physical exercise performance correctness, we trying to find any ways how to cheat the system. This allow us to refine the rules of checking the correctness of exercise done by a person. It includes different camera angles, clothes, backgrounds and so on.
+
 
 ## **Iteration**
 
@@ -83,15 +87,19 @@ title: "Week #4"
 
 ## **Challenges & Solutions**
 
-1. 
+&nbsp;&nbsp;&nbsp;&nbsp;This week we had a number of difficulties, mainly consisting of testing:
 
-2. 
+1. When testing the correctness of counting the number of completed approaches of one exercise. For each exercise, it is necessary to think through all possible tricks that will help to wind up the counter, and because of this, the testing person spent days squatting, doing push-ups, and so on. Also, new tricks are being invented every day, also thanks to the feedback of users.
+
+2. During the CI/CD testing, we encountered some difficulties due to a lack of experience in implementing this feature on the GitHub platform. Specifically, there was an issue with the runner not being installed not with user, nor with root permission on our rented server. We solved it by setting up several environment variables.
 
 
 ## **Conclusions & Next Steps**
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;This week we are done with feedback, manual and automated testing, and several features and refinements of the web application itself. And this is a list of our expected next steps:
 
-1. 
+1. Continue searching for tricks in calculating exercise approaches and correcting them;
 
-2. 
+2. Continue collecting, analyzing and implementing user and experts feedbaсk;
+
+3. Implementing fitness test functionality.

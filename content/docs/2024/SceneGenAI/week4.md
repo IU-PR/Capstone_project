@@ -21,16 +21,15 @@ Since our team has a clearly formulated goal set by the customer, we do not devi
 
 ### **Challenges & Solutions**
 
-> This
-
-- ...  
-    **Solution**: ...
+- Hard dataset preprocessing  
+  **Solution**: image segmentation and manual processing
+- Sudden problems in the prompt generation after upgrades  
+  **Solution**: trial and error :)
 
 ### **Conclusions & Next Steps**
 
 Our team made further progress on the project, such as adding style selection, refining the machine learning pipeline, connecting the frontend and backend and e.t.c. With all of this in mind, our next steps are:
-> last week goals
-- development of background labels predictor architecture, and its training;
-- connection of frontend and backend;
-- improve the promts;
-- adding new features like style selection and the number of generated images.
+- fixing bugs
+- adding the negative promts
+- rename labels for better transfer to Yandex GPT
+- add saving pictures and registration

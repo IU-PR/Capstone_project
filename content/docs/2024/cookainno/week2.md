@@ -180,7 +180,8 @@ In our project, we have established a comprehensive deployment and DevOps strate
 - **Developed comprehensive features for managing users' favorite recipes**, allowing full manipulation capabilities such as search by name, update, and other CRUD operations.
 - **Researched object detection models** for a grocery image detection project. Evaluated several models, including YOLOv8, Faster R-CNN, and EfficientDet. Selected YOLOv8 for its optimal balance between accuracy and speed, crucial for real-time detection.
 - **Evaluation of model trained**. The model shows good validation metrics for classes such as bell pepper, fasol, garlic, onion, hot pepper, and peas, as there are enough images for these categories. However, due to the dataset being very imbalanced and the underrepresentation of other classes, the model performs poorly on those less represented categories. This is evident from the lower mAP scores for these underrepresented classes. Therefore, we plan to expand the dataset by manually collecting and annotating additional data for these insufficiently represented classes to improve the model's performance. There is a metrics:
-|-----Classes---|-Images-|-Instances-|-Box(P)|---R---|-maP50-|-mAP50-95-|
+  
+| Classes | Images | Instances | Box(P) | R | maP50 | mAP50-95 |
 |---------------|--------|-----------|-------|-------|-------|----------|
 | all           | 96     | 390       | 0.87  | 0.861 | 0.887 | 0.642    |
 | Apples        | 4      | 4         | 0.881 | 0.75  | 0.912 | 0.607    |
@@ -206,6 +207,7 @@ In our project, we have established a comprehensive deployment and DevOps strate
 | peas          | 10     | 30        | 0.77  | 0.767 | 0.806 | 0.514    |
 | salad         | 8      | 9         | 0.995 | 1     | 0.995 | 0.798    |
 | tomato        | 3      | 6         | 1     | 0.992 | 0.995 | 0.694    |
+
 - **No even a remotely suitable dataset for the ingredient detection model.** Determined that creating a custom dataset was necessary, as no existing datasets fully met our needs. This realization presented a significant challenge.
 - **Successfully implemented authentication functionality on Android devices**, ensuring secure user access through JWT and email confirmation.
 - **Drafted the camera screen interface**, which will serve as the gateway for the machine learning component to recognize ingredients from photos.

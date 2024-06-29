@@ -67,6 +67,8 @@ The backend of our application is designed to handle several critical functions:
     - **AI Recipe Generation**: Generate personalized recipes based on recognized ingredients.
     - **Personalized Recommendations**: Suggest recipes and daily menus based on user preferences and dietary restrictions.
 
+  ![week2architecture](/2024/cookainno/week2architecture.jpg)
+
 ### **Data Management:**
 
 - **Database**: PostgreSQL for reliable, robust, and scalable data storage. Room for local storage on the Android app.

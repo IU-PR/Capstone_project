@@ -108,3 +108,7 @@ During the third week, significant progress was made across backend, ML, and mob
 - Research and consider using remote storage for recipes to enable searching non-generated recipes by ingredients.
 - Implement logic and endpoints for calorie recommendation calculations.
 - Involve first real users to test the app prototype.
+- Implement screens with recipes and favourite recipes, gather items for them from database.
+- Create ingredients insertion and camera recognition for recipe generation and show the generated recipe with photo.
+- Implement profile screen with daily recomendation option, connect them to ML part.
+- Adjust colors and improve UI/UX.

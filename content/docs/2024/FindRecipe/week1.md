@@ -8,13 +8,13 @@ title: "Week #1"
 
 ### **Team Members**
 
-| Team Member              | Telegram ID   | Email Address                             |
-|--------------------------|---------------|-------------------------------------------|
-| Team Member (Lead) 1     | @egorled      | e.lebedev@innopolis.university            |
-| Team Member 2            | @laliyenl     | a.ablaeva@innopolis.university            |
-| Team Member 3            | @Miss_Shmidt  | s.gamershmidt@innopolis.university        |
-| Team Member 4            | @ilsiya_n     | i.nasibullina@innopolis.university        |
-| Team Member 5            | @xhug_xhug    | a.shulmin@innopolis.university            |
+| Team Member        | Telegram ID   | Email Address                             |
+|--------------------|---------------|-------------------------------------------|
+| Egor Lebedev       | @egorled      | e.lebedev@innopolis.university            |
+| Alie Ablaeva       | @laliyenl     | a.ablaeva@innopolis.university            |
+| Sofia Gamershmidt  | @Miss_Shmidt  | s.gamershmidt@innopolis.university        |
+| Ilsiia Nasibullina | @ilsiya_n     | i.nasibullina@innopolis.university        |
+| Alex Shulmin       | @xhug_xhug    | a.shulmin@innopolis.university            |
 
 ### **Value Proposition**
 

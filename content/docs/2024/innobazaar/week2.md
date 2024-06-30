@@ -16,10 +16,10 @@
   - **Database** - Manages all persistent data such as vendor information, product details, vendor contacts etc.
 2. **Data Management**:
   - All data will be stored using SQLite which is the default for the django. Moreover, Django uses Object-Relational Model(ORM) which allows to work with databases using python code instead of SQL. The following database schema is used in the current version of the project:
-    ![db_schema](/static/2024/innobazaar/week2_1.png)
+    ![db_schema](/2024/innobazaar/week2_1.png)
 3. **User Interface (UI) Design**:
   - Built with React.js, it offers an interface for users to navigate and interact with the system. The interactive protoype with some functionality of the website can be found [here](https://www.figma.com/proto/OqYWcu5new2YzWO7XfQE2I/capstone-project?node-id=1-2200&t=C79svI9vX0ffFJWD-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2200). Preview of the prototype:
-    ![figma_preview](/static/2024/innobazaar/week2_2.png)
+    ![figma_preview](/2024/innobazaar/week2_2.png)
 4. **Integration and APIs**:
   - For now, we are not planning to use any external API's or integrations. The only API's we are using are the ones provided by our own backend. Our backend service provides API's which are later used by the frontend side to list products, or retrieve an item info. Moreover, we are planning to implement authorization system.
 5. **Scalability and Performance**:
@@ -76,7 +76,7 @@ Because many of our members are backend developers, we have thought of an idea t
   - **Solution**: At first we had errors when we tried to map API response in React.js, but we were able to solve it by adding extra if statement, which check whether the response is undefined or no.
 - **Challenge**: Having clean directory structure.
   - **Solution**: We adopted a well-defined directory structure based on best practices, categorizing all components into clear sections:
-  ![dir_structure](/static/2024/innobazaar/week2_3.png)
+  ![dir_structure](/2024/innobazaar/week2_3.png)
 
 #### Conclusions & Next Steps
 - We were able to successfully implement several backend endpoints, which we think were the most complex ones in the project. Now we will focus on how to correctly utilize them in the frontend part of the website. Moreover, if everything goes smoothly we will think of a new features which could potentially be added to the website.

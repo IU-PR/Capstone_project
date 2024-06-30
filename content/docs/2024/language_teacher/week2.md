@@ -17,38 +17,38 @@ SpeechRecognition, numpy, matplotlib.
 
 1. **Component Breakdown**: 
 
-The project architecture comprises two distinct components: 
-* Django backend serving as the core API and a Vue.js frontend responsible for user interaction. The backend API handles authentication, data storage, and business logic, ensuring secure and efficient data processing.
-* The frontend communicates exclusively with the backend API, utilizing Axios for seamless data retrieval and submission. This separation ensures that sensitive backend operations remain inaccessible to the client-side, enhancing security and adhering to best practices.
-Through this architecture, the frontend delivers a responsive and intuitive user experience, driven by asynchronous interactions with the backend APIs.
+    The project architecture comprises two distinct components: 
+    * Django backend serving as the core API and a Vue.js frontend responsible for user interaction. The backend API handles authentication, data storage, and business logic, ensuring secure and efficient data processing.
+    * The frontend communicates exclusively with the backend API, utilizing Axios for seamless data retrieval and submission. This separation ensures that sensitive backend operations remain inaccessible to the client-side, enhancing security and adhering to best practices.
+    Through this architecture, the frontend delivers a responsive and intuitive user experience, driven by asynchronous interactions with the backend APIs.
 
 2. **Data Management**: 
 
-Django's ORM facilitates seamless interaction with the PostgreSQL database, offering robust data modeling capabilities and ensuring data integrity through schema enforcement and validation. Data access and manipulation are controlled through Django's powerful querysets and model methods, optimizing database performance. The application employs RESTful APIs to enable communication between frontend Vue.js components and backend Django services, enforcing structured data transmission and ensuring consistency in data representation. Data security measures, including authentication, authorization, and encryption techniques, safeguard sensitive information throughout its lifecycle.
+    Django's ORM facilitates seamless interaction with the PostgreSQL database, offering robust data modeling capabilities and ensuring data integrity through schema enforcement and validation. Data access and manipulation are controlled through Django's powerful querysets and model methods, optimizing database performance. The application employs RESTful APIs to enable communication between frontend Vue.js components and backend Django services, enforcing structured data transmission and ensuring consistency in data representation. Data security measures, including authentication, authorization, and encryption techniques, safeguard sensitive information throughout its lifecycle.
 
 3. **User Interface (UI) Design**: 
 
-We have opted for a basic design approach during the initial phases of development to prioritize functionality. Our current focus is on implementing core features and ensuring the smooth operation of the website. Once these foundational elements are in place, we plan to seek professional assistance to enhance the user experience and design aesthetics. This approach allows us to efficiently build and test essential functionalities before refining the overall design to deliver an optimal user experience.
+    We have opted for a basic design approach during the initial phases of development to prioritize functionality. Our current focus is on implementing core features and ensuring the smooth operation of the website. Once these foundational elements are in place, we plan to seek professional assistance to enhance the user experience and design aesthetics. This approach allows us to efficiently build and test essential functionalities before refining the overall design to deliver an optimal user experience.
 
 4. **Integration and APIs**: 
 
-Our project integrates essential APIs for speech-to-text and text-to-speech functionalities, which are fundamental to our application's interactive features. Leveraging these APIs enables our platform to seamlessly convert spoken language into text and vice versa, enhancing accessibility and user engagement. These integrations not only facilitate real-time communication through audio recordings but also empower our users with interactive learning experiences.
+    Our project integrates essential APIs for speech-to-text and text-to-speech functionalities, which are fundamental to our application's interactive features. Leveraging these APIs enables our platform to seamlessly convert spoken language into text and vice versa, enhancing accessibility and user engagement. These integrations not only facilitate real-time communication through audio recordings but also empower our users with interactive learning experiences.
 
 5. **Scalability and Performance**: 
 
-Our architecture is designed to scale efficiently as user demand increases. We will employ scalable database solutions like PostgreSQL and leverage Docker for containerization, ensuring our application can handle growing user bases and increased data processing requirements without compromising performance.
+    Our architecture is designed to scale efficiently as user demand increases. We will employ scalable database solutions like PostgreSQL and leverage Docker for containerization, ensuring our application can handle growing user bases and increased data processing requirements without compromising performance.
 
 6. **Security and Privacy**: 
 
-Security is paramount in our application design. We implement best practices such as HTTPS encryption, token-based authentication for API interactions, and secure storage of sensitive user data using technologies like Django's built-in security features and robust authorization mechanisms.
+    Security is paramount in our application design. We implement best practices such as HTTPS encryption, token-based authentication for API interactions, and secure storage of sensitive user data using technologies like Django's built-in security features and robust authorization mechanisms.
 
 7. **Error Handling and Resilience**: 
 
-To maintain reliability, our application includes comprehensive error handling mechanisms. We implement try-catch blocks in critical areas of code, use logging to track errors for debugging, and ensure graceful degradation during unexpected failures to minimize disruption to user experience.
+    To maintain reliability, our application includes comprehensive error handling mechanisms. We implement try-catch blocks in critical areas of code, use logging to track errors for debugging, and ensure graceful degradation during unexpected failures to minimize disruption to user experience.
 
 8. **Deployment and DevOps**: 
 
-For efficient deployment and management, we will utilize Docker containers to package our application and its dependencies. Continuous Integration and Continuous Deployment (CI/CD) pipelines are set up using tools like GitLab CI/CD or Jenkins, enabling automated testing, build, and deployment processes. This ensures rapid and reliable updates to our production environment while maintaining application stability.
+    For efficient deployment and management, we will utilize Docker containers to package our application and its dependencies. Continuous Integration and Continuous Deployment (CI/CD) pipelines are set up using tools like GitLab CI/CD or Jenkins, enabling automated testing, build, and deployment processes. This ensures rapid and reliable updates to our production environment while maintaining application stability.
 
 ### **Week 2 questionnaire:**
 
@@ -103,7 +103,6 @@ For efficient deployment and management, we will utilize Docker containers to pa
 
 ### **Weekly Progress Report**
 
-Our team did...
 
 For this week, our team has searched and read more than **8 articles** to find the possible approaches we can use.
 And here are the key research papers that we reviewed and discussed as a team:
@@ -122,12 +121,15 @@ And we read some article about forced alignment to align the output text with th
 
 We have identified the main tasks to work on.
 
-**Web:** 
+**Web:**
+
 Substantial progress has been made with a comprehensive rewrite of the codebase. This extensive effort involved refactoring and rewriting utilities and core components to improve code structure, efficiency, and maintainability. Additionally, authentication capabilities were successfully integrated, bolstering the application's security framework. These advancements not only enhance the overall stability and performance of the platform but also lay a solid foundation for future feature enhancements and optimizations.
 
-<img src="/2024/language_teacher/wite the name of the photo.jpg" alt="drawing" width="450"/>
+<img src="/2024/language_teacher/language_teacher_eng.jpg" alt="Website" width="450"/>
+<img src="/2024/language_teacher/audio.jpg" alt="Website" width="450"/>
 
 **AI:** 
+
 * text to speech
 * speech to text
 * denoising audio
@@ -139,7 +141,7 @@ Substantial progress has been made with a comprehensive rewrite of the codebase.
 * For expanding our dictionary of phonetics we will use a model that will predict the output phonetics using IPA phonemes alphabet from the regular language alphabet input.
 * We applied Forced alignment on the input wav to predict the time boundary of each spoken character(at which moment the predicted character was present in the wav file) as you can see in the image below:
 
-<img src="/2024/language_teacher/wite the name of the photo.jpg" alt="drawing" width="450"/>
+<img src="/2024/language_teacher/spectogram.jpg" alt="drawing" width="450"/>
 
 ### **Challenges & Solutions**
 
@@ -161,5 +163,6 @@ Substantial progress has been made with a comprehensive rewrite of the codebase.
 
 To conclude, for now we have extended the plan on how to use machine learning for correcting pronunciation for the user and how to give the user the proper feedback.
 The reason we chose the phonemes approach is that the results are proven to be generic for languages, even achieving better results when trained on multiple languages compared to the monolinguistic approach(single language). 
+
 For next steps, we need to integrate the pronunciation techniques we have implemented to the website.
 We also need to extend the website to have the user account with some statistics about the progress, main issues, and current level.

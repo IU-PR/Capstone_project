@@ -42,6 +42,8 @@ For our testing we have concluded that the current functionality is not sufficie
 
 - The task archive and publicly available contests should be available for everybody, not just logged-in users.
 
+- You can create multiple contests with the same name and they break each other
+
 It is safe to say that fixing both reported and tested problems is our main priority for the upcoming week.
 
 ## **Iteration**

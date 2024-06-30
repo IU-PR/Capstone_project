@@ -28,6 +28,9 @@ Testing of the project is carried out in different planes. Individual scripts ar
 
 Based on the results of testing this week, the interface and walking mechanics were improved (now the feet are inclined towards the inclination of the surface, the walking speed of the walker has been changed backwards).
 
+![PostFeedbackInterfaceProtorype](/2024/Frontline-Walker/PostFeedbackInterfaceProtorype.jpg)
+![PreFeedbackInterfaceProtorype](/2024/Frontline-Walker/PreFeedbackInterfaceProtorype.jpg)
+
 #### **Iteration**
 
 At the end of each week, a list of finished mechanics and components of projects is compiled, a list of new ones that need to be implemented is compiled, which also includes mechanics and components that require improvement.

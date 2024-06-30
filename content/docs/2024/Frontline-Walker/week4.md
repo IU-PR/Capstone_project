@@ -50,7 +50,10 @@ Edit:
 ##### **Challenges & Solutions**
 
 This week the team was mainly focused on improving existing mechanics and prototyping the interface, so they didn’t encounter any particular difficulties along the way.
+
 During the creation of the mechanics of inclination of the foot to the surface, the incorrect Vector3.Angles function was used, instead of the Vector3.SignedAngles function (according to title, allows to receive negative angles, wich solves problem with slopes with negative angle, such as -15 equal to 345).
+
+While finalizing the mechanics of the explosion (adding rays of force application to correctly knock over objects behind a partial barrier), the project froze due to the fact that the offset in the corners was +0. After noticing a typo, the team solved the problem.
 
 ###### **Conclusions & Next Steps**
 

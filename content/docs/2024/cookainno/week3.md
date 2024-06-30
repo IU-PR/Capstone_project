@@ -57,7 +57,7 @@ title: "Week #3"
 
 ### Prototype Features:
 
-During the third week there have been some useful assumptions and serious reorganizations of the application navigation and business logic. Additionally, in the meeting discussion, we came up with the first priority functions of the application. You can see the results of the team brainstorm and a detailed description of the approved version of features below:
+During the third week there have been some useful assumptions and serious reorganizations of the application navigation. Additionally, in the meeting discussion, we sumed up the first priority functions of the application and synchronized it with the whole team. You can see the results of the team brainstorm and a detailed description of the approved version of features below:
 
   ![board1](/2024/cookainno/board1.jpg)
   ![board2](/2024/cookainno/board2.jpg)
@@ -94,7 +94,7 @@ During the third week there have been some useful assumptions and serious reorga
   - **Solution:** In this regard, we decided to organize a meeting and decide at it what functionality of the application and what logic will be implemented in it. After the meeting, we reviewed some details of our idea and moved the "favorite foods" to the main screen, and the camera to the recipe search button. Thus, the application began to look more logical and user-friendly.
 
 - **Challenge:** Ineffective and unscalable solution for searching stored recipes by ingredients.
-  - **Solution:** Decided to implement search functionality by recipe name for the first version of the product.
+  - **Solution:** Decided to implement search functionality by recipe name for the first version of the product. Engredients will be used only for the recipe generation for now. In future versions of the product we will analyse possible solutions for the current temporary problem and provide users with more comprehensive filtering from existing/stored recipes.
 
 ---
 

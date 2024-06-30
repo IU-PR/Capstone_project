@@ -46,7 +46,7 @@ We created dashboards for the entire cluster, namespaces, and nodes. This allows
 We encountered problems because we created new columns with constraints nullable=False in tables that already contained data, which broke the constraints and caused the migrations to fail. We solved this by rewriting the auto-generated migrations, first creating new columns, entering information into them, and then changing the constraints.
 
 **Metrics Accumulation:**\
-We had the difficulty with accumulating metrics for a single namespace and the lack of ready dashboard versions for our needs. We resolved this by using [cAdvisor](https://github.com/google/cadvisor) for monitoring containers, namespaces, and pods, and by searching for similar dashboard variants, borrowing some graphics, and configuring them to fit our requirements.
+We had the difficulty with accumulating metrics for a single namespace and the lack of ready dashboard versions for our needs. We will resolve this by using [cAdvisor](https://github.com/google/cadvisor) for monitoring containers, namespaces, and pods, and by searching for similar dashboard variants, borrowing some graphics, and configuring them to fit our requirements.
 
 **Token Refresh Endpoint:**\
 We had an issue with the token refresh endpoint, where the refresh token was passed through the query, causing problems. We resolved this by changing it to pass through the body.

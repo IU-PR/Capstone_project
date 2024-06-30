@@ -91,7 +91,7 @@ Our team employs state-of-the-art AI methodologies like Retrieval Augmented Gene
 
 
 - Schematic Drawings: 
-   ![Alt text](/static/2024/Team44/week1_1.jpg)
+   ![Alt text](/2024/Team44/week1_1.jpg)
 - Tech Stack: 
       - **Frontend:** Utilizes Svelte for responsive and interactive user interfaces, ensuring a smooth user experience.
       - **Backend:** Powered by Django, offering robust server-side functionalities and seamless integration with databases.

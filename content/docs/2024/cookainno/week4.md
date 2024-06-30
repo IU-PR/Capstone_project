@@ -1,3 +1,7 @@
+---
+title: "Week #4"
+---
+
 # Week 4 - External Feedback
 
 Welcome to Week 4 of the Capstone Project! This week has been pivotal as we delve into testing, feedback integration, and continuous iteration. These processes are crucial to ensure we deliver a high-quality, functional product that aligns with our original vision. This report provides a detailed account of our activities, findings, and future steps for the CookAInno app.

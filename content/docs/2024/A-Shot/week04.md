@@ -1,3 +1,9 @@
+---
+title: "Week #4"
+---
+
+# **Week #4**
+
 ## External Feedback
 
 Over the past week, we made a concerted effort to collect valuable feedback from friends and colleagues about our
@@ -63,8 +69,8 @@ application is now fully operational, offering complete functionality of the blu
 As we mentioned before, we spend a lot of time to find and resolve issues in the UX/UI. External feedback also was
 really helpful for this stage
 Here you can see example of UI improvement, first screenshot old version and second new variant:
-![First image](/2024/A-Shot/week04/UI-upd/old.jpg)
-![Second image](/2024/A-Shot/week04/UI-upd/new.jpg)
+![First image](/2024/A-Shot/week04/UI-upd/old.png)
+![Second image](/2024/A-Shot/week04/UI-upd/new.png)
 
 Throughout the development process, we encountered numerous bugs while connecting the model to the application. Despite
 these challenges, we successfully resolved the issues and rigorously tested the functionality. As a result, the desktop
@@ -93,7 +99,7 @@ the product.
 - **Challenge 1: Build project on our machines**  
   *Problem*: Package did not include correctly to the system, so we can't build our application
   *Solution*: We spend some time to search problems and create ultimate guide for the installation
--
+
 - **Challenge 2: Analyze feedback and improve UI**  
   *Problem*: Users and we as contributors were not happy with the interface to a greater extent
   *Solution*: We brainstormed the issues, searched for interesting UI-solutions and make more user-friendly interface

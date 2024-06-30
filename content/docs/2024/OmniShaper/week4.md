@@ -46,9 +46,9 @@ Here are some generated 3D models using the updated pipeline:
 ![Mushroom_girl](/static/2024/OmniShaper/Models_V2/Mushroom_girl.gif)
 
 ### **Challenges & Solutions**
-The hardest challenge was to test and implement the working idea (out of 3) and get the first results.
-Another difficult challenge is to find suitable open source models for each of the pipeline. 
-And "prompt-engineering", of course...
+The most difficult was the organization of GitHub - Dmitry spend a lot of time organizing the whole code part of our GitHub to make the installation process of our project to any other machine easy. However, he did a great job.
 
 ### **Conclusions & Next Steps**
-On the next week we are planning to completely finish our AI pipeline, convert currently existing solution into a working prototype, and set up a correct UI/UX design for the web application.
+- Integrate the queue into an API;
+- Introduce a new function - user can choose an image (out of few images that were generated from given prompt). After that - a 3D model is generated from the selected image. Such feature will allow people to choose the prefered look of their future 3D model;
+- Finally connect the frontend and backend to make the whole system work.

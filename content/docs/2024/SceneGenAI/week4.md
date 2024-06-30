@@ -8,7 +8,7 @@ title: "Week #4"
 
 Since our project is set by the client, we use the feedback from them to adjust and refine our project. Due to having a clear goal set, we possibly don't need to worry about the feedback as much as other teams, however it still helps while we discuss necessary features, usable techologies or general project functionality. The most recent feedback we got was from our prototype presentation, where we received the following responses (translated from Russian):
 - "The guys did a great job, they made a very cool UI. Such a UI and working prototype is very difficult to build in such a short time, well, here in our company, for example."
-- "Classy images, quickly generated, it looks very cool."
+- "Nice images, quickly generated, it looks very cool."
 - "We would like to continue to explore this solution. May be we can use it somehow."
   
 Overall, the clients are pleased with our current progress and are interested in our team's development.

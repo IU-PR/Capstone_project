@@ -57,7 +57,7 @@ title: "Week #3"
 
 ### Prototype Features:
 
-During the third week there have been some useful assumptions and serious reorganizations of the application navigation. Additionally, in the meeting discussion, we sumed up the first priority functions of the application and synchronized it with the whole team. You can see the results of the team brainstorm and a detailed description of the approved version of features below:
+During the third week there have been some useful assumptions and serious reorganizations of the application navigation. Additionally, in the meeting discussion, we sumed up the first priority functions of the application and synchronized it with the whole team. You can see the results of the team brainstorm and a detailed description of the approved version of application flow below:
 
   ![board1](/2024/cookainno/board1.jpg)
   ![board2](/2024/cookainno/board2.jpg)

@@ -102,9 +102,9 @@ title: "Week #4"
 
 &nbsp;&nbsp;&nbsp;&nbsp;This week we had a number of difficulties, mainly consisting of testing:
 
-1. When testing the correctness of counting the number of completed approaches of one exercise. For each exercise, it is necessary to think through all possible tricks that will help to wind up the counter, and because of this, the testing person spent days squatting, doing push-ups, and so on. Also, new tricks are being invented every day, thanks to the feedback from users.
+1. When testing the correctness of counting the number of completed approaches of one exercise. For each exercise, it is necessary to think through all possible tricks that will help to wind up the counter, and because of this, the testing person spent days squatting, doing push-ups, and so on. Also, new tricks are being invented every day, thanks to the feedback from users. We understood the importance of comprehensive test cases that cover not only typical usage but also not standard situations and unusual user behavior.
 
-2. During the CI/CD testing, we encountered some difficulties due to a lack of experience in implementing this feature on the GitHub platform. Specifically, there was an issue with the runner not being installed not with user, nor with root permission on our rented server. We solved it by setting up several environment variables.
+2. During the CI/CD testing, we encountered some difficulties due to a lack of experience in implementing this feature on the GitHub platform. Specifically, there was an issue with the runner not being installed not with user, nor with root permission on our rented server. We solved it by setting up several environment variables. The finding here is the need to understand the requirements and configurations of a particular platform before attempting to integrate CI/CD.
 
 
 ## **Conclusions & Next Steps**

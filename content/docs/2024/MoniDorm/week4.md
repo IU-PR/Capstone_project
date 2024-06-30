@@ -33,18 +33,28 @@ Based on the feedback, the following enhancements are planned:
 Future feedback will be solicited from the hostel administration via the admin panel, which will include detailed statistical analysis to further refine and enhance the MoniDorm system.
 
 ### **Testing**:
-Another important topic of the week - testing, which lies at the core of software development. It allows you to evaluate the effectiveness and reliability of your prototype or application. By conducting thorough tests, you gain valuable insights into the user experience, identify areas for improvement, and address any issues or bugs that may have arisen during development. Need to note, that testing is a step that comes after having an already somewhat developed prototype. Prioritize the prototype over the thorough testing on the initial stages. Once you have a product that have all envisioned features, testing will be the next main focal point of your development journey.
+
+The testing for a Telegram bot was conducted by a potential future users. There were complaints about UX of the bot and we fixed all the problems. By feedback of the users we rethought some  deleting messages with commands. As for testing the API Server database connection, absolutely all methods of working with data using TestContainers have been tested. When running the tests, a virtual environment is created that runs docker containers with PostgreSQL and Liquibase. Migrations to the database are automatically established, and after that the Spring Boot context starts.
 
 ### **Iteration**:
-Continuous iteration is the backbone of successful project development. It involves a constant cycle of evaluation, adjustment, and refinement based on feedback and testing results. Regularly assess your project’s progress, comparing it against your initial goals and objectives. Be prepared to adjust and refine your design, features, and functionalities as needed. This iterative approach allows you to create a product that continuously evolves and improves, meeting the initially constructed vision. While it might seem challenging to iterate on the early version of the project - it is exactly the moment where most of mistakes can be eliminated. Make sure to use this opportunity and fully use an iterative approach while building your product.
+
+During the development process the code base of the bot and the fault detector became too difficult to maintain, so the code was rewritten. This happened at the moment when we created the interface for subscribing to crash notifications — due to the implicit transmission of values by link, a huge number of buttons about disabling notifications could be added endlessly to the keyboard.
+After opening a pull request in GitHub, a number of jobs are launched that conduct unit and integration tests on the application, as well as linter that checks the purity of the code and shows errors.
 
 ---
 
 ## **Progress report**:
-Throughout this week, we kindly want to remind you the importance of weekly progress reports. Document your learnings, challenges, and achievements. This weeks progress report needs to cover three main topics of the week, namely - 1) External feedback on your project. 2) Testing and narrowing the scope of the project. 3) Iteration and refinement.
+For this week we have significant improvements in our project and 
 
-To excel in Week 4, stay motivated, communicate effectively, and embrace the iterative nature of the development process. Foster collaboration and coordination within your team, sharing feedback, ideas, and solutions. Regularly assess your project’s scope and refine it to ensure focus and feasibility. By narrowing down the scope, you direct your efforts towards the most crucial features and functionalities, ensuring a streamlined development process.
+- Added handling of incorrect or unexpected messages and button clicks 
+- Improved the appearance of the bot profile
+- Added innopolis.ru mail support 
+- Improved the UX of the dialogue with the bot
+- An algorithm for detecting potential failures has been implemented
+- Notification of users about failures has been implemented (if they have "subscribed" to receive these notifications)
+- A language model has been implemented to obtain additional information on the failure from user messages
+- A significant part of the code has been rewritten for its extensibility
 
-Remember, this week is a pivotal point in your project’s development. It is an opportunity to refine and enhance your prototype, bringing it closer to the envisioned final product. Embrace the challenges, learn from the feedback, and seize the potential to have a prototype in only 7 weeks.
+This week, we have expanded the set of tests that check the operability of controllers (API endpoints). As for future improvements, we plan to connect SonarQube to lint the code so that it finds all kinds of errors and vulnerabilities, 
 
 ---

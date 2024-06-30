@@ -90,8 +90,8 @@ During the third week there have been some useful assumptions and serious reorga
 
 ### Challenges & Solutions:
 
-- **Challenge:** Uncertainty and misunderstanding of the UX in the application.
-  - **Solution:** Conducted team brainstorming and reconsidered some of the application logic, particularly regarding Prototype Features.
+- **Challenge:** Android developers did not know how to link screens together and how transitions would be performed. 
+  - **Solution:** In this regard, we decided to organize a meeting and decide at it what functionality of the application and what logic will be implemented in it. After the meeting, we reviewed some details of our idea and moved the "favorite foods" to the main screen, and the camera to the recipe search button. Thus, the application began to look more logical and user-friendly.
 
 - **Challenge:** Ineffective and unscalable solution for searching stored recipes by ingredients.
   - **Solution:** Decided to implement search functionality by recipe name for the first version of the product.

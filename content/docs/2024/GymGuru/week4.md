@@ -60,7 +60,7 @@ title: "Week #4"
 
 ## **Testing**
 
-&nbsp;&nbsp;&nbsp;&nbsp;Through the whole development process we conducted and will conduct thorough testing to find any bugs and/or parts that work in different way we planned. For the UI aspect this testing is a "manual hand-testing" that allow to explore all parts of web application according to user flow diagram (presented in Week 2 Report).
+&nbsp;&nbsp;&nbsp;&nbsp;Through the whole development process we conducted and will conduct thorough testing to find any bugs and/or parts that work in different way we planned. For the UI aspect this testing is a "manual hand-testing" that allow to explore all parts of web application according to user flow diagram (presented in Week 2 Report). Moreover, feedback from students who participated in the testing was taken into account. We added hints for login and registration forms so that the user understands that he/she has entered an incorrect password or email.
 
 &nbsp;&nbsp;&nbsp;&nbsp;During this week, our team set up a CI/CD pipeline in GitHub by using GitHub actions and creating our own GitHub runner on the application server. This will allow us to conduct different tests automatically after each push to the main branch, and also to automate the deployment process.
 

@@ -80,7 +80,7 @@ Old versions are available in the report of week 2.
 
 4) Deployed backend part (used Yandex Cloud for that)
 
-5) Started working with integration of LLama3 using Ollama
+5) Started working with integration of Llama3 using Ollama
 
 ### **Frontend**:
 
@@ -98,7 +98,7 @@ Old versions are available in the report of week 2.
 
 1) connection with frontend (CORS problems) - fixed
 
-2) integration of AI (LLama3 in particular) - for now in progress
+2) integration of AI (Llama3 in particular) - for now in progress
 
 3) deployment problems (somehow someone get access to our database, so we need to fix issues with security) - security
 fixes are in progress
@@ -119,7 +119,7 @@ For the next week our team is planning to:
 
 6) Make adjustments in interactive functionalities
 
-7) Fully integrate LLama3
+7) Fully integrate Llama3
 
 8) Continue to improve existing endpoints and creating needed
 

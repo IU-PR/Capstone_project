@@ -82,7 +82,7 @@ Insight: 50% of participants were satisfied or very satisfied with the customiza
 **Preference Matching**: To increase the percentage of users who find the bot very accurate or accurate in matching preferences, consider implementing more sophisticated algorithms or user feedback loops to fine-tune the preference matching.
 **Recipe Quality and Variety**: Although already rated highly, continuous updates and expansions of the recipe database will help maintain and improve the satisfaction levels concerning recipe variety and quality.
 
-### #General Feedback
+### General Feedback
 Participants have provided positive feedback overall, particularly highlighting the bot's ease of use and the variety of recipes. However, there is a clear indication that improvements in customizability and preference accuracy would further enhance user satisfaction.
 
 ### Conclusion
@@ -96,13 +96,10 @@ The foundation of a successful project's development is constant iteration. This
 Next week, our focus will be on completing the optimal menu generation algorithm and adding a feature to allow users to mark recipes as favorites. This iterative process guarantees continual improvement and adaptability to user requirements and feedback in addition to assisting in bringing our solution closer to the original concept.
 
 ---
-## **Progress reports**  
-Throughout this week, we kindly want to remind you the importance of weekly progress reports. Document your learnings, challenges, and achievements. This weeks progress report needs to cover three main topics of the week, namely - 1) External feedback on your project. 2) Testing and narrowing the scope of the project. 3) Iteration and refinement.  
-
-To excel in Week 4, stay motivated, communicate effectively, and embrace the iterative nature of the development process. Foster collaboration and coordination within your team, sharing feedback, ideas, and solutions. Regularly assess your project's scope and refine it to ensure focus and feasibility. By narrowing down the scope, you direct your efforts towards the most crucial features and functionalities, ensuring a streamlined development process.
-
-{{< hint danger >}}
-  
-Remember, this week is a pivotal point in your project's development. It is an opportunity to refine and enhance your prototype, bringing it closer to the envisioned final product. Embrace the challenges, learn from the feedback, and seize the potential to have a prototype in only 7 weeks. 
-
-{{< /hint >}}
+## **Progress reports**
+### **Development progress**
+This week, we deployed our API and bot on the university's virtual machine. We started implementing an algorithm for optimal menu generation, considering calorie counts and menu complexity. We enhanced the bot's functionality for a better user experience and fixed minor bugs. Next week, we aim to complete the menu algorithm and add a feature for users to mark recipes as favorites.
+### **Challenges & Solutions**
+While integrating various files with the Telegram bot's functions, we encountered significant compatibility issues among its components. These challenges required a careful review of the system design and specific solutions to ensure everything worked together smoothly. Additionally, the algorithm that creates menu sometimes produced excessively large amounts of certain ingredients, which complicated the process. To solve this, we thoroughly analyzed the algorithm's settings and made necessary adjustments, improving the accuracy and efficiency of the FindRecipe bot's operations.
+### **Conclusions & Next Steps**
+We are focused on improving the quality of our Telegram bot and enhancing the functionality of our algorithm. Currently, there are several key tasks for the algorithm: ensuring that the menu adheres to a specified calorie limit, minimizing the number of ingredients used, and making sure that lunch foods are not suggested for breakfast. These tasks are crucial for refining the bot's performance and delivering a more user-friendly experience.

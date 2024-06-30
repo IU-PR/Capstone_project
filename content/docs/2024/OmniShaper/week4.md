@@ -37,7 +37,8 @@ title: "Week #4"
     - API Development:
     Our team developed the first basic API using FastAPI. Currently, the API supports a single request: it takes a prompt as input and returns a 3D model.
 
-    Overall, these iterations and refinements have significantly improved the functionality and performance of our project, moving us closer to a robust and      efficient prototype.
+Overall, these iterations and refinements have significantly improved the functionality and performance of our project, moving us closer to a robust and      efficient prototype.
+
 <br>
 
 Here are some generated 3D models using the updated pipeline:

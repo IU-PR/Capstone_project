@@ -31,6 +31,8 @@ As such, there is no dedicated frontend development this week since the user int
 - The purchase request editing could not be completed – the "finish editing" button was not working.
 - The logic for selecting items for forecasting needs improvement – with a large number of items, it will be inconvenient for the user to work.
 
+- **Demo**: https://drive.google.com/file/d/1TtqkhMJSAbw5CmJLV9lEsB6SOvxRMrG8/view?usp=sharing
+
 ## **Weekly Progress Report**:
 
 Our team did...

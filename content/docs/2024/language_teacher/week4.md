@@ -30,7 +30,7 @@ We gained info that there is an issue of understanding what to do when first see
 
 Here is our old homepage:
 
-<img src="/2024/language_teacher/old website.jpg" alt="drawing" width="700"/>
+<img src="/2024/language_teacher/old_website.jpg" alt="drawing" width="700"/>
 
 After modification, the new home page can be seen in the iteration section.
 
@@ -48,7 +48,7 @@ To summarize the iteration in the web development part:
 
 And here is the result:
 
-<img src="/2024/language_teacher/new website.jpg" alt="drawing" width="700"/>
+<img src="/2024/language_teacher/new_website.jpg" alt="drawing" width="700"/>
 
 
 ## **Progress reports**
@@ -73,7 +73,7 @@ This is the output of the phoneme model from the pronunciation of hello  where:
 
 Here is the phonemes model output (Dutch phonemes alphabet):
 
-<img src="/2024/language_teacher/phonemes model.jpg" alt="drawing" width="600"/>
+<img src="/2024/language_teacher/phonemes_model.jpg" alt="drawing" width="600"/>
 
 
 

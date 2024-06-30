@@ -15,16 +15,18 @@ We received valuable feedback from the leader of the previous year's "Bookinng" 
 
 ## **Testing and Narrowing the Scope**
 
-This week, we focused on developing core backend functionality and API endpoints. We are currently in the process of setting up automated testing frameworks for both the backend and frontend. These frameworks will include unit tests, integration tests, and end-to-end tests to ensure the quality and stability of our system.
+This week, we focused on developing core backend functionality and API endpoints, setting the stage for future testing efforts. 
+
+We are planning to implement automated testing to ensure the quality and stability of our system. We'll be incorporating integration tests to verify the interactions between our API endpoints and the database, ensuring data integrity and correct functionality.
 
 ## **Iteration and Refinement**
 
-We iterated on the frontend design, making adjustments to colors and layout for improved user experience.
+We made significant progress in aligning the frontend's appearance with our original Figma design, resulting in a more polished and cohesive user interface.
 
-Before:
+Design:
 ![Design](/2024/Bookrooms/Design.jpg "Design")
 
-After:
+Frontend:
 ![Frontend](/2024/Bookrooms/frontend.jpg "Frontend")
 
 We also made progress on the 3D model development. We modeled the first floor of Innopolis University, taking into account the exact layout of the premises and the configuration of the building.
@@ -70,7 +72,8 @@ We successfully deployed our application to a server, making the booking system 
 
 ### **Challenges & Solutions**
 
-???
+- Modeling Complexity: Creating a detailed 3D model of a large campus is a complex and time-consuming task. To overcome this, we will break down the modeling process into manageable phases, focusing on specific buildings or areas at a time.
+- Time Management: Balancing project work with personal commitments and other coursework can be challenging. To address this, we will establish clear schedules, prioritize tasks, and effectively communicate with team members to ensure everyone is on track.
 
 ### **Conclusions & Next Steps**
 

@@ -57,7 +57,7 @@ title: "Week #3"
 
 ### Prototype Features:
 
-During the third week there have been some useful assumptions and serious reorganizations of the application navigation and business logic. Additionally, in the meeting discussion, we came up with the first priority functions of the application. You can see the results of the team brainstorm and a detailed description of the approved version of features below:
+During the third week there have been some useful assumptions and serious reorganizations of the application navigation. Additionally, in the meeting discussion, we sumed up the first priority functions of the application and synchronized it with the whole team. You can see the results of the team brainstorm and a detailed description of the approved version of application flow below:
 
   ![board1](/2024/cookainno/board1.jpg)
   ![board2](/2024/cookainno/board2.jpg)
@@ -90,11 +90,11 @@ During the third week there have been some useful assumptions and serious reorga
 
 ### Challenges & Solutions:
 
-- **Challenge:** Uncertainty and misunderstanding of the UX in the application.
-  - **Solution:** Conducted team brainstorming and reconsidered some of the application logic, particularly regarding Prototype Features.
+- **Challenge:** Android developers did not know how to link screens together and how transitions would be performed. 
+  - **Solution:** In this regard, we decided to organize a meeting and decide at it what functionality of the application and what logic will be implemented in it. After the meeting, we reviewed some details of our idea and moved the "favorite foods" to the main screen, and the camera to the recipe search button. Thus, the application began to look more logical and user-friendly.
 
 - **Challenge:** Ineffective and unscalable solution for searching stored recipes by ingredients.
-  - **Solution:** Decided to implement search functionality by recipe name for the first version of the product.
+  - **Solution:** Decided to implement search functionality by recipe name for the first version of the product. Engredients will be used only for the recipe generation for now. In future versions of the product we will analyse possible solutions for the current temporary problem and provide users with more comprehensive filtering from existing/stored recipes.
 
 ---
 
@@ -108,3 +108,7 @@ During the third week, significant progress was made across backend, ML, and mob
 - Research and consider using remote storage for recipes to enable searching non-generated recipes by ingredients.
 - Implement logic and endpoints for calorie recommendation calculations.
 - Involve first real users to test the app prototype.
+- Implement screens with recipes and favourite recipes, gather items for them from database.
+- Create ingredients insertion and camera recognition for recipe generation and show the generated recipe with photo.
+- Implement profile screen with daily recomendation option, connect them to ML part.
+- Adjust colors and improve UI/UX.

@@ -9,8 +9,75 @@ title: "Week #4"
 Welcome to Week 4 of the Capstone Project! This week is dedicated to the crucial phases of testing, feedback integration, and continuous iteration. As you embark on iterative development on your projects, it is essential to understand the significance of these processes in ensuring the delivery of a high-quality, functional product that aligns with your original vision.
 
 
-## **External Feedback**
-Emphasizing the importance of feedback is hard to overstate. User Acceptance Testing (UAT) enables you to gather insights from your target audience or a representative user group. By engaging users and listening to their perspectives, you gain valuable firsthand feedback on the usability, functionality, and overall satisfaction with your product/project. This feedback is a trove of opportunities for enhancing the user experience and making necessary refinements. While it might be early to target potential users directly, you can already start collecting feedback from your community. Try to find a group of people (fellow students or friends) who will agree to give you an honest feedback on your product. This information will be a basis on your incoming refinements and iteration. For industrial projects that already have a predefined project requirements, feedback is expected from the client. Make sure to share your early prototype so that you can change the scope and redefine some aspects of the project if necessary.
+##External Feedback 
+Based on a survey conducted with 10 participants, including our classmates and parents, we have gathered the following statistics regarding the satisfaction and usability of our Telegram bot that creates weekly menus based on user preferences:
+
+### Survey Statistics
+
+**Overall Satisfaction**
+
+Very Satisfied: 2
+Satisfied: 5
+Neutral: 2
+Unsatisfied: 1
+Very Unsatisfied: 0
+Insight: 70% of participants were either very satisfied or satisfied with the overall performance of the bot.
+
+**Preference Accuracy**
+
+Very Accurate: 1
+Accurate: 5
+Neutral: 3
+Inaccurate: 1
+Very Inaccurate: 0
+Insight: 60% of participants found the bot to be accurate or very accurate in matching their preferences.
+
+**Ease of Use**
+
+Very Easy: 6
+Easy: 4
+Neutral: 0
+Difficult: 0
+Very Difficult: 0
+Insight: 100% of participants found the bot to be very easy or easy to use.
+
+**Recipe Variety**
+
+Excellent: 3
+Good: 6
+Fair: 1
+Poor: 0
+Very Poor: 0
+Insight: 90% of participants rated the variety of recipes as good or excellent.
+
+**Recipe Quality**
+
+Excellent: 3
+Good: 4
+Fair: 2
+Poor: 1
+Very Poor: 0
+Insight: 70% of participants rated the quality of the recipes as good or excellent.
+
+**Customizability**
+
+Very Satisfied: 1
+Satisfied: 4
+Neutral: 3
+Unsatisfied: 2
+Very Unsatisfied: 0
+Insight: 50% of participants were satisfied or very satisfied with the customizability options of the bot.
+
+### Suggestions and Improvements
+**Enhanced Algorithm Customizability**: Some users expressed dissatisfaction with the current customizability options. To address this, we will focus on making the algorithm more adaptable and responsive to user inputs, allowing for better personalization of the menus.
+**Preference Matching**: To increase the percentage of users who find the bot very accurate or accurate in matching preferences, consider implementing more sophisticated algorithms or user feedback loops to fine-tune the preference matching.
+**Recipe Quality and Variety**: Although already rated highly, continuous updates and expansions of the recipe database will help maintain and improve the satisfaction levels concerning recipe variety and quality.
+
+### #General Feedback
+Participants have provided positive feedback overall, particularly highlighting the bot's ease of use and the variety of recipes. However, there is a clear indication that improvements in customizability and preference accuracy would further enhance user satisfaction.
+
+### Conclusion
+The survey indicates that the Telegram bot is well-received by most users, with high marks in ease of use and recipe variety. While overall satisfaction is positive, focusing on improvements in customizability and preference accuracy can drive even higher satisfaction rates. The feedback suggests a strong foundation with opportunities for refinement to better meet user needs and preferences.
 
 ## **Testing**
 Another important topic of the week - testing, which lies at the core of software development. It allows you to evaluate the effectiveness and reliability of your prototype or application. By conducting thorough tests, you gain valuable insights into the user experience, identify areas for improvement, and address any issues or bugs that may have arisen during development. Need to note, that testing is a step that comes after having an already somewhat developed prototype. Prioritize the prototype over the thorough testing on the initial stages. Once you have a product that have all envisioned features, testing will be the next main focal point of your development journey. 

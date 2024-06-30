@@ -67,6 +67,8 @@ The backend of our application is designed to handle several critical functions:
     - **AI Recipe Generation**: Generate personalized recipes based on recognized ingredients.
     - **Personalized Recommendations**: Suggest recipes and daily menus based on user preferences and dietary restrictions.
 
+  ![week2architecture](/2024/cookainno/week2architecture.jpg)
+
 ### **Data Management:**
 
 - **Database**: PostgreSQL for reliable, robust, and scalable data storage. Room for local storage on the Android app.
@@ -100,6 +102,8 @@ The backend of our application is designed to handle several critical functions:
 ### **Integration and APIs:**
 
 For implementation, we used a Mistral API, specifically a client library written in Python. Mistral provides an API for requesting their models. They have 3 models for generating text, and we chose "Mixtral 8x22B" because it was the most suitable for us, providing a good tradeoff between its cost and performance. For the integration of the API, we plan to receive ingredients from the backend of the mobile app and pass them to our model's request. Then the recipe will be generated in JSON format, and we will process it, save it, and send it back to the backend of our app.
+
+We've calculated how much it would cost us to use this model (all calculations were done roughly and with a margin) and how cost-effective our choice was. when using the model for 22b parameters, if we put 1000 tokens per request, then there will be 0.002$ per input and 0.006$ per output. so if we assume that the model will perform 100 requests per day for 1000 tokens per input and output, then we get: 0.2$ per day per input and 0.6$ per day per output. Despite the fact that we’re using the biggest model (22B), we still have a strong trade-off between the cost and effectiveness of responses of 22B model. One additional advantage of this model is 64k context window which allows to scale our app,  function calling which will us to integrate other APIs for requests and existence of json mode will us to handle responses of recipes in more convenient way. All those advantages made us choose this model to provide a strong and effective functionality for developers and users of our app.
 
 ### **Scalability and Performance:**
 

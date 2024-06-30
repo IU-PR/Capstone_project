@@ -4,7 +4,7 @@ title: "Week #4"
 
 # **Week #4**
 
-## External Feedback
+## **External Feedback**
 
 Over the past week, we made a concerted effort to collect valuable feedback from friends and colleagues about our
 desktop application. To make the process efficient and respectful of everyone's time, we utilized Google Forms. This
@@ -24,7 +24,7 @@ our attention and provided us with essential insights for future enhancements. W
 application once more, to see how the fixes of the application have improved or worsened the opinion
 of our user in order to create the most User-friendly application
 
-## Testing
+## **Testing**
 
 Prior to integrating the machine learning components, we conducted several days of testing to ensure the stability of
 the selected model. After this we have started integrating the model into the desktop application and testing it
@@ -38,9 +38,9 @@ Moreover, every contributor of our project had testing session, to find all bugs
 organized manner. This approach allowed us to find and fix some errors with the connection of the database with the
 application, as well as flaws in the UI
 
-## Iteration and Refinement
+## **Iteration and Refinement**
 
-### Iterations with UI
+### **Iterations with UI**
 
 We conducted several iterative cycles to gather feedback and identify flaws in our User Interface. The external feedback
 we received was invaluable, providing us with critical insights that greatly informed our improvements. As a result, we
@@ -51,12 +51,12 @@ thoughtful adjustments, ensuring that our UI not only resolved the identified is
 our overarching objectives. This holistic approach has allowed us to create a more intuitive and user-friendly
 interface, ultimately enriching the user experience.
 
-### Iterations with UX
+### **Iterations with UX**
 
 All team tested UX of the application and we found several bugs with database. We partially resolved the issues, but
 this part needs to be improved. We will continue testing and iterating to succeed in a user-friendly UX
 
-### Iterations with models
+### **Iterations with models**
 
 Throughout the development process, we encountered numerous bugs while connecting the model to the application. Despite
 these challenges, we successfully resolved the issues and rigorously tested the functionality. As a result, the desktop
@@ -72,9 +72,9 @@ Here you can see example of UI improvement, first screenshot old version and sec
 ![First image](/2024/A-Shot/week04/UI-upd/old.png)
 ![Second image](/2024/A-Shot/week04/UI-upd/new.png)
 
-Throughout the development process, we encountered numerous bugs while connecting the model to the application. Despite
-these challenges, we successfully resolved the issues and rigorously tested the functionality. As a result, the desktop
-application is now fully operational, offering complete functionality of the blur-detection model.
+As you can see on this example, we removed the large, awkward gaps of the sidebars. The selection box has also 
+been converted to numbering with a color selector. Moreover, we have replaced the unnecessary demonstration of 
+pictures in the group on the right sidebar with a neat slide bar
 
 ### **Database integration**
 

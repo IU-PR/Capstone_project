@@ -16,56 +16,65 @@ Based on a survey conducted with 10 participants, including our classmates and p
 
 **Overall Satisfaction**
 
-Very Satisfied: 2
-Satisfied: 5
-Neutral: 2
-Unsatisfied: 1
-Very Unsatisfied: 0
+- Very Satisfied: 2
+
+- Satisfied: 5
+
+- Neutral: 2
+
+- Unsatisfied: 1
+- Very Unsatisfied: 0
+
 Insight: 70% of participants were either very satisfied or satisfied with the overall performance of the bot.
 
 **Preference Accuracy**
 
-Very Accurate: 1
-Accurate: 5
-Neutral: 3
-Inaccurate: 1
-Very Inaccurate: 0
+- Very Accurate: 1
+- Accurate: 5
+- Neutral: 3
+- Inaccurate: 1
+- Very Inaccurate: 0
+
 Insight: 60% of participants found the bot to be accurate or very accurate in matching their preferences.
 
 **Ease of Use**
 
-Very Easy: 6
-Easy: 4
-Neutral: 0
-Difficult: 0
-Very Difficult: 0
+- Very Easy: 6
+- Easy: 4
+- Neutral: 0
+- Difficult: 0
+- Very Difficult: 0
+
 Insight: 100% of participants found the bot to be very easy or easy to use.
 
 **Recipe Variety**
 
-Excellent: 3
-Good: 6
-Fair: 1
-Poor: 0
-Very Poor: 0
+- Excellent: 3
+- Good: 6
+- Fair: 1
+- Poor: 0
+- Very Poor: 0
+
 Insight: 90% of participants rated the variety of recipes as good or excellent.
 
 **Recipe Quality**
 
 Excellent: 3
-Good: 4
-Fair: 2
-Poor: 1
-Very Poor: 0
+- Good: 4
+- Fair: 2
+- Poor: 1
+- Very Poor: 0
+
 Insight: 70% of participants rated the quality of the recipes as good or excellent.
 
 **Customizability**
 
-Very Satisfied: 1
-Satisfied: 4
-Neutral: 3
-Unsatisfied: 2
-Very Unsatisfied: 0
+- Very Satisfied: 1
+- Satisfied: 4
+- Neutral: 3
+- Unsatisfied: 2
+- Very Unsatisfied: 0
+
 Insight: 50% of participants were satisfied or very satisfied with the customizability options of the bot.
 
 ### Suggestions and Improvements

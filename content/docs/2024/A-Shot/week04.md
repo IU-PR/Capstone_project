@@ -52,8 +52,7 @@ user experience.
 
 Throughout the development process, we faced some difficulties while connecting the model to the application. Despite
 these challenges, we successfully integrated model into our product and tested the functionality. As a result, the 
-desktop application includes one of the main features, offering the user the capabilities of the model, offering 
-functionality of the blur-detection model.
+desktop application includes one of the main features, offering the user the capabilities of the model.
 
 ## **Weekly Progress Report**
 

@@ -226,7 +226,7 @@ Every week, our team will gather feedback and analyze statistics from our valued
 
 ## Leveraging AI, Open-Source, and Experts
 
-###AI Integration 
+### AI Integration 
 
 We propose adding an AI-powered text enhancement feature to the note creation/editing window. This will include an "Improve Note with AI" toggle button next to the "Save" button. When users input text, they can activate this toggle to pass their text through a GPT-based model. 
 
@@ -267,14 +267,32 @@ Our project will include a robust authentication system to ensure that each stud
 
 ### Tech Stack:
 
- 
+For our Capstone project, we decided on the following technology stack: Flutter, Go, gRPC, PostgreSQL, and Docker. In this section, we will elaborate on our choices and explain why these technologies are the most optimal for achieving the goals of our project.
 
-        Flutter for mobile application development
-        Git for version management
-        Figma for prototyping and design
-        Docker for deploying
-        Golang for backend
-        Postgres for DB
+#### Frontend: Flutter
+
+We considered several options for implementing the frontend part of our project, including Kotlin and Swift, but ultimately chose Flutter. The main reasons for this choice are its cross-platform capabilities and a more straightforward, intuitive approach to creating user interfaces. Flutter allows us to develop applications for both iOS and Android simultaneously, significantly reducing development time and resources. Additionally, its rich library of widgets and active developer community make Flutter an ideal choice for rapid prototyping and functional implementation.
+
+#### Backend: Go
+
+For implementing the server-side logic, we chose the Go programming language instead of alternatives like Python. High performance and stability are critical for our project. Go offers concurrency and more efficient resource management, allowing us to ensure fast request processing and system stability under load. Moreover, Go compiles to statically typed machine code, reducing the likelihood of runtime errors and increasing overall backend reliability.
+
+#### gRPC
+
+For interaction between system components, we chose gRPC. This protocol allows us to ensure high performance and reliable data transmission between client and server. Unlike traditional REST APIs, gRPC uses HTTP/2 and Protocol Buffers, offering more efficient data compression and lower latency. This is particularly crucial for our project, which requires handling large volumes of data with minimal delay.
+
+#### Database: PostgreSQL
+
+We opted for PostgreSQL as our database management system. It is known for its high reliability, scalability, and adherence to SQL standards, making it an excellent choice for our project. PostgreSQL supports complex queries and transactions, essential for implementing sophisticated business logic and data analytics.
+
+#### Containerization: Docker
+
+To simplify the deployment and management of our application, we use Docker. Containerization allows us to ensure environment and dependency isolation, making the deployment process more predictable and repeatable. Docker also makes scaling and managing different versions of our application significantly easier.
+
+
+#### Containerization: Overall
+
+In conclusion, the choice of technology stack was based on the need to ensure high performance, reliability, and hassle-free development and deployment processes. We believe that the selected technologies will enable us to successfully execute the project and achieve our goals.
 
 ## Challenges and Solutions
 1. **Report Writing:** We faced a challenge in determining the appropriate length and detail for our reports. It was unclear whether the reports should be brief and technical or detailed and include the emotional aspects of the project.

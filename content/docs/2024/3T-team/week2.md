@@ -128,7 +128,7 @@ Based on the response from AI, we realized what we were missing at one of the st
 Please answer the following questions related to the lean methodology:
 
 1. Component Breakdown:\
-Externally, the application has 3 pages, the first is the map itself with markers, the second is a list of recommendations and the third is a user profile.\
+Externally, the application has 3 pages, the first is the map itself with markers, the second is a list of recommendations and the third is a user profile.
 
    First page:
    * visual representation of the map (Frontend using the Yandex Maps Api)

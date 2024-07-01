@@ -135,10 +135,10 @@ project are highly valued.
 
 ### Exploring Alternative Resources:
 
--   [[https://index.ros.org/]{.underline}](https://index.ros.org/) - ros
+-   [[https://index.ros.org/]](https://index.ros.org/) - ros
     packages index
 
--   [[https://www.slamtec.ai/wp-content/uploads/2023/11/SLAMTEC_rplidar_datasheet_C1_v1.0_en.pdf]{.underline}](https://www.slamtec.ai/wp-content/uploads/2023/11/SLAMTEC_rplidar_datasheet_C1_v1.0_en.pdf) -
+-   [[https://www.slamtec.ai/wp-content/uploads/2023/11/SLAMTEC_rplidar_datasheet_C1_v1.0_en.pdf]](https://www.slamtec.ai/wp-content/uploads/2023/11/SLAMTEC_rplidar_datasheet_C1_v1.0_en.pdf) -
     Lidars datasheet
 
 -   IMU (gyroscope/acceleration sensor) datasheet
@@ -151,7 +151,7 @@ project are highly valued.
 
 -   Jetson Nano computer datasheet
 
--   [[https://www.roboteq.com/component/content/article/2-uncategorised/502-robonidec-agv2020-instructions]{.underline}](https://www.roboteq.com/component/content/article/2-uncategorised/502-robonidec-agv2020-instructions) -
+-   [[https://www.roboteq.com/component/content/article/2-uncategorised/502-robonidec-agv2020-instructions]](https://www.roboteq.com/component/content/article/2-uncategorised/502-robonidec-agv2020-instructions) -
     example of platform geometry and implementation
 
 ### Identifying Knowledge Gaps: 

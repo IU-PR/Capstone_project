@@ -120,8 +120,8 @@ Our team will specify the Software part of the project, specifically the Backend
 - Path Planning - algorithm to build a path from the current location of the mobile platform to the desired one based on the given map and current position and velocity. Ideally, functionality to add custom obstacles, not detectable by platform itself, should also be added. 
 - Controller - robotic software to control the mobile platform in a way to ensure it follows the desired direction based on the path created by the path planner, based on the API provided by Hardware and Simulation teams. The Controller should not care if the mobile platform is real-life or simulated.
 - Sensors Fusion - the robotic software able to get information from different sensors of mobile platform and transform it into the approximate position, velocity and acceleration of the platform
-Database (Optional) - the database where maps and possible paths can be stored to not build them every time
-Behavior Tree (Optional) - the software which manages the behavior of the system, for example, specifies state transitions.
+- Database (Optional) - the database where maps and possible paths can be stored to not build them every time
+- Behavior Tree (Optional) - the software which manages the behavior of the system, for example, specifies state transitions.
 
 
 ### **Schematic Drawings:**
@@ -131,10 +131,12 @@ Behavior Tree (Optional) - the software which manages the behavior of the system
 ### **Tech Stack:**
 
 - ROS2 Humble based on C++
-ROS2 is a preferable choice for industrial project, a modern standard stack.
+  
+  ROS2 is a preferable choice for industrial project, a modern standard stack.
 
 - Docker
-Docker will make it easier to run the software on any platform. It allows to change hardware without having to redesign architecture
+  
+  Docker will make it easier to run the software on any platform. It allows to change hardware without having to redesign architecture
 
 - SLAM tools
 - Path Planning tools

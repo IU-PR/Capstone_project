@@ -49,9 +49,29 @@ After opening a pull request in GitHub, a number of jobs are launched that condu
 For this week we have significant improvements in our project:
 
 - Added handling of incorrect or unexpected messages and button clicks
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/action.jpg">
+</div>
+
 - Improved the appearance of the bot profile
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/newui.jpeg">
+</div>
+
 - Added *innopolis.ru* mail support
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/regex.jpg">
+</div>
+
 - Improved the UX of the dialogue with the bot
+
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/logout.jpeg">
+</div>
+
 - Implemented an algorithm for detecting potential failures
 - Implemented notification of users about failures (if they have *"subscribed"* to receive these notifications)
 - Implemented a language model to obtain additional information on the failure from user messages

@@ -28,6 +28,10 @@ title: "Week #1"
 
     We will build a mobile platform to optimize productivity in logistics and manufacturing operations. Our solution will be cheap and easily adaptable for the Russian market. Moreover, our aim is to create a general-purpose model with the potential of further integration into specific areas. 
 
+Here is the photo of the similar product, made by MiR, MiR100:
+
+![mir100](/2024/HardwareOverlord100/mir100.png)
+
 
 - **Benefits to Users:**
 

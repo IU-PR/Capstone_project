@@ -1,3 +1,7 @@
+---
+title: "Week #1"
+---
+
 # **Week #1**
 
 ## Team Formation and Project Proposal

@@ -13,16 +13,15 @@ feature on a scale of 1-10 and provide additional comments if they chose. You ca
 [Here](https://forms.gle/M3eoJdfNbbahjobx9)
 
 The feedback we received was incredibly insightful and highlighted several important issues that required prompt
-attention. For example, one user noted that "The image preview delays noticeably when navigating between photos." We
-addressed this issue after receiving the feedback. Another user mentioned, "...
-too much space for sidebars or between folders and groups." Recognizing the significant impact this had on
-user experience, we prioritized and going to fix this issue. Additionally, feedback regarding the UI provided us with
-crucial insights that led to further enhancements.
+attention. For example, one user noted that "the image preview delays noticeably when navigating between photos." We
+addressed this issue after receiving the feedback. Another user mentioned, "... too much space for sidebars or between
+folders and groups." Recognizing the significant impact this had on user experience, we prioritized and are going to fix
+this issue. Additionally, feedback regarding the UI provided us with crucial insights that led to further enhancements.
 
 In summary, gathering direct feedback from users has proven to be extremely valuable. It brought several key issues to
-our attention and provided us with essential insights for future enhancements. We will ask users to test our
-application once more, to see how the fixes of the application have improved or worsened the opinion
-of our user in order to create the most User-friendly application
+our attention and provided us with essential insights for future enhancements. We will ask users to test our application
+once more to see how the fixes have improved or worsened the opinion of our users in order to create the most
+user-friendly application.
 
 ## **Testing**
 
@@ -46,21 +45,15 @@ We conducted several iterative cycles to gather feedback and identify flaws in o
 we received was invaluable, providing us with critical insights that greatly informed our improvements. As a result, we
 were able to significantly enhance the User Interface, addressing key areas of concern.
 
-Furthermore, we took this opportunity to reassess our overall goals and functionality. By doing so, we were able to make
-thoughtful adjustments, ensuring that our UI not only resolved the identified issues but also aligned more closely with
-our overarching objectives. This holistic approach has allowed us to create a more intuitive and user-friendly
-interface, ultimately enriching the user experience.
-
-### **Iterations with UX**
-
-All team tested UX of the application and we found several bugs with database. We partially resolved the issues, but
-this part needs to be improved. We will continue testing and iterating to succeed in a user-friendly UX
+This holistic approach has allowed us to create a more intuitive and user-friendly interface, ultimately enriching the 
+user experience.
 
 ### **Iterations with models**
 
-Throughout the development process, we encountered numerous bugs while connecting the model to the application. Despite
-these challenges, we successfully resolved the issues and rigorously tested the functionality. As a result, the desktop
-application is now fully operational, offering complete functionality of the blur-detection model.
+Throughout the development process, we faced some difficulties while connecting the model to the application. Despite
+these challenges, we successfully integrated model into our product and tested the functionality. As a result, the 
+desktop application includes one of the main features, offering the user the capabilities of the model, offering 
+functionality of the blur-detection model.
 
 ## **Weekly Progress Report**
 
@@ -78,9 +71,18 @@ pictures in the group on the right sidebar with a neat slide bar
 
 ### **Database integration**
 
-We integrated Room database into our product this allowed us to remove the unnecessary loading of directories into our
-application every time the application is restarted. Now, when the directory is downloaded for the first time, it gets
-into the database and needs to be downloaded again only in case of an update
+We have reviewed the process of interaction between the user and the application. Instead of blocking the entire 
+interface for the duration of the download, we went the other way, with integrating database to our application.
+This might allow us:
+
+- To avoid repeated reimports 
+- To update the interface as user import new photos
+
+In addition, the database makes it easier and safer to communicate with data, which simplifies work and allows you 
+to quickly and conveniently add functions such as sorting, grouping, etc.
+
+We searched for solutions and chose Room database. We succesfully implemeted skelet database and additional classes with
+functions. Still need to connect application with this skeleton, test and fix bugs.
 
 ### **Frontend Development**
 
@@ -96,21 +98,20 @@ the product.
 
 ### **Challenges & Solutions**
 
-- **Challenge 1: Build project on our machines**  
-  *Problem*: Package did not include correctly to the system, so we can't build our application
-  *Solution*: We spend some time to search problems and create ultimate guide for the installation
-
-- **Challenge 2: Analyze feedback and improve UI**  
+- **Challenge 1: Analyze feedback and improve UI**  
   *Problem*: Users and we as contributors were not happy with the interface to a greater extent
   *Solution*: We brainstormed the issues, searched for interesting UI-solutions and make more user-friendly interface
 
 ### **Conclusions & Next Steps**
 
+- **End Database Integration**: We still need work to end database integration and test it to resolve all issues.
+- **End Frontend**: Some things are not included yet, so we need to finalize them to make the product look presentable
 - **Beta-testing**: We want to contact more people, to give them access to the beta-test of our product. We will ask
   them to test and analyze functionality of the product and provide feedback. This way may give us more insights and
   help to identify any flaws
+- **Multiplatform deploy**: In plans to adaptive the application to the Windows and MacOS to allow users who do not use
+  Linux as the main system to use our application without problems 
 - **Dark Theme**: As the instrument for the photographers, A-Shot in dark theme might be useful to a lot of people,
   because a dark theme may put less strain on the eyes in the evening or at night than a white one. Moreover, it is much
-  more
-  convenient for the human eye to look at photos on a dark background than on a light one
-- **Multiplatform deploy**: In plans to adaptive the application to the Windows and MacOS
+  more convenient for the human eye to look at photos on a dark background than on a light one. But for now, this feature
+  not in the high priority.

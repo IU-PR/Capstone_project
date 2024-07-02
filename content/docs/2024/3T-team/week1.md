@@ -2,11 +2,11 @@
 title: "Week #1"
 ---
 
-# Week #1
+# **Week #1**
 
-## **Team Formation and Project Proposal**
+## Team Formation and Project Proposal
 
-### **Team Members**
+### Team Members
 
 | Team Member              | Telegram ID   | Email Address   |
 |--------------------------|---------------|-----------------|
@@ -16,7 +16,7 @@ title: "Week #1"
 | Ilia Sardanadze | @Damncaf_you_crazy | I.sardanadze@innopolis.university |
 | Ivan Beltsov | @FORZpewpew | i.beltsov@innopolis.university |
 
-### **Value Proposition**
+### Value Proposition
 
 - Identify the Problem:\
 Our project/application aims to create a convenient environment for exploring the sights. The relevance of this project can be seen even within Innopolis, as there are approximately 100 excursion groups visiting the city each day, all interested in learning about its famous places and attractions. We solve the problem of the inaccessibility of information that is of interest to tourists and visitors to our city (and in the future, to any city).
@@ -37,7 +37,7 @@ Our solution is specifically designed for tourists, as we help them save time an
 Any tourist who wishes to visit Innopolis (or any other city), in theory, can find a brief overview of the attractions beforehand and decide whether they want to visit them. 
 Another possible scenario is when a tourist arrives and is unsure of where to go. In such a case, we can provide them with a map and, if necessary, guide them along the route to their desired destination.
 
-## **Lean Questionnaire**
+## Lean Questionnaire
 
 Please answer the following questions related to the lean methodology:
 
@@ -62,7 +62,7 @@ Please answer the following questions related to the lean methodology:
 5. How do you plan to iterate and pivot if necessary based on user feedback\
    In our project roadmap, there is time allocated for alpha and beta testing as well as bug fixes based on user feedback. In early July, we will have a week to test and add features based on the feedback and comments received. Also, in week 7, when the post-MVP is completed, we will repeat the process, but this time with real users.
 
-## **Leveraging AI, Open-Source, and Experts**
+## Leveraging AI, Open-Source, and Experts
 
 Our team has a strategic plan to leverage the following resources for the development and success of our project:
    * Experts:\
@@ -74,7 +74,7 @@ Our team has a strategic plan to leverage the following resources for the develo
    * AI:\
    Our project currently does not incorporate AI, but we plan to incorporate it in the future as a consultant for tourists. This will allow them to interact with the AI and receive personalized recommendations for their cultural program. The AI will be able to provide additional information about the attractions and events on offer.
    
-## **Defining the Vision for Your Project**
+## Defining the Vision for Your Project
 
 - Overview:\
    Our project is an app that includes: a map with markers for each attraction, a list of recommendations based on friends' preferences and categories, a profile with posts and stories, and a system for adding friends. We also have a system of achievements and rankings.\

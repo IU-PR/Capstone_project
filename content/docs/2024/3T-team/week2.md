@@ -2,11 +2,11 @@
 title: "Week #2"
 ---
 
-# Week #2
+# **Week #2**
 
-## **Choosing the Tech Stack, Designing the Architecture**
+## Choosing the Tech Stack, Designing the Architecture
 
-### **Team Allocation**
+### Team Allocation
 
 | Team Member              | Role   | Tech Stack Used|
 |--------------------------|---------------|-----------------|
@@ -16,11 +16,11 @@ title: "Week #2"
 | Arsenii Pavlov | Backend Developer | FastAPI, SQLAlchemy, PostgreSQL, PostGIS |
 | Ivan Beltsov | Backend Developer | FastAPI, SQLAlchemy, PostgreSQL, PostGIS |
 
-### **Evaluation and Recommendations for Our Project's Tech Stack from AI**
+### Evaluation and Recommendations for Our Project's Tech Stack from AI
    The explanations and which technical stack we have chosen are in the last paragraph of the report week1.md. Since the technical stack has been discussed and selected since week 1, we decided to turn to AI and find out how to improve it and what else can be added there:
-## **Current Tech Stack**
+## Current Tech Stack
 
-**Android Development:**
+Android Development:
 - Kotlin
 - Dagger 2
 - Coroutines
@@ -29,101 +29,101 @@ title: "Week #2"
 - MVI/MVVM
 - Yandex Map API
 
-**Backend Development:**
+Backend Development:
 - FastAPI
 - PostgreSQL
 - SQLAlchemy
 - PostGIS
 
-## **Key Considerations**
+## Key Considerations
 
 1. Scalability
 2. Performance
 3. Security
 4. Expertise of Team Members
 
-## **Android Development Stack**
+## Android Development Stack
 
 Kotlin
-- **Pros:** Modern language with excellent Android support, concise syntax, null safety, and interoperability with Java.
-- **Cons:** Newer compared to Java, but rapidly gaining support.
+- Pros: Modern language with excellent Android support, concise syntax, null safety, and interoperability with Java.
+- Cons: Newer compared to Java, but rapidly gaining support.
 
 Dagger 2
-- **Pros:** Robust dependency injection framework, compile-time verification, and broad adoption.
-- **Cons:** Steeper learning curve, boilerplate code.
+- Pros: Robust dependency injection framework, compile-time verification, and broad adoption.
+- Cons: Steeper learning curve, boilerplate code.
 
 Coroutines
-- **Pros:** Simplifies asynchronous programming, less error-prone compared to callbacks or RxJava.
-- **Cons:** Newer approach; requires understanding of coroutine scope and context.
+- Pros: Simplifies asynchronous programming, less error-prone compared to callbacks or RxJava.
+- Cons: Newer approach; requires understanding of coroutine scope and context.
 
 Compose
-- **Pros:** Modern toolkit for building native UI, reduces boilerplate, declarative UI.
-- **Cons:** Still evolving, requires learning a new paradigm if accustomed to XML-based UI.
+- Pros: Modern toolkit for building native UI, reduces boilerplate, declarative UI.
+- Cons: Still evolving, requires learning a new paradigm if accustomed to XML-based UI.
 
 Flow
-- **Pros:** Integrated with Kotlin coroutines, designed for reactive programming.
-- **Cons:** May require a shift in thinking for those used to RxJava.
+- Pros: Integrated with Kotlin coroutines, designed for reactive programming.
+- Cons: May require a shift in thinking for those used to RxJava.
 
 MVI/MVVM
-- **Pros:** Promotes a clear separation of concerns, easier to test, and maintain.
-- **Cons:** Can be complex to implement correctly; requires discipline.
+- Pros: Promotes a clear separation of concerns, easier to test, and maintain.
+- Cons: Can be complex to implement correctly; requires discipline.
 
 Yandex Map API
-- **Pros:** Specialized for certain regions, comprehensive mapping solutions.
-- **Cons:** Limited global coverage compared to Google Maps API, licensing restrictions.
+- Pros: Specialized for certain regions, comprehensive mapping solutions.
+- Cons: Limited global coverage compared to Google Maps API, licensing restrictions.
 
-## **Backend Development Stack**
+## Backend Development Stack
 
 FastAPI
-- **Pros:** Modern, high-performance, easy to use, async support, great documentation.
-- **Cons:** Newer framework, smaller community compared to more established frameworks.
+- Pros: Modern, high-performance, easy to use, async support, great documentation.
+- Cons: Newer framework, smaller community compared to more established frameworks.
 
 PostgreSQL
-- **Pros:** Advanced SQL compliance, strong community, robustness, extensibility with PostGIS.
-- **Cons:** Can be complex to manage; tuning performance requires expertise.
+- Pros: Advanced SQL compliance, strong community, robustness, extensibility with PostGIS.
+- Cons: Can be complex to manage; tuning performance requires expertise.
 
 SQLAlchemy
-- **Pros:** Powerful ORM, flexible, supports both SQL and ORM querying.
-- **Cons:** Can introduce complexity; performance overhead compared to raw SQL.
+- Pros: Powerful ORM, flexible, supports both SQL and ORM querying.
+- Cons: Can introduce complexity; performance overhead compared to raw SQL.
 
 PostGIS
-- **Pros:** Adds spatial database capabilities to PostgreSQL, excellent for geospatial queries.
-- **Cons:** Learning curve for spatial SQL; potential performance impact.
+- Pros: Adds spatial database capabilities to PostgreSQL, excellent for geospatial queries.
+- Cons: Learning curve for spatial SQL; potential performance impact.
 
-## **Recommendations**
+## Recommendations
 
 Scalability
-- **Android:** Your current stack should scale well with appropriate architecture and modularization.
-- **Backend:** FastAPI can handle high concurrency; PostgreSQL with PostGIS is scalable but ensure indexing and query optimization for geospatial data.
+- Android: Your current stack should scale well with appropriate architecture and modularization.
+- Backend: FastAPI can handle high concurrency; PostgreSQL with PostGIS is scalable but ensure indexing and query optimization for geospatial data.
 
 Performance
-- **Android:** Use profiling tools to optimize Compose and ensure efficient coroutine usage.
-- **Backend:** FastAPI is performant, but ensure database performance tuning and appropriate caching mechanisms.
+- Android: Use profiling tools to optimize Compose and ensure efficient coroutine usage.
+- Backend: FastAPI is performant, but ensure database performance tuning and appropriate caching mechanisms.
 
 Security
-- **Android:** Follow secure coding practices, use encryption where necessary, and validate inputs from the Yandex Map API.
-- **Backend:** Implement secure authentication/authorization, use parameterized queries to avoid SQL injection, and ensure secure communication (HTTPS).
+- Android: Follow secure coding practices, use encryption where necessary, and validate inputs from the Yandex Map API.
+- Backend: Implement secure authentication/authorization, use parameterized queries to avoid SQL injection, and ensure secure communication (HTTPS).
 
-## **Additional Tools & Considerations**
+## Additional Tools & Considerations
 
-1. **Monitoring & Logging:**
-   - Use tools like **Sentry** or **Crashlytics** for Android, and **Prometheus** with **Grafana** for backend monitoring.
+1. Monitoring & Logging:
+   - Use tools like Sentry or Crashlytics for Android, and Prometheus with Grafana for backend monitoring.
 
-2. **Testing:**
-   - Ensure comprehensive unit and integration testing. Use **JUnit** and **Espresso** for Android, and **pytest** for backend.
+2. Testing:
+   - Ensure comprehensive unit and integration testing. Use JUnit and Espresso for Android, and pytest for backend.
 
-3. **CI/CD:**
-   - Implement CI/CD pipelines with tools like **GitHub Actions**, **Travis CI**, or **Jenkins** to streamline deployment and ensure code quality.
+3. CI/CD:
+   - Implement CI/CD pipelines with tools like GitHub Actions, Travis CI, or Jenkins to streamline deployment and ensure code quality.
 
-4. **API Documentation:**
-   - Utilize **Swagger** (OpenAPI) with FastAPI for automatically generated and interactive API documentation.
+4. API Documentation:
+   - Utilize Swagger (OpenAPI) with FastAPI for automatically generated and interactive API documentation.
 
-## **Conclusion (tech stack)**
+## Conclusion (tech stack)
 
 Based on the response from AI, we realized what we were missing at one of the stages described above, we will be able to take the advice and use what we were advised
 
 
-## **Architecture Design**
+## Architecture Design
 
 Please answer the following questions related to the lean methodology:
 
@@ -150,9 +150,9 @@ Externally, the application has 3 pages, the first is the map itself with marker
 2. Data Management:
 
    We chose to use the PostgreSQL relational database system to store our data for several reasons:
-- **Security**: PostgreSQL prioritizes security, offering robust mechanisms for user authentication, data encryption, and access control.
-- **Reliability and Stability**: Renowned for its robustness and stability, PostgreSQL is widely used in production environments for both small and large-scale applications.
-- **Scalability**: PostgreSQL can manage large volumes of data and scale effectively as our project grows.
+- Security: PostgreSQL prioritizes security, offering robust mechanisms for user authentication, data encryption, and access control.
+- Reliability and Stability: Renowned for its robustness and stability, PostgreSQL is widely used in production environments for both small and large-scale applications.
+- Scalability: PostgreSQL can manage large volumes of data and scale effectively as our project grows.
 
 3. User Interface (UI) Design:\
 Even before the start of development, we discussed and worked out the design of our application in the field of ui/ux, you can find it here:
@@ -167,7 +167,7 @@ All parts of our project are designed to be easily scalable and work with a larg
 6. Deployment and DevOps:\
 To be honest, we haven't discussed this yet, but most updates to the client, regarding content (pictures, videos, etc.) will be automatically updated once they are changed on the server.
 
-## **Week 2 questionnaire**
+## Week 2 questionnaire
 
 1. Tech Stack Resources: Are you utilizing any project-based books that specifically cover your tech stack and help you build your project? If yes, please provide the names of these books (name at least 3). How do you anticipate utilizing these materials to enhance your knowledge and expertise in your tech stack?
 
@@ -198,7 +198,7 @@ To be honest, we haven't discussed this yet, but most updates to the client, reg
 
    As mentioned in the previous section, we used this tool to identify any gaps in our technology stack and determine what additional tools could be added to make the project more successful. I am pleased that the AI has identified our current technology stack as optimal, suggesting only a few additional tools for monitoring and testing. In any case, these tools will be useful in the next two weeks when we begin testing our project.
 
-## **First Sprint Progress Report**
+## Weekly Progress Report
 
 In our roadmap for the first sprint (06/03/2024 - 06/16/2024), we have planned two major goals: creating a database of attractions and creating a map with interactive markers for the attractions.
 

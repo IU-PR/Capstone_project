@@ -183,6 +183,35 @@ In our project, we have established a comprehensive deployment and DevOps strate
 - **Implemented functionality for storing and retrieving user data**, ensuring efficient and secure data management.
 - **Developed comprehensive features for managing users' favorite recipes**, allowing full manipulation capabilities such as search by name, update, and other CRUD operations.
 - **Researched object detection models** for a grocery image detection project. Evaluated several models, including YOLOv8, Faster R-CNN, and EfficientDet. Selected YOLOv8 for its optimal balance between accuracy and speed, crucial for real-time detection.
+- **Evaluation of model trained**. The model shows good validation metrics for classes such as bell pepper, fasol, garlic, onion, hot pepper, and peas, as there are enough images for these categories. However, due to the dataset being very imbalanced and the underrepresentation of other classes, the model performs poorly on those less represented categories. This is evident from the lower mAP scores for these underrepresented classes. Therefore, we plan to expand the dataset by manually collecting and annotating additional data for these insufficiently represented classes to improve the model's performance. There is a metrics:
+  
+| Classes | Images | Instances | Box(P) | R | maP50 | mAP50-95 |
+|---------------|--------|-----------|-------|-------|-------|----------|
+| all           | 96     | 390       | 0.87  | 0.861 | 0.887 | 0.642    |
+| Apples        | 4      | 4         | 0.881 | 0.75  | 0.912 | 0.607    |
+| Bun           | 4      | 7         | 0.778 | 1     | 0.995 | 0.593    |
+| Cabbage       | 2      | 2         | 0.788 | 1     | 0.995 | 0.698    |
+| Cold Drink    | 1      | 1         | 1     | 0     | 0     | 0        |
+| Dry Fruit     | 1      | 1         | 0.94  | 1     | 0.995 | 0.497    |
+| Eggs          | 1      | 1         | 0.407 | 1     | 0.995 | 0.796    |
+| Green Seeds   | 2      | 2         | 0.788 | 1     | 0.995 | 0.723    |
+| Milk          | 1      | 1         | 0.694 | 1     | 0.995 | 0.895    |
+| Oil           | 3      | 3         | 0.842 | 1     | 0.995 | 0.632    |
+| Pineapple     | 2      | 2         | 0.822 | 1     | 0.995 | 0.729    |
+| Snacks        | 2      | 5         | 0.9   | 1     | 0.995 | 0.788    |
+| Vegetables    | 3      | 3         | 0.91  | 1     | 0.995 | 0.734    |
+| Water Bottle  | 4      | 7         | 1     | 0.974 | 0.995 | 0.711    |
+| bell pepper   | 18     | 85        | 0.948 | 0.865 | 0.946 | 0.739    |
+| bread         | 3      | 4         | 0.892 | 1     | 0.995 | 0.65     |
+| carrot        | 1      | 2         | 1     | 0     | 0     | 0        |
+| fasol         | 18     | 24        | 0.886 | 0.917 | 0.94  | 0.796    |
+| garlic        | 18     | 86        | 0.908 | 0.807 | 0.935 | 0.609    |
+| hot pepper    | 9      | 28        | 1     | 0.811 | 0.934 | 0.685    |
+| onion         | 15     | 77        | 0.946 | 0.918 | 0.988 | 0.727    |
+| peas          | 10     | 30        | 0.77  | 0.767 | 0.806 | 0.514    |
+| salad         | 8      | 9         | 0.995 | 1     | 0.995 | 0.798    |
+| tomato        | 3      | 6         | 1     | 0.992 | 0.995 | 0.694    |
+
 - **No even a remotely suitable dataset for the ingredient detection model.** Determined that creating a custom dataset was necessary, as no existing datasets fully met our needs. This realization presented a significant challenge.
 - **Successfully implemented authentication functionality on Android devices**, ensuring secure user access through JWT and email confirmation.
 - **Drafted the camera screen interface**, which will serve as the gateway for the machine learning component to recognize ingredients from photos.

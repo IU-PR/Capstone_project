@@ -8,7 +8,7 @@ title: "Week #6"
 
 {{< hint danger >}}
 **Important Note**  
-Dear all, we are pleased to see remarkable progress in your projects. We are coming close to the end of the semester and I am thrilled to see your first prototypes. Needless to say that we have been following your work closely and we are impressed with the creativity and innovation that you have all shown. 
+Dear all, we are pleased to see remarkable progress in your projects. We are coming close to the end of the semester, and I am thrilled to see your first prototypes. Needless to say that we have been following your work closely, and we are impressed with the creativity and innovation that you have all shown. 
 {{< /hint >}}
 
 
@@ -16,7 +16,7 @@ This week, you will focus on polishing, packaging your prototypes, and crafting 
   
 This primary focus of the week should be on:
 
-- Polishing your projects to make sure they look complete and perform all of the MVP functionalities.
+- Polishing your projects to make sure they look complete and perform all the MVP functionalities.
 - Creating a compelling presentation that effectively communicates your project.
 
 When creating your presentation, keep the following in mind:
@@ -34,27 +34,4 @@ Other important points to remember:
 - The final presentation should be converted to a PDF and uploaded to the first section of your project page. This will allow listeners to review your presentation at their own pace and ask questions.
 - Deploy your project if you have not already done so. This will give the committee and fellow students a chance to see your work in action.
 - The functionality of your UI is more important than the design. We will be looking at how well your UI facilitates the use of your application.
-- And lastly, you and your team likely interacted with many other people inside and outside of the University. Make sure to pay proper credits for the help and support you have received. The fact that you've received help shows your proactivity and attempts to seek out best solutions, rather than being unknowledgeable in some ways.
-
-Presentations will start at 10:00am. Exact room will be communicated later.
-
-Team allocation and final presentation schedule: 
-
-| 18th | 19th |
-|---|---|
-| Pantomime | Stock vision |
-| Just org you | LogiFlex-project |
-| Innomastery | Quiz Craft |
-| LearnQuest (InnoOpenCourseWare) | To be announced |
-| Innoshop | we want money |
-| InnTime | LeetForces |
-| InnoCoTravel | Mushroomity |
-| Jurnalik | try this |
-| Voyagio (Tripstatic) | UnifAI |
-| Pipe vision | ComplianceGuard |
-| StyleTransfer | KringeProduction |
-| BookHive | OneMenu |
-| Fairlance | Booking |
-| FreshMarket | MockMentor |
-| AICareerGuide | Budget AI |
-| 429 team | Cocktail |
+- And lastly, you and your team likely interacted with many other people inside and outside the University. Make sure to pay proper credits for the help and support you have received. The fact that you've received help shows your proactivity and attempts to seek out the best solutions, rather than being unknowledgeable in some ways.

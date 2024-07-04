@@ -38,13 +38,41 @@ Our team is actively engaged in the development and improvement of machine
 learning and backend components. These efforts are aimed at improving the
 efficiency, reliability and scalability of our platform.
 
-The machine learning team focuses on creating and optimizing algorithms that are
-able to adapt to changing requirements and use cases. The main efforts are aimed
-at improving the accuracy of models and their ability to generalize to new data.
+### Machine Learning
 
-Backend development is focused on improving the server side architecture,
-including API and database management. Improvements in these areas are aimed at
-increasing the speed of query processing and improving data security.
+A novel metric has been devised for evaluation purposes. This metric's valuation
+is computed through the average room ratio, the count of subscriptions, and the
+utmost feasible number of subscriptions within a designated area. An random
+distribution algorithm was selected as the foundational strategy. This algorithm
+acted as the foundation for subsequent experiments and analyses.
+
+The examination encompassed three methodologies: spectral clusterization,
+spectral clusterization, and the approach utilized by the Louvain Institute.
+Each methodology was assessed relative to the benchmark set by the initially
+chosen random algorithm. Notably, all three algorithms exhibited a quadrupled -
+quintuple efficiency compared to the random algorithm. This enhancement was
+attributed to the algorithms' inherent capacity to deliver more precise results.
+
+Despite almost equal results for all three methods, the method of the Louvain
+Institute emerged as the superior alternative, albeit marginally, by a few
+percentage points. To augment the results further, the decision was made to
+integrate greedy logic into the evaluation procedure. Among the three algorithms
+scrutinized, this tactic permitted a minor but noteworthy boost in performance,
+elevating the metric by 5%. This improvement was considered substantial enough
+to justify further exploration.
+
+Ultimately, the method of the Louvain Institute, enhanced with greedy
+heuristics, was selected for its potential to yield even superior results.
+
+### Backend
+
+At the moment of Sprint 4, the backend of the system is equipped with 450 unit
+tests. The emphasis on unit-testing is not accidental, because it is this type
+of tests that allows us to guarantee high quality and stability of the code at
+the earliest stages of development. Unit-tests provide checking the correctness
+of work of separate modules, which greatly simplifies error detection and
+elimination. Thanks to a thorough approach to testing, we can confidently move
+forward knowing that our system is reliable and ready for further development.
 
 ## Iteration
 

@@ -33,9 +33,9 @@ title: "Week #5"
 &nbsp;&nbsp;&nbsp;&nbsp;We analyzed the feedback from the previous week (since it was a feedback from the IU students who are the stakeholders of GymGuru product) and this week. New feedback was taken using Google Forms. There are several results from the survey of this week:
 
 <p float="left">
-  <img src="/GymGuru-master/static/2024/GymGuru/Week5_Survey1.jpg" width="420" height="360">
-  <img src="/GymGuru-master/static/2024/GymGuru/Week5_Survey2.jpg" width="420" height="360">
-  <img src="/GymGuru-master/static/2024/GymGuru/Week5_Survey3.jpg" width="420" height="360">
+  <img src="/static/2024/GymGuru/Week5_Survey1.jpg" width="420" height="360">
+  <img src="/static/2024/GymGuru/Week5_Survey2.jpg" width="420" height="360">
+  <img src="/static/2024/GymGuru/Week5_Survey3.jpg" width="420" height="360">
 </p>
 
 
@@ -43,7 +43,7 @@ title: "Week #5"
 
 &nbsp;&nbsp;&nbsp;&nbsp;For now, we are not fully sure, will we continue the development and/or maintaining process of GymGuru process outside of the Capstone Project course. Nevertheless, we defined the roadmap of the future development process:
 
-<img src="/GymGuru-master/static/2024/GymGuru/Week5_Roadmap.png" width="540" height="800">
+<img src="/static/2024/GymGuru/Week5_Roadmap.png" width="540" height="800">
 
 
 ## **Challenges & Solutions**

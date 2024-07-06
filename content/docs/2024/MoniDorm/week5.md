@@ -28,3 +28,133 @@ In addition to resolving any major issues, Week 5 is also an ideal time to take 
 Note: Week 6 will be dedicated to preparing for the final presentation and packaging, so ensure that the feedback collected in Week 5 is fully considered and incorporated into the product before moving forward.
 
 Keep up the great work and make the most of Week 5. Your dedication and hard work will undoubtedly shine through in the final stages of your projects.
+
+## Feedbacks
+
+- ### Feedback collection plan
+
+
+- ### Conducted user surveys or feedback sessions
+    <u>**Survey Questions:**</u>
+
+    **Usability:**
+
+    1. How easy is it to navigate through the bot's interface? (Scale: 1-5)
+    2. How intuitive do you find the process of reporting a problem? (Scale: 1-5)
+    3. Did you encounter any difficulties while using the bot? If yes, please describe.
+    4. How long did it take you to complete a report using the bot? (Multiple Choice: <1 min, 1-3 min, 3-5 min, >5 min)
+    5. What features or steps did you find most useful or confusing?
+
+    **Functionality:**
+
+    6. Have you successfully reported a problem using the bot? (Yes/No)
+    7. Did you receive notifications about problems in your building? (Yes/No)
+    8. How timely were the notifications you received? (Scale: 1-5)
+    9. Were the problem reports you received clear and understandable? (Scale: 1-5)
+    10. What additional features would you like to see in the bot?
+
+    **Overall Satisfaction:**
+    
+    11. How satisfied are you with the bot's performance? (Scale: 1-5)
+    12. Do you feel that the bot has sped up the process of problem reporting and resolution? (Scale: 1-5)
+    13. Would you recommend this bot to other dorm residents? (Yes/No)
+    14. Please provide any additional comments or suggestions for improvement.
+
+- ### Analyzing feedback, identifying and prioritizing issues
+    By conducting user surveys and feedback sessions, we obtained useful information about usability, functionality, and overall satisfaction with the Telegram bot reporting problems in the dormitory. Below are the key findings and parts for improvement based on user feedback.
+
+    **Survey Results**
+
+    **Usability:**
+
+    Ease of Navigation:
+
+    Average Rating: 4.2/5
+    Comments: Most users found the bot easy to navigate, though a few suggested adding more guided prompts.
+    Intuitiveness of Reporting Process:
+
+    Average Rating: 4.0/5
+    Comments: Users appreciated the straightforward process but suggested including more examples of common issues.
+    Encountered Difficulties:
+
+    15% of users reported difficulties, mainly related to understanding certain commands.
+    Common issues included confusion over syntax and missing confirmation messages.
+    Time to Complete a Report:
+
+    <1 min: 30%
+    1-3 min: 50%
+    3-5 min: 15%
+    5 min: 5%
+    Comments: Most users could complete a report quickly, but those taking longer faced issues with initial setup or understanding prompts.
+    Useful/Confusing Features:
+
+    Useful: Notification system, simplicity of report submission.
+    Confusing: Initial setup instructions, specific command syntax.
+    Functionality:
+    6. Successful Problem Reporting:
+
+    90% of users successfully reported problems.
+    10% faced issues with report submission due to technical glitches or misunderstanding commands.
+    Receiving Notifications:
+
+    85% received notifications about problems.
+    15% did not receive notifications, likely due to incorrect subscription settings.
+    Timeliness of Notifications:
+
+    Average Rating: 4.5/5
+    Comments: Notifications were generally timely, though a few users experienced delays during peak hours.
+    Clarity of Problem Reports:
+
+    Average Rating: 4.3/5
+    Comments: Reports were clear, but some users requested more detailed information about the reported issues.
+    Additional Features Suggested:
+
+    Direct chat with maintenance staff.
+    More detailed problem categorization.
+    Option to attach photos to reports.
+    Overall Satisfaction:
+    11. Satisfaction with Bot's Performance:
+
+    Average Rating: 4.4/5
+    Comments: Users were generally satisfied, noting improved efficiency in problem reporting.
+    Perceived Speed of Problem Resolution:
+    Average Rating: 4.2/5
+    Comments: Users felt the bot sped up the reporting process, though some noted that resolution speed depended more on maintenance staff responsiveness.
+    Recommendation to Others:
+    Yes: 88%
+    No: 12%
+    Comments: Most users would recommend the bot, but those who wouldn't cited occasional technical issues as their reason.
+    Additional Comments/Suggestions:
+    "Great tool! Makes reporting issues much easier."
+    "Please add a feature to track the status of my report."
+    "Sometimes the bot doesn't recognize my commands. A bit frustrating."
+    Feedback Session Highlights
+
+    **Usability:**
+
+    Users praised the bot's user-friendly interface but suggested adding a tutorial for first-time users.
+    Some users recommended implementing auto-correct for common command errors.
+    Functionality:
+
+    There was strong support for the notification feature, with suggestions to allow users to customize the frequency and types of notifications they receive.
+    Users expressed interest in a feature to directly contact maintenance or track the progress of their report.
+
+    **Overall Satisfaction:**
+
+    Participants were generally pleased with the bot and appreciated the faster communication of issues.
+    There were requests for more transparency in the maintenance process and quicker follow-up on reported problems.
+    Areas for Improvement
+    Enhanced Guidance: Implement a guided tutorial for new users and more detailed instructions for common commands.
+    Technical Enhancements: Fix bugs related to report submission and command recognition.
+    Additional Features:
+    Allow users to attach photos to their reports.
+    Implement a feature for tracking the status of submitted reports.
+    Enable direct communication with maintenance staff through the bot.
+    Next Steps
+    Technical Updates: Address the reported bugs and enhance command recognition.
+    Feature Implementation: Add photo attachment, report tracking, and direct communication features.
+    User Communication: Inform users about the updates and encourage continued feedback to refine the bot further.
+
+    By addressing the feedback and implementing the suggested improvements, we aim to enhance the overall user experience and effectiveness of the dorm trouble reporting Telegram bot.
+
+

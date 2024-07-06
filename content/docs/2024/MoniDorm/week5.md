@@ -33,9 +33,12 @@ Keep up the great work and make the most of Week 5. Your dedication and hard wor
 
 - ### Feedback collection plan
 
+    Helpful tools that we used:
+    - Online Forms: We used Google Forms to create and distribute surveys.
+    - Data Analysis Tools: We used Google Sheets to organize and analyze feedback data.
+    
 
-- ### Conducted user surveys or feedback sessions
-    <u>**Survey Questions:**</u>
+    <u>**Survey Questions for Telegram bot:**</u>
 
     **Usability:**
 
@@ -56,9 +59,37 @@ Keep up the great work and make the most of Week 5. Your dedication and hard wor
     **Overall Satisfaction:**
     
     11. How satisfied are you with the bot's performance? (Scale: 1-5)
-    12. Do you feel that the bot has sped up the process of problem reporting and resolution? (Scale: 1-5)
+    12. Do you feel that the bot has sped up the process of problem reporting and resolution? (Scale: 1-10)
     13. Would you recommend this bot to other dorm residents? (Yes/No)
     14. Please provide any additional comments or suggestions for improvement.
+
+    <u>**Survey Questions for website:**</u>
+
+    **Usability:**
+
+    1. How easy is it to navigate the website’s interface? (Scale: 1-5)
+    2. How intuitive do you find the process of searching for specific parameters? (Scale: 1-5)
+    3. Did you encounter any difficulties using the website? If yes, please describe.
+    4. How long did it take to find the information you were looking for? (Multiple Choice: <1 min, 1-3 min, 3-5 min, >5 min)
+    5. What features or sections did you find most useful or confusing?
+    
+    **Functionality:**
+
+    6. Have you successfully used the graphs and statistics on the website? (Yes/No)
+    7. Are the search parameters comprehensive and useful? (Scale: 1-5)
+    8. How accurate and helpful are the statistics provided? (Scale: 1-5)
+    9. What additional features would you like to see on the website?
+
+    **Overall Satisfaction:**
+
+    10. How satisfied are you with the website's performance? (Scale: 1-5)
+    11. Do you feel the website has improved your ability to manage dormitory issues? (Scale: 1-10)
+    12. Would you recommend this website to other dormitory staff? (Yes/No)
+    13. Additional comments or suggestions for improvement.
+
+- ### Conducted user surveys or feedback sessions
+
+    Our target audience consisted of ???? (number) students whom we asked to give feedback on our product. We asked them to send 1-2 reports to our bot. And after that, they rated the ease of sending reports, receiving notifications, and overall satisfaction with using the bot. We analyzed their responses from the Google form below.
 
 - ### Analyzing feedback, identifying and prioritizing issues
     By conducting user surveys and feedback sessions, we obtained useful information about usability, functionality, and overall satisfaction with the Telegram bot reporting problems in the dormitory. Below are the key findings and parts for improvement based on user feedback.

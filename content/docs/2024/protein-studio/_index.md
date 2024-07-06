@@ -1,4 +1,4 @@
 ---
 bookCollapseSection: true
-title: "Protein Studio"
+title: "MetaMorphGPT"
 ---

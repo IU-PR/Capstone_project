@@ -33,9 +33,12 @@ Keep up the great work and make the most of Week 5. Your dedication and hard wor
 
 - ### Feedback collection plan
 
-    Helpful tools that we used:
-    - Online Forms: We used Google Forms to create and distribute surveys.
-    - Data Analysis Tools: We used Google Sheets to organize and analyze feedback data.
+    After collecting feedback last week, we identified several ways to make the process more convenient for users and improve our analysis of their responses. As a result, we have used a slightly different strategy for gathering feedback from clients this week.
+
+    Helpful tools we used:
+
+    - Online Forms: We utilized Google Forms to create and distribute surveys.
+    - Data Analysis Tools: We used Google Sheets to organize and analyze the feedback data.
     
 
     <u>**Survey Questions for Telegram bot:**</u>
@@ -89,83 +92,104 @@ Keep up the great work and make the most of Week 5. Your dedication and hard wor
 
 - ### Conducted user surveys or feedback sessions
 
-    Our target audience consisted of ???? (number) students whom we asked to give feedback on our product. We asked them to send 1-2 reports to our bot. And after that, they rated the ease of sending reports, receiving notifications, and overall satisfaction with using the bot. We analyzed their responses from the Google form below.
+    Our target audience consisted of (number) students, whom we asked to provide feedback on our product. They were instructed to send 1-2 reports to our bot. Following this, they rated the ease of sending reports, receiving notifications, and their overall satisfaction with using the bot. We then analyzed their responses from the Google Forms below.
+
+    **Results (pistures)**
+
+    Should be pistures from survey!!!
 
 - ### Analyzing feedback, identifying and prioritizing issues
     By conducting user surveys and feedback sessions, we obtained useful information about usability, functionality, and overall satisfaction with the Telegram bot reporting problems in the dormitory. Below are the key findings and parts for improvement based on user feedback.
 
-    **Survey Results**
+    **Survey Analysis**
 
     **Usability:**
 
-    Ease of Navigation:
+    <u>Ease of Navigation:</u>
 
-    Average Rating: 4.2/5
-    Comments: Most users found the bot easy to navigate, though a few suggested adding more guided prompts.
-    Intuitiveness of Reporting Process:
+    - Average Rating: 4.2/5
+    - Comments: Most users found the bot easy to navigate, though a few suggested adding more guided prompts.
+    
+    <u>Intuitiveness of Reporting Process:</u>
 
-    Average Rating: 4.0/5
-    Comments: Users appreciated the straightforward process but suggested including more examples of common issues.
-    Encountered Difficulties:
+    - Average Rating: 4.0/5
+    - Comments: Users appreciated the straightforward process but suggested including more examples of common issues.
+    
+    <u>Encountered Difficulties:</u>
 
-    15% of users reported difficulties, mainly related to understanding certain commands.
+    - 15% of users reported difficulties, mainly related to understanding certain commands.
     Common issues included confusion over syntax and missing confirmation messages.
-    Time to Complete a Report:
 
-    <1 min: 30%
-    1-3 min: 50%
-    3-5 min: 15%
-    5 min: 5%
-    Comments: Most users could complete a report quickly, but those taking longer faced issues with initial setup or understanding prompts.
-    Useful/Confusing Features:
+    <u>Time to Complete a Report:</u>
 
-    Useful: Notification system, simplicity of report submission.
-    Confusing: Initial setup instructions, specific command syntax.
-    Functionality:
-    6. Successful Problem Reporting:
+    1. <1 min: 30%
+    2. 1-3 min: 50%
+    3. 3-5 min: 15%
+    4. 5 min: 5%
+    - Comments: Most users could complete a report quickly, but those taking longer faced issues with initial setup or understanding prompts.
 
-    90% of users successfully reported problems.
-    10% faced issues with report submission due to technical glitches or misunderstanding commands.
-    Receiving Notifications:
+    <u>Useful/Confusing Features:</u>
 
-    85% received notifications about problems.
-    15% did not receive notifications, likely due to incorrect subscription settings.
-    Timeliness of Notifications:
+    - Useful: Notification system, simplicity of report submission.
+    - Confusing: Initial setup instructions, specific command syntax.
 
-    Average Rating: 4.5/5
-    Comments: Notifications were generally timely, though a few users experienced delays during peak hours.
-    Clarity of Problem Reports:
+    **Functionality:**
 
-    Average Rating: 4.3/5
-    Comments: Reports were clear, but some users requested more detailed information about the reported issues.
-    Additional Features Suggested:
+    <u>Successful Problem Reporting:</u>
 
-    Direct chat with maintenance staff.
-    More detailed problem categorization.
-    Option to attach photos to reports.
-    Overall Satisfaction:
-    11. Satisfaction with Bot's Performance:
+    - 90% of users successfully reported problems.
+    - 10% faced issues with report submission due to technical glitches or misunderstanding commands.
+    
+    <u>Receiving Notifications:</u>
 
-    Average Rating: 4.4/5
-    Comments: Users were generally satisfied, noting improved efficiency in problem reporting.
-    Perceived Speed of Problem Resolution:
-    Average Rating: 4.2/5
-    Comments: Users felt the bot sped up the reporting process, though some noted that resolution speed depended more on maintenance staff responsiveness.
-    Recommendation to Others:
-    Yes: 88%
-    No: 12%
-    Comments: Most users would recommend the bot, but those who wouldn't cited occasional technical issues as their reason.
-    Additional Comments/Suggestions:
-    "Great tool! Makes reporting issues much easier."
-    "Please add a feature to track the status of my report."
-    "Sometimes the bot doesn't recognize my commands. A bit frustrating."
+    - 85% received notifications about problems.
+    - 15% did not receive notifications, likely due to incorrect subscription settings.
+    
+    <u>Timeliness of Notifications:</u>
+
+    - Average Rating: 4.5/5
+    - Comments: Notifications were generally timely, though a few users experienced delays during peak hours.
+
+    <u>Clarity of Problem Reports:</u>
+
+    - Average Rating: 4.3/5
+    - Comments: Reports were clear, but some users requested more detailed information about the reported issues.
+
+    <u>Additional Features Suggested:</u>
+
+    - Direct chat with maintenance staff.
+    - More detailed problem categorization.
+    - Option to attach photos to reports.
+
+    **Overall Satisfaction:**
+
+    <u>Satisfaction with Bot's Performance:</u>
+
+    - Average Rating: 4.4/5
+    - Comments: Users were generally satisfied, noting improved efficiency in problem reporting.
+
+    <u>Perceived Speed of Problem Resolution:</u>
+    - Average Rating: 4.2/5
+    - Comments: Users felt the bot sped up the reporting process, though some noted that resolution speed depended more on maintenance staff responsiveness.
+
+    <u>Recommendation to Others:</u>
+    1. Yes: 88%
+    2. No: 12%
+    - Comments: Most users would recommend the bot, but those who wouldn't cited occasional technical issues as their reason.
+
+    <u>Additional Comments/Suggestions:</u>
+    - "Great tool! Makes reporting issues much easier."
+    - "Please add a feature to track the status of my report."
+    - "Sometimes the bot doesn't recognize my commands. A bit frustrating."
+
     Feedback Session Highlights
 
     **Usability:**
 
     Users praised the bot's user-friendly interface but suggested adding a tutorial for first-time users.
     Some users recommended implementing auto-correct for common command errors.
-    Functionality:
+
+    **Functionality:**
 
     There was strong support for the notification feature, with suggestions to allow users to customize the frequency and types of notifications they receive.
     Users expressed interest in a feature to directly contact maintenance or track the progress of their report.

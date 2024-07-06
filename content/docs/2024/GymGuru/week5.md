@@ -17,14 +17,16 @@ title: "Week #5"
 
 ## **Feedback from TA**
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;During the meeting with TA on the previous week we discusted our Week4 report and presented what we did so far for the project itself. This is a list of main points that we received from the feedback:
 
-1. 
+1) We correctly understood the obligatory tasks of Week 4 and did it without any mistakes;
 
-2. 
+2) Format of the GitHub backlog which we adhere to is correct and represnts all needed stages, properties of tasks and iterations.
 
 
 ## **Stakeholders Feedback**
+
+### **Users Feedback:**
 
 &nbsp;&nbsp;&nbsp;&nbsp;During this week we have conducted a new survey. Our focus group was those, who we have asked during the last week and also we found some new respondents.
 &nbsp;&nbsp;&nbsp;&nbsp;Speaking about convinience of the interface, most of intwerviewees evaluated it with a high grade, so we can conclude that UX/UI design is user-friendly. We have added recognition for all exercices.
@@ -37,6 +39,18 @@ title: "Week #5"
   <img src="/2024/GymGuru/Week5_Survey2.jpg" width="420" height="360">
   <img src="/2024/GymGuru/Week5_Survey3.jpg" width="420" height="360">
 </p>
+
+### **Expert Feedback:**
+
+&nbsp;&nbsp;&nbsp;&nbsp;We decided to ask an expert in sport to give the professional feedback on our web application. We asked Yana Bogdanovisch, sport coach of the Innopolis University, and received her feedback regarding the web site in general, idea of the product, and also about the exercise correctness recognition. This is her feedback that we will take into account during project completion stage on the next week:
+
+- It is a very necessary application for those who do not have the opportunity to train with a personal trainer, but want to do the exercises correctly.
+- It is really useful that there is a video in which the technique of performing the exercise is shown from different angles. 
+- I consider the voice assistant that tells you what to fix if not performed correctly a vital feature.
+- There are still minor flaws when the program still considers a repeat with the wrong technique. 
+- I tried to sit down correctly when my knees are facing towards the feet and not correctly pushing my knees inwards and so on several times. 
+- It was the same with lifting dumbbells on the biceps. I did it right when my elbows were pressed against the body and tried to do it from the side when my elbows were far from the body. Perhaps a large correction is needed for a particular exercise. 
+- In general, the program is very useful for learning the techniques of basic exercises.
 
 
 ## **Roadmap for further development and maintaining**

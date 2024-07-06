@@ -50,7 +50,7 @@ Our team has chosen Trello as a platform for task management. Currently we have 
 *Can be found here: [Backend branch](https://github.com/IU-Capstone-Project-2024/AlumniPortal-Innopolis/tree/backend_services)*
 
 ## Postman collection
-*Can be found here: [Postman Collection](https://app.getpostman.com/join-team?invite_code=fde776bd389ac0d1d62a65b07324b15c)*
+*Can be found here: [Postman Collection](https://www.postman.com/orange-satellite-863731/workspace/alumniportal/)*
 
 ## Completed Web Design
 *Can be found here: [Figma Link](https://www.figma.com/design/SfF0bsqgwOKq8h1XcPZ87I/Untitled?node-id=0-1&t=1AkJuqLnqNlBNXH5-0)*

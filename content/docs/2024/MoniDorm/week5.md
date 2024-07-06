@@ -29,7 +29,7 @@ Note: Week 6 will be dedicated to preparing for the final presentation and packa
 
 Keep up the great work and make the most of Week 5. Your dedication and hard work will undoubtedly shine through in the final stages of your projects.
 
-## Feedbacks
+## Feedbacks:
 
 - ### Feedback collection plan
 
@@ -211,5 +211,15 @@ Keep up the great work and make the most of Week 5. Your dedication and hard wor
     User Communication: Inform users about the updates and encourage continued feedback to refine the bot further.
 
     By addressing the feedback and implementing the suggested improvements, we aim to enhance the overall user experience and effectiveness of the dorm trouble reporting Telegram bot.
+
+## Roadmap:
+
+## Weekly Progress Report:
+Our team did ...
+
+### Challenges & Solutions
+
+
+### Conclusions & Next Steps
 
 

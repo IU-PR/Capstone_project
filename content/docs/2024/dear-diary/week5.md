@@ -14,8 +14,8 @@ We surveyed participants after giving them a clear explanation of our project, a
 
 Here are the questions and answers:
 
-- [Questions](https://docs.google.com/document/d/18Yn5hnz1OAXQ1MLuwAGfhy4lwsSQsXL2ZiKB-rIHWQ4/edit?usp=sharing)
-- [Answers](https://docs.google.com/document/d/1LKTFjelrFw0jccaJmqes_2FqONyvF3tUBnH17DMlECM/edit?usp=sharing)
+- [Questions file](https://docs.google.com/document/d/18Yn5hnz1OAXQ1MLuwAGfhy4lwsSQsXL2ZiKB-rIHWQ4/edit?usp=sharing)
+- [Answers file](https://docs.google.com/document/d/1LKTFjelrFw0jccaJmqes_2FqONyvF3tUBnH17DMlECM/edit?usp=sharing)
 
 ### Analyze Feedback
 

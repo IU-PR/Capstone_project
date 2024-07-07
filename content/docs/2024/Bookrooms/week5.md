@@ -58,13 +58,13 @@ Frontend Integration:
 
 Google SSO Integration:
 
-• Challenge: Integrating Google SSO for user authentication has presented technical challenges.
-• Solution: We are actively working to overcome these challenges by collaborating, testing, and refining the integration process. 
+- Challenge: Integrating Google SSO for user authentication has presented technical challenges.
+- Solution: We are actively working to overcome these challenges by collaborating, testing, and refining the integration process. 
 
 3D Model Integration:
 
-• Challenge: Integrating the 3D model with the frontend has been more complex than expected.
-• Solution: We are employing a collaborative approach, with regular communication and code reviews, to ensure seamless integration. 
+- Challenge: Integrating the 3D model with the frontend has been more complex than expected.
+- Solution: We are employing a collaborative approach, with regular communication and code reviews, to ensure seamless integration. 
 
 We are confident in our team's ability to deliver a high-quality system despite these challenges.
 

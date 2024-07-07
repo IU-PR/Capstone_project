@@ -71,7 +71,7 @@ title: "Week #5"
 
 ## **Conclusions & Next Steps**
 
-&nbsp;&nbsp;&nbsp;&nbsp;This week, we completed the implementation of the fitness testing, as well as gathering more standardized user feedback. Also, we fixed several bugs and refine some UI aspects, such as logo and functionality that shows the camera loading process. For the next week, we defined the following steps and tasks:
+&nbsp;&nbsp;&nbsp;&nbsp;This week, we completed the implementation of the fitness testing, as well as gathering more standardized user feedback. Also, we fixed several bugs and refined some UI aspects, such as logo and functionality that shows the camera loading process. For the next week, we defined the following steps and tasks:
 
 1. Continue to analyze and act on users and experts feedback;
 

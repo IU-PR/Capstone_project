@@ -1,25 +1,18 @@
 ---
-weight: 5
-bookFlatSection: true
 title: "Week #5"
 ---
 
 # **Week #5**
 
-{{< hint danger >}}
-**Important Note**  
-We wanted to take a moment to acknowledge the remarkable progress you have made in your projects. It's truly impressive to witness how quickly your projects are coming together. We appreciate your enthusiasm and readiness to tackle the upcoming challenges of the week.
+## **Feedbacks**
 
-As we approach the final stages of our Capstone journey, it is important to start preparing for the culmination of your hard work – the final presentation. We encourage you to allocate sufficient time in advance to craft a compelling presentation. Take the opportunity to refine your pitch and carefully consider the key points and impactful statements that will showcase your efforts in the best possible light. This is also relevant for the refining of your products - prioritize features and functionalities of highest value for the MVP. 
-
-Remember, the final presentation is an opportunity to demonstrate the depth of your dedication and the outcomes you have achieved throughout this journey. By investing time and effort into preparing a well-structured and engaging presentation, you can effectively convey the value and impact of your projects. 
-{{< /hint >}}
-  
-We have now entered **Week 5** of our Capstone project, a pivotal phase where we dedicate our efforts to an essential aspect of product development: continuously gathering feedback and refining our offerings. Building upon the valuable input we received from stakeholders from the last week, our primary objective this week is to expand our network of feedback providers in a systematic and organized manner. Thus, we are entering a second iteration of feedback collection. Remember, feedback - reflection - improvement is a cycle that can get you far. Therefore, think of the ways that you can make most of this process. 
-
-## **Weekly tasks**
+- **Feedback collection plan**
 
 At this point of our project working prototype will be ready only during next week so considering our inability to get a feedback on our work we decided to conduct 4 customer development interviews about usage of this product. 2 interviews were with students from linguistic university and other 2 were with students from tech university.
+
+Also we conducted a survey to recognise if people need it.
+
+- **Conducted user surveys or feedback sessions**
 
 This is the list of questions and main ideas of answers on each of them:
 - What is the main purpose of using the text rephrasing service? 
@@ -45,9 +38,9 @@ This is the list of questions and main ideas of answers on each of them:
   Lost of meaning of the text.
 - How would you rate the importance of rephrasing quality compared to its speed?
 
-  Quality is way more essential at this point so it should be the main focus.
+  Quality is way more essential.
 
-Also we conducted a survey and recieved 51 answers. These are questions and results:
+On survey we recived 51 answers. These are questions and results:
 
 - How often do you need to write different types of text?
 
@@ -73,6 +66,58 @@ Also we conducted a survey and recieved 51 answers. These are questions and resu
 
   17,6% - no.
 
-## **Weekly report**
 
+- **Analyzing feedback, identifying and prioritizing issues**
+
+According to servey a lot of students will need this product. At this point our top priority is to finish the MVP and continue to improve the quality of the rephrased text. 
+Also we got the idea that we can add levels of formality but this is not essencial right now.
+
+
+## **Weekly Progress Report**:
+
+**Frontend:**
+
+Done: 
+
+- Connected with a backend
+- History (or account) page was implemented
+- Dynamic routing and navigation were added 
+- The requests to the server and responses from it have been properly handled (and tested)
+- One bug in the scalability of the application by the change of the window size was fixed
+- The user-friendly display of errors during the login/sign up process was added
+
+Plans:
+
+- Add functions at the account page (delete, clear history)
+- Wait till the full connection with AI, test and fix some emerging bugs
+- Implement more comprehensive error handling by adding additional checking to the JS files that are related to ProxiAPI (sending requests and receiving responses), implement an appropriate behavior of the project to the different errors and the situations when they could happen
+
+**Backend:**
+
+Done:
+
+- Autorization token.
+- Connected to frontend.
+
+In progress:
+
+- Completing the database to store the query history of each user.
+
+Plans:
+
+- Create proper handling of errors.
+- Connect the model to server.
+- Complete the database to store the query history of each user.
+
+**AI:**
+
+Done:
+- Russian BPE tokenizer.
+- Methods of changing existing tokens.
+
+Plans:
+- Model fine-tuning.
+- Existing tokens replacement. Merge Russian BPE and existing Llama tokenizer.
+- Embedding layer fine-tuning. Train on Ru + En wikipedia corpus.
+- Connect with frontend.
 

@@ -64,7 +64,7 @@ title: "Week #5"
 
 &nbsp;&nbsp;&nbsp;&nbsp;This week we had a number of difficulties:
 
-1. Last week's feedback from the team revealed a problem with recognizing the position of the hands relative to the floor and legs (a person reaches with his fingers, fist or full palm to the floor). !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+1. Last week's feedback from the team revealed a problem with recognizing the position of the hands relative to the floor and legs (a person reaches with his fingers, fist or full palm to the floor). We solved it by integrating the MediaPipe ML tool in addition to MoveNet, and adding MediaPipe precise detectors for the hands and full body. This allowed us to increase a correctness of exercise recognition.
 
 2. There was also a problem with feedback from an expert in this field (a sports coach), since most coaches are on vacation. Finally, by the end of this week, Yana Bogdanovich (Innopolis sport coach) found the time to test our web application and give professional feedback.
 

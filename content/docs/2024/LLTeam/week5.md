@@ -12,24 +12,25 @@ As our team doesn't have any concrete stakeholders, we aimed to contact our fell
 
 
 Prepare a feedback collection plan
-During this week, we tuned a feedback collection procedure to collect detailed feedback from the broader focus group. To gain more insights into real user experience, we decided to combine the one-to-one meetings with the standardized feedback approach. \
+
 As stated previously, we conducted a one-to-one sessions with potential stakeholders and provided them with the functional prototype. One of the team members presents a main task for the client to accomplish. User interacts with our prototype and tries to achieve the prototype goal, while our team observes and documents any difficulties and notes appeared during his journey. \
 In parallel, we discussed the possible questions and areas to focus on for the user surveys. After that, our team created the Google Form hosted online and shared among the focus group. \
-To get the useful feedback, we splitted the survey on the web application sections (such as auth, register, link creation, )
-
-
-
-
-Conduct user surveys or feedback sessions
-
-
+To get the detailed feedback, we splitted the survey on the web application sections (such as auth, register, link creation, )
 
 
 Document feedback received from stakeholders
 
+![c4](/2024/LLTeam/week5/registration.png)
 
+![c4](/2024/LLTeam/week5/link_creation.png)
 
+![c4](/2024/LLTeam/week5/redirections.png)
 
+![c4](/2024/LLTeam/week5/generalUIUX.png)
+
+![c4](/2024/LLTeam/week5/additionalfeats.png)
+
+![c4](/2024/LLTeam/week5/bugs.png)
 
 Analyze the feedback collected to identify common themes, patterns
 

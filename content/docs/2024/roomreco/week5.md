@@ -191,3 +191,18 @@ You can see all of our goals in the
 
 
 ### ML Challenges and Solutions
+
+1. Creating custom metrics for testing and comparison of proposed solutions
+- Due to the specificity of our hybrid student recommendation and allocation systems, existent metrics felt insufficient for our purposes. Therefore, the following solutions were proposed:
+  - 1.1.  Recommendational system
+    - The previous hybrid metric was updated by a logarithmic scale, producing better clusterization and separation of the data. Moreover, cosine similarity measure for multi-choice question has been changed to Jaccard similarity, due to non-ordinality of the data.
+  - 1.2. Allocation system
+    - New Graph similarity metric - relation of existing connections inside an allocated room to all possible connections for the roommates. As well as preservance of two-way "matches" in the graph
+1. Implementing and testing Simulated Annealing for allocation
+- Results on several metrics showed that SA behaves worse than greedy search on our data. Therefore this option was discarded, due to the presence of a better algorithm from the previous weeks.
+1. Debugging recommendational system
+- Our recommendational system is a complex combination of ML methods (like FAISS) with custom algorithms, so it took a couple of week to fully debug and thoroughly test. But we can finally rest assure on that accord.
+
+## Conclusions and Next steps
+This sprint we have successfully addressed a series of challenges related to the development and optimization of hybrid student recommendation and allocation systems. Through targeted solutions, significant progress was made in improving system performance and reliability.
+For the following weeks, we will mainly focus on integration with backend, as well as potential NLP solutions for full-text questions in student profiles.

@@ -20,17 +20,17 @@ We conducted a user survey among a targeted group of students, faculty, and staf
 
 - **Analyzing feedback, identifying and prioritizing issues**
 
-We are currently collecting survey responses and will analyze the data in the coming week. The insights gathered from this analysis will inform our design decisions and prioritize features for the upcoming iterations of the system. We will present the findings and their impact on our design in the next week's report.
+??? We are currently collecting survey responses and will analyze the data in the coming week. The insights gathered from this analysis will inform our design decisions and prioritize features for the upcoming iterations of the system. We will present the findings and their impact on our design in the next week's report.
 
 ## **Roadmap**:
 
 We are currently focusing on enhancements and additional features:
 
 - User Authentication and Authorization: Secure login using Google SSO for students, faculty, and staff.
-- User Profiles and Preferences: Allow users to create profiles, save preferred rooms, and manage their booking history.
+??? - User Profiles and Preferences: Allow users to create profiles, save preferred rooms, and manage their booking history.
 - Advanced Search Filters: Expand search capabilities with location, date and time filters.
-- Notifications and Reminders: Implement email or in-app notifications for booking confirmations, cancellations, and reminders.
-- User Feedback Integration: Incorporate user feedback and make necessary improvements based on testing and user experience.
+??? - Notifications and Reminders: Implement email or in-app notifications for booking confirmations, cancellations, and reminders.
+??? - User Feedback Integration: Incorporate user feedback and make necessary improvements based on testing and user experience.
 
 
 ## **Weekly Progress Report**:
@@ -39,12 +39,11 @@ This week, our team made significant strides towards a functional and engaging u
 
 Backend Completion:
 
-- The backend development is now considered complete. All core features, including user management, booking creation/deletion, data retrieval (buildings, room types, current bookings), and data validation are fully functional and integrated with the database.
+- The backend development is now considered complete. All core features, including user management, booking creation/deletion, data retrieval (room types, current bookings), and data validation are fully functional and integrated with the database.
 
 Frontend Integration:
 
 - We successfully integrated the newly developed backend API endpoints into the frontend, enabling user interaction with key features:
-  * Building Selection: Users can now browse available buildings and view their floor plans. 
   * Room Type Filtering: Users can filter their room search based on specific room types, such as meeting rooms or lecture rooms.
   * Booking Management: Users can now create, view, and delete their own bookings.
 
@@ -53,11 +52,11 @@ Frontend Integration:
 - We significantly improved the visual appeal of the 3D model by:
   * Enhanced Walls: We implemented more realistic and visually appealing wall textures, adding detail and depth to the 3D environment.
   * Inertial Camera Movement: We introduced inertial camera movement, making navigation smoother and more intuitive for users exploring the 3D campus.
-- We modeled two floors of the university building, creating a detailed representation of the physical space. These models are ready for integration with the frontend, allowing users to visually navigate and explore the university's buildings in a realistic way.
+- We modeled two floors of the university building, creating a detailed representation of the physical space. These models are ready for integration with the frontend, allowing users to visually navigate and explore the university's building in a realistic way.
 
 ### **Challenges & Solutions**
 
-...
+???
 
 ### **Conclusions & Next Steps**
 

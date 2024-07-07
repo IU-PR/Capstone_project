@@ -11,7 +11,10 @@ Meetings with stakeholders
 
 
 Prepare a feedback collection plan
-
+During this week, we tuned a feedback collection procedure to collect detailed feedback from the broader focus group. To gain more insights into real user experience, we decided to combine the one-to-one meetings with the standardized feedback approach. \
+As stated previously, we conducted a one-to-one sessions with potential stakeholders and provided them with the functional prototype. One of the team members presents a main task for the client to accomplish. User interacts with our prototype and tries to achieve the prototype goal, while our team observes and documents any difficulties and notes appeared during his journey. \
+In parallel, we discussed the possible questions and areas to focus on for the user surveys. After that, our team created the Google Form hosted online and shared among the focus group. \
+To get the useful feedback, we splitted the survey on the web application sections (such as auth, register, link creation, )
 
 
 

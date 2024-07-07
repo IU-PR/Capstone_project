@@ -25,15 +25,15 @@ These methods ensured a comprehensive and systematic collection of both qualitat
 ## Results & Analysis
 
 ### Findings and Outcomes
-- **User Feedback**: Collected feedback from 40 users, highlighting various aspects of usability and functionality.
-- **Common Themes**: Identified recurring issues such as user interface complexities, navigation difficulties, and the need for better support materials.
+- **User Feedback**: Collected feedback from 33 users, highlighting various aspects of usability and functionality.
+- **Common Themes**: Identified recurring issues such as user interface complexities, navigation difficulties, and the need for better support.
 - **Quantitative Data**: Gathered quantitative assessments indicating overall user satisfaction and areas needing improvement.
 
 ### Analysis
 The feedback underscored the importance of a user-friendly design and highlighted specific areas for improvement:
 - **Navigation**: Users found the navigation somewhat confusing and suggested a more intuitive layout.
 - **Visual Design**: Feedback indicated the need for a more appealing visual design to enhance user experience.
-- **User Support**: Users requested additional tutorials and help guides to better understand the portal's features.
+- **User Support**: Users requested FAQ or some sort of a guide to better understand the portal's features.
 
 ### Implications for Overall Project
 These findings are crucial for guiding our next steps in development. Addressing the identified issues will significantly improve user satisfaction, engagement, and the overall success of the Alumni Portal.
@@ -41,12 +41,12 @@ These findings are crucial for guiding our next steps in development. Addressing
 ## Conclusions & Next Steps
 
 ### Key Takeaways
-- Users appreciate the portal’s potential but identified areas needing improvement in navigation, design, and user support.
+- Users appreciate the portal’s potential but identified lack of some essential functions and highlighted areas needing improvement in navigation and design.
 - Continuous feedback is essential for iterative development and ensuring the product aligns with user needs.
 
 ### Actionable Next Steps
 - **Interface Improvements**: Redesign the navigation structure and enhance visual elements.
-- **Feature Enhancements**: Implement additional user tutorials and help guides.
+- **Feature Enhancements**: Implement FAQ, better home page, funding system, co-integration with other university portals.
 - **Continuous Feedback**: Maintain an ongoing feedback loop to monitor improvements and gather further insights.
 
 ## Challenges & Solutions

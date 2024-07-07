@@ -19,21 +19,60 @@ We have now entered **Week 5** of our Capstone project, a pivotal phase where we
 
 ## **Weekly tasks**
 
-To accomplish this, we will focus on the following tasks throughout the week:
+At this point of our project working prototype will be ready only during next week so considering our inability to get a feedback on our work we decided to conduct 4 customer development interviews about usage of this product. 2 interviews were with students from linguistic university and other 2 were with students from tech university.
 
-- Schedule meetings or interviews with relevant stakeholders, such as potential clients, users, or fellow students, to collect feedback on the current product version. Remember, goal fo the week to have a broader feedback and better refinement.
-- Prepare a feedback collection plan, including the specific questions or areas of focus to gather feedback on. Consider using an algorithmic ways to collect standardized feedback (online forms or online charts where users can quantitatively assess your product or its features) in addition to one on one meetings. 
-- Conduct user surveys or feedback sessions to gather input on the product's usability, functionality, and overall satisfaction.
-- Document feedback received from stakeholders, ensuring clear identification of specific areas of improvement or enhancement.
-- Analyze the feedback collected to identify common themes, patterns, or recurring issues.
-- Prioritize the feedback based on its impact and feasibility of implementation.
-- For those who are willing to continue their projects after Capstone - discuss and refine the product **roadmap** based on the feedback and identified improvements. This can include feature addition plan for the next months or even a year. Time flies fast, and having a thoroughly refined plan is always better than just development on your feel about the product.
-- **Implement necessary changes or enhancements** to the product based on the feedback received, following the project's development process.
+This is the list of questions and main ideas of answers on each of them:
+- What is the main purpose of using the text rephrasing service? 
 
-By prioritizing these tasks during Week 5, our objective is to establish a robust feedback loop that consistently enhances the quality, usability, and overall value of your products. We understand that every project may encounter challenges along the way, and we want to emphasize that this week presents a valuable opportunity to address any major issues and make significant progress.
+  The main purpose is to improve the structure and language of the text.
+- What kinds of texts do you typically want to rephrase?
 
-If you find yourself facing significant challenges or falling behind, we strongly encourage you to seize this week as a chance to catch up and realign your project trajectory. Reach out to your mentors and fellow team members for support, guidance, and collaboration. Leverage the resources available to you, to overcome obstacles and move forward with renewed momentum.
+  For students from linguistic universities essays and term papers. For students students from tech university reports and academic papers.
+- How often do you use rephrasing services?
 
-In addition to resolving any major issues, Week 5 is also an ideal time to take stock of your overall project status and ensure that you are on track for a successful culmination. Review your project goals, milestones, and timelines, making adjustments as necessary. Conduct thorough testing and validation to validate the functionality, reliability, and user experience of your products.
+  For students from linguistic universities it needs several times a month. For students students from tech university couple times a month.
+- What are your expectations from the rephrasing service?
 
-Keep up the great work and make the most of Week 5. Your dedication and hard work will undoubtedly shine through in the final stages of your projects.
+  Paraphrased text with meaning preserved and readability improved.
+- Which rephrasing formats are most important to you (formal, conversational, etc.)?
+
+  Formal and academic
+- What features or capabilities do you consider essential for a rephrasing service?
+
+  Ability to choose different styles and level of formality.
+- What difficulties do you encounter when using current rephrasing services?
+
+  Lost of meaning of the text.
+- How would you rate the importance of rephrasing quality compared to its speed?
+
+  Quality is way more essential at this point so it should be the main focus.
+
+Also we conducted a survey and recieved 51 answers. These are questions and results:
+
+- How often do you need to write different types of text?
+
+  11,8% - several times a month.
+  
+  35,3% - 1-2 times a month.
+
+  35,3% - rarer than once a month.
+
+  11,8% - never.
+- How do you change text style? (multi-choice question)
+
+  41,2% - using services.
+  
+  88,2% - by themselves.
+
+  5,9% - asking a friend.
+- If we suggest a product which can do this would you use it?
+  
+  41,2% - Yes.
+
+  41,2% - would try.
+
+  17,6% - no.
+
+## **Weekly report**
+
+

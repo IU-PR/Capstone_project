@@ -1,4 +1,4 @@
 ---
 bookCollapseSection: true
-title: "MetaMorphGPT"
+title: "Booky"
 ---

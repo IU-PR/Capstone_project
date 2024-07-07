@@ -28,18 +28,7 @@ We will also need to improve hand stability, as well as address errors when a pe
 ## Weekly Progress Report
 This week our team has been working on the UX/UI design of the game. At the moment, you can see huge progress in the visual and sound design of the game. All non-player characters and their dialogues and stories are also ready. Work is continuing on connecting the second smoker to the game and configuring ports for data transmission and processing.
 Here you can see our illustrations of characters in a game:
-![character0.png](/2024/sign_ature_cocktail/character0.png)
-![character1.png](/2024/sign_ature_cocktail/character1.png)
-![character2.png](/2024/sign_ature_cocktail/character2.png)
-![character3.png](/2024/sign_ature_cocktail/character3.png)
-![character4.png](/2024/sign_ature_cocktail/character4.png)
-![character5.png](/2024/sign_ature_cocktail/character5.png)
-![character6.png](/2024/sign_ature_cocktail/character6.png)
-![character7.png](/2024/sign_ature_cocktail/character7.png)
-![character8.png](/2024/sign_ature_cocktail/character8.png)
-![character9.png](/2024/sign_ature_cocktail/character9.png)
-![character10.png](/2024/sign_ature_cocktail/character10.png)
-![character11.png](/2024/sign_ature_cocktail/character11.png)
+![game1.png](/2024/sign_ature_cocktail/game1.png)
 
 ### Challenges & Solutions
 Our main problems at the moment are that most of our team will be busy for half of the next week retaking one subject, as well as several team members who acted very irrationally and left for another city for a day. But despite these problems, we still set ourselves a plan for the next week and will fully implement it.

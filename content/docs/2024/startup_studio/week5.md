@@ -25,7 +25,7 @@ We decided not to use CAdvisor due to issues with custom CRI and missing labels 
 
 ## **Product Feedback**
 
-**Beginner Usability:**\ 
+**Beginner Usability:**\
 Feedback indicated that beginners might find it difficult to understand how our product works. To address this, we decided to create a small documentation page where users can learn how to use our product, understand its functionality, and its purpose.
 
 **Feature Requests:**\

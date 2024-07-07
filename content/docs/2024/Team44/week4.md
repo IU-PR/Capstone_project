@@ -6,16 +6,23 @@ title: "Week #4"
 ## **External Feedback**
 
 We aimed to collect feedback from our colleagues and friends on the prototype, which initially focused solely on the ML model for quiz generation due to ongoing backend and frontend connection issues. Our friends graciously assisted in testing our model, providing valuable insights.
+
+
 Firstly, we asked our two friends from our course to test our program. They had to send their notes and get the answers for them. One of them used the book part from the "Database" course, while another sent us some notes from the " Introduction to MLOPs " course. They evaluated the relevance, conciseness, and waiting time of our quizzes.
+
+
 For instance, the first respondent evaluation is below:
 "The quiz generator for "Intro to MLOps" aligns strongly with provided content, scoring 9/10 for question relevance. It effectively covers key topics such as machine learning challenges, MLOps versus DevOps distinctions, and MLOps goals. While generally clear and concise, with an 8/10 for question conciseness, some answer choices could be clearer. With a generation time of 49.6 seconds, it performs adequately but could benefit from optimization for quicker output. Minor adjustments to refine answer clarity and enhance speed would further improve the quiz's effectiveness in assessing MLOps principles."
 
+
 Another friend of ours also said some words about our program:
+
 
 "The quiz generator scores 8/10 for relevance, effectively covering key database concepts like redundancy and storage, but could benefit from more detailed questions. It rates 7/10 for conciseness, generally clear but with some overly lengthy answer choices. It's efficiently optimized with a quick generation time of 19.5 seconds (9/10), though further speed enhancements could be considered. Improvements in front-end engagement and back-end optimization for faster performance would enhance the quiz generator's user experience and overall quality."
 
 
 Based on feedback from our colleagues and friends, our quiz generator prototype shows strong alignment with the content for both "Intro to MLOps" and database courses, scoring well in relevance and efficiency metrics. To enhance its effectiveness further, we will focus on refining answer clarity, optimizing generation speed, and improving user engagement through front-end enhancements. These adjustments aim to elevate our quiz generator's overall quality and user experience as we continue development.
+
 
 ## **Testing**
 Testing throughout the project has been rigorous and thorough. We have focused on ensuring all implemented features' functionality and reliability. Comprehensive testing has been conducted for each endpoint in the back end, utilizing automated tests to validate correct operation under various scenarios. This approach has allowed us to identify and address issues promptly, ensuring a stable application.

@@ -92,11 +92,182 @@ Keep up the great work and make the most of Week 5. Your dedication and hard wor
 
 - ### Conducted user surveys or feedback sessions
 
-    Our target audience consisted of (number) students, whom we asked to provide feedback on our product. They were instructed to send 1-2 reports to our bot. Following this, they rated the ease of sending reports, receiving notifications, and their overall satisfaction with using the bot. We then analyzed their responses from the Google Forms below.
+    <u>**Results of bot feedback session**</u>
 
-    **Results (pistures)**
+    Our target audience consisted of 31 students, whom we asked to provide feedback on our product. They were instructed to send 1-2 reports to our bot. Following this, they rated the ease of sending reports, receiving notifications, and their overall satisfaction with using the bot. We then analyzed their responses from the Google Forms below.
 
-    Should be pistures from survey!!!
+    **Usability:**
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_1.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_2.png"></div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_3.png"></div>
+
+    If you encounter any difficulties while using the bot, please describe.
+    - Old reporting windows are still active. But this is minor issue, does not break anything except command that can be sent at the state of optional comment
+    - The time to receive a confirmation code on email is longer than in other services. Sometimes, buttons pressures are processed for a long time
+    - Slow email confirmation, sometimes slow button reaction
+    - It's not a difficulty, but I want to see a list of subscriptions somewhere. Just don't want to go through all the possible report options
+    - I'd like to have a clearly understandable navigation after I log in
+    - It could be great to have a bot feedback when I leave comment on problem
+    - "Alerts enabled" — confusing little bit. May be name it as disable alerts?
+    - When I press /start again after using the bot nothing happens
+    - It could be better to have buttons instead of handling everything with / commands
+    - Meniu buttons are essential for good UX in Telegram bots. I wish you will add them as soon as it is possible
+    - Find subscriptions for the specific dorm
+    - Some my messages disappear after I send them. It is not clear to me should are they being deleted
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_4.png"></div>
+
+    What features or sections did you find most useful or confusing?
+    - Optional report commenta may help to understand the core of problem imho
+    - Useful that I can subscribe to obtain notifications about specific building
+    - It is useful that I can just choose the labels and floors (don't have specific format for writing)
+    - Notification system is very helpful
+    - Reports summarization
+    - Choice between descriptive and usual report
+    - I find the bot very helpful! AI integration is awesome, the project is a success!
+    - Little bit inconvenient to unsubscribe from alrrts
+    - Get notifications about problems
+    - Navigation to reporting the issue
+    - Selecting the dorm is implemented very good! :)
+    - Buttons (user experience in general)
+    - It is confusing that some commands (like /start) that are send to the bot are being deleted. I want to have full history of my dialogue with the bot.
+    - Inline buttons for choosing the dorm and kind of trouble are implemented very well.
+    - Choosing the dorm using inline buttons is very cool feature!
+    - Automated reports.
+    - Do not delete messages
+    - removing users' messages?why?
+
+    **Functionality:**
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_5.png"></div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_6.png"></div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_7.png"></div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_8.png"></div>
+
+    What additional features would you like to see in the bot?
+    - alerts were received multiple times but this is probably ok
+    - I don't know why my reports were not sent to me, but may be it is not enough
+    - Maybe it will be good to upload the photo about problem
+    - Tracking of my report (is it approved or no)
+    - It could be cool to maybe have a map of the dorms and report locations on it
+    - May be map of failures
+    - Maybe notifications not only about problems that have already happened but also notifications about upcoming changes (about water shutdown and etc)
+    - Buttons for more intuitive navigation
+    - I received alert multiple times
+    - Buttons as I said
+    - Option to attach photos to reports
+    nothing, i like it
+    - Messages in reports could be more concise and informative
+    - Do not delete messages
+    update info on reports (if there are new ones)
+    - Results on resolving reported issue
+
+    **Overall Satisfaction:**
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_9.png"></div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_10.png"></div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_bot/bot_11.png"></div>
+
+    Please provide any additional comments or suggestions for improvement.
+    - now bot alerts are not used anyhow, but they could be e.g. sent through dormitory representative to adminitstration
+    - May be button interface in keyboard?
+    - I like this bot! I think you should develop it for future.
+    - Very good idea, because in usual way I know about outrages very late
+    - Do such system not only for dorms but for university or maybe for city
+    - Good project
+    - Can this bot really report stuff to dorm admins?
+    - I would like to have a feedback from bot after leaving the message on problem in dorm.
+    - Sometimes requests are processed slowly
+    - Fix the case with sending /start
+    - The idea is very interesting, I wish it will speed up the processing of fixing troubles in dormitories! Good luck with the implementation:)
+    - Simplify the subscription system
+    - this approach can lead dorm issues reporting to absolutely new level! happy to see it
+    - I have used your bot about a week ago and I see that user interface has been improved very much. Good job, fellows!
+    - Messages should remain
+    - I think it was better to make a website instead of Telegram bot
+    - don't remove messages, it is strange behavior
+
+    <u>**Results of website feedback session**</u>
+
+    Since our website will be used by the university administration, we could only gather two reviews. However, even this small amount of feedback has significantly contributed to the development of our product.
+
+    **Usability:**
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_1.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_2.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_3.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_4.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_5.png">
+    </div>
+
+    **Functionality:**
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_6.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_7.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_8.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_9.png">
+    </div>
+
+    **Overall Satisfaction:**
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_10.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_11.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_12.png">
+    </div>
+
+    <div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/MoniDorm/feedback_website/website_13.png">
+    </div>
 
 - ### Analyzing feedback, identifying and prioritizing issues
     By conducting user surveys and feedback sessions, we obtained useful information about usability, functionality, and overall satisfaction with the Telegram bot reporting problems in the dormitory. Below are the key findings and parts for improvement based on user feedback.
@@ -213,6 +384,9 @@ Keep up the great work and make the most of Week 5. Your dedication and hard wor
     By addressing the feedback and implementing the suggested improvements, we aim to enhance the overall user experience and effectiveness of the dorm trouble reporting Telegram bot.
 
 ## Roadmap:
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/final-roadmap.png">
+</div>
 
 ## Weekly Progress Report:
 Our team did ...

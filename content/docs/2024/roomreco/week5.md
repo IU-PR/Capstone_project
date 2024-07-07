@@ -164,3 +164,24 @@ You can see all of our goals in the
 ![Notion Roadmap](/2024/roomreco/notion-roadmap.jpg)
 
 ## Weekly Progress Report
+
+### Backend Challenges and Solutions
+
+#### What's new
+
+1. We have implemented a Telegram authentication mechanism to allow users to log in with their Telegram accounts.
+2. A memory database adapter has been created to store all information in memory, primarily for testing purposes.
+3. The MongoDB database adapter has been finalized and several bugs have been resolved.
+4. Comprehensive unit tests have been created (totaling 454 tests with 98% code coverage and 4,500 lines of code covered).
+5. Work on user services and GraphQL API is starting to move forward using the hexagonal architecture.
+
+#### Challenges
+
+1. The user entity in the Telegram application is a complex object with several fields. During the authentication process, not all required information is available, and the application needs to request missing information from the user. Additionally, the same callback URL is used for both registering new users and logging into existing accounts, which leads to inconvinience in API design and handler implementations.
+
+#### Solutions
+
+1. The logic for handling authentication callbacks in Telegram has been improved. First, we parse and validate the incoming data by computing and comparing the hash digest of the message. If the message is valid, we check whether the user is already registered in our system. If they are, we generate a new JSON Web Token (JWT) for them and redirect them to the main page. Otherwise, we redirect them to the registration page, providing all the necessary information for a second call for registration from front-end side.
+
+
+### ML Challenges and Solutions

@@ -29,7 +29,7 @@ During the meeting, participants engaged with our MVP project to assess its usab
 **Analyzing feedback, identifying and prioritizing issues:** 
 
 <div style="text-align: center;">
-<img src="/2024/kuda_team/week5/Average Rate of satisfaction.png" width="600" height="300"> 
+<img src="/2024/kuda_team/week5/Average.png" width="600" height="300"> 
 </div>
 
 Users had a preference for interacting with the deployed service over the Figma prototype, because they can see how it will be done. Our team is pleased to have conducted testing on the deployed prototype, which users found more effective in assessing the application's functionality.

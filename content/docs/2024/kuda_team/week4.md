@@ -21,7 +21,7 @@ The questions that we asked each of the participants using a questionnaire where
 - Would you recommend this app to others based on your experience today?	
 
 <div style="text-align: center;">
-<img src="/2024/kuda_team/week4/Average Rate of satisfaction.png" width="600" height="300"> 
+<img src="/2024/kuda_team/week4/Average.png" width="600" height="300"> 
 </div>
 
 

@@ -45,10 +45,11 @@ The main page of our frontend application has high conversion — the majority o
 
 
 Prioritize the feedback based on its impact and feasibility of implementation
+First of all, our team prioritizes the functionality and usability of prototype over its design. Therefore, we decided to primarily fix all discovered severe bugs that prevented user from accomplishing target actions, such as registration or link creation.
+After that, we plan to implement and refine the secondary features according to the following priorities:
+1) Link management UI and backend support
+2) Redirections with a password (refinement)
 
-We decided to preoritize implementation of secondary features:
-1) Link management UI
-2) Refinement on redirections by a password
 
 
 For those who are willing to continue their projects after Capstone - discuss and refine the product roadmap

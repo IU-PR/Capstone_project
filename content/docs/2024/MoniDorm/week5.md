@@ -388,6 +388,13 @@ Keep up the great work and make the most of Week 5. Your dedication and hard wor
     <img style="max-width: 100%; height: auto;" src="/2024/Monidorm/final-roadmap.png">
 </div>
 
+We will plan to implement the following enhancements:
+
+1. **Extra Statistics with ClickHouse:** This will allow for more detailed and comprehensive data analysis.
+2. **Horizontal Scaling with ClickHouse:** To improve the system’s scalability and performance.
+3. **ML-Based Failure Detector:** Implement machine learning algorithms to detect failures proactively.
+4. **Reward System:** Introduce a reward system to motivate users to submit accurate and helpful reports.
+
 ## Weekly Progress Report:
 Our team did ...
 

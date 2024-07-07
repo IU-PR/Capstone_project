@@ -4,6 +4,7 @@ title: "Week #5"
 
 # **Week #5**
 
+This week we completed the project page and resolved user authorization issues. On the backend, we improved project and application CRUD operations with better error handling. We also decided to revert to Prometheus for monitoring due to CAdvisor configuration challenges. Despite facing VM disconnection issues, we managed to overcome them and stay on track.
 
 ## **Frontend Development**
 We finished the project page with applications and collaborators listing. Also resolved an issue where the frontend could not identify an authorized user. This fix is currently under testing.

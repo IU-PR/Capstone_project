@@ -183,5 +183,11 @@ You can see all of our goals in the
 
 1. The logic for handling authentication callbacks in Telegram has been improved. First, we parse and validate the incoming data by computing and comparing the hash digest of the message. If the message is valid, we check whether the user is already registered in our system. If they are, we generate a new JSON Web Token (JWT) for them and redirect them to the main page. Otherwise, we redirect them to the registration page, providing all the necessary information for a second call for registration from front-end side.
 
+#### Next Steps
+
+1. Finalize GraphQL API implementation and integrate it with the Telegram authentication mechanism.
+2. Recreate Telegram Bot from previous iterations
+3. Deploy the application to the cloud
+
 
 ### ML Challenges and Solutions

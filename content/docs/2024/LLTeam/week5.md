@@ -41,20 +41,19 @@ Analyze the feedback collected to identify common themes, patterns
 The majority of users have successfully accomplished the task without external assistance. Moreover, most of the users created the account without a specific task requirement and they believe that it is convenient for them. However, since users have discovered medium usability bugs, it affected scores and satisfaction with the authorization process.
 ### Link creation
 The main page of our frontend application has high conversion — the majority of users managed to create a link and did not found any usability or convenience issues. Nevertheless, the opinion has diverged into various number of points, since the users stated their desire to access more secondary features.
+### Redirection
+Most of our respondents didn't have any complains about the UX\UI side of the redirection, as this feature is very simple and understandable, available even for unauthorized users.
+### Overall Satisfaction
+As provided data shows, in general, our respondents liked the provided UI\UX of the service.
 
-
-
-Prioritize the feedback based on its impact and feasibility of implementation
+## Task preoretization:
 
 We decided to preoritize implementation of secondary features:
 1) Link management UI
 2) Refinement on redirections by a password
 
 
-For those who are willing to continue their projects after Capstone - discuss and refine the product roadmap
-
-
-
+### Impovements, based on the feedback, which were done instantly:
 
 We implemented the fixes for the frontend application bugs that were discovered during the meetings, and described by the survey feedback. In particular, we fixed the form validation bugs and improved the UX of link creation checkboxes, so it became more intuitive and non-confusing.
 

@@ -20,17 +20,17 @@ We conducted a user survey among a targeted group of students, faculty, and staf
 
 - **Analyzing feedback, identifying and prioritizing issues**
 
-??? We are currently collecting survey responses and will analyze the data in the coming week. The insights gathered from this analysis will inform our design decisions and prioritize features for the upcoming iterations of the system. We will present the findings and their impact on our design in the next week's report.
+We are currently collecting survey responses and will analyze the data in the coming week. The insights gathered from this analysis will inform our design decisions and prioritize features for the upcoming iterations of the system. We will present the findings and their impact on our design in the next week's report.
 
 ## **Roadmap**:
 
-We are currently focusing on enhancements and additional features:
+We are currently focusing on enhancements and additional features. Our timeline for these features is still being finalized, but we anticipate delivering them in the coming weeks:
 
-- User Authentication and Authorization: Secure login using Google SSO for students, faculty, and staff.
-??? - User Profiles and Preferences: Allow users to create profiles, save preferred rooms, and manage their booking history.
+- User Authentication and Authorization: Secure login using Google SSO.
+- User Profiles and Preferences: Allow users to create profiles, save preferred rooms, and manage their booking history.
 - Advanced Search Filters: Expand search capabilities with location, date and time filters.
-??? - Notifications and Reminders: Implement email or in-app notifications for booking confirmations, cancellations, and reminders.
-??? - User Feedback Integration: Incorporate user feedback and make necessary improvements based on testing and user experience.
+- Notifications and Reminders: Implement email or in-app notifications for booking confirmations, cancellations, and reminders.
+- User Feedback Integration: Incorporate user feedback and make necessary improvements based on testing and user experience.
 
 
 ## **Weekly Progress Report**:
@@ -56,7 +56,17 @@ Frontend Integration:
 
 ### **Challenges & Solutions**
 
-???
+Google SSO Integration:
+
+• Challenge: Integrating Google SSO for user authentication has presented technical challenges.
+• Solution: We are actively working to overcome these challenges by collaborating, testing, and refining the integration process. 
+
+3D Model Integration:
+
+• Challenge: Integrating the 3D model with the frontend has been more complex than expected.
+• Solution: We are employing a collaborative approach, with regular communication and code reviews, to ensure seamless integration. 
+
+We are confident in our team's ability to deliver a high-quality system despite these challenges.
 
 ### **Conclusions & Next Steps**
 

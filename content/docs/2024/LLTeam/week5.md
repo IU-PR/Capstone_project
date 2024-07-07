@@ -22,7 +22,7 @@ To get the detailed feedback, we splitted the survey on the web application sect
 - usability and functionality questions
 
 
-Document feedback received from stakeholders
+We have received and documented the following feedback from our online survey:
 
 ![c4](/2024/LLTeam/week5/registration.png)
 
@@ -43,10 +43,12 @@ The majority of users have successfully accomplished the task without external a
 The main page of our frontend application has high conversion — the majority of users managed to create a link and did not found any usability or convenience issues. Nevertheless, the opinion has diverged into various number of points, since the users stated their desire to access more secondary features.
 
 
+
 Prioritize the feedback based on its impact and feasibility of implementation
 
-
-
+We decided to preoritize implementation of secondary features:
+1) Link management UI
+2) Refinement on redirections by a password
 
 
 For those who are willing to continue their projects after Capstone - discuss and refine the product roadmap

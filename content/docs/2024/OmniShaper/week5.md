@@ -26,10 +26,6 @@ The main takeaways from the interviews were:
 You can see our roadmap in the image below:
 ![Roadmap](/static/2024/OmniShaper/roadmap.jpg)
 
-| July                                     | August                               | September                                          | October                                         | November                            | December                                         ||---------------------------------------------|------------------------------------------|--------------------------------------------------------|-----------------------------------------------------|----------------------------------------|-----------------------------------------------------|
-| Working on building first stable version    | Open beta                                | Marketing company                                      | Introduce alpha                                      | Worldwide version                      | Worldwide marketing company                        || Conducting test sales on different auditory | Marketing company                        | Collect the users' feedback from the new version       | Working on worldwide version of the product         | Acquiring partnerships with potential investors / companies |                                                     |
-| Conducting additional custdev interviews    | Collect feedback                         | Update beta version                                    | Collecting feedbacks                                |                                        |                                                     || Collect feedback                            |                                          |                                                        |                                                     |                                        |                                                     |
-
 ## **Weekly Progress Report**:
 1. Pipeline Division
 

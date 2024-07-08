@@ -162,15 +162,18 @@ We remain committed to regularly assessing our progress, comparing it against ou
     ![w5f13](/2024/cookainno/w5f13.png)
     Yolov8m trained on custom dataset answer:
     ['milk', 'tomato', 'banana', 'bread', 'egg']
+    
+    PaliGemma answer:
+    milk, eggs, tomatoes, bananas
 
   - More complex and realistic example — a photo of a fridge.
     ![w5f14](/2024/cookainno/w5f14.png)
 
     Yolov8m trained on custom dataset answer:
-['lime', 'banana', 'green beans', 'onion', 'flour', 'carrot', 'milk', 'meat', 'tomato']
+    ['lime', 'banana', 'green beans', 'onion', 'flour', 'carrot', 'milk', 'meat', 'tomato']
 
-PaliGemma answer:
-Vegetable
+    PaliGemma answer:
+    Vegetable
 
 **Comparing outcomes:** YOLOv8 demonstrated superior accuracy and specificity compared to PaliGemma. It could accurately identify and list multiple items in both simple and complex images, whereas PaliGemma tended to generalize and failed to identify specific items accurately. Thus, the choice of a model is obvious. YOLOv8 is more appropriate model for ingredients detection task.
 
@@ -184,7 +187,7 @@ Here is the new Figma design:
 https://www.figma.com/design/vpqc9bsK1bBngEr7yXHRUP/Untitled?node-id=0-1&t=5dARqG7DerDkbgEc-0
 
 **ML – Ingredient recognition:**
-- Initially planned to use a specific dataset [link](https://universe.roboflow.com/muhammadmoin-y1qrz/retail-store-axhqk), but found a better alternative [link](https://universe.roboflow.com/groceryitemsdetection/ingredients_images_for_detection) through extensive search. However, this dataset could not be downloaded in one go, requiring incremental cloning of 1000 images at a time.
+- Initially planned to use a specific dataset ([link](https://universe.roboflow.com/muhammadmoin-y1qrz/retail-store-axhqk)), but found a better alternative ([link](https://universe.roboflow.com/groceryitemsdetection/ingredients_images_for_detection)) through extensive search. However, this dataset could not be downloaded in one go, requiring incremental cloning of 1000 images at a time.
 - Faced limitations on Roboflow free plan, which restricts datasets to a maximum of 10,000 images. This necessitated careful selection to ensure each class had a minimum representative number of images (200 images).
 
 **Backend:**

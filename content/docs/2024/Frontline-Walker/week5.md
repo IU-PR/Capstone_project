@@ -77,7 +77,7 @@ During active work, the team encountered many difficulties.
 
 Some of the sounds (most) are missing or not suitable for free access. For full immersion, sounds are necessary, so one person from the team started recording them.
 
-The project requires a large number of sprites. In addition to a banal increase in operating time, it is planned to use neural networks to generate images and/or outside assistance.
+The project requires a large number of sprites. In addition to a banal increase in working time, it is planned to use neural networks to generate images and/or outside assistance.
 
 The project is actively expanding, which has led to the complexity and complexity of the code. The code is not yet critical, but adding new functionality in an adequate form is becoming more difficult. What saved us from turning the code into spaghetti was the hierarchical system of modules adopted at the early stage of the project, the atomicity of logical blocks, and work on different functionality in separate scenes. To improve the situation, a review and analysis of the existing code is required, as well as time for its optimization, unification of style and refactoring. This step is mentioned in the roadmap, but the team may have to move it to an earlier stage, in the worst case before the presentation.
 

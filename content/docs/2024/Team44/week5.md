@@ -58,6 +58,7 @@ Launch marketing initiatives to expand user base and increase platform visibilit
 
 ## **Weekly Progress Report**:
 
+
 This week, our team implemented asynchronous processing on the ML side, added it to the test branch, and ensured it was functioning correctly. We developed and integrated semantic text chunking, which was also pushed to the test branch. The backend was secured with HTTPS, and we acquired a domain for one month. We tested increasing the backend CPU cores from 4 to 24, resulting in a performance improvement of approximately 6-7 times, excluding async benefits, with the potential to scale to 32 cores for the demo. Additionally, we finalized and tested all website buttons and UI components. These accomplishments have laid a solid foundation for deploying the new UI, completing server optimizations, developing offline access, and continuing to gather and analyze user feedback to guide our development priorities.
 
 

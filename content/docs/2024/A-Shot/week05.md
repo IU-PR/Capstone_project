@@ -85,7 +85,7 @@ Identified issues:
 
 Here you can see our roadmap:
 
-![-](/2024/A-Shot/week05/roadmap/roadmap.png)
+![-](/2024/A-Shot/week05/roadmap/roadmap.jpg)
 
 ## **Weekly Progress Report**:
 

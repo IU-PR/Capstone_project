@@ -4,57 +4,6 @@ title: "Week #5"
 
 # **Week #5**
 
-We have now entered **Week 5** of our Capstone project, a pivotal phase where we dedicate our efforts to an essential
-aspect of product development: continuously gathering feedback and refining our offerings. Building upon the valuable
-input we received from stakeholders from the last week, our primary objective this week is to expand our network of
-feedback providers in a systematic and organized manner. Thus, we are entering a second iteration of feedback
-collection. Remember, feedback - reflection - improvement is a cycle that can get you far. Therefore, think of the ways
-that you can make most of this process.
-
-## **Weekly tasks**
-
-To accomplish this, we will focus on the following tasks throughout the week:
-
-- Schedule meetings or interviews with relevant stakeholders, such as potential clients, users, or fellow students, to
-  collect feedback on the current product version. Remember, goal fo the week to have a broader feedback and better
-  refinement.
-- Prepare a feedback collection plan, including the specific questions or areas of focus to gather feedback on. Consider
-  using an algorithmic ways to collect standardized feedback (online forms or online charts where users can
-  quantitatively assess your product or its features) in addition to one on one meetings.
-- Conduct user surveys or feedback sessions to gather input on the product's usability, functionality, and overall
-  satisfaction.
-- Document feedback received from stakeholders, ensuring clear identification of specific areas of improvement or
-  enhancement.
-- Analyze the feedback collected to identify common themes, patterns, or recurring issues.
-- Prioritize the feedback based on its impact and feasibility of implementation.
-- For those who are willing to continue their projects after Capstone - discuss and refine the product **roadmap** based
-  on the feedback and identified improvements. This can include feature addition plan for the next months or even a
-  year. Time flies fast, and having a thoroughly refined plan is always better than just development on your feel about
-  the product.
-- **Implement necessary changes or enhancements** to the product based on the feedback received, following the project's
-  development process.
-
-By prioritizing these tasks during Week 5, our objective is to establish a robust feedback loop that consistently
-enhances the quality, usability, and overall value of your products. We understand that every project may encounter
-challenges along the way, and we want to emphasize that this week presents a valuable opportunity to address any major
-issues and make significant progress.
-
-If you find yourself facing significant challenges or falling behind, we strongly encourage you to seize this week as a
-chance to catch up and realign your project trajectory. Reach out to your mentors and fellow team members for support,
-guidance, and collaboration. Leverage the resources available to you, to overcome obstacles and move forward with
-renewed momentum.
-
-In addition to resolving any major issues, Week 5 is also an ideal time to take stock of your overall project status and
-ensure that you are on track for a successful culmination. Review your project goals, milestones, and timelines, making
-adjustments as necessary. Conduct thorough testing and validation to validate the functionality, reliability, and user
-experience of your products.
-
-Note: Week 6 will be dedicated to preparing for the final presentation and packaging, so ensure that the feedback
-collected in Week 5 is fully considered and incorporated into the product before moving forward.
-
-Keep up the great work and make the most of Week 5. Your dedication and hard work will undoubtedly shine through in the
-final stages of your projects.
-
 ## Feedbacks:
 
 - ### Feedback collection plan
@@ -313,56 +262,74 @@ final stages of your projects.
   overall satisfaction with the Telegram bot reporting problems in the dormitory. Below are the key findings and parts
   for improvement based on user feedback.
 
-  **Survey Analysis**
+  **Bot Survey Analysis**
 
   **Usability:**
 
   <u>Ease of Navigation:</u>
 
-    - Average Rating: 4.2/5
-    - Comments: Most users found the bot easy to navigate, though a few suggested adding more guided prompts.
+    - Average Rating: 4.26/5
+    - Comments: Most users found the bot easy to navigate, though a few students had difficulties.
 
   <u>Intuitiveness of Reporting Process:</u>
 
-    - Average Rating: 4.0/5
+    - Average Rating: 4.26/5
     - Comments: Users appreciated the straightforward process but suggested including more examples of common issues.
 
   <u>Encountered Difficulties:</u>
 
-    - 15% of users reported difficulties, mainly related to understanding certain commands.
-      Common issues included confusion over syntax and missing confirmation messages.
+    - 45.2% of users reported difficulties.
+      Users reported several issues with the bot, including old report windows remaining active, delays in receiving email confirmation codes, and slow responses to buttons. They also noted the need for a subscription list, clearer navigation after logging in, and feedback to the bot when leaving comments on issues. Some found the "Alerts Enabled" label confusing and suggested renaming it. Other issues included lack of response to pressing "/start" again, favoring buttons over /commands, the need for menu buttons to improve UX, difficulty finding subscriptions for specific dorms, and messages disappearing.
 
   <u>Time to Complete a Report:</u>
 
-    1. <1 min: 30%
-    2. 1-3 min: 50%
-    3. 3-5 min: 15%
-    4. 5 min: 5%
+    1. <1 min: 48.4%
+    2. 1-3 min: 32.3%
+    3. 3-5 min: 19.4%
+    4. 5 min: 0%
 
-    - Comments: Most users could complete a report quickly, but those taking longer faced issues with initial setup or
-      understanding prompts.
+    - Comments: Most users could complete a report quickly.
 
   <u>Useful/Confusing Features:</u>
 
-    - Useful: Notification system, simplicity of report submission.
-    - Confusing: Initial setup instructions, specific command syntax.
+    Useful Features:
+
+    - Optional report comments for better problem understanding.
+    - Subscription to notifications for specific buildings.
+    - Label and floor selection without specific format requirements.
+    - Helpful notification system.
+    - Summarization of reports.
+    - Choice between descriptive and usual reports.
+    - AI integration in the bot.
+    - Notifications about problems.
+    - Navigation to issue reporting.
+    - Good implementation of dorm selection.
+    - General user experience with buttons.
+    - Inline buttons for dorm and trouble selection.
+    - Automated reports.
+
+    Confusing Features:
+
+    - Difficulty unsubscribing from alerts.
+    - Commands like /start being deleted, preventing full dialogue history.
+    - Messages being removed after sending, causing confusion.
 
   **Functionality:**
 
   <u>Successful Problem Reporting:</u>
 
-    - 90% of users successfully reported problems.
-    - 10% faced issues with report submission due to technical glitches or misunderstanding commands.
+    - 100% of users successfully reported problems.
+    - Nobody faced issues with report submission due to technical glitches or misunderstanding commands.
 
   <u>Receiving Notifications:</u>
 
-    - 85% received notifications about problems.
-    - 15% did not receive notifications, likely due to incorrect subscription settings.
+    - 80.6% received notifications about problems.
+    - 19.4% did not receive notifications, likely due to incorrect subscription settings.
 
   <u>Timeliness of Notifications:</u>
 
-    - Average Rating: 4.5/5
-    - Comments: Notifications were generally timely, though a few users experienced delays during peak hours.
+    - Average Rating: 4.1/5
+    - Comments: Notifications were generally timely, though a few users experienced delays.
 
   <u>Clarity of Problem Reports:</u>
 
@@ -371,65 +338,152 @@ final stages of your projects.
 
   <u>Additional Features Suggested:</u>
 
-    - Direct chat with maintenance staff.
-    - More detailed problem categorization.
-    - Option to attach photos to reports.
+    - **Photo Upload:** Option to attach photos to reports.
+    - **Report Tracking:** Ability to track the status of reports (approval or resolution).
+    - **Map Integration:** Map of dorms and report locations, as well as a map of failures.
+    - **Notification Enhancements:** Notifications about upcoming changes (e.g., water shutdowns), not just existing problems.
+    - **Improved Navigation:** More intuitive navigation buttons.
+    - **Alert Frequency Control:** Addressing the issue of receiving multiple alerts.
+    - **Message Management:** Retaining messages instead of deleting them.
+    - **Report Summarization:** More concise and informative messages in reports.
+    - **Update Information:** Providing updates on reports if there are new developments.
+    - **Resolution Feedback:** Results on resolving reported issues.
 
   **Overall Satisfaction:**
 
   <u>Satisfaction with Bot's Performance:</u>
 
-    - Average Rating: 4.4/5
+    - Average Rating: 4.6/5
     - Comments: Users were generally satisfied, noting improved efficiency in problem reporting.
 
   <u>Perceived Speed of Problem Resolution:</u>
-    - Average Rating: 4.2/5
-    - Comments: Users felt the bot sped up the reporting process, though some noted that resolution speed depended more
-      on maintenance staff responsiveness.
+    - Average Rating: 7.8/10
+    - Comments: Users felt the bot sped up the reporting process, though some noted that resolution speed depended more on maintenance staff efficiency.
 
   <u>Recommendation to Others:</u>
-    1. Yes: 88%
-    2. No: 12%
+    1. Yes: 96.8%
+    2. No: 3.2%
 
-    - Comments: Most users would recommend the bot, but those who wouldn't cited occasional technical issues as their
-      reason.
+    - Comments: Most users would recommend the bot, but those who wouldn't cited occasional technical issues as their reason.
 
-  <u>Additional Comments/Suggestions:</u>
-    - "Great tool! Makes reporting issues much easier."
-    - "Please add a feature to track the status of my report."
-    - "Sometimes the bot doesn't recognize my commands. A bit frustrating."
+    <u>Additional Comments/Suggestions:</u>
 
-  Feedback Session Highlights
+    Bot alerts could be utilized more effectively by sending them through the administration dorm representatives. A push-button interface in the keyboard would improve usability. The bot is appreciated, and there are suggestions for further development, possibly expanding the system to the entire university or city. It is recommended to establish feedback to the bot after reporting a problem, speed up the processing of requests and fix the problem with sending "/start". It is also suggested to simplify the subscription system and make it so that messages are left rather than deleted. Overall, the project is rated as promising and shows significant improvements to the user interface. Users are optimistic that it will speed up the resolution of dorm problems and consider it a good project that can take the dorm problem notification system to the next level.
 
-  **Usability:**
+    <u>**Future work:**</u>
 
-  Users praised the bot's user-friendly interface but suggested adding a tutorial for first-time users.
-  Some users recommended implementing auto-correct for common command errors.
+    **High priority**
+    - Improve Email Confirmation and Button Response Times: Address delays in email confirmations and slow button responses to enhance user experience.
+    - Intuitive Navigation: Add more intuitive navigation buttons and a push-button interface in the keyboard.
+    - Concise and Informative Reports: Ensure that messages in reports are concise and informative.
+    - Notification Enhancements: Include notifications about upcoming changes (e.g., water shutdowns) and provide timely updates on reports.
 
-  **Functionality:**
+    **Middle priority**
+    - Map Integration: Integrate a map of dorms and report locations, as well as a map of failures.
+    - Subscription List and Simplification: Implement a subscription list and simplify the subscription system to make it more user-friendly.
+    - Feedback Mechanism: Establish a feedback mechanism to the bot after users leave comments on problems.
+    - Implement Photo Uploads for Reports: Allow users to attach photos to reports for better problem identification.
+    - Track Report Status: Provide functionality for users to track the approval and resolution status of their reports.
 
-  There was strong support for the notification feature, with suggestions to allow users to customize the frequency and
-  types of notifications they receive.
-  Users expressed interest in a feature to directly contact maintenance or track the progress of their report.
+    **Low priority**
+    - Retain Message History: Make sure messages are not deleted and retain the full dialogue history with the bot.
+    Resolve /start Command Issue: Fix the issue where pressing "/start" again does not yield any response.
+    - By implementing these changes based on user feedback, the bot can significantly improve its usability, functionality, and overall user satisfaction.
 
-  **Overall Satisfaction:**
+    By addressing the feedback and implementing the suggested improvements, we aim to enhance the overall user experience
+    and effectiveness of the dorm trouble reporting Telegram bot.
 
-  Participants were generally pleased with the bot and appreciated the faster communication of issues.
-  There were requests for more transparency in the maintenance process and quicker follow-up on reported problems.
-  Areas for Improvement
-  Enhanced Guidance: Implement a guided tutorial for new users and more detailed instructions for common commands.
-  Technical Enhancements: Fix bugs related to report submission and command recognition.
-  Additional Features:
-  Allow users to attach photos to their reports.
-  Implement a feature for tracking the status of submitted reports.
-  Enable direct communication with maintenance staff through the bot.
-  Next Steps
-  Technical Updates: Address the reported bugs and enhance command recognition.
-  Feature Implementation: Add photo attachment, report tracking, and direct communication features.
-  User Communication: Inform users about the updates and encourage continued feedback to refine the bot further.
+     **Website Survey Analysis**
 
-  By addressing the feedback and implementing the suggested improvements, we aim to enhance the overall user experience
-  and effectiveness of the dorm trouble reporting Telegram bot.
+     **Usability:**
+
+    <u>Ease of Navigation:</u>
+
+    - Average Rating: 4.0/5
+    - Users generally found the website easy to navigate, highlighting intuitive navigation through the use of icons and accent colors.
+
+    <u>Intuitiveness of Searching for Specific Parameters:</u>
+
+    - Average Rating: 4.0/5
+    - Mixed feedback was received regarding the intuitiveness of searching for specific parameters. One user found it highly intuitive, while another user rated it moderately.
+
+    <u>Encountered Difficulties:</u>
+
+    - No difficulties were reported by both users in the provided feedback.
+
+    <u>Time to Find Information:</u>
+
+    1. <1 min: 1 user
+    2. 1-3 min: 1 user
+
+    - Most users could find the information they were looking for quickly.
+
+    <u>Useful or Confusing Features:</u>
+
+    Useful Features:
+    - The reports section is crucial and well-navigated through icons and accent colors.
+    - Graphs and statistics were found useful by the users who successfully used them.
+
+    Confusing Features:
+    - The administrators' section was deemed unnecessary by one user, as they questioned the need for all administrators to have access to information about other admins.
+
+    **Functionality:**
+
+    <u>Successful Use of Graphs and Statistics:</u>
+
+    - Both users successfully used the graphs and statistics on the website.
+
+    <u>Comprehensiveness and Usefulness of Search Parameters:</u>
+
+    - Average Rating: 3.5/5
+    - Feedback indicates that search parameters are generally comprehensive and useful, though there may be room for improvement.
+
+    <u>Accuracy and Helpfulness of Statistics:</u>
+
+    - Average Rating: 4.5/5
+    - Users found the statistics provided to be accurate and helpful.
+
+    <u>Additional Features Suggested:</u>
+
+    - Sorting by floor or category: One user suggested implementing sorting features to enhance usability.
+    - Live graphics and immediate repairer call: Another user recommended the addition of - live graphics on the website and the ability to call a repairer directly from the report information.
+    - Confirmation and Notification System: Adding a feature to confirm problems directly from the report page and notify the sender about the problem resolution.
+
+    **Overall Satisfaction:**
+
+    <u>Website's Performance:</u>
+
+    - Average Rating: 4.5/5
+    - Users were generally satisfied with the website’s performance.
+
+    <u>Improvement in Managing Dormitory Issues:</u>
+
+    - Average Rating: 9.0/10
+    - Users felt that the website has significantly improved their ability to manage dormitory issues.
+
+    <u>Recommendation to Others:</u>
+
+    - Both users would recommend the website to other dormitory staff.
+
+    <u>Additional Comments/Suggestions:</u>
+
+    One user appreciated the user interface, describing it as good and understandable.
+    Another user requested the inclusion of live graphics and the ability to immediately call a repairer from the report information.
+
+    <u>**Future work:**</u>
+
+    **High priority:**
+
+    - Implement Sorting Features: Allow sorting by floor or category to improve the usability of the website.
+    - Add Live Graphics: Integrate live graphics on the website to enhance the user experience.
+    - Repairer Call Feature: Enable immediate calling of a repairer from the report information to streamline the problem resolution process.
+
+    **Low priority:**
+
+    - Confirmation and Notification System: Develop a feature to confirm problems directly from the report page and notify the sender about the problem resolution.
+    - Review Administrator Section: Evaluate the necessity of the administrators’ section and consider restricting access to information based on user roles to address concerns about its usefulness.
+    
+    By addressing these key areas based on user feedback, the website can further improve its usability, functionality, and overall user satisfaction.
 
 ## Roadmap:
 

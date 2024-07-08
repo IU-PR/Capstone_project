@@ -40,7 +40,7 @@ Our team has decided to open-source this project. It will be well-documented and
 
 ---
 
-![RoadMap](2024/Booky/image_2024-07-07_16-40-28.png)
+![RoadMap](/2024/Booky/image_2024-07-07_16-40-28.png)
 
 
 - **1. Define Business Model and Infrastructure Setup**

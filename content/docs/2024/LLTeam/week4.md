@@ -4,12 +4,6 @@ bookFlatSection: true
 title: "Week #4"
 ---
 
----
-weight: 4
-bookFlatSection: true
-title: "Week #4"
----
-
 # **Week #4**
 
 ## **Weekly Progress**

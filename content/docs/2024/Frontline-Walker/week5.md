@@ -34,7 +34,7 @@ A number of mechanics that our colleagues advised us were easy to implement base
 
 Implementation of a damage system for player and enemy components.
 
-Implementation of a fuel and projectile replenishment system.
+Implementation of a fuel and projectile resuply system.
 
 Implementation of enemy control using neural networks.
 

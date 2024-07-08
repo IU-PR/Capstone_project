@@ -32,8 +32,11 @@
 - Refine user interface based on feedback to enhance usability.
 - Implement new features such as dark mode and social sharing.
 - Enhance performance and scalability to handle peak usage times.
+
+ ### Mid-Term Goals (3-6 months) ###
 - Explore mobile app development for iOS/Android platforms.
 - Plan for long-term integration with custom input and lifestyle-based settings.
+- Initiate discussions with grocery chains like Pyaterochka and Magnit for potential collaboration opportunities.
 
 ## Weekly Progress Report: ##
 ### Our team did: ###

@@ -24,6 +24,8 @@ The team interviewed familiar video game developers who gave some useful advice 
 
 In addition, the team met with popular analysts in the community and received advice on implementing bold ideas. Despite their riskiness, their chance of success is much higher than using proven and popular mechanics alone due to the oversaturation of the video game market.
 
+![MeetingWithJournalists](/2024/Frontline-Walker/MeetingWithJournalists.jpg)
+
 - **Analyzing feedback, identifying and prioritizing issues**
 
 A number of mechanics that our colleagues advised us were easy to implement based on existing code. Others were analyzed, prioritized and included (if realization is possible with our skills) in the project development roadmap.
@@ -65,6 +67,9 @@ The steps described before the presentation of the project are smaller intermedi
 ## **Weekly Progress Report**:
 
 Inspired by expert advice, the team managed to implement many mechanics. Firing from the main gun, recoil and rollback of the gun, limitation of ammunition and rate of fire, basic behavior of enemies (detection, guidance, attack), rotation of the projectile in flight along the velocity vector, etc. were added. Destabilization mechanics were improved (now completely dependent on speed, shooting from the top position is not spared, and enemy shells can critically accelerate), binoculars (attached to the walker. It has touch controls, adjustable magnification and position, remembering the last position), etc. In addition, the team continues to create model sprites (at the moment they are drawing a model of the turret and bombs) and recording sounds (grinding of metal, operation of mechanics, etc.). In addition to direct work on the project, advice and consultations were received from experts in the field of video games and colleagues.
+
+![FirstTriesInTouchInterface](/2024/Frontline-Walker/FirstTriesInTouchInterface.png)
+![TestingLevel](/2024/Frontline-Walker/TestingLevel.png)
 
 ### **Challenges & Solutions**
 

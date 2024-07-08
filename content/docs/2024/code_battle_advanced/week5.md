@@ -58,6 +58,10 @@ After conducting the feedback sessions we have gathered the information necessar
 | 12 | in 3-4 months | Get a partnership with some schools                                                                                                                              |
 | 13 | in a year     | Host a hackathon                                                                                                                                                 |
 
+## **Github Link**
+
+To see the current progress, please go to our [Github repository](https://github.com/IU-Capstone-Project-2024/code-battle-advanced).
+
 ## **Weekly Progress Report**:
 
 Our team did: 

@@ -68,6 +68,34 @@ title: "Week #4"
   - Conduct surveys among a test group of users to gather feedback.
   - Analyze user session results to evaluate navigation ease and feature usability.
 
+---
+## User Reviews (names invented for privacy purposes)
+
+<details>
+  <summary><strong>Maria, 34 years old, Tourist</strong></summary>
+
+  "Praise for the amazing app! Loved the intuitive interface and easy navigation on the map. Found all the landmarks quickly and learned interesting facts about them. The audio guide with different themed tours was especially helpful."
+</details>
+
+<details>
+  <summary><strong>Alexey, 28 years old, Tourist</strong></summary>
+
+  "The app runs smoothly without any glitches on my Android device. Discovering landmarks and learning new things was straightforward and enjoyable. I particularly liked the ability to switch between the map and detailed descriptions effortlessly."
+</details>
+
+<details>
+  <summary><strong>Elena, 40 years old, Local Resident</strong></summary>
+
+  "I'm impressed with how my city's tourist app has become more informative and user-friendly. Detailed information about landmarks is helpful for both tourists and locals to learn more about our city."
+</details>
+
+<details>
+  <summary><strong>Olga, 30 years old, Local Resident</strong></summary>
+
+  "The app turned out to be a real helper in studying the history of the city. I could not only read a brief description of the landmarks but also listen to interesting facts in the audio guide. Very convenient!"
+</details>
+
+
 ## Iterative Approach
 
 1. Evaluation and Analysis

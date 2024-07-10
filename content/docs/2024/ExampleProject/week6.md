@@ -1,18 +1,10 @@
 ---
-title: "Week #4"
+title: "Week #6"
 ---
 
-# **Week #4**
+# **Week #6**
 
-## **External Feedback**
-
-...
-
-## **Testing**
-
-...
-
-## **Iteration**
+## **Presentation**:
 
 ...
 

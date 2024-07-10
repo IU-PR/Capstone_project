@@ -161,3 +161,21 @@ CookAInno aims to revolutionize how users interact with their kitchen by integra
   - Third-party APIs
   - Android (Kotlin, Jetpack Compose, Retrofit, Room, CameraX)
   - ML (Python, OpenCV, Scikit-learn, PyTorch, TensorFlow, Keras)
+
+## **Weekly Progress Report**
+
+### **Challenges and Solutions**
+
+- We have assembled a team of versatile people. We have android application developers, backend and frontend developers, as well as people involved in machine learning. All the guys were determined and it was decided to do something difficult, but no one had any ideas. Our first meeting with the team was aimed at choosing our project. We went through several ideas on nutrition and sports and decided on cooking. The idea came up to take a picture of the refrigerator and then, based on this, the whole team came up with an idea useful for everyone.
+- We are faced with the problem of receiving products in case of blockage. To solve this problem, we can offer users to arrange products so that everything is clearly visible, users can also take pictures of the products from above and at the end you can add or edit the resulting products.
+
+### **Conclusions**
+
+- We were able to come up with an idea for the project together and think it through to the smallest detail.
+
+### **Next steps**
+
+- Start developing the basic logic of the application
+- Decide on the design
+- Clearly assign the roles of each team member
+- Conduct a review of available ml models

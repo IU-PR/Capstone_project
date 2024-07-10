@@ -20,41 +20,89 @@ of our user in order to create the most User-friendly application
 
 ## Testing
 
-Prior to integrating the machine learning components, we conducted several days of testing to ensure the stability of
-the selected model. After this we have started integrating the model into the desktop application and testing it
-accordingly.
+We have tested our application according to the following criteria: performance, stability and load tolerance. Below is
+a detailed assessment of each criterion:
 
-This thorough testing phase allowed us to identify and resolve issues and bugs in various areas such as database
-integration, UI blocking during model loading, and improper image loading. Moreover, it provided us with valuable
-insights on how to effectively work with future models that will be incorporated into our application.
+- **Performance**:
+  We evaluated the speed of basic operations and the responsiveness of the user interface. During this testing, we
+  noticed that re-uploading photos takes an unexpectedly long time. The application processed these folders
+  repeatedly each time, instead of recognizing and skipping the already processed data. To solve this problem, we
+  are implementing a local database to store information about previously uploaded photos, which significantly
+  reduced the download time for subsequent requests.
 
-Moreover, every contributor of our project had testing session, to find all bugs, new ideas and suggestions in an
-organized manner. This approach allowed us to find and fix some errors with the connection of the database with the
-application, as well as flaws in the UI
+- **Stability**:
+  Our stability assessment included conducting long usage sessions and monitoring failures. The application has
+  demonstrated high stability under normal conditions of use with minimal failures, the causes of which have been
+  identified and eliminated. Overall, the application has remained stable over a long period of use.
+
+- **Load resistance**:
+  We tested load resistance by uploading a significant number of images and monitoring the functionality of the
+  application under maximum load conditions. Although the application as a whole maintained proper functionality
+  without failures, we observed significant memory consumption when viewing large folders with photos, which led to
+  a noticeable slowdown. Currently, this problem is being solved to improve the performance of the application under
+  heavy loads.
+
+The results of our testing have confirmed that although our application meets most of the specified requirements, there
+are still areas that need improvement. In particular, optimizing memory usage when working with large folders and
+increasing the speed of imports.
 
 ## Iteration and Refinement
 
-### Iterations with UI
+### We are working on a **Agile** methodology, and now the third spring is underway.
 
-We conducted several iterative cycles to gather feedback and identify flaws in our User Interface. The external feedback
-we received was invaluable, providing us with critical insights that greatly informed our improvements. As a result, we
-were able to significantly enhance the User Interface, addressing key areas of concern.
+![Agile](/2024/A-Shot/week04/agile/agile.png)
 
-Furthermore, we took this opportunity to reassess our overall goals and functionality. By doing so, we were able to make
-thoughtful adjustments, ensuring that our UI not only resolved the identified issues but also aligned more closely with
-our overarching objectives. This holistic approach has allowed us to create a more intuitive and user-friendly
-interface, ultimately enriching the user experience.
+### First Sprint
 
-### Iterations with UX
+The initial sprint focused on developing a prototype application.
 
-All team tested UX of the application and we found several bugs with database. We partially resolved the issues, but
-this part needs to be improved. We will continue testing and iterating to succeed in a user-friendly UX
+1. **Planning Stage**: This phase involved brainstorming the primary tasks for the application, selecting tools, and
+   distributing tasks for this sprint. Detailed information is available in the week 01 report.
+2. **Design Stage**: The design phase was divided into three sections:
+    - **Sketches**: Initial ideas about the application’s appearance were transferred to paper as sketches.
+    - **Lo-Fi Prototype**: Based on the sketches, a Low-Fidelity prototype was created, outlining the user interface's
+      skeleton and the main button positions.
+    - **Hi-Fi Prototype**: Building on the Lo-Fi prototype and incorporating feedback, a clickable High-Fidelity
+      prototype was developed. More details can be found in the week 2 report.
+3. **Development Stage**: The first prototype of the application was created using Kotlin Multiplatform Compose,
+   incorporating the main elements from the Hi-Fi prototype.
+4. **Testing Phase**: During testing, the prototype's stability and ability to handle a large number of photos were
+   evaluated. Bug fixes helped achieve the testing goals.
+5. **Deployment Stage**: The prototype was published in the project repository on GitHub.
+6. **Feedback Stage**: Feedback was gathered to improve the prototype.
 
-### Iterations with models
+### Second Sprint
 
-Throughout the development process, we encountered numerous bugs while connecting the model to the application. Despite
-these challenges, we successfully resolved the issues and rigorously tested the functionality. As a result, the desktop
-application is now fully operational, offering complete functionality of the blur-detection model.
+The second sprint focused on developing photo grouping and blur detection models.
+
+1. **Planning Stage**: This phase involved researching papers, articles, and existing models relevant to the task.
+2. **Design Stage**: It was determined that the blur detection model could be used when importing photos from the user's
+   local directory, while the photo grouping model would be beneficial within the application to sort photos for easier
+   viewing.
+3. **Development Stage**: This stage involved running models on our systems and making necessary adjustments.
+4. **Testing Stage**: Models were tested on both training datasets and our own photos to evaluate their performance in
+   real-life scenarios, focusing on accuracy, speed, and capacity to handle a large number of photos.
+5. **Deployment Stage**: The models were integrated into the application using JNI (Java Native Interface) and ONNX
+   Runtime.
+6. **Feedback Stage**: It was confirmed that the blur detection model was successfully integrated into the application.
+   The photo grouping model, although ready, required additional time for full integration. More details about models
+   you may see in week 3 report
+
+### Third Sprint
+
+The ongoing third sprint aims to elevate the application to the MVP level, addressing the second issue identified in the
+previous sprint.
+
+1. **Planning Stage**: Key tasks, such as frontend development and model improvement, were outlined. An additional
+   issue—enhancing import speed—was identified. To address this, the team decided to use the Room database to store
+   information about processed photos.
+2. **Design Stage**: User Interface improvements based on key things from the external feedback. You may see it in
+   weekly progress report
+4. **Development Stage**: Currently in progress, this phase involves frontend development and creating functions for the
+   Room database.
+
+At the feedback stage, the team plans to gather potential user opinions and conduct interviews to gain further insights
+and ideas for product improvement.
 
 ## **Weekly Progress Report**
 
@@ -73,8 +121,8 @@ application is now fully operational, offering complete functionality of the blu
 ### **Database integration**
 
 We integrated Room database into our product this allowed us to remove the unnecessary loading of directories into our
-application every time the application is restarted. Now, when the directory is downloaded for the first time, it gets
-into the database and needs to be downloaded again only in case of an update
+application every time the application is restarted. Unfortunately, there are some problems with building it, so we
+should solve them shortly
 
 ### **Frontend Development**
 
@@ -83,17 +131,12 @@ improvements. This ongoing development process allowed us to refine the visual a
 ensuring a more seamless and engaging user experience. By implementing UI fixes and making strategic adjustments, we
 have significantly elevated the overall design and functionality of our application’s frontend.
 
-### **Testing**
-
-All team participated in the testing phase of the product. This was useful for different views on certain details of
-the product.
-
 ### **Challenges & Solutions**
 
 - **Challenge 1: Build project on our machines**  
   *Problem*: Package did not include correctly to the system, so we can't build our application
   *Solution*: We spend some time to search problems and create ultimate guide for the installation
--
+
 - **Challenge 2: Analyze feedback and improve UI**  
   *Problem*: Users and we as contributors were not happy with the interface to a greater extent
   *Solution*: We brainstormed the issues, searched for interesting UI-solutions and make more user-friendly interface
@@ -108,3 +151,5 @@ the product.
   more
   convenient for the human eye to look at photos on a dark background than on a light one
 - **Multiplatform deploy**: In plans to adaptive the application to the Windows and MacOS
+- **Database finalizing**: We should solve challenges with database, test and deploy to the MVP stage. Challenges and
+  solutions will appear in the week 5 report

@@ -1,0 +1,78 @@
+---
+title: "Week #6"
+---
+
+# <p style="text-align: center;">**Capstone Project**</p>
+
+# <p style="text-align: center;">*Team GymGuru*</p>
+
+## **Week 6 - Project Completion and Final Presentation**
+
+
+{{< embed-pdf url="/2024/GymGuru/GymGuru.pdf" >}}
+
+
+## **Week's focus and importance**
+
+&nbsp;&nbsp;&nbsp;&nbsp;This week is one of the most important since now we need to finalize the work on MVP of GymGuru web application and present it. The main focuses of this week are:
+
+1. Complete all parts of the project, fix several bugs in UI and fitness test functionality;
+
+2. Create a final presentation of GymGuru project that shows all important aspects of our web application (problems we tried to solve, main functionality of the project, team members impact to the obtained solution, and so on).
+
+
+## **Feedback from TA**
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+1. 
+
+2. 
+
+
+## **Week's progress**
+
+&nbsp;&nbsp;&nbsp;&nbsp;During this week we have accomplished the following features:
+
+- we completed the functionality for downloading the file with the results of the fitness test;
+- we redone the "tilt" exercise using MediaPipe, due to the inaccuracy of recognition using MoveNet;
+- fixed the score counter in the fitness test;
+- written several tests and tested our app;
+- corrected inaccuracies in recognition when a user`s body is not completely in the frame;
+- added an indication of the field in the profile;
+- fixed v-up crunches in the mobile version in the rating displaying;
+- added the description of how a person should be positioned in the frame before each exercise;
+- added a rating with a drop-down list.
+
+
+## **Project Conclusion**
+
+&nbsp;&nbsp;&nbsp;&nbsp;In conclusion, we have created an application that is able to accurately recognize the position of a user`s body and determine the correctness of the exercise, as well as report on necessary adjustments by voice assistant. Moreover, we have added functionality for conducting a fitness test, which will free up both students and coaches and allow them to take the test anytime and anywhere. You can also track your rating in the app and see your position among other users. The resulting application completely coincided with our expectations, we did absolutely everything that we planned and even more.
+
+&nbsp;&nbsp;&nbsp;&nbsp;We want to emphasise that all components of this project architecture diagram are completed:
+
+<img src="/2024/GymGuru/Week6_Architecture.jpg" width="720" height="940">
+
+&nbsp;&nbsp;&nbsp;&nbsp;Except the database configuration. After the development of all parts we defined that initial database configuration should be changed into 3 tables connected by user_id field:
+
+<img src="/2024/GymGuru/Week6_Database.jpeg" width="720" height="350">
+
+
+## **Challenges & Solutions**
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+1. 
+
+2. 
+
+
+## **Conclusions & Next Steps**
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+1. 
+
+2. 
+
+3. 

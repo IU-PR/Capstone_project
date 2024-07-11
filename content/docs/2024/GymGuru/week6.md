@@ -60,19 +60,17 @@ title: "Week #6"
 
 ## **Challenges & Solutions**
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;This week we had a number of difficulties:
 
-1. 
+1. We found some minor bugs with inaccurate scoring and UI. These bugs were found due to collected feedback and thorough testing of a system, and promptly fixed.
 
-2. 
+2. There was a problem to succinctly describe a large amount of information for the entire project in the final presentation. We defined only the main points and include it into the slides, and we will accompany it by supportive information regarding different aspects.
 
 
 ## **Conclusions & Next Steps**
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;This week we finished fixing the latest bugs in our product, completed everything we wanted and made the final presentation. Next, we plan to:
 
-1. 
+1. Prepare for the presentation of the project;
 
-2. 
-
-3. 
+2. Discuss the possible future development of the project.

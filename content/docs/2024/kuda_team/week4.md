@@ -39,8 +39,8 @@ Another important topic of the week was testing. Testing allows us to evaluate t
 
 This week we tested our backend, paying special attention to the functions of authorization, profile creation and travel tickets. We have developed unit tests that currently partially cover our functions.
 
-<div style="text-align: center;">
-<img src="/2024/kuda_team/week4/Coverage.png" width="600" height="300"> 
+<div style="text-align: left;">
+<img src="/2024/kuda_team/week4/Coverage.png" width="200" height="150"> 
 </div>
 
 On the frontend, our testing was limited to assessing the user experience from the interface since the functionality of our frontend part is still in the implementation phase. We gathered feedback on the layout, navigation, and overall user interaction, making note of any areas that caused confusion or required improvement. Usability testing sessions were particularly insightful, highlighting how users interacted with the interface and providing us with actionable data to enhance the design.

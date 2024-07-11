@@ -9,9 +9,6 @@ title: "Week #6"
 ## **Week 6 - Project Completion and Final Presentation**
 
 
-{{< embed-pdf url="/2024/GymGuru/GymGuru.pdf" >}}
-
-
 ## **Week's focus and importance**
 
 &nbsp;&nbsp;&nbsp;&nbsp;This week is one of the most important since now we need to finalize the work on MVP of GymGuru web application and present it. The main focuses of this week are:

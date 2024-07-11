@@ -35,9 +35,13 @@ We also asked you to give feedback in a free form about your impressions. The ma
 Their insights were invaluable in identifying areas for improvement and ensuring our app meets the expectations of a wide range of users. Additionally, we continued integrating our initial ideas for the project that we didn’t have time to finish last week, further refining the app based on the feedback received.
 
 ## **Testing**
-Another important topic of the week was testing. Testing allows us to evaluate the effectiveness and reliability of our application. By conducting thorough tests, we gained valuable insights into the user experience, identified areas for improvement, and started addressing issues and bugs that arose during development.
+Another important topic of the week was testing. Testing allows us to evaluate the effectiveness and reliability of our application. By conducting tests, we gained valuable insights into the user experience based on a group of 7 people, identified areas for improvement, and started addressing issues and bugs that arose during development.
 
 This week we tested our backend, paying special attention to the functions of authorization, profile creation and travel tickets. We have developed unit tests that currently partially cover our functions.
+
+<div style="text-align: center;">
+<img src="/2024/kuda_team/week4/Coverage.png" width="600" height="300"> 
+</div>
 
 On the frontend, our testing was limited to assessing the user experience from the interface since the functionality of our frontend part is still in the implementation phase. We gathered feedback on the layout, navigation, and overall user interaction, making note of any areas that caused confusion or required improvement. Usability testing sessions were particularly insightful, highlighting how users interacted with the interface and providing us with actionable data to enhance the design.
 
@@ -62,7 +66,7 @@ This week, we will continue our work in three main directions: the backend part,
 
 During the week, we encountered a challenge:
 
-- **Challenge:** Conducting comprehensive testing posed difficulties due to delays in frontend development. Waiting for frontend components hindered our ability to conduct thorough testing across the application.
+- **Challenge:** Conducting testing was difficult due to delays in frontend development. Waiting for frontend components hindered our ability to conduct through testing across the application.
 
 - **Solution:** To mitigate this challenge, we leveraged the Figma prototype for testing purposes. This allowed us to simulate user interactions and gather valuable feedback even before the frontend components were fully implemented. Additionally, we allocated significant resources to expedite frontend development, ensuring that critical components were completed promptly. This approach allowed us to speed up the development of the project.
 

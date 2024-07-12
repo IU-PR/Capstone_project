@@ -6,7 +6,7 @@ title: "Week #6"
 
 ## **Presentation**:
 
-...
+{{< embed-pdf url="/2024/MoniDorm/MoniDorm_Presentation.pdf" >}}
 
 ## **Weekly Progress Report**:
 

@@ -14,6 +14,26 @@ This week we finished the final versions of the following pages for our website:
 Throughout the week, we were in contact with the Student Affairs department and received some updates from them. We had a call with one of the alumni who is interested in creating the Innopolis Alumni Europe Club. He suggested that we create the map using data from LinkedIn by identifying individuals who graduated from Innopolis University and then input this data into the map. Additionally, we can use location data from alumni profiles.
 
 ## Progress
+
+Our milestones and Priorities:
+1-2 Weeks:
+ 1. Chat Feature: Implement a chat functionality for real-time communication.
+ 2. Mentor Page: Develop a page where users can connect with mentors.
+ 3. Pass Receipt Page: Create a page for issuing and managing event passes.
+ 4. Profile Page: Design and implement user profile management functionality.
+ 5. Merch Purchase Page: Develop an online store page for merchandise purchases.
+3-4 Weeks:
+ 6. Main Page: Design and deploy the main landing page of the website.
+ 7. Donation Page: Create a page for accepting donations and contributions.
+ 8. AI Recommendation System: Implement machine learning to provide personalized recommendations.
+5-6 Weeks:
+ 9. Deployment: Deploy the entire website to ensure it is live and accessible.
+ 10. Layout and Integration: Ensure consistent design across all pages and seamless integration of functionalities.
+ 11. Testing: Conduct thorough testing to identify and resolve any issues or bugs.
+ 12. Feedback Collection: Gather feedback from users and stakeholders to iterate and improve the portal.
+ 13. Portal Improvement: Make necessary enhancements based on feedback and testing results to enhance user experience and functionality.
+
+ 
 ### AI Chat
 This week we tested a model and found it to be very slow. After conducting a review and after meeting with our TA, we concluded that we wil not use LLM model and better make a recommendation system using neural networks.
 

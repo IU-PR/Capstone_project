@@ -27,8 +27,9 @@ The estimated price comfortable for students was 3-5 dollars per month.
 
 
 ## **Iteration**
-In our project we already changed the design of the site once. Also in future we will need to add more features. For example ability to leave a feadback for users on site or auto highlights in the text. 
-Thats why we understand how important iteratinos are.
+We have 2 iterations in our project.
+First one is until July 5 and it is about making basic LLM model, creating site and set up server with asynchronous, multithreaded operations and establishing a PostgreSQL database.
+Second one is until July 19 and about connecting everything together and forming a working model, also fine-tuning a model and making proper erorr handling.
 
 ---
 ## **Progress reports**  

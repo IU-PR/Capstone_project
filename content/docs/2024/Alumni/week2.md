@@ -13,23 +13,6 @@ In today's report, we will cover three main topics:
 2. The architecture of our project.
 3. An overview of our progress and the future work for week 3.
 
-## Table of Contents
-1. [Distribution of Responsibilities](#distribution-of-responsibilities)
-2. [Tech Stack](#tech-stack)
-3. [Project Structure](#project-structure)
-4. [Architecture](#architecture)
-5. [Application Pages](#application-pages)
-   - [Application for a Pass Page](#application-for-a-pass-page)
-   - [Authorization and Profile Page](#authorization-and-profile-page)
-   - [Application for Mentoring Page](#application-for-mentoring-page)
-   - [Alumni Merch Page](#alumni-merch-page)
-6. [Our Progress](#our-progress)
-   - [Alumni Merch Page](#alumni-merch-page-progress)
-   - [Authorization Page](#authorization-page-progress)
-   - [Application for Mentoring Page](#application-for-mentoring-page-progress)
-   - [AI Chat](#ai-chat)
-7. [Future Work](#future-work)
-
 ## Distribution of Responsibilities
 
 | Full Name             | Tg alias       | Uni mail                        | Role                |

@@ -9,6 +9,9 @@ title: "Week #6"
 ## **Week 6 - Project Completion and Final Presentation**
 
 
+{{< embed-pdf url="/2024/GymGuru/GymGuru.pdf" >}}
+
+
 ## **Week's focus and importance**
 
 &nbsp;&nbsp;&nbsp;&nbsp;This week is one of the most important since now we need to finalize the work on MVP of GymGuru web application and present it. The main focuses of this week are:
@@ -20,11 +23,11 @@ title: "Week #6"
 
 ## **Feedback from TA**
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;During the meeting with TA on the previous week we discusted our Week 5 report and final presentation of the project. This is a list of main points that we received from the feedback:
 
-1. 
+1. About the report - everything is correct;
 
-2. 
+2. About the presentation - he gave an advice to add a slide with exploting existing solutions in this or nearest fields, and also to fix one slide by changing roadmap dimension (to increase a visibility and readability of that slide).
 
 
 ## **Week's progress**

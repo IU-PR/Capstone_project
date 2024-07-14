@@ -12,7 +12,7 @@ title: "Week #6"
 
 By the end of this week we adjusted the design of the Telegram bot according to the feedback, collected on the previous week.
 At the same time we majorly improved menu generation algorithm (couple of words about it later).
-Also, we created the first version of the final presentation.
+Also, we created the first version of the slides for the final presentation.
 
 ### **Challenges & Solutions**
 

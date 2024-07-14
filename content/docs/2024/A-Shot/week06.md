@@ -6,7 +6,7 @@ title: "Week #6"
 
 ## **Presentation**:
 
-...
+{{< embed-pdf url="/2024/A-Shot/week06/pres-v1.0/A-Shot.pdf" >}}
 
 ## **Weekly Progress Report**:
 
@@ -21,7 +21,13 @@ title: "Week #6"
 4. Improved burst for images from the Side Sheet: fixes were targeted to correct the draw of the burst, and three images
    from the group can now be seen in the Side Sheet.
 5. Side Sheet improvements: our team moved the Side Sheet to the right and added the ability to hide it, allowing for
-   more careful viewing of images.
+   more careful viewing of images
+
+Overall, UI interface became more user-friendly, our team changed main color to the white
+
+![-](/2024/A-Shot/week06/screens/first.png)
+![-](/2024/A-Shot/week06/screens/second.png)
+![-](/2024/A-Shot/week06/screens/third.png)
 
 ### **Machine Learning**:
 
@@ -62,3 +68,5 @@ This week was productive, and our team is now one step away from deploying our p
    Our goal is to create a single program file, which can be a positive solution for potential users. This will allow us
    to make our program multiplatform for Windows, and in the future, this development may be helpful for MacOS, Android,
    and iOS applications.
+4. **Presentation**:
+   We should complete presentation, deploy and protect our product

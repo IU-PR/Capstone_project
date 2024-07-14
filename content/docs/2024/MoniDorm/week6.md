@@ -79,4 +79,4 @@ While developing frontend admin panel we faced CORS policy issues on react js. F
 
 ### **Conclusions & Next Steps**
 
-In conclusion, this week was aimed at finalising our project before demo day. In the future, we plan to refactor our project before the final presentation and prepare a nice demonstration.
+In conclusion, this week was aimed at finalising our project before demo day. In the future, we plan to refactor our project before the final presentation: we will containerise all applications, run internal review and testing. We will announce the operability of the project and prepare a nice demonstration.

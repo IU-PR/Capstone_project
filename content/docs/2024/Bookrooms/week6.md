@@ -14,7 +14,7 @@ This week, we made significant strides towards completing the core functionaliti
 
 User Survey Results:
 
-???We conducted a survey to gather insights into user preferences and needs for the room booking system. The key findings from the survey were:
+We conducted a survey to gather insights into user preferences and needs for the room booking system. The key findings from the survey were:
 - Availability is important: The majority of students valued the most availability of a room at a specific date and time, leaving behind type, location and capacity.
 - Floor Flexibility: Almost all students indicated that booking a room on a specific floor was not very important, and they would be willing to book on a different floor if their preferred floor was unavailable.
 
@@ -23,7 +23,7 @@ Refinements based on Feedback:
 Based on the survey results, we made the following adjustments to the frontend design:
 - Optional Floor Selection: We will implement an optional floor filter, allowing users to refine their search by floor if desired. This makes the search process more flexible and caters to users who prefer not to be restricted by floor selection.
 
-???Floors filter enabled:
+Floors filter enabled:
 
 ![Enabled](/2024/Bookrooms/floors_enabled.jpg "Enabled")
 
@@ -31,7 +31,8 @@ Floors filter disabled:
 
 ![Disabled](/2024/Bookrooms/floors_disabled.jpg "Disabled")
 
-???- Visual Time Range: We will incorporate a visual time range selection feature, enabling users to choose their desired time slot using a time slider or dropdowns for "start time" and "end time." This allows users to easily specify their preferred time range for booking.
+- Visual Time Range: We will incorporate a visual time range selection feature, enabling users to choose their desired time slot using dropdowns for "start time" and "end time". All their actions will be displayed on a timeline in a user-friendly manner. This will allow users to easily specify their preferred time range for booking.
+![Time selection](/2024/Bookrooms/time_selection.jpg "Time selection")
 
 Frontend Development:
 
@@ -51,7 +52,7 @@ Frontend Development:
 
 Backend Development:
 
-???- The backend development is now complete. We have implemented all necessary functionalities, including:
+- The backend development is now complete. We have implemented all necessary functionalities, including:
   * Booking Functionality: Users can create, view, and cancel bookings.
   * Availability Retrieval: The backend efficiently provides data on available rooms based on user search criteria.
   * Authentication and Authorization: We have implemented a robust authentication system using Google SSO and an authorization system that controls user access based on roles and permissions. 
@@ -62,7 +63,11 @@ Backend Development:
 
 ### **Challenges & Solutions**
 
-???
+This week, we grappled with a key decision: how to organize user roles in the database. 
+
+- Tech Debt vs. Scalability: We debated between two options: a simple role-room table or a more complex system for managing roles and permissions. We opted for the simpler approach, creating a single table, to avoid overengineering and accelerate development. This decision acknowledged that we might need to revisit this design in the future if the system becomes more complex, but it allowed us to prioritize functionality and deliver the MVP efficiently. 
+
+This decision highlights the ongoing balance between immediate needs and long-term scalability that we face in software development.
 
 ### **Conclusions & Next Steps**
 

@@ -6,7 +6,7 @@ title: "Week #6"
 
 ## **Presentation**:
 
-...
+{{< embed-pdf url="/2024/SoftOverlord100/presentation.pdf" >}}
 
 ## **Weekly Progress Report**:
 

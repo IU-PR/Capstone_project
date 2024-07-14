@@ -54,3 +54,7 @@ This week, our primary focus was on polishing, packaging our prototypes, and cra
 
 **Summary**:
 This week, we fixed bugs during the backend and frontend connection, started integrating the ML part with the backend, and ensured that everything excluding the ML part works and can be tested. We also fixed bugs related to the external API, improving JSON file handling and parsing expiration dates. Our next steps include completing the ML integration, implementing a CI/CD pipeline, and conducting end-to-end testing to ensure a seamless and robust final product.
+
+## Presentation
+
+{{< embed-pdf url="/2024/SafeShelf/SafeShelf-Personalized-Recipe-Recommendations.pdf" >}}

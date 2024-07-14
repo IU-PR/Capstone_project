@@ -6,7 +6,7 @@ title: "Week #6"
 
 ## **Presentation**:
 
-...
+https://docs.google.com/presentation/d/1_ugH1E313bctcsm5MgM7MVP4RIK3iKTSVjBW9vY09tU/edit?usp=sharing
 
 ## **Weekly Progress Report**:
 
@@ -27,11 +27,15 @@ title: "Week #6"
 
 Done: 
 
-- Made a comparison between two methods: fine-tuning and Instruction tuning, deciding that fine-tuning is the suitable one. 
+- Made a comparison between two methods: fine-tuning and Instruction tuning, deciding that fine-tuning is the suitable one.
+- Datasets prepared.
+- Russian tokenizer is done.
+- Tokenization time is decreased by 10%.
 
 In progress:
 
 - Fine-tuning
+- Combining 2 tokenizers
 
 ### **Challenges & Solutions**
 
@@ -59,7 +63,7 @@ Solution:
 
 Challenge: 
 
-- As we already use the Instruct model, not the baseline, we needed to fine-tune the instruct one. Despite a huge search, we barely found 2 tutorials how to implement it. 
+- As we already use the Instruct model, not the baseline, we needed to fine-tune the instruct one. Despite a huge search, we barely found 2 tutorials how to implement it.
 
 Solution: 
 

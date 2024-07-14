@@ -2,21 +2,25 @@
 title: "Week #1"
 ---
 
-# Week #1
+# Week 1 Report: Alumni Portal
+
+## **Presentation**
+
+{{< embed-pdf url="/2024/Alumni/pres-for-report.pdf" >}}
 
 ## **Team Formation and Project Proposal**
 
 ### **Team Members**
 
-| Team Member              | Telegram ID     | Email Address                     |
-|--------------------------|-----------------|-----------------------------------|
-| Nazgul Salikhova         | @kokosinka123   | n.salikhova@innopolis.university  |
-| Anastasiia Ozerova       | @oneozerova     | l.smirnova@innopolis.university   |
-| Chulpan Valiullina       | @Chehmet        | c.valiullina@innopolis.university |
-| Anzhelika Akhmetova      | @angelika782345 | a.akhmetova@innopolis.university  |
-| Olesia Grediushko        | @WellNotWell    | o.grediushko@innopolis.university |
-| Liubov Smirnova          | @mangocandle    | l.smirnova@innopolis.university   |
-| Galia Shabanova          | @g7l7a          | g.shabanova@innopolis.university  |
+| Team Member         | Telegram ID     | Email Address                     |
+| ------------------- | --------------- | --------------------------------- |
+| Nazgul Salikhova    | @kokosinka123   | n.salikhova@innopolis.university  |
+| Anastasiia Ozerova  | @oneozerova     | l.smirnova@innopolis.university   |
+| Chulpan Valiullina  | @Chehmet        | c.valiullina@innopolis.university |
+| Anzhelika Akhmetova | @angelika782345 | a.akhmetova@innopolis.university  |
+| Olesia Grediushko   | @WellNotWell    | o.grediushko@innopolis.university |
+| Liubov Smirnova     | @mangocandle    | l.smirnova@innopolis.university   |
+| Galia Shabanova     | @g7l7a          | g.shabanova@innopolis.university  |
 
 ### **Value Proposition**
 
@@ -123,7 +127,7 @@ Our team has a strategic plan to leverage the following resources for the develo
 
   ![system_design](/2024/Alumni/system_design.jpg)
 
-  [Link to Design in Figma](https://www.figma.com/design/ltbfjf5CwubDQ1I9UJGQKq/Untitled?node-id=0-1&t=FNR6wn8R2Dv13Dbc-1)
+  [<u> Link to Design in Figma</u>](https://www.figma.com/design/ltbfjf5CwubDQ1I9UJGQKq/Untitled?node-id=0-1&t=FNR6wn8R2Dv13Dbc-1)
 
   ![first_UIdesign](/2024/Alumni/first_UIdesign.png)
 

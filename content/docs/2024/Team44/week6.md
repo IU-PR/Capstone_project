@@ -6,7 +6,7 @@ title: "Week #6"
 
 ## Presentation
 
-{{< embed-pdf url="/2024/Team44/week_6_presentation_v2.pdf" >}}
+{{< embed-pdf url="/2024/Team44/week_6_presentation_v3.pdf" >}}
 
 ## Weekly Progress Report:
 This week, our team focused on addressing the challenges related to 

@@ -1,3 +1,5 @@
+# **Week 4**
+
 # **External Feedback**
 
 Currently, we are halfway through the course and the execution of our project plan. In the fourth week, we concentrated on developing our product, which included implementing core features and testing various ideas to ensure functionality and usability. Additionally, we began gathering feedback on our product concept and its beta features. This user input is essential for us to identify strengths and areas for improvement, allowing us to refine and enhance our product as we progress toward the final stages of development.
@@ -95,14 +97,14 @@ Additionally, a key focus has been on establishing and maintaining a robust back
 
 ### Frontend & Design components:
 
-    Done:
+**Done:**
 
 * [X] Dashboard design finilized
 * [X] Algorithm comparison screens
 
 Link for final design: [https://www.figma.com/design/01rc3K1AUBfTan3Pw3I8eI/ATS-Mockup?node-id=0-1&amp;t=tQI0KO4DD47yE9Yt-0](https://www.figma.com/design/01rc3K1AUBfTan3Pw3I8eI/ATS-Mockup?node-id=0-1&t=tQI0KO4DD47yE9Yt-0)
 
-Key tasks for next week:
+**Key tasks for next week:**
 
 * Create and customise the application in Vue.js, start writing the frontend
 

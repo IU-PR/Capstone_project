@@ -1,3 +1,9 @@
+# Finalizing the project and preparing the presentation
+
+## Presentation
+
+You can find our presentation on [Google Slides](https://docs.google.com/presentation/d/1m0Se6vXWUo9-vSMk6YlZQdPPuVMDCXJme4mlurWnxHI/edit?usp=sharing).
+
 ## Weekly Progress Report
 
 ### Backend Challenges and Solutions

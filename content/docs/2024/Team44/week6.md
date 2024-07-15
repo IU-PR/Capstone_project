@@ -23,7 +23,9 @@ This week, our team focused on addressing the challenges related to the connecti
 3. Frontend deploy:
 - Issue: Disability to deploy to vercel.com since repository with our code doesn’t belong to us
 - One of the solution might be exposing svelte port on server’s virtual machine and allow to connect it with backend, which wasn’t implemented yet due to needness of asynchronous connect between backend and frontend
-
+4. Implementing asynchronous backend:
+- Issue: A limiting factor in the implementation of the previous problem is the need for asynchronous communication between the frontend and backend. So in this case probably some other connection should be established on the virtual machine. Main challenge here: lack of knowledge and experience with Django WebSockets or Celery + Redis, and which one to choose for our specific case. 
+-We have not been able to solve this problem this week and it will become our main focus next week, since it’s crucial for user experience. How might we resolve this: analyze existing products with asynchronous Django and learn from them how we can handle our case and which tools are most optimal for us
 
 
 ### Conclusions & Next Steps

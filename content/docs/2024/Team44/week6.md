@@ -6,11 +6,14 @@ title: "Week #6"
 
 ## Presentation
 
-{{< embed-pdf url="/2024/Team44/week_6_presentation.pdf" >}}
+{{< embed-pdf url="/2024/Team44/week_6_presentation_v2.pdf" >}}
 
 ## Weekly Progress Report:
+This week, our team focused on addressing the challenges related to 
+the connection between the front-end and back-end. 
+Additionally we worked on UX/UI design, 
+after receiving feedback from testers and aimed to make it more adaptive and looking nicer.
 
-This week, our team focused on addressing the challenges related to the connection between the front-end and back-end of our UX/UI design, aiming to make it more adaptive. We also finalized the creation of the program, ensuring that all components are well-integrated.
 
 ### Challenges & Solutions
 
@@ -30,10 +33,10 @@ This week, our team focused on addressing the challenges related to the connecti
 
 ### Conclusions & Next Steps
 
-In conclusion, the back-end functionalities, 
-including machine learning models, are operating smoothly and are stable,
-while the primary issue with the front-end connection has not been largely resolved, 
-leading to stagnation in  synchronization with the back-end. Moving forward, we will continue
-to monitor and address any remaining or new issues in the front-end and back-end connection. 
-We will also prepare for upcoming presentations by ensuring the entire program functions 
-seamlessly and by creating comprehensive presentation materials that highlights.
+In conclusion, the back-end functionalities, including machine learning models, are operating smoothly and are stable, while the primary issue with the front-end 
+connection has not been largely resolved, leading to stagnation in synchronization with the back-end. Moving forward, we will continue to monitor and address any 
+remaining or new issues in the front-end and back-end connection as the implementation of the asynchronous backend. 
+We will also prepare for upcoming presentations by ensuring the entire program functions seamlessly and by creating comprehensive presentation materials that highlights.
+
+
+

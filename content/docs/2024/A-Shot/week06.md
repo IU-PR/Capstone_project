@@ -6,7 +6,7 @@ title: "Week #6"
 
 ## **Presentation**:
 
-{{< embed-pdf url="/2024/A-Shot/week06/pres-v1.0/A-Shot.pdf" >}}
+< embed-pdf url="/2024/A-Shot/week06/pres-v1.0/A-Shot.pdf" >
 
 ## **Weekly Progress Report**:
 
@@ -36,7 +36,8 @@ Overall, UI interface became more user-friendly, our team changed main color to 
    each other, then groups the images according to these vectors. This allows users to search for similar frames in the
    application.
 2. Compare feature vectors to compare images (see Challenge 1).
-3. Optimize models to improve the performance of the import (see Challenge 2).
+3. Optimize models to improve the performance of the import (see Challenge 2). Our team searched the ways how we can
+   do our models faster
 
 ### **Challenges & Solutions**
 
@@ -51,7 +52,10 @@ Overall, UI interface became more user-friendly, our team changed main color to 
 
 - **Challenge 2: Optimize models**  
   *Problem*: Long import times (~1 second per image = ~17 minutes per 1000 images).  
-  *Solution*:
+  *Solution*: We try optimize a large model with more than 100 million parameters by creating a student model to replicate
+   the performance of the teacher model. The goal is to make the model faster and more efficient while maintaining
+  accuracy. The student model will be trained to predict the outputs of the teacher model, ensuring similar performance
+  with reduced computational requirements.
 
 ### **Conclusions & Next Steps**
 
@@ -63,7 +67,7 @@ This week was productive, and our team is now one step away from deploying our p
     - Dark theme
     - Color palette
 2. **ML**:
-   Model optimization
+   Model optimization like solution in the challenge
 3. **Multiplatform**:
    Our goal is to create a single program file, which can be a positive solution for potential users. This will allow us
    to make our program multiplatform for Windows, and in the future, this development may be helpful for MacOS, Android,

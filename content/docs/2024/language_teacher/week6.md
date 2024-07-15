@@ -5,7 +5,7 @@ title: "Week #6"
 # **Week #6**
 
 ## **Presentation**
-https://www.canva.com/design/DAGK9cP5qqk/sKmqpIpDJqo-wzzKOr1bTA/edit
+https://gamma.app/docs/Language-Teacher-q11cywi3f6p7vvt?mode=doc
 
 ## **Weekly Progress Report**
 

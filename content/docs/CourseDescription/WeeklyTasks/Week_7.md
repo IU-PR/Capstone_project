@@ -7,6 +7,5 @@ title: "Week #7"
 # **Week #7**
 
 {{< hint danger >}}
-**Important Note**  
-Please, wait for the update
+Free week to prepare a presentation, no need to send a report.
 {{< /hint >}}

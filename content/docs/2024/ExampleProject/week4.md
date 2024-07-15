@@ -16,6 +16,10 @@ title: "Week #4"
 
 ...
 
+## **Weekly Progress Report**:
+
+Our team did...
+
 ### **Challenges & Solutions**
 
 ...

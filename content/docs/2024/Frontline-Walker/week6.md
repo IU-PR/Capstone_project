@@ -16,9 +16,17 @@ This week was the most productive of all. The reason for this was the proximity 
 
 The game featured a touch interface. Now it functionally almost completely coincides with the prototype (there is no anti-aircraft machine gun yet and, therefore, there is no control for it), however, it does not fully display information about the walker in comparison with the prototype (there is no display of modules health, the display of remaining ammunition and fuel is still only numerical). Fortunately, the project was able to implement curved sliders that display the gun declination angle (there is no such slider in standard Unity tools, so it was written from scratch).
 
+![PrePresentationUI](/2024/Frontline-Walker/PrePresentationUI.png)
+![PrePresentationUIBinoculars](/2024/Frontline-Walker/PrePresentationUIBinoculars.png)
+
 A new enemy was assembled - an airplane. It carries bomb weapons (which can be hit in flight, thereby destroying it).
 
+![PrePresentationPlane](/2024/Frontline-Walker/PrePresentationPlane.png)
+
 Modular walker health with a penalty system was implemented. Damage to the feet leads to slight deceleration and reduced braking ability. Damage to the lower legs results in moderate deceleration and reduced rate of body height adjustment. Damage to the upper legs causes significant deceleration. Damaging a weapon prevents the player from aiming and firing. Torso damage is critical and restarts the scene.
+
+![PrePresentionModularHealthSystem](/2024/Frontline-Walker/PrePresentionModularHealthSystem.png)
+
 
 New sounds and sprites were created (such as walker engine sounds and an improved walker model).
 

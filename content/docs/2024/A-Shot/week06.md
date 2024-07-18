@@ -6,7 +6,7 @@ title: "Week #6"
 
 ## **Presentation**:
 
-{{< embed-pdf url="/2024/A-Shot/week06/pres-v1.0/A-Shot-2.pdf" >}}
+{{< embed-pdf url="/2024/A-Shot/week06/pres-v1.0/A-Shot-3.pdf" >}}
 
 ## **Weekly Progress Report**:
 

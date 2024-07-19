@@ -4,6 +4,10 @@ title: "Week #1"
 
 # **Week #1**
 
+# **CookAInno presentaion**
+
+{{< embed-pdf url="/2024/cookainno/CookAInno.pdf" >}}
+
 ## **Team Formation and Project Proposal**
 
 ### **Team Members**

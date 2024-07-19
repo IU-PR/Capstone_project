@@ -4,16 +4,14 @@ title: "Week #2"
 
 # Week 2 Report: Alumni Portal
 
-**Authors:** Chulpan Valiullina, Nazgul Salikhova, Liubov Smirnova, Anzhelika Akhmetova, Olesia Grediushko, Galia Shabanova, Anastasiia Ozerova
-
-![logo_design](/2024/Alumni/logo_design.png)
 
 In today's report, we will cover three main topics:
-1. The tech stack chosen by our team.
-2. The architecture of our project.
-3. An overview of our progress and the future work for week 3.
+1. Team Allocation
+2. The tech stack chosen by our team.
+3. The architecture of our project.
+4. An overview of our progress and the future work for week 3.
 
-## Distribution of Responsibilities
+## Team Allocation & Distribution of Responsibilities
 
 | Full Name             | Tg alias       | Uni mail                        | Role                |
 |-----------------------|----------------|---------------------------------|---------------------|
@@ -25,15 +23,15 @@ In today's report, we will cover three main topics:
 | Galia Shabanova       | @g7l7a         | g.shabanova@innopolis.university | Frontend & Backend  |
 | Anastasiia Ozerova    | @oneozerova    | a.ozerova@innopolis.university   | Product Manager & Report Writer |
 
-## Tech Stack
+## Tech Stack Selection
 
 > As we presented our idea in last week's report, we will now talk in more detail about the tech stack for our project.
 >
-> Firstly, let's start with the framework for our website. Since my.university uses Django, we have chosen the same framework to facilitate better collaboration in the future. Therefore, for the backend, we chose Django and the Python programming language.
+> Firstly, let's start with the framework for our website. Since my.university uses Django, we have chosen the same framework to facilitate better collaboration in the future. Therefore, for the backend, we chose Django and the Python as a programming language.
 >
 > For the frontend part, we use CSS and HTML for basic structure and styling.
 >
-> Now let's discuss the exciting part: the integrated machine learning (ML) model which will assist with user navigation. For this, we will use the following tools:
+> Now let's discuss the exciting part: the integrated AI part which will assist with user navigation. For this, we will use the following tools:
 > - *Python*
 > - *llama3 8B*
 > - *Ollama*
@@ -42,7 +40,21 @@ In today's report, we will cover three main topics:
 >
 > Additionally, to manage information from our alumni and students, we will use a relational database. SQLite is well-suited for our main purposes and will be used for this project.
 
-## Project Structure
+## Architecture Design
+
+Data Management: relational database built-in Django project is used
+
+User Interface (UI) Design: is created using Figma
+
+Scalability and Performance: …
+
+Security and Privacy: …
+
+Error Handling and Resilience: …
+
+Deployment and DevOps: …
+
+### Django Project Structure
 
 ![project_structure](/2024/Alumni/project_structure.png)
 
@@ -52,24 +64,24 @@ In today's report, we will cover three main topics:
 - **db.sqlite3:** The SQLite database file used to store all project data.
 - **manage.py:** A command-line utility for managing the Django project, including launching the project.
 
-## Architecture
+### Architecture Component Breakdown:
 
-We will provide you with a schematic drawing of our website to give you a visual overview of its architecture.
+We will provide you with a schematic drawing of our website to give you a visual overview of its whole architecture.
 
 ![system_design](/2024/Alumni/system_design.jpg)
 
 Now, let's discuss in more detail the user flow for each page on our website:
 
-### Application for a Pass Page
+#### Application for a Pass Page
 ![pass_page](/2024/Alumni/pass_page.png)
 
-### Authorization and Profile Page
+#### Authorization and Profile Page
 ![auth_page](/2024/Alumni/auth_page.png)
 
-### Application for Mentoring Page
+#### Application for Mentoring Page
 ![ment_page](/2024/Alumni/ment_page.png)
 
-### Alumni Merch Page
+#### Alumni Merch Page
 
 The users can browse a list of available products, each with an image, name, and brief description. Clicking on a product takes the user to the product page where they can see detailed information including the product name, description, price, available sizes, several photos, and a "Buy" button.
 

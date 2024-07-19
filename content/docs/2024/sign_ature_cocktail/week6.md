@@ -1,6 +1,6 @@
 ### Week #6
 # Presentation:
-We are not attaching a presentation in this report (just an empty presentation), as we plan to make huge additions and improvements to the game over the next few days. We will have a demo of the final presentation ready for the next meeting with TA this week
+![SignatureCocktail.pdf](/2024/sign_ature_cocktail/SignatureCocktail.pdf)
 
 # Weekly Progress Report:
 This week, our team has finalized the appearance of all the characters on stage, their dialogues, the exchange window and the initial start window from which the game will begin. We also improved the lighting and appearance of the scene to make it look more realistic. At the moment, both hands have also been finalized and integrated into the scene, using the camera to read the letters of the alphabet, as well as the necessary additional symbols.

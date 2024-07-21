@@ -4,22 +4,6 @@ title: "Week #4"
 
 # **Week #4**
 
-The first version of our project consists of a **completed navigation module**, which supports two modes. 
-
-<details>
-<summary>Manual mode</summary>
-<br>
-The user controls the robot’s movements. The commands are passed to the Controller directly, without passing through Path Planner and SLAM. For now the user should know where the robot is located, since the map is not created in this mode.
-</details>
-
-<details>
-<summary>Autonomous mode</summary>
-<br>
-The robot finds a path and moves himself. 
-The autonomous navigation module incorporates our implementation of SLAM, Path Planner and Controller for hardware and simulator. 
-Robot completes SLAM and saves the map locally. Frontend can access the map via Rosbridge, while the robot computes the path using Path Planner and moves with the help of the Controller.
-</details>
-
 ## **External feedback**
 
 During this week, we have gathered feedback on our project. 
@@ -67,6 +51,13 @@ You can see some demo launches of the mobile platform moving, governed by the co
 
 ## **Iteration**
 
+We have the following plan for the iteration:
+
+1) **Planning**: Every Tuesday we meet with our mentor, Ivan Domrachev, to get tasks which we have to do during the week
+2) **Executing**: During the week, we work on given tasks, and meet to discuss problems we face, if needed
+3) **Reviewing**: On Sunday we hold a meeting to discuss which tasks were done and which still require attention.
+4) **Repeating**: Based on what has done, and on the speed of development, we create new plan for the next week.
+
 During the development, we have encountered bugs and errors connected with ROS, especially, running it in a docker container, however, it is a normal situation in Robotics. 
 
 With the help from other team members and our mentor, we were able to overcome most of them, and will continue working to mitigate the influence of these problems.
@@ -74,27 +65,6 @@ With the help from other team members and our mentor, we were able to overcome m
 We stick to the initial plan and endeavor to implement Sensors Fusion and Behavior Tree blocks, of course, after we refine the modules we tested.
 
 We are also listening to feedback we get from TAs, our mentor and other students, to get another point of view, and try to improve the project based on it. With the help of all those people, we will be able to create a truly exceptional project. We conduct meetings with our mentor, Ivan Domrachev, weekly, to share our progress and get an understanding of what will be done next.
-We have also established the official priority list for the project. 
-
-
-
-## **Priority list**
-
-***(DONE)***
-1) Create a single launch file for the navigation stack (SLAM + Path Planner + Controller)
-2) Connect implementation to Simulation
-3) Implement switching between manual and autonomous modes
-4) Create a way to pass the map to the Frontend via Rosbridge 
-5) Implement Database with the ability to store maps
-6) Fix CI/CD
-7) Add an ability to handle virtual walls. 
-8) &ast; Implement switching between commands with a Behavior Tree  
-9) &ast; Create API for communication with Frontend 
-10) &ast; Create a Sensors Fusion block
-11) &ast; Connect implementation to Hardware (the physical platform)
-
-&ast;   ***(TO BE IMPLEMENTED)***
-
 
 ## **Weekly progress report**
 

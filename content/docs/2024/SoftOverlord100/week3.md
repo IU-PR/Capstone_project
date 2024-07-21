@@ -6,6 +6,24 @@ title: "Week #3"
 
 ## **Developing the first prototype, creating the priority list**
 
+### **Prototype**:
+
+The first version of our project consists of a **completed navigation module**, which supports two modes. 
+
+<details>
+<summary>Manual mode</summary>
+<br>
+The user controls the robot’s movements. The commands are passed to the Controller directly, without passing through Path Planner and SLAM. For now the user should know where the robot is located, since the map is not created in this mode.
+</details>
+
+<details>
+<summary>Autonomous mode</summary>
+<br>
+The robot finds a path and moves himself. 
+The autonomous navigation module incorporates our implementation of SLAM, Path Planner and Controller for hardware and simulator. 
+Robot completes SLAM and saves the map locally. Frontend can access the map via Rosbridge, while the robot computes the path using Path Planner and moves with the help of the Controller.
+</details>
+
 ### **Technical Infrastructure**:
 
 We share our development process via Github. We have a docker container and plan to create a launch file, which will further combine all the components together. All components are developed in the submodules of the main repository, and the development takes place in additional branches.
@@ -46,6 +64,23 @@ We have successfully created a database, using MongoDB. The following informatio
 ### **Prototype Testing**:
 
 Unit tests were conducted on each of the core components (SLAM, Path Planner, Controller) to ensure they work properly individually, before combining them together.
+
+### **Priority List**:
+
+***(DONE)***
+1) Create a single launch file for the navigation stack (SLAM + Path Planner + Controller)
+2) Connect implementation to Simulation
+3) Implement switching between manual and autonomous modes
+4) Create a way to pass the map to the Frontend via Rosbridge 
+5) Implement Database with the ability to store maps
+6) Fix CI/CD
+7) Add an ability to handle virtual walls. 
+8) &ast; Implement switching between commands with a Behavior Tree  
+9) &ast; Create API for communication with Frontend 
+10) &ast; Create a Sensors Fusion block
+11) &ast; Connect implementation to Hardware (the physical platform)
+
+&ast;   ***(TO BE IMPLEMENTED)***
 
 ## **Weekly Progress Report**:
 

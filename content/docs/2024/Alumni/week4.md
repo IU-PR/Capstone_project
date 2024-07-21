@@ -4,8 +4,6 @@ title: "Week #4"
 
 # Week 4 Report: Alumni Portal
 
-**Authors:** Chulpan Valiullina, Nazgul Salikhova, Liubov Smirnova, Anzhelika Akhmetova, Olesia Grediushko, Galia Shabanova, Anastasiia Ozerova
-
 ## Introduction
 This week, we completed the donations page for alumni, wrote several tests, and developed the main page's frontend. We also overcame various obstacles related to integrating all pages into a single portal using Django.
 
@@ -61,7 +59,15 @@ Our weekly work process is structured into two main phases. At the beginning of 
 
 The process is conventionally divided into two distinct parts: from Monday to Wednesday, we focus on planning, goal-setting, and troubleshooting, while from Wednesday to Sunday, our emphasis shifts towards task execution and development.
 
+### Our Backlog
+ We are using "Linear" task tracker:
+ - task has priority level
+ - task has assigned person
+ - task belongs to appropriate milestone
+ - task has such tags as: Sprint_#, Improvement/Bug/Feature
+ - tasks of "Review" section are task of current sprint, they are done and are in checking process
 
+![backlog](/2024/Alumni/backlog.png)
 
 
 ## Progress

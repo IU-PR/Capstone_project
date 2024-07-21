@@ -4,16 +4,12 @@ title: "Week #3"
 
 # Week 3 Report Alumni Portal
 
-**Authors:** Chulpan Valiullina, Nazgul Salikhova, Liubov Smirnova, Anzhelika Akhmetova, Olesia Grediushko, Galia Shabanova, Anastasiia Ozerova
-
-![logo_design](/2024/Alumni/logo_design.png)
-
 ## Introduction
 This week we finished the final versions of the following pages for our website: the mentorship page, merch page, entrance card page, profile and registration page, and AI chat page.
 
 Throughout the week, we were in contact with the Student Affairs department and received some updates from them. We had a call with one of the alumni who is interested in creating the Innopolis Alumni Europe Club. He suggested that we create the map using data from LinkedIn by identifying individuals who graduated from Innopolis University and then input this data into the map. Additionally, we can use location data from alumni profiles.
 
-## Progress
+## Priority list with milestone division
 
 Our milestones and Priorities:
 1-2 Weeks:
@@ -33,6 +29,7 @@ Our milestones and Priorities:
  12. Feedback Collection: Gather feedback from users and stakeholders to iterate and improve the portal.
  13. Portal Improvement: Make necessary enhancements based on feedback and testing results to enhance user experience and functionality.
 
+## Progress
  
 ### AI Chat
 This week we tested a model and found it to be very slow. After conducting a review and after meeting with our TA, we concluded that we wil not use LLM model and better make a recommendation system using neural networks.

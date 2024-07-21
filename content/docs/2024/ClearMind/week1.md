@@ -4,6 +4,8 @@ title: "Week #1"
 
 # Week #1
 
+## **Presentation**
+{{< embed-pdf url="/2024/ClearMind/clearmind.pdf" >}}
 ## **Team Formation and Project Proposal**
 
 ### **Team Members**

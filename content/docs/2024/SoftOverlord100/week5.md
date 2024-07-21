@@ -63,6 +63,8 @@ After the end of the Capstone Project course, we will continue working on our pr
   
 2) Add new features connected with multiple robots co-operations (plan to finish before November)
 
+![Roadmap](/2024/SoftOverlord100/roadmap.png)
+
 ## **Weekly Progress Report**:
 
 The goals for this week were:

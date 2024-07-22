@@ -1,16 +1,14 @@
 ---
-title: "Week #6"
+title: "Week 6"
 ---
 
 # Week 6
 
-## **Presentation**:
+## Presentation:
 
-[https://docs.google.com/presentation/d/1MBrYpRxtwH6EMqRXLOKS1lLq3tyqN9028n6o5I7jMtk/edit?usp=sharing](https://docs.google.com/presentation/d/1MBrYpRxtwH6EMqRXLOKS1lLq3tyqN9028n6o5I7jMtk/edit?usp=sharing)
+[DATA EXPUNGED]
 
-That’s the very draft, we will rework it.
-
-## **Weekly Progress Report**:
+## Weekly Progress Report:
 
 This week, our team achieved significant milestones in enhancing InnoHassle Search System. We meticulously addressed and
 resolved existing bugs, refined numerous minor details, and implemented new features to elevate the user experience.
@@ -32,7 +30,7 @@ resolved existing bugs, refined numerous minor details, and implemented new feat
 These advancements not only enhance the visual appeal and usability of our search system but also ensure a more robust
 and user-friendly interface.
 
-### **Challenges & Solutions**
+### Challenges & Solutions
 
 Throughout the development of the InnoHassle Search System, our team encountered several significant challenges,
 including inaccuracies in search results, design and usability issues, and the need for effective feedback mechanisms.
@@ -44,7 +42,7 @@ within the team and an agile development approach allowed us to promptly address
 improvement. By actively incorporating user feedback and focusing on iterative development, we successfully enhanced the
 robustness and user-friendliness of the search system, aligning it closely with user needs and expectations.
 
-### **Conclusions & Next Steps**
+### Conclusions & Next Steps
 
 Based on the achievements and challenges faced during the development of the InnoHassle Search System, it is evident
 that significant progress has been made in enhancing the system's design, functionality, and user experience. Moving

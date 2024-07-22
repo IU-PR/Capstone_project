@@ -1,10 +1,10 @@
 ---
-title: "Week #4"
+title: "Week 4"
 ---
 
 # Week 4 - External Feedback
 
-### **External Feedback**
+### External Feedback
 
 To collect feedback on our product, we deployed current version of website and backend to our staging servers, so that
 users could access it without problems.
@@ -20,13 +20,13 @@ feedback. This is once again confirms that the product aligns with user needs an
 However, it could be enhanced by introducing modern design, and adding more useful features related to university
 services.
 
-### **Testing**
+### Testing
 
 Our team tested multiple different scenarios of search queries manually to obtain the correctness of resulting output
 documents. Moreover, we are in the process of gathering queries validation set to be able to cross-validate search
 parameters and enhance pipeline. We also monitor the API speed and the status of our servers.
 
-### **Iteration**
+### Iteration
 
 **Continuous iteration** is the backbone of successful project development. It involves a constant cycle of evaluation,
 adjustment, and refinement based on feedback and testing results
@@ -50,7 +50,7 @@ Through these iterative steps, we have not only aligned our progress with the pr
 been able to refine our system significantly. This process has allowed us to eliminate early-stage mistakes and
 continuously enhance the service's quality and performance
 
-## **Weekly Progress Report**
+## Weekly Progress Report
 
 Throughout this week, we continued our work on the project, making significant progress and achieving several successes.
 

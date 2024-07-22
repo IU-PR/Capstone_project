@@ -1,5 +1,5 @@
 ---
-title: "Week #3"
+title: "Week 3"
 ---
 
 # Week 3 - Developing the first prototype, creating the priority list
@@ -73,7 +73,7 @@ title: "Week #3"
   scenarios that are intuitive and user-friendly. By considering the most convenient pathways for users, we strive to
   ensure that our product meets the needs and expectations of our audience effectively.
 
-## **Weekly Progress Report**:
+## Weekly Progress Report:
 
 This week, we've accomplished a lot towards achieving our goals in implementing the prototype. The prototype is ready
 and includes the following functionality:
@@ -108,7 +108,7 @@ files and links to sources.
 
 Developed a fully functional Telegram parser bot that collects data from Telegram channels and sends it to the server.
 
-### **Challenges & Solutions**
+### Challenges & Solutions
 
 It turned out that just a zip file is not suitable for delivering a browser extension, because... modern browsers will
 limit it. The only solution here is to upload the extension to browser's extension store. To do this, we needed to
@@ -122,7 +122,7 @@ Minio storage requires a dedicated domain, so we filled out an application with 
 The servers with video cards had outdated packages, some of them were able to be updated, but the cuda libraries could
 not be updated, so we had to limit the PyTorch version in our project.
 
-### **Conclusions & Next Steps**
+### Conclusions & Next Steps
 
 Finally, we were able to see and click on the results of our work. It's nice, we would like to keep the temp. We plan to
 continue to have weekly synchronization meetings where we outline work for the next sprint.

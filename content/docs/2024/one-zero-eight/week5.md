@@ -1,10 +1,10 @@
 ---
-title: "Week #5"
+title: "Week 5"
 ---
 
 # Week 5 - Feedback Analysis and Roadmap
 
-## **Feedbacks**
+## Feedbacks
 
 - **Feedback collection plan**
 
@@ -56,7 +56,7 @@ title: "Week #5"
 - **Additional Data Sources**: Prioritize integrating the newly identified data sources (EduWiki, Innopolis University
   website, dormitory website, etc.) to enhance the search engine's utility and comprehensiveness.
 
-## **Roadmap**
+## Roadmap
 
 ### 1. Improve Search Accuracy with Rerankers
 
@@ -87,7 +87,7 @@ To provide advanced functionalities, we will integrate large language models (LL
 will assist users in creating summaries, extracting key points, and generating insights from study materials, thereby
 enriching their learning experience.
 
-### **Timeline and Milestones**
+### Timeline and Milestones
 
 **Q3 2024:**
 
@@ -119,13 +119,13 @@ enriching their learning experience.
     - Release a major update incorporating all new features and improvements.
     - Conduct a comprehensive review and plan the roadmap for 2025.
 
-### **Conclusion**
+### Conclusion
 
 By following this roadmap, we aim to significantly enhance the usability, accuracy, and functionality of our platform.
 Each milestone is designed to address user needs and improve their overall experience. Through continuous feedback and
 iterative development, we will ensure that our platform remains a valuable tool for students and educators.
 
-## **Weekly Progress Report**:
+## Weekly Progress Report:
 
 This week, our team continues to actively work on the project. The phase of refining the existing code and optimizing it
 is underway. The active development of the necessary functionality for the final product continues.
@@ -163,7 +163,7 @@ on code optimization.
 The team actively interacted with each other throughout the week. We had two face-to-face meetings with the whole team,
 as usual during the TA meeting and on Friday's weekly team meeting.
 
-### **Challenges & Solutions**
+### Challenges & Solutions
 
 Prioritizing and addressing identified issues: With various feedback and identified issues, prioritizing and resolving
 them in a timely manner can be challenging.
@@ -172,7 +172,7 @@ Using an agile development approach has helped us effectively prioritize and adr
 feedback into manageable tasks and prioritizing them based on impact and user needs, we can ensure that key issues are
 addressed promptly while providing continuous improvement of the product.
 
-### **Conclusions & Next Steps**
+### Conclusions & Next Steps
 
 Our feedback collection plan is designed to capture user engagement metrics, such as likes and dislikes, while ensuring
 protection against spam by tracking individual user interactions. We will leverage Yandex Metrics to gain deeper

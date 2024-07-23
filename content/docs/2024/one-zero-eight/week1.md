@@ -1,6 +1,12 @@
 ---
-title: "Week #1"
+title: "Week 1"
 ---
+
+# Find anything you want in Innopolis
+
+{{< embed-pdf url="/2024/one-zero-eight/presentation.pdf" >}}
+
+[innohassle.ru / search](https://innohassle.ru/search)
 
 # Week 1 - Project Proposal
 

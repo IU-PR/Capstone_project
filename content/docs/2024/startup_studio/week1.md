@@ -2,6 +2,13 @@
 title: "Week #1"
 ---
 
+# **Babyhelm**
+
+## Presentation
+
+{{< embed-pdf url="/2024/startup_studio/Babyhelm.pdf" >}}
+
+
 # Week #1
 
 ## **Team Members**

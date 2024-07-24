@@ -2,6 +2,10 @@
 title: "Week #1"
 ---
 
+# Presentation
+
+{{< embed-pdf url="/2024/magesture/presentation.pdf" >}}
+
 # Week #1
 
 ## **Team Formation and Project Proposal**

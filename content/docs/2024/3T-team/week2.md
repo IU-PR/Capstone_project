@@ -18,6 +18,7 @@ title: "Week #2"
 
 ### Evaluation and Recommendations for Our Project's Tech Stack from AI
    The explanations and which technical stack we have chosen are in the last paragraph of the report week1.md. Since the technical stack has been discussed and selected since week 1, we decided to turn to AI and find out how to improve it and what else can be added there:
+   
 ## Current Tech Stack
 
 Android Development:

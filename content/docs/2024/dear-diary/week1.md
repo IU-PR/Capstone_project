@@ -1,3 +1,6 @@
+## **Presentation**
+{{< embed-pdf url="/2024/dear-diary/final.pdf" >}}
+
 ## **Team Members**
 
 | Team Member              | Telegram ID   | Email Address   |

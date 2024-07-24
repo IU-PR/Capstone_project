@@ -4,6 +4,12 @@ title: "Week #1"
 
 # Week #1
 
+
+## Presentation
+
+{{< embed-pdf url="/2024/Team44/Final.pdf" >}}
+
+
 ## **Team Formation and Project Proposal**
 
 ### **Team Members**

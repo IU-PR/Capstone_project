@@ -6,7 +6,7 @@ title: "Week #1"
 
 ## **Presentation**
 
-{{< embed-pdf url="/2024/A-Level/AforA.pdf" >}}
+{{< embed-pdf url="/2024/A-Level/AforA_1.pdf" >}}
 
 ## **Team Formation and Project Proposal**
 

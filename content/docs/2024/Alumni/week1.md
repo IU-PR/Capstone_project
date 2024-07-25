@@ -6,7 +6,10 @@ title: "Week #1"
 
 ## **Presentation**
 
-{{< embed-pdf url="/2024/Alumni/pres-for-report.pdf" >}}
+{{< embed-pdf url="/2024/Alumni/presentation.pdf" >}}
+
+Link to the dynamic presentation(use VPN please): [https://www.canva.com/design/DAGLqikLOf0/uO5fwCsw9mclwvRL_GWrsw/view?utm_content=DAGLqikLOf0&utm_campaign=designshare&utm_medium=link&utm_source=editor](https://www.canva.com/design/DAGLqikLOf0/uO5fwCsw9mclwvRL_GWrsw/view?utm_content=DAGLqikLOf0&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+Deployment link: [http://130.193.43.164/main/](http://130.193.43.164/main/)
 
 ## **Team Formation and Project Proposal**
 

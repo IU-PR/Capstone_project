@@ -27,7 +27,7 @@ jobs:
 
       - name: Check all changed files in pull request
         env:
-          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
+          ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_modified_files }}
         run: |
           BAD_FILES=()
           for file in ${ALL_CHANGED_FILES}; do

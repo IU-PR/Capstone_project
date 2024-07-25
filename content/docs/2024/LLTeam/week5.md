@@ -57,6 +57,7 @@ This is an addition plan for the future.
 - Link safety analyzation using AI
 - Link AI generation
 - Improved redirects statistics
+![c4](/2024/LLTeam/week5/roadmap.png)
 
 ### Improvements, based on the feedback, which were done instantly:
 We implemented the fixes for the frontend application bugs that were discovered during the meetings, and described by the survey feedback. In particular, we fixed the form validation bugs and improved the UX of link creation checkboxes, so it became more intuitive and non-confusing.

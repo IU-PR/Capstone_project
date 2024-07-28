@@ -2,7 +2,9 @@
 
 ## Presentation
 
-You can find our presentation on [Google Slides](https://docs.google.com/presentation/d/1m0Se6vXWUo9-vSMk6YlZQdPPuVMDCXJme4mlurWnxHI/edit?usp=sharing).
+You can find our full presentation on [Google Slides](https://docs.google.com/presentation/d/1La2a4jzaZTrbxLMDHETDfLABGThKH8vs0tXeYNqu7Nc/edit?usp=sharing).
+
+{{< embed-pdf url="/2024/roomreco/slides.pdf" >}}
 
 ## Weekly Progress Report
 

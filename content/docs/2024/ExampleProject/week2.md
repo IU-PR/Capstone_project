@@ -48,15 +48,15 @@ title: "Week #2"
 
 ### **Tech Stack and Team Allocation**
 
-| Team Member              | Track                                       | Responsibilities   |
-|--------------------------|---------------------------------------------|--------------------|
-| Team Member (Lead) 1     | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 2            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 3            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 4            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| Team Member 5            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| (Optional) Team Member 6 | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
-| (Optional) Team Member 7 | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
+| Team Member                             | Track                                       | Responsibilities   |
+|-----------------------------------------|---------------------------------------------|--------------------|
+| [Team Member (Lead) Name Surname 1]     | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
+| [Team Member Name Surname 2]            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
+| [Team Member Name Surname 3]            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
+| [Team Member Name Surname 4]            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
+| [Team Member Name Surname 5]            | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
+| [(Optional) Team Member Name Surname 6] | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
+| [(Optional) Team Member Name Surname 7] | [Backend/Frontend/Fullstack/ML/Design/etc.] | [Responsibilities] |
 
 ### **Weekly Progress Report**
 

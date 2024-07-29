@@ -35,6 +35,7 @@ Please provide in your reporting markdown file the following information for you
 ### **Team Members**
 
 Please list the names and contact details (Telegram and email) of your team members:
+
 {{<details "Important Note" >}}
 
 When building a team for a software project consisting of 5-7 people, it is crucial to pay attention to the following:
@@ -59,17 +60,17 @@ When building a team for a software project consisting of 5-7 people, it is cruc
 
 Remember, building a successful software project goes beyond individual skills. It requires a combination of technical expertise, effective communication, collaboration, and a shared commitment to achieving project goals. By paying attention to these aspects, you can lay a strong foundation for your team's success.
 
-
 {{</details>}}
-| Team Member              | Telegram ID   | Email Address   |
-|--------------------------|---------------|-----------------|
-| Team Member (Lead) 1     | [Telegram ID] | [Email address] |
-| Team Member 2            | [Telegram ID] | [Email address] |
-| Team Member 3            | [Telegram ID] | [Email address] |
-| Team Member 4            | [Telegram ID] | [Email address] |
-| Team Member 5            | [Telegram ID] | [Email address] |
-| (Optional) Team Member 6 | [Telegram ID] | [Email address] |
-| (Optional) Team Member 7 | [Telegram ID] | [Email address] |
+
+| Team Member                             | Telegram ID   | Email Address   |
+|-----------------------------------------|---------------|-----------------|
+| [Team Member (Lead) Name Surname 1]     | [Telegram ID] | [Email address] |
+| [Team Member Name Surname 2]            | [Telegram ID] | [Email address] |
+| [Team Member Name Surname 3]            | [Telegram ID] | [Email address] |
+| [Team Member Name Surname 4]            | [Telegram ID] | [Email address] |
+| [Team Member Name Surname 5]            | [Telegram ID] | [Email address] |
+| [(Optional) Team Member Name Surname 6] | [Telegram ID] | [Email address] |
+| [(Optional) Team Member Name Surname 7] | [Telegram ID] | [Email address] |
 
 
 ### **Value Proposition**

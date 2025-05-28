@@ -14,6 +14,9 @@ jobs:
           format: YYYYMMDD-HH
           utcOffset: "+03:00"
 
+      - name: Submission time
+        run: echo "Submitted at ${{ steps.current-time.outputs.readableTime }}" >> $GITHUB_STEP_SUMMARY
+
       - name: Set YEAR
         run: echo "YEAR=${{ steps.current-time.outputs.year }}" >> $GITHUB_ENV
 

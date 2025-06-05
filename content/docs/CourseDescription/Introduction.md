@@ -50,7 +50,7 @@ Your project will be evaluated solely on its merit and functionality. We will fo
 
 Below, you can find a PDF explaining project goals, deliverables and grading scheme:
 
-{{< embed-pdf url="/capstone/Capstone_project2024.pdf" >}}
+{{< embed-pdf url="/course/intro_2025.pdf" >}}
 
 If you have any questions, please, contacts us in telegram.
 

@@ -20,18 +20,18 @@ title: "Week #1"
 
 ### 🚨 Problem Statement
 
-In today’s fast-paced and ever-changing IT landscape, newcomers face an overwhelming number of frameworks, libraries, tools, and learning platforms. Choosing the right career path, identifying the most relevant technologies, and creating a structured learning plan often feels confusing and frustrating—especially without expert guidance.
+In today’s fast-evolving IT field, newcomers face an huge number of frameworks, libraries, tools, and learning platforms. Choosing the right career path, identifying the most relevant technologies, and creating a structured learning plan often feels hard and frustrating without expert guidance.
 
 
 ### 🔍 Market Research
 
-Although several platforms aim to solve similar challenges, each comes with unique advantages and limitations. To shape a more refined and comprehensive solution, our team analyzed **six comparable projects**, identifying key features, shortcomings, and gaps in the current market.
+Although several projects aim to solve similar problem, each comes with unique advantages and limitations. To create a more refined and comprehensive solution, our team analyzed **6 comparable projects**, identifying key features and limitations in the current market.
 
 | **Project Name**                                       | **Link**                                                                  | **Pros**                                                                                                                      | **Cons**                                                                                            |
 | ------------------------------------------------------ | ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| **AI Career Coach by redjules**                        | [GitHub](https://github.com/redjules/ai-career-coach)                     | - Open-source with customizable features<br>- Resume and cover letter builders<br>- Interview preparation via quizzes         | - Requires technical knowledge to set up<br>- Not scalable for large audiences                      |
-| **AI Career Coach by calvin1011**                      | [GitHub](https://github.com/calvin1011/ai-career-coach)                   | - Focus on mock interviews with real-time feedback<br>- Good for practicing technical Q\&A                                    | - Narrow scope—lacks learning path creation and broader planning features                           |
-| **FutureFit AI**                                       | [Website](https://www.futurefit.ai/)                                      | - Career navigation based on real labor market data<br>- Scalable and enterprise-ready<br>- Personal career coaching at scale | - May lack long-term user engagement<br>- Enterprise focus may reduce accessibility for individuals |
+| **AI Career Coach by redjules**                        | [GitHub](https://github.com/redjules/ai-career-coach)                     | - Open-source with customizable features<br>- Interview preparation via quizzes         | - Requires technical knowledge to set up<br>- Not scalable for large audiences                      |
+| **AI Career Coach by calvin1011**                      | [GitHub](https://github.com/calvin1011/ai-career-coach)                   | - Focus on interviews with real-time feedback<br>- Good for practicing technical Q\&A                                    | - Narrow scope and poor planning features                           |
+| **FutureFit AI**                                       | [Website](https://www.futurefit.ai/)                                      | - Career navigation based on real market data<br>- Scalable and enterprise-ready<br>- Personal career coaching at scale | - May lack long-term user engagement<br>- Enterprise focus may reduce accessibility for individuals |
 | **Coach by CareerVillage**                             | [Website](https://www.aicareercoach.org/)                                 | - Research-based and community-backed<br>- Aims to close real skill gaps across populations                                   | - Limited documentation of detailed features and technical capabilities                             |
 | **LearningPath.ai**                                    | [Website](https://learningpath.ai/)                                       | - Curated paths focused on Data & AI careers<br>- Hands-on, project-driven methodology                                        | - Narrow in scope; not ideal for users outside of data/AI domains                                   |
 | **AI Personalized Learning Platform by HemantKumar01** | [GitHub](https://github.com/HemantKumar01/AIPersonalizedLearningPlatform) | - Offers personalized roadmaps with resource recommendations<br>- Simple and practical                                        | - Lacks advanced AI features like interactive coaching or resume creation                           |
@@ -52,7 +52,7 @@ Unlike existing tools, **KIZAK** integrates **career planning**, **AI coaching**
   AI-generated roadmaps based on individual goals, learning pace, and current skill set.
 
 * **🎯 Smart Recommendations**
-  Automatically delivers daily/weekly content from trusted sources (e.g., Coursera, YouTube, Stepik) tailored to user needs.
+  Automatically delivers daily/weekly content from trusted sources (e.g., Coursera, YouTube, Stepik).
 
 * **📄 Resume Generator**
   Dynamically creates a professional resume highlighting skills, courses, and projects as users progress.

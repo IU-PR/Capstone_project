@@ -73,3 +73,13 @@ Unlike existing tools, **KIZAK** integrates **career planning**, **AI coaching**
 
 * **🔐 Secure OAuth Authentication**
   Industry-standard login and data security protocols for smooth and safe user access.
+
+## 👥 User Profiling
+
+## ⚙️ Repo Setup
+You can find the boilerplate and source code for our project in the official repository:
+
+👉 [KIZAK_Capstone](https://github.com/LowIQCoder/KIZAK_Capstone)
+
+All instructions for setting up and running the project locally are available in the repository’s [README.md](https://github.com/LowIQCoder/KIZAK_Capstone/blob/main/README.md) file.
+

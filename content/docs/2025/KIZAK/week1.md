@@ -83,3 +83,5 @@ You can find the boilerplate and source code for our project in the official rep
 
 All instructions for setting up and running the project locally are available in the repository’s [README.md](https://github.com/LowIQCoder/KIZAK_Capstone/blob/main/README.md) file.
 
+## 🛠️ Tech Stack
+

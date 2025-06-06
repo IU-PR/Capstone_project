@@ -54,3 +54,20 @@ title: "Week #1"
 ## Tech-stack
 
 *...*
+
+## *Something else you want to add*
+
+*Feel free to add anything else that you consider important to your report*
+
+
+# Weekly commitments
+
+## Individual contribution of each participant
+
+*...*
+
+## Confirmation of the code's operability
+
+We confirm that the code in the main branch:
+- [ ] In working condition.
+- [ ] Run via docker-compose (or another alternative described in the `README.md`).

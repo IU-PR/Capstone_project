@@ -12,6 +12,8 @@ June 2025
 
 # Team
 
+| Team Member | Role |
+| --- | --- |
 | Gleb Popov | Backend Developer, Project Manager |
 | Timur Usmanov | Backend Developer |
 | Asqar Dinikeev | Backend Developer, DevOps |

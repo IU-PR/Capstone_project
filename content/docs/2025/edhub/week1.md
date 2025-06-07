@@ -12,8 +12,6 @@ June 2025
 
 # Team
 
----
-
 | Gleb Popov | Backend Developer, Project Manager |
 | --- | --- |
 | Timur Usmanov | Backend Developer |
@@ -22,8 +20,6 @@ June 2025
 | Timur Struchkov | Frontend Developer |
 
 # Project Description
-
----
 
 ### Idea
 
@@ -40,8 +36,6 @@ Most existing LMSs have limited functionality and cannot be fully utilized in sc
 On the other hand, a lot of LMSs have awkward website design and cause difficulties in everyday use. For example, [Moodle](https://moodle.org/) platform has extensive functionality, but is too complex to use, requiring clear customization and support at the IT administrator level. In addition, the platform has no assessment of assignments by criteria.
 
 # Roles & User stories
-
----
 
 We have four main roles in our LMS: **Teacher**, **Student**, **Parent**, and **Administrator**. The first three roles operate within a specific course. Any user of LMS can create a course and become a **Teacher** in it or join an already existing course as a **Student**, **Parent**, or an additional **Teacher**.
 
@@ -81,13 +75,9 @@ The role of **Administrator** applies to the entire LMS, its goal is to help use
 
 # Repository
 
----
-
 [https://github.com/IU-Capstone-Project-2025/edhub](https://github.com/IU-Capstone-Project-2025/edhub)
 
 # Tech Stack
-
----
 
 - React framework was chosen as the main **frontend stack** for its component-based architecture, rich ecosystem, and strong community support, enabling rapid UI development.
 - FastAPI Python framework was chosen as the main **backend stack** for its high development speed and extensive documentation

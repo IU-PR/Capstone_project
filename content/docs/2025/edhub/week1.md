@@ -28,7 +28,7 @@ We want to develop a Learning Management System for interaction between teachers
 
 ### Target Users
 
-Our goal is to develop a platform that both school teachers can use in their classes and university professors can use when planning courses. In our project, we want to emphasize the simplicity and usability of the product. We want any school teacher, who does not know much about technology, too be able to use our LMS and improve the quality of an educational process.
+Our goal is to develop a platform that both school teachers and university professors can use in their classes. In our project, we want to emphasize the simplicity and usability of the product. We want any school teacher, who does not know too much about technology, be able to use our LMS to improve the quality of an educational process.
 
 ### Market Research
 

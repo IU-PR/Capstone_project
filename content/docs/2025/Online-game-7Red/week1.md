@@ -47,11 +47,26 @@ title: "Week #1"
 
 ### Target users and their primary needs
 
-*...*
+**Primary Audience**: Gamers who enjoy strategy and card games
+
+ **Primary needs**: 
+Simple rules, but deep strategy - to make it easy to start, but have room to grow
+Fast and fair fights - so that victory cannot be bought
+Progress and rewards - to see your statistics and progress
+Play with friends - to make it more interesting
+
 
 ### User stories
 
-*...*
+1. As a player, I want to join and play the 7Red game online so that I can compete with others in real time.
+
+2. As a new user, I want to register and log in securely so that my game progress and stats are saved.
+
+3. As a player, I want to view my game history and statistics so that I can track my performance over time.
+
+4. As a player, I want to invite friends to private matches so that we can play together in a controlled environment.
+
+5. As a player, I want to customize my profile and avatar so that I can express my identity within the game.
 
 ### Initial scope
 
@@ -61,11 +76,6 @@ title: "Week #1"
 ## Tech-stack
 
 *...*
-
-## *Something else you want to add*
-
-*Feel free to add anything else that you consider important to your report*
-
 
 # Weekly commitments
 

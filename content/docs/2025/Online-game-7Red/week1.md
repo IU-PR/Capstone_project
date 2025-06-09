@@ -10,7 +10,44 @@ title: "Week #1"
 
 **Code repository**: https://github.com/IU-Capstone-Project-2025/Online-game-7Red
 
-*Put here a detailed description of your project and your Problem Statement*
+### Problem Statement:
+Traditional card games like "7Red" are culturally significant but often lack modern digital representations.Players currently have no reliable way to play 7Red online with friends, track their progress, or compete against others globally. The absence of online versions limits the game’s exposure and playability, especially during times when in-person gatherings are not feasible.
+
+This project aims to solve these problems by:
+
+- Digitizing "7Red" with faithful adherence to its rules.
+
+- Enabling multiplayer capabilities, including friend-based private rooms.
+
+- Creating a persistent ecosystem with account tracking, in-game statistics, and achievements.
+
+- Providing options for solo play against AI when other players are not available 
+
+### Project Description:
+
+The application includes the following core components:
+
+1) User Authentication: Secure login and registration system to manage individual player accounts.
+
+2) Main Menu Interface: A central hub for users to access game modes, settings, and statistics.
+
+3) Game Modes:
+
+- Play with Friends: Create and join private game rooms using custom IDs.
+
+- Play Online: Match with random players through a smart matchmaking system.
+
+- Play with AI: Option to play against computer-controlled opponents.
+
+4) Statistics & Achievements Page: Tracks wins, losses, game history, and unlockable achievements to enhance engagement and competition.
+
+5) Rules Page: Provides users with clear instructions and gameplay rules.
+
+6) Settings Page: Allows users to update profile data, change their avatar, and switch languages.
+
+7) Real-Time Multiplayer Infrastructure: A database system to store user accounts and manage the state of live games, ensuring synchronization across devices.
+
+8) Error Handling and UI Feedback: Friendly error messages and loading states for smoother UX.
 
 ### **Team Members**
 
@@ -102,12 +139,15 @@ Play with friends - to make it more interesting
 
 ### Initial scope
 
-*...*
 
 
 ## Tech-stack
 
-*...*
+Frontend - Flame, Flutter (Material, Provider, Riverpod, Shared Preferences)
+Backend - Python (psycopg2) 
+Database - 
+ML - Python (pandas, numpy, pytorch, alpha-zero-general, postgresql(sqlalchemy))
+
 
 # Weekly commitments
 

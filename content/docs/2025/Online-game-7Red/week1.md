@@ -40,6 +40,7 @@ title: "Week #1"
 
 ### Brief market research
 
+
 1. **Multiplayer 7Red (Russian Card Game)**
 
 Market Opportunity:
@@ -52,16 +53,23 @@ Competitors:
 
 - No major polished, standalone 7Red online versions exist. The only competitors  suffer from poor design, bad UX, and slow performance: https://ru.boardgamearena.com/gamepanel?game=redsevengame
 
+Conclusion:
+
+- Strong niche demand with little competition—worth developing 
+
+
 2. **Digital Menu & Order System for Happiness**
 Market Opportunity:
 
-Small cafés often rely on Telegram or phone calls — leading to errors and slow customer service.
+- Small cafés often rely on Telegram or phone calls — leading to errors and slow customer service.
 
 Competitors:
 
-Yandex Eats: Expensive, overkill for small businesses.
+- Yandex Eats: Expensive, overkill for small businesses.
 
-Interviews with café owners reveal: "Happiness café" rejection suggests lack of immediate pain point—indicating a need for better problem-sales fit.
+Conclusion: 
+
+- Interviews with café owners reveal -"Happiness café" rejection suggests lack of immediate pain point—indicating a need for better problem-sales fit.
 
 ## Basic requirements
 
@@ -103,9 +111,15 @@ Play with friends - to make it more interesting
 
 # Weekly commitments
 
-## Individual contribution of each participant
+## м of each participant
 
-*...*
+Palkina Sofia – organized 3 discussion meetings and wrote this report.
+Polina Kostikova – set up Docker and created the basic Git structure.
+Lev Permiakov – wrote code for generating data for the neural network.
+Arina Petuhova – designed the database and implemented its initial version.
+Amir Bairamov – completed the basic Figma version of the project (excluding the game board) and started expanding it.
+
+All team members researched and explored the best tools for the project and discussed the project logic together in meetings.
 
 ## Confirmation of the code's operability
 

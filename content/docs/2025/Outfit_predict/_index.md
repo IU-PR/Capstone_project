@@ -1,4 +1,4 @@
 ---
 bookCollapseSection: true
-title: "Outfit Predict"
+title: "Outfit_predict"
 ---

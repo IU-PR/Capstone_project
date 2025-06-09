@@ -38,10 +38,30 @@ title: "Week #1"
 
 
 
-### Brief market research / problem validation
+### Brief market research
 
-*Put here a brief market research/problem validation for 1–2 ideas*
+1. **Multiplayer 7Red (Russian Card Game)**
 
+Market Opportunity:
+
+- Card games like UNO Online, Hearts, and Exploding Kittens have strong online player bases.
+
+- Traditional 7Red board game have loyal followings but no digital adaptations.
+
+Competitors:
+
+- No major polished, standalone 7Red online versions exist. The only competitors  suffer from poor design, bad UX, and slow performance: https://ru.boardgamearena.com/gamepanel?game=redsevengame
+
+2. **Digital Menu & Order System for Happiness**
+Market Opportunity:
+
+Small cafés often rely on Telegram or phone calls — leading to errors and slow customer service.
+
+Competitors:
+
+Yandex Eats: Expensive, overkill for small businesses.
+
+Interviews with café owners reveal: "Happiness café" rejection suggests lack of immediate pain point—indicating a need for better problem-sales fit.
 
 ## Basic requirements
 
@@ -50,9 +70,13 @@ title: "Week #1"
 **Primary Audience**: Gamers who enjoy strategy and card games
 
  **Primary needs**: 
+
 Simple rules, but deep strategy - to make it easy to start, but have room to grow
+
 Fast and fair fights - so that victory cannot be bought
+
 Progress and rewards - to see your statistics and progress
+
 Play with friends - to make it more interesting
 
 
@@ -86,5 +110,5 @@ Play with friends - to make it more interesting
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:
-- [ ] In working condition.
-- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+- [+] In working condition.
+- [+] Run via docker-compose (or another alternative described in the `README.md`).

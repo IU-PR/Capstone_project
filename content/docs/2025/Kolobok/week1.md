@@ -9,6 +9,7 @@ title: "Week #1"
 ### Project name: *Kolobok*
 
 **Code repository**: [https://github.com/IU-Capstone-Project-2025/Kolobok](https://github.com/IU-Capstone-Project-2025/Kolobok)
+
 Many car service centers offer tire trade-ins, but pricing used tires is slow and error-prone. It typically requires manual measurement of tread depth and a subjective evaluation of spike wear, which is not scalable.
 
 This project uses machine learning to automate tire valuation. Users send two photos of a tire to a Telegram bot. The system then detects the brand and parameters, estimates tread depth, and analyzes the condition of spikes.

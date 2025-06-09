@@ -9,20 +9,23 @@ title: "Week #1"
 ### Project name: *Kolobok*
 
 **Code repository**: [https://github.com/IU-Capstone-Project-2025/Kolobok](https://github.com/IU-Capstone-Project-2025/Kolobok)
+Many car service centers offer tire trade-ins, but pricing used tires is slow and error-prone. It typically requires manual measurement of tread depth and a subjective evaluation of spike wear, which is not scalable.
 
-**
+This project uses machine learning to automate tire valuation. Users send two photos of a tire to a Telegram bot. The system then detects the brand and parameters, estimates tread depth, and analyzes the condition of spikes.
+
+The solution is designed for both car owners and retail employees, reducing manual workload and enabling remote consultations. Developed in response to a real-world need from a mid-sized car services.
 
 ### **Team Members**
 
-| Team Member                             | Telegram Alias   | Email Address                      | Track                                       | Responsibilities   |
-|-----------------------------------------|------------------|------------------------------------|---------------------------------------------|------------------------------------------------------------------------------------------|
-| [Nikita Menshikov (Lead)]               | [@NikitaMensh]   | [n.menshikov@innopolis.university] | [Project Manager]                           | [Team management, reports writing, customer communication, work environment maintenance] |
-| [Nikita Zagainov]                       | [@V1adych]       | [n.zagainov@innopolis.university]  | [ML engineer]                               | [Core models research & development]                                                     |
-| [Vladislav Strelkov]                    | [@motrooo]       | [v.strelkov@innopolis.university]  | [DevOps]                                    | [Product deployment, CI/CD]                                                              |
-| [Sergey Aitov]                          | [@SerggAidd]     | [s.aitov@innopolis.university]     | [Annotator, backend]                        | [Dataset labelling + establishing backend logic]                                         |
-| [Darya Stepanova]                       | [@darriyano]     | [d.stepanova@innopolis.university] | [UX designer]                               | [Construction and verification of telegram bot scenarious]                               |
-| [Ekaterina Petrova]                     | [@vougeress]     | [e.petrova@innopolis.university]   | [Annotator, backend]                        | [Dataset labelling + establishing backend logic]                                         |
-| [Dmitry Tetkin]                         | [@dimasik057]    | [d.tetkin@innopolis.university]    | [Frontend]                                  | [Implementing telegram bot to communicate with the user]                                 |
+| Team Member                           | Telegram Alias | Email Address                    | Track                                     | Responsibilities                                                                       |
+|---------------------------------------|----------------|----------------------------------|-------------------------------------------|----------------------------------------------------------------------------------------|
+| Nikita Menshikov (Lead)               | @NikitaMensh   | n.menshikov@innopolis.university | Project manager                           | Team management, reports writing, customer communication, work environment maintenance |
+| Nikita Zagainov                       | @V1adych       | n.zagainov@innopolis.university  | ML                                        | Core models research & development                                                     |
+| Vladislav Strelkov                    | @motrooo       | v.strelkov@innopolis.university  | DevOps                                    | Product deployment, CI/CD                                                              |
+| Sergey Aitov                          | @SerggAidd     | s.aitov@innopolis.university     | Backend, annotator                        | Dataset labelling + establishing backend logic                                         |
+| Darya Stepanova                       | @darriyano     | d.stepanova@innopolis.university | UX designer                               | Construction and verification of telegram bot scenarious                               |
+| Ekaterina Petrova                     | @vougeress     | e.petrova@innopolis.university   | Backend, annotator                        | Dataset labelling + establishing backend logic                                         |
+| Dmitry Tetkin                         | @dimasik057    | d.tetkin@innopolis.university    | Frontend                                  | Implementing telegram bot to communicate with the user                                 |
 
 
 ## Brainstorming

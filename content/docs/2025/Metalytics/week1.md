@@ -36,7 +36,7 @@ One of the major flaws is that private investors and analysis lack access to pre
 
 1. **Metalytics** - analytical system for forecasting metal prices, Focus on 2–3 metals traded on the Russian financial market. Will include explainability reports.
 2. **Idea 2** - forecasting system for company shares. Similar to Metalytics, but applied to public companies listed on the Moscow Exchange.
-3. **Idead 3** - Asset allocation recommendation system. Helps users decide how to distribute their finances across stocks, bonds or metals.
+3. **Idea 3** - Asset allocation recommendation system. Helps users decide how to distribute their finances across stocks, bonds or metals.
 
 ### Brief market research / problem validation
 

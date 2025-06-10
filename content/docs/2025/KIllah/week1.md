@@ -1,1 +1,129 @@
-hello!
+---
+title: "Week #1"
+---
+
+# Week #1
+
+## Project description
+
+### Project name: Killah 
+
+**Code repository**: https://github.com/IU-Capstone-Project-2025/Killah.git
+
+Killah - AI writing companion that helps people to start, continue writing, and form their ideas using a responsive macOS app with a custom post-trained on-device large language model. Our solution addresses three key problems in current writing tools:
+
+1. **Creative Block**: Helps overcome writer's block with style-consistent suggestions
+2. **Voice-to-Workflow**: Enables seamless transition from voice dictation to polished text
+3. **Style Preservation**: Maintains the author's unique voice through personalized adaptation
+
+Technical foundation:
+- Core model: Google Gemma 3 4B with Low-Rank Adaptation (LoRA)
+- On-device processing for privacy (10GB memory requirement)
+- Hierarchical adaptation layers for style preservation
+- Voice integration via Conformer-based audio processing
+
+
+### **Team Members**
+
+| Team Member | Telegram Alias | Email Address | Track | Responsibilities |
+|------------|---------------|--------------|-------|------------------|
+| [Janna Ivanova] | [@i_jeannee] | [j.ivanova@innopolis.university] | Design | UX/UI design, report maker, manager |
+| [Polina Korobeinikova] | [@poinkaa] | [p.korobeinikova@innopolis.university] | ML |Swift developer for LLM / ML Lead integration |
+| [Vlad Kalinichenko] | [@vladotpad] | [v.kalinichenko@innopolis.university] | Fullstack| UX/UI,LLM Algorithm Lead / Swift Architect |
+| [Kira Maslennikova] | [@NECHEBURASHKA] | [k.maslennikova@innopolis.university] | ML | ML engineer|
+| [Maksim Menshikh] | [@okay1pullup] | [m.menshikh@innopolis.university] | ML | ML Engineer (data & learning)|
+
+## Brainstorming
+
+### Ideas during brainstorming
+
+1. **Selected Concept**: Killah Writing Companion
+   - Key differentiator: Style-consistent assistance (not content replacement)
+   - Technical innovation: On-device personalized LoRA adaptation
+   - UX innovation: Voice-driven writing workflow
+
+2. Alternative Concepts:
+   - Technical documentation generator
+   - Academic writing assistant
+   - Social media content creator
+
+### Brief market research / problem validation
+
+- Problem confirmed by writer surveys (72% struggle with consistency)
+- Existing solutions lack:
+  - Deep personalization (tested ChatGPT/Claude)
+  - Seamless voice-to-text workflow
+  - On-device processing for sensitive content
+- Opportunity in creative writing market ($1.2B sector)
+
+
+## Basic requirements
+
+### Target users and их primary needs
+
+**Primary users:**
+- Fiction writers (style preservation)
+- Journalists (fast drafting)
+- Academic writers (idea formulation)
+- Content creators (voice-first workflow)
+  
+**Core needs:**
+1. Overcoming initial writing resistance
+2. Maintaining consistent voice across documents
+3. Converting spoken ideas to structured text
+4. Privacy-focused writing environment
+
+### User stories
+
+### User stories
+
+1. "As a novelist, I want the AI to continue my draft in my established style so I maintain voice consistency"
+2. "As a journalist, I need to dictate notes and get properly structured drafts"
+3. "As a PhD student, I want help reformulating complex ideas without losing academic tone"
+
+### Initial scope
+
+**MVP Features:**
+- Intelligent text continuation (style-adaptive)
+- Voice dictation with command recognition
+- Document-based personalization (PersonaPlugs)
+- macOS-native editor with caret-centric UI
+- Export to .md, .rtf, .txt
+
+**Technical Scope:**
+- Gemma 3 4B base model
+- 3-layer LoRA architecture (style/audio/task)
+- <10GB memory footprint
+- Swift/SwiftUI implementation
+
+## Tech-stack
+
+**Core components:**
+1. **Model Architecture**:
+   - Base: Google Gemma 3 4B (INT4 quantized)
+   - Adaptation: Hierarchical LoRA (r=64)
+   - Personalization: PersonaPlugs runtime conditioning
+
+2. **Application Layer**:
+   - Platform: macOS (SwiftUI + AppKit)
+   - Audio: Whisper-medium + Conformer encoder
+   - Storage: SwiftData for version history
+
+3. **Training Infrastructure**:
+   - 85-160 A100 GPU-hours estimated
+   - DPO refinement with custom WQRM
+## Weekly commitments
+
+### Individual contribution of each participant
+
+1. [Janna]: Record and assign tasks for the week in a common space. Write a report.
+2. [Polina]: Create a script to run the base model (Gemma 3 4B) for a “common sense” check, implement running a pre-trained language model (Gemma) through a Python script.
+3. [Vlad]: Create an Xcode project using Swift/SwiftUI/AppKit, implement the main application screen with a full text editor based on NSTextView. Add a full toolbar with formatting features.
+4. [Kira]: Prepare audio datasets (LibriSpeech, Common Voice, Open STT), write scripts to process them and prepare them for training.
+5. [Maxim]:Prepare audio datasets (LibriSpeech, Common Voice, Open STT), write scripts to process them and prepare them for training.
+
+## Confirmation of the code's operability
+
+We confirm that the code in the main branch:
+- [x] In working condition.
+- [x] Run via docker-compose (or another alternative described in the `README.md`).

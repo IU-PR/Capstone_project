@@ -43,9 +43,9 @@ Technical foundation:
    - UX innovation: Voice-driven writing workflow
 
 2. Alternative Concepts:
-   - Technical documentation generator
-   - Academic writing assistant
-   - Social media content creator
+   - Technical documentation generator - AI-powered tool that automatically creates and maintains API docs from code comments with version-synced accuracy.
+   - Academic writing assistant - Specialized editor enforcing citation standards and academic style while preventing plagiarism in research papers.
+   - Social media content creator - Platform-specific post generator adapting tone/length to each network while maintaining brand voice consistency.
 
 ### Brief market research / problem validation
 
@@ -72,8 +72,6 @@ Technical foundation:
 2. Maintaining consistent voice across documents
 3. Converting spoken ideas to structured text
 4. Privacy-focused writing environment
-
-### User stories
 
 ### User stories
 

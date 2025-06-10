@@ -8,7 +8,9 @@ title: "Week #1"
 
 ### Project name: Scaffold
 
-**Code repository**: https://github.com/IU-Capstone-Project-2025/LINK_TO_YOUR_REPOSITORY <- ????
+**Code repository**:
+ - [Course Repository](https://github.com/IU-Capstone-Project-2025/scaffold)
+ - [Our Repository](https://github.com/Beer-Bears/scaffold)
 
 Scaffold is a temporary structure used to support a work crew and materials to aid in the construction, maintenance and repair of buildings
 

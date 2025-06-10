@@ -78,7 +78,7 @@ The application includes the following core components:
 ### Brief market research
 
 
-1. **Multiplayer 7Red (Russian Card Game)**
+#### 1. **Multiplayer 7Red (Russian Card Game)**
 
 Market Opportunity:
 
@@ -95,7 +95,7 @@ Conclusion:
 - Strong niche demand with little competition—worth developing 
 
 
-2. **Digital Menu & Order System for Happiness**
+##### 2. **Digital Menu & Order System for Happiness**
 Market Opportunity:
 
 - Small cafés often rely on Telegram or phone calls — leading to errors and slow customer service.
@@ -139,7 +139,42 @@ Play with friends - to make it more interesting
 
 ### Initial scope
 
+#### **MVP 0** – Core Functionality (3 week)
 
+This is the minimal viable version focused on launching the essential mechanics of the game:
+
+- User Authentication: Basic sign-up and sign-in functionality.
+
+- Private Game Rooms: Players can create and join private rooms using a unique room ID and password to play with friends.
+
+- No UI enhancements, statistics, or additional features are included at this stage.
+
+#### **MVP 1** – Fully Functional Release (week 7)
+This version delivers the complete intended functionality for the course project:
+
+- Three Game Modes: private Rooms with friends, online matchmaking with random players, playing against AI (bot).
+
+- Language Switching: Users can change the application language from the settings.
+
+- Modern Design: Polished and user-friendly interface with a consistent design system.
+
+- Statistics Tracking: Displays number of games played, wins, and other basic metrics.
+
+- Achievements: Three unlockable achievements to encourage player engagement.
+
+- Profile Editing: Users can update their avatar, username, and other account-related preferences.
+
+#### **MVP 2** – Future Enhancements (Beyond Current Scope)
+
+These features are potential improvements that may be added later but are not planned for the current course period:
+
+- Email Verification: Validate email addresses through code-based confirmation.
+
+- Two AI Difficulty Levels: Players can choose between easy and hard bots.
+
+- Extended Achievements: Add a larger variety of in-game achievements.
+
+- Chat Functionality: Implement a basic chat with restricted input for communication during games.
 
 ## Tech-stack
 
@@ -156,13 +191,17 @@ ML - Python (pandas, numpy, pytorch, alpha-zero-general, postgresql(sqlalchemy))
 
 ## Individual contribution of each participant
 
-Palkina Sofia – organized 3 discussion meetings and wrote this report.
-Polina Kostikova – set up Docker and created the basic Git structure.
-Lev Permiakov – wrote code for generating data for the neural network.
-Arina Petuhova – designed the database and implemented its initial version.
-Amir Bairamov – completed the basic Figma version of the project (excluding the game board) and started expanding it.
+**Palkina Sofia** – organized 3 discussion meetings and wrote this report.
 
-All team members researched and explored the best tools for the project and discussed the project logic together in meetings.
+**Polina Kostikova** – set up Docker and created the basic Git structure.
+
+**Lev Permiakov** – wrote code for generating data for the neural network.
+
+**Arina Petuhova** – designed the database and implemented its initial version.
+
+**Amir Bairamov** – completed the basic Figma version of the project (excluding the game board) and started expanding it.
+
+**All team members** - researched and explored the best tools for the project and discussed the project logic together in meetings.
 
 ## Confirmation of the code's operability
 

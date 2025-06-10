@@ -12,7 +12,7 @@ title: "Week #1"
 | Merkulov Leonid        | @merkulov_leonid | l.merkulov@innopolis.university | Backend | C# code and DevOps tasks |
 | Ivan Makarov           | @cody_py | i.makarov@innopolis.university | Backend| C# code |
 | Tarubarova Nadia            | @laseiiine | n.tarubarova@innopolis.university | Design | 3D modeling of locations and characters  |
-| Pokhodyaeva Polina         | @polly_p0 | p.pokhodyaeva@innopolis.university | Design | Designing and scatching locations and cha |
+| Pokhodyaeva Polina         | @polly_p0 | p.pokhodyaeva@innopolis.university | Design | Designing and scatching locations and characters |
 
 **Team name** - CodeInno  
 

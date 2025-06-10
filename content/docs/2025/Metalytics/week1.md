@@ -52,7 +52,7 @@ One of the major flaws is that private investors and analysis lack access to pre
 - Much higher volatility due to internal company events (e.g., earnings, scandals).
 - Risk of low-quality predictions due to insufficient public data or noisy trends.
 
-**Conclusion**: Better to gain experience with simpler time series first.
+**Conclusion**: Better to gain experience in metal price analysis with simpler time series first.
 
 
 #### Idea 3

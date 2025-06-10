@@ -10,6 +10,8 @@ title: "Week #1"
 
 **Code repository**: https://github.com/IU-Capstone-Project-2025/Online-game-7Red
 
+**Figma project**: 
+
 ### Problem Statement:
 Traditional card games like "7Red" are culturally significant but often lack modern digital representations.Players currently have no reliable way to play 7Red online with friends, track their progress, or compete against others globally. The absence of online versions limits the game’s exposure and playability, especially during times when in-person gatherings are not feasible.
 
@@ -33,11 +35,11 @@ The application includes the following core components:
 
 3) Game Modes:
 
-- Play with Friends: Create and join private game rooms using custom IDs.
+    - Play with Friends: Create and join private game rooms using custom IDs.
 
-- Play Online: Match with random players through a smart matchmaking system.
+    - Play Online: Match with random players through a smart matchmaking system.
 
-- Play with AI: Option to play against computer-controlled opponents.
+    - Play with AI: Option to play against computer-controlled opponents.
 
 4) Statistics & Achievements Page: Tracks wins, losses, game history, and unlockable achievements to enhance engagement and competition.
 
@@ -116,13 +118,13 @@ Conclusion:
 
 **Primary needs**: 
 
-Simple rules, but deep strategy - to make it easy to start, but have room to grow
+- Simple rules, but deep strategy - to make it easy to start, but have room to grow
 
-Fast and fair fights - so that victory cannot be bought
+- Fast and fair fights - so that victory cannot be bought
 
-Progress and rewards - to see your statistics and progress
+- Progress and rewards - to see your statistics and progress
 
-Play with friends - to make it more interesting
+- Play with friends - to make it more interesting
 
 
 ### User stories
@@ -178,13 +180,13 @@ These features are potential improvements that may be added later but are not pl
 
 ## Tech-stack
 
-Frontend - Flame, Flutter (Material, Provider, Riverpod, Shared Preferences)
+- Frontend - Flame, Flutter (Material, Provider, Riverpod, Shared Preferences)
 
-Backend - Python (psycopg2) 
+- Backend - Python (FastAPI, psycopg2, FastAPI Users, WebSockets, Babel) 
 
-Database - 
+- Database - PostgreSQL
 
-ML - Python (pandas, numpy, pytorch, alpha-zero-general, postgresql(sqlalchemy))
+- ML - Python (pandas, numpy, pytorch, alpha-zero-general, postgresql(sqlalchemy))
 
 
 # Weekly commitments
@@ -199,7 +201,7 @@ ML - Python (pandas, numpy, pytorch, alpha-zero-general, postgresql(sqlalchemy))
 
 **Arina Petuhova** – designed the database and implemented its initial version.
 
-**Amir Bairamov** – completed the basic Figma version of the project (excluding the game board) and started expanding it.
+**Amir Bairamov** – completed the MVP0 Figma version of the project (excluding the game board) and started expanding it.
 
 **All team members** - researched and explored the best tools for the project and discussed the project logic together in meetings.
 

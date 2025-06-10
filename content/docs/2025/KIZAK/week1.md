@@ -8,7 +8,7 @@ title: "Week #1"
 
 ### Project name: *KIZAK*
 
-**Code repository**: https://github.com/LowIQCoder/KIZAK_Capstone
+**Code repository**: https://github.com/IU-Capstone-Project-2025/KIZAK
 
 🚨 **Problem Statement**: In today's fast-evolving IT field, newcomers face overwhelming choices of frameworks, libraries, tools, and learning platforms. Choosing the right career path, identifying relevant technologies, and creating structured learning plans is challenging without expert guidance.
 
@@ -90,16 +90,16 @@ We analyzed 4 comparable projects:
 ## ⚙️ Project Setup
 You can find the boilerplate and source code for our project in the official repository:
 
-👉 [KIZAK_Capstone](https://github.com/LowIQCoder/KIZAK_Capstone)
+👉 [KIZAK_Capstone](https://github.com/IU-Capstone-Project-2025/KIZAK)
 
-All instructions for setting up and running the project locally are available in the repository’s [README.md](https://github.com/LowIQCoder/KIZAK_Capstone/blob/main/README.md) file.
+All instructions for setting up and running the project locally are available in the repository’s [README.md](https://github.com/IU-Capstone-Project-2025/KIZAK/blob/main/README.md) file.
 
 # 📝 Weekly commitments
 
 ## Individual contribution of each participant
 
 - **Marsel**: Project Report, Boilerplate Setup
-  - See our project [repository](https://github.com/LowIQCoder/KIZAK_Capstone)
+  - See our project [repository](https://github.com/IU-Capstone-Project-2025/KIZAK)
 - **Makar**: Market Research and User Profiling
   - See section **Week 1** in our [miro board](https://miro.com/app/board/uXjVIrMw-Nw=/?share_link_id=991909063719)
 - **Maksim**: Market Research and User Profiling

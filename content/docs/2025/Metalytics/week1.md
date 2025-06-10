@@ -34,7 +34,8 @@ One of the major flaws is that private investors and analysis lack access to pre
 
 ### Ideas during brainstorming
 
-*Put here your ranked ideas with short description*
+1. Metalytics - analytical system for forecasting metal prices, Focus on 2–3 metals traded on Russian financial market. Will include explainability reports.
+2. 
 
 ### Brief market research / problem validation
 
@@ -45,24 +46,48 @@ One of the major flaws is that private investors and analysis lack access to pre
 
 ### Target users and their primary needs
 
-*...*
+Our target users include:
+
+- Retail investors — interested in understanding price trends to make better investment decisions in metals.
+- Financial analysts — who need support tools for price forecasting, especially with explainability behind trends.
+- Students  — exploring real-world time series prediction with ML tools.
+
+Their primary needs are:
+- Simple, accessible interface for checking metal forecasts.
+- Trustworthy predictions based on market and external data.
+
 
 ### User stories
 
-*...*
+As a investor, I want to see price forecasts for specific metals so that I can make better trading decisions.
+As a financial analyst, I want to understand why a model made a prediction so that I can assess its reliability.
+As a student interested in ML, I want to explore how external events influence time-series models so that I can learn practical ML skills.
+
 
 ### Initial scope
 
-*...*
+MVP includes:
+- Price prediction for simple and stable for analysing and prediction *gold*.
+- Static frontend with data visualization.
+- Backend with baseline ML models
+
+MVP will not include:
+- Advanced deep learning models.
+- Report generation
+- Volatile metals price prediction
 
 
 ## Tech-stack
 
-*...*
-
-## *Something else you want to add*
-
-*Feel free to add anything else that you consider important to your report*
+| Category       | Tools / Libraries                              | Why we chose them                             |
+|----------------|------------------------------------------------|-----------------------------------------------|
+| ML / Baseline  | scikit-learn                                 | Lightweight, well-documented, great for fast prototyping |
+| Deep Learning  | Keras, TensorFlow, PyTorch, Theano     | For advanced modeling |
+| Metaheuristics | DEAP, scikit-opt, pyswarmpackage         | For experimenting with alternative optimizers |
+| Backend        | FastAPI                                      | Fast, modern, built-in OpenAPI docs           |
+| Frontend       | HTML, CSS, JavaScript                    | Simple static frontend |
+| Data Processing| pandas, NumPy                              | Standard tools for loading and transforming data |
+| Infrastructure | Docker, docker-compose                     | Reproducibility, unified local setup          |
 
 
 # Weekly commitments

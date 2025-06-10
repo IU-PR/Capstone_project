@@ -4,9 +4,9 @@ title: "Week #1"
 
 # Week #1
 
-## Project description
+## **Project description**
 
-### Project name: *KIZAK*
+### **Project name: *KIZAK***
 
 **Code repository**: https://github.com/IU-Capstone-Project-2025/KIZAK
 
@@ -24,16 +24,16 @@ title: "Week #1"
 | Ulyana Chaikovskaya    | @uchaikouskaya      | u.chaikouskaya@innopolis.university | ML        | ML Engineer, NLP              |
 | Kseniia Khudiakova     | @ksksksksksksksushka| k.khudiakova@innopolis.university   | ML        | ML Engineer, NLP              |
 
-## 🧠 Brainstorming
+## 🧠 **Brainstorming**
 
-### 💡 Ideas during brainstorming
+### 💡 **Ideas during brainstorming**
 
 1. **KIZAK AI Career Coach** (Selected) - Comprehensive learning and career guidance platform
 2. AI Concept Assistant - AI powered application for inspecting
 3. Smart Interview Simulator - Real-time technical interview practice tool
 4. Project-Based Learning Platform - Curated project roadmaps for different tech stacks
 
-### 📊 Brief market research / problem validation
+### 📊 **Brief market research / problem validation**
 
 We analyzed 4 comparable projects:
 
@@ -44,15 +44,15 @@ We analyzed 4 comparable projects:
 
 **Key insight:** Existing solutions are either too narrow or too complex, creating a need for an integrated, user-friendly platform.
 
-## 📜 Basic requirements
+## 📜 **Basic requirements**
 
-### 🤖 Target users and their primary needs
+### 🤖 **Target users and their primary needs**
 
 - **Students**: Need structured learning plans and mentorship
 - **Junior Developers**: Require skill improvement and resume building
 - **Career Switchers**: Need efficient roadmaps for transitioning into tech
 
-### 📖 User stories
+### 📖 **User stories**
 
 1. As a **student**, I want to find **good mentor** so that I will get good learning plan
 2. As an **intern**, I want to create a **good resume** to increase my chances of getting an offer from a good company.
@@ -60,7 +60,7 @@ We analyzed 4 comparable projects:
 4. As a **junior developer**, I want to **improve my skills** so that I get better position in company
 5. As a **user**, I want **simple auntefication** so I wont forget my password
 
-### 🔍 Initial scope
+### 🔍 **Initial scope**
 
 * **🔍 Onboarding & Goal Setting**
   Personalized user profiles with skill self-assessment, career goals, and technology preferences.
@@ -73,30 +73,30 @@ We analyzed 4 comparable projects:
   
 ## 🛠️ **Tech Stack**  
 
-### **Backend**  
+* **Backend**  
 - **Flask**  🐍  - A **lightweight** Python web framework for building scalable APIs and backend services.
 - **PostgreSQL** 🐘 - A **powerful**, open-source relational database with strong extensibility and SQL compliance.
 
-### **Frontend**  
+* **Frontend**  
 - **React** ⚛️ - **Fast and popular** JavaScript library for building dynamic, component-based user interfaces.
 - **Next.js** ▲ - React framework for **server-side renderin**g, static sites, and **scalable web apps**.
 - **Tailwind CSS** 🎨 - Utility-first CSS framework for **rapid UI development** with minimal custom CSS.
 - **Redux** 🔄 - **State management** library for predictable global state in JavaScript apps.
 
-### **ML / AI**  
+* **ML / AI**  
 - **LLaMA** 🦙 - Meta’s open-source large language model for **advanced NLP** tasks.
 - **Transformers** 🤗 - Hugging Face’s library for state-of-the-art NLP models
 
-## ⚙️ Project Setup
+## ⚙️** Project Setup**
 You can find the boilerplate and source code for our project in the official repository:
 
 👉 [KIZAK_Capstone](https://github.com/IU-Capstone-Project-2025/KIZAK)
 
 All instructions for setting up and running the project locally are available in the repository’s [README.md](https://github.com/IU-Capstone-Project-2025/KIZAK/blob/main/README.md) file.
 
-# 📝 Weekly commitments
+# 📝 **Weekly commitments**
 
-## Individual contribution of each participant
+## **Individual contribution of each participant**
 
 - **Marsel**: Project Report, Boilerplate Setup
   - See our project [repository](https://github.com/IU-Capstone-Project-2025/KIZAK)

@@ -4,7 +4,7 @@ title: "Week #1"
 
 # Week #1
 
-## **Team Members**
+## 👥 **Team Members**
 
 | Team Member            | Telegram ID          | Email Address                       | Track    | Responsibilities              |
 |------------------------|----------------------|-------------------------------------|----------|-------------------------------|
@@ -43,7 +43,28 @@ We introduce **KIZAK** — an AI-powered learning and career guidance platform b
 
 Unlike existing tools, **KIZAK** integrates **career planning**, **AI coaching**, **daily recommendations**, and **skill tracking** into a unified experience — personalized for every user.
 
-### 🚀 Key Features
+## 👥 **User Profiling**  
+To build a successful product, we must deeply understand our customers—their needs, goals, and challenges.  
+
+### 🎯 **Target Users**  
+Our primary users are professionals and learners in the **IT field**, including:  
+- **Students** seeking structured, high-quality education to kickstart their careers.  
+- **Junior Developers** looking to upskill and gain a competitive edge in the job market.  
+- **Career Switchers** transitioning into tech who need guided roadmaps for efficient learning.
+
+### 💬 **User Stories**  
+User stories help prioritize features based on real needs. Here’s what our users say:  
+
+1. As a **student**, I want to find **good mentor** so that I will get good learning plan
+2. As an **intern**, I want to create a **good resume** to increase my chances of getting an offer from a good company.
+3. As a **career switcher**, I want to **have a roadmap** so that I can efficiently learn new skills
+4. As a **junior developer**, I want to **improve my skills** so that I get better position in company
+5. As a **user**, I want **simple auntefication** so I wont forget my password
+
+## 🚀 Project Features
+
+### 🔑 **Key Features**
+The MVP v0 will focus onthe following essential feature
 
 * **🔍 Onboarding & Goal Setting**
   Personalized user profiles with skill self-assessment, career goals, and technology preferences.
@@ -51,11 +72,14 @@ Unlike existing tools, **KIZAK** integrates **career planning**, **AI coaching**
 * **🧠 ML-Powered Learning Paths**
   AI-generated roadmaps based on individual goals, learning pace, and current skill set.
 
-* **🎯 Smart Recommendations**
-  Automatically delivers daily/weekly content from trusted sources (e.g., Coursera, YouTube, Stepik).
-
 * **📄 Resume Generator**
   Dynamically creates a professional resume highlighting skills, courses, and projects as users progress.
+
+### 🔮 **Future Features**
+Also our team have additional functionality planned for future updates
+
+* **🎯 Smart Recommendations**
+  Automatically delivers daily/weekly content from trusted sources (e.g., Coursera, YouTube, Stepik).
 
 * **💬 AI Career Coach**
   Virtual assistant to:
@@ -73,8 +97,23 @@ Unlike existing tools, **KIZAK** integrates **career planning**, **AI coaching**
 
 * **🔐 Secure OAuth Authentication**
   Industry-standard login and data security protocols for smooth and safe user access.
+Here’s an enhanced version with badges (using emojis and formatting for visual appeal) and minor corrections:  
 
-## 👥 User Profiling
+## 🛠️ **Tech Stack**  
+
+### **Backend**  
+- **Flask**  🐍  - A **lightweight** Python web framework for building scalable APIs and backend services.
+- **PostgreSQL** 🐘 - A **powerful**, open-source relational database with strong extensibility and SQL compliance.
+
+### **Frontend**  
+- **React** ⚛️ - **Fast and popular** JavaScript library for building dynamic, component-based user interfaces.
+- **Next.js** ▲ - React framework for **server-side renderin**g, static sites, and **scalable web apps**.
+- **Tailwind CSS** 🎨 - Utility-first CSS framework for **rapid UI development** with minimal custom CSS.
+- **Redux** 🔄 - **State management** library for predictable global state in JavaScript apps.
+
+### **ML / AI**  
+- **LLaMA** 🦙 - Meta’s open-source large language model for **advanced NLP** tasks.
+- **Transformers** 🤗 - Hugging Face’s library for state-of-the-art NLP models
 
 ## ⚙️ Repo Setup
 You can find the boilerplate and source code for our project in the official repository:
@@ -82,6 +121,3 @@ You can find the boilerplate and source code for our project in the official rep
 👉 [KIZAK_Capstone](https://github.com/LowIQCoder/KIZAK_Capstone)
 
 All instructions for setting up and running the project locally are available in the repository’s [README.md](https://github.com/LowIQCoder/KIZAK_Capstone/blob/main/README.md) file.
-
-## 🛠️ Tech Stack
-

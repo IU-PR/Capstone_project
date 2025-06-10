@@ -8,8 +8,6 @@ Innopolis University
 
 June 2025
 
-Code repository: https://github.com/IU-Capstone-Project-2025/LINK_TO_YOUR_REPOSITORY
-
 </aside>
 
 # Team
@@ -102,8 +100,8 @@ We confirm that the code in the main branch:
 
 | Team Member | Сontribution |
 | --- | --- |
-| Gleb Popov | Backend tech stack chosen, first API commands written, report written |
-| Timur Usmanov | Backend tech stack discussed, database created, first docker-compose written |
-| Asqar Dinikeev | Backend tech stack discussed, code architecture sketches are made up |
-| Alina Suhoverkova | Frontend tech stack chosen, frontend architecture created |
-| Timur Struchkov | Frontend tech stack discussed |
+| Gleb Popov | Backend tech stack chosen, first API commands written, report written. |
+| Timur Usmanov | Backend tech stack discussed, database created, first docker-compose written. |
+| Asqar Dinikeev | Backend tech stack discussed, code architecture sketches are made up. |
+| Alina Suhoverkova | Frontend tech stack chosen, frontend architecture created. |
+| Timur Struchkov | Frontend tech stack discussed. |

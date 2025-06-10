@@ -38,33 +38,73 @@ enabling seamless context injection for large language models (LLMs). And helps 
 
 ## Basic requirements
 
+Parse code into AST and build code graphs
+
+Store in a graph DB (e.g., Neo4j) and vector DB (e.g., Qdrant)
+
+Extract structural/code entity relationships (calls, imports, etc.)
+
+Provide API/CLI for context queries
+
+Support incremental updates (e.g., Git hooks or file watchers)
+
+Enable context injection into LLMs (RAG)
+
+Basic testing and validation tools
+
 ### Target users and their primary needs
 
-*...*
+Developers	Understand and refactor code faster using AI and graph context
+AI Engineers	Provide structured context to LLMs for better accuracy
+Tech Writers	Auto-generate or update documentation from code structure
+QA Engineers	Understand dependencies and test impact of code changes
 
 ### User stories
 
-*...*
+As a developer, I want to find all references to a function to safely rename it.
+
+As an AI engineer, I want structured code context to improve RAG results.
+
+As a tech writer, I want to auto-generate docs from code relationships.
+
+As a QA engineer, I want to trace service dependencies for better test coverage.
 
 ### Initial scope
 
-*...*
+Python code parser → graph + vector DB
+
+Neo4j + Qdrant integration
+
+Basic API/CLI for context lookup
+
+LLM context injection (early RAG prototype)
+
+CLI tool for developers
+
+Basic graph update system (e.g., file watcher)
 
 
 ## Tech-stack
 
-*...*
+Python – Widely used in AI and tooling; ideal for building parsers, integrating LLMs, and rapid prototyping.
 
-## *Something else you want to add*
+Neo4j – Purpose-built graph database optimized for modeling and querying complex code relationships.
 
-*Feel free to add anything else that you consider important to your report*
+VectorDB (e.g., Qdrant) – Enables high-performance semantic search over embedded code/document chunks.
 
+Docker – Provides consistent, containerized environments for development, testing, and deployment.
+
+LLM Chain (e.g., LangChain) – Modular framework for orchestrating Retrieval-Augmented Generation pipelines.
 
 # Weekly commitments
 
 ## Individual contribution of each participant
 
-*...*
+Melnikov Sergei - brainstorming, repository, informtaion research
+Razmakhov Serhei- brainstorming, repository
+Prosvirkin Dmitry - brainstorming, writing report 
+Mashenkov Timofei - brainstorming, informtaion research
+Glazov Sergei - brainstorming, writing report
 
 ## Confirmation of the code's operability
 

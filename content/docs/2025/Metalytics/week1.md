@@ -8,7 +8,7 @@ title: "Week #1"
 
 ### Project name: *Metalytics*
 
-**Code repository**: [https://github.com/IU-Capstone-Project-2025/LINK_TO_YOUR_REPOSITORY](https://github.com/IU-Capstone-Project-2025/Metalytics)
+**Code repository**: [https://github.com/IU-Capstone-Project-2025/Metalytics](https://github.com/IU-Capstone-Project-2025/Metalytics)
 
 #### Description
 The goal of this project is to develop an analytical system for forecasting the prices of specific metals traded on the Russian financial market.
@@ -25,7 +25,7 @@ One of the major flaws is that private investors and analysis lack access to pre
 | Vladimir Toporkov     | @Spectre113 | v.toporkov@innopolis.university | Frontend | Frontend development, team coordination |
 | Ilya Grigorev           | @DavidVista | il.grigorev@innopolis.university | ML | R&D, Filtration design, Model Selection, and ML team coordination |
 | Farit Sharafutdinov            | @Ivenho123 | f.sharafutdinov@innopolis.university | ML | Data collection, preprocessing, and delivery |
-| Rail Sharipov            | @ZilaBu | ra.sharipov@innopolis.university | ML | R&D, Explaratory data analysis, and feature engineering |
+| Rail Sharipov            | @ZilaBu | ra.sharipov@innopolis.university | ML | R&D, Exploratory data analysis, and feature engineering |
 | Askar Kadyrgulov            | @gaha1ad | a.kadyrgulov@innopolis.university | Backend | Development and Operations for backend and ML, scraping functionality |
 | Nikita Solomennikov | @Hikisol | n.solomennikov@innopolis.unisersity | Design | Creating design for frontend |
 
@@ -80,7 +80,7 @@ Their primary needs are:
 
 ### User stories
 
-- As a investor, I want to see price forecasts for specific metals so that I can make better trading decisions.
+- As an investor, I want to see price forecasts for specific metals so that I can make better trading decisions.
 - As a financial analyst, I want to understand why a model made a prediction so that I can assess its reliability.
 - As a student interested in ML, I want to explore how external events influence time-series models so that I can learn practical ML skills.
 
@@ -88,7 +88,7 @@ Their primary needs are:
 ### Initial scope
 
 MVP includes:
-- Price prediction for simple and stable for analysing and prediction *gold*.
+- Price prediction for simple and stable metal (*gold*) to start with
 - Static frontend with data visualization.
 - Backend with baseline ML models
 
@@ -125,12 +125,12 @@ Metalytics/
 # Weekly commitments
 
 ## Individual contribution of each participant
-- Vladimir Toporkov - created github project repository, formalized it, wrote report.
+- Vladimir Toporkov - created GitHub repository, prepared initial structure, wrote full week1 report.
 - Farit Sharafutdinov -  explored available datasets relevant for the task and developed script for automatic extraction and augmentation of dataset.
 - Ilya Grigorev - conducted precious metal market behavior analysis, investigated on filtration design principles, and prepared primal dataset analysis.
 - Rail Sharipov - reading articles and looking at data from Kaggle.
 - Askar Kadyrgulov - started learning fastAPI.
--  Nikita Solomennikov - started learning figma, the rules of making a good page, page structure.
+-  Nikita Solomennikov - Started learning Figma and UI/UX fundamentals.
 
 ## Confirmation of the code's operability
 

@@ -1,4 +1,4 @@
 ---
 bookCollapseSection: true
-title: "Beer Bears: Scaffold"
+title: "Beer Bears"
 ---

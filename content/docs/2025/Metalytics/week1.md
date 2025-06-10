@@ -34,12 +34,33 @@ One of the major flaws is that private investors and analysis lack access to pre
 
 ### Ideas during brainstorming
 
-1. Metalytics - analytical system for forecasting metal prices, Focus on 2–3 metals traded on Russian financial market. Will include explainability reports.
-2. 
+1. **Metalytics** - analytical system for forecasting metal prices, Focus on 2–3 metals traded on the Russian financial market. Will include explainability reports.
+2. **Idea 2** - forecasting system for company shares. Similar to Metalytics, but applied to public companies listed on the Moscow Exchange.
+3. **Idead 3** - Asset allocation recommendation system. Helps users decide how to distribute their finances across stocks, bonds or metals.
 
 ### Brief market research / problem validation
 
-*Put here a brief market research/problem validation for 1–2 ideas*
+#### Metalytics
+- Metal price forecasting is a key task in trading and industrial planning.
+- Many private investors lack access to expert analytics tools.
+- Market volatility makes manual analysis difficult.
+
+**Conclusion**: the idea is timely, realistic, and fills a clear niche.
+
+#### Idea 2
+Requires analysis of company financials or reports.
+Much higher volatility due to internal company events (e.g., earnings, scandals).
+Risk of low-quality predictions due to insufficient public data or noisy trends.
+
+**Conclusion**: Better to gain experience with simpler time series first.
+
+
+#### Idead 3
+- Technically challenging: requires accurate predictions across multiple markets.
+- Relies heavily on external financial APIs and historical datasets.
+- Scope too large for MVP and difficult to evaluate success metrics.
+
+**Conclusion**: The idea is ambitious but out of scope for initial project phase.
 
 
 ## Basic requirements
@@ -59,9 +80,9 @@ Their primary needs are:
 
 ### User stories
 
-As a investor, I want to see price forecasts for specific metals so that I can make better trading decisions.
-As a financial analyst, I want to understand why a model made a prediction so that I can assess its reliability.
-As a student interested in ML, I want to explore how external events influence time-series models so that I can learn practical ML skills.
+- As a investor, I want to see price forecasts for specific metals so that I can make better trading decisions.
+- As a financial analyst, I want to understand why a model made a prediction so that I can assess its reliability.
+- As a student interested in ML, I want to explore how external events influence time-series models so that I can learn practical ML skills.
 
 
 ### Initial scope
@@ -89,15 +110,30 @@ MVP will not include:
 | Data Processing| pandas, NumPy                              | Standard tools for loading and transforming data |
 | Infrastructure | Docker, docker-compose                     | Reproducibility, unified local setup          |
 
+## Project structure
+
+```
+Metalytics/
+├── frontend/           # Client-side application with figma design
+├── backend/            # Server-side logic and API handling
+├── ml/                 # Machine learning models, training, and inference scripts
+├── docker-compose.yml  # Orchestration file for running all services together
+├── .gitignore          # Git exclusion rules
+└── README.md           # Project overview and instructions
+```
 
 # Weekly commitments
 
 ## Individual contribution of each participant
-
-*...*
+- Vladimir Toporkov - created github project repository, formalized it, wrote report.
+- Farit Sharafutdinov -  explored available datasets relevant for the task and developed script for automatic extraction and augmentation of dataset.
+- Ilya Grigorev - conducted precious metal market behavior analysis, investigated on filtration design principles, and prepared primal dataset analysis.
+- Rail Sharipov - reading articles and looking at data from Kaggle.
+- Askar Kadyrgulov - started learning fastAPI.
+-  Nikita Solomennikov - started learning figma, the rules of making a good page, page structure.
 
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:
-- [ ] In working condition.
-- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+- [✓] In working condition.
+- [✓] Run via docker-compose (or another alternative described in the `README.md`).

@@ -28,50 +28,69 @@ The solution is designed for both car owners and retail employees, reducing manu
 | Ekaterina Petrova                     | @vougeress     | e.petrova@innopolis.university   | Backend, annotator                        | Dataset labelling + establishing backend logic                                         |
 | Dmitry Tetkin                         | @dimasik057    | d.tetkin@innopolis.university    | Frontend                                  | Implementing telegram bot to communicate with the user                                 |
 
-
 ## Brainstorming
-
 ### Ideas during brainstorming
+1. **Tire Valuation System** (Chosen):  
+   ML-powered analysis of tire condition through photos
+2. **Virtual Car Detailing Platform**:  
+   App for visualizing car modifications + service pricing
+3. **Automated Maintenance Tracker**:  
+   Service scheduling platform + maintenance history
 
-*Put here your ranked ideas with short description*
-
-### Brief market research / problem validation
-
-*Put here a brief market research/problem validation for 1–2 ideas*
-
+### Brief market research / problem validation (1st idea)
+- No comprehensive solutions combining brand detection, tread measurement and spike analysis
+- One brand detection [solution](https://www.griddynamics.com/blog/how-to-identify-vehicle-tires-using-deep-learning-visual-models) using CV was found, however, we have a better idea (need testing) 
+- 2 car services will be pilot platform for our solution
 
 ## Basic requirements
-
 ### Target users and their primary needs
-
-*...*
+1. **Car owners**:  
+   Quickly value tires for sale/trade-in without visiting service center
+2. **Retail employees**:  
+   Accelerate tire evaluation process during customer interactions
+3. **Service managers**:  
+   Maintain consistent pricing routines across locations
 
 ### User stories
-
-*...*
+1. As a car owner, I want to photograph my tires and get instant valuation of thread depth and spikes condition so I can sell them faster
+2. As retail staff, I need automated tread measurements and spikes analysis to reduce human error in evaluations
+3. As a service manager, I want remote consultation capabilities to scale operations and accelerata processes
 
 ### Initial scope
-
-*...*
-
+| IN Scope (MVP)                          | OUT of Scope                 |
+|-----------------------------------------|------------------------------|
+| Telegram bot interface                  | E-commerce integration       |
+| Tread depth measurement                 | Full tire marketplace        |
+| Spike condition analysis                | Advanced damage detection    |
+| Brand/size detection                    | Multi-platform support       |
 
 ## Tech-stack
+| Component       | Technology                   | Justification                                                  |
+|-----------------|------------------------------|----------------------------------------------------------------|
+| Frontend        | Python (python-telegram-bot) | Team member has an experience developing with this library     |
+| Backend         | Python (FastAPI)             | Async support, ML integration                                  |
+| ML              | PyTorch, OpenCV              | Industry standard for vision tasks                             |
+| Deployment      | Docker                       | Environment consistency, scalability                           |
+| Annotation      | Label Studio                 | Easy deployment on local server, rich annotation capabilities  |
 
-*...*
-
-## *Something else you want to add*
-
-*Feel free to add anything else that you consider important to your report*
-
+## Additional notes
+- Kanban board created for task tracking
+- Initial research on tire measurement algorithms completed
+- Team communication channels established (Telegram)
 
 # Weekly commitments
-
 ## Individual contribution of each participant
-
-*...*
+| Team Member         | Contributions                                                                                                                                               |
+|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Nikita Menshikov    | Project setup, report drafting, kanban board creation                                                                                                       |
+| Nikita Zagainov     | ML research and feasibility analysis [[1](https://arxiv.org/pdf/2302.12242)] [[2](https://arxiv.org/pdf/2105.15203)] [[3](https://arxiv.org/pdf/1409.4842)] |
+| Vladislav Strelkov  | Docker setup                                                                                                                                                |
+| Sergey Aitov        | 20 spike condition annotations                                                                                                                              |
+| Darya Stepanova     | Telegram bot user flow design                                                                                                                               |
+| Ekaterina Petrova   | 20 spike condition annotations                                                                                                                              |
+| Dmitry Tetkin       | "Hello World" Telegram bot implementation                                                                                                                   |
 
 ## Confirmation of the code's operability
-
 We confirm that the code in the main branch:
-- [ ] In working condition.
-- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+- [x] In working condition
+- [x] Run via docker-compose (as described in `README.md`)

@@ -15,11 +15,11 @@ Code repository: https://github.com/IU-Capstone-Project-2025/LINK_TO_YOUR_REPOSI
 # Team
 
 | Team Member | Telegram Alias | Email | Track |
-| --- | --- |
+| --- | --- | --- | --- |
 | Gleb Popov | [https://t.me/gleb_pp](@gleb_pp) | g.popov@innopolis.university | Backend Developer, Project Manager |
 | Timur Usmanov | [https://t.me/error10556](@error10556) | t.usmanov@innopolis.university | Backend Developer, Backend Lead |
 | Asqar Dinikeev | [https://t.me/bailey_64](@bailey_64) | a.dinikeev@innopolis.university | Backend Developer, DevOps |
-| Alina Suhoverkova | [https://t.me/diggoryk](@diggoryk) | @innopolis.university | Frontend Developer, Frontend Lead |
+| Alina Suhoverkova | [https://t.me/diggoryk](@diggoryk) | a.suhoverkova@innopolis.university | Frontend Developer, Frontend Lead |
 | Timur Struchkov | [https://t.me/AlfyKls](@AlfyKls) | t.struchkov@innopolis.university | Frontend Developer |
 
 # Project Description

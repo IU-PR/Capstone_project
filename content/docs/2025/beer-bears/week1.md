@@ -31,12 +31,30 @@ enabling seamless context injection for large language models (LLMs). And helps 
 
 ### Ideas during brainstorming
 
-*Put here your ranked ideas with short description*
+1  Graph-based code context platform for LLMs 
+Translate source code into a graph database (AST, function/class relations) to serve as rich structured context for AI agents. Enables scalable, accurate retrieval of relevant information for code generation and QA.
+
+2  AI codebase companion (Scaffold CLI) 
+CLI tool integrated into developer workflows that allows querying, summarizing, or modifying the codebase using LLMs with graph-backed context.
+
+3  LLM-aware refactoring assistant 
+Leverages code graphs and embeddings to propose or automate safe refactoring operations (rename symbols, split/merge functions, remove dead code).
 
 ### Brief market research / problem validation
 
-*Put here a brief market research/problem validation for 1–2 ideas*
+Idea 1: Graph-based code context platform for LLMs
+Problem: Modern LLMs operate on tokenized text and lack awareness of the structural and semantic organization of real-world codebases. Existing solutions (e.g., embedding chunks into a vector DB) do not capture hierarchical or reference-based relationships well.
 
+Existing solutions: Tools like Sourcegraph Cody, Codeium, and GitHub Copilot use text embeddings but struggle with large-scale project structure and maintaining long-term context.
+
+Validation: Research from OpenAI, Meta, and others highlights the importance of hierarchical and symbolic context in improving AI performance on large-scale code reasoning tasks. Graph-based representations are also used in tools like CodeQL for similar reasons.
+
+Idea 2: LLM-aware refactoring assistant
+Problem: Refactoring at scale (e.g., renaming a core service method used in hundreds of files) is high-risk and hard to reason about, especially across language boundaries.
+
+Existing solutions: IDEs like IntelliJ or VSCode offer local static analysis refactors, but not AI-assisted reasoning or graph-level semantic refactoring.
+
+Validation: Enterprise engineering teams report significant friction in large-scale refactoring, especially when team members are unfamiliar with legacy code or there’s poor documentation. GitHub Copilot lacks this structured reasoning.
 
 ## Basic requirements
 

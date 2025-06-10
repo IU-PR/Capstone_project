@@ -55,7 +55,7 @@ Risk of low-quality predictions due to insufficient public data or noisy trends.
 **Conclusion**: Better to gain experience with simpler time series first.
 
 
-#### Idead 3
+#### Idea 3
 - Technically challenging: requires accurate predictions across multiple markets.
 - Relies heavily on external financial APIs and historical datasets.
 - Scope too large for MVP and difficult to evaluate success metrics.

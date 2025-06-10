@@ -22,7 +22,7 @@ One of the major flaws is that private investors and analysis lack access to pre
 
 | Team Member                             | Telegram Alias   | Email Address   | Track                                       | Responsibilities   |
 |-----------------------------------------|------------------|-----------------|---------------------------------------------|--------------------|
-| Vladimir Toporkov     | @Spectre113 | v.toporkov@innopolis.university | Frontend | Frontend development, team coordination |
+| Vladimir Toporkov (Lead)     | @Spectre113 | v.toporkov@innopolis.university | Frontend | Frontend development, team coordination |
 | Ilya Grigorev           | @DavidVista | il.grigorev@innopolis.university | ML | R&D, Filtration design, Model Selection, and ML team coordination |
 | Farit Sharafutdinov            | @Ivenho123 | f.sharafutdinov@innopolis.university | ML | Data collection, preprocessing, and delivery |
 | Rail Sharipov            | @ZilaBu | ra.sharipov@innopolis.university | ML | R&D, Exploratory data analysis, and feature engineering |

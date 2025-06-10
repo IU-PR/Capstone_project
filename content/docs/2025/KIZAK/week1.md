@@ -74,20 +74,20 @@ We analyzed 4 comparable projects:
 ## 🛠️ **Tech Stack**  
 
 * **Backend**  
-- **Flask**  🐍  - A **lightweight** Python web framework for building scalable APIs and backend services.
-- **PostgreSQL** 🐘 - A **powerful**, open-source relational database with strong extensibility and SQL compliance.
+  - **Flask**  🐍  - A **lightweight** Python web framework for building scalable APIs and backend services.
+  - **PostgreSQL** 🐘 - A **powerful**, open-source relational database with strong extensibility and SQL compliance.
 
 * **Frontend**  
-- **React** ⚛️ - **Fast and popular** JavaScript library for building dynamic, component-based user interfaces.
-- **Next.js** ▲ - React framework for **server-side renderin**g, static sites, and **scalable web apps**.
-- **Tailwind CSS** 🎨 - Utility-first CSS framework for **rapid UI development** with minimal custom CSS.
-- **Redux** 🔄 - **State management** library for predictable global state in JavaScript apps.
+  - **React** ⚛️ - **Fast and popular** JavaScript library for building dynamic, component-based user interfaces.
+  - **Next.js** ▲ - React framework for **server-side renderin**g, static sites, and **scalable web apps**.
+  - **Tailwind CSS** 🎨 - Utility-first CSS framework for **rapid UI development** with minimal custom CSS.
+  - **Redux** 🔄 - **State management** library for predictable global state in JavaScript apps.
 
 * **ML / AI**  
-- **LLaMA** 🦙 - Meta’s open-source large language model for **advanced NLP** tasks.
-- **Transformers** 🤗 - Hugging Face’s library for state-of-the-art NLP models
+  - **LLaMA** 🦙 - Meta’s open-source large language model for **advanced NLP** tasks.
+  - **Transformers** 🤗 - Hugging Face’s library for state-of-the-art NLP models
 
-## ⚙️** Project Setup**
+## ⚙️ **Project Setup**
 You can find the boilerplate and source code for our project in the official repository:
 
 👉 [KIZAK_Capstone](https://github.com/IU-Capstone-Project-2025/KIZAK)
@@ -96,7 +96,7 @@ All instructions for setting up and running the project locally are available in
 
 # 📝 **Weekly commitments**
 
-## **Individual contribution of each participant**
+## 📊 **Individual contribution of each participant**
 
 - **Marsel**: Project Report, Boilerplate Setup
   - See our project [repository](https://github.com/IU-Capstone-Project-2025/KIZAK)

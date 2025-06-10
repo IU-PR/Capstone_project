@@ -114,7 +114,7 @@ Conclusion:
 
 **Primary Audience**: Gamers who enjoy strategy and card games
 
- **Primary needs**: 
+**Primary needs**: 
 
 Simple rules, but deep strategy - to make it easy to start, but have room to grow
 
@@ -144,14 +144,17 @@ Play with friends - to make it more interesting
 ## Tech-stack
 
 Frontend - Flame, Flutter (Material, Provider, Riverpod, Shared Preferences)
+
 Backend - Python (psycopg2) 
+
 Database - 
+
 ML - Python (pandas, numpy, pytorch, alpha-zero-general, postgresql(sqlalchemy))
 
 
 # Weekly commitments
 
-## м of each participant
+## Individual contribution of each participant
 
 Palkina Sofia – organized 3 discussion meetings and wrote this report.
 Polina Kostikova – set up Docker and created the basic Git structure.

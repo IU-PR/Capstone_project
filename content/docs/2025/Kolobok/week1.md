@@ -83,7 +83,7 @@ The solution is designed for both car owners and retail employees, reducing manu
 | Team Member         | Contributions                                                                                                                                               |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nikita Menshikov    | Project setup, report drafting, kanban board creation                                                                                                       |
-| Nikita Zagainov     | ML research and feasibility analysis [[1](https://arxiv.org/pdf/2302.12242)] [[2](https://arxiv.org/pdf/2105.15203)] [[3](https://arxiv.org/pdf/1409.4842)] |
+| Nikita Zagainov     | ML research [[1](https://arxiv.org/pdf/2302.12242)] [[2](https://arxiv.org/pdf/2105.15203)] [[3](https://arxiv.org/pdf/1409.4842)] |
 | Vladislav Strelkov  | Docker setup                                                                                                                                                |
 | Sergey Aitov        | 20 spike condition annotations                                                                                                                              |
 | Darya Stepanova     | Telegram bot user flow design                                                                                                                               |

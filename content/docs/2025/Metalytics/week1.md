@@ -48,9 +48,9 @@ One of the major flaws is that private investors and analysis lack access to pre
 **Conclusion**: the idea is timely, realistic, and fills a clear niche.
 
 #### Idea 2
-Requires analysis of company financials or reports.
-Much higher volatility due to internal company events (e.g., earnings, scandals).
-Risk of low-quality predictions due to insufficient public data or noisy trends.
+- Requires analysis of company financials or reports.
+- Much higher volatility due to internal company events (e.g., earnings, scandals).
+- Risk of low-quality predictions due to insufficient public data or noisy trends.
 
 **Conclusion**: Better to gain experience with simpler time series first.
 

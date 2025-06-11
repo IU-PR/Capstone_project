@@ -66,13 +66,13 @@ Tutors & Mentors Module
 
 | Team Member                             | Telegram Alias   | Email Address   | Track                                       | Responsibilities   |
 |-----------------------------------------|------------------|-----------------|---------------------------------------------|--------------------|
-| Andruwenko Valery     | @valery2005and | v.andruwenko@innopolis.university | ML developer | ML models,  |
-| Chugaeva Mariia            | @mariiachugaeva | m.chugaeva@innopolis.university | ML developer | ML models, |
+| Andruwenko Valery     | @valery2005and | v.andruwenko@innopolis.university | ML developer, Data Analytic | ML models, Data Collection |
+| Chugaeva Mariia            | @mariiachugaeva | m.chugaeva@innopolis.university | Frontend developer, Data Analytic | App development, Data Collection |
+| Zakirov Karim            | @karimzakirov | k.zakirov@innopolis.university | Frontend developer | App development |
+| Mayorov Daniil | @Daniil20xx | d.mayorov@innopolis.university | Backend developer | Database interactions, Backend Development |
+| Antipov Alexey | @Aleksey_Antipov1725 | a.antipov@innopolis.university | Backend developer | Database interactions, Backend Development |
 | Basanov Maxim            | @scruffyscarf | m.basanov@innopolis.university | Project Manager | Team coordination, Documentation responsible |
-| Kuchukbaeva Regina            | The Grand Architecton | r.kuchukbaeva@innopolis.university | Frontend developer, Designer | Figma design,  |
-| Zakirov Karim            | @karimzakirov | k.zakirov@innopolis.university | Frontend developer | [Responsibilities] |
-| Mayorov Daniil | @Daniil20xx | d.mayorov@innopolis.university | Backend developer | [Responsibilities] |
-| Antipov Alexey | @Aleksey_Antipov1725 | a.antipov@innopolis.university | Backend developer | [Responsibilities] |
+| Kuchukbaeva Regina            | The Grand Architecton | r.kuchukbaeva@innopolis.university | UX/UI-Designer | Figma design  |
 
 
 ## Brainstorming
@@ -162,23 +162,27 @@ Cons:
 4. Design - Figma
    - Figma for easy and convenient operation with each component of design
 
+## *Something else you want to add*
+
+Here is our Figma table with all future implementation - https://www.figma.com/design/kw2m1A0ArR9Tb4Obcb2FPx/Smartify?node-id=30-8511
+
 # Weekly commitments
 
 ## Individual contribution of each participant
 
 **Andruwenko Valery** – 
 
-**Chugaeva Mariia** – 
+**Chugaeva Mariia** – Logo app implementation and data base of university collection
 
-**Basanov Maxim** – 
+**Zakirov Karim** – The first page, which is displayed when the user log in to the system, implements a basic interface with a welcome message, registration page with a user data entry form
 
-**Kuchukbaeva Regina** – 
+**Mayorov Daniil** and **Antipov Alexey** - discussed how the architecture of the project will look in general, thought about which protocols to use to communicate between different parts of the project - created a picture of architecture. discussed the structure of the project - was created a new branch with folder structure
 
-**Zakirov Karim** – 
+**Basanov Maxim** – Establishing communication between each participants, emerging problem solving, GitHub maintaining
 
-**Mayorov Daniil** - 
+**Kuchukbaeva Regina** – Basic view of app implementation: drawed sign up, log in, password validation and forgot password algorithms
 
-**Antipov Alexey** - 
+
 
 ## Confirmation of the code's operability
 

@@ -219,10 +219,6 @@ What is being added:
 4. Design - Figma
    - Figma for easy and convenient operation with each component of design
 
-## *Something else you want to add*
-
-Here is our Figma table with all future implementation - https://www.figma.com/design/kw2m1A0ArR9Tb4Obcb2FPx/Smartify?node-id=30-8511
-
 # Weekly commitments
 
 ## Individual contribution of each participant

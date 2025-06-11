@@ -131,9 +131,9 @@ Metalytics/
 - **Farit Sharafutdinov** -  explored available datasets relevant for the task and developed script for automatic extraction and augmentation of dataset. `calculate_indicators.py and fetch_gold_ohlcv.py` [in Metalytics repository](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/main/ml) the work result.
 - **Ilya Grigorev** - performed preliminary market behavior analysis of gold prices, investigated filter design principles, and [prepared](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/main/ml/notebooks) an in-depth exploratory notebook focused on volatility and preprocessing.
 - **Rail Sharipov** - Explored Kaggle [datasets](https://www.kaggle.com/datasets) and began reviewing external data sources.
-- **Askar Kadyrgulov** - started studying FastAPI and backend architecture principles. Wrote down [API endpoints](https://github.com/IU-Capstone-Project-2025/Metalytics?tab=readme-ov-file#-waypoints) (here is the link to [commit](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/abca836639860abae82ae0552e7677796cf40699?tab=readme-ov-file#-waypoints))
--  **Nikita Solomennikov** - Created a [logo](https://raw.githubusercontent.com/IU-Capstone-Project-2025/Metalytics/main/frontend/img/logo.png
-) for the site, began learning Figma and UI/UX fundamentals to design user-facing components.
+- **Askar Kadyrgulov** - started studying FastAPI and backend architecture principles. Wrote down [API endpoints](https://github.com/IU-Capstone-Project-2025/Metalytics?tab=readme-ov-file#-waypoints) in readme section and created basic [template in backend](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/backend/main.py).
+-  **Nikita Solomennikov** - Created a [logo.png](https://raw.githubusercontent.com/IU-Capstone-Project-2025/Metalytics/main/frontend/img/logo.png
+) for the site and adapted it to [vector form](https://raw.githubusercontent.com/IU-Capstone-Project-2025/Metalytics/5fdc249a0b8b69aab1e35e83e8c0186c44d86aaf/frontend/img/logo.svg), began learning Figma and UI/UX fundamentals to design user-facing components.
 
  ### Plans for the next week:
 - Create the first version of the UI prototype in Figma.

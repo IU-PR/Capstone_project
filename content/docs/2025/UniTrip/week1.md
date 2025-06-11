@@ -7,7 +7,8 @@ title: "Week #1"
 ## Project description
 
 ### Project name: UniTrip
-**Code repository**: https://github.com/IU-Capstone-Project-2025/UniTrip
+**Code repository**: https://github.com/IU-Capstone-Project-2025/UniTrip  
+Unity version - 2022.3.56f1
 
 ### Detailed description
 Our project is the Unity game where the player can walk through the main areas of the university (main hall and dormitory), interacting with the NPC(students/professors) and objects in locations to learn about life in Innopolis through mini-quests and dialogues.
@@ -118,9 +119,9 @@ Easy in use, could be automized by Github actions
 # Weekly commitments
 
 ## Individual contribution of each participant
-Marina Lavrova(Lead) - organized work, brainstorm ideas and create a draft roadmap  
-Merkulov Leonid - learned the deploy tools, start to create a plot of the game  
-Ivan Makarov - brainstorm ideas, discussed with customer, start to create the plot of the game    
+Marina Lavrova(Lead) - organized work, brainstorm ideas and create a draft [roadmap](https://www.figma.com/file/mKd4J2YIo0d3aj9GmMZOZ8?node-id=61-28&t=Pb7lIIqvWFRYL6yj-0&type=whiteboard&fuid=730113520731516840)  
+Merkulov Leonid - learned the deploy tools, start to create a [plot](https://docs.google.com/document/d/1iMLAHSx76uULx53z7i-xRVh0EfPteNgj682SRBlNNjo/edit?usp=share_link) of the game  
+Ivan Makarov - brainstorm ideas, discussed with customer, start to create the [plot](https://docs.google.com/document/d/1iMLAHSx76uULx53z7i-xRVh0EfPteNgj682SRBlNNjo/edit?usp=share_link) of the game    
 Tarubarova Nadia - started creating the [first location](https://drive.google.com/drive/folders/1tOgQVp6NgdZlooWGwSPTcuapUi9yx5kQ?usp=share_link) in Blender  
 Pokhodyaeva Polina - started creation [makets](https://drive.google.com/drive/folders/10yk3KXb1-QyhiQZRcKuYPSGiJnsx5py9?usp=sharing)  with design for first location and main character  
 

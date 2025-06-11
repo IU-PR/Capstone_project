@@ -7,7 +7,7 @@ PALTUS team. Report 1
 https://github.com/IU-Capstone-Project-2025/PALTUS  
 
 ## Project Idea  
-An AI-powered self-learning planner that helps users create personalized study plans for any topic, using GigaChat to generate lessons, structure schedules, and track progress with gamification to maintain engagement.
+An AI-powered self-learning planner that helps users create personalized study plans for any topic, using AI-model to generate lessons, structure schedules, and track progress with gamification to maintain engagement. User can add a course using AI-model interaction: user writes that he wants to learn some discipline, adds amount of lessons and available time, then AI-model generates a full course depending on user’s preferences and requested topic. The main goal - courses are built to fit user’s comfort and free time. Lessons include an option to edit the course model or lesson topics, add notes on each lesson and see the description of the generated course. Everything is customisable individually, starting from lesson amount and lesson duration, ending with calendar dates and time. There will be an option to give feedback to in a chat with AI-model after lesson or a course.
 
 ## Problem Statement  
 Many students and self-learners struggle to structure their self-study process, leading to inconsistencies and inefficiencies. Existing platforms lack personalization and flexibility, often resulting in lost motivation.
@@ -73,3 +73,22 @@ Our validation shows that:
 ### Backend  
 - **Java Spring Boot**  
   *Justification:* Selected for robustness, scalability, and a strong ecosystem for RESTful APIs. Includes powerful tools for authentication, scheduling, and database interactions.
+
+## Weekly commitments #
+1. Sergey Knyazkin (lead):
+   - Configured Docker for frontend
+   - Added Frontend configuration (boilerplate)
+   - Created design in Figma
+2. Aidar Sarvartdinov:
+   - Created overall idea and most functions
+   - Added backend configuration
+3. Amir Fayzullin:
+   - Created a prompt for AI-model
+4. Ramazan Gizamov:
+   - Wrote report
+   - Helped with design in Figma
+5. Igor Dubrovsky
+   - Explored available LLM models and their API to utilize them in the project
+   - Configured Docker for backend
+6. Danil Demin
+   - Suggested format for JSON used in prompt

@@ -123,20 +123,25 @@ LLM Chain (e.g., LangChain) – Modular framework for orchestrating Retrieval-Au
 Melnikov Sergei
  - brainstorming,
  - [READme and structure of repository](https://github.com/Beer-Bears/scaffold/pull/2),
+ - [Excalidraw Scheme](https://excalidraw.com/#json=8DxFWGT66eisYHShw5etd,FTPXATItDi33jkpVtVr54A),
  - informtaion research
-Razmakhov Serhei
+Razmakhov Sergey
  - brainstorming,
+ - [Excalidraw Scheme](https://excalidraw.com/#json=8DxFWGT66eisYHShw5etd,FTPXATItDi33jkpVtVr54A),
  - repository
 Prosvirkin Dmitry
  - brainstorming,
- - writing report
+ - writing report,
+ - [Excalidraw Scheme](https://excalidraw.com/#json=8DxFWGT66eisYHShw5etd,FTPXATItDi33jkpVtVr54A),
  - [Google Docs description](https://docs.google.com/document/d/1K4CPKvia2kNnlKm9MNFnxmQRqHM1KS_lJMJzueEnQVE/edit?usp=sharing) 
 Mashenkov Timofei
  - brainstorming,
- - informtaion research
+ - [Excalidraw Scheme](https://excalidraw.com/#json=8DxFWGT66eisYHShw5etd,FTPXATItDi33jkpVtVr54A),
 Glazov Sergei
  - brainstorming,
- - writing report
+ - informtaion research,
+ - [Excalidraw Scheme](https://excalidraw.com/#json=8DxFWGT66eisYHShw5etd,FTPXATItDi33jkpVtVr54A),
+
 
 ## Confirmation of the code's operability
 

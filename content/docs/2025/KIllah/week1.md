@@ -124,6 +124,8 @@ by addressing the fundamental weaknesses of AI tools from frontier labs (harm fr
 4. [Maxim]: Prepare audio datasets (LibriSpeech, Common Voice, Open STT)
 5. [Kira]: Write scripts to download and process datasets.
 
+![first week progress](https://github.com/vladkalinichencko/Killah/blob/master/content/docs/2025/KIllah/First%20week%20progress.jpg)
+
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:

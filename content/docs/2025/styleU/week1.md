@@ -32,7 +32,7 @@ Develop an AI-powered stylist that provides personalized outfit suggestions base
 ---
 ## 2) Brainstorming
 
-### Ideas during brainstorming besides choosen one:
+### Ideas during brainstorming:
 
 1) **An AI platform that takes student notes or topics and auto-generates:**
 
@@ -55,7 +55,7 @@ Develop an AI-powered stylist that provides personalized outfit suggestions base
     Build an AR/VR app that allows students to perform physics, chemistry, or biology experiments virtually when labs are unavailable.
     Great for remote learners or budget-constrained institutions. 
 
-4) **AI-powered stylist that provides personalized outfit suggestions based on user input**
+4) **AI-powered stylist that provides personalized outfit suggestions based on user input** (choosen one)
 
     Features include:
 

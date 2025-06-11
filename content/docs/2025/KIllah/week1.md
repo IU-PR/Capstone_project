@@ -49,12 +49,13 @@ Technical foundation:
 
 ### Brief market research / problem validation
 
-- Problem confirmed by writer surveys (72% struggle with consistency)
-- Existing solutions lack:
-  - Deep personalization (tested ChatGPT/Claude)
-  - Seamless voice-to-text workflow
-  - On-device processing for sensitive content
-- Opportunity in creative writing market ($1.2B sector)
+
+In the process of writing posts in the telegram channel, we have encountered the problem that neural networks cannot provide quality assistance to writers of this kind. Chat gpt and other similar neural networks completely invent the text for you, and if they edit yours, the result of their work is completely different from your writing style most often. When trying to use such technologies, you may also face the problem of AI slop.  In his essay “How to Get Startup Ideas”, Paul Graham recommends that startups create products that solve their own problems, which is what we decided to follow
+
+
+## Unique market position
+
+by addressing the fundamental weaknesses of AI tools from frontier labs (harm from RLHF and over-reliance on user preference and safety that reduces creativity and uniqueness) we're taking a promising product-market fit
 
 
 ## Basic requirements

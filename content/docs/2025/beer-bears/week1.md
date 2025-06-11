@@ -23,7 +23,7 @@ enabling seamless context injection for large language models (LLMs). And helps 
 | :-------------- | :--------------- | :---------------------- | :------------ | :---------------------------------------- |
 | Melnikov Sergei        | @peplxx        | s.melnikov@innopolis.university        | Project Owner       | Team Management, RAG Algorithms |
 | Razmakhov Serhei      | @onemoreslacker       | s.razmakhov@innopolis.university         | Developer      | Languages parsers, AT Generation |
-| Prosvirkin Dmitry | @dmitry5567          | d.prosvirkin@innopolis.university          | Developer        | Vector, Graph Database Management|
+| Prosvirkin Dmitry | @dmitry5567          | d.prosvirkin@innopolis.university          | Developer        | Vector, Graph Database Management |
 | Mashenkov Timofei  | @mashfeii       | t.mashenkov@innopolis.university      | Developer  |  Context Fethcing Algotihm |
 | Glazov Sergei      | @pushkin404          | s.glazov@innopolis.university       |  QA        | QA Research, MCP Analysis|
 
@@ -120,11 +120,23 @@ LLM Chain (e.g., LangChain) – Modular framework for orchestrating Retrieval-Au
 
 ## Individual contribution of each participant
 
-Melnikov Sergei - brainstorming, repository, informtaion research
-Razmakhov Serhei- brainstorming, repository
-Prosvirkin Dmitry - brainstorming, writing report 
-Mashenkov Timofei - brainstorming, informtaion research
-Glazov Sergei - brainstorming, writing report
+Melnikov Sergei
+ - brainstorming,
+ - [READme and structure of repository](https://github.com/Beer-Bears/scaffold/pull/2),
+ - informtaion research
+Razmakhov Serhei
+ - brainstorming,
+ - repository
+Prosvirkin Dmitry
+ - brainstorming,
+ - writing report
+ - [Google Docs description](https://docs.google.com/document/d/1K4CPKvia2kNnlKm9MNFnxmQRqHM1KS_lJMJzueEnQVE/edit?usp=sharing) 
+Mashenkov Timofei
+ - brainstorming,
+ - informtaion research
+Glazov Sergei
+ - brainstorming,
+ - writing report
 
 ## Confirmation of the code's operability
 

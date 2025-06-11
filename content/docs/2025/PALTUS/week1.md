@@ -23,14 +23,14 @@ Many students and self-learners struggle to structure their self-study process, 
 | Igor Dubrovsky          | @chomosuce       | i.dubrovsky@innopolis.university  | Backend                  | Writing logic for GPT interaction                                                |
 | Danil Demin             | @degradatorus    | da.demin@innopolis.university     | Frontend                 | Creating frontend components and views                                           |
 
-## Brainstorming #  
+## Brainstorming   
 **Ideas during brainstorming #**  
 1. **AI Study Planner (Chosen idea)** — An AI-powered self-learning planner that helps users create personalized study plans for any topic, using AI-model to generate lessons, structure schedules, and track progress with gamification to maintain engagement.  
 2. **Smart Scheduler Bot** — A Telegram bot that understands free-form user input about upcoming tasks or events, adds them to a calendar, and sends reminders in advance. Could be integrated with Google Calendar API.  
 3. **MeetDev** — A web platform to help developers find pet projects and teammates by stack and experience level. Aimed at beginners looking for practice and teams searching for collaborators.  
 4. **CarsToBuy** — A web service that aggregates reviews, listings from popular marketplaces, and technical data for each car model to help users make informed purchasing decisions.  
 
-## Brief market research / problem validation #  
+## Brief market research / problem validation  
 The current learning platforms offer structured courses but limited flexibility and personalization. Many self-learners report a lack of motivation due to rigid course structures and insufficient feedback on progress. Our idea addresses this by generating personalized study plans and tracking individual progress dynamically, which makes learning more adaptable and engaging.
 
 Our validation shows that:

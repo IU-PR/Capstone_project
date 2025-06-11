@@ -125,6 +125,8 @@ by addressing the fundamental weaknesses of AI tools from frontier labs (harm fr
    Commits:
    - https://github.com/vladkalinichencko/Killah-Prototype/commit/6d14b3d666d7d188c80a8e29d1cdce2977d749f9
    - https://github.com/vladkalinichencko/Killah-Prototype/commit/ee3b8fc56d2d7cf7e2774da489a2fc5f5d343f05
+   ![first week progress](https://github.com/vladkalinichencko/Killah/blob/master/content/docs/2025/KIllah/First%20week%20progress.jpg)
+
 4. [Vlad]: Create an Xcode project using Swift/SwiftUI/AppKit, implement the main application screen with a full text editor based on NSTextView. Add a toolbar with formatting features.
 
    Commits:
@@ -138,8 +140,6 @@ by addressing the fundamental weaknesses of AI tools from frontier labs (harm fr
 
    Commits:
    
-
-![first week progress](https://github.com/vladkalinichencko/Killah/blob/master/content/docs/2025/KIllah/First%20week%20progress.jpg)
 
 ## Confirmation of the code's operability
 

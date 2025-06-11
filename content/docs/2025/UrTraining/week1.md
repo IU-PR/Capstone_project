@@ -220,7 +220,7 @@ During the first week, our team held several meetings to discuss the core idea o
 | Salavat Faizullin     | Project structure in the backend repository and backend boilerplate. | [Link](https://github.com/IU-Capstone-Project-2025/UrTraining/commit/710769b81cc04adb63e957c29aafb28065ab6e6b) |
 | Egor Chernobrovkin    | Template prototypes for the /ml folder, documentation related to user flow (client form with questionnaire for model-based trainings selection), dataset collection. | [Link](https://github.com/IU-Capstone-Project-2025/UrTraining/commit/0445e2c16732834f7cc2ce975dca329b3d78baa4) |
 | Alexandra Starikova   | Dataset collection, documentation for cards of trainings and coach advanced registration form. | [Link](https://github.com/IU-Capstone-Project-2025/UrTraining/commit/9c24703b77b2515fe01284a8c1e85289eb0a5e0a) |
-| Ilona Dziurava        | Report writing, start of backlog creation. Backlog link: [urtraining.yougile.com](https://urtraining.yougile.com) | N/A |
+| Ilona Dziurava        | Report writing, start of backlog creation. | [Link](https://urtraining.yougile.com) |
 | Anisya Kochetkova     | Project structure in the backend repository, added boilerplates for courses "get" endpoints, simplified concept of login system and utils. | [Link](https://github.com/IU-Capstone-Project-2025/UrTraining/commit/dd42e75c9b8516b0741d2118fcf94203b93588d8) |
 
 ## Challenges & Solutions

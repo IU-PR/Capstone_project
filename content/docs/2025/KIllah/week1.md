@@ -119,7 +119,8 @@ by addressing the fundamental weaknesses of AI tools from frontier labs (harm fr
 ### Individual contribution of each participant
 
 1. [Janna]: Record and assign tasks for the week in a common space. Write a report. Create a design for the main screen of the application, including the text editor and toolbar. Start iterating on logo design.
-2. [Polina]: Create a script to run the base model (Gemma 3 4B) for a “common sense” check, implement running a pre-trained language model (Gemma) through a Python script.
+   ![editor window](https://github.com/vladkalinichencko/Killah/blob/master/content/docs/2025/KIllah/editor-window-overview.png)
+3. [Polina]: Create a script to run the base model (Gemma 3 4B) for a “common sense” check, implement running a pre-trained language model (Gemma) through a Python script.
 
    Commits:
    - https://github.com/vladkalinichencko/Killah-Prototype/commit/6d14b3d666d7d188c80a8e29d1cdce2977d749f9
@@ -127,6 +128,7 @@ by addressing the fundamental weaknesses of AI tools from frontier labs (harm fr
 4. [Vlad]: Create an Xcode project using Swift/SwiftUI/AppKit, implement the main application screen with a full text editor based on NSTextView. Add a toolbar with formatting features.
 
    Commits:
+   - https://github.com/vladkalinichencko/Killah-Prototype/commit/edf785026cc31d308114ecc4fcea35a32d5febfb
    
 6. [Maxim]: Prepare audio datasets (LibriSpeech, Common Voice, Open STT)
 

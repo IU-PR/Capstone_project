@@ -10,7 +10,7 @@ title: "Week #1"
 
 **Code repository**: https://github.com/vladkalinichencko/Killah-Prototype/
 
-Killah - AI writing companion that helps people start, continue writing, and form their ideas using a responsive macOS app with a custom post-trained on-device large language model. Our solution addresses three key problems in current writing tools:
+Killah - is an AI writing companion that helps people start, continue writing, and form their ideas using a responsive macOS app with a custom post-trained on-device large language model. Our solution addresses three key problems in current writing tools:
 
 1. **Creative Block**: Helps overcome writer's block with style-consistent suggestions
 2. **Voice-to-Workflow**: Enables seamless transition from voice dictation to polished text

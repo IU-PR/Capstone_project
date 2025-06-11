@@ -8,7 +8,7 @@ title: "Week #1"
 
 ### Project name: Killah 
 
-**Code repository**: https://github.com/IU-Capstone-Project-2025/Killah.git
+**Code repository**: https://github.com/vladkalinichencko/Killah-Prototype/
 
 Killah - AI writing companion that helps people start, continue writing, and form their ideas using a responsive macOS app with a custom post-trained on-device large language model. Our solution addresses three key problems in current writing tools:
 

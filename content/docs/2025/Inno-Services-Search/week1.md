@@ -91,14 +91,16 @@ Advanced case
 ### Initial scope
 
 - Search bar accepting text queries
-- Responses containing keywords from my query with a link to the original service
+- Responses containing keywords from my query with a link to the original service  
+
 Proposed sources of information:
 - [EduWiki](https://eduwiki.innopolis.university/index.php/AcademicCalendar)
 - [Moodle](https://moodle.innopolis.university/)
 - Professors' database
 - [Campus Life](http://campuslife.innopolis.ru/) information
 - [Dorm website](https://hotel.innopolis.university/) information
-- Maps, schedule, sports website (see [one-zero-eight projects](https://github.com/one-zero-eight))
+- Maps, schedule, sports website (see [one-zero-eight projects](https://github.com/one-zero-eight))  
+
 Many more sources available, but these are the main ones.
 
 ## Tech-stack
@@ -109,7 +111,7 @@ Many more sources available, but these are the main ones.
 - **FastAPI:** A modern, fast (high-performance) web framework for building APIs with Python 3.6+ based on standard
   Python type hints.
 - **MongoDB:** As our database solutions to efficiently store and manage data from various data sources (schema-less)
-- **Chroma/lancedb/weaviate (choice TBD):** Vector database to store embedded information for content-meaningful search.
+- **Chroma/lancedb/weaviate (the choice is expected to be made closer to practice when there is more information about the format of the parsed data):** Vector database to store embedded information for content-meaningful search.
 
 **Frontend:**
 
@@ -118,7 +120,7 @@ Many more sources available, but these are the main ones.
 - **TailwindCSS:** A utility-first CSS framework for rapid UI development with consistent and responsive design.
 
 **ML**
-- **Langchain, embeddings (TBD):** To implement the Retrieval-Augmented Generation (RAG) pipeline for generating search results.
+- **Langchain, embeddings (choice is expected to be made based on performance with test data):** To implement the Retrieval-Augmented Generation (RAG) pipeline for generating search results.
 
 ## About using one-zero-eight repositories:
 ### Frontend:
@@ -131,13 +133,13 @@ we will use a project created as a search for moodle materials and will add sear
 
 ## Individual contribution of each participant
 
-| Team Member           | Contribution                                                                                    | 
-|-----------------------|-------------------------------------------------------------------------------------------------|
-| Anna Belyakova (Lead) | Updated one-zero-eight repositories (configured launch via docker, removed irrelevant ml usage) |
-| Vladimir Paskal       | Wrote user stories, studied the source repository of the backend                                |
-| Azaliia Alisheva      | Studied the source repository of the backend, searched for info services for the project        |
-| Aliia Bashirova       | Studied the repository of the frontend, hepled with report writing                              |
-| Sofia Pushkareva      | Studied vector databases                                                                        |
+| Team Member           | Contribution                                                                                    | Artefacts | 
+|-----------------------|-------------------------------------------------------------------------------------------------|-----------|
+| Anna Belyakova (Lead) | Updated one-zero-eight repositories (configured launch via docker, removed irrelevant ml usage), outlined the immediate tasks for all areas of project work |[Commit](https://github.com/IU-Capstone-Project-2025/Inno-Services-Search-Backend/commit/b0aa0b004c8e38896866f57516450f698ba51fdd), [team management artefacts](https://docs.google.com/document/d/1WamLxAam8864_ut_-ajJb7jrpumyyM21-jONnoYv8Xc/edit?usp=sharing)|
+| Vladimir Paskal       | Wrote user stories, studied one-zero-eight repositories to find out which services already have APIs, prioritized services for parsing (to start from the most accessible)| [List of services to start from and their API if available](https://docs.google.com/document/d/1XM7tfhPSQ2npRn6oPqqCARInRovXSG4OaiP1dlMo2fk/edit?usp=sharing) |
+| Azaliia Alisheva      | Studied the source repository of the backend, searched for all available info services for the project        | [Services list](https://docs.google.com/document/d/1-H1Ehg0a6mOEHk5WTfNokDm04soi-WPtGF9FZ1uf-nY/edit?usp=sharing) |
+| Aliia Bashirova       | Studied the repository of the frontend, hepled with report writing, started work in figma with very basic version of search page | [Figma basic sketch](https://www.figma.com/design/M4RIWYSKjVPz931J6nWERK/Untitled?node-id=0-1&t=23XeUUL4uMfx0tgv-1)|
+| Sofia Pushkareva      | Studied vector databases                                                                        | [Comparison table](https://docs.google.com/spreadsheets/d/15UXyz4b-uMg8fkPI5ZbNQRJzdMZ3gHnekLKNU81r_7Y/edit?usp=sharing)|
 
 ## Confirmation of the code's operability
 

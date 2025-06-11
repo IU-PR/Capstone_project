@@ -191,21 +191,30 @@ What is being added:
    - pandas for working with data.
    - matplotlib for visualization.
 
-2. Frontend - Flutter
+2. Frontend - Flutter and its packets
    - Flutter for a development the app due to its cross-platform nature, which allows us to create apps for iOS and Android with a single codebase. Flutter provides high performance and smooth interface, as well as offers design flexibility through a variety of widgets.
+   - dio – for sending requests to the REST API.
+   - shared_preferences – for storing simple data (for example, tokens, settings).
+   - flutter_secure_storage - a secure encrypted storage for confidential data.
+   - hive - a fast local database for storing complex structures.
+   - go_router – for a convenient navigation system between screens.
+   - flutter_bloc – for managing the state of the application using the BLoC template.
+   - riverpod - an alternative to BLoC, a flexible way to manage state.
+   - flutter_screenutil – scaling the UI to fit different screen sizes.
+   - web_socket_channel – for connection to WebSocket for real-time interaction.
 
 3. Backend - Python, Go, MongoDB, PostgreSQL, psycopg2, SQLAlchemy, asyncpg, pymongo, grpsio, bcrypt, numpy
    - Python for the server side of the code, as it is optimal for working with databases and ML models. He also already has experience working with various protocols, databases and ML, gained in the 2nd year of the 2nd semester.
    - Go for the user-side backend because it is integrated with flutter.
-   - MongoDB for storing information about universities, professions, and tests
-   - Postgresql for storing user information because it is optimal for working with vectors
-   - psycopg2 for connection to PostgreSQL
-   - SQLAlchemy for a convenient abstraction of working with a database
-   - asyncpg for asynchronous execution of database operations and query processing
-   - pymongo for work with MongoDB
-   - grpsio for interaction between services
-   - bcrypt for hashing and password verification
-   - numpy for numerical operations, working with vectors
+   - MongoDB for storing information about universities, professions, and tests.
+   - Postgresql for storing user information because it is optimal for working with vectors.
+   - psycopg2 for connection to PostgreSQL.
+   - SQLAlchemy for a convenient abstraction of working with a database.
+   - asyncpg for asynchronous execution of database operations and query processing.
+   - pymongo for work with MongoDB.
+   - grpsio for interaction between services.
+   - bcrypt for hashing and password verification.
+   - numpy for numerical operations, working with vectors.
 
 4. Design - Figma
    - Figma for easy and convenient operation with each component of design

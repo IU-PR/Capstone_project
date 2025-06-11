@@ -117,7 +117,6 @@ Cons:
 2. Parents of High Schoolers
 
 - To help a child choose a future profession
-- Monitor progress in preparation for the Unified State Exam
 - Find affordable and high-quality educational resources or tutors
 
 3. Tutors and Mentors
@@ -195,11 +194,18 @@ What is being added:
 2. Frontend - Flutter
    - Flutter for a development the app due to its cross-platform nature, which allows us to create apps for iOS and Android with a single codebase. Flutter provides high performance and smooth interface, as well as offers design flexibility through a variety of widgets.
 
-3. Backend - Python, Go, MongoDB, PostgreSQL
+3. Backend - Python, Go, MongoDB, PostgreSQL, psycopg2, SQLAlchemy, asyncpg, pymongo, grpsio, bcrypt, numpy
    - Python for the server side of the code, as it is optimal for working with databases and ML models. He also already has experience working with various protocols, databases and ML, gained in the 2nd year of the 2nd semester.
    - Go for the user-side backend because it is integrated with flutter.
    - MongoDB for storing information about universities, professions, and tests
    - Postgresql for storing user information because it is optimal for working with vectors
+   - psycopg2 for connection to PostgreSQL
+   - SQLAlchemy for a convenient abstraction of working with a database
+   - asyncpg for asynchronous execution of database operations and query processing
+   - pymongo for work with MongoDB
+   - grpsio for interaction between services
+   - bcrypt for hashing and password verification
+   - numpy for numerical operations, working with vectors
 
 4. Design - Figma
    - Figma for easy and convenient operation with each component of design

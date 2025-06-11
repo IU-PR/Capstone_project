@@ -122,15 +122,26 @@ Metalytics/
 └── README.md           # Project overview and instructions
 ```
 
+## 
+
 # Weekly commitments
 
 ## Individual contribution of each participant
-- Vladimir Toporkov - created GitHub repository, prepared initial structure, wrote full week1 report.
-- Farit Sharafutdinov -  explored available datasets relevant for the task and developed script for automatic extraction and augmentation of dataset.
-- Ilya Grigorev - conducted precious metal market behavior analysis, investigated on filtration design principles, and prepared primal dataset analysis.
-- Rail Sharipov - reading articles and looking at data from Kaggle.
-- Askar Kadyrgulov - started learning fastAPI.
--  Nikita Solomennikov - Started learning Figma and UI/UX fundamentals.
+- **Vladimir Toporkov** - created GitHub repository, prepared initial structure, wrote full week1 report.
+- **Farit Sharafutdinov** -  explored available datasets relevant for the task and developed script for automatic extraction and augmentation of dataset.
+- **Ilya Grigorev** - performed preliminary market behavior analysis of gold prices, investigated filter design principles, and prepared an in-depth exploratory notebook (`01_filter_design.ipynb` in ml/notebooks folder) focused on volatility and preprocessing.
+- **Rail Sharipov** - explored Kaggle datasets and began reviewing external data sources.
+- **Askar Kadyrgulov** - started studying FastAPI and backend architecture principles.
+-  **Nikita Solomennikov** - began learning Figma and UI/UX fundamentals to design user-facing components.
+
+ ### Plans for the next week:
+- Create the first version of the UI prototype in Figma.
+- Continue collecting and cleaning relevant datasets;
+- Explore and evaluate potential data sources;
+- Start working on the first baseline model for price trend analysis.
+-  Define the backend architecture and project structure;
+- Start implementation of basic API endpoints;
+
 
 ## Confirmation of the code's operability
 

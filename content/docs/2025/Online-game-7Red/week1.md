@@ -13,7 +13,7 @@ title: "Week #1"
 **Figma project**: https://www.figma.com/design/ttrFjZlaz8jyuKQAzcHHkm/Untitled?node-id=0-1&t=yHPLTnx9VHEBAput-1
 
 ### Problem Statement:
-Traditional card games like "7Red" are culturally significant but often lack modern digital representations.Players currently have no reliable way to play 7Red online with friends, track their progress, or compete against others globally. The absence of online versions limits the game’s exposure and playability, especially during times when in-person gatherings are not feasible.
+Traditional card games like "7Red" are culturally significant but often lack modern digital representations. Players currently have no reliable way to play 7Red online with friends, track their progress, or compete against others globally. The absence of online versions limits the game’s exposure and playability, especially during times when in-person gatherings are not feasible.
 
 This project aims to solve these problems by:
 
@@ -80,7 +80,7 @@ The application includes the following core components:
 ### Brief market research
 
 
-#### 1. **Multiplayer 7Red (Russian Card Game)**
+#### 1. **Multiplayer 7Red (Card Game)**
 
 Market Opportunity:
 

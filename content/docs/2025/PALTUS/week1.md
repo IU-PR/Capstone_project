@@ -24,7 +24,7 @@ Many students and self-learners struggle to structure their self-study process, 
 | Danil Demin             | @degradatorus    | da.demin@innopolis.university     | Frontend                 | Creating frontend components and views                                           |
 
 ## Brainstorming   
-**Ideas during brainstorming #**  
+**Ideas during brainstorming**  
 1. **AI Study Planner (Chosen idea)** — An AI-powered self-learning planner that helps users create personalized study plans for any topic, using AI-model to generate lessons, structure schedules, and track progress with gamification to maintain engagement.  
 2. **Smart Scheduler Bot** — A Telegram bot that understands free-form user input about upcoming tasks or events, adds them to a calendar, and sends reminders in advance. Could be integrated with Google Calendar API.  
 3. **MeetDev** — A web platform to help developers find pet projects and teammates by stack and experience level. Aimed at beginners looking for practice and teams searching for collaborators.  

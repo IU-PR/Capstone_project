@@ -164,5 +164,5 @@ GitHub commit: https://github.com/IU-Capstone-Project-2025/Solar-Wind/commit/490
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:
-- [ ] In working condition.
-- [ ] Run via docker-compose.
+-  In working condition.
+-  Run via docker-compose.

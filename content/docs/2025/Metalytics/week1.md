@@ -127,12 +127,12 @@ Metalytics/
 # Weekly commitments
 
 ## Individual contribution of each participant
-- **Vladimir Toporkov** - created GitHub repository, prepared initial structure, wrote full week1 report.
-- **Farit Sharafutdinov** -  explored available datasets relevant for the task and developed script for automatic extraction and augmentation of dataset.
-- **Ilya Grigorev** - performed preliminary market behavior analysis of gold prices, investigated filter design principles, and prepared an in-depth exploratory notebook (`01_filter_design.ipynb` in ml/notebooks folder) focused on volatility and preprocessing.
+- **Vladimir Toporkov** - created GitHub repository, prepared initial structure, wrote [readme](https://github.com/IU-Capstone-Project-2025/Metalytics/blob/main/README.md) in project repository, wrote full week1 report.
+- **Farit Sharafutdinov** -  explored available datasets relevant for the task and developed script for automatic extraction and augmentation of dataset. `calculate_indicators.py and fetch_gold_ohlcv.py` [in Metalytics repository](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/main/ml) the work result.
+- **Ilya Grigorev** - performed preliminary market behavior analysis of gold prices, investigated filter design principles, and [prepared](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/main/ml/notebooks) an in-depth exploratory notebook focused on volatility and preprocessing.
 - **Rail Sharipov** - explored Kaggle datasets and began reviewing external data sources.
-- **Askar Kadyrgulov** - started studying FastAPI and backend architecture principles.
--  **Nikita Solomennikov** - began learning Figma and UI/UX fundamentals to design user-facing components.
+- **Askar Kadyrgulov** - started studying FastAPI and backend architecture principles. Since there is not much knowledge in the backend these tutorials are used to learn it ([Backend](https://roadmap.sh/backend?fl=1) and [FastAPI](https://youtube.com/playlist?list=PLeLN0qH0-mCVQKZ8-W1LhxDcVlWtTALCS&si=Efm3IRzxXaLi8Acr))  
+-  **Nikita Solomennikov** - began learning Figma and UI/UX fundamentals to design user-facing components. To do this [this figma design](https://www.figma.com/design/akmCXD83RdkXXY29Mj7xXz/W-Wave-Radio--new---Copy---Community-?node-id=0-1&p=f&t=DGtbldeVLEV3UUOF-0) will be analysed to learn how to create containers and sections, how to create UI kit to demonstrate states.
 
  ### Plans for the next week:
 - Create the first version of the UI prototype in Figma.

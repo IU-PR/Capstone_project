@@ -117,8 +117,8 @@ Technical foundation:
 
 ### Individual contribution of each participant
 
-1. [Janna]: Record and assign tasks for the week in a common space. Write a report.
+1. [Janna]: Record and assign tasks for the week in a common space. Write a report. Create a design for the main screen of the application, including the text editor and toolbar. Start iterating on logo design.
 2. [Polina]: Create a script to run the base model (Gemma 3 4B) for a “common sense” check, implement running a pre-trained language model (Gemma) through a Python script.
-3. [Vlad]: Create an Xcode project using Swift/SwiftUI/AppKit, implement the main application screen with a full text editor based on NSTextView. Add a full toolbar with formatting features.
+3. [Vlad]: Create an Xcode project using Swift/SwiftUI/AppKit, implement the main application screen with a full text editor based on NSTextView. Add a toolbar with formatting features.
 4. [Maxim]: Prepare audio datasets (LibriSpeech, Common Voice, Open STT)
-5. [Kira]: Write scripts to download and process datasets and prepare them for training.
+5. [Kira]: Write scripts to download and process datasets.

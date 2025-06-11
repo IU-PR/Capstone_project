@@ -1,4 +1,4 @@
-<h1 id="report">Week #1</h1>
+# Week #1
 
 ## Project description
 
@@ -131,7 +131,7 @@ This platform will not only centralize football data but also empower users with
 
 ---
 
-<h3 id="user-stories">User stories</h3>
+### User stories
 
 - As a football team coach, I want to receive match predictions match analysis of the opponent's weaknesses so that I can better prepare tactics, lineups, and training strategy.
 - As a football fan, I want to see probable match outcomes for my favorite team so that I can engage in debates with friends and track league standings.
@@ -164,7 +164,7 @@ A website with football statistics, with tools for useful representation and vis
 
 ---
 
-<h2 id="technology-stack">A brief explanation of technology stack</h2>
+## A brief explanation of technology stack
 
 
 ### Frontend: React.js
@@ -207,7 +207,7 @@ Automates data collection and analysis, providing coaches and journalists with r
 
 ## Weekly commitments
 
-<h3 id="c-report">Individual contribution of each participant</h3>
+### Individual contribution of each participant
 
 - **Arina Zimina**:
   - GitHub Repository setup. | [Link to commit in GitHub repository](https://github.com/IU-Capstone-Project-2025/GoalSight/commit/99cf2b0622ac997c86837da97928bca06a790826)
@@ -215,17 +215,17 @@ Automates data collection and analysis, providing coaches and journalists with r
   - Template for backend side | [Link to commit in GitHub repository](https://github.com/IU-Capstone-Project-2025/GoalSight/commit/02eaafe1ebf7fdb50b9a45f42a9151855c2f543b)
 
 - **Artem Panov**:
-  - [Individual contribution of each participant part in report](#c-report)
+  - Individual contribution of each participant part in report
   - Meeting organization and Task destribution | [Link to Kanban board in Weeek](https://app.weeek.net/ws/809762/shared/board/oOOPwpKcegOdA0POz8h39PopnsQnCPWe) | [Link to Miro board with ideas](https://miro.com/welcomeonboard/MUJQY0xDdVE2dlA4VU9QM014UXkxR1FCSUZrNWhSRGUrZVBZVWNaMjdZY1hjRStBYjhOVjZnQjNvUm1kdmV5emQ2NllkRmsxWGJVQ2cwZnBWY2tQaVBZVWVVQWNxZ2RLOUhUR0RmMlY5dER4dVUwVXRlanVqNGNLYUVabkVxNTlBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=698316100792)
 
 - **Karina Siniatullina**:
-  - Formalise 3 user stories. [Link to part of report](#user-stories)
+  - Formalise 3 user stories.
   - Template for frontend side. | [Link to commit GitHub repository](https://github.com/IU-Capstone-Project-2025/GoalSight/commit/f5d68d0379a46ae3e9bbf311863824c91d83ba32)
 
 - **Egor Sergeev**:
   - Formalisation of problem statement | [Link to google disc](https://drive.google.com/file/d/1mUMPJ2W-dWslX6Siw1hNXchHz7tpfQXf/view?usp=drive_link)
-  - [A brief explanation of technology stack](#technology-stack) | [Link to google disc](https://drive.google.com/file/d/1SNdZaXo3aOgLdQM_cuEebPwVELcNnRt8/view?usp=sharing)
+  - A brief explanation of technology stack | [Link to google disc](https://drive.google.com/file/d/1SNdZaXo3aOgLdQM_cuEebPwVELcNnRt8/view?usp=sharing)
 
 - **Egor Agapov**:
-  - [Report](#report)
+  - Report
   - Name of project.

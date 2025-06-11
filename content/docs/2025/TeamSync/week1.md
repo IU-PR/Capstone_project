@@ -190,14 +190,15 @@ Link to the Figma Board with system architecture:
 
 ---
 
+
 | Team member | Telegram alias | Contribution |
 | --- | --- | --- |
-| Diana MInnakhmetova (Lead) | @diana_minn | Wrote report, hold 2 meetings, organised workflow in Jira and Figma, made mind map and roadmap |
-| Danis Sharafiev | @HarneMer | Made system architecture |
-| Daria Alexandrova | @ae_quor | Initialized basic Frontend, organized GitHub workflow |
-| Stepan Dementev | @dementevssstepan | Organised GitHub workflow, helped with system architecture, made Docker |
-| Elizaveta Zagurskih | @wkwthigo | Initialized basic backend, organized GitHub workflow |
-| Kamilya Shakirova | @hugecatwithacheburek | Initialized basic ML, organized GitHub workflow |
+| Diana MInnakhmetova (Lead) | @diana_minn | Wrote report, hold 3 meetings, [organized workflow in Jira](https://team-sync-capstone.atlassian.net/jira/software/projects/TS/boards/1?atlOrigin=eyJpIjoiYmI0NWVhYzIzYjRhNGU0Nzg1MmFiOThhMzYzYTEzMjYiLCJwIjoiaiJ9) and [Figma, made mind map and user flow,](https://www.figma.com/board/se6mmoDbUnNADLcPqSszQE/TeamSync-sys-design?node-id=0-1&t=gQIeFCN7V1ofyRcI-1) [wrote README](https://github.com/IU-Capstone-Project-2025/team-sync/commit/9e7b52a1551b2697ddc29238f3538a83350073c2), [made logo and design](https://www.figma.com/design/H76U45VUArQSuD5ev0anDV/TeamSync-Design?node-id=0-1&t=XYQ72DvnYNk9TxrL-1) |
+| Danis Sharafiev | @HarneMer | [Made system architecture](https://www.figma.com/board/se6mmoDbUnNADLcPqSszQE/TeamSync-sys-design?node-id=0-1&t=gQIeFCN7V1ofyRcI-1), [helped with initializing ML](https://github.com/IU-Capstone-Project-2025/team-sync/commit/94e3cf517f0cf25bcac11e3f596be86ef9bb5bb6) |
+| Daria Alexandrova | @ae_quor | [Initialized basic Frontend](https://github.com/IU-Capstone-Project-2025/team-sync/commit/17e62f6f13d34932597a383923279f8b7c340848), [made design](https://www.figma.com/design/H76U45VUArQSuD5ev0anDV/TeamSync-Design?node-id=0-1&t=XYQ72DvnYNk9TxrL-1) |
+| Stepan Dementev | @dementevssstepan | [Organised GitHub workflow](https://github.com/IU-Capstone-Project-2025/team-sync/commit/41e17628b54ae0f896ccb300402e758e24961f62), [helped with system architecture,](https://www.figma.com/board/se6mmoDbUnNADLcPqSszQE/Untitled?node-id=0-1&t=GFqAGJxXii04Q0gK-1) [made Docker compose,](https://github.com/IU-Capstone-Project-2025/team-sync/commit/dc7206eb6653d517da876229f6edb5c81cc2f3a3) [initialized basic backend](https://github.com/IU-Capstone-Project-2025/team-sync/commit/2e6e3143c35df5956edc7063da050345889d61ec) |
+| Elizaveta Zagurskih | @wkwthigo | [Made ERD diagram](https://www.figma.com/board/se6mmoDbUnNADLcPqSszQE/TeamSync-sys-design?node-id=0-1&t=gQIeFCN7V1ofyRcI-1), [Initialized basic backend](https://github.com/IU-Capstone-Project-2025/team-sync/commit/2e6e3143c35df5956edc7063da050345889d61ec) |
+| Kamilya Shakirova | @hugecatwithacheburek | [Initialized basic ML](https://github.com/IU-Capstone-Project-2025/team-sync/commit/94e3cf517f0cf25bcac11e3f596be86ef9bb5bb6) |
 
 # Links
 
@@ -207,6 +208,7 @@ Link to the Figma Board with system architecture:
 - [Figma Board (mind map and architecture)](https://www.figma.com/board/se6mmoDbUnNADLcPqSszQE/Untitled?node-id=0-1&t=GFqAGJxXii04Q0gK-1)
 - [GitHub](https://github.com/IU-Capstone-Project-2025/team-sync/tree/main)
 - [Notion Organization page](https://www.notion.so/TeamSync-209c1c5fc56980deaf6ddbe76a41b803?pvs=21)
+- [Figma Design](https://www.figma.com/design/H76U45VUArQSuD5ev0anDV/TeamSync-Design?node-id=0-1&t=XYQ72DvnYNk9TxrL-1)
 
 ### **Confirmation of the code's operability**
 

@@ -227,17 +227,17 @@ Here is our Figma table with all future implementation - https://www.figma.com/d
 
 ## Individual contribution of each participant
 
-**Andruwenko Valery** – the architectural scheme of the career guidance system, the final version of the questionnaire (35+ questions) with blocks, generated synthetic questionnaires (40 lines) with signs and target professions, a separate dataset for training the MBTI model, studied and selected open datasets MBTI and Holland Code
+**Andruwenko Valery** – the architectural scheme of the career guidance system, the final version of the questionnaire (35+ questions) with blocks, generated synthetic questionnaires (40 lines) with signs and target professions, a separate dataset for training the MBTI model, studied and selected open datasets MBTI and Holland Code - https://github.com/IU-Capstone-Project-2025/Smartify/tree/main/ml
 
-**Chugaeva Mariia** – logo app implementation and data base of university collection
+**Chugaeva Mariia** – logo app implementation and data base of university collection - https://github.com/IU-Capstone-Project-2025/Smartify/pull/4/commits
 
-**Zakirov Karim** – the first page, which is displayed when the user log in to the system, implements a basic interface with a welcome message, registration page with a user data entry form
+**Zakirov Karim** – the first page, which is displayed when the user log in to the system, implements a basic interface with a welcome message, registration page with a user data entry form - https://github.com/IU-Capstone-Project-2025/Smartify/pull/5/commits
 
-**Mayorov Daniil** and **Antipov Alexey** - discussed how the architecture of the project will look in general, thought about which protocols to use to communicate between different parts of the project - created a picture of architecture. discussed the structure of the project - was created a new branch with folder structure
+**Mayorov Daniil** and **Antipov Alexey** - discussed how the architecture of the project will look in general, thought about which protocols to use to communicate between different parts of the project - created a picture of architecture, discussed the structure of the project - was created a new branch with folder structure - https://github.com/IU-Capstone-Project-2025/Smartify/pull/7/commits
 
-**Kuchukbaeva Regina** – basic view of app implementation: drawed sign up, log in, password validation and forgot password algorithms
+**Kuchukbaeva Regina** – basic view of app implementation: drawed sign up, log in, password validation and forgot password algorithms - https://www.figma.com/design/kw2m1A0ArR9Tb4Obcb2FPx/Smartify?node-id=30-8511
 
-**Basanov Maxim** – establishing communication between each participants, emerging problem solving, GitHub and all documentation maintaining, this report writing
+**Basanov Maxim** – establishing communication between each participants at meetings and in the Telegram, emerging problem solving, GitHub repositories, Backlog and all documentation maintaining, this report writing - https://github.com/orgs/IU-Capstone-Project-2025/projects/2
 
 ## Confirmation of the code's operability
 

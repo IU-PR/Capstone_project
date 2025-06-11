@@ -49,12 +49,12 @@ The solution is designed for both car owners and retail employees, reducing manu
 2. **Retail employees**:  
    Accelerate tire evaluation process during customer interactions
 3. **Service managers**:  
-   Maintain consistent pricing routines across locations
+   Maintain consistent pricing routines across car service centers
 
 ### User stories
 1. As a car owner, I want to photograph my tires and get instant valuation of thread depth and spikes condition so I can sell them faster
-2. As retail staff, I need automated tread measurements and spikes analysis to reduce human error in evaluations
-3. As a service manager, I want remote consultation capabilities to scale operations and accelerata processes
+2. As retail staff, I want automated tread measurements and spikes analysis to reduce human error in evaluations
+3. As a service manager, I want remote tire valuation to scale operations and accelerate processes
 
 ### Initial scope
 | IN Scope (MVP)                          | OUT of Scope                 |
@@ -82,7 +82,7 @@ The solution is designed for both car owners and retail employees, reducing manu
 ## Individual contribution of each participant
 | Team Member         | Contributions                                                                                                                                               |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nikita Menshikov    | Project setup, report drafting, kanban board creation                                                                                                       |
+| Nikita Menshikov    | Project setup, report writing, kanban board creation                                                                                                       |
 | Nikita Zagainov     | ML research [[1](https://arxiv.org/pdf/2302.12242)] [[2](https://arxiv.org/pdf/2105.15203)] [[3](https://arxiv.org/pdf/1409.4842)] |
 | Vladislav Strelkov  | Docker setup                                                                                                                                                |
 | Sergey Aitov        | 20 spike condition annotations                                                                                                                              |

@@ -58,7 +58,7 @@ Game Mechanics Ideas
 
 ### Brief market research / problem validation
 
-Puzzle-platformers are distinguished and widely played, as well as loved by the players for their authenticity and simple cognitive training. They also provide a solid ground for the indi developers with small teams and give the opportunity to focus on story telling and interesting mechanics. 
+Puzzle-platformers are distinguished and widely played, as well as loved by the players for their authenticity and simple cognitive training. They also provide a solid ground for the indie developers with small teams and give the opportunity to focus on story telling and interesting mechanics. 
 
 Examples in the market:
 
@@ -79,7 +79,7 @@ Games that also used light as a base for game mechanics:
 
 Our target users are casual players without any specific background. We want our game to be fascinating for any ages: the puzzles should be understandable but not dumbed-down, and the story should be enjoable and provide the ground for light contemplation both for kids and adults. Our aim is to give our players a way to spend time with some intellectual stimulation and aesthetic pleasure. 
 
-As a side consideration, we want our game to be suitable for for avid indi games players through its inventive mechanics and original storyline. The users who seek something innovative and authentic should also enjoy the gaming process. 
+As a side consideration, we want our game to be suitable for for avid indie games players through its inventive mechanics and original storyline. The users who seek something innovative and authentic should also enjoy the gaming process. 
 
 ### User stories
 

@@ -16,13 +16,13 @@ Problem statement: create a game that provides an enjoyable and fascinating way 
 
 ### **Team Members**
 
-| Team Member             | Telegram Alias   | Email Address                       | Track                             | Responsibilities   |
-|-------------------------|------------------|-------------------------------------|-----------------------------------|--------------------|
-| (Lead) Dmitry Korletynu | @fantom_73d      | d.korletyanu@innopolis.university   | Art design, Game design           | Team organization, art design, game and sound design |
-| Lev Ivanov              | @Evolutionleo    | i.ivanov@innopolis.university       | Backend, Game Design              | Coding, making game design choices |
-| Ulyana Yanovskaya       | @polsha_byaka    | u.yanovitskaya@innopolis.university | Narrative design, Game design     | Writing plot and dialogues, working on game and sound design |
-| Veronika Levashseva     | @fountainer      | v.levasheva@innopolis.university    | Narrative design, Documentation   | Reports, writing plot and dialogues, sound design |
-| Bulat Shigapov          | @blt326Ray       | b.shigapov@innopolis.university     | Backend, Art Design               | Coding, creating visual art|
+| Team Member             | Telegram Alias   | Email Address                       | Track                                  | Responsibilities   |
+|-------------------------|------------------|-------------------------------------|----------------------------------------|--------------------|
+| (Lead) Dmitry Korletynu | @fantom_73d      | d.korletyanu@innopolis.university   | Art design, Game design                | Team organization, art design, game and sound design |
+| Lev Ivanov              | @Evolutionleo    | i.ivanov@innopolis.university       | System architecture, Code, Game Design | Coding, making game design choices |
+| Ulyana Yanovskaya       | @polsha_byaka    | u.yanovitskaya@innopolis.university | Narrative design, Game design          | Writing plot and dialogues, working on game and sound design |
+| Veronika Levashseva     | @fountainer      | v.levasheva@innopolis.university    | Narrative design, Documentation        | Reports, writing plot and dialogues, sound design |
+| Bulat Shigapov          | @blt326Ray       | b.shigapov@innopolis.university     | Art Design                             | Visual art design |
 
 ## Brainstorming
 
@@ -119,7 +119,7 @@ As a side consideration, we want our game to be suitable for for avid indi games
 ## *Something else you want to add*
 
 If it possible, we would like to provide a new name for the project in Week 2. 
-Also, we did not setup the Docker Compose yet since during this week we were mostly discussing and deciding things considering our project. 
+Also, we did not setup the Docker Compose since it is not suitable for our project specification. 
 
 # Weekly commitments
 

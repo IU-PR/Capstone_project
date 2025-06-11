@@ -82,12 +82,12 @@ The solution is designed for both car owners and retail employees, reducing manu
 ## Individual contribution of each participant
 | Team Member         | Contributions                                                                                                                                               |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nikita Menshikov    | Project setup, report writing, kanban board creation                                                                                                       |
-| Nikita Zagainov     | ML research [[1](https://arxiv.org/pdf/2302.12242)] [[2](https://arxiv.org/pdf/2105.15203)] [[3](https://arxiv.org/pdf/1409.4842)] |
+| Nikita Menshikov    | Project setup, report writing, [kanban board](https://github.com/orgs/IU-Capstone-Project-2025/projects/9) creation                                                                                                       |
+| Nikita Zagainov     | ML [[research](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/4a60648dd629b54b227625ab7d07d34c2b51bd86)] |
 | Vladislav Strelkov  | Docker setup                                                                                                                                                |
-| Sergey Aitov        | 20 spike condition annotations                                                                                                                              |
-| Darya Stepanova     | Telegram bot user flow design                                                                                                                               |
-| Ekaterina Petrova   | 20 spike condition annotations                                                                                                                              |
+| Sergey Aitov        | 20 spike condition [annotations](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/sergey_annotations_w1.png) [[sample](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/sergey_annotation_sample_w1.png)]                                                                                                                              |
+| Darya Stepanova     | Telegram bot user flow [[design](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/038c5b913fdf6d97ffc62945ec45a03931973142)]                                                                                                                               |
+| Ekaterina Petrova   | 20 spike condition [annotations](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/kate_annotations_w1.png) [[sample](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/kate_annotation_sample_w1.png)]                                                                                                                              |
 | Dmitry Tetkin       | "Hello World" Telegram bot implementation                                                                                                                   |
 
 ## Confirmation of the code's operability

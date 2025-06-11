@@ -22,7 +22,8 @@ Threat Detection Tools and APIs can cost money and can be vendor exclusive. MLTD
 - Allow the machine learning model to be trained with data that contains existing threats to improve threat detection.
 
 ### Market Research
-Palo Alto Wildfire is popular cloud-based malware analysis engine that utilizes machine learning to detect known and unkown malware. However, Palo Alto WildFire can only be used on Palo Alto Firewalls, which are known to be very expensive. And also require sepreate licenses in order to use certain features. Which may not be ideal for small or medium sized businesses who are trying to secure their networks and systems.
+* Palo Alto Wildfire is popular cloud-based malware analysis engine that utilizes machine learning to detect known and unkown malware. However, Palo Alto WildFire can only be used on Palo Alto Firewalls, which are known to be very expensive. And also require sepreate licenses in order to use certain features. Which may not be ideal for small or medium sized businesses who are trying to secure their networks and systems.
+* Apache Spot is a platform for analyzing network data and logs using ML to detect anomalies and threats. It is primarily focused on network traffic analysis and only partially supports other types of logs, unlike MLTD, which can handle any logs. MLTD also has a simple interface for uploading logs and viewing results, unlike Apache Spot, which has an interface based on Jupyter Notebook + Kibana, which requires technical skills.
 
 ## Basic Requirements
 

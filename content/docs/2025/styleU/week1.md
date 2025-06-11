@@ -254,29 +254,32 @@ Subsequently, we will add user authentication, outfit selection, and the ability
 2) Yasmina Mamadalieva  - Organizing an additional meeting for the ML group, selecting core methods for ML training, gathering design ideas
 
     **choosen methods are presented in this reports**
+   **[discussions](https://s5-project-summer-2025.teamly.ru/space/45e22f1e-f31f-4207-96f3-dd8a18b314b8/article/4bb0ce68-f724-4765-b7e9-b05cfc998590)**
 
-3) Aisylu Fattakhova - Consulting acquaintances regarding model training, analyzing selected models
+4) Aisylu Fattakhova - Consulting acquaintances regarding model training, analyzing selected models
 
     **choosen methods are presented in this reports**
+   **[discussions](https://s5-project-summer-2025.teamly.ru/space/45e22f1e-f31f-4207-96f3-dd8a18b314b8/article/4bb0ce68-f724-4765-b7e9-b05cfc998590)**
 
-4) Ekaterina Akimenko - Started working on the design, created a minimally working version of the frontend
+6) Ekaterina Akimenko - Started working on the design, created a minimally working version of the frontend
 
     **[Figma](https://www.figma.com/design/VHOnHId7DlFbgjnn46NGUW/StyleU?node-id=15-2&p=f&t=lgCLL10e3f1up4oQ-0)**
 
     **[commit in repo](https://github.com/IU-Capstone-Project-2025/styleU/commit/1c1e5d87bf0915e2f939e17da29ae18ed56d8abc)**
 
 
-5) Sofia Goryunova - Selected core methods for ML training
+7) Sofia Goryunova - Selected core methods for ML training
 
     **choosen methods are presented in this reports**
+   **[discussions](https://s5-project-summer-2025.teamly.ru/space/45e22f1e-f31f-4207-96f3-dd8a18b314b8/article/4bb0ce68-f724-4765-b7e9-b05cfc998590)**
 
-6) Alena Starikova - Drafted the architecture, created a minimal working version of the backend, analyzed databases we plan to use
+9) Alena Starikova - Drafted the architecture, created a minimal working version of the backend, analyzed databases we plan to use
 
     **[commit in repo](https://github.com/IU-Capstone-Project-2025/styleU/commit/082d97b55a604607269671084efdcbfd4016239d)**
 
     **[architecture](https://s5-project-summer-2025.teamly.ru/space/45e22f1e-f31f-4207-96f3-dd8a18b314b8/article/3bd9fd5c-b32c-4e2f-8ce1-9d74af96f661)**
                       
-7) Rokkel Maria - Started working on the design and logo 
+10) Rokkel Maria - Started working on the design and logo 
 
     **[Figma](https://www.figma.com/design/VHOnHId7DlFbgjnn46NGUW/StyleU?node-id=15-2&p=f&t=lgCLL10e3f1up4oQ-0)**
 

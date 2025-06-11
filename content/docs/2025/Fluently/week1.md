@@ -190,10 +190,11 @@ _Feel free to add anything else that you consider important to your report_ -->
 ### Danila Kochegarov (Team Lead & Backend Developer)
 
 - Proposed the original project idea
-- Implemented core Telegram bot logic with basic mechanics
-- Participated in UI design decisions
-- Created boilerplate structure for the Telegram bot project
+- Implemented boilerplate (architecture) of Telegram bot
+- Overthink the User Flow, and design the UI
+- Created boilerplate structure for the backend API
 - Integrated Swagger documentation for the API
+- Make some contribution on backend side (handlers and routers)
 - Coordinated team workflow and technical decisions
 
 ### Savva Ponomarev (iOS Developer & Project Manager)
@@ -230,9 +231,6 @@ _Feel free to add anything else that you consider important to your report_ -->
 ### Anton Korotkov (ML Engineer)
 
 - Researched optimal AI model architecture
-- Developed foundational structure for:
-  - AI training pipelines
-  - Model inference system
 - Designed database schema for ML model storage
 - Investigated model deployment strategies
 

@@ -66,14 +66,13 @@ Tutors & Mentors Module
 
 | Team Member                             | Telegram Alias   | Email Address   | Track                                       | Responsibilities   |
 |-----------------------------------------|------------------|-----------------|---------------------------------------------|--------------------|
-| Andruwenko Valery     | @valery2005and | v.andruwenko@innopolis.university | ML developer, Data Analytic | ML models, Data Collection |
-| Chugaeva Mariia            | @mariiachugaeva | m.chugaeva@innopolis.university | Frontend developer, Data Analytic | App development, Data Collection |
+| Andruwenko Valery     | @valery2005and | v.andruwenko@innopolis.university | ML developer, Data Analytic | ML models, Data collection |
+| Chugaeva Mariia            | @mariiachugaeva | m.chugaeva@innopolis.university | Frontend developer, Data Analytic | App development, Data collection |
 | Zakirov Karim            | @karimzakirov | k.zakirov@innopolis.university | Frontend developer | App development |
-| Mayorov Daniil | @Daniil20xx | d.mayorov@innopolis.university | Backend developer | Database interactions, Backend Development |
-| Antipov Alexey | @Aleksey_Antipov1725 | a.antipov@innopolis.university | Backend developer | Database interactions, Backend Development |
-| Basanov Maxim            | @scruffyscarf | m.basanov@innopolis.university | Project Manager | Team coordination, Documentation responsible |
+| Mayorov Daniil | @Daniil20xx | d.mayorov@innopolis.university | Backend developer | Backend development, Database interactions  |
+| Antipov Alexey | @Aleksey_Antipov1725 | a.antipov@innopolis.university | Backend developer | Backend development, Database interactions |
 | Kuchukbaeva Regina            | The Grand Architecton | r.kuchukbaeva@innopolis.university | UX/UI-Designer | Figma design  |
-
+| Basanov Maxim            | @scruffyscarf | m.basanov@innopolis.university | Project Manager | Team coordination, Documentation responsible |
 
 ## Brainstorming
 
@@ -141,7 +140,50 @@ Cons:
 
 ### Initial scope
 
-*...*
+### MVP v0 (3 weeks)
+The goal of MVP v0 is to create a working version of the platform in which the user can complete a questionnaire, see which professions might suit him, choose a university and get basic recommendations on the Unified State Exam.
+**Basic functionality:**
+1. Authentication and Profile
+   - Register and log in using email and password.
+   - Minimum personal account: name, class, region, average score.
+2. Career guidance questionnaire (without AI)
+   - A questionnaire with questions about interests, favorite subjects, and personality type.
+   - After passing through, the user is shown 3-5 professions based on manual rules.
+   - Each profession includes a description and a list of required exam subjects.
+3. The University selection module
+   - The user selects a region and a budget/contract.
+   - The application displays a table of universities with scores, cost and referral.
+   - So far, there is no comparison or analysis.
+4. Preparation for the Unified State Exam
+   - The necessary subjects are offered for the chosen profession.
+   - Recommended number of hours per week.
+   - A mini-test on one subject (5 questions) with an assessment of the level of knowledge.
+
+What is not included:
+- AI-profession recommendations
+- Tutors and mentors
+- Score forecast, progress tracker
+- Chat, export to calendar
+
+### MVP v1 (up to 7 weeks)
+The goal of MVP v1 is to implement AI recommendations and bring the platform to a full—fledged product for schoolchildren.
+What is being added:
+1. Artificial intelligence
+   - A trained ML model based on questionnaires.
+   - Recommendations of professions with precise justification (for example, “pediatric surgeon" + why).
+2. University Module — Advanced
+   - Comparison of universities by scores, rating, and cost.
+   - The ability to add to favorites.
+3. Preparation for the Unified State Exam — tracker and forecast
+   - Tracker of studied topics and hours.
+   - Forecast of results for mini-tests.
+   - Export the plan to Google Calendar.
+4. The Tutors and Mentors module
+   - Filters by subject, communication style.
+   - Student and mentor cards (for example, “Nastya, MGU student, chemistry 95”).
+5. Interface
+   - Updated design.
+   - Personal account with all modules and saved results.
 
 ## Tech-stack
 
@@ -170,19 +212,17 @@ Here is our Figma table with all future implementation - https://www.figma.com/d
 
 ## Individual contribution of each participant
 
-**Andruwenko Valery** – 
+**Andruwenko Valery** – the architectural scheme of the career guidance system, the final version of the questionnaire (35+ questions) with blocks, generated synthetic questionnaires (40 lines) with signs and target professions, a separate dataset for training the MBTI model, studied and selected open datasets MBTI and Holland Code
 
-**Chugaeva Mariia** – Logo app implementation and data base of university collection
+**Chugaeva Mariia** – logo app implementation and data base of university collection
 
-**Zakirov Karim** – The first page, which is displayed when the user log in to the system, implements a basic interface with a welcome message, registration page with a user data entry form
+**Zakirov Karim** – the first page, which is displayed when the user log in to the system, implements a basic interface with a welcome message, registration page with a user data entry form
 
 **Mayorov Daniil** and **Antipov Alexey** - discussed how the architecture of the project will look in general, thought about which protocols to use to communicate between different parts of the project - created a picture of architecture. discussed the structure of the project - was created a new branch with folder structure
 
-**Basanov Maxim** – Establishing communication between each participants, emerging problem solving, GitHub maintaining
+**Kuchukbaeva Regina** – basic view of app implementation: drawed sign up, log in, password validation and forgot password algorithms
 
-**Kuchukbaeva Regina** – Basic view of app implementation: drawed sign up, log in, password validation and forgot password algorithms
-
-
+**Basanov Maxim** – establishing communication between each participants, emerging problem solving, GitHub and all documentation maintaining, this report writing
 
 ## Confirmation of the code's operability
 

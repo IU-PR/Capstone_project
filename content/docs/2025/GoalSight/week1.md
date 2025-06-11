@@ -1,4 +1,4 @@
-# Week #1
+<h1 id="report">Week #1</h1>
 
 ## Project description
 
@@ -131,7 +131,7 @@ This platform will not only centralize football data but also empower users with
 
 ---
 
-### User stories
+<h3 id="user-stories">User stories</h3>
 
 - As a football team coach, I want to receive match predictions match analysis of the opponent's weaknesses so that I can better prepare tactics, lineups, and training strategy.
 - As a football fan, I want to see probable match outcomes for my favorite team so that I can engage in debates with friends and track league standings.
@@ -164,12 +164,68 @@ A website with football statistics, with tools for useful representation and vis
 
 ---
 
+<h2 id="technology-stack">A brief explanation of technology stack</h2>
+
+
+### Frontend: React.js
+
+#### Why Chosen:
+- Interactivity: React provides a dynamic and responsive interface for visualizing football analytics (charts, dashboards), improving navigation and data perception.
+- Scalability: Its component-based architecture simplifies adding new features (e.g., player profiles, live statistics).
+- Ecosystem: Support for libraries like Chart.js for visualizations and React Query for API handling makes it suitable for real-time analytics.
+
+#### Problem Addressed:
+An intuitive UI solves the issue of poor navigation and inaccessibility of advanced statistics for fans and journalists.
+
+### Backend: Django (Django REST Framework)
+
+#### Why Chosen:
+- Asynchronicity: Django with async support (via ASGI) enables handling real-time requests, such as live match statistics.
+- Scalability: Built-in tools (ORM, admin panel, authentication) simplify managing complex data and user roles (coaches, journalists), while its modular structure supports platform growth.
+- Reliability: A mature framework with strong security and community support, crucial for long-term projects.
+
+#### Problem Addressed:
+Centralizes data from multiple sources, accelerates access to analytics, and simplifies preparation for coaches and journalists.
+
+### Machine Learning: Python
+
+#### Why Chosen:
+- Versatility: Python unifies backend and ML, simplifying the integration of models (e.g., xG predictions or tactical analysis) into the platform.
+- Libraries: Pandas, Scikit-learn, and TensorFlow enable building scalable analytics models (e.g., match outcome predictions).
+- Flexibility: Supports both simple models (for MVP) and complex ones (e.g., video analysis), ensuring the evolution of analytical capabilities.
+
+#### Problem Addressed:
+Automates data collection and analysis, providing coaches and journalists with ready insights and fans with engaging statistics.
+
+#### Additional (Infrastructure)
+
+- PostgreSQL: For storing structured data (statistics, matches, players) with scalability support.
+- Docker: Simplifies deployment and ensures environment consistency.
+- Redis: Caching to speed up access to frequently used data (e.g., live statistics).
+
+---
+
 ## Weekly commitments
 
-### Individual contribution of each participant
+<h3 id="c-report">Individual contribution of each participant</h3>
 
-- **Arina Zimina**: Brief market research/problem validation for top 1–2 ideas, template for backend side, brainstorm to find ideas
-- **Artem Panov**: Report, brainstorm to find ideas, meeting organization, task destribution, task formalisation
-- **Karina Siniatullina**: User Story, template for frontend side, brainstorm to find ideas
-- **Egor Sergeev**: Formalisation of problem statement, a brief explanation of technology stack, brainstorm to find ideas
-- **Egor Agapov**: Report, name of project, brainstorm to find ideas
+- **Arina Zimina**:
+  - GitHub Repository setup. | [Link to commit in GitHub repository](https://github.com/IU-Capstone-Project-2025/GoalSight/commit/99cf2b0622ac997c86837da97928bca06a790826)
+  - Brief market research/problem validation for top 1–2 ideas. [Link to google disc](https://docs.google.com/document/d/1URM2aJgmpOyZOtoX8QOIdzx356njD-aO/edit?usp=sharing&ouid=102622026097705461090&rtpof=true&sd=true)
+  - Template for backend side | [Link to commit in GitHub repository](https://github.com/IU-Capstone-Project-2025/GoalSight/commit/02eaafe1ebf7fdb50b9a45f42a9151855c2f543b)
+
+- **Artem Panov**:
+  - [Individual contribution of each participant part in report](#c-report)
+  - Meeting organization and Task destribution | [Link to Kanban board in Weeek](https://app.weeek.net/ws/809762/shared/board/oOOPwpKcegOdA0POz8h39PopnsQnCPWe) | [Link to Miro board with ideas](https://miro.com/welcomeonboard/MUJQY0xDdVE2dlA4VU9QM014UXkxR1FCSUZrNWhSRGUrZVBZVWNaMjdZY1hjRStBYjhOVjZnQjNvUm1kdmV5emQ2NllkRmsxWGJVQ2cwZnBWY2tQaVBZVWVVQWNxZ2RLOUhUR0RmMlY5dER4dVUwVXRlanVqNGNLYUVabkVxNTlBS2NFMDFkcUNFSnM0d3FEN050ekl3PT0hdjE=?share_link_id=698316100792)
+
+- **Karina Siniatullina**:
+  - Formalise 3 user stories. [Link to part of report](#user-stories)
+  - Template for frontend side. | [Link to commit GitHub repository](https://github.com/IU-Capstone-Project-2025/GoalSight/commit/f5d68d0379a46ae3e9bbf311863824c91d83ba32)
+
+- **Egor Sergeev**:
+  - Formalisation of problem statement | [Link to google disc](https://drive.google.com/file/d/1mUMPJ2W-dWslX6Siw1hNXchHz7tpfQXf/view?usp=drive_link)
+  - [A brief explanation of technology stack](#technology-stack) | [Link to google disc](https://drive.google.com/file/d/1SNdZaXo3aOgLdQM_cuEebPwVELcNnRt8/view?usp=sharing)
+
+- **Egor Agapov**:
+  - [Report](#report)
+  - Name of project.

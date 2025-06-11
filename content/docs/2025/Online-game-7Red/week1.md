@@ -10,7 +10,7 @@ title: "Week #1"
 
 **Code repository**: https://github.com/IU-Capstone-Project-2025/Online-game-7Red
 
-**Figma project**: 
+**Figma project**: https://www.figma.com/design/ttrFjZlaz8jyuKQAzcHHkm/Untitled?node-id=0-1&t=yHPLTnx9VHEBAput-1
 
 ### Problem Statement:
 Traditional card games like "7Red" are culturally significant but often lack modern digital representations.Players currently have no reliable way to play 7Red online with friends, track their progress, or compete against others globally. The absence of online versions limits the game’s exposure and playability, especially during times when in-person gatherings are not feasible.
@@ -97,7 +97,7 @@ Conclusion:
 - Strong niche demand with little competition—worth developing 
 
 
-##### 2. **Digital Menu & Order System for Happiness**
+#### 2. **Digital Menu & Order System for Happiness**
 Market Opportunity:
 
 - Small cafés often rely on Telegram or phone calls — leading to errors and slow customer service.
@@ -193,15 +193,16 @@ These features are potential improvements that may be added later but are not pl
 
 ## Individual contribution of each participant
 
-**Palkina Sofia** – organized 3 discussion meetings and wrote this report.
+**Palkina Sofia** – organized 3 discussion meetings (05.06 - project ideas, organizational issues,distribution of roles; 07.06 - tech-stack, project logic; 09.06 - result of the week,task for the next week) and wrote this report.
 
-**Polina Kostikova** – set up Docker and created the basic Git structure.
+**Polina Kostikova** – set up Docker and created the basic Git structure - https://github.com/IU-Capstone-Project-2025/Online-game-7Red
 
-**Lev Permiakov** – wrote code for generating data for the neural network.
+**Lev Permiakov** – wrote code for generating data for the neural network - https://github.com/IU-Capstone-Project-2025/Online-game-7Red/tree/main/ml
 
-**Arina Petuhova** – designed the database and implemented its initial version.
+**Arina Petuhova** – designed the database and implemented its initial version - https://github.com/IU-Capstone-Project-2025/Online-game-7Red/tree/main/database
 
-**Amir Bairamov** – completed the MVP0 Figma version of the project (excluding the game board) and started expanding it.
+**Amir Bairamov** – completed the MVP0 Figma version of the project (excluding the game board) and started expanding it - https://www.figma.com/design/ttrFjZlaz8jyuKQAzcHHkm/Untitled?node-id=0-1&t=yHPLTnx9VHEBAput-1
+
 
 **All team members** - researched and explored the best tools for the project and discussed the project logic together in meetings.
 
@@ -209,4 +210,4 @@ These features are potential improvements that may be added later but are not pl
 
 We confirm that the code in the main branch:
 - [+] In working condition.
-- [+] Run via docker-compose (or another alternative described in the `README.md`).
+- [+] Run via docker-compose (described in the `README.md`).

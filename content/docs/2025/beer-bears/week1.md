@@ -125,18 +125,22 @@ Melnikov Sergei
  - [READme and structure of repository](https://github.com/Beer-Bears/scaffold/pull/2),
  - [Excalidraw Scheme](https://excalidraw.com/#json=8DxFWGT66eisYHShw5etd,FTPXATItDi33jkpVtVr54A),
  - informtaion research
+ - 
 Razmakhov Sergey
  - brainstorming,
  - [Excalidraw Scheme](https://excalidraw.com/#json=8DxFWGT66eisYHShw5etd,FTPXATItDi33jkpVtVr54A),
  - repository
+ - 
 Prosvirkin Dmitry
  - brainstorming,
  - writing report,
  - [Excalidraw Scheme](https://excalidraw.com/#json=8DxFWGT66eisYHShw5etd,FTPXATItDi33jkpVtVr54A),
  - [Google Docs description](https://docs.google.com/document/d/1K4CPKvia2kNnlKm9MNFnxmQRqHM1KS_lJMJzueEnQVE/edit?usp=sharing) 
+
 Mashenkov Timofei
  - brainstorming,
  - [Excalidraw Scheme](https://excalidraw.com/#json=8DxFWGT66eisYHShw5etd,FTPXATItDi33jkpVtVr54A),
+
 Glazov Sergei
  - brainstorming,
  - informtaion research,

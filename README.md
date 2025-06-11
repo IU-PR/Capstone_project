@@ -1,8 +1,5 @@
 # Capstone project at Innopolis University
 
-## Short desciption of the project:
-A puzzle-platformer game with a fairytale setting, mixed with cyberpunk elements. Involves the paper-like artstyle, simple but intriguing mechanics, and a touch of light phylosophy. Lamps are significant and playable objects: player advances through the levels and interacts with the world by manipulating them.
-
 This is a repo of
 the [Capstone project at the Innopolis University](https://capstone.innopolis.university/) - <https://capstone.innopolis.university/>
 
@@ -18,6 +15,8 @@ Table of contents
         - [PDF embedding](#pdf-embedding)
         - [Other shortcodes](#other-shortcodes)
 
+## Short desciption of the project:
+A puzzle-platformer game with a fairytale setting, mixed with cyberpunk elements. Involves the paper-like artstyle, simple but intriguing mechanics, and a touch of light phylosophy. Lamps are significant and playable objects: player advances through the levels and interacts with the world by manipulating them.
 ## Contribution rules
 
 Throughout the project, you will be required to write progress reports. These reports will be published on

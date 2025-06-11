@@ -31,11 +31,10 @@ Many students and self-learners struggle to structure their self-study process, 
 4. **CarsToBuy** — A web service that aggregates reviews, listings from popular marketplaces, and technical data for each car model to help users make informed purchasing decisions.  
 
 ## Brief market research / problem validation  
-The current learning platforms offer structured courses but limited flexibility and personalization. Many self-learners report a lack of motivation due to rigid course structures and insufficient feedback on progress. Our idea addresses this by generating personalized study plans and tracking individual progress dynamically, which makes learning more adaptable and engaging.
-
-Our validation shows that:
-- Many users desire more adaptive learning flows that adjust to their pace and knowledge gaps.
-- Existing solutions are not user-centric enough in terms of progress tracking or creating unique, custom-fit courses.
+Application analogues:
+The Habitica and Life RPG applications allow you to create tasks, receive rewards for completing them, and buy various equipment, pets, and skills for in-app currency. The Todoist app motivates through points for completing tasks
+Coursebox.ai and MiniCourse Generator generates courses based on the provided materials (videos, docs)
+Our app combines the possibilities of creating a course using AI and tracking progress and maintaining motivation through game elements.
 
 ## Basic requirements #  
 - AI-generated topic-based study plans  
@@ -76,17 +75,17 @@ Our validation shows that:
 
 ## Weekly commitments #
 1. Sergey Knyazkin (lead):
-   - Configured Docker for frontend
-   - Added Frontend configuration (boilerplate)
-   - Created design in Figma
+   * Configured Docker for frontend
+   * Added Frontend configuration (boilerplate)
+   * Created design in Figma
 2. Aidar Sarvartdinov:
-   - Created overall idea and most functions
-   - Added backend configuration
+   * Created overall idea and most functions
+   * Added backend configuration
 3. Amir Fayzullin:
-   - Created a prompt for AI-model
+   * Created a prompt for AI-model
 4. Ramazan Gizamov:
-   - Wrote report
-   - Helped with design in Figma
+   * Wrote report
+   * Helped with design in Figma
 5. Igor Dubrovsky
    - Explored available LLM models and their API to utilize them in the project
    - Configured Docker for backend

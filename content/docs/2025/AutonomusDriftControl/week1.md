@@ -2,7 +2,7 @@
 
 ## Project description
 
-**Project name:** Autonomus Drift Control
+**Project name:** Autonomous drift control
 
 **Code repository:** https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control
 

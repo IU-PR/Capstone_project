@@ -57,7 +57,6 @@ Testing prototypes on the raw version of the tank.
 
 ## Tech-stack
 
-
 | Field					| Stack							|
 |-----------------------|-------------------------------|
 | Embeded programming	| C/C++, Cube IDE, Arduino IDE	|

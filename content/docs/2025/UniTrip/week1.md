@@ -4,44 +4,88 @@ title: "Week #1"
 
 # Week #1
 
+## Project description
+
+### Project name: UniTrip
+**Code repository**: https://github.com/IU-Capstone-Project-2025/UniTrip
+
+### Detailed description
+Our project is the Unity game where the player can walk through the main areas of the university (main hall and dormitory), interacting with the NPC(students/professors) and objects in locations to learn about life in Innopolis through mini-quests and dialogues.
+
+### Problem statement 
+Many applicants and tourists do not have the opportunity to come to the university in person and learn about the student's life. We solve this by creating a virtual tour around the University with interaction. 
+
 ## **Team Members**
 
 | Team Member                             | Telegram ID   | Email Address   | Track                                       | Responsibilities   |
 |-----------------------------------------|---------------|-----------------|---------------------------------------------|--------------------|
 | Marina Lavrova(Lead)     | @mc_lavrushka | m.lavrova@innopolis.university | Project Management | Organization of work documentation, communication |
 | Merkulov Leonid        | @merkulov_leonid | l.merkulov@innopolis.university | Backend | C# code and DevOps tasks |
-| Ivan Makarov           | @cody_py | i.makarov@innopolis.university | Backend| C# code |
+| Ivan Makarov           | @cody_py | i.makarov@innopolis.university | Backend| C# code and customer communication |
 | Tarubarova Nadia            | @laseiiine | n.tarubarova@innopolis.university | Design | 3D modeling of locations and characters  |
 | Pokhodyaeva Polina         | @polly_p0 | p.pokhodyaeva@innopolis.university | Design | Designing and scatching locations and characters |
 
-**Team name** - CodeInno  
 
-**Team communication channel** - Telegram chat and offline meetings
+## Brainstorming 
+
+### Ideas during brainstorming
+
+1. **Interactive game about Innopolis University**  
+Walk through University locations and interact with objects and NPCs to learn something new about Innopolis
+2. **Service discovery and advertising platform for Innopolis**  
+A unified application for finding, booking, and promoting local services in the city of Innopolis (beauty salons, massage, health services, repair, etc.). The app will offer a structured and user-friendly alternative to fragmented Telegram chats and word-of-mouth recommendations. Users will be able to easily browse available services, read reviews, save favorites, and sign up — all within a single app, without relying on Telegram or WhatsApp.
+
+3. **Personal AI Health Assistant**  
+A virtual personal doctor AI-agent that helps users monitor and manage their health. The assistant keeps track of personal medical data (such as blood type, doctor visits, test results), answers health-related questions, and provides reliable information to avoid the common problem of users self-diagnosing through unverified internet sources. 
+
+4. **Tower defense game**  
+Tower defense game in Zombie style, called Defendead. It was our project in previous year, there was 3 levels and we could improve it by adding new levels, new monsters and more waves(also add multiplayer, rank, in-game currency and etc).
 
 
-## Project idea  
-Interactive game with walking around the space about the Innopolis University.  
+### Brief market research / problem validation
+1. **Interactive game about Innopolis University** 
 
-Brief description:
-Unity game where the player can walk through the main areas of the university (main hall and dormitory), interacting with the NPC and things and learning about life in Innopolis through mini-quests and dialogues.
+Problem:  
+Many prospective students, their parents, and tourists do not have the opportunity to visit Innopolis University in person(who lives far away). However even someone, who could visit University - cannot do it without guide and doesn't have opporunity to walk free and interact with objects/people.
 
-According our research and analysis of the market - there is no games about Innopolis University, so it should be interesting and unique for the users interested in Innopolis University.
+Market:  
+- Prospective students applying to Innopolis University (~ 14 thousands yearly).
+- Parents of prospective students (number of students * 2 = 28 thosands).
+- Tourists and guests interested in Innopolis city and  university (~100-150 thousands yearly )
 
-### Problem statement 
-Many applicants and tourists do not have the opportunity to come to the university in person and learn about the student's life. We solve this by creating a virtual tour around the University with interaction. 
+Validation:
+- Official university tours are limited in frequency and location-based.
+- Discussions with guides show that tourists often look for visual and interactive materials.
+- Current online resources do not allow interaction with university spaces or immersion into student life.
+
+2.  **Service discovery and advertising platform for Innopolis** 
+
+Problem:  
+Finding local services in Innopolis is currently inefficient and fragmented. Information is spreaded across multiple Telegram groups and chats. Newcomers often experience information overload, while new businesses struggle to advertise themselves. Additionally, Telegram is not optimized for service discovery and lacks proper filtering, search, and review mechanisms.
+
+Market:
+- City of Innopolis ( ~ 5-7k population and growing).
+- Newcomers (students, specialists relocating to work in IT companies).
+- Local businesses and entrepreneurs providing services (beauty, healthcare, repair, education, etc.).
+
+Validation:
+- Personal experience and feedback from new residents show that searching for services usually involves joining dozens of Telegram chats and browsing through unstructured posts.
+- New local businesses advertising in Telegram chats is ineffective and tough.
+
+## Basic requirements
 
 ### Target users  
 Applicants and their parents, tourists, guests.
 
-### Users needs  
-See what the university looks like
+Their needs:
 
-Understand atmosphere, infrastructure
+- See what the university looks like
 
-Get involved in the process and student's life through the game interaction
+- Understand atmosphere, infrastructure
 
+- Get involved in the process and student's life through the game interaction
 
-Learn something new about the university
+- Learn something new about the university
 
 ### User stories  
 - As an applicant, I want to walk around the university online to understand how it works and feels.
@@ -58,9 +102,7 @@ Learn something new about the university
 2 locations of the main hall with 7-8 interactions with objects
 
 **Out of the MVP:**  
-The other location with Student dormitory and canteen.
-
-[Open repo here](https://github.com/IU-Capstone-Project-2025/UniTrip)  
+The other locations such as student's dormitory and canteen.  
 
 ## Tech stack:  
 - **Unity** for the game creation.   
@@ -71,3 +113,28 @@ Also fast, simple and known
 Suggest wide functionality for creating the design - professional and comfort in use.
 - **Github pages** for deploy  
 Easy in use, could be automized by Github actions
+
+
+# Weekly commitments
+
+## Individual contribution of each participant
+Marina Lavrova(Lead) - organized work, brainstorm ideas and create a draft roadmap  
+Merkulov Leonid - learned the deploy tools, start to create a plot of the game  
+Ivan Makarov - brainstorm ideas, discussed with customer, start to create the plot of the game    
+Tarubarova Nadia - started creating the [first location](https://drive.google.com/drive/folders/1tOgQVp6NgdZlooWGwSPTcuapUi9yx5kQ?usp=share_link) in Blender  
+Pokhodyaeva Polina - started creation [makets](https://drive.google.com/drive/folders/10yk3KXb1-QyhiQZRcKuYPSGiJnsx5py9?usp=sharing)  with design for first location and main character  
+
+
+## Confirmation of the code's operability
+
+We confirm that the code in the main branch:
+- [ ] In working condition.
+- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+
+## Plans for next week
+- Write detailed user stories and user flow diagrams
+- Create a backlog with all tasks
+- Create a prototype of 2 locations
+- Upload the 3d model of the first location in Unity
+- Add main character and it's walking around the ares. 
+- If will have left time, create a first interactions with objects in location.

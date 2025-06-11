@@ -213,15 +213,26 @@ https://github.com/IU-Capstone-Project-2025/UrTraining
 
 During the first week, our team held several meetings to discuss the core idea of the project and define the roles and responsibilities of each team member. We established the initial scope of the project and agreed on the main technologies that will be used for development.
 
-| **Team Member**       | **Telegram**     | **Contribution**                                                      | 
-|-----------------------|------------------|-----------------------------------------------------------------------|
-| Ildar Rakiev (Lead)   | @mescudiway      | Describe the project idea, project structure, registration page design|
-| Makar Dyachenko       | @index099        | Project structure in the frontend repository, main page design        |
-| Salavat Faizullin     | @FSA_2005        | Project structure in the backend repository                           | 
-| Egor Chernobrovkin    | @lolyhop         | Template prototypes for the /ml folder                                |
-| Alexandra Starikova   | @lexandrinnn_t   | Collect dataset                                                       |
-| Ilona Dziurava        | @a_b_r_i_c_o_s   | Report writing, backlog organization                                  |
-| Anisya Kochetkova     | @anis1305        | Project structure in the backend repository                           |
+**Ildar Rakiev* - Describe the project idea, project structure, registration page design and part of boilerplate creation. 
+Link to GitHub contriburion: https://github.com/IU-Capstone-Project-2025/UrTraining/commit/d96d3878ea0eba1d8076ca70af8c425be21c15ea
+
+**Makar Dyachenko* - Project structure in the frontend repository, main page design. 
+Link to contribution in GitHub: https://github.com/IU-Capstone-Project-2025/UrTraining/commit/dc8a0ab2bca86ffa0560ab188fd9bad1e483c3b0, contribution in Figma Design will be provided as needed
+
+**Salavat Faizullin* - Project structure in the backend repository and backend boilerplate. 
+Link to contribution in GitHub: https://github.com/IU-Capstone-Project-2025/UrTraining/commit/710769b81cc04adb63e957c29aafb28065ab6e6b
+
+**Egor Chernobrovkin* - Template prototypes for the /ml folder, documentation related to the user flow (client form with  questionnare for model-based trainings selection), dataset collection. 
+Link to the contribution in GitHub: https://github.com/IU-Capstone-Project-2025/UrTraining/commit/0445e2c16732834f7cc2ce975dca329b3d78baa4
+
+**Alexandra Starikova* - Dataset collection, documentation for cards of trainings and coach advanced registration form. 
+Link to the contribution in GitHub: https://github.com/IU-Capstone-Project-2025/UrTraining/commit/9c24703b77b2515fe01284a8c1e85289eb0a5e0a
+
+**Ilona Dziurava* - Report writing, start of backlog creation
+Link to the backlog: https://urtraining.yougile.com
+
+**Anisya Kochetkova* - Project structure in the backend repository, added boilerplates for courses "get" endpoints, simplified concept of login system and utils. 
+Link to the contribution in GitHub: https://github.com/IU-Capstone-Project-2025/UrTraining/commit/dd42e75c9b8516b0741d2118fcf94203b93588d8
 
 ## Challenges & Solutions
 The main challenge we faced was differing perspectives on the project details. To address this, we reached an agreement on the core functionality and defined clear, specific requirements. This ensured that all team members share a unified understanding of the project moving forward.
@@ -229,6 +240,6 @@ The main challenge we faced was differing perspectives on the project details. T
 ## Conclusions & Next Steps
 During the first week, we made progress by defining the main goal of the project and outlining our future plans. In the upcoming week, our focus will shift to designing the project interface and beginning implementation based on the established backlog.
 
-We confirm that the code in the main branch:
+**We confirm that the code in the main branch:**
 - In working condition.
 - Run via docker-compose.

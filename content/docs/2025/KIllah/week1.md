@@ -122,3 +122,12 @@ Technical foundation:
 3. [Vlad]: Create an Xcode project using Swift/SwiftUI/AppKit, implement the main application screen with a full text editor based on NSTextView. Add a toolbar with formatting features.
 4. [Maxim]: Prepare audio datasets (LibriSpeech, Common Voice, Open STT)
 5. [Kira]: Write scripts to download and process datasets.
+
+## Confirmation of the code's operability
+
+We confirm that the code in the main branch:
+
+ * Can be run (Not fully free of bugs yet).
+ * Runs on the intended platform: macOS 15 via Xcode.
+
+If you encounter any problems running the setup, feel free to contact us and get help. Or maybe we can provide a video with how the current state of the prototype is working. 

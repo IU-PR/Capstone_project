@@ -119,26 +119,31 @@ by addressing the fundamental weaknesses of AI tools from frontier labs (harm fr
 ### Individual contribution of each participant
 
 1. [Janna]: Record and assign tasks for the week in a common space. Write a report. Create a design for the main screen of the application, including the text editor and toolbar. Start iterating on logo design.
-   ![editor window](https://github.com/vladkalinichencko/Killah/blob/master/content/docs/2025/KIllah/editor-window-overview.png)
-3. [Polina]: Create a script to run the base model (Gemma 3 4B) for a “common sense” check, implement running a pre-trained language model (Gemma) through a Python script.
+   ![editor window](https://raw.githubusercontent.com/vladkalinichencko/Killah-Prototype/master/Documents/images/editor-window-overview.png)
+2. [Polina]: Create a script to run the base model (Gemma 3 4B) for a “common sense” check, implement running a pre-trained language model (Gemma) through a Python script.
 
    Commits:
    - https://github.com/vladkalinichencko/Killah-Prototype/commit/6d14b3d666d7d188c80a8e29d1cdce2977d749f9
    - https://github.com/vladkalinichencko/Killah-Prototype/commit/ee3b8fc56d2d7cf7e2774da489a2fc5f5d343f05
-   ![first week progress](https://github.com/vladkalinichencko/Killah/blob/master/content/docs/2025/KIllah/First%20week%20progress.jpg)
+   ![first week progress](https://raw.githubusercontent.com/vladkalinichencko/Killah-Prototype/master/Documents/images/First%20week%20progress.jpg)
 
-4. [Vlad]: Create an Xcode project using Swift/SwiftUI/AppKit, implement the main application screen with a full text editor based on NSTextView. Add a toolbar with formatting features.
+3. [Vlad]: Create an Xcode project using Swift/SwiftUI/AppKit, implement the main application screen with a full text editor based on NSTextView. Add a toolbar with formatting features.
 
    Commits:
    - https://github.com/vladkalinichencko/Killah-Prototype/commit/edf785026cc31d308114ecc4fcea35a32d5febfb
+   - https://github.com/vladkalinichencko/Killah-Prototype/commit/5237c1b4ba38bc2dc4e9f7b1e668f66faf1a347a
    
-6. [Maxim]: Prepare audio datasets (LibriSpeech, Common Voice, Open STT)
+4. [Maxim]: Prepare audio datasets (LibriSpeech, Common Voice, Open STT)
 
    Commits:
-   
-8. [Kira]: Write scripts to download and process datasets.
+   - https://github.com/vladkalinichencko/Killah-Prototype/commit/0de8a68762d97e3d299a9f21aa035687d34d5ffb
 
-   Commits:
+   - https://github.com/vladkalinichencko/Killah-Prototype/commit/200a6be7e136c6567f5da82b069abe1fddfea44d
+   
+5. [Kira]: Write scripts to download and process datasets.
+
+   Contribution:
+    - https://colab.research.google.com/drive/1IP1t4tISERn_5bHdbOHRdCBOTNQGVBeP?usp=sharing
    
 
 ## Confirmation of the code's operability

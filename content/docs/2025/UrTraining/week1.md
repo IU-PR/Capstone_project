@@ -3,6 +3,8 @@
 
 **Authors:** Ildar Rakiev, Makar Dyachenko, Salavat Faizullin, Egor Chernobrovkin, Alexandra Starikova, Ilona Dziurava, Anisya Kochetkova
 
+**Code repository:** https://github.com/IU-Capstone-Project-2025/UrTraining
+
 **Date:** June 2025
 
 # Team Members
@@ -41,6 +43,12 @@ Competitors either provide pre-made workouts (with no real coach interaction), s
 | Instagram*                  | Promotion and branding                      | Unstructured content, no real system                     |
 | YouTube                     | Tons of free content                        | Hard to personalize, difficult to discover what fits you |
 
+**Problem:** UGC platforms (like YouTube, Udemy, marketplaces) often face content quality issues. Without filters, trainers might upload irrelevant or even harmful content.  
+**Validation:** Most major platforms use content filters — either automated or manual. A basic NLP scanner (even without ML) already helps a lot. Users expect to pay for actual workout programs, not junk.
+
+**Problem:** Fitness apps like Fitify, Nike Training Club, or MyFitnessPal often lack real customization — users manually look for plans that match their goals and level.  
+**Validation:** Personalization is key to retention. Simplified algorithms for recommending suitable workout plans are already used successfully in health/fitness apps. We can apply a lightweight version based on user’s questionnaire data, even at MVP stage.
+
 ## Goal
 
 The goal of our project is to simplify trainer-side workout plan uploads while automating user-side matching of optimal training programs.
@@ -48,6 +56,29 @@ The goal of our project is to simplify trainer-side workout plan uploads while a
 ## Solution
 
 Our solution simplifies workout plan creation for trainers while using AI to match users with perfectly tailored programs. We combine live coaches, smart matching, fast knowledge integration, AI-powered tools, and - most importantly - effortless monetization. Trainers don’t need marketing skills to earn, and clients don’t need expertise to find value - our service handles the selection for them, ensuring they only get what works.
+
+## Ideas during brainstorming
+
+### 1. Quality check for uploaded workout plans  
+Use a lightweight NLP model (or manual moderation at first) to filter out irrelevant content. The workout plan should contain structured training info like sets, timing, rest periods, and proper exercise names.
+
+### 2. Workout cards instead of long texts  
+Structure the training plans into short, clean cards showing key elements: exercise name, sets, rest time, etc. Easy to read. In the future — we’ll add visuals like icons, images, and videos.
+
+### 3. Basic progress tracker  
+Allow users to mark workouts as “done” and maybe leave a note. No calendar integration for MVP — keep UX simple.
+
+### 4. Trainer verification & trust system  
+Trainers can upload certificates. Show “verified” badge on profile. Ratings and reviews will boost trust. Internal badges or “recommended by platform” can highlight new or quality trainers.
+
+### 5. Workout recommendation algorithm based on user data  
+Take into account the user’s goals, level, and any contraindications. Show programs that match their needs. Possibly with a short explanation powered by AI.
+
+### 6. Flexible program upload for trainers  
+Trainers can either upload PDFs, scan paper notes, or fill out structured forms. We’ll process and turn it into proper workout cards.
+
+### 7. Built-in injury disclaimer and health filters  
+Add a legal disclaimer like “Use at your own risk.” Filter programs that might be unsafe for specific user conditions using LLM or basic keyword checks.
 
 ## Metrics of Success
 
@@ -182,8 +213,22 @@ https://github.com/IU-Capstone-Project-2025/UrTraining
 
 During the first week, our team held several meetings to discuss the core idea of the project and define the roles and responsibilities of each team member. We established the initial scope of the project and agreed on the main technologies that will be used for development.
 
+| **Team Member**       | **Telegram**     | **Contribution**                                                      | 
+|-----------------------|------------------|-----------------------------------------------------------------------|
+| Ildar Rakiev (Lead)   | @mescudiway      | Describe the project idea, project structure, registration page design|
+| Makar Dyachenko       | @index099        | Project structure in the frontend repository, main page design        |
+| Salavat Faizullin     | @FSA_2005        | Project structure in the backend repository                           | 
+| Egor Chernobrovkin    | @lolyhop         | Template prototypes for the /ml folder                                |
+| Alexandra Starikova   | @lexandrinnn_t   | Collect dataset                                                       |
+| Ilona Dziurava        | @a_b_r_i_c_o_s   | Report writing, backlog organization                                  |
+| Anisya Kochetkova     | @anis1305        | Project structure in the backend repository                           |
+
 ## Challenges & Solutions
 The main challenge we faced was differing perspectives on the project details. To address this, we reached an agreement on the core functionality and defined clear, specific requirements. This ensured that all team members share a unified understanding of the project moving forward.
 
 ## Conclusions & Next Steps
 During the first week, we made progress by defining the main goal of the project and outlining our future plans. In the upcoming week, our focus will shift to designing the project interface and beginning implementation based on the established backlog.
+
+We confirm that the code in the main branch:
+- In working condition.
+- Run via docker-compose.

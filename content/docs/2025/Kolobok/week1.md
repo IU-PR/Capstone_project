@@ -88,7 +88,7 @@ The solution is designed for both car owners and retail employees, reducing manu
 | Sergey Aitov        | 20 spike condition [annotations](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/sergey_annotations_w1.png) [[sample](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/sergey_annotation_sample_w1.png)]                                                                                                                              |
 | Darya Stepanova     | Telegram bot user flow [design](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/038c5b913fdf6d97ffc62945ec45a03931973142)                                                                                                                              |
 | Ekaterina Petrova   | 20 spike condition [annotations](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/kate_annotations_w1.png) [[sample](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/kate_annotation_sample_w1.png)]                                                                                                                              |
-| Dmitry Tetkin       | "Hello World" Telegram bot implementation                                                                                                                   |
+| Dmitry Tetkin       | "Hello World" Telegram bot [implementation](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/f2784c39f27eb312e1c638c4c0465555951ac97c)                                                                                                                   |
 
 ## Confirmation of the code's operability
 We confirm that the code in the main branch:

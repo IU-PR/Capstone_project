@@ -120,19 +120,19 @@ Monetization Strategy: non-intrusive advertising, *premium features**, instituti
 ## Individual contribution of each participant
 
 
--  **Kirill Efimovich:** Conducted several team meetings, suggested idea of adding academic papers tab into our system, filled weekly report, set up GitHub repositories, containerized boilerplate 
+-  **Kirill Efimovich:** Conducted several team meetings, suggested idea of adding academic papers tab into our system, filled weekly report, set up GitHub repositories, containerized boilerplate [(link)](https://github.com/IU-Capstone-Project-2025/open-labs-share/pull/2)
   
--  **Mikhail Trifonov:** Assisted with technical side of our architecture and build service architecture, actively suggested ideas for MVP and for future, made boilerplate
+-  **Mikhail Trifonov:** Constructed service architecture [(repo link)](https://github.com/LuminiteTime/Open-Labs-Share-Docs), actively suggested ideas for MVP and for future, made boilerplate [(link)](https://github.com/IU-Capstone-Project-2025/open-labs-share/pull/1)
 
--  **Nikita Maksimenko:** Main idea holder, constructed service architecture, actively suggested ideas for MVP and for future
+-  **Nikita Maksimenko:** Main idea holder, constructed service architecture [(repo link)](https://github.com/LuminiteTime/Open-Labs-Share-Docs), actively suggested ideas for MVP and for future
 
--  **Timur Salakhov:** Helped with all sides of architecture, actively suggested ideas for MVP and for future
+-  **Timur Salakhov:** Helped with all sides of architecture [he said and Mikhail \ Nikita typed (repo link)](https://github.com/LuminiteTime/Open-Labs-Share-Docs), actively suggested ideas for MVP and for future
 
--  **Ravil Kazeev:** Helped with all sides of architecture, actively suggested ideas for MVP and for future
+-  **Ravil Kazeev:** Helped with all sides of architecture [he said and Mikhail \ Nikita typed (repo link)](https://github.com/LuminiteTime/Open-Labs-Share-Docs), actively suggested ideas for MVP and for future
 
--  **Kirill Shumskiy:** Assisted with theoretical ML usage in our project, started research for tools for ML side implementation 
+-  **Kirill Shumskiy:** Assisted with theoretical ML usage in our project [he said and Mikhail \ Nikita typed (repo link)](https://github.com/LuminiteTime/Open-Labs-Share-Docs), started research for tools for ML side implementation 
 
--  **Aleliya Turushkina:** Prototyped design in [Figma](https://www.figma.com/design/mvegZwCxX8KHxhtI2PeMHQ/OpenLabsShare?node-id=0-1&p=f&t=M2kuxYrgLTacXKCY-0), started research for tools for frontend side implementation
+-  **Aleliya Turushkina:** Prototyped design in Figma [(link)](https://www.figma.com/design/mvegZwCxX8KHxhtI2PeMHQ/OpenLabsShare?node-id=0-1&p=f&t=M2kuxYrgLTacXKCY-0), started research for tools for frontend side implementation
   
 
 

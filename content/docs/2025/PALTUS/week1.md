@@ -1,7 +1,18 @@
 # Practicum Project  
 PALTUS team. Report 1  
 
-## 1. Team Members and assigned roles
+## Project name: PALTUS: Personalized Adaptive Learning & Time Utilization System
+
+## Code repository:
+https://github.com/IU-Capstone-Project-2025/PALTUS  
+
+## Project Idea  
+An AI-powered self-learning planner that helps users create personalized study plans for any topic, using GigaChat to generate lessons, structure schedules, and track progress with gamification to maintain engagement.
+
+## Problem Statement  
+Many students and self-learners struggle to structure their self-study process, leading to inconsistencies and inefficiencies. Existing platforms lack personalization and flexibility, often resulting in lost motivation.
+
+## Team Members 
 
 | Team Member             | Telegram Alias   | Email Address                     | Track                    | Responsibilities                                                                 |
 |-------------------------|------------------|-----------------------------------|--------------------------|----------------------------------------------------------------------------------|
@@ -12,27 +23,38 @@ PALTUS team. Report 1
 | Igor Dubrovsky          | @chomosuce       | i.dubrovsky@innopolis.university  | Backend                  | Writing logic for GPT interaction                                                |
 | Danil Demin             | @degradatorus    | da.demin@innopolis.university     | Frontend                 | Creating frontend components and views                                           |
 
-## 2. Project idea, problem statement, target users
+## Brainstorming #  
+**Ideas during brainstorming #**  
+1. **AI Study Planner (Chosen idea)** — An AI-powered self-learning planner that helps users create personalized study plans for any topic, using AI-model to generate lessons, structure schedules, and track progress with gamification to maintain engagement.  
+2. **Smart Scheduler Bot** — A Telegram bot that understands free-form user input about upcoming tasks or events, adds them to a calendar, and sends reminders in advance. Could be integrated with Google Calendar API.  
+3. **MeetDev** — A web platform to help developers find pet projects and teammates by stack and experience level. Aimed at beginners looking for practice and teams searching for collaborators.  
+4. **CarsToBuy** — A web service that aggregates reviews, listings from popular marketplaces, and technical data for each car model to help users make informed purchasing decisions.  
 
-### Project Idea  
-An AI-powered self-learning planner that helps users create personalized study plans for any topic, using GigaChat to generate lessons, structure schedules, and track progress with gamification to maintain engagement.
+## Brief market research / problem validation #  
+The current learning platforms offer structured courses but limited flexibility and personalization. Many self-learners report a lack of motivation due to rigid course structures and insufficient feedback on progress. Our idea addresses this by generating personalized study plans and tracking individual progress dynamically, which makes learning more adaptable and engaging.
 
-### Problem Statement  
-Many students and self-learners struggle to structure their self-study process, leading to inconsistencies and inefficiencies. Existing platforms lack personalization and flexibility, often resulting in lost motivation.
+Our validation shows that:
+- Many users desire more adaptive learning flows that adjust to their pace and knowledge gaps.
+- Existing solutions are not user-centric enough in terms of progress tracking or creating unique, custom-fit courses.
 
-### Target Users  
-- Self-learners/students seeking structured/personalized study plans  
-- Busy professionals aiming to upgrade skills with limited time  
-- Individuals preparing for exams or learning new disciplines (coding, languages, etc.)  
+## Basic requirements #  
+- AI-generated topic-based study plans  
+- Ability to input any study topic  
+- Text-based lesson delivery  
+- Clear and simple progress tracking system  
+- Web-based interface  
 
-## 3. List of high-level user stories and initial scope
+## Target users and their primary needs #  
+- **Self-learners / students** — need structured and personalized study plans.  
+- **Busy professionals** — want to upgrade skills with limited time using adaptive tools.  
+- **People preparing for exams / new skills** — require guided, gamified paths to stay motivated.  
 
-### User Stories  
+## User stories #  
 1. As a client, I want a course with structured learning materials to self-learn new skills.  
 2. As a client, I need flexibility in my learning schedule to study at my convenience.  
 3. As a client, I require clear progress tracking to stay engaged and understand my improvement.  
 
-### Initial Scope  
+## Initial scope #  
 **Included in MVP:**  
 - AI-generated topic-based study plans  
 - Text-based lesson delivery  
@@ -40,13 +62,9 @@ Many students and self-learners struggle to structure their self-study process, 
 
 **Excluded (future iterations):**  
 - Calendar integrations  
-- Mobile apps  
 - Social features  
 
-## 4. Link to your project code repository  
-https://github.com/IU-Capstone-Project-2025/PALTUS  
-
-## 5. Chosen tech stack with justification
+## Tech-stack #  
 
 ### Frontend  
 - **Vue.js, Vuetify**  

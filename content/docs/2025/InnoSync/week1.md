@@ -148,7 +148,8 @@ https://github.com/IU-Capstone-Project-2025/InnoSync/commit/be70bb246944ebe0df42
 \
 https://github.com/IU-Capstone-Project-2025/InnoSync/commit/513ac2cc918c6751167447a52108721accd9af98
 - **Gurbanberdi Gulladyyev**: Researched ML tech-stack and started outlining the ML approach for QuickSyncing, did the user case diagram.
-
+\
+https://raw.githubusercontent.com/IU-Capstone-Project-2025/InnoSync/refs/heads/main/assets/userdiagram.jpg
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:

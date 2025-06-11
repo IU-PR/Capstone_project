@@ -261,5 +261,5 @@ All team members actively participated in:
 
 We confirm that the code in the main branch:
 
-- [ ] In working condition.
-- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+- [x] In working condition.
+- [x] Run via docker-compose (or another alternative described in the `README.md`).

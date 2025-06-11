@@ -27,7 +27,7 @@ One of the major flaws is that private investors and analysis lack access to pre
 | Farit Sharafutdinov            | @Ivenho123 | f.sharafutdinov@innopolis.university | ML | Data collection, preprocessing, and delivery |
 | Rail Sharipov            | @ZilaBu | ra.sharipov@innopolis.university | ML | R&D, Exploratory data analysis, and feature engineering |
 | Askar Kadyrgulov            | @gaha1ad | a.kadyrgulov@innopolis.university | Backend | Development and Operations for backend and ML, scraping functionality |
-| Nikita Solomennikov | @Hikisol | n.solomennikov@innopolis.unisersity | Design | Creating design for frontend |
+| Nikita Solomennikov | @Hikisol | n.solomennikov@innopolis.university | Design | Creating design for frontend |
 
 
 ## Brainstorming
@@ -132,7 +132,7 @@ Metalytics/
 - **Ilya Grigorev** - performed preliminary market behavior analysis of gold prices, investigated filter design principles, and [prepared](https://github.com/IU-Capstone-Project-2025/Metalytics/tree/main/ml/notebooks) an in-depth exploratory notebook focused on volatility and preprocessing.
 - **Rail Sharipov** - explored Kaggle datasets and began reviewing external data sources.
 - **Askar Kadyrgulov** - started studying FastAPI and backend architecture principles. Since there is not much knowledge in the backend these tutorials are used to learn it ([Backend](https://roadmap.sh/backend?fl=1) and [FastAPI](https://youtube.com/playlist?list=PLeLN0qH0-mCVQKZ8-W1LhxDcVlWtTALCS&si=Efm3IRzxXaLi8Acr))  
--  **Nikita Solomennikov** - began learning Figma and UI/UX fundamentals to design user-facing components. To do this [this figma design](https://www.figma.com/design/akmCXD83RdkXXY29Mj7xXz/W-Wave-Radio--new---Copy---Community-?node-id=0-1&p=f&t=DGtbldeVLEV3UUOF-0) will be analysed to learn how to create containers and sections, how to create UI kit to demonstrate states.
+-  **Nikita Solomennikov** - began learning Figma and UI/UX fundamentals to design user-facing components. [this figma design](https://www.figma.com/design/akmCXD83RdkXXY29Mj7xXz/W-Wave-Radio--new---Copy---Community-?node-id=0-1&p=f&t=DGtbldeVLEV3UUOF-0) will be analysed. Analyzing this design will help to learn how to structure UI components using containers, define visual hierarchy with sections, and build UI kits to represent component states (hover, active, disabled).
 
  ### Plans for the next week:
 - Create the first version of the UI prototype in Figma.

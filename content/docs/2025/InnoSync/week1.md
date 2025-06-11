@@ -52,7 +52,8 @@ InnoSync is a smart collaboration and talent-matching platform developed for the
 
 **Why we selected InnoSync: We chose InnoSync because it simply addresses a common challenge many of us face, finding work or side projects to learn from, participating in research, or finding teammates/speacilists for paid, passion-driven, or academic projects. We believe InnoSync’s impact will be immediately visible in our community.**
 
-**Interviews with IT specialists asking them questions about their problems with InnoSync Like platforms**
+*Interviews with IT specialists asking them questions about their problems with InnoSync Like platforms*
+\
 **Link:** https://docs.google.com/document/d/1qv_p7PXtwwLyW7-LFDWodbcnnmXI9BD-D75tksvxJgY/edit?tab=t.0#heading=h.5mzoqgecvopb
 ## Basic requirements
 

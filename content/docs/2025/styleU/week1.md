@@ -241,3 +241,44 @@ Subsequently, we will add user authentication, outfit selection, and the ability
 2) **Tailwind CSS** -  is a set of ready-made styles for quick layout. It allows you to quickly create responsive design directly in HTML markup, without having to write a lot of CSS.
 
 3) **[Design ideas](https://www.siteinspire.com/)** - a site with the best and unusual designs where we take ideas and get inspired (open with vpn)
+
+
+## 5) Weekly commitments
+
+1) Ksenia Korchagina (lead) - Task distribution and time estimation, organizing project deployment meetings, deploy, initial database sketch, writing the report
+
+    **[Kanban board](https://s5-project-summer-2025.teamly.ru/space/45e22f1e-f31f-4207-96f3-dd8a18b314b8/database/f226fd43-ad24-45a2-ac21-8f5c7684f4c6?viewId=8db4dd59-b2c6-4239-a5df-f858e9cc0f39)**
+
+    **[commit in repo](https://github.com/IU-Capstone-Project-2025/styleU/commit/aba1f84a2f6b1af8c524039900023d45a3416e90)**
+
+2) Yasmina Mamadalieva  - Organizing an additional meeting for the ML group, selecting core methods for ML training, gathering design ideas
+
+    **choosen methods are presented in this reports**
+
+3) Aisylu Fattakhova - Consulting acquaintances regarding model training, analyzing selected models
+
+    **choosen methods are presented in this reports**
+
+4) Ekaterina Akimenko - Started working on the design, created a minimally working version of the frontend
+
+    **[Figma](https://www.figma.com/design/VHOnHId7DlFbgjnn46NGUW/StyleU?node-id=15-2&p=f&t=lgCLL10e3f1up4oQ-0)**
+
+    **[commit in repo](https://github.com/IU-Capstone-Project-2025/styleU/commit/1c1e5d87bf0915e2f939e17da29ae18ed56d8abc)**
+
+
+5) Sofia Goryunova - Selected core methods for ML training
+
+    **choosen methods are presented in this reports**
+
+6) Alena Starikova - Drafted the architecture, created a minimal working version of the backend, analyzed databases we plan to use
+
+    **[commit in repo](https://github.com/IU-Capstone-Project-2025/styleU/commit/082d97b55a604607269671084efdcbfd4016239d)**
+
+    **[architecture](https://s5-project-summer-2025.teamly.ru/space/45e22f1e-f31f-4207-96f3-dd8a18b314b8/article/3bd9fd5c-b32c-4e2f-8ce1-9d74af96f661)**
+                      
+7) Rokkel Maria - Started working on the design and logo 
+
+    **[Figma](https://www.figma.com/design/VHOnHId7DlFbgjnn46NGUW/StyleU?node-id=15-2&p=f&t=lgCLL10e3f1up4oQ-0)**
+
+
+

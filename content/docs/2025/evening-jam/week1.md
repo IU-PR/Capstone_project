@@ -60,9 +60,9 @@ Game Mechanics Ideas
 
 Puzzle-platformers are distinguished and widely played, as well as loved by the players for their authenticity and simple cognitive training. They also provide a solid ground for the indie developers with small teams and give the opportunity to focus on story telling and interesting mechanics. 
 
-Examples in the market:
+Examples in the market
 
-Renowned platformers
+Renowned platformers:
 
 - Limbo by Playdead: very atmospheric with subtle but prominent social shadowing, interesting mechanics involved 
 - Badland by HypeHype Inc: more dynamic due to its sidescrolling game process, puzzles with the world objects 
@@ -132,6 +132,7 @@ Also, we did not setup the Docker Compose since it is not suitable for our proje
     - organized team github and added [description](https://github.com/fantom73d/evening-jam/commit/3d027d4282cde69200504226683c1ef7c6b09ff4)
 - Lev Ivanov: 
     - [game mechanics ideas](https://docs.google.com/document/d/1Vo9ULr0iiDlRrvzsPDKi_QGgH3iBMy6o6v2Kx9lyGMw/edit?usp=sharing)
+    - [initial repo for the project files](https://github.com/evolutionleo/Capstone-2025)
 - Ulyana Yanovskaya: 
     - [game mechanics ideas](https://docs.google.com/document/d/1Vo9ULr0iiDlRrvzsPDKi_QGgH3iBMy6o6v2Kx9lyGMw/edit?usp=sharing)
     - [plot ideas](https://docs.google.com/document/d/1X3O8aEoBbfwByd1n85P7moEmHtmtGIArqPp-ZDOn_1s/edit?usp=sharing)

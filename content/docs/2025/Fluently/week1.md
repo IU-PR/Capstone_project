@@ -83,6 +83,8 @@ B2-C1 (Upper-Intermediate to Advanced): Aims for fluency refinement (e.g., idiom
 
 - Get updatable visual statistics of the learning process and see progress
 
+- Ability to extend English vocabulary
+
 ### User stories
 
 1. As a user, I want to take lessons with new words with simple and quick (pick options) tests, so that learn the most frequently used vocabulary

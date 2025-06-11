@@ -55,7 +55,6 @@ Development of sensor prototypes using an existing board.
 Development of an embedded sensor. 
 Testing prototypes on the raw version of the tank.
 
-
 ## Tech-stack
 
 
@@ -64,7 +63,6 @@ Testing prototypes on the raw version of the tank.
 | Embeded programming	| C/C++, Cube IDE, Arduino IDE	|
 | Design engineer		| NX Seimens					|
 | Sensors Mechanics		| Math + physics				|
-
 
 
 # Weekly commitments

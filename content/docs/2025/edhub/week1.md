@@ -15,10 +15,10 @@ June 2025
 | Team Member | Telegram Alias | Email | Track |
 | --- | --- | --- | --- |
 | Gleb Popov | [https://t.me/gleb_pp](@gleb_pp) | g.popov@innopolis.university | Backend Developer, Project Manager |
-| Timur Usmanov | [https://t.me/error10556](@error10556) | t.usmanov@innopolis.university | Backend Developer, Backend Lead |
+| Timur Usmanov | [https://t.me/error10556](@error10556) | t.usmanov@innopolis.university | Backend Developer, **Backend Lead** |
 | Asqar Dinikeev | [https://t.me/bailey_64](@bailey_64) | a.dinikeev@innopolis.university | Backend Developer, DevOps |
-| Alina Suhoverkova | [https://t.me/diggoryk](@diggoryk) | a.suhoverkova@innopolis.university | Frontend Developer, Frontend Lead |
-| Timur Struchkov | [https://t.me/AlfyKls](@AlfyKls) | t.struchkov@innopolis.university | Frontend Developer |
+| Alina Suhoverkova | [https://t.me/diggoryk](@diggoryk) | a.suhoverkova@innopolis.university | Frontend Developer, **Frontend Lead** |
+| Timur Struchkov | [https://t.me/AlfyKls](@AlfyKls) | t.struchkov@innopolis.university | Frontend Developer, UX/UI designer |
 
 # Project Description
 
@@ -100,8 +100,8 @@ We confirm that the code in the main branch:
 
 | Team Member | Сontribution |
 | --- | --- |
-| Gleb Popov | Backend tech stack chosen, first API commands written, report written. |
-| Timur Usmanov | Backend tech stack discussed, database created, first docker-compose written. |
-| Asqar Dinikeev | Backend tech stack discussed, code architecture sketches are made up. |
-| Alina Suhoverkova | Frontend tech stack chosen, frontend architecture created. |
-| Timur Struchkov | Frontend tech stack discussed. |
+| Gleb Popov | First API commands have been written ([backend/](https://github.com/IU-Capstone-Project-2025/edhub/tree/main/backend) folder in [main](https://github.com/IU-Capstone-Project-2025/edhub/tree/main/) branch), [report](https://github.com/gleb-pp/edhub/commits/master/) has been written. |
+| Timur Usmanov | Database server has been created, database structure has been developed ([commit](https://github.com/IU-Capstone-Project-2025/edhub/commit/59505108150d18678015ec3057c1675b34abaa62)), first `docker-compose` has been written ([commit](https://github.com/IU-Capstone-Project-2025/edhub/commit/59505108150d18678015ec3057c1675b34abaa62)), pull request reviews have been conducted ([pull request](https://github.com/IU-Capstone-Project-2025/edhub/pull/1), [pull request](https://github.com/IU-Capstone-Project-2025/edhub/pull/2), [pull request](https://github.com/IU-Capstone-Project-2025/edhub/pull/4), [pull request](https://github.com/IU-Capstone-Project-2025/edhub/pull/5)) |
+| Asqar Dinikeev | Code architecture sketches have been made up ([commit](https://github.com/IU-Capstone-Project-2025/edhub/commit/6ec7c723d52fd9901295b26437d1ae5a1d090e26)). |
+| Alina Suhoverkova | Frontend architecture and first pages drafts have been created ([frontend branch](https://github.com/IU-Capstone-Project-2025/edhub/tree/frontend/frontend)). |
+| Timur Struchkov | Prototype of the initial pages have been developed ([Figma](https://www.figma.com/design/dZsl8QQ8ZdJAXhzhCROajk/Untitled?node-id=0-1&p=f)) |

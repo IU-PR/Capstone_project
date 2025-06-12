@@ -205,7 +205,7 @@ Automates data collection and analysis, providing coaches and journalists with r
 
 ---
 
-## Weekly commitments
+## Weekly contribution
 
 ### Individual contribution of each participant
 
@@ -229,3 +229,51 @@ Automates data collection and analysis, providing coaches and journalists with r
 - **Egor Agapov**:
   - Report
   - Name of project.
+
+## Weekly commitments
+
+### Sprint goal: 
+
+**Create a data structure, a prototype user interface with basic analytics to demonstrate the value of the platform — centralized access to football statistics with AI tools.**
+
+**Success criteria:**
+
+- Implemented ERD with basic entities
+    
+- Ready-made design system and interactive prototype
+    
+- Processed and normalized data for testing
+    
+- A simple model for predicting match results
+    
+- Specific filtering and sorting options for tables
+
+## Frontend:
+
+1) Selection of parameters for representation in tables | Write list of parameters for representation in tables.
+----------------|-----------------
+2) Selection of  filters in tables | Write list of filters in tables.
+----------------|-----------------
+3) Selection of  parameters for sorting data in tables | Write list of parameters for sorting data in tables.
+----------------|-----------------
+4) Low-fi prototype (UX) | A low-fidelity prototype is a simplified and rough version of a product or design concept, used early in the design process to test ideas, gather feedback, and validate concepts. (UX)
+----------------|-----------------
+5) UI design preprocessing | colors, font, photos, peactures
+----------------|-----------------
+6) Development of figma prototype based UI design preprocessing and Low-fi prototype | A figma prototype that displays user stories
+----------------|-----------------
+
+## Backend:
+1) DB design as ERD diagram | Create ERD diagram
+----------------|-----------------
+2) ERD implementation | ///
+----------------|-----------------
+## ML:
+1) Feature selection | List of features
+----------------|-----------------
+2) Data parsing | All data in .csv
+----------------|-----------------
+3) Data preprocessing | Select features from list (1) and data normalization and data separation.
+----------------|-----------------
+4) Simple model design | Simple classifier (e.g. sigmoid function)
+----------------|-----------------

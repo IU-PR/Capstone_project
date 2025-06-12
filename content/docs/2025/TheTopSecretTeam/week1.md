@@ -1,7 +1,7 @@
 ---
 title: "Week #1"
 ---
-# Week #1
+# Week 1
 
 ## Project description
 
@@ -50,8 +50,11 @@ But before that we had some other ideas.
 There is a growing market of small buisness owners who are looking for efficient solutions to manage customer relationships and time management.
 By making a quick search, there are numerous CRM solutions available, but many are overly complex or expensive that do not cater specifically to the unique needs of small businesses.
 
-#### Referral Client SystemCooperative anomaly management simulator (like Lobotomy Corporation) written in Godot enginear as our research goes there are no competitors in small business domain.
+#### Referral Client System
 
+**Problem:** Its very hard for small businesses to gain new clients. **Solution:** Make a referral system so that they can keep track and employ influencers for advertisement.
+**Target audience:** Small businesses in Russia.
+**Copetitors:** As far as my research goes there are no competitors in small business domain.
 #### TheCOOrP
 
 The only project with the same idea is a fan game called [Lobotomy Corporation 13](https://wiki.lc13.net/view/Main_Page) (LC13) that is a mod for 2003 game SS13 which has similar gameplay mechanics.

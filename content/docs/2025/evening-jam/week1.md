@@ -149,4 +149,23 @@ We confirm that the code in the main branch:
 - [x] In working condition.
 - [ ] Run via docker-compose (or another alternative described in the `README.md`).
 
+# Plans for the Week 2 sprint
 
+## Things to code
+- the light bulb and the port for it
+- the basic movement
+- the sliding bridge
+- the dialogue system
+
+## Narrative and level design
+- Write dialogues for the first level
+- Make up puzzles for the first level
+
+## Art
+- Draw the main character and npcs
+- Draw the dialogue window
+- Draw the basic location elements
+
+## Organisation 
+- Video call to brainshtorm and agree on the first level content
+- Write report for week 2

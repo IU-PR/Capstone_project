@@ -11,7 +11,10 @@ title: "Week #1"
 Unity version - 2022.3.56f1
 
 ### Detailed description
-Our project is the Unity game where the player can walk through the main areas of the university (main hall and dormitory), interacting with the NPC(students/professors) and objects in locations to learn about life in Innopolis through mini-quests and dialogues.
+Our project is the Unity game where the player can walk through the main areas of the university (main hall and dormitory), interacting with the NPC(students/professors) and objects in locations to learn about life in Innopolis through mini-quests and dialogues.  
+User open the game and see main screen with first location(first part of main hall). Also user see 3 "!" marks with possibilities to click and open the dialogs with professor, and 2 secutity men.  
+After passing the dialogs with the second secutiry man you have opportunity to pass to the second location with more quests such as look at 108 auditorium or buy something in the vending mashine. The fully detailed description of the scenario is attached in the contribution part below. It will be finalized in the next week.   
+
 
 ### Problem statement 
 Many applicants and tourists do not have the opportunity to come to the university in person and learn about the student's life. We solve this by creating a virtual tour around the University with interaction. 
@@ -20,9 +23,9 @@ Many applicants and tourists do not have the opportunity to come to the universi
 
 | Team Member                             | Telegram ID   | Email Address   | Track                                       | Responsibilities   |
 |-----------------------------------------|---------------|-----------------|---------------------------------------------|--------------------|
-| Marina Lavrova(Lead)     | @mc_lavrushka | m.lavrova@innopolis.university | Project Management | Organization of work documentation, communication |
-| Merkulov Leonid        | @merkulov_leonid | l.merkulov@innopolis.university | Backend | C# code and DevOps tasks |
-| Ivan Makarov           | @cody_py | i.makarov@innopolis.university | Backend| C# code and customer communication |
+| Marina Lavrova(Lead)     | @mc_lavrushka | m.lavrova@innopolis.university | Project Management and narrative writer | Organization of work documentation, communication, backlog and responsible for narrative script |
+| Merkulov Leonid        | @merkulov_leonid | l.merkulov@innopolis.university | Unity developer | C# code and DevOps tasks |
+| Ivan Makarov           | @cody_py | i.makarov@innopolis.university | Unity developer| C# code and customer communication |
 | Tarubarova Nadia            | @laseiiine | n.tarubarova@innopolis.university | Design | 3D modeling of locations and characters  |
 | Pokhodyaeva Polina         | @polly_p0 | p.pokhodyaeva@innopolis.university | Design | Designing and scatching locations and characters |
 
@@ -133,9 +136,11 @@ We confirm that the code in the main branch:
 - [ ] Run via docker-compose (or another alternative described in the `README.md`).
 
 ## Plans for next week
-- Write detailed user stories and user flow diagrams
-- Create a backlog with all tasks
-- Create a prototype of 2 locations
-- Upload the 3d model of the first location in Unity
+- Write detailed user stories and user flow diagrams.
+- Finalize the narrative for the game.
+- Create a backlog with all tasks, estimation and sprints.
+- Create a prototype of 2 locations.
+- Upload the 3d model of the first location in Unity.
 - Add main character and it's walking around the ares. 
-- If will have left time, create a first interactions with objects in location.
+- Create a first interactions with objects in location.
+- Learn camera transitions in Unity and try to apply.

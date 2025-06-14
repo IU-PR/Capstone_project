@@ -14,11 +14,11 @@ June 2025
 
 | Team Member | Telegram Alias | Email | Track |
 | --- | --- | --- | --- |
-| Gleb Popov | [https://t.me/gleb_pp](@gleb_pp) | g.popov@innopolis.university | Backend Developer, Project Manager |
-| Timur Usmanov | [https://t.me/error10556](@error10556) | t.usmanov@innopolis.university | Backend Developer, **Backend Lead** |
-| Asqar Dinikeev | [https://t.me/bailey_64](@bailey_64) | a.dinikeev@innopolis.university | Backend Developer, DevOps |
-| Alina Suhoverkova | [https://t.me/diggoryk](@diggoryk) | a.suhoverkova@innopolis.university | Frontend Developer, **Frontend Lead** |
-| Timur Struchkov | [https://t.me/AlfyKls](@AlfyKls) | t.struchkov@innopolis.university | Frontend Developer, UX/UI designer |
+| Gleb Popov | [@gleb_pp](https://t.me/gleb_pp) | g.popov@innopolis.university | Backend Developer, Project Manager |
+| Timur Usmanov | [@error10556](https://t.me/error10556) | t.usmanov@innopolis.university | Backend Developer, **Backend Lead** |
+| Asqar Dinikeev | [@bailey_64](https://t.me/bailey_64) | a.dinikeev@innopolis.university | Backend Developer, DevOps |
+| Alina Suhoverkova | [@diggoryk](https://t.me/diggoryk) | a.suhoverkova@innopolis.university | Frontend Developer, **Frontend Lead** |
+| Timur Struchkov | [@AlfyKls](https://t.me/AlfyKls) | t.struchkov@innopolis.university | Frontend Developer, UX/UI designer |
 
 # Schedule
 
@@ -53,10 +53,10 @@ We decided to split our project into several versions, each of which has full se
 - [`devops`]: Project architecture has been developed, methods have been refactored into new modules ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/25)).
 
 ### Alina Suhoverkova
-- [`frontend`]:
+- [`frontend`]: 
 
 ### Timur Struchkov
-- [`frontend`]:
+- [`frontend`]: 
 
 # Repository
 

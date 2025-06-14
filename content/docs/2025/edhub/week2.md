@@ -22,10 +22,10 @@ June 2025
 
 # Schedule
 
-We decided to split our project into several versions, each of which has full self-sufficient functionality. With each new version new features are added to the project.
+We decided to split our project into several versions, each of which has full self-sufficient functionality. With each version new features are added to the project.
 
-- **Materials**: Teacher can create courses, invite students, parents, or teachers, create materials. Student can enter the course and view the materials. Parent can enter the course and view the materials.
-- **Assignment**: Teacher can create assignments and grade students' submissions. Student can submit assignments. Parents can track their students' submissions.
+- **Materials**: Teacher can create courses, invite students, parents, or teachers, create materials. Student can enter the course and view the list of available materials. Parent can enter the course and view the list of available materials.
+- **Assignment**: Teacher can create assignments, see the list of students' submissions and grade them. Student can submit assignments. Parents can track their students' submissions.
 - **Files**: Teacher can attach files up to 5MB to course materials and assignments. Student can attach files up to 5MB to their submissions.
 
 | Project Version | Backend | Frontend |
@@ -45,7 +45,7 @@ We decided to split our project into several versions, each of which has full se
 <!-- add link for the pull request with weekly report -->
 
 ### Timur Usmanov
-- [`backend`]: Docker network bug has been fixed after recommendation of TA ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/6));
+- [`backend`]: Docker network bug has been fixed after the recommendation of TA ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/6));
 - [`backend`]: The correctness of input arguments of constraint checking functions is now validated ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/23));
 - [`backend`]: Careful checking and commenting of pull request has been conducted ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/21), [*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/22)).
 
@@ -64,5 +64,5 @@ We decided to split our project into several versions, each of which has full se
 
 We confirm that the code in the main branch:
 
-- In working condition.
-- Run via docker-compose.
+- Is in working condition.
+- Is runnable via `docker compose`.

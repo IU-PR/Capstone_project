@@ -46,7 +46,7 @@ We decided to split our project into several versions, each of which has full se
 
 ### Timur Usmanov
 - [`backend`]: Docker network bug has been fixed after recommendation of TA ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/6));
-- [`backend`]: Constraint checking functions have been added to check the correctness of input arguments ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/23));
+- [`backend`]: The correctness of input arguments of constraint checking functions is now validated ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/23));
 - [`backend`]: Careful checking and commenting of pull request has been conducted ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/21), [*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/22)).
 
 ### Asqar Dinikeev

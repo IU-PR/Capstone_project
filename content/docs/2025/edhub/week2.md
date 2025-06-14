@@ -50,7 +50,7 @@ We decided to split our project into several versions, each of which has full se
 - [`backend`]: Careful checking and commenting of pull request has been conducted ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/21), [*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/22)).
 
 ### Asqar Dinikeev
-- [`devops`]:
+- [`devops`]: Project architecture has been developed, methods have been refactored into new modules ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/25)).
 
 ### Alina Suhoverkova
 - [`frontend`]:

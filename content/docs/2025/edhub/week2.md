@@ -27,7 +27,7 @@ We decided to split our project into several versions, each of which has full se
 | Project Version | Describtion | Backend | Frontend |
 | --- | --- | --- | --- |
 | **Materials** | **Teacher** can create courses, invite students, parents, or teachers, create materials. **Student** can enter the course and view the materials. **Parent** can enter the course and view the materials. | :ballot_box_with_check: Done in Week 1 | :white_check_mark: Done in Week 2 |
-| **Assignment** | **Teacher** can create assignments and grade students' submissions. **Student** can submit assignments. **Parent** can track their students' submissions. | :ballot_box_with_check: Done in Week 2 | :black_square_button:: Planned for Week 3 |
+| **Assignment** | **Teacher** can create assignments and grade students' submissions. **Student** can submit assignments. **Parent** can track their students' submissions. | :white_check_mark: Done in Week 2 | :black_square_button:: Planned for Week 3 |
 | **Files** | **Teacher** can attach files up to 5MB to course materials and assignments. **Student** can attach files up to 5MB to their submissions. | :black_square_button: Planned for Week 3 | :black_square_button: Planned for Week 3 or Week 4 |
 
 # Individual contribution

@@ -93,4 +93,4 @@ The solution is designed for both car owners and retail employees, reducing manu
 ## Confirmation of the code's operability
 We confirm that the code in the main branch:
 - [x] In working condition
-- [x] Run via docker-compose
+- [x] Run via method described in README.md

@@ -33,16 +33,17 @@ We decided to split our project into several versions, each of which has full se
 # Individual contribution
 
 ### Gleb Popov
-- [`backend`]: Backend part of the **Assignment** feature has been developed ([*pull request*](https://github.com/IU-Capstone-Project-2025/edhub/pull/21));
-- [`backend`]: The feature of proper deletion of user account and all their data from the system has been developed ([*pull request*](https://github.com/IU-Capstone-Project-2025/edhub/pull/22));
+- [`backend`]: Backend part of the **Assignment** feature has been developed ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/21));
+- [`backend`]: The feature of proper deletion of user account and all their data from the system has been developed ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/22));
 - [`management`]: Project backlog with tasks for Week 2 has been created ([*kanban board*](https://github.com/orgs/IU-Capstone-Project-2025/projects/14/views/1)).
 - [`management`]: A more detailed market research was carried out after the recommendation of TA ([**])
-- [`management`]: Weekly report has been written ([*pull request*](https://github.com/)).
-<!-- add link for the pull request with weekly report -->.
+- [`management`]: Weekly report has been written ([*PR*](https://github.com/)).
+<!-- add link for the pull request with weekly report -->
 
 ### Timur Usmanov
-- [`backend`]: Docker network bug has been fixed after recommendation of TA ([*pull request*](https://github.com/IU-Capstone-Project-2025/edhub/pull/6));
-- [`backend`]: Careful checking and commenting of pull request has been conducted ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/21), [*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/22));
+- [`backend`]: Docker network bug has been fixed after recommendation of TA ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/6));
+- [`backend`]: Constraint checking functions have been added to check the correctness of input arguments ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/23));
+- [`backend`]: Careful checking and commenting of pull request has been conducted ([*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/21), [*PR*](https://github.com/IU-Capstone-Project-2025/edhub/pull/22)).
 
 ### Asqar Dinikeev
 - [`devops`]:

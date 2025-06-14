@@ -24,11 +24,15 @@ June 2025
 
 We decided to split our project into several versions, each of which has full self-sufficient functionality. With each new version new features are added to the project.
 
-| Project Version | Describtion | Backend | Frontend |
-| --- | --- | --- | --- |
-| **Materials** | **Teacher** can create courses, invite students, parents, or teachers, create materials. **Student** can enter the course and view the materials. **Parent** can enter the course and view the materials. | Done in Week 1 | Done in Week 2 |
-| **Assignment** | **Teacher** can create assignments and grade students' submissions. **Student** can submit assignments. **Parent** can track their students' submissions. | Done in Week 2 | Planned for Week 3 |
-| **Files** | **Teacher** can attach files up to 5MB to course materials and assignments. **Student** can attach files up to 5MB to their submissions. | Planned for Week 3 | Planned for Week 3 or Week 4 |
+- **Materials**: Teacher can create courses, invite students, parents, or teachers, create materials. Student can enter the course and view the materials. Parent can enter the course and view the materials.
+- **Assignment**: Teacher can create assignments and grade students' submissions. Student can submit assignments. Parents can track their students' submissions.
+- **Files**: Teacher can attach files up to 5MB to course materials and assignments. Student can attach files up to 5MB to their submissions.
+
+| Project Version | Backend | Frontend |
+| --- | --- | --- |
+| **Materials** | :ballot_box_with_check: Done in Week 1 | :white_check_mark: Done in Week 2 |
+| **Assignment** | :white_check_mark: Done in Week 2 | :black_square_button: Planned for Week 3 |
+| **Files** | :black_square_button: Planned for Week 3 | :black_square_button: Planned for Week 3 or Week 4 |
 
 # Individual contribution
 

@@ -37,7 +37,10 @@ delivering a well-structured, clear report is as crucial as writing functional c
     * Analytics Specialists: Links to `.ipynb` notebooks, dashboards, datasets used/generated, key insights derived.
     * ML Developers: Links to source code (e.g., specific commits/PRs), model artifacts (e.g., Hugging Face model page,
       `.pkl` files in a repo), relevant research papers or techniques explored.
-5. Report Submission:
+5. Plan for Next Week: Each report must include a clear plan for the next week, detailing:
+    * What tasks will be tackled.
+    * Expected deliverables.
+6. Report Submission:
     * Reports should be submitted as a `Markdown` file in the [Report repository](https://github.com/IU-PR/Capstone_project).
     * An example weekly report template can be found here: [Example Reports](/docs/2025/exampleproject/week1/)
 

@@ -17,6 +17,7 @@ Traditional card games like "7Red" are culturally significant but often lack mod
 
 This project aims to solve these problems by:
 
+
 - Digitizing "7Red" with faithful adherence to its rules
 
 - Enabling multiplayer capabilities, including friend-based private rooms
@@ -50,6 +51,7 @@ The application includes the following core components:
 7) Real-Time Multiplayer Infrastructure: A database system to store user accounts and manage the state of live games, ensuring synchronization across devices
 
 8) Error Handling and UI Feedback: Friendly error messages and loading states
+
 
 ### **Team Members**
 
@@ -153,6 +155,7 @@ This is the minimal viable version focused on launching the essential mechanics 
 
 - No UI enhancements, statistics, or additional features are included at this stage
 
+
 #### **MVP 1** – Fully Functional Release (week 7)
 This version delivers the complete intended functionality for the course project:
 
@@ -167,6 +170,7 @@ This version delivers the complete intended functionality for the course project
 - Achievements: Three unlockable achievements to encourage player engagement
 
 - Profile Editing: Users can update their avatar, username, and other account-related preferences
+
 
 #### **MVP 2** – Future Enhancements (Beyond Current Scope)
 
@@ -219,7 +223,6 @@ These features are potential improvements that may be added later but are not pl
 2. Defining the type of project (web or desktop) and conducting the necessary research to determine the most suitable platform
 3. Сomplete the Figma design with interactions: finalizing the first version of all pages, implementing interactive mode with clickable buttons and conducting team testing
 4. Defining the type of algorithm for the bot, requiring research to determine whether to use machine learning or simpler implementations and do the summary
-
 
 ## Confirmation of the code's operability
 

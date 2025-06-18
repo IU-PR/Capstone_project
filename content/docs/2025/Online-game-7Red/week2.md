@@ -106,13 +106,122 @@ title: "Week #2"
 
 - Localization: RTL language support (if required)
 
-## user stories
+## User stories
+ 
 
+*Given* I am a player,
 
+*When* I join and play the 7Red game online,
+
+*Then* I can compete with others in real time.
+
+**Acceptance Criteria:**
+
+- Functional:
+
+    The system matches the player with an opponent within 60 seconds during peak hours.
+
+    The game starts once 4 players are connected.
+
+    The game state synchronizes every 30 ms between players.
+
+    If the connection drops, the game attempts to reconnect for 20 seconds before timing out.
+
+- Non-Functional:
+
+    The system must support 50 concurrent players.
+
+##
+
+*Given* I am a new user,
+
+*When* I register and log in securely,
+
+*Then* my game progress and stats are saved.
+
+**Acceptance Criteria:**
+
+- Functional:
+
+    The user can register with: A valid, unique email; A password (6-10 characters); A unique username (1-10 characters).
+
+    The user can log in using email + password.
+
+- Non-Functional:
+
+    All authentication requests use HTTPS.
+
+    Passwords are stored in hashed form.
+
+##
+
+*Given* I am a player,
+
+*When* I am in the main menu,
+
+*Then* I can track my game history and statistics.
+
+- Functional:
+
+    Total games played (wins/losses, win rate %).
+
+    Current and longest win/loss streaks.
+
+    Achievements (e.g., "First Win," "5 Wins in a Row").
+
+    Data updates in real time after each game.
+
+- Non-Functional:
+
+    Statistics load within 2 seconds.
+
+##
+
+*Given* I am a player,
+
+*When* I invite friends to private matches,
+
+*Then* we can play together in a controlled environment.
+
+- Functional:
+
+    The player can create a private room with: A 5-digit room ID; A 5-digit password.
+
+    Friends can join using the room ID + password.
+
+-  Non-Functional:
+
+    Room creation and joining happen within 5 seconds.
+
+##
+
+*Given* I am a player,
+
+*When* I am in settings page,
+
+*Then* I can customize my profile and avatar.
+
+- Functional:
+
+    The player can change their nickname (unique, 1-10 chars).
+
+    The player can upload an avatar (supported formats: JPG, PNG).
+
+    Changes are saved immediately.
+
+- Non-Functional:
+
+    Avatar uploads are limited to 500 КB.
+
+    Profile updates take ≤ 5 seconds to process.
+
+##
 
 ### Prioritized backlog
 
 Link to backlog: https://trello.com/b/D9ajdsG7/online-game-7red
+
+##
 
 ## Project specific progress
 

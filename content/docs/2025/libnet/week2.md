@@ -28,27 +28,11 @@ This week, the primary objective is to implement the core functionality for both
 
 ### Frontend
 We have successfully completed all the planned tasks for this week.
-#### Links to PRs
-* https://github.com/IU-Capstone-Project-2025/libnet/pull/2
 
-* https://github.com/IU-Capstone-Project-2025/libnet/pull/9
 ### Backend
 
 We have successfully completed all the planned tasks for this week.
-####  Links to PRs
-* https://github.com/IU-Capstone-Project-2025/libnet/pull/1
 
-* https://github.com/IU-Capstone-Project-2025/libnet/pull/3
-
-* https://github.com/IU-Capstone-Project-2025/libnet/pull/4
-
-* https://github.com/IU-Capstone-Project-2025/libnet/pull/5
-
-* https://github.com/IU-Capstone-Project-2025/libnet/pull/6
-
-* https://github.com/IU-Capstone-Project-2025/libnet/pull/7
-
-* https://github.com/IU-Capstone-Project-2025/libnet/pull/8
 #### Link to API endpoints documentation.
 * http://83.222.18.122:8000/docs
 

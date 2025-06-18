@@ -252,7 +252,7 @@ An automated CHANGELOG system was implemented to track project changes. Core fun
 
 ### AI
 
-This week, a thorough investigation was conducted to determine the most suitable algorithms for the task at hand. Based on the research findings (https://trello.com/c/oAvDRkgy/8-define-the-type-of-algorithm-for-bot-need-research-and-summary#:~:text=data%20collection%20plan%3A-,ML%20Research,-Comments%20and%20activity), 4 algorithms were identified as the optimal approaches. Parallel development of Deep Q-Networks (DQN) and Monte Carlo Tree Search (MCTS)  algorithms has been initiated  to explore their potential in practice. 
+This week, a through investigation was conducted to determine the most suitable algorithms for the task at hand. Based on the research findings (https://trello.com/c/oAvDRkgy/8-define-the-type-of-algorithm-for-bot-need-research-and-summary#:~:text=data%20collection%20plan%3A-,ML%20Research,-Comments%20and%20activity), 4 algorithms were identified as the optimal approaches. Parallel development of Deep Q-Networks (DQN) and Monte Carlo Tree Search (MCTS)  algorithms has been initiated  to explore their potential in practice. 
 
 # Weekly commitments
 
@@ -288,6 +288,8 @@ https://trello.com/c/oAvDRkgy
 https://github.com/IU-Capstone-Project-2025/Online-game-7Red/commit/e21ccd78d0c71cac061d311029b2d91cd0e66566
 
 **Amir Bairamov** – created functional window designs in Figma(core UI elements and optimized component layouts), implemented prototype view , completed coding the entire frontend portion ( three full pages with all their interactive elements) and established stable connections with backend
+
+https://drive.google.com/file/d/1IJQotArnB4H_G7sgchmd64xr5mve5Q8h/view
 
 https://trello.com/c/qBfP0f4T
 

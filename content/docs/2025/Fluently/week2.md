@@ -114,11 +114,13 @@ Designed words Databse: [database schema](https://github.com/orgs/FluentlyOrg/pr
 
 ![Database](https://github.com/FluentlyOrg/Fluently-fork/blob/frontend/ios/report-imges/DB%20for%20Fluently.png)
 
+[link to the DB](https://lucid.app/lucidchart/fc4d21dc-6250-46ea-8611-2b4b00ba26f2/edit?viewport_loc=-581%2C-496%2C1771%2C921%2C0_0&invitationId=inv_368c524a-14f2-4bd1-819f-068d8fefeebf)
+
 ### Frontend
 
 - Planned user flow of application
 - Understand common principles
-- Started developing iOS ans Android apps
+- Started developing iOS and Android apps
 
 ### Backend
 
@@ -164,7 +166,8 @@ Designed words Databse: [database schema](https://github.com/orgs/FluentlyOrg/pr
 
 [Updated README](https://github.com/FluentlyOrg/Fluently-fork/issues/53) \
 [Main site](https://fluently-app.ru) \
-[Swagger (API documentation)](https://fluently-app.ru/swagger/index.html)
+[Swagger (API documentation)](https://fluently-app.ru/swagger/index.html) \
+[Admin Panel](https://admin.fluently-app.ru/admin/content/words)
 
 # Weekly commitments
 
@@ -240,9 +243,10 @@ https://github.com/FluentlyOrg/Fluently-fork/issues/53
 
 - Researched and evaluated multiple NLP architectures
 - Researched pre-tuned models capable of future fine-tuning
-- Selected BERT with MLM (Masked Language Modeling) for:
+- Use BERT with MLM (Masked Language Modeling) concepts for:
   - Contextual understanding of word relationships
   - Native mask prediction capabilities
+- Suggested to use WordNet and ConceptNet
 
 ### Daniil Tskhe (Backend Developer)
 
@@ -286,13 +290,14 @@ https://github.com/FluentlyOrg/Fluently-fork/issues/18#issuecomment-2980762714
 
 ### Backend
 
-- Configure authentication on swagger page
-- Make telegram bot to learn words and see some stars
+- configure authentication on swagger page
+- make telegram bot to learn words and see some stats
 - write tests for API
+- check test coverage via SonarQube
 
 ### ML
 
-- Develop smart system that construct lessons
+- Develop smart system that will generate exercises for lessons
 
 ### Data Analysis
 
@@ -306,6 +311,10 @@ https://github.com/FluentlyOrg/Fluently-fork/issues/18#issuecomment-2980762714
 - Set up Prometheus+Grafana for monitoring API load, security issues
 - Set up Loki for logs aggregations
 - Set up a second deploy server with domain for testing
+
+## P.S.
+
+[Acceptance criteria](https://miro.com/app/board/uXjVIsQXxms=/?share_link_id=729729910385)
 
 ## Confirmation of the code's operability
 

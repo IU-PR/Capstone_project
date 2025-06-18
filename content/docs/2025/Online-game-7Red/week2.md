@@ -24,7 +24,7 @@ Regarding frontend development, the following work was completed: The initial pa
 
 ### Backend
 
-*...*
+An automated CHANGELOG system was implemented to track project changes. Core functionality for game management was developed, including database operations for creating, deleting, and searching game rooms. After evaluating both desktop and web options, the project direction was finalized as a web application. The backend architecture was properly configured with initial API contracts established using Swagger for MVP endpoints, including several basic non-functional endpoints with mock data. Functional endpoints for user registration and authentication were implemented with full database integration. Successful backend-frontend connectivity was achieved through HTTP requests, enabling account creation workflows with proper response handling ("User registered successfully" or "Email already registered"). The system validates email uniqueness by checking against database records in real-time during registration attempts.
 
 ### AI
 
@@ -34,22 +34,40 @@ This week, a thorough investigation was conducted to determine the most suitable
 
 ## Individual contribution of each participant
 
-**Palkina Sofia** – organized 2 discussion meetings (12.06 - meeting with TA Mary and after discussion of the amendments she proposed; 16.06 - discussion of plans taking into account the backlog and board rules), crate backlog, development of non-functional parts of the design (color palettes, etc.) and wrote this report
+**Palkina Sofia** – organized 2 discussion meetings (12.06 - meeting with TA Mary and after discussion of the amendments she proposed; 16.06 - discussion of plans taking into account the backlog and board rules), crate backlog, development of non-functional parts of the design (color palettes, etc.), database operations for creating, deleting, and searching users and wrote this report
 
-https://www.figma.com/design/ttrFjZlaz8jyuKQAzcHHkm/Untitled?node-id=0-1&p=f&t=n2vrlDM307fsX1Nt-0
+https://trello.com/c/qBfP0f4T
 
-https://trello.com/b/D9ajdsG7/online-game-7red
+https://trello.com/c/a7IDHP1u
 
 
-**Polina Kostikova** – 
+**Polina Kostikova** – create CHANGELOG, database operations for creating, deleting, and searching game rooms, defined the project type (do the research), established initial API contracts, create endpoints, connect  backend to frontend, functional endpoints for user registration and authentication
 
-**Lev Permiakov** – 
+https://trello.com/c/r9LVNZPN
 
-**Arina Petuhova** – 
+https://trello.com/c/Ygcpk6n6
 
-**Amir Bairamov** – 
+https://trello.com/c/xvm6OXVK
 
-https://www.figma.com/design/ttrFjZlaz8jyuKQAzcHHkm/Untitled?node-id=0-1&p=f&t=n2vrlDM307fsX1Nt-0
+https://trello.com/c/x3WiT45h
+
+**Lev Permiakov** – crate backlog, determine the most suitable algorithms, start development of Deep Q-Networks (DQN)
+
+https://trello.com/c/a7IDHP1u
+
+https://github.com/IU-Capstone-Project-2025/Online-game-7Red/commit/1f8522fd45c6cac27c1a0b3a04719370e416332d
+
+**Arina Petuhova** – determine the most suitable algorithms (do the re), developed basic vertion Monte Carlo Tree Search (MCTS) 
+
+https://trello.com/c/oAvDRkgy
+
+https://github.com/IU-Capstone-Project-2025/Online-game-7Red/commit/e21ccd78d0c71cac061d311029b2d91cd0e66566
+
+**Amir Bairamov** – Сreated functional window designs in Figma(core UI elements and optimized component layouts), implemented prototype view , completed coding the entire frontend portion ( three full pages with all their interactive elements) and established stable connections with backend
+
+https://trello.com/c/qBfP0f4T
+
+https://trello.com/c/x3WiT45h
 
 
 ## Plan for Next Week

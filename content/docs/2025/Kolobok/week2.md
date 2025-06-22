@@ -169,13 +169,13 @@ Our training notebook provides a complete ML pipeline for tread depth estimation
 
 | Team Member | Primary Contributions | Deliverables |
 |-------------|----------------------|--------------|
-| Nikita Menshikov | Project documentation and user flow design | Comprehensive report and process diagrams |
-| Nikita Zagainov | Machine learning model development | Training notebook and model implementations [[notebook](https://github.com/.../train.ipynb)] |
+| Nikita Menshikov | Project documentation and user flow design | Comprehensive report and [backlog](https://github.com/orgs/IU-Capstone-Project-2025/projects/9/views/1), setup [labelling](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/photo_2025-06-17_10-52-36.jpg) [environment](https://github.com/NikitaMensh/IU_Capstone_project_2025/blob/main/photo_2025-06-17_10-52-37.jpg) |
+| Nikita Zagainov | Machine learning model development | Training notebook and model implementations [[notebook](https://github.com/IU-Capstone-Project-2025/Kolobok/blob/main/ML/notebooks/train.ipynb)] |
 | Vladislav Strelkov | Infrastructure and deployment | Docker environment and service orchestration, tire annotation tool [[annotation tool](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/ec520dcdb5376281db28b381b7304d03cb107230)] [[Docker setup](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/c894595c8928c915249d5a11dc25195ba1534777)] [[docker-compose](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/d34838a54e748eed72ff9adee51dd193c6f2c974)] |
-| Sergey Aitov | Data annotation and API development | Labeled dataset and backend scaffolding [[labeled tires](https://disk.yandex.ru/d/WTfWlQqAaTR-ZA)] |
+| Sergey Aitov | Data annotation and API development | Labeled dataset (350 images collected) and backend scaffolding [[dummy endpoints](https://github.com/IU-Capstone-Project-2025/Kolobok/blob/main/backend/app.py)] [[tires dataset](https://disk.yandex.ru/d/WTfWlQqAaTR-ZA)] |
 | Darya Stepanova | User experience design | Bot flow refinement and interface design [[figma](https://www.figma.com/design/llkM7QUkBNkwm0pit8qUhn/KolobokBoard?node-id=0-1&t=S58PeihoZSgsA2XF-1)] |
-| Ekaterina Petrova | Dataset preparation and API support | Annotated images and backend assistance [[tires dataset](https://disk.yandex.ru/d/WTfWlQqAaTR-ZA)] |
-| Dmitry Tetkin | Bot interaction logic | Telegram bot conversation handling |
+| Ekaterina Petrova | Dataset preparation and API support | Labeled dataset (350 collected) and backend assistance [[tires dataset](https://disk.yandex.ru/d/WTfWlQqAaTR-ZA)] |
+| Dmitry Tetkin | Bot interaction logic | Telegram bot [prototype](https://github.com/IU-Capstone-Project-2025/Kolobok/blob/main/tg_bot/logic.py) |
 
 We confirm that all code in the main branch:
 - [x] Compiles and runs without errors

@@ -49,11 +49,10 @@ Navigation shortcuts
 
 [The repository with implementation](https://github.com/evolutionleo/Capstone-2025)
 
-*Screenshots/GIFs/PDF presentation/Videos demonstrating the working MVP*
+[Video demo](https://youtu.be/HfcIS501ZTU)
 
 
 ## Internal demo
-https://youtu.be/HfcIS501ZTU
 
 ### Strong sides
 

@@ -40,7 +40,7 @@ Our Week 3 MVP implements the **Assignment** version of EdHub:
 
 ## Demonstation Video
 
-Demo Video is available via the [*link*](https://youtu.be/CRFHnUxSeHU).
+To demonstrate how the EdHub MVP works, we made a brief demo video with main functionality available at the [*link*](https://youtu.be/CRFHnUxSeHU).
 
 # Weekly achievments
 

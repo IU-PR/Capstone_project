@@ -32,10 +32,7 @@ Our MVP implements the **Assignment** version of EdHub.
 
 ## Demonstation Video
 
-<!-- Discuss with Timur 
-- записать демо видео
-- перечислить список функционала
--  -->
+Demo Video is available via the [*link*](https://youtu.be/CRFHnUxSeHU).
 
 # Weekly achievments
 
@@ -65,11 +62,11 @@ We added a logging feature to the backend that logs all actions that teachers an
 
 ## DevOps
 
-<!-- добавлен nginx -->
+We have added an nginx reverse proxy for our project that allows to host both the API endpoints and the frontend server under one domain name. We put the API endpoints under the `/api/` path.
 
-## Plan for the Week 3
+## Plan for the Week 4
 
-<!-- планы для week3 -->
+<!-- планы для week4 -->
 
 # Individual contribution
 

@@ -51,7 +51,7 @@ Link -
 
 ### Frontend
 
-Implemented 2 functional buttons in the Main Menu Page for creating and connecting to the game room via http requests (for communication with the backend). There are 2 new pages: Waiting Room Page and Game Room Page. In the Waiting Room Page, I drew the design and implemented functions for updating the team's state (connecting players and their readiness), changing its own state from ready to unread and vice versa, and also implemented exiting the room via http requests. In the Game Room Page, I drew the design and implemented communication with the backend via WebSocket for the initial distribution of cards, passing the move between players, sending your move, checking the rules and ending the game.
+Implemented 2 functional buttons in the Main Menu Page for creating and connecting to the game room via http requests (for communication with the backend). There are 2 new pages: Waiting Room Page and Game Room Page. In the Waiting Room Page, I drew the design and implemented functions for updating the team's state (connecting players and their readiness), changing its own state from ready to unready and vice versa, and also implemented exiting the room via http requests. In the Game Room Page, I drew the design and implemented communication with the backend via WebSocket for the initial distribution of cards, passing the move between players, sending your move, checking the rules and ending the game.
 
 ### Backend
 
@@ -60,7 +60,7 @@ The backend has implemented a number of very significant tasks. Additional datab
 
 ### AI
 
-In the AI ​​section, the following work for this week: fixed errors in the logic of the environment in DQN and MSTS (when processing the green and purple rules), which caused an incorrect result. The first fully functioning model was created (parameters were selected to improve the model's performance), code was written for convenient manual testing of the model against the user. An analysis of the game style of exiting different situations with the need to play a certain set of cards was also conducted (As a result of comparing theMSTS and DQN models, the MSTS showed the best statistical outcome from artificially created situations). Work was started to improve the DQN game level by integrating a stronger opponent in the form of MSTS into its training, which will allow for more effective training of the model and its use of better strategies.
+In the AI ​​section, the following work for this week: fixed errors in the logic of the environment in DQN and MCTS (when processing the green and purple rules), which caused an incorrect result. The first fully functioning model was created (parameters were selected to improve the model's performance), code was written for convenient manual testing of the model against the user. An analysis of the game style of exiting different situations with the need to play a certain set of cards was also conducted (As a result of comparing the MCTS and DQN models, the MCTS showed the best statistical outcome from artificially created situations). Work was started to improve the DQN game level by integrating a stronger opponent in the form of MCTS into its training, which will allow for more effective training of the model and its use of better strategies.
 
 
 # Weekly commitments
@@ -76,19 +76,19 @@ https://trello.com/c/LzUnNNMV
 https://trello.com/c/shxiMPyq
 
 
-**Polina Kostikova** – written endpoints for creating rooms, wrote additional database functions, connected the backend and frontend for creating rooms, wrote basic functional endpoints for playing with a bot (DQN) and performed the initial connection of the backend and DQN
+**Polina Kostikova** – wrote endpoints for creating rooms, wrote additional database functions, connected the backend and frontend for creating rooms, wrote basic functional endpoints for playing with a bot (DQN) and performed the initial connection of the backend and DQN
 
 https://trello.com/c/q9JbeV6a
 
 https://trello.com/c/dt8ZgOfR
 
-**Lev Permiakov** – fixed bugs in DQN and created its first fully functional model, wrote manual testing of the model against the user, conducted a comparison of MSTS and DQN, started work to improve the level of the game DQN
+**Lev Permiakov** – fixed bugs in DQN and created its first fully functional model, wrote manual testing of the model against the user, conducted a comparison of MCTS and DQN, started work to improve the level of the game DQN
 
 https://trello.com/c/t4D4WcS6
 
 https://trello.com/c/dt8ZgOfR
 
-**Arina Petuhova** – wrote endpoints for the game in the room, implemented the main logic inside the game and the logic for checking each move, connected the backend and frontend, fixed errors in the logic of MSTS
+**Arina Petuhova** – wrote endpoints for the game in the room, implemented the main logic inside the game and the logic for checking each move, connected the backend and frontend, fixed errors in the logic of MCTS
 
 https://trello.com/c/47ewU2hC
 

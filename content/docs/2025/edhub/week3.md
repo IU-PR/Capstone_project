@@ -26,7 +26,7 @@ The global plan is the following:
 | --------------- | --------------------------------------------- | -------------------------------------------------- |
 | **Materials**   | :ballot_box_with_check: Done in Week 1        | :ballot_box_with_check: Done in Week 2             |
 | **Assignment**  | :ballot_box_with_check: Done in Week 2        | :white_check_mark: Done in Week 3                  |
-| **Files**       | :black_square_button: Rescheduled for Week 4  | :black_square_button: Planned for Week 4           |
+| **Files**       | :black_square_button: Postponed for Week 4  | :black_square_button: Planned for Week 4           |
 
 Our Week 3 MVP implements the **Assignment** version of EdHub:
 - user can create an account / log in
@@ -38,17 +38,17 @@ Our Week 3 MVP implements the **Assignment** version of EdHub:
 - student can submit an assignment
 - parent can see the list of their children's submissions
 
-## Demonstation Video
+## Demonstration Video
 
 To demonstrate how the EdHub MVP works, we made a brief demo video with main functionality available at the [*link*](https://youtu.be/CRFHnUxSeHU).
 
-# Weekly achievments
+# Weekly achievements
 
 ## Management
 
 Last week we conducted a market research to explore the existing LMS solutions, and for each platform we identified the pros that we want to implement in EdHub and the cons that we want to cover. However, our view is an outsider's view, and no one can provide us with real experience of using the platforms with students in a real educational process. We decided to launch a survey among teachers to find out what existing LMSs they use, what they like and dislike about these systems, what is important to them and what they would like to fix.
 
-We plan to send this survey to our high school teachers as well as university professors and TAs in hopes of getting more responses through the word of mouth effect. We hope the real-life experiences of teachers will help us shape a set of features that are important in a real educational process.
+We plan to send this survey to our high school teachers as well as university professors and TAs in hopes of getting more responses through the word of mouth effect. We hope the real-world experiences of teachers will help us shape a set of features that are important in a real educational process.
 
 ## Backend
 
@@ -56,9 +56,9 @@ The main task of the backend team this week was to explore the possibility of at
 
 The main task of the backend team this week was to explore the possibility of attaching files to course materials, course assignments, and students' submissions. After we have explored how to implement this, we realized that this task is more complex than we expected. To implement attachments feature, we need to think about the format for storing files, which would be better implemented in a separate database, think about the validation of files (size and type restrictions), and develop functions to send a file to the server and to retrieve a file from the server. We realized that we don't have time to do this task in full by the end of the third week, so we started it and plan to finish until the end of the 4th week.
 
-Until this week, when registering for an account, users could type any strings into the email and password fields. We decided to add email format check and password complexity check to protect user accounts from hacking. Password must be longer than 8 characters and contain letters, numbers and special characters.
+Previously, during account registration, users could enter any text in the email and password fields without validation. We decided to add email format check and password complexity check to protect user accounts from hacking. Password must be longer than 8 characters and contain letters, numbers and special characters.
 
-Previously, the teacher had full rights to invite and remove users on the course. In particular with the `remove_teacher` command they could remove any teacher on the course, including themselves (so the teacher could leave the course). This feature was not previously available for students and parents, so we improved the `remove_student` and `remote_parent` commands to allow parents and students to remove themselves from the course if they wanted to.
+Previously, the teacher had full rights to invite and remove users on the course. In particular with the `remove_teacher` command they could remove any teacher on the course, including themselves (so the teacher could leave the course). This feature was not previously available for students and parents, so we improved the `remove_student` and `remove_parent` commands to allow parents and students to remove themselves from the course if they wanted to.
 
 We also decided to improve the syntax of the script for creating the database by adding clearer formatting, prescribing string length limits, and specifying NULLABLE objects.
 
@@ -66,7 +66,7 @@ We added a logging feature to the backend that logs all actions that teachers an
 
 ## Frontend
 
-This week we reduced the Frontend tech stack. We left mainly React + pure CSS styling. The main features that we were looking to implement till the end of this week were done, such as : course creation as a pop-up, comfy functional sidebar, material/assignment creation, parent/teacher/student invitation, working assignment/material course feed , enhanced details of course cards and course feed, as well as material and assignment page details. Overall style and design of edhub has become more united and intuitive as well as minimalistic.
+This week we reduced the Frontend tech stack. We left mainly React + pure CSS styling. The main features that we were looking to implement till the end of this week were done, such as : course creation as a pop-up, comfortable and functional sidebar, material/assignment creation, parent/teacher/student invitation, working assignment/material course feed , enhanced details of course cards and course feed, as well as material and assignment page details. Overall style and design of edhub has become more united and intuitive as well as minimalistic.
 
 ## DevOps
 
@@ -99,7 +99,7 @@ During week 4, we plan to continue developing our project as follows:
 - [`backend`]: LMS logging has been developed ([*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49)).
 
 ### Alina Suhoverkova
-- [`frontend`]: Random has been replaced with Google React, and styling has been switched to CSS file styling ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b407ed8bbb8e69270d9dfa349f00b714c2913b2a));
+- [`frontend`]: Random styling approach has been replaced with Google's Material-UI (MUI) React components, and styling has been switched to CSS file styling ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b407ed8bbb8e69270d9dfa349f00b714c2913b2a));
 - [`frontend`]: Assignments and materials pages have been added, along with pop-up modals for adding materials/assignments ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b407ed8bbb8e69270d9dfa349f00b714c2913b2a));
 - [`frontend`]: All assignment/material API endpoints have been connected ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b407ed8bbb8e69270d9dfa349f00b714c2913b2a));
 - [`frontend`]: Overall styling has been improved through the creation of reusable CSS style files for components ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b407ed8bbb8e69270d9dfa349f00b714c2913b2a)).

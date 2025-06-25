@@ -6,7 +6,7 @@ title: "Week #3"
 
 ## Implemented MVP features
 
-This is the minimal viable version focused on launching the essential mechanics of the game:
+This is the Minimum Viable Product focused on launching the essential mechanics of the game:
 
 - User Authentication: Basic sign-up and sign-in functionality
 
@@ -44,7 +44,7 @@ This is the minimal viable version focused on launching the essential mechanics 
 
 ## Demonstration of the working MVP
 
-Link - 
+Link - https://drive.google.com/drive/folders/1HRr739W4mQVXr8u17mUc_5_-wxz0-LN2?usp=sharing
 
 
 ## Project specific progress
@@ -67,7 +67,7 @@ In the AI ​​section, the following work for this week: fixed errors in the l
 
 ## Individual contribution of each participant
 
-**Palkina Sofia** – organized 4 discussion meetings (20.06 - meeting with TA Mary and after discussion of the amendments she proposed; 21.06 - discussion of the interaction between the back and the front during the players' moves; 22.06 - meeting with a server and deployment specialist/advisor; 23.06 - regular midweek meeting to evaluate progress; 25.06 - discussion of plan for next Week), did research on servers, selected and tested a server for deployment, start implimentation of CI/CD, do the demo video and wrote this report
+**Palkina Sofia** – organized 4 discussion meetings (20.06 - meeting with TA Mary and after discussion of the amendments she proposed; 21.06 - discussion of the interaction between the back and the front during the players' moves; 22.06 - meeting with a server and deployment specialist/advisor; 23.06 - regular midweek meeting to evaluate progress; 25.06 - discussion of plan for next Week), did research on servers, selected and tested a server for deployment, start implementation of CI/CD, do the demo video and wrote this report
 
 https://trello.com/c/Nb1LzlsF
 

@@ -22,11 +22,11 @@ Last week we decided to split our project into several versions, each of which h
 
 The global plan is the following:
 
-| Project Version | Backend                                    | Frontend                                           |
-| --------------- | ------------------------------------------ | -------------------------------------------------- |
-| **Materials**   | :ballot_box_with_check: Done in Week 1     | :ballot_box_with_check: Done in Week 2             |
-| **Assignment**  | :ballot_box_with_check: Done in Week 2     | :white_check_mark: Done in Week 3                  |
-| **Files**       | :white_check_mark: Rescheduled for Week 4  | :black_square_button: Planned for Week 4           |
+| Project Version | Backend                                       | Frontend                                           |
+| --------------- | --------------------------------------------- | -------------------------------------------------- |
+| **Materials**   | :ballot_box_with_check: Done in Week 1        | :ballot_box_with_check: Done in Week 2             |
+| **Assignment**  | :ballot_box_with_check: Done in Week 2        | :white_check_mark: Done in Week 3                  |
+| **Files**       | :black_square_button: Rescheduled for Week 4  | :black_square_button: Planned for Week 4           |
 
 Our MVP implements the **Assignment** version of EdHub. 
 
@@ -100,5 +100,5 @@ We have added an nginx reverse proxy for our project that allows to host both th
 
 We confirm that the code in the main branch:
 
-- Is in working condition.
+- Is in working condition;
 - Is runnable via `docker compose`.

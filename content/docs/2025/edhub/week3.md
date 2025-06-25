@@ -57,7 +57,7 @@ Previously, the teacher had full rights to invite and remove users on the course
 
 We also decided to improve the syntax of the script for creating the database by adding clearer formatting, prescribing string length limits, and specifying NULLABLE objects.
 
-<!-- логи -->
+We added a logging feature to the backend that logs all actions that teachers and LMS administrators may be interested in, e.g., creating or deleting a course, adding a student/parent/teacher to a course. Logs are stored in a separate database table named "logs" in the PostgreSQL database.
 
 ## Frontend
 

@@ -126,7 +126,7 @@ Implementation of logins for different access, view library catalogue: https://g
 ### Demonstration of the working MVP: 
 * https://github.com/IU-Capstone-Project-2025/libnet/raw/refs/heads/main/reports/Video.Guru_20250625_222004511.mp4
 ### Internal demo
-**Date**: 2025-06-25 \
+**Date**: 2025-06-25
 #### User (Reader) Flow:
 1. **Homepage**  
    - Book catalog display

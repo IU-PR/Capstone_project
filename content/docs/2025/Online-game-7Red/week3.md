@@ -12,7 +12,7 @@ This is the minimal viable version focused on launching the essential mechanics 
 
 - Private Game Rooms: Players can create and join private rooms using a unique room ID and password to play with friends, see the list of players in the room
 
-- Game Session Implementation: Once the game starts, the core gameplay loop will be fully functional. This includes turn-based mechanics, timer,  player interactions, and enforcing the game’s basic rules
+- Game Session Implementation: Once the game starts, the core gameplay loop will be fully functional. This includes turn-based mechanics, player interactions, and enforcing the game’s basic rules
 
 ## User journey
 
@@ -38,7 +38,7 @@ This is the minimal viable version focused on launching the essential mechanics 
 
 - Game Session
 
-    9. Makes his moves, monitors the timer and the moves of the other player
+    9. Makes his moves, monitors the moves of the other player
 
     10. Receives a notification of victory → return to the lobby
 
@@ -60,35 +60,57 @@ The backend has implemented a number of very significant tasks. Additional datab
 
 ### AI
 
-In the AI ​​section, the following work for this week: fixed errors in the logic of the environment in DKyuN and MTS (when processing the green and purple rules), which caused an incorrect result. The first fully functioning model was created (parameters were selected to improve the model's performance), code was written for convenient manual testing of the model against the user. An analysis of the game style of exiting different situations with the need to play a certain set of cards was also conducted (As a result of comparing the MTS and DKN models, the MTS showed the best statistical outcome from artificially created situations). Work was started to improve the DKN game level by integrating a stronger opponent in the form of MTS into its training, which will allow for more effective training of the model and its use of better strategies.
+In the AI ​​section, the following work for this week: fixed errors in the logic of the environment in DQN and MSTS (when processing the green and purple rules), which caused an incorrect result. The first fully functioning model was created (parameters were selected to improve the model's performance), code was written for convenient manual testing of the model against the user. An analysis of the game style of exiting different situations with the need to play a certain set of cards was also conducted (As a result of comparing theMSTS and DQN models, the MSTS showed the best statistical outcome from artificially created situations). Work was started to improve the DQN game level by integrating a stronger opponent in the form of MSTS into its training, which will allow for more effective training of the model and its use of better strategies.
 
 
 # Weekly commitments
 
 ## Individual contribution of each participant
 
-**Palkina Sofia** – organized 4 discussion meetings (20.06 - meeting with TA Mary and after discussion of the amendments she proposed; 21.06 - discussion of the interaction between the back and the front during the players' moves; 22.06 - meeting with a server and deployment specialist/advisor; 23.06 - regular midweek meeting to evaluate progress; 25.06 - discussion of plan for next Week), did research on servers, selected and tested a server for deployment, start implimentation of CI/CD  and wrote this report
+**Palkina Sofia** – organized 4 discussion meetings (20.06 - meeting with TA Mary and after discussion of the amendments she proposed; 21.06 - discussion of the interaction between the back and the front during the players' moves; 22.06 - meeting with a server and deployment specialist/advisor; 23.06 - regular midweek meeting to evaluate progress; 25.06 - discussion of plan for next Week), did research on servers, selected and tested a server for deployment, start implimentation of CI/CD, do the demo video and wrote this report
 
 https://trello.com/c/Nb1LzlsF
 
 https://trello.com/c/LzUnNNMV
 
+https://trello.com/c/shxiMPyq
 
-**Polina Kostikova** – 
+
+**Polina Kostikova** – written endpoints for creating rooms, wrote additional database functions, connected the backend and frontend for creating rooms, wrote basic functional endpoints for playing with a bot (DQN) and performed the initial connection of the backend and DQN
 
 https://trello.com/c/q9JbeV6a
 
 https://trello.com/c/dt8ZgOfR
 
-**Lev Permiakov** – 
+**Lev Permiakov** – fixed bugs in DQN and created its first fully functional model, wrote manual testing of the model against the user, conducted a comparison of MSTS and DQN, started work to improve the level of the game DQN
 
-**Arina Petuhova** – 
+https://trello.com/c/t4D4WcS6
 
-**Amir Bairamov** – 
+https://trello.com/c/dt8ZgOfR
+
+**Arina Petuhova** – wrote endpoints for the game in the room, implemented the main logic inside the game and the logic for checking each move, connected the backend and frontend, fixed errors in the logic of MSTS
+
+https://trello.com/c/47ewU2hC
+
+**Amir Bairamov** – Implemented the work of 2 buttons in the Main Menu Page, wrote 2 new pages, drew the design and implemented functions for creating rooms, drew the design for the main game and implemented communication with the backend via WebSocket
+
+https://trello.com/c/47ewU2hC
+
+https://trello.com/c/E7695U7s
+
+https://trello.com/c/xeM2qJKi
+
+https://trello.com/c/q9JbeV6a
+
+https://trello.com/c/6Z0LGesP
 
 ## Plan for Next Week
 
-1. *...*
+1. Finish the deployment process to the VPS(Unit tests, CI/CD)
+
+2. Improve the size and visual appearance of the pages (timer, alerts, test all possible errors)
+
+3. Write rules and design for them
 
 
 ## Confirmation of the code's operability

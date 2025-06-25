@@ -51,7 +51,7 @@ Link -
 
 ### Frontend
 
-Implemented 2 functional buttons in the Main Menu Page for creating and connecting to the game room via http requests (for communication with the backend). There are 2 new pages: Waiting Room Page and Game Room Page. In the Waiting Room Page, I drew the design and implemented functions for updating the team's state (connecting players and their readiness), changing its own state from ready to unready and vice versa, and also implemented exiting the room via http requests. In the Game Room Page, I drew the design and implemented communication with the backend via WebSocket for the initial distribution of cards, passing the move between players, sending your move, checking the rules and ending the game.
+There are 2 new functional buttons in the Main Menu Page for creating and connecting to the game room via HTTP requests (for communication with the backend). There are 2 new pages: Waiting Room Page and Game Room Page.  In the Waiting Room Page, the design was drawn and functions were implemented for updating the team's state (connecting players and their readiness), changing its own state from ready to unready and vice versa, and exiting the room via HTTP requests.  In the Game Room Page, the design was drawn and communication with the backend was implemented via WebSocket for the initial distribution of cards, passing the move between players, sending moves, checking the rules, and ending the game.
 
 ### Backend
 

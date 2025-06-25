@@ -58,7 +58,7 @@ We added a logging feature to the backend that logs all actions that teachers an
 
 ## Frontend
 
-<!-- Алина + Тимур -->
+This week we reduced the Frontend tech stack. We left mainly React + pure CSS styling. The main features that we were looking to implement till the end of this week were done, such as : course creation as a pop-up, comfy functional sidebar, material/assignment creation, parent/teacher/student invitation, working assignment/material course feed , enhanced details of course cards and course feed, as well as material and assignment page details. Overall style and design of edhub has become more united and intuitive as well as minimalistic.
 
 ## DevOps
 
@@ -91,11 +91,20 @@ During week 4, we plan to continue developing our project as follows:
 - [`backend`]: LMS logging has been developed ([*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49)).
 
 ### Alina Suhoverkova
-- [`frontend`]: 
+- [`frontend`]: Random has been replaced with Google React, and styling has been switched to CSS file styling ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b407ed8bbb8e69270d9dfa349f00b714c2913b2a));
+- [`frontend`]: Assignments and materials pages have been added, along with pop-up modals for adding materials/assignments ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b407ed8bbb8e69270d9dfa349f00b714c2913b2a));
+- [`frontend`]: All assignment/material API endpoints have been connected ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b407ed8bbb8e69270d9dfa349f00b714c2913b2a));
+- [`frontend`]: Overall styling has been improved through the creation of reusable CSS style files for components ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b407ed8bbb8e69270d9dfa349f00b714c2913b2a)).
 
 ### Timur Struchkov
-- [`frontend`]: 
-- [`frontend`]: Careful review of pull request has been conducted ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48)).
+- [`frontend`]: Course Creation has been redesigned as a pop-up instead of a separate page ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4afe0a6283c84aa1d2874452894c462ac6d550f9));
+- [`frontend`]: Assignment and Material Creation functionality has been added ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4afe0a6283c84aa1d2874452894c462ac6d550f9));
+- [`frontend`]: Functional Assignment and Material pages with detailed views have been implemented ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4afe0a6283c84aa1d2874452894c462ac6d550f9));
+- [`frontend`]: Course Feed cards for Assignments and Materials have been redesigned ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4afe0a6283c84aa1d2874452894c462ac6d550f9));
+- [`frontend`]: Course Feed has been made functional ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4afe0a6283c84aa1d2874452894c462ac6d550f9));
+- [`frontend`]: Teacher/Student/Parent invitation components have been added ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4afe0a6283c84aa1d2874452894c462ac6d550f9));
+- [`frontend`]: Teacher Course management buttons have been hidden for non-Teacher roles ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4afe0a6283c84aa1d2874452894c462ac6d550f9));
+- [`frontend`]: Cancel/add buttons in pop-up components have been reordered for better UX ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4afe0a6283c84aa1d2874452894c462ac6d550f9)).
 
 # Repository
 

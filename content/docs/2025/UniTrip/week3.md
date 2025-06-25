@@ -30,8 +30,20 @@ During the deploy to the gh-pages we faced some issues with access to github act
 8) Click continue and go to turnstille to go to the second location
 
 ## Demonstration of the working MVP
+You could see full demo and screenshoots [here](https://drive.google.com/drive/folders/1FiEUsC9ZYDPfgYo-tCPPDZgA6FGsVrWJ?usp=sharing)
 
-You could see our demo and screenshoots [here](https://drive.google.com/drive/folders/1FiEUsC9ZYDPfgYo-tCPPDZgA6FGsVrWJ?usp=sharing)
+### First interaction
+![First interaction](https://github.com/IU-Capstone-Project-2025/UniTrip/blob/main/assets/week3/first_interaction.gif)
+
+### Update states of "!"
+
+![Update states](https://github.com/IU-Capstone-Project-2025/UniTrip/blob/main/assets/week3/states_updates.png)
+
+### Dialog
+![Dialog](https://github.com/IU-Capstone-Project-2025/UniTrip/blob/main/assets/week3/dialog.png)
+
+### Dialog with choices
+![Dialog with choices](https://github.com/IU-Capstone-Project-2025/UniTrip/blob/main/assets/week3/choices.png)
 
 ## ML
 
@@ -85,9 +97,8 @@ Once trained, the model makes predictions using causal decoding:
 
 The model uses self-attention, which means it considers all previous tokens in the context window when generating each new token. Fine-tuning makes the model more likely to prefer responses grounded in your data.
 
-**Link to the training code**: *link*
-
-**Links to the initial model artifacts**: *links*
+**Link to the training code**: [link](https://drive.google.com/drive/folders/1tLW5yMGEfuf8ABdVGM7FMp_B2li4KbN-)  
+**Links to the initial model artifacts**: [link](https://drive.google.com/drive/folders/1tLW5yMGEfuf8ABdVGM7FMp_B2li4KbN-)
 
 ## Internal demo
 

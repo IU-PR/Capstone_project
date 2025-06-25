@@ -25,7 +25,6 @@
 
 ## Screenshots/GIFs demonstrating the working MVP.
 [Link to Demo](https://drive.google.com/file/d/1aenfQGihR3WVXlIe6HiEdcrA1hFA78qe/view?usp=sharing)
-## Links to relevant PRs/Issues for implemented features.
 
 ## Updated API documentation.
 [Link to updated API documentation](https://editor.swagger.io/?url=https://raw.githubusercontent.com/IU-Capstone-Project-2025/GoalSight/refs/heads/main/openapi.yaml)

@@ -210,7 +210,7 @@ class DQNAgent:
 
 ## Individual contribution of each participant
 
-Anastasia - [Write 🫧 controller]() 
+Anastasia - [Write 🫧 controller](https://github.com/IU-Capstone-Project-2025/total_control/commits?author=StasiaNenastie) 
 
 Evgenii - [3D model and blueprints for controller container](https://github.com/IU-Capstone-Project-2025/total_control/commit/f5d9547fc745bf995561105e6385729346f0d378)
 

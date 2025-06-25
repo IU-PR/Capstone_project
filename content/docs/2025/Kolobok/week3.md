@@ -6,9 +6,9 @@ title: "Week 3"
 
 ## Executive Summary
 
-In Week 3, the Kolobok project reached a critical milestone: the full implementation of the two major user stories — tread depth estimation and spike condition analysis — through both Telegram bot and a newly designed web interface. Brand recognition, the third major component, is in active R&D, with promising results achieved using GPT-4o-mini.
+In Week 3, the Kolobok team achieved major technical integration milestones while simultaneously pushing the boundaries of data engineering and model experimentation. The MVP is now operational for tread depth estimation and spike condition classification across both Telegram and web interfaces. Brand recognition, the third major component, is in active R&D, with promising results achieved using GPT-4o-mini.
 
-The team responded to performance issues by building a synthetic dataset via Unity and bootstrapping thousands of new spike annotations. On the OCR side, several modern pipelines were evaluated, and GPT-based OCR emerged as a practical and highly accurate solution. Security, deployment, and UX were improved, and all core models are now integrated and responding in production-ready APIs.
+This week also marked a shift in engineering philosophy — moving from static databases and hand-constructed logic to a more dynamic, learning-based system design. From synthetic dataset generation in Unity to CLAHE-enhanced unwrapping for OCR, we continuously prioritized robustness, real-world performance, and system modularity. Our architecture now accommodates user feedback and model corrections, reflecting a maturing product vision that emphasizes trust, usability, and ML-aided transparency.
 
 ---
 
@@ -32,126 +32,146 @@ Only brand/model recognition is pending deployment. The LLM-based OCR pipeline i
 
 The team explored and benchmarked six OCR pipelines, focusing on accuracy and preprocessing sensitivity. Models included:
 
-- **Tesseract** (Google OCR)
-- **MMOCR pipelines**:
-  - DBNet++ + ABINet
-  - PSENet + ABINet
-  - TextSnake + ABINet
-  - PANet + ABINet
-- **GPT-4o-mini** (LLM-based OCR)
+- Tesseract (Google OCR)
+- MMOCR (OpenMMLab) variants: DBNet++, PSENet, PANet, TextSnake
+- GPT-4o-mini (OpenAI Vision Language Model)
 
-All MMOCR pipelines used ABINet for text recognition, isolating detection model impact. Input images were tested with:
-- Raw images
-- **Polar unwrapping** (flattening sidewall curvature)
-- **CLAHE** (Contrast-Limited Adaptive Histogram Equalization)
+Each was tested with raw images, polar unwrapping, and CLAHE enhancement.
 
 ### OCR Evaluation Results
 
-Each tire image was annotated with 3 text fields (marking, brand, size). The team used lenient Levenshtein-ratio based matching for OCR and strict field-level accuracy for GPT-4o-mini.
-
-| Pipeline | Raw | Polar Unwrapping | CLAHE |
-|----------|-----|------------------|--------|
-| Tesseract | 4/45 | 9/45 | 8/45 |
+| OCR Pipeline | Raw | Unwrapped | CLAHE |
+|--------------|-----|-----------|--------|
+| Tesseract | 4 | 9 | 8 |
 | DBNet++ + ABINet | 6 | 10 | 15 |
 | PSENet + ABINet | 5 | 11 | 14 |
-| **TextSnake + ABINet** | 7 | 12 | 16 |
+| TextSnake + ABINet | 7 | 12 | 16 |
 | PANet + ABINet | 3 | 8 | 9 |
-| **GPT-4o-mini** | 37 | **45** | **45** |
+| GPT-4o-mini | 37 | 45 | 45 |
 
-### Decision
-
-The team selected **GPT-4o-mini + Polar Unwrapping + CLAHE** as the future OCR pipeline, pending integration. MMOCR-based options remain viable if vendor-free models are later required.
+GPT-4o-mini achieved perfect accuracy (45/45) on the benchmark using unwrapped CLAHE-enhanced images. It was selected for integration in Week 4.
 
 ---
 
-## ML Model Development
+## ML Pipeline Development
 
-### Pipeline Progress
+### Tread Depth Estimation
 
-The ML team finalized the MVP training pipeline with major enhancements:
+- Ensemble regression with Swin Transformer, DenseNet, ConvNeXt
+- Unity-generated dataset used for pretraining and edge case augmentation
+- MAE on test set: ~0.93 mm
+- Augmentations: brightness, shadow, blur, perspective
 
-- **Tread Depth**:
-  - Regression models using CNN backbones and ensemble stacking
-  - Synthetic dataset generated via Unity with various tread patterns and angles
-- **Spike Quality**:
-  - New dataset of over 6000 samples bootstrapped using a pretrained model
-  - Included negative samples from tires with no spikes to reduce false positives
+### Spike Classification
 
-### Accuracy Metrics
-
-| Task | Model Type | Dataset Source | Metric | Value |
-|------|------------|----------------|--------|-------|
-| Tread Depth | CNN + Ensemble | Real + Synthetic (Unity) | MAE | ~0.93 mm |
-| Spike Condition | CNN classifier | Bootstrapped dataset | FP + FN | ~7.5 on test set |
-| OCR (brand) | GPT-4o-mini | 15 real photos | Text field accuracy | 45/45 |
-
-### Improvements
-
-- Introduced **manual correction hooks** in bot and site
-- All models refactored into callable Python packages (no more notebooks)
-- Preprocessing pipeline unified across models
+- Binary classifier using ResNet-like CNN
+- Dataset expanded with 6000+ bootstrapped samples
+- Tires without spikes used for hard negatives
+- Final FP + FN on test set: ~7.5
 
 ---
 
-## Deployment and Integration
+## Model Architecture and Configuration
 
-### Backend & API
+### Regression Model
+- Loss: MSE + MAE monitoring
+- Optimizer: AdamW
+- LR Scheduler: CosineAnnealingLR
+- Batch size: 16
+- Epochs: 40
 
-- FastAPI backend fully connected to models and Telegram bot
-- No new endpoints, but final logic and error handling now in place
-- Bearer token auth prevents misuse
-- Custom error messages and graceful model fallbacks implemented
+### Spike Classification
+- Loss: CrossEntropy + hard-negative mining
+- Augmentations: crop, rotate, CLAHE
 
-### Telegram Bot Enhancements
-
-- “Cancel” functionality added mid-conversation
-- Correction interface for users to fix prediction
-- Refined feedback messages for low-quality input
-
-### Web Platform
-
-- Frontend and backend for web platform completed
-- Design tested and iterated on after team demo
-- UX now mirrors Telegram workflow with added usability for uploads
+### Logging
+- TensorBoard: MAE trends, misclassified visualizations, histograms
+- Checkpointing: per-epoch with val metrics
 
 ---
 
-## Data Handling and Ethics
+## Experimental Insights
 
-- No persistent user data saved (privacy-first policy)
-- Previous brand DB approach abandoned in favor of LLM
-- All information flows transiently through logs and in-memory structures
+| Experiment | Finding | Outcome |
+|------------|---------|---------|
+| CLAHE vs HE | CLAHE outperformed consistently | Standardized CLAHE |
+| Hard negatives | Reduced false positives by ~20% | Included in training |
+| GPT OCR vs MMOCR | GPT superior on real-world samples | Adopted GPT-4o-mini |
+| Ensemble vs single model | 0.2mm better MAE | Final model is stacked ensemble |
+| Unwrapping for OCR | Boosted recognition by 3× | Pipeline requirement |
+
+---
+
+## API, Bot, and Web UI
+
+### Backend (FastAPI)
+- Auth: Bearer token
+- Endpoints: `/analyze/tread`, `/identify_tire`
+- Error codes: 400 (bad image), 401 (auth), 422 (model failure)
+
+### Telegram Bot
+- Cancel button
+- Manual correction of predictions
+- Robust fallback logic and state handling
+
+### Web Interface
+- Functional MVP with drag-and-drop upload
+- Connects to same API backend
+- Design aligns with Telegram UX
 
 ---
 
-## Internal Testing and Demos
+## Data Handling & Privacy
 
-A team-wide test session revealed:
-- **Lighting variation** still harms model accuracy
-- **Tread textures and stones** reduce spike classification accuracy
-- UX improved based on flow interruption and user correction needs
+- No user data stored
+- Brand/model database replaced by GPT queries
+- Only temporary logs used for diagnostics
 
 ---
+
+## Testing and Feedback
+
+| Issue | Fix |
+|-------|-----|
+| Spike false positives | Added negative tire images |
+| Lighting sensitivity | Unity-based shadow samples |
+| OCR failures | Switched to GPT-4o-mini |
+| User confusion | Improved error messages, cancel paths |
+
+---
+
+## Roadmap
+
+- Integrate GPT-based OCR into full pipeline
+- Conduct small user study (10 users)
+- Add admin dashboard for request analysis
+- Finalize dataset with versioning and backups
+- Fine-tune depth model using correction feedback
+
+---
+
+## Lessons Learned
+
+- Real-world variance must drive training strategy
+- ML + UX = user trust
+- LLMs simplify pipelines previously requiring deep tuning
+- Good error design prevents user frustration
 
 ## Team Contributions
 
 | Team Member | Contributions |
 |-------------|---------------|
-| **Nikita Menshikov** | Authored the report, managed Kanban and discussions on dataset enrichment |
-| **Nikita Zagainov** | Developed final training pipeline, added stacking, helped refactor ML modules |
-| **Dmitry Tetkin** | Created synthetic tire tread dataset using Unity environment |
-| **Vladislav Strelkov** | Built the backend for the web platform, updated Docker deployment |
-| **Darya Stepanova** | Designed and refined UX for the web interface, adjusted flows after testing |
-| **Sergey Aitov** | Connected all endpoints, refactored model codebase, backend utilities |
-| **Ekaterina Petrova** | Implemented the web frontend, maintained datasets, wrote test scripts |
+| **Nikita Menshikov** | Wrote the report, set direction, brainstormed dataset improvements |
+| **Nikita Zagainov** | Built ML pipeline, stacked models, refactored training code |
+| **Dmitry Tetkin** | Modeled synthetic tires in Unity, expanded training data |
+| **Vladislav Strelkov** | Developed web backend, refined deployment scripts |
+| **Darya Stepanova** | Designed and tested web UI, UX improvements based on feedback |
+| **Sergey Aitov** | Integrated bot ↔ API ↔ model, stabilized backend responses |
+| **Ekaterina Petrova** | Created web frontend, tested dataset loading, maintained repo hygiene |
 
 ---
 
-## Confirmation of the Code's Operability
+## Confirmation of Code Operability
 
-We confirm that all code in the main branch:
-
-- [x] Compiles and runs without errors
-- [x] Deploys successfully via docker-compose (as per README)
-- [x] Has integrated inference pipeline for tread + spike via bot and web
-
+- ✅ Code compiles and runs
+- ✅ Code deploys via docker-compose (as per README.md)

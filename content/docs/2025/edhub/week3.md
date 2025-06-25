@@ -47,9 +47,9 @@ We plan to send this survey to our high school teachers as well as university pr
 
 ## Backend
 
-The main task of the backend team this week was to explore the possibility of attaching files to course materials, course assignments, and students' submits. After we have explored how to implement this, we realized that this task is more complex than we expected. To implement attachments feature, we need to think about the format for storing files, which would be better implemented in a separate database, think about the validation of files (size and type restrictions), and develop functions to send a file to the server and to retrieve a file from the server. We realized that we don't have time to do this task in full by the end of the third week, so we started it and plan to finish until the end of the 4th week.
+The main task of the backend team this week was to explore the possibility of attaching files to course materials, course assignments, and students' submissions. After we have explored how to implement this, we realized that this task is more complex than we expected. To implement attachments feature, we need to think about the format for storing files, which would be better implemented in a separate database, think about the validation of files (size and type restrictions), and develop functions to send a file to the server and to retrieve a file from the server. We realized that we don't have time to do this task in full by the end of the third week, so we started it and plan to finish until the end of the 4th week.
 
-<!-- ORM draft -->
+The main task of the backend team this week was to explore the possibility of attaching files to course materials, course assignments, and students' submissions. After we have explored how to implement this, we realized that this task is more complex than we expected. To implement attachments feature, we need to think about the format for storing files, which would be better implemented in a separate database, think about the validation of files (size and type restrictions), and develop functions to send a file to the server and to retrieve a file from the server. We realized that we don't have time to do this task in full by the end of the third week, so we started it and plan to finish until the end of the 4th week.
 
 Until this week, when registering for an account, users could type any strings into the email and password fields. We decided to add email format check and password complexity check to protect user accounts from hacking. Password must be longer than 8 characters and contain letters, numbers and special characters.
 
@@ -82,6 +82,7 @@ We added a logging feature to the backend that logs all actions that teachers an
 - [`management`]: Weekly report has been written ([*PR #493*](https://github.com/IU-PR/Capstone_project/pull/493)).
 
 ### Timur Usmanov
+- [`backend`]: work on ORM implementation has begun in the [`oop_overhaul`](https://github.com/IU-Capstone-Project-2025/edhub/tree/oop_overhaul) branch;
 - [`backend`]: database creation script has been improved ([*PR #50*](https://github.com/IU-Capstone-Project-2025/edhub/pull/50));
 - [`devops`]: nginx reverse proxy has been installed ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48));
 - [`backend`]: Careful reviewing of pull request has been conducted ([*PR #45*](https://github.com/IU-Capstone-Project-2025/edhub/pull/45), [*PR #46*](https://github.com/IU-Capstone-Project-2025/edhub/pull/46), [*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49)).

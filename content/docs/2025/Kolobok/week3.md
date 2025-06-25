@@ -171,7 +171,7 @@ GPT-4o-mini achieved perfect accuracy (45/45) on the benchmark using unwrapped C
 
 ---
 
-## Confirmation of Code Operability
-
-- ✅ Code compiles and runs
-- ✅ Code deploys via docker-compose (as per README.md)
+## Confirmation of the code's operability
+We confirm that the code in the main branch:
+- [x] In working condition
+- [x] Run via method described in README.md

@@ -49,6 +49,8 @@ We plan to send this survey to our high school teachers as well as university pr
 
 The main task of the backend team this week was to explore the possibility of attaching files to course materials, course assignments, and students' submits. After we have explored how to implement this, we realized that this task is more complex than we expected. To implement attachments feature, we need to think about the format for storing files, which would be better implemented in a separate database, think about the validation of files (size and type restrictions), and develop functions to send a file to the server and to retrieve a file from the server. We realized that we don't have time to do this task in full by the end of the third week, so we started it and plan to finish until the end of the 4th week.
 
+<!-- ORM draft -->
+
 Until this week, when registering for an account, users could type any strings into the email and password fields. We decided to add email format check and password complexity check to protect user accounts from hacking. Password must be longer than 8 characters and contain letters, numbers and special characters.
 
 Previously, the teacher had full rights to invite and remove users on the course. In particular with the `remove_teacher` command they could remove any teacher on the course, including themselves (so the teacher could leave the course). This feature was not previously available for students and parents, so we improved the `remove_student` and `remote_parent` commands to allow parents and students to remove themselves from the course if they wanted to.
@@ -76,7 +78,8 @@ We also decided to improve the syntax of the script for creating the database by
 - [`backend`]: Sketches of functions for attaching files to course objects have been developed in the [*attachments*](https://github.com/IU-Capstone-Project-2025/edhub/tree/attachments) branch;
 - [`backend`]: Validation of email format and password complexity has been developed ([*PR #46*](https://github.com/IU-Capstone-Project-2025/edhub/pull/46));
 - [`backend`]: An option to exit the course has been added to `remove_student` and `remove_parent` functions ([*PR #45*](https://github.com/IU-Capstone-Project-2025/edhub/pull/45));
-- [`backend`]: Careful reviewing of pull request has been conducted ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48), [*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49), [*PR #50*](https://github.com/IU-Capstone-Project-2025/edhub/pull/50)).
+- [`backend`]: Careful reviewing of pull request has been conducted ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48), [*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49), [*PR #50*](https://github.com/IU-Capstone-Project-2025/edhub/pull/50));
+- [`management`]: Weekly report has been written ([*PR #493*](https://github.com/IU-PR/Capstone_project/pull/493)).
 
 ### Timur Usmanov
 - [`backend`]: database creation script has been improved ([*PR #50*](https://github.com/IU-Capstone-Project-2025/edhub/pull/50));

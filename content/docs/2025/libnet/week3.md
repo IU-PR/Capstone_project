@@ -162,7 +162,7 @@ Implementation of logins for different access, view library catalogue: https://g
    - Access to: Catalog, Favorites, Orders sections
 
 ### Link to API endpoints documentation.
-* http://83.222.18.122:8000/docs
+* http://83.222.17.10:8000/docs
 ## Weekly commitments
 ### Individual contribution of each participant
 | Team Member     | Completed Work                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |

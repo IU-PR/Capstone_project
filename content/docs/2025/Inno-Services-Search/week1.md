@@ -9,6 +9,10 @@ title: "Week #1"
 ### Project name: Inno Services Search
 
 **Code repository**:  
+Original repos:  
+https://github.com/one-zero-eight/search  
+https://github.com/one-zero-eight/website  
+Copies in IU-Capstone-Project-2025 organization:  
 https://github.com/IU-Capstone-Project-2025/Inno-Services-Search-Backend  
 https://github.com/IU-Capstone-Project-2025/Inno-Services-Search-Frontend
 

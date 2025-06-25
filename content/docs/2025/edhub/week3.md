@@ -28,7 +28,15 @@ The global plan is the following:
 | **Assignment**  | :ballot_box_with_check: Done in Week 2        | :white_check_mark: Done in Week 3                  |
 | **Files**       | :black_square_button: Rescheduled for Week 4  | :black_square_button: Planned for Week 4           |
 
-Our MVP implements the **Assignment** version of EdHub. 
+Our MVP implements the **Assignment** version of EdHub:
+- user can create an account / log in
+- teacher can create course
+- teacher can invite students, parents, and teacher to course
+- teacher can create course materials and assignments with title and describtion
+- teacher can see the list of students' submissions
+- student can access course materials and assignments
+- student can submit an assignment
+- parent can see the list of their children's submissions
 
 ## Demonstation Video
 

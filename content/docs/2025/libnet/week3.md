@@ -117,9 +117,9 @@ Implementation of logins for different access, view library catalogue: https://g
 #### **Favorites Management**
 | Step | User Action               | UI Elements                          | System Response                     |
 |------|---------------------------|--------------------------------------|-------------------------------------|
-| 1    | Clicks "❤️" on a book      | Heart icon on `Book Page`            | Adds to `Избранное` page            |
+| 1    | Click "Добавить в избранное"     | Heart icon on `Book Page`            | Adds to `Избранное` page            |
 | 2    | Navigates to `Избранное`  | Navbar button                        | Displays all favorited books        |
-| 3    | Clicks "Удалить"          | Button next to book                  | Removes from favorites              |
+| 3    | Clicks "Удалить из избранного"          | Button next to book                  | Removes from favorites              |
 
 ---
 

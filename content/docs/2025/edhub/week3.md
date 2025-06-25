@@ -66,7 +66,10 @@ We have added an nginx reverse proxy for our project that allows to host both th
 
 ## Plan for the Week 4
 
-<!-- планы для week4 -->
+During week 4, we plan to continue developing our project as follows:
+- the backend team plans to finalize the feature of attaching files to course objects, and to develop tests for automatic code checking (CI/CD);
+- the frontend team plans to fix some bugs in the current version, improve performance and develop a landing page;
+- the devops team plans to run EdHub on a permanent server.
 
 # Individual contribution
 

@@ -34,7 +34,7 @@
 
 ### Screenshots / Video / Demo Links
 
-- ![Attachments](https://drive.google.com/drive/folders/1Ta4rJgo148GvsicmUfRG0Y2ZUgLi1L1K?usp=sharing)
+- [Attachments](https://drive.google.com/drive/folders/1Ta4rJgo148GvsicmUfRG0Y2ZUgLi1L1K?usp=sharing)
 
 ---
 

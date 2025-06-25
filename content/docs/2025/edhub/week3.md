@@ -75,14 +75,14 @@ We have added an nginx reverse proxy for our project that allows to host both th
 - [`backend`]: Sketches of functions for attaching files to course objects have been developed in the [*attachments*](https://github.com/IU-Capstone-Project-2025/edhub/tree/attachments) branch;
 - [`backend`]: Validation of email format and password complexity has been developed ([*PR #46*](https://github.com/IU-Capstone-Project-2025/edhub/pull/46));
 - [`backend`]: An option to exit the course has been added to `remove_student` and `remove_parent` functions ([*PR #45*](https://github.com/IU-Capstone-Project-2025/edhub/pull/45));
-- [`backend`]: Careful reviewing of pull request has been conducted ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48), [*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49), [*PR #50*](https://github.com/IU-Capstone-Project-2025/edhub/pull/50));
+- [`backend`]: Careful review of pull request has been conducted ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48), [*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49), [*PR #50*](https://github.com/IU-Capstone-Project-2025/edhub/pull/50));
 - [`management`]: Weekly report has been written ([*PR #493*](https://github.com/IU-PR/Capstone_project/pull/493)).
 
 ### Timur Usmanov
 - [`backend`]: work on ORM implementation has begun in the [`oop_overhaul`](https://github.com/IU-Capstone-Project-2025/edhub/tree/oop_overhaul) branch;
 - [`backend`]: database creation script has been improved ([*PR #50*](https://github.com/IU-Capstone-Project-2025/edhub/pull/50));
 - [`devops`]: nginx reverse proxy has been installed ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48));
-- [`backend`]: Careful reviewing of pull request has been conducted ([*PR #45*](https://github.com/IU-Capstone-Project-2025/edhub/pull/45), [*PR #46*](https://github.com/IU-Capstone-Project-2025/edhub/pull/46), [*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49)).
+- [`backend`]: Careful review of pull request has been conducted ([*PR #45*](https://github.com/IU-Capstone-Project-2025/edhub/pull/45), [*PR #46*](https://github.com/IU-Capstone-Project-2025/edhub/pull/46), [*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49)).
 
 ### Askar Dinikeev
 - [`backend`]: LMS logging has been developed ([*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49)).
@@ -92,7 +92,7 @@ We have added an nginx reverse proxy for our project that allows to host both th
 
 ### Timur Struchkov
 - [`frontend`]: 
-- [`frontend`]: Careful reviewing of pull request has been conducted ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48)).
+- [`frontend`]: Careful review of pull request has been conducted ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48)).
 
 # Repository
 

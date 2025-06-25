@@ -1,0 +1,4 @@
+---
+bookCollapseSection: true
+title: "SmartClause"
+---

@@ -82,9 +82,9 @@ During week 4, we plan to continue developing our project as follows:
 - [`management`]: Weekly report has been written ([*PR #493*](https://github.com/IU-PR/Capstone_project/pull/493)).
 
 ### Timur Usmanov
-- [`backend`]: work on ORM implementation has begun in the [*oop_overhaul*](https://github.com/IU-Capstone-Project-2025/edhub/tree/oop_overhaul) branch;
-- [`backend`]: database creation script has been improved ([*PR #50*](https://github.com/IU-Capstone-Project-2025/edhub/pull/50));
-- [`devops`]: nginx reverse proxy has been installed ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48));
+- [`backend`]: Work on ORM implementation has begun in the [*oop_overhaul*](https://github.com/IU-Capstone-Project-2025/edhub/tree/oop_overhaul) branch;
+- [`backend`]: Database creation script has been improved ([*PR #50*](https://github.com/IU-Capstone-Project-2025/edhub/pull/50));
+- [`devops`]: Nginx reverse proxy has been installed ([*PR #48*](https://github.com/IU-Capstone-Project-2025/edhub/pull/48));
 - [`backend`]: Careful review of pull request has been conducted ([*PR #45*](https://github.com/IU-Capstone-Project-2025/edhub/pull/45), [*PR #46*](https://github.com/IU-Capstone-Project-2025/edhub/pull/46), [*PR #49*](https://github.com/IU-Capstone-Project-2025/edhub/pull/49)).
 
 ### Askar Dinikeev

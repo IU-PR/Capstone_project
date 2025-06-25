@@ -51,22 +51,23 @@ Link -
 
 ### Frontend
 
-*...*
+Implemented 2 functional buttons in the Main Menu Page for creating and connecting to the game room via http requests (for communication with the backend). There are 2 new pages: Waiting Room Page and Game Room Page. In the Waiting Room Page, I drew the design and implemented functions for updating the team's state (connecting players and their readiness), changing its own state from ready to unread and vice versa, and also implemented exiting the room via http requests. In the Game Room Page, I drew the design and implemented communication with the backend via WebSocket for the initial distribution of cards, passing the move between players, sending your move, checking the rules and ending the game.
 
 ### Backend
 
-*...*
+The backend has implemented a number of very significant tasks. Additional database functionality was written that was needed for the new functional endpoints for creating a room, joining a room, leaving a room, sending room status, and receiving a player ready/unready message. An endpoint for playing in a room was written that uses players' websockets to support multiplayer capabilities. The logic for exchanging data between the backend and frontend during the game and the logic for checking each move the player makes for correctness was implemented. A successful connection was made between the backend and frontend with full functionality for creating, joining, and playing a room. Basic functional endpoints for playing with a bot (DQN) were written: the initial connection was made between the DQN and the backend.
+
 
 ### AI
 
-*...*
+In the AI ​​section, the following work for this week: fixed errors in the logic of the environment in DKyuN and MTS (when processing the green and purple rules), which caused an incorrect result. The first fully functioning model was created (parameters were selected to improve the model's performance), code was written for convenient manual testing of the model against the user. An analysis of the game style of exiting different situations with the need to play a certain set of cards was also conducted (As a result of comparing the MTS and DKN models, the MTS showed the best statistical outcome from artificially created situations). Work was started to improve the DKN game level by integrating a stronger opponent in the form of MTS into its training, which will allow for more effective training of the model and its use of better strategies.
 
 
 # Weekly commitments
 
 ## Individual contribution of each participant
 
-**Palkina Sofia** – organized 4 discussion meetings (20.06 - meeting with TA Mary and after discussion of the amendments she proposed; 21.06 - discussion of the interaction between the back and the front during the players' moves; 22.06 - meeting with a server and deployment specialist/advisor; 23.06 - regular midweek meeting to evaluate progress; 25.06 - discussion of plan for next Week), did research on servers, selected and tested a server for deployment  and wrote this report
+**Palkina Sofia** – organized 4 discussion meetings (20.06 - meeting with TA Mary and after discussion of the amendments she proposed; 21.06 - discussion of the interaction between the back and the front during the players' moves; 22.06 - meeting with a server and deployment specialist/advisor; 23.06 - regular midweek meeting to evaluate progress; 25.06 - discussion of plan for next Week), did research on servers, selected and tested a server for deployment, start implimentation of CI/CD  and wrote this report
 
 https://trello.com/c/Nb1LzlsF
 
@@ -74,6 +75,10 @@ https://trello.com/c/LzUnNNMV
 
 
 **Polina Kostikova** – 
+
+https://trello.com/c/q9JbeV6a
+
+https://trello.com/c/dt8ZgOfR
 
 **Lev Permiakov** – 
 

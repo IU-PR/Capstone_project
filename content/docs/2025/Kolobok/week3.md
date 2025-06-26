@@ -57,17 +57,17 @@ GPT-4o-mini achieved perfect accuracy (45/45) on the benchmark using unwrapped C
 
 ### Tread Depth Estimation
 
-- Ensemble regression with Swin Transformer, DenseNet, ConvNeXt
+- Ensemble regression with Swin Transformer, DenseNet, ConvNeXt (in development)
 - Unity-generated dataset used for pretraining and edge case augmentation
-- MAE on test set: ~0.93 mm
-- Augmentations: brightness, shadow, blur, perspective
+- MAE on test set: ~0.6 mm
+- Augmentations: rotations, crops
 
 ### Spike Classification
 
 - Binary classifier using ResNet-like CNN
 - Dataset expanded with 6000+ bootstrapped samples
 - Tires without spikes used for hard negatives
-- Final FP + FN on test set: ~7.5
+- Final FP + FN on test set: 10
 
 ---
 

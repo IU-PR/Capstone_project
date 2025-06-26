@@ -107,12 +107,11 @@ GPT-4o-mini achieved perfect accuracy (45/45) on the benchmark using unwrapped C
 ### Backend (FastAPI)
 - Auth: Bearer token
 - Endpoints: `/analyze/tread`, `/identify_tire`
-- Error codes: 400 (bad image), 401 (auth), 422 (model failure)
+- Error codes: 400 (bad image), 401 (auth)
 
 ### Telegram Bot
-- Cancel button
 - Manual correction of predictions
-- Robust fallback logic and state handling
+- Robust state handling
 
 ### Web Interface
 - Functional MVP with drag-and-drop upload
@@ -136,7 +135,6 @@ GPT-4o-mini achieved perfect accuracy (45/45) on the benchmark using unwrapped C
 | Spike false positives | Added negative tire images |
 | Lighting sensitivity | Unity-based shadow samples |
 | OCR failures | Switched to GPT-4o-mini |
-| User confusion | Improved error messages, cancel paths |
 
 ---
 

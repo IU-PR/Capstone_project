@@ -46,6 +46,10 @@ This is the Minimum Viable Product focused on launching the essential mechanics 
 
 Link - https://drive.google.com/drive/folders/1HRr739W4mQVXr8u17mUc_5_-wxz0-LN2?usp=sharing
 
+## Internal demo
+
+While testing the app with the team, we found the following set of bugs that need to be fixed:  fixing rooms persisting in the database, missing error messages for invalid room IDs, the Ready button state reset problem, oversized application windows, inconsistent local variable usage in game.py backend logic.
+
 
 ## Project specific progress
 

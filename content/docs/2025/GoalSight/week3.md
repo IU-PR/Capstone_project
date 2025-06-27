@@ -184,4 +184,260 @@ logistic regression has been integrated into the product for MVP.
   
 ### Plan for Next Week
 
+#### Sprint Goal
+
+  
+
 Testing, CI/CD & Deployment Setup
+
+  
+
+### Frontend
+
+  
+
+#### Testing \& Quality Assurance
+
+  
+
+- **Unit Tests for React components**
+
+    - Write unit tests for the MatchCard component
+
+    - Write unit tests for the TeamCard component
+
+    - Write unit tests for PredictionPanel component
+
+    - Write unit tests for UpcomingMatches component
+
+    - **Acceptance Criteria:** Test coverage of all critical components using the Jest/React Testing Library
+
+  
+
+    - **Assignee:** Karina/Egor A
+
+  
+
+- **Integration of tests with API**
+
+    - Tests to verify the correctness of working with the endpoints API
+
+    - Mock data for isolating tests
+
+    - Error handling testing
+
+    - **Acceptance Criteria:** All API calls are covered by integration
+
+    by tests
+
+  
+
+    - **Assignee:** Karina/Egor A
+
+  
+
+- **E2E tests of the main user journey**
+
+    - Configure Cypress for E2E testing
+
+    - Test: home page → team selection → getting a forecast
+
+    - Test: navigation between pages
+
+    - **Acceptance Criteria:** Basic user scenarios are covered by E2E tests
+
+  
+
+    - **Assignee:** Karina/Egor A
+
+  
+
+- **Setting up test coverage**
+
+    - Configure the generation of test coverage reports
+
+    - Integration with CI pipeline
+
+    - **Acceptance Criteria:** Coverage reports are generated automatically, the goal is 60%+
+
+  
+
+    - **Assignee:** Karina/Egor A
+
+  
+  
+
+### Backend
+
+  
+
+#### API Testing \& Data Integrity
+
+  
+
+- **Unit tests for models**
+
+    - Tests for the Team model
+
+    - Tests for the Match model
+
+    - Tests for the Tournament model
+
+    - **Acceptance Criteria:** All models are covered by unit tests, including validation rules
+
+  
+
+    - **Assignee:** Arina
+
+  
+
+- **Integration tests for the API**
+
+    - Tests for all GET endpoints
+
+    - Tests for POST endpoints with validation
+
+    - Testing with a real test database
+
+    - **Acceptance Criteria:** All endpoints APIs work correctly with different data scenarios
+
+  
+
+    - **Assignee:** Arina
+
+  
+
+- **Middleware and utils tests**
+
+    - Test coverage of auxiliary functions
+
+    - Custom middleware testing
+
+    - **Acceptance Criteria:** Auxiliary functions are covered by tests with edge cases
+
+  
+
+    - **Assignee:** Arina
+
+  
+  
+
+### ML
+
+  
+
+#### Model Validation \& Testing
+
+  
+
+- **ML Model Validation**
+
+    - Implementation of cross-validation to improve the reliability of the model
+
+    - Create a confusion matrix for performance analysis
+
+    - Add precision/recall/F1 metrics
+
+    - **Acceptance Criteria:** The model is validated with detailed performance metrics
+
+    - **Assignee:** Artem
+
+  
+
+- **Tests for ML endpoints**
+
+    - Unit tests for prediction endpoint
+
+    - Tests for model loading and initialization
+
+    - Error handling testing for incorrect data
+
+    - **Acceptance Criteria:** ML API endpoints work stably and handle errors
+
+    - **Assignee:** Artem
+
+  
+
+- **Validation of input data**
+
+    - Checking the correctness of the data before submitting it to the model
+
+    - Processing of missing values
+
+    - Validation of team IDs and tournament data
+
+    - **Acceptance Criteria:** Robust input validation prevents model failures
+
+    - **Assignee:** Artem
+
+  
+  
+
+### CI/CD \& Deployment
+
+  
+
+#### Automation \& Infrastructure
+
+  
+
+- **GitHub Actions CI Pipeline**
+
+    - Set up automatic push/PR tests
+
+    - Configuration for frontend and backend tests
+
+    - Setup test database for CI
+
+    - **Acceptance Criteria:** All tests run automatically and block merge in case of errors
+
+    - **Assignee:** Egor S
+
+  
+
+- **Setting up the Staging Environment**
+
+    - Deploying the application on Heroku staging
+
+    - Configuration of environment variables
+
+    - Setup production-like database
+
+    - **Acceptance Criteria:** The working application is available at a public URL
+
+    - **Assignee:** Arina
+
+
+- **Environment Variables Management**
+
+    - Configure environment variables for staging/production
+
+    - Secure storage of API keys and secrets
+
+    - **Acceptance Criteria:** Confidential data is protected and properly configured
+
+    - **Assignee:** Arina
+
+  
+
+- **Continuous Deployment (Bonus)**
+
+    - Automatic deployment when merging to main
+
+    - Setup staging → production pipeline
+
+    - **Acceptance Criteria:** CD pipeline will automatically deposit upon successful merge
+
+     - **Assignee:** Artem
+
+  
+
+## Acceptance criteria for sprint:
+  
+- **Test Coverage**
+
+- **CI Pipeline:** Automatic tests are performed on every PR
+
+- **Staging Environment:** a working application is available at a public URL
+
+- **Documentation:** updated documentation on testing and deployment

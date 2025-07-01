@@ -133,9 +133,11 @@ Figma page: https://www.figma.com/design/si98563MfBSXuDtOfV8655/FitFlame?node-id
  Polina Kuzminykh (project manager):
  
  - Scheduled weekly team meeting. 
- ![Weekly meeting](https://github.com/IU-Capstone-Project-2025/Solar-Wind/blob/main/content/images/week1_meeting.png)
+
+ ![Weekly meeting](https://github.com/IU-Capstone-Project-2025/Solar-Wind/blob/main/content/images/week1_meeting.png?raw=true)
  - Organized GitHub issues in Kanban board in GitHub Projects. 
- ![Kanban board](https://github.com/IU-Capstone-Project-2025/Solar-Wind/blob/main/content/images/week1_kanban.png) 
+ ![Kanban board](https://github.com/IU-Capstone-Project-2025/Solar-Wind/blob/main/content/images/week1_kanban.png?raw=true) 
+
 Kanban board: https://github.com/orgs/IU-Capstone-Project-2025/projects/3/views/1
  - Wrote weekly report including problem statement, project description, market research, and user stories.
 

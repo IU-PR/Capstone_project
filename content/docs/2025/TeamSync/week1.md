@@ -94,6 +94,7 @@ Students of Innopolis University currently face the inefficiencies and time-cons
 6. As a student, I want to see suggestions and filters when browsing projects (similarity), so that I can efficiently choose which projects to join.
 7. As a professor, I want to make a page only for my course, so that I can manage the team formation between my students.
 
+
 ## **Main Functionalities**
 
 ---

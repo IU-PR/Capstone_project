@@ -170,6 +170,16 @@ Even assuming that real-life metrics for these platforms are twice as optimistic
 | Marsel Fayzullin  | DevOps Engineer        | Setup of the server infrastructure and [deployment mechanisms](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/tree/dev/deployment/dev)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Aziz Vundirov     | Backend Developer      | [Backend microservices commits](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/commits/dev/), numerous completed tasks in [Technical Backlog](https://strategic-control.kaiten.ru/space/606259/boards)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 
+## Plans for the next week
+
+- Finalize the key microservices, their connections, and security requirements
+- Integrate real-time static analysis the IDE
+- Integrate deep static analysis (manualy triggered) into the IDE
+- Finalize three-stage deployment setup
+- Analyze and integrate required security solutions into the system design
+- Implement localized feedback generation as warnings and non-localized feedback generation as MD text
+- Prepare increment specifications for weeks ahead
+
 ## Confirmation of the code’s operability
 
 We confirm that the code in the main branch:

@@ -43,7 +43,7 @@ For automatic website deployment we configured two environments: **Staging Envir
 
 | Deployment | Machine Type    | Provider      | OS           | Network             | SSH Access    | SSH Key Holders |
 |------------|-----------------|---------------|--------------|---------------------|---------------|-----------------|
-| Staging    | Virtual Machine | Innopolis University     | Ubuntu 22.04 | 10.90.138.154 on University networks   | Password and PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
+| Staging    | Virtual Machine | Innopolis University     | Ubuntu 22.04 | 10.90.138.154 on a local university network   | Password and PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
 | Production | Virtual Dedicated Server | timeweb.cloud | Ubuntu 24.04 | edhub.space, 82.97.249.54 (public IP)        | PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
 
 

@@ -79,7 +79,7 @@ To ensure a secure https connection, we configured a certificate from Let's Encr
 
 ## Backend
 
-- переписали фичу с ассайментами, теперь готово 
+- переписали фичу с ассайментами, теперь готово
 
 ## Frontend
 

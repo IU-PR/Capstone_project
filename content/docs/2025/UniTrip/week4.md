@@ -46,8 +46,7 @@ Jobs:
 
 During the creating test we faced many issues, most of them with pipeline and unity licence activation. Then with tests and showing it. It was hard without hard knowledges in unity and ci.
 
-Also we asked for help for another team and they suggested us to add code linting, which we used in our CI pipeline.
-Thanks them for help, also they suggested us to add password and email to the pipeline, which help to solve problem with licence
+Also we asked for help for another team and thanks them for help, also they suggested us to add password and email to the pipeline, which help to solve problem with licence
 
 🎯 CD (Continuous Deployment)
 

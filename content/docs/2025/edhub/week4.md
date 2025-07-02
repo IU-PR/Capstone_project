@@ -41,17 +41,10 @@ We also configured a worker instance on the Innopolis University Virtual Machine
 
 For automatic website deployment we configured two environments: **Staging Environment** for developers to test new versions of the application and **Production Environment** for customers to use the service.
 
-|------------|-----------------|---------------|--------------|---------------------|---------------|-----------------|
 | Deployment | Machine Type    | Provider      | OS           | Network             | SSH Access    | SSH Key Holders |
 |------------|-----------------|---------------|--------------|---------------------|---------------|-----------------|
-| Staging    | Virtual Machine | Innopolis     | Ubuntu 22.04 | 10.90.138.154 on    | Password      | Timur Usmanov,  |
-|            |                 | University    |              | University networks | and PublicKey | Askar Dinikeev, |
-|            |                 |               |              |                     |               | Gleb Popov      |
-|------------|-----------------|---------------|--------------|---------------------|---------------|-----------------|
-| Production | Virtual         | timeweb.cloud | Ubuntu 24.04 | edhub.space,        | PublicKey     | Timur Usmanov,  |
-|            | Dedicated       |               |              | 82.97.249.54        |               | Askar Dinikeev, |
-|            | Server          |               |              | (public IP)         |               | Gleb Popov      |
-|------------|-----------------|---------------|--------------|---------------------|---------------|-----------------|
+| Staging    | Virtual Machine | Innopolis University     | Ubuntu 22.04 | 10.90.138.154 on University networks   | Password and PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
+| Production | Virtual Dedicated Server | timeweb.cloud | Ubuntu 24.04 | edhub.space, 82.97.249.54 (public IP)        | PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
 
 
 ### Staging Environment

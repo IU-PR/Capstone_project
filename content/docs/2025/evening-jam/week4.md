@@ -10,7 +10,7 @@ For the quality assurance, we made an automated build for our project that is ac
 
 ### Evidence of test execution
 
-![The pipeline](image.png)
+![The pipeline](https://github.com/user-attachments/assets/0d783799-d895-420f-ada2-b781d4883194)
 
 ## CI/CD
 

@@ -128,7 +128,7 @@ During week 4, we plan to continue developing our project as follows:
 - [`frontend`]: Navigation bugs (e.g., "Back to course feed" button) have been fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/9076763ee7614d29e67d1beea5e68f994f3963f2), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/652580425797200519a9f288d816724d9bf0c90d));
 - [`frontend`]: Refactoring of assignment detail page has been started for better structure and UX ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/9076763ee7614d29e67d1beea5e68f994f3963f2));
 - [`frontend`]: Ability to submit and view the assignment submission as a student has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/652580425797200519a9f288d816724d9bf0c90d));
-- [`frontend`]: Ability to view child's assignment submission as a parent and to  and as a teacher to see all submissions has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/0056523ce55adb355ad50ab551002057aa481ae0));
+- [`frontend`]: Ability to view child's assignment submission as a parent and to  and as a teacher to see all submissions has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/0056523ce55adb355ad50ab551002057aa481ae0)).
 
 # Repository
 

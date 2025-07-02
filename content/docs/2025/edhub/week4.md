@@ -81,10 +81,11 @@ After encountering difficulties while developing the feature to add files to cou
 
 The frontend team focused on improving the visual design, usability, and fixing key issues across the platform:
 
-- **Landing Page**: A new standalone landing page introduces users to the platform before registration;
-- **Authentication Improvements**: Added validation for email format, name, and password complexity. Improved user feedback during login/registration;
-- **Design & Styling**: Unified styles across all pages using clean CSS. Replaced LMS text with a scalable SVG logo. Updated overall layout for better clarity;
+- **Landing Page**: A new standalone landing page introduces users to the platform before registration.
+- **Authentication Improvements**: Added validation for email format, name, and password complexity. Improved user feedback during login/registration.
+- **Design & Styling**: Unified styles across all pages using clean CSS. Replaced LMS text with a scalable SVG logo. Updated overall layout for better clarity.
 - **Bug Fixes**: Resolved infinite request loop on app start. Fixed navigation buttons like Back to Course Feed and Add Parent. Improved assignment/material creation experience with real-time feedback.
+- **Functionality**: Developed ability to leave course as students, parents and teachers. Updated assignment page to include the ability to submit and view the answer as a student, as a parent see child's submission, and as a teacher to see all children's submissions.
 
 ## DevOps
 

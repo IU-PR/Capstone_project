@@ -39,16 +39,26 @@ We also configured a worker instance on the Innopolis University Virtual Machine
 
 ## Continuous Delivery
 
+For automatic website deployment we configured two environments: **Staging Environment** for developers to test new versions of the application and **Production Environment** for customers to use the service.
+
 ### Staging Environment
-- привязана к деву
-- на той же инновской машине
-- ручная тестировка
+Staging Environment runs a version of the site on the `dev` branch on the Innopolis University Virtual Machine. We as a development team can open the site and manually test the developed innovations before merging it into the `main` branch.
 
 ### Production Environment
-- берется из мейна
+Production Environment runs a version of the site on the `main` branch on the globally accessible server. This version is tied to the public domain [*edhub.space*](www.edhub.space) and will be used by our customers.
+
+We decided to use timeweb.cloud hosting because it is easy to set up, has suitable characteristics and provides servers in Russia.
+
+We bought the domain edhub.space on REG.RU because it seemed to us the most suitable and memorable among all available domains. 
+
+We bought the domain edhub.space on REG.RU because it seemed to us the most suitable and memorable among all available domains. We configured A-address forwarding (IPv4) and subdomain www.
+
+To ensure a secure https connection, we configured a certificate from Let's Encrypt.
+
+<!-- - берется из мейна
 - хостинг timeweb.cloud в России
 - привязали домен edhub.space
-- сертификат от Let's Encrypt
+- сертификат от Let's Encrypt -->
 
 # Weekly achievements
 

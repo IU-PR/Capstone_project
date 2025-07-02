@@ -9,7 +9,7 @@ title: "Week #4"
 **Vladimir** wrote tests and generated test coverage for core functionality of the project:
 - minio(needed as core moodle files storage)
 - search flow - ensure proper processing results from ml, proper fallback to mongo search, proper mongo results processing.
-Also he implemented github workflow to run tests in push/PR, so only tested code can be placed in the repository.
+Also he implemented github workflow to run tests in push/PR, so only tested code can be placed in the repository (see [commit](https://github.com/one-zero-eight/search/commit/82e1b48d850e63fd94bb7ce5f9fcdb58ba884b20)).
 
 ### Evidence of test execution
 

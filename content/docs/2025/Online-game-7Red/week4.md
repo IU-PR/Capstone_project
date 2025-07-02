@@ -41,13 +41,11 @@ The size of widgets on pages has been normalized, an animation timer has been ad
 
 ### Backend
 
-
-
+The following work was done: wrote tests for critical backend logic and frontend components (unit tests and widget tests), wrote tests for API endpoints (including basic end-to-end tests), wrote validation function for future testing of ml, created fully working functions for tracking achievements (namely: 5 wins in a row, 7 days of logging into the game in a row, and 3 wins over a bot). Logic for playing with a bot has appeared (it includes accepting a player's move, checking the player's move, sending a response from the bot - if the bot has moved correctly, then the game continues and the player moves again). In addition, the project has a full-fledged CI/CD with deployment to a separate 24/7-worked VPS server.
 
 ### AI
 
-
-
+Over the past week, the AI ​​reward system has been reworked and the parameters during training have been changed, the mask of acceptable choices at the end of each move has been changed, which has significantly increased the level of the AI ​​game, the MTS model running on the CPU has been integrated, it has been adapted to work in the DQN model environment, a function has been added that shows how the AI ​​works on specific data. Due to the very strong slowdown of the AI ​​training process, the MTS has been redesigned on the GPU, which has significantly increased the training speed and made it possible to create a higher-quality model and reduce the time of heavy operations that are used when working with the MTS.
 
 ## Weekly commitments
 
@@ -60,13 +58,27 @@ https://trello.com/c/Nb1LzlsF
 https://trello.com/c/pYW2GGDA
 
 
-**Polina Kostikova** – 
+**Polina Kostikova** – wrote all the backend and frontend tests and created functions for tracking achievements
 
-**Lev Permiakov** – 
+https://trello.com/c/FaYMMEld
+
+https://trello.com/c/pDxqBjgG
+
+**Lev Permiakov** – reworked the AI ​​reward system, changed the parameters during training and the mask of acceptable choices, integrated the MTS model, implemented the function of AI operation on specific data, made a validation test for ML, prepared rules and pictures for them
+
+https://trello.com/c/dt8ZgOfR
+
+https://trello.com/c/FaYMMEld
 
 https://trello.com/c/pYW2GGDA
 
-**Arina Petuhova** – 
+**Arina Petuhova** – made back-logic for the game with the bot and debugged errors, helped in creating hosting for the project on the server
+
+https://trello.com/c/Mqy2qftL
+
+https://trello.com/c/Nb1LzlsF
+
+https://trello.com/c/dt8ZgOfR
 
 **Amir Bairamov** – testing the application and fixing the bugs found
 

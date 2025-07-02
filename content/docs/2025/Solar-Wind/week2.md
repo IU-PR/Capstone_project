@@ -95,7 +95,9 @@ Figma page: https://www.figma.com/design/si98563MfBSXuDtOfV8655/FitFlame?node-id
 Polina Kuzminykh (project manager):
  
  - Scheduled weekly team meeting. 
- ![Weekly meeting](https://github.com/IU-Capstone-Project-2025/Solar-Wind/blob/main/content/images/week2_meeting.png)
+
+ ![Weekly meeting](https://github.com/IU-Capstone-Project-2025/Solar-Wind/blob/main/content/images/week2_meeting.png?raw=true)
+
 
  - Wrote weekly report including extended user stories with acceptance criteria and summary of TA's feedback from last week.
  - Updated project backlog.

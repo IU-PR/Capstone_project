@@ -110,10 +110,10 @@ Now you can visit our site at [kizak.ru](https://kizak.ru/)
   * Frontend refinement (see [fixes](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/77))
  
 * **Ulyana Chaikovskaya:** u.chaikouskaya@innopolis.university
-  * Skill Gap Analyzer finalization (see [issue](https://github.com/IU-Capstone-Project-2025/KIZAK/commit/f6f70b1d3526116cdaa2ffc9fa6aa5541d4db970))
+  * Vector search and recomendation ranking (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/78))
 
 * **Kseniia Khudiakova:** k.khudiakova@innopolis.university
-  * Skill-Vacancy mapping finalization (see [commit](https://github.com/IU-Capstone-Project-2025/KIZAK/commit/fb21ea27fe2a2f740554b81e045950340f3630f9))
+  * Vector search and recomendation ranking (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/78))
 
 ## 🎯 **Plan for Next Week**
 

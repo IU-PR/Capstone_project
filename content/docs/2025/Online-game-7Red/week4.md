@@ -4,6 +4,17 @@ title: "Week #4"
 
 # **Week #4**
 
+## Main links
+
+Figma - https://www.figma.com/design/ttrFjZlaz8jyuKQAzcHHkm/Untitled?node-id=0-1&p=f&t=c6lLIGjvjL40mOyM-0
+
+Github - https://github.com/IU-Capstone-Project-2025/Online-game-7Red/tree/main
+
+Trello - https://trello.com/b/D9ajdsG7/online-game-7red
+
+Server - http://192.145.30.253:8080
+
+
 ## Testing and QA
 
 ### Backend Testing
@@ -133,6 +144,49 @@ title: "Week #4"
 
 ### Chalenges
 
+**Docker Image Tag Mismatch**
+
+- Pipeline builds images with commit-SHA tags, but deployment tries to pull latest tags, causing "manifest not found" errors.
+
+**Environment Configuration Issues**
+
+- .env file parsing errors (line number mismatch suggests hidden formatting problems).
+
+- Missing DATABASE_URL and other PostgreSQL variables in CI/CD.
+
+- GitHub Secrets not properly injected during testing.
+
+**Flutter Project Errors**
+
+- Incorrect directory navigation in GitHub Actions caused flutter pub get failures.
+
+- Widget tests failed due to improper context setup for navigation/state management.
+
+**Python Dependency Problems**
+
+- Missing packages (sqlalchemy, databases, python-dotenv).
+
+- Relative import issues and PYTHONPATH misconfiguration.
+
+- Malformed requirements.txt formatting.
+
+**Deployment Obstacles**
+
+- Docker network conflict (deploy_default already exists).
+
+- Backend database connection failure despite correct .env placement.
+
+- SSH connection failures (incorrect keys/host verification).
+
+- Permission issues with ~/deploy/database directory.
+
+**General Warnings**
+
+- Non-terminal SSH warnings during execution.
+
+- depends_on not waiting for backend readiness.
+
+- Using latest tags is not production-safe.
 
 
 ## Deployment
@@ -248,7 +302,7 @@ https://trello.com/c/Nb1LzlsF
 
 https://trello.com/c/dt8ZgOfR
 
-**Amir Bairamov** – testing the application and fixing the bugs found
+**Amir Bairamov** – testing the application and fixing the bugs found, add the ** in password
 
 https://trello.com/c/Mqy2qftL
 

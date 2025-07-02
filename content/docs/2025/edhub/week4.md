@@ -110,7 +110,7 @@ During week 5, we plan to continue developing our project as follows:
 - [`devops`]: Innopolis University Virtual Machine has been configured as a staging environment;
 - [`devops`]: TimeWeb.Cloud VDS has been configured as a production environment;
 - [`devops`]: Сertificate to support `https` has been configured.
-<!-- ревью пул-реквестов -->
+- [`backend`]: Careful review of pull request has been conducted ([*PR #63*](https://github.com/IU-Capstone-Project-2025/edhub/pull/63), [*PR #65*](https://github.com/IU-Capstone-Project-2025/edhub/pull/65), [*PR #67*](https://github.com/IU-Capstone-Project-2025/edhub/pull/67))
 
 ### Askar Dinikeev
 - [`devops`]: Github Action Workflow running the integration tests has been configured ([*PR #65*](https://github.com/IU-Capstone-Project-2025/edhub/pull/65));

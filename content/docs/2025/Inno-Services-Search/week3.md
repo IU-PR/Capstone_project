@@ -14,11 +14,11 @@ API deployment: https://api.innohassle.ru/search/staging-v0/docs
 We have implemented the basic functionality of user search. At the moment, text search in mongo works fully, ml-search works but requires testing. Closed issues see on the [board](https://github.com/orgs/one-zero-eight/projects/4), project `search`.
 
 ## Demonstration of the working MVP
-![Image](https://github.com/belyakova-anna/Inno-Services-Search-Images/blob/main/Week3/mvp1.png)
+![Image](https://github.com/belyakova-anna/Inno-Services-Search-Images/blob/main/Week3/mvp1.png?raw=true)
 
-![Image](https://github.com/belyakova-anna/Inno-Services-Search-Images/blob/main/Week3/mvp2.png)
+![Image](https://github.com/belyakova-anna/Inno-Services-Search-Images/blob/main/Week3/mvp2.png?raw=true)
 
-![Image](https://github.com/belyakova-anna/Inno-Services-Search-Images/blob/main/Week3/mvp3.png)
+![Image](https://github.com/belyakova-anna/Inno-Services-Search-Images/blob/main/Week3/mvp3.png?raw=true)
 
 ## Backend
 

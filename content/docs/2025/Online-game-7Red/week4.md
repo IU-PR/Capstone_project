@@ -131,9 +131,63 @@ title: "Week #4"
 
 **Links to CI/CD configuration files** - 
 
+### Chalenges
+
+
+
 ## Deployment
 
-*Details about the deployment process, environment setup for staging environment*
+The deployment process for the environment involves several carefully defined steps to ensure that the application runs smoothly before it is moved into production. The staging environment closely mirrors the production environment and can be used to test new features, bug fixes, and configuration changes.
+
+### Server Specifications
+
+The staging server is VPS provisioned with the following specifications:
+
+- 1 vCPU, which offers a single virtual processor core 
+
+- 1 GB of DDR4 ECC RAM
+
+- 20 GB SSD storage
+
+- 100 Mbps unlimited bandwidth, which ensures sufficient network speed for accessing resources and deploying updates.
+
+- KVM virtualization, which allows full virtualization with dedicated kernel support, improving isolation and performance.
+
+- The server runs on a Linux operating system, offering stability and compatibility with various deployment tools.
+
+### Deployment Process
+
+**Access and Authentication**
+
+Secure shell (SSH) access is configured to allow secure remote login. 
+
+**System Preparation**
+
+The Linux system is updated to ensure all packages and dependencies are current. Essential tools such as Git, Docker, Docker Compose, and YAML interpreters are installed.
+
+**Environment Configuration**
+
+Environment variables are defined to distinguish between development, staging, and production settings. These include database credentials, API keys, and application-specific configurations.
+
+**Cloning the Repository**
+
+The application source code is cloned from the version control system (GitHub) into the server. The branch used is main.
+
+**Building the Application**
+
+Any necessary build steps, such as compiling code, installing dependencies, or bundling frontend assets, are executed using defined commands or scripts.
+
+**Using Docker**
+
+According to the deploy.yml file, Docker Compose is used to manage services. Containers are built and started in detached mode. This ensures that all required services (e.g., web server, application backend, and database) are started together with defined configurations.
+
+**Configuration and Volume Setup**
+
+Docker volumes are used for persistent storage. Network settings, environment files, and mounted volumes are configured to ensure proper communication between containers.
+
+**Rollback Plan**
+
+If any issues arise, a rollback mechanism is in place. Previous stable container images or Git commits can be redeployed quickly.
 
 ## Vibe Check
 

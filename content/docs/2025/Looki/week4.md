@@ -68,7 +68,7 @@
 
 Nikita Shiyanov - developed comprehensive automated tests for backend and frontend; architected and implemented Docker Compose setup with separate containers for production, development, and isolated test environments including dedicated test database; configured CI pipelines to build, run tests inside containers, and deploy to rented VPS server with automated rebuilds on main branch pushes, wrote report
 Aleksandr Gavkovski — refactored the architecture, fixed registration bugs, migrated the project to more modern technologies, and wrote tests for the frontend.
-Ilya Maksimov - created try_on screen: displayed 3d-model and added card with clothes; implemented a change of 3d model in makehuman by parameters that are sent via http request 
+Ilya Maksimov - created try_on screen: displayed 3d-model and added card with clothes; implemented a change of 3d model in makehuman by parameters that are sent via http request and exported 3d model with new parameters
 
 ---
 

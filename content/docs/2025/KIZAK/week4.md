@@ -10,18 +10,21 @@ Our API endpoints were tested with use of **pytest**. You can see test coverage 
 
 ### Evidence of test execution
 
-*Screenshots of test reports, CI logs, code coverage report.*
+We used **pytest** for unit testing testing of our application. [Here](https://github.com/IU-Capstone-Project-2025/KIZAK/tree/main/back/tests) you can find our tests
+
+Our testing workflow could be found [here](https://github.com/IU-Capstone-Project-2025/KIZAK/blob/main/.github/workflows/test.yml)
+
+All testing logs could be found [here](https://github.com/IU-Capstone-Project-2025/KIZAK/actions/runs/16034374439/job/45242483159)
 
 ## ♾️ **CI/CD**
 
 * Continuous Integration
-  * Typos check (see workflow)
-  * Backend liniting check (see workflow)
-  * Frontend liniting check (see workflow)
-  * Testing (see workflow)
-  * Health check (see workflow)
+  * Typos check (see [workflow](https://github.com/IU-Capstone-Project-2025/KIZAK/blob/main/.github/workflows/typos.yml))
+  * Backend liniting check (see [workflow](https://github.com/IU-Capstone-Project-2025/KIZAK/blob/main/.github/workflows/pythonApplication.yml))
+  * Testing (see [workflow](https://github.com/IU-Capstone-Project-2025/KIZAK/blob/main/.github/workflows/pythonApplication.yml))
+  * Health check (see [workflow](https://github.com/IU-Capstone-Project-2025/KIZAK/blob/main/.github/workflows/docker-compose-check.yml))
 * Continuous Delivery
-  * Deploy on VDS (see workflow)
+  * Deploy on VDS (see [workflow](https://github.com/IU-Capstone-Project-2025/KIZAK/blob/main/.github/workflows/deploy.yml))
 
 ### 🔗 **Links to CI/CD configuration files**
 
@@ -80,19 +83,43 @@ For production we used [TimeWeb](https://timeweb.cloud/) VDS server working on U
 
 Now you can visit our site at [kizak.ru](https://kizak.ru/)
 
-## Vibe Check
+## 😹 **Vibe Check**
+* Almost all team members **satisfied** with our project proress
+* Almost all core features are implemented in production
 
-*Facilitate a team health check. Discuss progress, roadblocks, and team dynamics. Ensure everyone feels heard.*
+# 📝 **Weekly commitments**
 
-# Weekly commitments
+## 📊 **Individual contribution of each participant**
 
-## Individual contribution of each participant
+* **Marsel Berheev:** m.berheev@innopolis.university
+  * Weekly report
+  * API Update (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/76))
+  * Continuous Delivery (see [commit](https://github.com/IU-Capstone-Project-2025/KIZAK/commit/509e8b5bf0016ff9e86c152827dd99e8342966c9) or [workflow](https://github.com/IU-Capstone-Project-2025/KIZAK/blob/main/.github/workflows/deploy.yml))
 
-*...*
+* **Maksim Malov:** m.malov@innopolis.university
+  * Added API tests (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/75))
+  * Code refactor
 
-## Plan for Next Week
+* **Makar Egorov:** m.egorov@innopolis.university
+  * Added OAuth (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/72))
 
-*...*
+* **Timur Farizunov:** t.farizunov@innopolis.university
+  * Frontend refinement (see [fixes](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/77))
+
+* **Sarmat Lutfullin:** s.lutfullin@innopolis.university
+  * Frontend refinement (see [fixes](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/77))
+ 
+* **Ulyana Chaikovskaya:** u.chaikouskaya@innopolis.university
+  * Skill Gap Analyzer finalization (see [issue](https://github.com/IU-Capstone-Project-2025/KIZAK/commit/f6f70b1d3526116cdaa2ffc9fa6aa5541d4db970))
+
+* **Kseniia Khudiakova:** k.khudiakova@innopolis.university
+  * Skill-Vacancy mapping finalization (see [commit](https://github.com/IU-Capstone-Project-2025/KIZAK/commit/fb21ea27fe2a2f740554b81e045950340f3630f9))
+
+## 🎯 **Plan for Next Week**
+
+* Add JWT
+* Caching support
+* Design update
 
 ## Confirmation of the code's operability
 

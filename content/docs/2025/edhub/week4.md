@@ -83,11 +83,16 @@ To ensure a secure https connection, we configured a certificate from Let's Encr
 
 ## Frontend
 
-на Тимура
+The frontend team focused on improving the visual design, usability, and fixing key issues across the platform:
+
+- **Landing Page**: A new standalone landing page introduces users to the platform before registration;
+- **Authentication Improvements**: Added validation for email format, name, and password complexity. Improved user feedback during login/registration;
+- **Design & Styling**: Unified styles across all pages using clean CSS. Replaced LMS text with a scalable SVG logo. Updated overall layout for better clarity;
+- **Bug Fixes**: Resolved infinite request loop on app start. Fixed navigation buttons like Back to Course Feed and Add Parent. Improved assignment/material creation experience with real-time feedback.
 
 ## DevOps
 
-прописано выше в CI/CD Setup
+This week the devops team has been working on the CI/CD setup detailed above.
 
 ## Plan for the Week 4
 

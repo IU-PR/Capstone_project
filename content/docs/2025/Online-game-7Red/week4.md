@@ -6,16 +6,130 @@ title: "Week #4"
 
 ## Testing and QA
 
-*Summary of testing strategy and types of tests implemented.*
+### Backend Testing
 
-*Screenshots of test reports, CI logs, code coverage report.*
+**Unit Tests** (test_unit.py) - fast execution, isolated from external dependencies, Tests edge cases and main logic
+
+*Coverage:*
+
+1. Game state initialization (test_initialize_deck_unique_cards)
+
+2. Game rule implementations:
+
+    - Most cards of one color rule (test_most_of_one_color_rule)
+
+    - Highest card rule (test_highest_card_rule)
+
+    - Most cards of one number rule (test_most_of_one_number_rule)
+
+
+**API Integration Tests** (test_api_integration.py) - test API endpoints and their interactions, tests complete request/response cycles, verifies status codes and response formats, includes error case testing, uses unique identifiers to avoid test collisions
+
+*Coverage:*
+
+1. Authentication flows:
+
+    - User signup (test_signup)
+
+    - User signin (test_signin)
+
+2. Game room management:
+
+    - Room creation (test_signup_and_create_room)
+
+    - Player ready state (test_player_is_ready)
+
+    - Leaving rooms (test_leave_room)
+
+
+
+**CI logs** - https://drive.google.com/drive/folders/1HWuIwyp-_aQKcnsKuXFBWfVtbLBoRDX1
+
+**Link to pipline** - 
 
 ## CI/CD
 
-*Description of CI/CD setup, tools used, and any challenges faced.*
+### Tools Used
 
-Links to CI/CD configuration files
+- GitHub Actions: For the entire CI/CD workflow
 
+- Docker: Containerization of both frontend and backend
+
+- Docker Compose: For service management in production
+
+- PostgreSQL: Used when connecting to the NEON database
+
+- Flutter: For frontend development
+
+- FastAPI: For backend API development
+
+- Pytest: For backend testing
+
+### Pipeline Stages
+
+1. Backend Testing
+
+    - Sets up Python 3.11 environment
+
+    - Installs dependencies from requirements.txt
+
+    - Runs unit and API integration tests
+
+    - Uses database secrets for test environment
+
+2. Frontend Testing
+
+    - Requires backend tests to pass first
+
+    - Sets up Flutter 3.32.1 
+
+    - Installs frontend dependencies
+
+    - Runs widget tests
+
+3. Build and Push Docker Images
+
+    - Logs into Docker Hub using secrets
+
+    - Builds and pushes both backend and frontend images with:
+
+        - SHA-tagged versions (for traceability)
+
+        - "latest" tags (for production)
+
+    - Verifies images were successfully pushed
+
+4. Deployment
+
+    - Sets up SSH connection to VPS
+
+    - Performs cleanup of previous deployment
+
+    - Copies updated docker-compose.yml to server
+
+    - Pulls new images and restarts services
+
+
+### Configuration Files
+
+1. docker-compose.yml
+
+- Defines two services:
+
+    - backend: Exposed on port 8000, uses database env file
+
+    - frontend: Exposed on port 8080 (mapped to container's 80), depends on backend
+
+2. requirements.txt
+
+- Standard Python dependencies for FastAPI backend
+
+- Includes testing and database dependencies
+
+3. deploy.yml (GitHub Actions)
+
+
+**Links to CI/CD configuration files** - 
 
 ## Deployment
 
@@ -86,7 +200,12 @@ https://trello.com/c/Mqy2qftL
 
 ## Plan for Next Week
 
-1. 
+1. Screens for 3 and 4 players and make a page with game rules
+
+2. Implement the whole work of AI mod
+
+3. Collecting feedback from test users of our app
+
 
 ### Confirmation of the code's operability
 

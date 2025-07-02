@@ -120,12 +120,12 @@ To make search results more specific, it was necessary to refactor the parsers s
 
 ## Frontend
 
-**Aliia** added search example below the search field (see [commit](https://github.com/one-zero-eight/website/commit/741697dc4d4b4c0d91882567831f1986f6837004)) and added response_types filtration and preview text in SearchResult (see commits [#1](https://github.com/one-zero-eight/website/commit/e55efb2a04aae4b00d1f9ad2832f27c4f1ea0087#diff-07ff1bddf1a165691ab50b17df460fd91338557bf254b17cc7bc44d9e08c3b22) and [#2](https://github.com/one-zero-eight/website/pull/213))
+**Aliia** added search example below the search field (see [commit](https://github.com/one-zero-eight/website/commit/741697dc4d4b4c0d91882567831f1986f6837004)) and added `response_types` filtration and preview text in `SearchResult` (see commits [#1](https://github.com/one-zero-eight/website/commit/e55efb2a04aae4b00d1f9ad2832f27c4f1ea0087#diff-07ff1bddf1a165691ab50b17df460fd91338557bf254b17cc7bc44d9e08c3b22) and [#2](https://github.com/one-zero-eight/website/pull/213))
 
 
 ## ML
 
-**Sofia** fixed the duplication of fragments during the search (see [commit](https://github.com/one-zero-eight/search/commit/03a846592dedafbfbc859c1d984c341eed68833e) and [commit](https://github.com/one-zero-eight/search/commit/b818d684480098bf506c3e097cd11f178b6f0036)), and the text preview was also optimized for XML tags (see [commit](https://github.com/one-zero-eight/search/commit/994c1171b7841e81684fc415ec088ba88b96fe83)). In addition, a full-fledged stack for /ask was created, including the definition of Pydantic models, the implementation of a FastAPI endpoint, integration with the RAG search system, and interaction with an external LLM via OpenRouter (see [commit](https://github.com/one-zero-eight/search/commit/e0f06f0274b09920e2b3fa70674f4b49148da60c)).
+**Sofia** fixed the duplication of fragments during the search (see [commit](https://github.com/one-zero-eight/search/commit/03a846592dedafbfbc859c1d984c341eed68833e) and [commit](https://github.com/one-zero-eight/search/commit/b818d684480098bf506c3e097cd11f178b6f0036)), and the text preview was also optimized for XML tags (see [commit](https://github.com/one-zero-eight/search/commit/994c1171b7841e81684fc415ec088ba88b96fe83)). In addition, a full-fledged stack for `ask` was created, including the definition of Pydantic models, the implementation of a FastAPI endpoint, integration with the RAG search system, and interaction with an external LLM via OpenRouter (see [commit](https://github.com/one-zero-eight/search/commit/e0f06f0274b09920e2b3fa70674f4b49148da60c)).
 
 **Azaliia** also created a [dataset](https://docs.google.com/spreadsheets/d/1Q9SwNH2yBCkL_TCIoj3L1JRfgEZlX-Zc5eADguABHoQ/edit?usp=sharing) to evaluate the performance of the search.
 

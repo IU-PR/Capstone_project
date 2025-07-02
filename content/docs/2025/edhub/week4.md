@@ -99,10 +99,11 @@ During week 4, we plan to continue developing our project as follows:
 # Individual contribution
 
 ### Gleb Popov
-- [`management`]: agreed to distribute a survey to teachers at MAI Pre-University School;
-- [`management`]: agreed to be able to test the platform in a real school in the fall of 2025;
-- [`management`]: edhub.space domain has been acquired after discussion with the team;
-- [`backend`]: feature of attachments to course items has been finalized ([*PR #63*](https://github.com/IU-Capstone-Project-2025/edhub/pull/63)).
+- [`management`]: Agreed to distribute a survey to teachers at MAI Pre-University School;
+- [`management`]: Agreed to be able to test the platform in a real school in the fall of 2025;
+- [`management`]: edhub.space domain has been rented after discussion with the team;
+- [`backend`]: Feature of attachments to course items has been finalized ([*PR #63*](https://github.com/IU-Capstone-Project-2025/edhub/pull/63));
+- [`management`]: Weekly report has been written ([*PR #584*](https://github.com/IU-PR/Capstone_project/pull/584)).
 
 ### Timur Usmanov
 - [`devops`]: Innopolis University Virtual Machine has been configured as a staging environment;

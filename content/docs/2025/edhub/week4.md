@@ -41,14 +41,14 @@ We also configured a worker instance on the Innopolis University Virtual Machine
 
 For automatic website deployment we configured two environments: **Staging Environment** for developers to test new versions of the application and **Production Environment** for customers to use the service.
 
-| Deployment | Machine Type    | Provider      | OS           | Network             | SSH Access    | SSH Key Holders |
+| Environment | Machine        | Provider      | OS           | Network             | SSH Access    | SSH Key Holders |
 |------------|-----------------|---------------|--------------|---------------------|---------------|-----------------|
 | Staging    | Virtual Machine | Innopolis University     | Ubuntu 22.04 | 10.90.138.154 on a local university network   | Password and PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
 | Production | Virtual Dedicated Server | timeweb.cloud | Ubuntu 24.04 | edhub.space, 82.97.249.54 (public IP)        | PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
 
 
 ### Staging Environment
-Staging Environment runs a version of the site on the `dev` branch on the Innopolis University Virtual Machine. We as a development team can open the site and manually test the developed innovations before merging it into the `main` branch. 
+Staging Environment runs a version of the site on the `dev` branch on the Innopolis University Virtual Machine. We set up public key SSH access, created a new non-sudo user `staging`, installed Docker and a Github Actions runner with a label `edhub-staging`. Now, we as a development team can open the site and manually test the developed innovations before merging it into the `main` branch. 
 
 You can see the example of automatic deployment logs [*here*](https://github.com/IU-Capstone-Project-2025/edhub/actions/runs/16027449796/job/45218962463).
 
@@ -57,30 +57,25 @@ Production Environment runs a version of the site on the `main` branch on the gl
 
 You can see the example of automatic deployment logs [*here*](https://github.com/IU-Capstone-Project-2025/edhub/actions/runs/16027975047/job/45220777035).
 
-We decided to use timeweb.cloud hosting because it is easy to set up, has suitable characteristics and provides servers in Russia.
+We decided to use [timeweb.cloud](https://timeweb.cloud/) hosting since it provides easily customizable servers located in Russia (which is crutial for storing personal data) with characteristics suitable for our project.
 
-We bought the domain edhub.space on REG.RU because it seemed to us the most suitable and memorable among all available domains. 
+We rented the edhub.space domain for a year. Popular domain zones such as edhub.ru and edhub.com were busy or expensive, and ed-hub.ru seemed awkward to us because of the hyphen in the name. edhub.space balances affordability with a memorable address. We set up A-fields to redirect from http://edhub.space/ and www.edhub.space to our production server.
 
-We bought the domain edhub.space on REG.RU because it seemed to us the most suitable and memorable among all available domains. We configured A-address forwarding (IPv4) and subdomain www.
+We turned off password-based SSH authentication, set up public key SSH access, created a new non-sudo user `prod`. Then, we installed Docker and a Github Actions runner with a label `edhub-prod`.
 
-To ensure a secure https connection, we configured a certificate from Let's Encrypt.
-
-<!-- - берется из мейна
-- хостинг timeweb.cloud в России
-- привязали домен edhub.space
-- сертификат от Let's Encrypt -->
+To ensure a secure https connection, we obtained SSL certificates from Let's Encrypt with the `certbot` utility.
 
 # Weekly achievements
 
 ## Management
 
-This week we finalized the creation of a survey about LMS usage among faculty. Since we have an MAI Pre-University school graduate in our team, we contacted the school's headmaster in order to distribute our survey to the school's teachers. We hope that the word of mouth effect and the professorial community of teachers will help us distribute this survey to other teachers.
+This week we launched a survey about LMS usage among school teachers, university professors, and tutor. Particularly, we contacted the headmaster of a Moscow school (MAI Pre-University school) in order to distribute our survey to the school's teachers. We hope to get their responses soon to identify their needs as educators, and to identify key functions needed. We also hope that the word of mouth effect and the professorial community of teachers will help us distribute this survey to other faculty members.
 
-We also agreed on the possibility of testing EdHub within the real educational process in MAI Pre-University school in the fall of 2025.
+We also agreed with the principal to possibly integrate EdHub into the school's educational process to test the platform in early fall 2025.
 
 ## Backend
 
-This week, the backend team completely rewrote and finalized the feature of attachments to course elements. Teachers can now attach files to materials and assignments, and students can attach files to their submissions.
+After encountering difficulties while developing the feature to add files to course items last week, the backend team decided to rewrite the feature from scratch this week. We created 3 new tables: `material_files`, `assignment_files`, and `submissions_files`. At this point, we decided to save user files to the database in byte format. We set a limit for the file size equal to be 5MB, we also have the support for incremental file uploads (by chunks), so that a hacker will not be able to overload the server by uploading too large a file before the checks start.
 
 ## Frontend
 

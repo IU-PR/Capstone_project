@@ -56,7 +56,7 @@ But also faced many issues and decided to stop this week on partially manualy de
 
 ### Links to CI/CD configuration files
 [yml file](https://github.com/IU-Capstone-Project-2025/UniTrip/tree/main/.github/workflows).  
-[pipeline with tests](https://github.com/IU-Capstone-Project-2025/UniTrip/actions/runs/16034237688/job/45242016411)
+[pipeline with tests](https://github.com/IU-Capstone-Project-2025/UniTrip/actions/runs/16034371739)
 
 ## Deployment
 

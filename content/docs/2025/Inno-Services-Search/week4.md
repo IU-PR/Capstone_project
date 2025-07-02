@@ -13,8 +13,8 @@ Also he implemented github workflow to run tests in push/PR, so only tested code
 
 ### Evidence of test execution
 
-![Image](https://github.com/user-attachments/assets/5059a530-3a52-425b-9ac3-fdc29c8430b8)
-![Image](https://github.com/user-attachments/assets/1c730440-7f20-417a-bb3d-7c3827f6e527)
+![Image](https://github.com/belyakova-anna/Inno-Services-Search-Images/blob/main/Week4/tests1.png)
+![Image](https://github.com/belyakova-anna/Inno-Services-Search-Images/blob/main/Week4/tests2.png)
 
 CI logs [link](https://github.com/one-zero-eight/search/actions/runs/16025185230/job/45211261584)
 ## CI/CD
@@ -132,7 +132,7 @@ To make search results more specific, it was necessary to refactor the parsers s
 ## Overall progress
 Overall, this week we improved the user experience (see the hints for entering the search bar; the link to the resource is valid on the entire area of ​​the search answer card; the design is adapted for intuitive clicking on the link), clarified the resources (divided the sites into different cards using anchors), added previews to the sites (see the description of the site at the bottom of the card)
 
-![Image](https://github.com/user-attachments/assets/94776b55-e88a-47fa-8934-7dcfbbbed3f3)
+![Image](https://github.com/belyakova-anna/Inno-Services-Search-Images/blob/main/Week4/progress.png)
 
 ## Vibe Check
 

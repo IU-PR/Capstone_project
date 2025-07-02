@@ -74,12 +74,13 @@ To ensure a secure https connection, we configured a certificate from Let's Encr
 
 ## Management
 
-- закинули опрос челикам из пума
-- договорились с директором о тестировании едхаба в пуме осенью
+This week we finalized the creation of a survey about LMS usage among faculty. Since we have an MAI Pre-University school graduate in our team, we contacted the school's headmaster in order to distribute our survey to the school's teachers. We hope that the word of mouth effect and the professorial community of teachers will help us distribute this survey to other teachers.
+
+We also agreed on the possibility of testing EdHub within the real educational process in MAI Pre-University school in the fall of 2025.
 
 ## Backend
 
-- переписали фичу с ассайментами, теперь готово
+This week, the backend team completely rewrote and finalized the feature of attachments to course elements. Teachers can now attach files to materials and assignments, and students can attach files to their submissions.
 
 ## Frontend
 
@@ -97,31 +98,39 @@ This week the devops team has been working on the CI/CD setup detailed above.
 ## Plan for the Week 4
 
 During week 4, we plan to continue developing our project as follows:
-- the backend team plans to ;
-- the frontend team plans to ;
-- the devops team plans to .
+- the backend team plans to develop a course evaluation option, an attendance tracking mechanism, and add an admin account;
+- the frontend team plans to improve the UI/UX design of the website and create a journal page (table) with grades.
 
 # Individual contribution
 
 ### Gleb Popov
-- [`management`]: запустил опрос в пум
-- [`management`]: договорился с аветисом по поводу тестирования
-- [`backend`]: прописал фичу с аттачментами ([*PR #63*](https://github.com/IU-Capstone-Project-2025/edhub/pull/63))
+- [`management`]: agreed to distribute a survey to teachers at MAI Pre-University School;
+- [`management`]: agreed to be able to test the platform in a real school in the fall of 2025;
+- [`management`]: edhub.space domain has been acquired after discussion with the team;
+- [`backend`]: feature of attachments to course items has been finalized ([*PR #63*](https://github.com/IU-Capstone-Project-2025/edhub/pull/63)).
 
 ### Timur Usmanov
-- [`devops`]: настроил сервера
+- [`devops`]: Innopolis University Virtual Machine has been configured as a staging environment;
+- [`devops`]: TimeWeb.Cloud VDS has been configured as a production environment;
+- [`devops`]: Сertificate to support `https` has been configured.
+<!-- ревью пул-реквестов -->
 
 ### Askar Dinikeev
-- [`devops`]: настроил CI ([*PR #65*](https://github.com/IU-Capstone-Project-2025/edhub/pull/65))
-- [`devops`]: настроил деплой стейджинг сервера (https://github.com/IU-Capstone-Project-2025/edhub/pull/66/files)
-- [`devops`]: настроил деплой продакшен сервера (https://github.com/IU-Capstone-Project-2025/edhub/pull/67)
-- [`backend`]: добавил логи для аттачментов
+- [`devops`]: Github Action Workflow running the integration tests has been configured ([*PR #65*](https://github.com/IU-Capstone-Project-2025/edhub/pull/65));
+- [`devops`]: Github Action Workflow deploying the staging server has been configured ([*PR #66*](https://github.com/IU-Capstone-Project-2025/edhub/pull/66));
+- [`devops`]: Github Action Workflow deploying the production server has been configured ([*PR #67*](https://github.com/IU-Capstone-Project-2025/edhub/pull/67));
+- [`backend`]: logging of the attachment creation has been introduced ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/pull/63/commits/825675101d2e70a5de139400b39e18de9b1afa72)).
 
 ### Alina Suhoverkova
-- [`frontend`]: 
+- [`frontend`]: Form validation and UX issues on auth pages have been fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/c3f2eb3ab7a698277d3e9cc6651684470d1e24f6));
+- [`frontend`]: GitHub repo link have been added to the landing page for user visibility ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/c3f2eb3ab7a698277d3e9cc6651684470d1e24f6));
+- [`frontend`]: Standalone landing page has been implemented, consistent global styling has been applied, routing logic has been updated in App.js for cleaner navigation flow ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/bd9fd6f4ab160132a1ac39f4530135d30c740182));
+- [`frontend`]: Email and password validation have been developed, infinite fetch loop on frontend startup have been resolved, EdHub logo has been added, interface styling has been improved ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/dacb695a2588a3d82afc28ef4aa2ff0b40a5ce21)).
 
 ### Timur Struchkov
-- [`frontend`]: 
+- [`frontend`]: Feature for students to leave a course has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/ffdc3615cda44299ef4aea474cf43b811c3b4d30));
+- [`frontend`]: Navigation bugs (e.g., "Back to course feed" button) have been fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/9076763ee7614d29e67d1beea5e68f994f3963f2));
+- [`frontend`]: Refactoring of assignment detail page has been started for better structure and UX ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/9076763ee7614d29e67d1beea5e68f994f3963f2)).
 
 # Repository
 

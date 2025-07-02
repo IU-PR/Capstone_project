@@ -17,7 +17,7 @@ July 2025
 We have developed integration tests (`/backend/curltests.sh`) that will allow us to make sure that the new version works when new features are added. The specific tests are:
 
 - Registering users;
-- Logging in as Alice;
+- Logging;
 - Creating a course;
 - Getting available courses;
 - Getting course info;

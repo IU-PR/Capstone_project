@@ -43,12 +43,12 @@ For automatic website deployment we configured two environments: **Staging Envir
 
 | Environment | Machine        | Provider      | OS           | Network             | SSH Access    | SSH Key Holders |
 |------------|-----------------|---------------|--------------|---------------------|---------------|-----------------|
-| Staging    | Virtual Machine | Innopolis University     | Ubuntu 22.04 | 10.90.138.154 on a local university network   | Password and PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
-| Production | Virtual Dedicated Server | timeweb.cloud | Ubuntu 24.04 | edhub.space, 82.97.249.54 (public IP)        | PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
+| Staging    | Virtual Machine | Innopolis University     | Ubuntu 22.04 | 10.90.138.154 (local university network)   | Password and PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
+| Production | Virtual Dedicated Server | timeweb.cloud | Ubuntu 24.04 | edhub.space (DNS), 82.97.249.54 (public IP)        | PublicKey     | Timur Usmanov, Askar Dinikeev, Gleb Popov  |
 
 
 ### Staging Environment
-Staging Environment runs a version of the site on the `dev` branch on the Innopolis University Virtual Machine. We set up public key SSH access, created a new non-sudo user `staging`, installed Docker and a Github Actions runner with a label `edhub-staging`. Now, we as a development team can open the site and manually test the developed innovations before merging it into the `main` branch. 
+Staging Environment runs a version of the site on the `dev` branch on the Innopolis University Virtual Machine. We set up public key SSH access, created a new non-sudo user `staging`, installed Docker and a Github Actions runner with a label `edhub-staging`. Now we can manually test new features before merging them into `main` branch. 
 
 You can see the example of automatic deployment logs [*here*](https://github.com/IU-Capstone-Project-2025/edhub/actions/runs/16027449796/job/45218962463).
 
@@ -57,11 +57,11 @@ Production Environment runs a version of the site on the `main` branch on the gl
 
 You can see the example of automatic deployment logs [*here*](https://github.com/IU-Capstone-Project-2025/edhub/actions/runs/16027975047/job/45220777035).
 
-We decided to use [timeweb.cloud](https://timeweb.cloud/) hosting since it provides easily customizable servers located in Russia (which is crutial for storing personal data) with characteristics suitable for our project.
+We decided to use [timeweb.cloud](https://timeweb.cloud/) hosting since it provides easily customizable servers located in Russia (which is crucial for storing personal data) with characteristics suitable for our project.
 
 We rented the edhub.space domain for a year. Popular domain zones such as edhub.ru and edhub.com were busy or expensive, and ed-hub.ru seemed awkward to us because of the hyphen in the name. edhub.space balances affordability with a memorable address. We set up A-fields to redirect from http://edhub.space/ and www.edhub.space to our production server.
 
-We turned off password-based SSH authentication, set up public key SSH access, created a new non-sudo user `prod`. Then, we installed Docker and a Github Actions runner with a label `edhub-prod`.
+We disabled password-based SSH authentication, set up public key SSH access, created a new non-sudo user `prod`. Then, we installed Docker and a Github Actions runner with a label `edhub-prod`.
 
 To ensure a secure https connection, we obtained SSL certificates from Let's Encrypt with the `certbot` utility.
 
@@ -75,7 +75,7 @@ We also agreed with the principal to possibly integrate EdHub into the school's 
 
 ## Backend
 
-After encountering difficulties while developing the feature to add files to course items last week, the backend team decided to rewrite the feature from scratch this week. We created 3 new tables: `material_files`, `assignment_files`, and `submissions_files`. At this point, we decided to save user files to the database in byte format. We set a limit for the file size equal to be 5MB, we also have the support for incremental file uploads (by chunks), so that a hacker will not be able to overload the server by uploading too large a file before the checks start.
+After encountering difficulties while developing the feature to add files to course items last week, the backend team decided to rewrite the feature from scratch this week. We created 3 new tables: `material_files`, `assignment_files`, and `submissions_files`. At this point, we decided to save user files to the database in byte format. We set a file size limit of 5MB, we also have the support for incremental file uploads (by chunks), so that a hacker will not be able to overload the server by uploading too large a file before the checks start.
 
 ## Frontend
 
@@ -91,9 +91,9 @@ The frontend team focused on improving the visual design, usability, and fixing 
 
 This week the devops team has been working on the CI/CD setup detailed above.
 
-## Plan for the Week 4
+## Plan for the Week 5
 
-During week 4, we plan to continue developing our project as follows:
+During week 5, we plan to continue developing our project as follows:
 - the backend team plans to develop a course evaluation option, an attendance tracking mechanism, and add an admin account;
 - the frontend team plans to improve the UI/UX design of the website and create a journal page (table) with grades.
 
@@ -120,7 +120,7 @@ During week 4, we plan to continue developing our project as follows:
 
 ### Alina Suhoverkova
 - [`frontend`]: Form validation and UX issues on auth pages have been fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/c3f2eb3ab7a698277d3e9cc6651684470d1e24f6));
-- [`frontend`]: GitHub repo link have been added to the landing page for user visibility ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/c3f2eb3ab7a698277d3e9cc6651684470d1e24f6));
+- [`frontend`]: GitHub repo link has been added to the landing page for user visibility ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/c3f2eb3ab7a698277d3e9cc6651684470d1e24f6));
 - [`frontend`]: Standalone landing page has been implemented, consistent global styling has been applied, routing logic has been updated in App.js for cleaner navigation flow ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/bd9fd6f4ab160132a1ac39f4530135d30c740182));
 - [`frontend`]: Email and password validation have been developed, infinite fetch loop on frontend startup have been resolved, EdHub logo has been added, interface styling has been improved ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/dacb695a2588a3d82afc28ef4aa2ff0b40a5ce21)).
 

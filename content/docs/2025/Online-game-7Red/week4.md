@@ -58,9 +58,9 @@ Coverage:
 
 1. Main menu:
 
-- START NEW GAME button: Ensures the main menu displays the "START NEW GAME" button.
+    - START NEW GAME button: Ensures the main menu displays the "START NEW GAME" button.
 
-- Waiting room: Verifies that a player's name is shown in the waiting room. Checks that the app navigates to the game room page when all players are ready.
+    - Waiting room: Verifies that a player's name is shown in the waiting room. Checks that the app navigates to the game room page when all players are ready.
 
 2. Game page: Confirms that the "SUBMIT" button appears when it is the player's turn. Ensures that all cards in the player's hand are rendered and visible.
 
@@ -68,7 +68,7 @@ Coverage:
 
 **CI logs** - https://drive.google.com/drive/folders/1HWuIwyp-_aQKcnsKuXFBWfVtbLBoRDX1
 
-**Link to pipline** - https://drive.google.com/file/d/1D3ij9lNX1_S6gXeeOs-VMb4Hf-cDN_0k/view?usp=sharing
+**Link to pipeline** - https://drive.google.com/file/d/1D3ij9lNX1_S6gXeeOs-VMb4Hf-cDN_0k/view?usp=sharing
 
 ## CI/CD
 
@@ -158,7 +158,7 @@ https://github.com/IU-Capstone-Project-2025/Online-game-7Red/blob/main/docker-co
 
 https://github.com/IU-Capstone-Project-2025/Online-game-7Red/blob/main/.github/workflows/deploy.yml
 
-### Chalenges
+### Challenges
 
 **Docker Image Tag Mismatch**
 
@@ -283,7 +283,7 @@ The following work was done: wrote tests for critical backend logic and frontend
 
 ### AI
 
-Over the past week, the AI ​​reward system has been reworked and the parameters during training have been changed, the mask of acceptable choices at the end of each move has been changed, which has significantly increased the level of the AI ​​game, the MTS model running on the CPU has been integrated, it has been adapted to work in the DQN model environment, a function has been added that shows how the AI ​​works on specific data. Due to the very strong slowdown of the AI ​​training process, the MTS has been redesigned on the GPU, which has significantly increased the training speed and made it possible to create a higher-quality model and reduce the time of heavy operations that are used when working with the MTS.
+Over the past week, the AI ​​reward system has been reworked and the parameters during training have been changed, the mask of acceptable choices at the end of each move has been changed, which has significantly increased the level of the AI ​​game, the MCTS model running on the CPU has been integrated, it has been adapted to work in the DQN model environment, a function has been added that shows how the AI ​​works on specific data. Due to the very strong slowdown of the AI ​​training process, the MCTS has been redesigned on the GPU, which has significantly increased the training speed and made it possible to create a higher-quality model and reduce the time of heavy operations that are used when working with the MCTS.
 
 ## Weekly commitments
 
@@ -302,7 +302,7 @@ https://trello.com/c/FaYMMEld
 
 https://trello.com/c/pDxqBjgG
 
-**Lev Permiakov** – reworked the AI ​​reward system, changed the parameters during training and the mask of acceptable choices, integrated the MTS model, implemented the function of AI operation on specific data, made a validation test for ML, prepared rules and pictures for them
+**Lev Permiakov** – reworked the AI ​​reward system, changed the parameters during training and the mask of acceptable choices, integrated the MCTS model, implemented the function of AI operation on specific data, made a validation test for ML, prepared rules and pictures for them
 
 https://trello.com/c/dt8ZgOfR
 
@@ -318,7 +318,7 @@ https://trello.com/c/Nb1LzlsF
 
 https://trello.com/c/dt8ZgOfR
 
-**Amir Bairamov** – testing the application and fixing the bugs found, add the ** in password
+**Amir Bairamov** – testing the application and fixing the bugs found, add the *** in password
 
 https://trello.com/c/Mqy2qftL
 

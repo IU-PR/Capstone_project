@@ -52,11 +52,23 @@ Server - http://192.145.30.253:8080
 
     - Leaving rooms (test_leave_room)
 
+**Widgets tests**(widget_test.dart) - cover the main UI components and user interactions of the Flutter frontend, verify the presence of key widgets, navigation between pages, and correct display of dynamic content, simulate user actions and check that the UI responds as expected.
 
+Coverage:
+
+1. Main menu:
+
+- START NEW GAME button: Ensures the main menu displays the "START NEW GAME" button.
+
+- Waiting room: Verifies that a player's name is shown in the waiting room. Checks that the app navigates to the game room page when all players are ready.
+
+2. Game page: Confirms that the "SUBMIT" button appears when it is the player's turn. Ensures that all cards in the player's hand are rendered and visible.
+
+3. General: Tests use widget pumping and navigation simulation to mimic real user flows. All tests check for correct widget presence and UI state after simulated actions.
 
 **CI logs** - https://drive.google.com/drive/folders/1HWuIwyp-_aQKcnsKuXFBWfVtbLBoRDX1
 
-**Link to pipline** - 
+**Link to pipline** - https://drive.google.com/file/d/1D3ij9lNX1_S6gXeeOs-VMb4Hf-cDN_0k/view?usp=sharing
 
 ## CI/CD
 
@@ -140,7 +152,11 @@ Server - http://192.145.30.253:8080
 3. deploy.yml (GitHub Actions)
 
 
-**Links to CI/CD configuration files** - 
+**Links to CI/CD configuration files** - https://github.com/IU-Capstone-Project-2025/Online-game-7Red/blob/main/requirements.txt
+
+https://github.com/IU-Capstone-Project-2025/Online-game-7Red/blob/main/docker-compose.yml
+
+https://github.com/IU-Capstone-Project-2025/Online-game-7Red/blob/main/.github/workflows/deploy.yml
 
 ### Chalenges
 

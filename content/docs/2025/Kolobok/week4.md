@@ -175,7 +175,7 @@ TOTAL                        485     38    92%
 | **Vladislav Strelkov** | Built full CI [pipeline](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/e1fe85b0771bb09a30fd453578bd7603ee84242b#diff-d398e54a64ae971408747d5cec234a6e2f610c8c8517e98b6fad3da618c97f02), [assisted](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/812d7ccc87561480c8e0a0640e50427a625b5d6a) in depth evaluation research          |
 | **Sergey Aitov**       | [Built](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/143feba243b9d5280a7d41c4b306ae0371dc1ad7) OCR MVP                   |
 | **Ekaterina Petrova**  | [Enhanced](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/8bf464be7c85b54369a3e6c526f714fbf1e24ece) bot logging and authentification, [assisted](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/36eb54d806a458b5fe413633c27f090cd4eca42c) in shaping the final version of the pipeline        |
-| **Darya Stepanova**    | Site frontend and backend huge [update](https://github.com/IU-Capstone-Project-2025/Kolobok/commits/my-frontend-update/)    |
+| **Darya Stepanova**    | Webpage frontend and backend huge [update](https://github.com/IU-Capstone-Project-2025/Kolobok/commits/my-frontend-update/)    |
 
 ---
 

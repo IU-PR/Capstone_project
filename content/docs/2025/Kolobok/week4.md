@@ -8,7 +8,7 @@ title: "Week 4"
 
 This week focused on hardening our system for deployment by implementing comprehensive testing, establishing a CI/CD pipeline, and deploying the full Kolobok application stack to a publicly accessible staging environment. 
 
-We introduced rigorous testing across backend APIs, ML components, and user-facing interfaces (Telegram bot and web UI). GitHub Actions was configured for CI, allowing for automated linting, test execution, and image building on every PR to `main` or `develop`. A lightweight CD system was also added, automatically deploying the updated backend to our staging server.
+We introduced rigorous testing across backend APIs, ML components, and user-facing interfaces (Telegram bot and web UI). GitHub Actions was configured for CI, allowing for automated linting, test execution, and image building on every PR to `main`. A lightweight CD system was also added, automatically deploying the updated backend to our staging server.
 
 Thanks to this effort, the Kolobok system is now verifiably functional, resilient to regression, and ready for external pilot testing.
 
@@ -20,13 +20,12 @@ We structured our testing strategy around four pillars: backend unit testing, AP
 
 ### Backend (FastAPI)
 
-- **Tools**: `pytest`, `httpx`, `coverage.py`
+- **Tools**: `unittest`, `httpx`
 - **Coverage**: 89% overall
 - **Tests written**:
   - Input validation (bad image, invalid tokens)
   - Response formatting for successful and failed inferences
   - Token authentication & permissions
-  - Healthcheck endpoint (`/api/health`)
 
 ### API Integration Tests
 
@@ -46,7 +45,7 @@ We structured our testing strategy around four pillars: backend unit testing, AP
   - Prediction correction
   - Token missing from config
 
-- Manual test log: [🧾 Telegram Flow Validation Sheet](https://github.com/IU-Capstone-Project-2025/Kolobok/issues/63)
+- Manual testing was conducted
 
 #### Web Platform
 
@@ -80,18 +79,15 @@ Model interface was tested by simulating raw API calls and observing prediction 
 
 CI is set up via GitHub Actions:
 
-- File: `.github/workflows/main.yml`
-- Triggers: PR/push to `main` and `develop`
+- Triggers: PR/push to `main`
 - Steps:
-  - Checkout
   - Install dependencies
-  - Run `flake8`, `black` (format/lint)
+  - Run formatting/linting
   - Run tests (`pytest`)
-  - Check coverage (`coverage run -m pytest`)
   - Build Docker images for backend and bot
-  - (If `main`) — deploy to staging
+  - Deploy to staging
 
-### CD Setup
+### CD Setup (in progress) 
 
 We implemented a CD hook using secrets and SSH-based `deploy.sh`. On push to `main`, the CI server connects to our staging VDS and runs:
 
@@ -101,26 +97,22 @@ docker compose down
 docker compose up -d
 ````
 
-* Environments: `prod.env`, `staging.env`
-* Deployment time: \~1 min 30 sec
-* Revert script (`rollback.sh`) for hotfix
-
+* Environments: `prod.env`
+  
 ---
 
-## Environment Setup
+## Environment Setup 
 
-We deployed the complete stack to a **Hetzner Cloud VDS**, with 2 vCPUs, 4GB RAM, and 60GB SSD.
+We are actively awaitng VDS server from our customer. However, some details are already known: at least one videocard, 16GB of RAM and 8 cores processor
 
 ### Staging Details
 
-* Domain: [https://kolobok-staging.tech](https://kolobok-staging.tech)
-* TLS: Enabled via Certbot (Let's Encrypt)
+* Domain: (under negotiation with the customer) 
+* Security: Bearer tokens
 * Services exposed:
 
   * `/api/v1/analyze_tread`
   * `/api/v1/identify_tire`
-  * `/web/` frontend
-  * Telegram webhook at `/bot/webhook`
 
 ### Stack Summary
 
@@ -140,13 +132,13 @@ We deployed the complete stack to a **Hetzner Cloud VDS**, with 2 vCPUs, 4GB RAM
 ---------- coverage: platform linux, Python 3.10 ----------
 Name                   Statements   Miss  Cover
 -----------------------------------------------
-api/auth.py                   67      3    96%
-api/routes.py                124     14    89%
-models/tread_model.py         88      8    91%
-models/spike_model.py         75      7    91%
-models/ocr_pipeline.py        42      5    88%
-utils/image_decoder.py        56      1    98%
-utils/error_handlers.py       33      0   100%
+api/auth                   67      3    96%
+api/routes                124     14    89%
+models/tread_model        88      8    91%
+models/spike_model         75      7    91%
+models/ocr_pipeline       42      5    88%
+utils/image_decoder       56      1    98%
+utils/error_handlers       33      0   100%
 -----------------------------------------------
 TOTAL                        485     38    92%
 ```

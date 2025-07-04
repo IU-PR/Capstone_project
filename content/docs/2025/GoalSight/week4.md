@@ -366,4 +366,51 @@ Strong team dynamics and a culture of open communication provide a solid foundat
 ## Weekly Commitments
 ### Plan for Next Week
 
-Feedback, Iteration & Polishing Goal: Gather user feedback, iterate on the MVP, and improve overall project quality.
+#### Sprint Goal
+
+Feedback, Iteration & Polishing _Goal: Gather user feedback, iterate on the MVP, and improve overall project quality._
+#### Frontend
+
+**High priority**:
+- Transitions between pages - Egor A, Karina
+- Solve bugs with outdated stuff - Karina
+- Fix the loader on both pages - Egor A
+- Fix the tab display in the browser - Egor A
+- Improve integration tests for working with the backend - Egor A
+- Improve Cypress test - Egor A
+- Fix the hover on the header - Egor A
+- In the mobile version, adapt heder - Egor A
+- Add more statistics - Karina
+- Improve the display of statistics - Karina
+- Redo tournament queries for statistics - Karina
+- Fix the clickability of checkboxes - Karina
+- Add instructions to the forecast -  Karina
+- Pin the forecast at the top - Karina
+
+**Medium**:
+- Add coverage for cypress - Egor, Karina
+- Create an About us page - Egor, Karina
+#### Backend
+
+**High priority**:
+- Provide database updates every week - Arina Zimina
+- Search for new APIs to get data - Arina Zimina
+#### ML
+
+**High priority**:
+- Exploring approaches and ideas to improve the ML part - Artem Panov
+- Development of new model designs - Artem Panov
+- Prioritization of features and the use of those features that we can receive through the API on the backend - Artem Panov
+
+#### Feedback
+
+**High priority**:
+- Find at least 10 people from different user types who agree to participate in the survey - Egor S
+- Create a checklist for the survey to make it easier to collect feedback - Egor S
+- Conduct surveys - Egor S
+- Aggregate survey results and create a list of improvements for the project based on this - Egor S
+
+
+#### Sprint acceptance criteria
+
+Feedback has been collected and an improvement plan based on it has been drawn up, improvements have been implemented on the frontend that improve performance and usability, research has been conducted on the ML part and several prototypes of model designs have been created, data is loaded into the DB automatically via the API.

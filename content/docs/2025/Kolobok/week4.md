@@ -6,7 +6,7 @@ title: "Week 4"
 
 ## Executive Summary
 
-This week focused on hardening our system for deployment by implementing comprehensive testing, establishing a CI/CD pipeline, and deploying the full Kolobok application stack to a publicly accessible staging environment. 
+This week focused on hardening our system for deployment by implementing comprehensive testing, establishing a CI/CD pipeline, and deploying the full Kolobok application to Yandex Cloud. 
 
 We introduced rigorous testing across backend APIs, ML components, and user-facing interfaces (Telegram bot and web UI). GitHub Actions was configured for CI, allowing for automated linting, test execution, and image building on every PR to `main`. A lightweight CD system was also added, automatically deploying the updated backend to our staging server.
 
@@ -61,7 +61,7 @@ We structured our testing strategy around four pillars: backend unit testing, AP
 
 - **Tread Depth**:
   - Average error: 0.62mm (on synthetic test set)
-  - Real-tire test batch: 82% within 1.0mm
+  - Real-tire test batch: 83% within 1.0mm
 - **Spike Classifier**:
   - FP+FN: ~7.4
   - ROC AUC: 0.91
@@ -84,78 +84,71 @@ CI is set up via GitHub Actions:
   - Install dependencies
   - Run formatting/linting
   - Run tests (`pytest`)
-  - Build Docker images for backend and bot
-  - Deploy to staging
 
-### CD Setup (in progress) 
+## Environment Setup 
 
-We implemented a CD hook using secrets and SSH-based `deploy.sh`. On push to `main`, the CI server connects to our staging VDS and runs:
+We successfully deployed our application to Yandex Cloud (using free trial plan). 
 
-```bash
-docker compose pull
-docker compose down
-docker compose up -d
-```
+Note: our service requires high computing power, which implies huge costs. We will power on the service only during demo.
 
-⸻
+### Staging Details
 
-Environment Setup
+* Services exposed:
+  * `/api/v1/analyze_tread`
+  * `/api/v1/identify_tire`
 
-We deployed our service to a free trial on Yandex Cloud, but this instance will be kept running only during one demo hour (due to large costs for resources required for our models).
+### Stack Summary
 
-Staging Details
-	•	Domain: (under negotiation with the customer)
-	•	Security: Bearer tokens
-	•	Services exposed:
-	•	/api/v1/analyze_tread
-	•	/api/v1/identify_tire
+| Component  | Technology                      |
+| ---------- | ------------------------------- |
+| Backend    | FastAPI + Docker                |
+| Bot        | `python-telegram-bot`           |
+| ML Models  | PyTorch, callable endpoints     |
+| Deployment | GitHub Actions + Docker Compose |
+| Monitoring | Logs + manual probes            |
 
-Stack Summary
+---
 
-Component	Technology
-Backend	FastAPI + Docker
-Bot	python-telegram-bot
-ML Models	PyTorch, callable endpoints
-Deployment	GitHub Actions + Docker Compose
-Monitoring	Logs + manual probes
+## Code Coverage Report
 
+We have implemented autolinting and autotesting for ML backend and JS frontend parts of our codebase.
+Current state of the codebase coverage:
 
-⸻
+| Service  | Status       | 
+| ------------ | ------------ |
+| Backend (linting)    | ✅ 100% |
+| Backend (tests)    | ✅ 100%  | 
+| Frontend (tests)      | ✅ 100%  | 
 
-Code Coverage Report
+---
 
-Backend: 100%
-JS Frontend: 100%
+## PM Team Vibe Check
 
+| Team Member  | Status       | Note                                            |
+| ------------ | ------------ | ----------------------------------------------- |
+| Nikita M.    | ✅ Engaged    | Coordinating next week’s strategy          |
+| Nikita Z.    | ✅ Motivated  | Finalized model testing and validation          |
+| Vlad S.      | ✅ Energized  | Resolved Docker network bug                     |
+| Sergey A.    | ✅ Positive   | Led coverage push for backend                   |
+| Ekaterina P. | ✅ Focused    | Finished test loop for frontend                 |
+| Darya S.     | ✅ Productive | Validated bot UX with edge cases                |
+| Dmitry T.    | ✅ Curious    | Opened PR for synthetic validation overlay tool |
 
-⸻
+## Team Contributions
 
-PM Team Vibe Check
+| Team Member            | Contributions                                            |
+| ---------------------- | -------------------------------------------------------- |
+| **Nikita Menshikov**   | Wrote the report, pitched CI/CD planning, ran team vibe check |
+| **Nikita Zagainov**    | Added [tests](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/525d63a61452e9ad0815c060b0779ae282f800d6) to ML pipeline, facilitate [logging](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/399f2d04cc62a2e93aa5acce3fed7f71b2d32367) in the backend, conducted [experiments](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/e745eec8031d679f587587bb61d7e1c0d19f0b66) on enhancing tread depth recognition  |
+| **Dmitry Tetkin**      | Conducted [research](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/07d1f331cf621ee1823b4ae1c9b6c321c00fa235) on how synthetic dataset influence precision, [integrated](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/14c7b72d1a9c209696eedca49963cb8d97fa9925) synthetic data into pipeline |
+| **Vladislav Strelkov** | Built full CI [pipeline](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/e1fe85b0771bb09a30fd453578bd7603ee84242b#diff-d398e54a64ae971408747d5cec234a6e2f610c8c8517e98b6fad3da618c97f02), [assisted](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/812d7ccc87561480c8e0a0640e50427a625b5d6a) in depth evaluation research          |
+| **Sergey Aitov**       | [Built](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/143feba243b9d5280a7d41c4b306ae0371dc1ad7) OCR MVP                   |
+| **Ekaterina Petrova**  | [Enhanced](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/8bf464be7c85b54369a3e6c526f714fbf1e24ece) bot logging and authentification, [assisted](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/36eb54d806a458b5fe413633c27f090cd4eca42c) in shaping the final version of the pipeline        |
+| **Darya Stepanova**    | Webpage frontend and backend huge [update](https://github.com/IU-Capstone-Project-2025/Kolobok/commits/my-frontend-update/)    |
 
-Team Member	Status	Note
-Nikita M.	✅ Engaged	Coordinating next week’s strategy
-Nikita Z.	✅ Motivated	Finalized model testing and validation
-Vlad S.	✅ Energized	Resolved Docker network bug
-Sergey A.	✅ Positive	Led coverage push for backend
-Ekaterina P.	✅ Focused	Finished test loop for frontend
-Darya S.	✅ Productive	Validated bot UX with edge cases
-Dmitry T.	✅ Curious	Opened PR for synthetic validation overlay tool
+---
 
-Team Contributions
+## Confirmation of System Operability
 
-Team Member	Contributions
-Nikita Menshikov	Wrote the report, pitched CI/CD planning, ran team vibe check
-Nikita Zagainov	Added tests to ML pipeline, facilitate logging in the backend, conducted experiments on enhancing tread depth recognition, hosted the service on Yandex Cloud
-Dmitry Tetkin	Conducted research on how synthetic dataset influence precision, integrated synthetic data into pipeline
-Vladislav Strelkov	Built full CI pipeline, assisted in depth evaluation research
-Sergey Aitov	Built OCR MVP
-Ekaterina Petrova	Enhanced bot logging and authentification, assisted in shaping the final version of the pipeline
-Darya Stepanova	Webpage frontend and backend huge update
-
-
-⸻
-
-Confirmation of System Operability
-	•	✅ All tests passing locally and in CI
-	•	✅ Docker builds succeed for all services
-
+* ✅ All tests passing locally and in CI
+* ✅ Docker builds succeed for all services

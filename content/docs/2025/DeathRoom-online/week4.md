@@ -72,7 +72,13 @@
 
 ## Plan for Next Week
 
-*Feedback, Iteration & Polishing — gather user feedback, iterate on the MVP, and improve overall project quality.*
+- [ ] Complete the client-side logic for mutual client-server packet exchange based on UDP
+- [ ] Update and finalize the logic for bullet hits and dealing specific damage depending on weapon type, ammunition, hit location, etc.
+- [ ] Conduct code review and improve overall performance
+- [ ] Systematize and organize the server code architecture to improve code quality and readability
+- [ ] Search for and fix bugs, if any are present
+- [ ] Improve test coverage, write new tests, and provide more useful information
+- [ ] Enhance the project's logging and monitoring system
 
 ## Confirmation of the code's operability
 

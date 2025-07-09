@@ -55,9 +55,9 @@ Meetings with independent users have been very useful for our project. Although 
 - [x] issue 1
 - [x] issue 2
 - [x] issue 3
-[] issue 4
-[] issue 5   
-[] issue 6
+- [ ] issue 4
+- [ ] issue 5   
+- [ ] issue 6
 <!-- создать issues по итогам фидбека и перечислить их здесь -->
 
 # Iteration & Refinement

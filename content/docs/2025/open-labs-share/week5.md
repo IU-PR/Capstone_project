@@ -240,6 +240,7 @@ Our project maintains comprehensive documentation across multiple domains, each 
 - **Aleliya Turushkina (Designer / Frontend):**
 
 **Closed issues (clickable):** ([Issue](https://github.com/IU-Capstone-Project-2025/open-labs-share/issues/209)), ([Issue](https://github.com/IU-Capstone-Project-2025/open-labs-share/issues/207)), ([Issue](https://github.com/IU-Capstone-Project-2025/open-labs-share/issues/204)), ([Issue](https://github.com/IU-Capstone-Project-2025/open-labs-share/issues/140)) \
+**Closed PR's (clickable):** ([PR](https://github.com/IU-Capstone-Project-2025/open-labs-share/pull/221)) \
 **Weekly contribution:** Enhanced submission feedback system with comprehensive feedback viewing capabilities, implemented search functionality with tag system integration on frontend, connected comments API endpoints with CRUD operations including delete, edit, display and reply functionalities, integrated lab submission display and viewing system for user submissions.
 
 **More detailed descriptions of services and technical implementations can be found in the project repo ([link](https://github.com/IU-Capstone-Project-2025/open-labs-share/tree/dev)).**

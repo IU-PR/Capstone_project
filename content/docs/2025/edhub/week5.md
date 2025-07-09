@@ -16,15 +16,41 @@ This week we conducted several usability testing sessions to collect feedback ab
 
 ### Sessions
 
-During the first session, the cus
+All users with whom we discussed our project mostly noticed the minuses of our project and gave suggestions for its improvement, which was quite useful for us.
 
-Рия
+#### Session 1 
+<!-- Рия -->
+- there is no option to delete materials / assignments within the course
+- material_id does not start with one (the first material has ID = 3)
+- nothing happens when the user clicks on the logo in the upper left corner of the page (in other websites the main page opens)
+- there is no option to log out from the account
+- after the creation of course / material / assignment, the page doesn't refresh, and user have to refresh it manually
 
-Дамир
+#### Session 2
+<!-- Дамир -->
+- default browser pop-up windows look ugly
+- the option to see a list of students in a course will be useful
+- it is possible that one users will be both a teacher and a parent at one course while the platform does not allow that
+- after the creation of course / material / assignment, the page doesn't refresh, and user have to refresh it manually
+
+#### Session 3 
+<!-- Глеб -->
+- when entering the auth page, an authorized user is prompted to re-enter login and password, although the token has already been issued; you can redirect user to the main page if they are authorized
+- two separate columns for course materials and course assignments looks ugly
+- after the creation of course / material / assignment, the page doesn't refresh, and user have to refresh it manually
+
+#### Session 4 
+<!-- Маша -->
+- when registering an account, the system writes that the password is too easy, and the criteria are not clear
+- in the Add Course button, the second word moves to the next line, which looks ugly
+- the field for material/assignment description can be stretched beyond the pop-up window frame
+- after the creation of course / material / assignment, the page doesn't refresh, and user have to refresh it manually
+- if user enter line break characters in the material / assignment description, then on the material / assignment page they disappear and become a single line
+- when inviting a student, submitting the form with the Enter key does not work
 
 ### Analysis
 
-fgdf
+Meetings with independent users have been very useful for our project. Although most of the problems they reported were known to us and were in the process of development, we discovered a few new issues that we had not noticed before and plan to fix them in near future.
 
 # Iteration & Refinement
 

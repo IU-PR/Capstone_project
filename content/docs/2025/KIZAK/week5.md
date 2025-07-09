@@ -6,6 +6,8 @@ title: "Week #5"
 
 ## 📝 **Feedback**
 
+Our team condicted 4 interviews with our first users
+
 ### ❓ **Sessions**
 
 *Conduct at least three sessions with potential users, describe detailed user reviews here (potential users should NOT be your team members).*

@@ -70,7 +70,69 @@ Low Priority:
 
 ### Performance & Stability
 
-*How would you measure the performance of your application? Calculate the metrics that are suitable for your project and find out if they can be improved in any way, if necessary.*
+
+**Completed:**
+
+- The user can register by providing: Email (must be valid, uniqueness check);Password (minimum 6 characters, maximum 16); Username (unique, between 1 and 10 characters)
+
+- The user can log in via: Email + password
+
+- Passwords stored in hashed form 
+
+- Server response time for authentication — no more than 10 seconds
+
+- Buttons for game modes (Play with Friends, Play with AI)
+
+- Navigation buttons for Statistics, Rules
+
+- Data in achivments updates in real time
+
+- Transition animations between sections take no more than 2 seconds
+
+- The interface is expected to accommodate screen sizes between 8 and 17 inches
+
+- Main menu load time — no more than 2 seconds
+
+- Join via room ID ( length: 5 number) and password ( length: 5 number)
+
+- AI must make a move within 5 seconds (to avoid delays)
+
+- Rules Page include text description and examples
+
+- Game state syncs every 30 ms
+
+- Maximum latency between clients — 30 ms
+
+- Each error must include clear error message (e.g., "Room is full (max 4 players)") and error code (for diagnostics)
+
+
+**Remaining to achieve:**
+
+- Session expires after 30 minutes of inactivity
+
+- Data transmission only over HTTPS
+
+- Buttons for game modes ( Play Online)
+
+- Navigation buttons for Settings
+
+- If the room is not filled within 20 minutes, it closes automatically
+
+- if there are at least 2 players, the room starts after 60 seconds
+
+- if during this time the room is filled with 4 players, it starts immediately
+
+- if there are not enough players, an apology message is displayed and the player is transferred to the main menu
+
+- The user can switch interface language (2 options: russian and english)
+
+- The user can change his nikname, password or email
+
+- If connection drops, the game attempts to reconnect for 20 seconds before declaring timeout-exit
+
+- Error logs are stored on the server for 1 days
+
+- Scalability: The system must support 50 concurrent players
 
 ### Documentation
 

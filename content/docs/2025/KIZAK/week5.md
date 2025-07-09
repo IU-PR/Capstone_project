@@ -6,17 +6,66 @@ title: "Week #5"
 
 ## 📝 **Feedback**
 
-Our team condicted 4 interviews with our first users
-
 ### ❓ **Sessions**
 
-*Conduct at least three sessions with potential users, describe detailed user reviews here (potential users should NOT be your team members).*
+Our team conducted 4 interviews with our first users. Now you can see summary of all interviews below
+
+* 💡 **Project Idea**
+    * **User 1**
+      * "Cool idea, I think that personalosed roadmap will make learning much simpler."
+    * **User 2**
+      * "It is cool, but I think that we have enough sites with courses. But Automatic roadmap generation is good idea."
+    * **User 3**
+      * "I agree with User 2, furthermore, have you think about copyright"
+    * **User 4**
+      * "I really love your name."
+
+* 🎨 **Site Design**
+    * **User 1**
+      * "Good design, I really love capybara on main page"
+    * **User 2**
+      * "Good design overal, but I prefer dark theme"
+    * **User 3**
+      * "I think that yellow color is not the best, additionally where is dark theme?"
+    * **User 4**
+      * "You have animations, thats enough to satisfy me"
+
+ * 📝 **Onboarding**
+   * **User 1**
+      * "In case if I want to increase my python level, why I cant take it as a goal skill?"
+    * **User 2**
+      * "Maybe in education section you should add passed courses, to get better user background"
+    * **User 3**
+      * "I could not find all my skills, plus there are too many level selection pages"
+    * **User 4**
+      * "It was fast, too fast"
+
+ * 🗺️ **Roadmap**
+    * **User 1**
+      * ""
+    * **User 2**
+      * ""
+    * **User 3**
+      * ""
+    * **User 4**
+      * ""
+
+ * ♾️ **General Impressions**
+   * **User 1**
+      * ""
+    * **User 2**
+      * ""
+    * **User 3**
+      * ""
+    * **User 4**
+      * ""
 
 ### 🔎 **Analyze**
 
 * Server lack of resources (not enough RAM)
 * Black theme required
-* More statistics required
+* More user statistics required
+* Dataset with larger size required
 
 ## 💅🏻 **Iteration & Refinement**
 
@@ -65,28 +114,28 @@ Our team condicted 4 interviews with our first users
 ## 📊 **Individual contribution of each participant**
 
 * **Marsel Berheev:** m.berheev@innopolis.university
- * Report
- * ML and Backend connection (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/92))
+  * Report
+  * ML and Backend connection (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/92))
 
 * **Maksim Malov:** m.malov@innopolis.university
- * OAurh fix (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/91))
- * JWT token (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/91))
- * Code refactor
+  * OAurh fix (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/91))
+  * JWT token (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/91))
+  * Code refactor
 
 * **Makar Egorov:** m.egorov@innopolis.university
 
 
 * **Timur Farizunov:** t.farizunov@innopolis.university
- * Roadmap design and API connection 
+  * Roadmap design and API connection 
 
 * **Sarmat Lutfullin:** s.lutfullin@innopolis.university
- * Adaptive and authorisation
+  * Adaptive and authorisation
  
 * **Ulyana Chaikovskaya:** u.chaikouskaya@innopolis.university
- * 
+  * asda
 
 * **Kseniia Khudiakova:** k.khudiakova@innopolis.university
- * Metrics update and course feadback feature template (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/95))
+  * Metrics update and course feadback feature template (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/95))
 
 ## 🎯 **Plan for Next Week**
 

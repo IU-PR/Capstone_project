@@ -60,6 +60,8 @@ Our team conducted 4 interviews with our first users. Now you can see summary of
     * **User 4**
       * "I like it. Wish good luck on final presentation"
 
+In case if you want to try our project visit kizak.ru
+
 ### 🔎 **Analyze**
 
 * Server lack of resources (not enough RAM)
@@ -76,7 +78,9 @@ Our team conducted 4 interviews with our first users. Now you can see summary of
     * Exclude author
     * Exclude course
    
-* Frontend optimisation 
+* Frontend optimisation
+
+All planned features could be found in our [backlog](https://github.com/orgs/IU-Capstone-Project-2025/projects/11) 
 
 ### 🏎️ **Performance & Stability**
 
@@ -123,13 +127,13 @@ Our team conducted 4 interviews with our first users. Now you can see summary of
   * Code refactor
 
 * **Makar Egorov:** m.egorov@innopolis.university
-  * 
+  * Automatic course scrapper (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/98))
 
 * **Timur Farizunov:** t.farizunov@innopolis.university
-  * Roadmap design and API connection (see pull request)
+  * Roadmap design and API connection (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/97))
 
 * **Sarmat Lutfullin:** s.lutfullin@innopolis.university
-  * Adaptive and authorisation (see pull request)
+  * Adaptive and authorisation (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/97))
  
 * **Ulyana Chaikovskaya:** u.chaikouskaya@innopolis.university
   * Course normalisation (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/96))

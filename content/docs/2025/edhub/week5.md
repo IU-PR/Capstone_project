@@ -52,15 +52,31 @@ All users with whom we discussed our project mostly noticed the minuses of our p
 
 Meetings with independent users have been very useful for our project. Although most of the problems they reported were known to us and were in the process of development, we discovered a few new issues that we had not noticed before and plan to fix them in near future.
 
+- [x] issue 1
+- [x] issue 2
+- [x] issue 3
+- [] issue 4
+- [] issue 5   
+- [] issue 6
+<!-- создать issues по итогам фидбека и перечислить их здесь -->
+
 # Iteration & Refinement
 
 ### Implemented features based on feedback
 
-fdsfds
+Based on the feedback received, several features were developed:
+- feature раз
+- feature два
+- feature три
+<!-- описать то, что делали фронтендеры -->
+
+### Performance & Stability
 
 ### Documentation
 
-fgdf
+For the backend part we use the Swagger documentation generated automatically by FastAPI. Such documentation provides a convenient interface for the frontend team to describe the meaning of the function and input parameters and is used universally in many projects with APIs.
+
+For the frontend part, we use the auto-generated README.md from Create React App, supplemented with inline JSDoc comments for key components. This documentation provides essential setup instructions, script explanations, and component-level details, ensuring smooth onboarding and maintenance while following React’s standardized conventions.
 
 # Weekly achievements
 

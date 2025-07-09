@@ -144,6 +144,10 @@ All planned features could be found in our [backlog](https://github.com/orgs/IU-
 
 ## 🎯 **Plan for Next Week**
 
+* Increase dataset size
+* Update deployment instructions
+* Add load balancers
+* Refine UI
 
 ## Confirmation of the code's operability
 

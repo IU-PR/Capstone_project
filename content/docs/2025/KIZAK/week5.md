@@ -38,27 +38,27 @@ Our team conducted 4 interviews with our first users. Now you can see summary of
     * **User 3**
       * "I could not find all my skills, plus there are too many level selection pages"
     * **User 4**
-      * "It was fast, too fast"
+      * "It was fast, too fast. I like it"
 
  * 🗺️ **Roadmap**
     * **User 1**
-      * ""
+      * "Good looking roadmap plus it was created from scratch, I like it"
     * **User 2**
-      * ""
+      * "Some courses have less information that other ones"
     * **User 3**
-      * ""
+      * "Good, but it could be even better with more interaction features"
     * **User 4**
-      * ""
+      * "Lol, Your roadmap updates 100 times a second, you should fix your rerender"
 
  * ♾️ **General Impressions**
    * **User 1**
-      * ""
+      * "I think that this project have a good future. I think you will get an A"
     * **User 2**
-      * ""
+      * "Good project, if you add more interactive features it would be perfect"
     * **User 3**
-      * ""
+      * "Well, If you will work on it and add feature for automatic CV generation you totaly will succeed"
     * **User 4**
-      * ""
+      * "I like it. Wich good luck on final presentation"
 
 ### 🔎 **Analyze**
 
@@ -123,16 +123,16 @@ Our team conducted 4 interviews with our first users. Now you can see summary of
   * Code refactor
 
 * **Makar Egorov:** m.egorov@innopolis.university
-
+  * 
 
 * **Timur Farizunov:** t.farizunov@innopolis.university
-  * Roadmap design and API connection 
+  * Roadmap design and API connection (see pull request)
 
 * **Sarmat Lutfullin:** s.lutfullin@innopolis.university
-  * Adaptive and authorisation
+  * Adaptive and authorisation (see pull request)
  
 * **Ulyana Chaikovskaya:** u.chaikouskaya@innopolis.university
-  * asda
+  * Course normalisation (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/96))
 
 * **Kseniia Khudiakova:** k.khudiakova@innopolis.university
   * Metrics update and course feadback feature template (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/95))

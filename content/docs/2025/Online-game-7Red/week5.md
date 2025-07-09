@@ -130,7 +130,21 @@ https://trello.com/c/aRMvdPi1
 
 https://trello.com/c/nbZKLOLy
 
-**Amir Bairamov** – 
+**Amir Bairamov** – redesigned GamePage to allow playing with a bot, implemented a game for 3-4 players, implemented pages with rules, a page with player achievements and a page with game results, added spectator-mode, changed the application icon, debugged
+
+https://trello.com/c/PMqao7Tl
+
+https://trello.com/c/a1JLRjhC
+
+https://trello.com/c/pYW2GGDA
+
+https://trello.com/c/bfGN15nD
+
+https://trello.com/c/7kjRNcsr
+
+https://trello.com/c/pDxqBjgG
+
+https://trello.com/c/aRMvdPi1
 
 
 **All** - Play games and record bugs, write comments to the code

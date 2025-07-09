@@ -139,6 +139,7 @@ The frontend team focused on improving error handling, design consistency, and i
 - **Live Content Refresh**: The course feed now updates in real time after adding new materials or assignments, enhancing user responsiveness.
 - **Session Management**: A logout feature has been implemented, allowing users to securely exit their accounts.
 - **Grading Interface**: Teachers can now view and grade student submissions, with input validation added for grading accuracy.
+- **Course Feed Styling**: Unified dual-column layout for materials and assignments with consistent green design.
 
 ## DevOps
 

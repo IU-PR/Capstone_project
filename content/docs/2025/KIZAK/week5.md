@@ -4,46 +4,65 @@ title: "Week #5"
 
 # **Week #5**
 
-## Feedback
+## 📝 **Feedback**
 
-### Sessions
+### ❓ **Sessions**
 
 *Conduct at least three sessions with potential users, describe detailed user reviews here (potential users should NOT be your team members).*
 
-### Analyze
+### 🔎 **Analyze**
 
 *Describe the important points that you received from the user feedback, what issues and with which priority you created.*
 
-## Iteration & Refinement
+## 💅🏻 **Iteration & Refinement**
 
-### Implemented features based on feedback
+### 🚀 **Implemented features based on feedback**
 
 *...*
 
-### Performance & Stability
+### 🏎️ **Performance & Stability**
 
 *How would you measure the performance of your application? Calculate the metrics that are suitable for your project and find out if they can be improved in any way, if necessary.*
 
-### Documentation
+### 📄 **Documentation**
 
 *Describe what types of documentation you have in your project, and why exactly are they?*
 
-### ML Model Refinement
+### 🤖 **ML Model Refinement**
 
 *If applicable: Describe the process of improving the quality of your ML model, how you managed to achieve this and how you plan to improve it further.*
 
-# Weekly commitments
+# 📝 **Weekly commitments**
 
-## Individual contribution of each participant
+## 📊 **Individual contribution of each participant**
 
-*...*
+* **Marsel Berheev:** m.berheev@innopolis.university
 
-## Plan for Next Week
 
-*...*
+* **Maksim Malov:** m.malov@innopolis.university
+
+
+* **Makar Egorov:** m.egorov@innopolis.university
+
+
+* **Timur Farizunov:** t.farizunov@innopolis.university
+
+
+* **Sarmat Lutfullin:** s.lutfullin@innopolis.university
+
+ 
+* **Ulyana Chaikovskaya:** u.chaikouskaya@innopolis.university
+
+
+* **Kseniia Khudiakova:** k.khudiakova@innopolis.university
+
+
+## 🎯 **Plan for Next Week**
+
 
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:
-- [ ] In working condition.
-- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+- [x] In working condition.
+- [x] Run via docker-compose (or another alternative described in the `README.md`).
+

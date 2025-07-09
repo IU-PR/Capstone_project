@@ -58,7 +58,7 @@ Our team conducted 4 interviews with our first users. Now you can see summary of
     * **User 3**
       * "Well, If you will work on it and add feature for automatic CV generation you totaly will succeed"
     * **User 4**
-      * "I like it. Wich good luck on final presentation"
+      * "I like it. Wish good luck on final presentation"
 
 ### 🔎 **Analyze**
 

@@ -79,6 +79,7 @@ In case if you want to try our project visit [kizak.ru ](https://kizak.ru/)
     * Exclude course
    
 * Frontend optimisation
+* Automatic course scrapping
 
 All planned features could be found in our [backlog](https://github.com/orgs/IU-Capstone-Project-2025/projects/11) 
 

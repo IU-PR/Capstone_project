@@ -113,7 +113,7 @@ This week's focus on testing and bug fixing has led to measurable improvements i
 - **Manual & User-led Testing:** The feedback sessions served as invaluable user acceptance testing (UAT), helping us identify and fix functional bugs before they impacted a wider audience.
 
 **CI/CD & Deployment:**
-- **Automated Deployment:** The implementation of an auto-deployment pipeline minimizes manual deployment errors and ensures that the latest stable version of the code is always available on our staging environment. This improves the reliability of our development process.
+- **Automated Deployment:** The implementation of an auto-deployment pipeline minimizes manual deployment errors and ensures that the latest stable version of the code is always available on our staging environment. This improves the reliability of our development process. **Important note: Current deployment is yet to be production-ready. We defined Green-Blue deploy as a key strategy and there is some work done. We are not stopping on current state, since it not fully functional, and planning to improve it in the next week. This is not a final version of our deployment.**
   
 ### ML Model Refinement
 

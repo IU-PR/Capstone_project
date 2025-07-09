@@ -74,7 +74,67 @@ Low Priority:
 
 ### Documentation
 
-*Describe what types of documentation you have in your project, and why exactly are they?*
+#### 1. **Project Overview Documentation**
+
+**README.md** 
+
+  - **Purpose**: Serves as the primary entry point for understanding your project
+
+  - **Contents**: Project description, setup instructions, Docker commands, gameplay instructions
+
+  - **Why it's important**: First impression for developers, contributors, and users; provides essential setup and usage information
+
+#### 2. **Change Management Documentation**
+
+**CHANGELOG.md**
+
+  - **Purpose**: Tracks all notable changes, features, bug fixes, and improvements over time
+
+  - **Structure**: Organized by MVP versions with categorized sections (Features, Bug Fixes, Documentation, 🧪 Testing, etc.)
+
+  - **Why it's essential**: Helps team members and stakeholders understand project evolution, track progress, and identify when specific features were added
+
+#### 3. **License Documentation**
+
+**LICENSE** (MIT License)
+
+  - **Purpose**: Defines legal terms for project usage, distribution, and modification
+
+  - **Why it's critical**: Protects intellectual property while allowing open-source collaboration
+
+#### 4. **Technical Documentation**
+
+**Database Documentation**:
+
+  - db_creation.ipynb - Interactive notebook for database setup and testing
+
+  - db_erd.png - Entity Relationship Diagram showing database structure
+
+  - **Purpose**: Documents database architecture, setup procedures, and relationships between tables
+
+#### 5. **Code Documentation  in ML**
+
+**Python Docstrings**: ML modules (validate_model.py and Trainer.py)
+
+  - **Purpose**: Explains function parameters, return values, and usage
+
+#### 6. **Test Documentation**
+
+**Test Files**: 
+
+  - test_api_integration.py - API endpoint testing
+
+  - test_unit.py - Unit tests for game logic
+
+  - test_db.py - Database function testing
+
+  - **Purpose**: Demonstrates expected behavior, validates functionality, and serves as usage examples
+
+#### 7. **Configuration Documentation**
+
+**requirements.txt** - Python dependency documentation
+
+  - **Purpose**: describes the libraries and modules required for installation
 
 ### AI Model Refinement
 

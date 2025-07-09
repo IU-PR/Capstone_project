@@ -19,7 +19,7 @@ Server - http://192.145.30.253:8080
 
 ### Sessions
 
-We asked our friends to test our game. 6 people took the survey (https://forms.gle/C8rxDCWrHB2nxoey9). We had a personal session with 3 of them. At the same time, two of them have never played the physical version of the game, and only saw us do it 1-2 times. Each user played 2-3 games.
+We asked our friends to test our game. 7 people took the survey (https://forms.gle/C8rxDCWrHB2nxoey9). We had a personal session with 3 of them. At the same time, two of them have never played the physical version of the game, and only saw us do it 1-2 times. Each user played 2-3 games.
 
 During this process, we realized that users were not very keen on using the rules before the game, and preferred to look at them during the game.
 ### Analyze
@@ -84,9 +84,11 @@ At the moment, as planned, the game corresponds to the average level of the game
 
 ### Frontend
 
+This week, functionality was added for the button to play with a bot, GamePage was redesigned to allow playing with a bot, the ability to play 3-4 players in GamePage was added, an alert dialog was added to display the rules in GamePage, a new page with all the rules was added — RulePage, a page with player achievements was added (updated thanks to the connection with the backend), a ResultPage page was added to display the game results, spectator-mode was added to GamePage, the icon for the web tab was changed, email validation was improved, based on a special library, the error "Room is full" was added when connecting to a room with four players, as well as a minor debug of the old functionality.
 
 ### Backend
 
+The following work was done: endpoints for searching for random online opponents were studied and written, research was done on email verification (we can do this by creating another email service), endpoints were written for the settings page (changing nickname, avatar and password), the frontend and backend were fully connected when playing with a bot, debugging of games between 2,3,4 players and games with a bot was performed, the CI/CD and Dockerfiles was updared
 
 ### AI
 
@@ -96,26 +98,54 @@ This week, the AI integration process began. The model has been added to the bac
 
 ## Individual contribution of each participant
 
-**Palkina Sofia** – organized 3 discussion meetings (04.07 - meeting with TA Mary and after discussion of the amendments she proposed; 07.07 - regular midweek meeting to evaluate progress; 09.07 - discussion of plan for next week), looking for ways to depict achievements, update the CI/CD for ML and wrote this report
+**Palkina Sofia** – organized 3 discussion meetings (04.07 - meeting with TA Mary and after discussion of the amendments she proposed; 07.07 - regular midweek meeting to evaluate progress; 09.07 - discussion of plan for next week),collect fitback, do new backlog, redesign Figma,  update the CI/CD for ML and wrote this report
 
-https://trello.com/c/Nb1LzlsF
+https://trello.com/c/zFzJoY5Y
 
-https://trello.com/c/pYW2GGDA
+https://trello.com/c/xawsGzOm
 
+https://trello.com/c/rRSMoPSo
 
-**Polina Kostikova** – 
+**Polina Kostikova** – wrote endpoints for searching for random online opponents, did research on email verification, wrote endpoints for the settings page (change nickname and password)
 
-**Lev Permiakov** – were looking for ways to depict achievements,
+https://trello.com/c/qDemn9nK
 
-**Arina Petuhova** – 
+https://trello.com/c/l8tFeh88
+
+https://trello.com/c/ATG9PXsJ
+
+**Lev Permiakov** – looking for ways to depict achievements, studied the work of the backend, began the logical implementation of the play again button, debug in the implementation of the AI model 
+
+https://trello.com/c/pDxqBjgG
+
+https://trello.com/c/4pCoURGG
+
+https://trello.com/c/aRMvdPi1
+
+**Arina Petuhova** – made endpoints for receiving, loading and deleting the player's avatar, participated in connecting the front with the back (game with a bot), debugged games between 2,3,4 players and games with a bot
+
+https://trello.com/c/7kjRNcsr
+
+https://trello.com/c/aRMvdPi1
+
+https://trello.com/c/nbZKLOLy
 
 **Amir Bairamov** – 
 
-https://trello.com/c/Mqy2qftL
+
+**All** - Play games and record bugs, write comments to the code
+
+https://trello.com/c/xd09Xhew
+
+https://trello.com/c/oqVQ2zVH
 
 ## Plan for Next Week
 
-*...*
+1. Finish and debug random player mode
+
+2. Create setting page (without avatars)
+
+3. Fix bugs found during feedback session
 
 ## Confirmation of the code's operability
 

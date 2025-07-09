@@ -23,69 +23,40 @@ The project uses GitHub Actions for automated building, testing, and deployment 
 
 ### Website (Frontend)
 - Build & Deploy:
-
   Workflow: [.github/workflows/deploy.yaml](https://github.com/one-zero-eight/website/blob/capstone/.github/workflows/deploy.yaml)
-
   - Builds static files with pnpm
-
   - Deploys via appleboy/scp-action to Innohassle server
-
   - Supports:
-
     - staging deployment by default
-
     - capstone deployment from a specific branch
-
   - Files served via Nginx under:
-
     https://search.innohassle.ru
-
 - Lint & Format Checks:
-
   Workflow: [.github/workflows/lint.yaml](https://github.com/one-zero-eight/website/blob/capstone/.github/workflows/lint.yaml)
-
   - Runs ESLint and Prettier on every push and pull request
 
 ### Search (Backend)
 - Build & Deploy (Docker):
-
   Workflow: [.github/workflows/build-docker.yaml](https://github.com/one-zero-eight/search/blob/main/.github/workflows/build-docker.yaml)
-
   - Builds Docker image and publishes to GitHub Container Registry (ghcr.io)
-
   - Manual or main branch deploy triggers SSH-based deployment to Innohassle server
-
   - Runs a custom server-side deployment script to restart API
-
   - API accessible via:
-
     https://api.innohassle.ru/search/staging-v0
-
 - Pre-commit Checks:
-
   Workflow: [.github/workflows/pre-commit.yaml](https://github.com/one-zero-eight/search/blob/main/.github/workflows/pre-commit.yaml)
-
   - Runs pre-commit hooks with ruff.
-
   - Uses Poetry with local virtual environments
-
 - Automated Tests:
-
   Workflow: [.github/workflows/run-tests.yaml](https://github.com/one-zero-eight/search/blob/main/.github/workflows/run-tests.yaml)
-
   - Runs pytest on push and pull requests
-
   - Uses Poetry for dependency management
-
   - Copies settings.example.yaml for test configuration
 
 ### ML Component
 - Deployment:
-
   Workflow: [.github/workflows/build-docker.yaml](https://github.com/one-zero-eight/search/blob/main/.github/workflows/build-docker.yaml) (deploy-ml job)
-
   - SSH deployment to a GPU-enabled server
-
   - Runs server-side deployment script to restart Python processes
 
 ## Links to CI/CD configuration files
@@ -101,11 +72,8 @@ Frontend workflow [link](https://github.com/one-zero-eight/website/tree/capstone
 Our staging environment meets production requirements: domain name, public access, real data, integration with real external services
 
 - Website: https://search.innohassle.ru
-
 - API: https://api.innohassle.ru/search/staging-v0
-
 - Static files and API deployed to the Innohassle server (Innopolis)
-
 - ML service connects to a separate GPU server, restarts after updates
 
 The project launch for end users will be available at https://innohassle.ru
@@ -121,7 +89,6 @@ To make search results more specific, it was necessary to refactor the parsers s
 ## Frontend
 
 **Aliia** added search example below the search field (see [commit](https://github.com/one-zero-eight/website/commit/741697dc4d4b4c0d91882567831f1986f6837004)) and added `response_types` filtration and preview text in `SearchResult` (see commits [#1](https://github.com/one-zero-eight/website/commit/e55efb2a04aae4b00d1f9ad2832f27c4f1ea0087#diff-07ff1bddf1a165691ab50b17df460fd91338557bf254b17cc7bc44d9e08c3b22) and [#2](https://github.com/one-zero-eight/website/pull/213))
-
 
 ## ML
 
@@ -147,7 +114,7 @@ The team is happy with the current progress of the project, we have done a lot o
 | Anna Belyakova (Lead) | See [backend](https://capstone.innopolis.university/docs/2025/inno-services-search/week4/#backend) section     |
 | Vladimir Paskal       | See [testing and QA](https://capstone.innopolis.university/docs/2025/inno-services-search/week4/#testing-and-qa) section                           |
 | Azaliia Alisheva      | See [backend](https://capstone.innopolis.university/docs/2025/inno-services-search/week4/#backend) and [ML](https://capstone.innopolis.university/docs/2025/inno-services-search/week4/#ml) sections|
-| Aliia Bashirova       | See [frontend](https://capstone.innopolis.university/docs/2025/inno-services-search/week4/#design--frontend) and [backend](https://capstone.innopolis.university/docs/2025/inno-services-search/week4/#backend) sections |
+| Aliia Bashirova       | See [frontend](https://capstone.innopolis.university/docs/2025/inno-services-search/week4/#frontend) and [backend](https://capstone.innopolis.university/docs/2025/inno-services-search/week4/#backend) sections |
 | Sofia Pushkareva      | See [ML](https://capstone.innopolis.university/docs/2025/inno-services-search/week4/#ml) section                              |
 
 

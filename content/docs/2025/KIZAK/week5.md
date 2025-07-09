@@ -86,7 +86,7 @@ Our team condicted 4 interviews with our first users
  * 
 
 * **Kseniia Khudiakova:** k.khudiakova@innopolis.university
- * Metrics update and course feadback feature template 
+ * Metrics update and course feadback feature template (see [pull request](https://github.com/IU-Capstone-Project-2025/KIZAK/pull/95))
 
 ## 🎯 **Plan for Next Week**
 

@@ -41,7 +41,7 @@ All users with whom we discussed our project mostly noticed the minuses of our p
 #### Session 4 
 <!-- Маша -->
 - when registering an account, the system writes that the password is too easy, and the criteria are not clear
-- in the Add Course button, the second word moves to the next line, which looks ugly
+- in the Add Course button, the second word wraps to the next line, which disrupts the layout
 - the field for material/assignment description can be stretched beyond the pop-up window frame
 - after the creation of course / material / assignment, the user has to refresh the page manually
 - if user enter line break characters in the material / assignment description, then on the material / assignment page they disappear and become a single line

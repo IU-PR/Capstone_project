@@ -53,7 +53,7 @@ Meetings with independent users have been very useful for our project. Although 
 
 ### Frontend
 
-<!-- создать issues по итогам фидбека и прикрепить ссылки -->
+<!-- создать issues по итогам фидбека -->
 
 - [x] develop an option to log out from the account
 - [x] add automatic refresh when the course / material / assignment is created
@@ -156,8 +156,8 @@ We also improved README.md a little bit, adding information about production ser
 ## Plan for the Week 5
 
 During week 5, we plan to continue developing our project as follows:
-- the backend team plans to ;
-- the frontend team plans to .
+- the frontend team plans to fix the issues found during the usability testing sessions, add the page with the list of students and implement the option to attach the files to course materials, assignmentsa, and submissions;
+- the backend team plans to implement course-wide grading, attendance tracking mechanism and endpoints for the gradebook page;
 
 # Individual contribution
 

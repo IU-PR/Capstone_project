@@ -111,8 +111,8 @@ All planned features could be found in our [backlog](https://github.com/orgs/IU-
 
 ### 🤖 **ML Model Refinement**
 
-* Improved course ranking
-* Added template for user feedback
+* Improved course ranking (see Weekly commitments)
+* Added template for user feedback (see Weekly commitments)
 
 # 📝 **Weekly commitments**
 

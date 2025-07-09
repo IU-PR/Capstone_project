@@ -25,15 +25,15 @@ People suggest us to add more interactions, shadows with light, fill the backgro
 
 We created several issues, parts of them completed this week:  
 1. Add more interactions - add 2 interactions(108 auditorium and vending mashine)
-2. Add the correct characters to the 2nd location
-3. Fill the background with the color.  
+2. Fill the background with the color.  
 Also for next week we planned to continue fixes according to feedback and will:
 
-1. Fig bug with Professor Burmyakov asset
-2. Improve interaction flow
-3. Improve moving of the main character
-4. Improve the animation of character's moving
-5. Add shadows and ligth to the scenes
+1. Add the correct characters to the 2nd location
+2. Fig bug with Professor Burmyakov asset
+3. Improve interaction flow
+4. Improve moving of the main character
+5. Improve the animation of character's moving
+6. Add shadows and ligth to the scenes
 
 All the tasks stays with priority order. We focused first of all on main things, which is crutial for our project and will do as much as we can, but in priority way to not miss important things.  
 First priority - good performance without bugs, second - the better visual.
@@ -71,7 +71,7 @@ Also to improve model we need to increased the dataset more and tune it, until w
 
 **Marina Lavrova(Lead)** - organized work and testing sessions with processing [feedback](https://docs.google.com/document/d/18jO7jkPARBSpUbOItuzbafxS_JxLzX5jkgCeENqB4MU/edit?usp=sharing), updated and re-prioritized the [backlog](https://unitrip.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog?selectedIssue=SCRUM-29), updated [ci/cd](https://github.com/IU-Capstone-Project-2025/UniTrip/commit/310fa3b88d0286b4436193e6a34e96bb3f90d6c2) and tried to fix bugs with deploy (for now still unsuccessful)
 
-**Merkulov Leonid** -  implemented the second part of [interactions](https://github.com/IU-Capstone-Project-2025/UniTrip/commits/main/), [uploaded](https://github.com/IU-Capstone-Project-2025/UniTrip/commits/main/) 3d characters to the second location, added [background](https://github.com/IU-Capstone-Project-2025/UniTrip/commits/main/) with color to locations, fixed bug with [passing throug 1st guard](https://github.com/IU-Capstone-Project-2025/UniTrip/commit/fbcb8eeced956ba8cd1fa666020cf13539e4f766), fixed [bugs with dialogues](https://github.com/IU-Capstone-Project-2025/UniTrip/commit/a5384183b894242749f32dfdb6f3b5174caa31b0) on the second scene
+**Merkulov Leonid** -  implemented the second part of [interactions](https://github.com/IU-Capstone-Project-2025/UniTrip/commits/main/), added [background](https://github.com/IU-Capstone-Project-2025/UniTrip/commits/main/) with color to locations, fixed bug with [passing throug 1st guard](https://github.com/IU-Capstone-Project-2025/UniTrip/commit/fbcb8eeced956ba8cd1fa666020cf13539e4f766), fixed [bugs with dialogues](https://github.com/IU-Capstone-Project-2025/UniTrip/commit/a5384183b894242749f32dfdb6f3b5174caa31b0) on the second scene
 
 **Ivan Makarov** - learned model, transfered model to the [cloud]() to finalize learning, created [script](https://github.com/IU-Capstone-Project-2025/UniTrip/commit/3e930e661fc34a4ecddb3c609ba8fdd2af5db01f) for the chat implementation in Unity
 
@@ -84,7 +84,7 @@ Also to improve model we need to increased the dataset more and tune it, until w
 - Add design of the welcome screen to Unity
 - Add interaction with ML chat in Unity
 - Improve the visual part and fix bugs
-- Add soundtracks
+- Add soundtracks (if will have time)
 - Create a final presentation
 
 

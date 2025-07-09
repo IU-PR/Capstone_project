@@ -99,6 +99,10 @@ This week, our team focused heavily on completing all tasks outlined in our **Mi
         - `component_assets`: Tracks all associated files (datasets, images, etc.) for each component, with assets stored in MinIO to keep the database lean.
     - **System & Asset Workflow:** We defined the complete system workflows for component creation, session execution, and asset management. This includes how notebooks and their dependencies are uploaded to a structured path in MinIO and referenced in the database, ensuring a decoupled and scalable architecture.
 - **Autograding Pipeline:** We developed the necessary pipeline components to support the future integration of our code autograding models. 
+- Link to short description of the service ([link](https://github.com/IU-Capstone-Project-2025/open-labs-share/blob/149-marimo-elements-research/services/marimo-service/MARIMO_SHORT_DESCR.md)).
+- Link to the service architecture ([link](https://github.com/IU-Capstone-Project-2025/open-labs-share/blob/149-marimo-elements-research/services/marimo-service/MARIMO_README.md)).
+- Link to database schema ([link](https://github.com/IU-Capstone-Project-2025/open-labs-share/blob/149-marimo-elements-research/services/marimo-service/DB_DESCR.md)).
+- Link to the FAQ that arise during the research ([link](https://github.com/IU-Capstone-Project-2025/open-labs-share/blob/149-marimo-elements-research/services/marimo-service/FAQ.md)).
 
 **D. Testing, CI/CD, and Documentation**
 - **Backend Testing:** We achieved greater backend stability by implementing comprehensive tests for the Auth Service, User Service, and the API Gateway.

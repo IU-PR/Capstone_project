@@ -14,14 +14,17 @@ The speed of the wheel motors and steering angle
 ### Evidence of test execution
 
 Signal availability [Code](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/Robot/Tests/Test%20Signal%20Availability.ino), [Screenshot](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/Robot/Tests/Test%20Signal%20Availability.png)  
-Control device of the robot [Code](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/Robot/Tests/Test%20Control%20Robot%20Device.ino), [Screenshot](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/Robot/Tests/Test%20Control%20Robot%20Device.jpg)  
-Wheel motors and steering angle [Code](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/Robot/Tests/Test%20Wheel%20motors%20and%20Steering%20angle.py)
+Control device of the robot [Code](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/Robot/Tests/Test%20Control%20Robot%20Device.ino)  
+Wheel motors and steering angle [Code](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/Robot/Tests/Test%20Wheel%20motors%20and%20Steering%20angle.py), [Screenshot](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/Robot/Tests/Test%20Control%20Robot%20Device.jpg) 
 
 ## CI/CD
 
+Ready CI/CD for all python code in the project, tests are checked based on the requirements of the Pylit library. All tests passed and the code is written perfectly.
+Also added a test to check the loading of the model: the test loads the model and also checks the output of the model on test data.
+
 ### Links to CI/CD configuration files
 
-[CI/CD](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/.github/workflows/ci.yml)
+[CI/CD pipeline](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/.github/workflows/ci.yml)
 
 ## Vibe Check
 The team conducted a short health check to reflect on progress and coordination. Overall motivation remains high, and all members are aligned on the current goals. There was a need identified to improve coordination and task visibility across the team.
@@ -46,7 +49,7 @@ Connecting pins for emergency stop of the machine [Photo (blue wire)](https://gi
 **Nikolay:**
 - Modeling of components for mounting equipment on a RC car [Link](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/commit/b10a2968360fa34b3cb4f9edd4e55284afea86ea)
 - Printing simulated components on a 3D printer and mounting them on a car
-- Making new datasets
+- Making new [datasets](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/tree/main/new_data)
 
 **Lidia:**
 - Preprocessing of updated datasets  
@@ -57,7 +60,7 @@ Connecting pins for emergency stop of the machine [Photo (blue wire)](https://gi
 [Photo](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/Robot/Connection%20IMU%20and%20Arduino.jpg)
 
 **Ilyas:**
-- Adding the extended dataset (60 logs)
+- Adding the extended [datasets](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/tree/main/new_data)
 - Building a new [training set](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/ML/model_dataset_v3.npz)
 - Training an updated [dynamics model](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/ML/new_train.ipynb)
 - Saving [model checkpoint](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/ML/dyn_v3.pt) 
@@ -65,14 +68,14 @@ Connecting pins for emergency stop of the machine [Photo (blue wire)](https://gi
 
 **Andrey:**
 - Compiling [tests](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/tree/main/Robot/Tests) to check the operability of robot elements
-- Doing [CI/CD](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/.github/workflows/ci.yml) 
+- Writting [CI/CD](https://github.com/IU-Capstone-Project-2025/Autonomous-drift-control/blob/main/.github/workflows/ci.yml) for all python code in the project 
 - Сompiling a weekly report
 
 ## Plan for Next Week
 
 - Defactoring code
-- Solving issues with wiress
-- Test MVP v2
+- Solving problems with robot's wiring
+- Testing MVP v2
 
 ## Confirmation of the code's operability
 

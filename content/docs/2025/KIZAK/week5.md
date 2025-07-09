@@ -60,7 +60,7 @@ Our team conducted 4 interviews with our first users. Now you can see summary of
     * **User 4**
       * "I like it. Wish good luck on final presentation"
 
-In case if you want to try our project visit kizak.ru
+In case if you want to try our project visit [kizak.ru ](https://kizak.ru/)
 
 ### 🔎 **Analyze**
 

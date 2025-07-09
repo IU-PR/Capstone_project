@@ -42,7 +42,7 @@ During this process, we realized that users were not very keen on using the rule
 
 **Bugs and Technical Issues:**
 
-- Statistics Calculation: Incorrect statistics calculation was reported.
+- Statistics Calculation: incorrect statistics calculation was reported.
 
 - Full room: 5 players in 1 room
 
@@ -90,7 +90,7 @@ We have already managed to fix the biggest bugs:
 
 - Navigation buttons for Statistics, Rules
 
-- Data in achivments updates in real time
+- Data in achievements updates in real time
 
 - Transition animations between sections take no more than 2 seconds
 
@@ -131,7 +131,7 @@ We have already managed to fix the biggest bugs:
 
 - The user can switch interface language (2 options: russian and english)
 
-- The user can change his nikname, password or email
+- The user can change his nickname, password or email
 
 - If connection drops, the game attempts to reconnect for 20 seconds before declaring timeout-exit
 
@@ -219,7 +219,7 @@ This week, functionality was added for the button to play with a bot, GamePage w
 
 ### Backend
 
-The following work was done: endpoints for searching for random online opponents were studied and written, research was done on email verification (we can do this by creating another email service), endpoints were written for the settings page (changing nickname, avatar and password), the frontend and backend were fully connected when playing with a bot, debugging of games between 2,3,4 players and games with a bot was performed, the CI/CD and Dockerfiles was updared
+The following work was done: endpoints for searching for random online opponents were studied and written, research was done on email verification (we can do this by creating another email service), endpoints were written for the settings page (changing nickname, avatar and password), the frontend and backend were fully connected when playing with a bot, debugging of games between 2,3,4 players and games with a bot was performed, the CI/CD and Dockerfiles was updated
 
 ### AI
 
@@ -229,7 +229,7 @@ This week, the AI integration process began. The model has been added to the bac
 
 ## Individual contribution of each participant
 
-**Palkina Sofia** – organized 3 discussion meetings (04.07 - meeting with TA Mary and after discussion of the amendments she proposed; 07.07 - regular midweek meeting to evaluate progress; 09.07 - discussion of plan for next week),collect fitback, do new backlog, redesign Figma,  update the CI/CD for ML and wrote this report
+**Palkina Sofia** – organized 3 discussion meetings (04.07 - meeting with TA Mary and after discussion of the amendments she proposed; 07.07 - regular midweek meeting to evaluate progress; 09.07 - discussion of plan for next week),collect feedback, do new backlog, redesign Figma,  update the CI/CD for ML and wrote this report
 
 https://trello.com/c/zFzJoY5Y
 

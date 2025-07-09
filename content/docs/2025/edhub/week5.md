@@ -10,11 +10,11 @@ July 2025
 
 </aside>
 
-# Feedback
+# Usability testing sessions
 
 This week we conducted several usability testing sessions to collect feedback about using EdHub from external people, detect bugs, and find out the features for future development.
 
-### Sessions
+## Sessions
 
 All users with whom we discussed our project mostly noticed the minuses of our project and gave suggestions for its improvement, which was quite useful for us.
 
@@ -48,7 +48,7 @@ All users with whom we discussed our project mostly noticed the minuses of our p
 - if user enter line break characters in the material / assignment description, then on the material / assignment page they disappear and become a single line
 - when inviting a student, submitting the form with the Enter key does not work
 
-### Analysis
+## Analysis
 
 Meetings with independent users have been very useful for our project. Although most of the problems they reported were known to us and were in the process of development, we discovered a few new issues that we had not noticed before and plan to fix them in near future.
 

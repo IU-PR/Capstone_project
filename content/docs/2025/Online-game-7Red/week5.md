@@ -61,12 +61,17 @@ Low Priority:
 - https://trello.com/c/yfRshZKt
 
 
-
 ## Iteration & Refinement
 
 ### Implemented features based on feedback
 
-*...*
+We have already managed to fix the biggest bugs:
+
+- more than 5 people in a room
+
+- improved email validation
+
+- found out that the statistics bug is related to internet outages, and not a bug in the game
 
 ### Performance & Stability
 
@@ -180,7 +185,11 @@ Low Priority:
 
   - **Purpose**: Explains function parameters, return values, and usage
 
-#### 6. **Test Documentation**
+**Inline code comments**
+
+  - **Purpose**: Explains code details
+
+#### 7. **Test Documentation**
 
 **Test Files**: 
 
@@ -192,7 +201,7 @@ Low Priority:
 
   - **Purpose**: Demonstrates expected behavior, validates functionality, and serves as usage examples
 
-#### 7. **Configuration Documentation**
+#### 8. **Configuration Documentation**
 
 **requirements.txt** - Python dependency documentation
 

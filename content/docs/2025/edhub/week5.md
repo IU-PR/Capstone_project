@@ -21,30 +21,29 @@ All users with whom we discussed our project mostly noticed the minuses of our p
 #### Session 1 
 <!-- Рия -->
 - there is no option to delete materials / assignments within the course
-- material_id does not start with one (the first material has ID = 3)
-- nothing happens when the user clicks on the logo in the upper left corner of the page (in other websites the main page opens)
+- nothing happens when the user clicks on the logo in the upper left corner of the page
 - there is no option to log out from the account
-- after the creation of course / material / assignment, the page doesn't refresh, and user have to refresh it manually
+- after the creation of course / material / assignment, the user have to refresh the page manually
 
 #### Session 2
 <!-- Дамир -->
 - default browser pop-up windows look ugly
 - the option to see a list of students in a course will be useful
 - it is possible that one users will be both a teacher and a parent at one course while the platform does not allow that
-- after the creation of course / material / assignment, the page doesn't refresh, and user have to refresh it manually
+- after the creation of course / material / assignment, the user have to refresh the page manually
 
 #### Session 3 
 <!-- Глеб -->
-- when entering the auth page, an authorized user is prompted to re-enter login and password, although the token has already been issued; you can redirect user to the main page if they are authorized
+- when entering the auth page, an authorized user is prompted to re-enter login and password, although the token has already been provided
 - two separate columns for course materials and course assignments looks ugly
-- after the creation of course / material / assignment, the page doesn't refresh, and user have to refresh it manually
+- after the creation of course / material / assignment, the user have to refresh the page manually
 
 #### Session 4 
 <!-- Маша -->
 - when registering an account, the system writes that the password is too easy, and the criteria are not clear
 - in the Add Course button, the second word moves to the next line, which looks ugly
 - the field for material/assignment description can be stretched beyond the pop-up window frame
-- after the creation of course / material / assignment, the page doesn't refresh, and user have to refresh it manually
+- after the creation of course / material / assignment, the user have to refresh the page manually
 - if user enter line break characters in the material / assignment description, then on the material / assignment page they disappear and become a single line
 - when inviting a student, submitting the form with the Enter key does not work
 
@@ -52,25 +51,46 @@ All users with whom we discussed our project mostly noticed the minuses of our p
 
 Meetings with independent users have been very useful for our project. Although most of the problems they reported were known to us and were in the process of development, we discovered a few new issues that we had not noticed before and plan to fix them in near future.
 
-- [x] issue 1
-- [x] issue 2
-- [x] issue 3
-- [ ] issue 4
-- [ ] issue 5   
-- [ ] issue 6
-<!-- создать issues по итогам фидбека и перечислить их здесь -->
+### Frontend
+
+<!-- создать issues по итогам фидбека и прикрепить ссылки -->
+
+- [x] develop an option to log out from the account
+- [x] add automatic refresh when the course / material / assignment is created
+- [x] clarify the criteria for evaluating password complexity
+- [ ] add an option to delete materials / assignments within the course
+- [ ] add a redirect to the main page when clicking on the logo
+- [ ] replace default browser pop-up windows with the designed ones
+- [ ] add the page with the list of students enrolled in the course
+- [ ] add a redirect to the main page when an authorized user accesses the auth page
+- [ ] add two separate columns for course materials and course assignments
+- [ ] fix the "Add Course" button so that all words will be on the same line
+- [ ] fix the field for material/assignment description so that it can be stretched only vertically
+- [ ] add an option to submit the inviting user form (and other forms) by pushing an Enter key
+
+### Backend
+
+- [ ] add an option to delete materials / assignments within the course
+- [ ] think about how user can be both a teacher and a parent at one course
 
 # Iteration & Refinement
 
 ### Implemented features based on feedback
 
-Based on the feedback received, several features were developed:
-- feature раз
-- feature два
-- feature три
-<!-- описать то, что делали фронтендеры -->
+Since we already had our work plans lined up for the week, this week we mostly dealt with them. However, as described above, some of the feedback overlapped with this week's plans, so a few features were developed:
+- an option to log out from the account has been developed
+- an automatic refresh when the course / material / assignment is created has been developed
+- the criteria for evaluating password complexity have been clarified
 
 ### Performance & Stability
+
+To measure how stable and performant our web service is, we propose the following:
+
+- Set up a program on our staging server to randomly `curl` our production server and count how many times the request has failed or succeeded.
+- Make a script that would stress-test the staging version of the service and measure the number of requests per second it can handle.
+
+We have not been able to implement these ideas during the week; however, we are planning to do so next week.
+
 
 ### Documentation
 
@@ -82,24 +102,48 @@ For the frontend part, we use the auto-generated README.md from Create React App
 
 ## Management
 
-<!-- встреча с юлей -->
-<!-- репорт написан -->
+On Saturday, July 5, we held a meeting with administrators of the Sberclass platform in a Moscow school. As the platform is in beta testing, access to it is limited, but at this meeting we had a unique opportunity to see the platform's interface from the administrator and teacher's side, as well as get feedback on its usability from a real teacher. This meeting was extremely useful for our team, as we formed a list of features that we will gradually be able to add in the near future.
 
 ## Backend
 
-<!-- админ аккаунт -->
-<!-- экспорт в csv -->
-<!-- что тимур делал в начале неделе -->
-<!-- посмотреть пул реквесты (кто что делал)
-посмотреть пул реквесты (кто какие ревью) -->
+At the beginning of week 5, the backend team separated the files into a separate database and a separate Docker container. This will allow to run the database container on a separate disk in the future to physically separate the files from the service information.
+
+The main task for the backend team for this week was to develop the concept of admin account. Administrator is able to:
+
+- give admin rights to any user
+- see the list of existing users
+- delete the any of existing users
+- access any course and edit all the course data
+- invite users to courses and remove users from courses
+- access and edit any course material / assignment / submission
+
+When the system is started, a default admin account is created with the following parameters:
+
+```
+user: admin
+name: admin
+password: *generated randomly and printed to console*
+```
+
+After that, the system administrator can continue to use the current account (insecure) or create his personal account with correct data, give himself admin access from the default account and then delete the default user.
+
+Also, this week we developed an option to export all the course grades to a csv file. Now teacher can export grades of all students in the course, parent can export grades of all their children, and student can export their grades.
 
 ## Frontend
 
-<!-- комменты от Алёны и Тимура -->
+<!-- комменты от Алины и Тимура -->
 
 ## DevOps
 
-<!-- README.MD improved -->
+During the development of new features, we often write `TODO` comments in the code, marking places to think about / fix in the near future. Sometimes we may forget about such comments, so we have added a GitHub Action checker that checks that there are no `TODO` comments left in the code. This check is triggered on both push and pull requests. Failure on push does not limit the developer but shows them that the function is not ready yet while failure on pull request will limit the developer's ability to merge into the `main` branch, since all functionality must be completed at that moment.
+
+Last week we added a feature to log all events that occur (post requests). The logs will allow administrators to keep track of what is happening on the site, but can take up an abnormally large amount of disk space. We have developed a TTL mechanism that periodically deletes logs older than 7 days.
+
+Also, the frontend team had a problem with docker compose running very slowly because it requires compilation. We split the docker-compose file into 2 versions: one that runs the dev version of the site with the `dev` version of the frontend (warnings about the code are displayed, no compilation required, and runs fast), and one that runs the site with the `main` version of the frontend (requires compilation, takes a long time to run, but is optimized). Also the frontend Dockerfile has been optimized so that unless the nodejs package list has changed, then startup is 2x faster on `main` and instant on `dev`.
+
+The backend team developed the consept of admin account. We added new curl tests to check this feature.
+
+We also improved README.md a little bit, adding information about production server, setting badges and making the overall design more readable.
 
 ## Plan for the Week 5
 
@@ -110,36 +154,30 @@ During week 5, we plan to continue developing our project as follows:
 # Individual contribution
 
 ### Gleb Popov
-- [`management`]: Agreed to distribute a survey to teachers at MAI Pre-University School;
-- [`management`]: Agreed to be able to test the platform in a real school in the fall of 2025;
-- [`management`]: edhub.space domain has been rented after discussion with the team;
-- [`backend`]: Feature of attachments to course items has been finalized ([*PR #63*](https://github.com/IU-Capstone-Project-2025/edhub/pull/63));
-- [`management`]: Weekly report has been written ([*PR #584*](https://github.com/IU-PR/Capstone_project/pull/584)).
+- [`management`]: a meeting with the administrator of the Sberclass platform have been organized;
+- [`backend`]: the separate database for the attachments has been developed ([*PR #83*](https://github.com/IU-Capstone-Project-2025/edhub/pull/83));
+- [`backend`]: the concept of admin account has been developed ([*PR #88*](https://github.com/IU-Capstone-Project-2025/edhub/pull/88));
+- [`devops`]: README.md has been improved ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/86f79530e454658dc327a077093e93f2bffce13b));
+- [`management`]: Weekly report has been written ([*PR #620*](https://github.com/IU-PR/Capstone_project/pull/620));
+- [`backend`]: Careful review of pull request has been conducted ([*PR #84*](https://github.com/IU-Capstone-Project-2025/edhub/pull/84), [*PR #92*](https://github.com/IU-Capstone-Project-2025/edhub/pull/92), [*PR #94*](https://github.com/IU-Capstone-Project-2025/edhub/pull/94), [*PR #95*](https://github.com/IU-Capstone-Project-2025/edhub/pull/95), [*PR #97*](https://github.com/IU-Capstone-Project-2025/edhub/pull/97)).
 
 ### Timur Usmanov
-- [`devops`]: Innopolis University Virtual Machine has been configured as a staging environment;
-- [`devops`]: TimeWeb.Cloud VDS has been configured as a production environment;
-- [`devops`]: Сertificate to support `https` has been configured.
-- [`backend`]: Careful review of pull request has been conducted ([*PR #63*](https://github.com/IU-Capstone-Project-2025/edhub/pull/63), [*PR #65*](https://github.com/IU-Capstone-Project-2025/edhub/pull/65), [*PR #67*](https://github.com/IU-Capstone-Project-2025/edhub/pull/67))
+- [`backend`]: the separate database for the attachments has been developed ([*PR #83*](https://github.com/IU-Capstone-Project-2025/edhub/pull/83));
+- [`backend`]: an option to export course grade as `csv` file has been developed ([*PR #94*](https://github.com/IU-Capstone-Project-2025/edhub/pull/94));
+- [`devops`]: split `docker-compose` on two files for debug and production ([*PR #84*](https://github.com/IU-Capstone-Project-2025/edhub/pull/84));
+- [`devops`]: the frontend Dockerfile has been optimized ([*PR #85*](https://github.com/IU-Capstone-Project-2025/edhub/pull/85));
+- [`backend`]: Careful review of pull request has been conducted ([*PR #83*](https://github.com/IU-Capstone-Project-2025/edhub/pull/83), [*PR #88*](https://github.com/IU-Capstone-Project-2025/edhub/pull/88), [*PR #92*](https://github.com/IU-Capstone-Project-2025/edhub/pull/92), [*PR #95*](https://github.com/IU-Capstone-Project-2025/edhub/pull/95), [*PR #97*](https://github.com/IU-Capstone-Project-2025/edhub/pull/97)).
 
 ### Askar Dinikeev
-- [`devops`]: Github Action Workflow running the integration tests has been configured ([*PR #65*](https://github.com/IU-Capstone-Project-2025/edhub/pull/65));
-- [`devops`]: Github Action Workflow deploying the staging server has been configured ([*PR #66*](https://github.com/IU-Capstone-Project-2025/edhub/pull/66));
-- [`devops`]: Github Action Workflow deploying the production server has been configured ([*PR #67*](https://github.com/IU-Capstone-Project-2025/edhub/pull/67));
-- [`backend`]: logging of the attachment creation has been introduced ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/pull/63/commits/825675101d2e70a5de139400b39e18de9b1afa72)).
+- [`devops`]: GitHub Action to check the code for TODO comments has been set up ([*PR #92*](https://github.com/IU-Capstone-Project-2025/edhub/pull/92));
+- [`devops`]: TTL mechanism to remove old logs has been developed ([*PR #95*](https://github.com/IU-Capstone-Project-2025/edhub/pull/95));
+- [`devops`]: curl tests for the admin account have been developed ([*PR #97*](https://github.com/IU-Capstone-Project-2025/edhub/pull/97)).
 
 ### Alina Suhoverkova
-- [`frontend`]: Form validation and UX issues on auth pages have been fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/c3f2eb3ab7a698277d3e9cc6651684470d1e24f6));
-- [`frontend`]: GitHub repo link has been added to the landing page for user visibility ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/c3f2eb3ab7a698277d3e9cc6651684470d1e24f6));
-- [`frontend`]: Standalone landing page has been implemented, consistent global styling has been applied, routing logic has been updated in App.js for cleaner navigation flow ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/bd9fd6f4ab160132a1ac39f4530135d30c740182));
-- [`frontend`]: Email and password validation have been developed, infinite fetch loop on frontend startup have been resolved, EdHub logo has been added, interface styling has been improved ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/dacb695a2588a3d82afc28ef4aa2ff0b40a5ce21)).
+- [`frontend`]: 
 
 ### Timur Struchkov
-- [`frontend`]: Feature for students to leave a course has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/ffdc3615cda44299ef4aea474cf43b811c3b4d30));
-- [`frontend`]: Navigation bugs (e.g., "Back to course feed" button) have been fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/9076763ee7614d29e67d1beea5e68f994f3963f2), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/652580425797200519a9f288d816724d9bf0c90d));
-- [`frontend`]: Refactoring of assignment detail page has been started for better structure and UX ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/9076763ee7614d29e67d1beea5e68f994f3963f2));
-- [`frontend`]: Ability to submit and view the assignment submission as a student has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/652580425797200519a9f288d816724d9bf0c90d));
-- [`frontend`]: Ability to view child's assignment submission as a parent and to  and as a teacher to see all submissions has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/0056523ce55adb355ad50ab551002057aa481ae0)).
+- [`frontend`]: 
 
 # Repository
 

@@ -23,33 +23,33 @@ All users with whom we discussed our project mostly noticed the minuses of our p
 - there is no option to delete materials / assignments within the course
 - nothing happens when the user clicks on the logo in the upper left corner of the page
 - there is no option to log out from the account
-- after the creation of course / material / assignment, the user have to refresh the page manually
+- after the creation of course / material / assignment, the user has to refresh the page manually
 
 #### Session 2
 <!-- Дамир -->
 - default browser pop-up windows look ugly
 - the option to see a list of students in a course will be useful
 - it is possible that one users will be both a teacher and a parent at one course while the platform does not allow that
-- after the creation of course / material / assignment, the user have to refresh the page manually
+- after the creation of course / material / assignment, the user has to refresh the page manually
 
 #### Session 3 
 <!-- Глеб -->
 - when entering the auth page, an authorized user is prompted to re-enter login and password, although the token has already been provided
 - two separate columns for course materials and course assignments looks ugly
-- after the creation of course / material / assignment, the user have to refresh the page manually
+- after the creation of course / material / assignment, the user has to refresh the page manually
 
 #### Session 4 
 <!-- Маша -->
 - when registering an account, the system writes that the password is too easy, and the criteria are not clear
 - in the Add Course button, the second word moves to the next line, which looks ugly
 - the field for material/assignment description can be stretched beyond the pop-up window frame
-- after the creation of course / material / assignment, the user have to refresh the page manually
+- after the creation of course / material / assignment, the user has to refresh the page manually
 - if user enter line break characters in the material / assignment description, then on the material / assignment page they disappear and become a single line
 - when inviting a student, submitting the form with the Enter key does not work
 
 ## Analysis
 
-Meetings with independent users have been very useful for our project. Although most of the problems they reported were known to us and were in the process of development, we discovered a few new issues that we had not noticed before and plan to fix them in near future.
+The meetings with independent users were very useful for our project. Although most of the issues they reported were already known to us and being worked on, we discovered a few new issues that we had not noticed before and plan to fix them in near future.
 
 ### Frontend
 
@@ -77,7 +77,7 @@ Meetings with independent users have been very useful for our project. Although 
 
 ### Implemented features based on feedback
 
-Since we already had our work plans lined up for the week, this week we mostly dealt with them. However, as described above, some of the feedback overlapped with this week's plans, so a few features were developed:
+Since we already had our work plans lined up for the week 5, this week we mostly dealt with them. However, as described above, some of the feedback overlapped with this week's plans, so a few features were developed:
 - an option to log out from the account has been developed
 - an automatic refresh when the course / material / assignment is created has been developed
 - the criteria for evaluating password complexity have been clarified
@@ -89,7 +89,7 @@ To measure how stable and performant our web service is, we propose the followin
 - Set up a program on our staging server to randomly `curl` our production server and count how many times the request has failed or succeeded.
 - Make a script that would stress-test the staging version of the service and measure the number of requests per second it can handle.
 
-We have not been able to implement these ideas during the week; however, we are planning to do so next week.
+We were unable to implement these ideas this week but plan to do so next week.
 
 
 ### Documentation
@@ -102,7 +102,7 @@ For the frontend part, we use the auto-generated README.md from Create React App
 
 ## Management
 
-On Saturday, July 5, we held a meeting with administrators of the Sberclass platform in a Moscow school. As the platform is in beta testing, access to it is limited, but at this meeting we had a unique opportunity to see the platform's interface from the administrator and teacher's side, as well as get feedback on its usability from a real teacher. This meeting was extremely useful for our team, as we formed a list of features that we will gradually be able to add in the near future.
+On Saturday, July 5, we held a meeting with administrators of the Sberclass platform in a Moscow school. As the platform is in beta testing, access to it is limited, but at this meeting we had a unique opportunity to see the platform's interface from the administrator and teacher's side, as well as get feedback on its usability from a real teacher. This meeting was extremely useful for our team, as it helped us compile a list of features to implement in the near future.
 
 ## Backend
 
@@ -147,16 +147,16 @@ During the development of new features, we often write `TODO` comments in the co
 
 Last week we added a feature to log all events that occur (post requests). The logs will allow administrators to keep track of what is happening on the site, but can take up an abnormally large amount of disk space. We have developed a TTL mechanism that periodically deletes logs older than 7 days.
 
-Also, the frontend team had a problem with docker compose running very slowly because it requires compilation. We split the docker-compose file into 2 versions: one that runs the dev version of the site with the `dev` version of the frontend (warnings about the code are displayed, no compilation required, and runs fast), and one that runs the site with the `main` version of the frontend (requires compilation, takes a long time to run, but is optimized). Also the frontend Dockerfile has been optimized so that unless the nodejs package list has changed, then startup is 2x faster on `main` and instant on `dev`.
+Also, the frontend team had a problem with docker compose running very slowly because it requires compilation. We split the docker-compose file into two versions: one that runs the dev version of the site with the `dev` version of the frontend (warnings about the code are displayed, no compilation required, and runs fast), and one that runs the site with the `main` version of the frontend (requires compilation, takes a long time to run, but is optimized). Also the frontend Dockerfile has been optimized so that unless the nodejs package list has changed, then startup is 2x faster on `main` and instant on `dev`.
 
 The backend team developed the consept of admin account. We added new curl tests to check this feature.
 
-We also improved README.md a little bit, adding information about production server, setting badges and making the overall design more readable.
+We also made minor improvements to README.md, adding information about production server, setting badges and making the overall design more readable.
 
-## Plan for the Week 5
+## Plan for the Week 6
 
-During week 5, we plan to continue developing our project as follows:
-- the frontend team plans to fix the issues found during the usability testing sessions, add the page with the list of students and implement the option to attach the files to course materials, assignmentsa, and submissions;
+During week 6, we plan to continue developing our project as follows:
+- the frontend team plans to fix the issues found during the usability testing sessions, add the page with the list of students and implement the option to attach the files to course materials, assignments, and submissions;
 - the backend team plans to implement course-wide grading, attendance tracking mechanism and endpoints for the gradebook page;
 
 # Individual contribution

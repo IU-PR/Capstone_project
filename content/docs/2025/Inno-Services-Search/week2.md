@@ -58,10 +58,10 @@ As a user, I want search results to be ranked by relevance, so that the most use
 Anna and Aliia mage [user flow diagrams](https://www.figma.com/design/M4RIWYSKjVPz931J6nWERK/Search?node-id=0-1&t=CkxKvRmwUXQlwE5S-1). Later, Aliia made a [layout](https://www.figma.com/design/M4RIWYSKjVPz931J6nWERK/Search?node-id=12-2&t=HrHzzgtyEYvRmcDB-1) and a [clickable prototype](https://www.figma.com/proto/M4RIWYSKjVPz931J6nWERK/Search?node-id=12-2&t=HrHzzgtyEYvRmcDB-1) in Figma, approved it with [one-zero-eight team](https://t.me/one_zero_eight) (our customers) and made the appropriate edits. She also created some of the page components and routing (see [PR](https://github.com/one-zero-eight/website/pull/204)).
 
 ### ML
-Parsers were written to collect data from different sources and convert data to the md format. Anna - a parser for Campus Life ([PR](https://github.com/one-zero-eight/search/pull/75)), Vladimir - a parser for eduwiki ([PR](https://github.com/one-zero-eight/search/pull/74)), Sofia - a parser for the dorm website ([PR](https://github.com/one-zero-eight/search/pull/76)), Azalia - integration with API maps ([PR](https://github.com/one-zero-eight/search/pull/77)).
+Parsers were written to collect data from different sources and convert data to the md format. Anna - a parser for Campus Life (see [PR](https://github.com/one-zero-eight/search/pull/75)), Vladimir - a parser for eduwiki (see [PR](https://github.com/one-zero-eight/search/pull/74)), Sofia - a parser for the dorm website (see [PR](https://github.com/one-zero-eight/search/pull/76)), Azalia - integration with API maps (see [PR](https://github.com/one-zero-eight/search/pull/77)).
 
 ### Backend:
-The structure of interaction with the AI ​​was verbally defined (see the [architecture section](#architecture)), and endpoints began to be written. Anna began to write the mongodb scheme, endpoints for parsing data and writing to mongo ([commit](https://github.com/one-zero-eight/search/commit/6a5ead46fc5eb3bc7d59ce8d608f5b8f531de055)).
+The structure of interaction with the AI ​​was verbally defined (see the [architecture section](#architecture)), and endpoints began to be written. Anna began to write the mongodb scheme, endpoints for parsing data and writing to mongo (see [commit](https://github.com/one-zero-eight/search/commit/6a5ead46fc5eb3bc7d59ce8d608f5b8f531de055)).
 
 ### Architecture:
 It was clarified in detail for a better understanding of the API requirements.
@@ -93,11 +93,11 @@ It is necessary to delete records from the vector database, from mongo, upload t
 
 | Team Member           | Contribution                                       |
 |-----------------------|----------------------------------------------------|
-| Anna Belyakova (Lead) | See [design + frontend](#design--frontend), [backend](#backend), and [ML](#ml) sections     |
-| Vladimir Paskal       | See [ML](#ml) section                              |
-| Azaliia Alisheva      | See [ML](#ml) section                              |
-| Aliia Bashirova       | See [design + frontend](#design--frontend) section |
-| Sofia Pushkareva      | See [ML](#ml) section                              |
+| Anna Belyakova (Lead) | See [design + frontend](https://capstone.innopolis.university/docs/2025/inno-services-search/week2/#design--frontend), [backend](https://capstone.innopolis.university/docs/2025/inno-services-search/week2/#backend), and [ML](https://capstone.innopolis.university/docs/2025/inno-services-search/week2/#ml) sections     |
+| Vladimir Paskal       | See [ML](https://capstone.innopolis.university/docs/2025/inno-services-search/week2/#ml) section                              |
+| Azaliia Alisheva      | See [ML](https://capstone.innopolis.university/docs/2025/inno-services-search/week2/#ml) section                              |
+| Aliia Bashirova       | See [design + frontend](https://capstone.innopolis.university/docs/2025/inno-services-search/week2/#design--frontend) section |
+| Sofia Pushkareva      | See [ML](https://capstone.innopolis.university/docs/2025/inno-services-search/week2/#ml) section                              |
 
 
 ## Plan for Next Week

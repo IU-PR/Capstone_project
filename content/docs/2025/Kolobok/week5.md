@@ -29,9 +29,9 @@ Feedback methods included:
 
 ### Key Insights and Adjustments
 
-#### **Ultra-Fast MySQL Indexing**
+#### **Super-fast PostgreSQL Indexing**
 - **Feedback**: Users noticed slow performance when retrieving results for large batches of tire data.
-- **Adjustment**: We implemented **ultra-fast indexing** on MySQL using **polars** for accelerated data retrieval, reducing query times from several seconds to milliseconds.
+- **Adjustment**: We implemented **fast indexing** on PostgreSQL using **polars** for accelerated data retrieval, reducing query times from several seconds to hundred milliseconds.
 
 #### **OCR Model Accuracy**
 - **Feedback**: Users reported issues with OCR when the tire text was partially obscured or had low contrast.
@@ -48,7 +48,7 @@ Feedback methods included:
 ### Ultra-Fast Indexing & Performance Improvements
 
 In response to the performance bottleneck feedback, the team enhanced both the **backend and database performance**:
-- **Ultra-Fast MySQL Indexing**: We deployed a new indexing technique on MySQL, resulting in significant speedups for data queries.
+- **Ultra-Fast PostgreSQL Indexing**: We deployed a new indexing technique on PostgreSQL, resulting in significant speedups for data queries.
 - **Polar’s Ultra-Fast Indexing**: By implementing **polar indexing** on large data columns, we optimized the speed of data retrieval, especially for complex queries related to tire images and OCR outputs.
 - **Error Handling**: Additional robustness was introduced in the backend to ensure smoother error detection, logging, and resolution during high-load conditions.
 
@@ -77,22 +77,6 @@ Following feedback and further analysis, we conducted the following model refine
 
 ---
 
-## Key Technical Contributions
-
-### **Ultra-Fast MySQL Indexing**  
-**Nikita Menshikov** led the development and implementation of ultra-fast indexing on MySQL, reducing query times significantly, particularly for large sets of tire data. This enhancement allowed the system to handle large data batches more efficiently, improving the overall user experience.
-
-### **Optimized OCR Model & Dataset Enhancements**  
-**Nikita Zagainov** drove the improvement of the OCR pipeline, focusing on data augmentation for synthetic tire text samples and preprocessing enhancements. The result is a more accurate OCR model that handles low-contrast and obscured tire text much better than before.
-
-### **Polar Indexing for Faster Data Retrieval**  
-**Darya Stepanova** worked on improving the **polar indexing** method used within the MySQL database to speed up tire image retrieval times. This change improved query execution speeds and reduced bottlenecks in high-load conditions.
-
-### **Unwrapper Model Code Enhancement**  
-**Dmitry Tetkin** refactored and optimized the code for the **unwrapper model**, making it more efficient and able to handle diverse input images faster. This resulted in a more responsive system, particularly under varying lighting conditions and tire orientations.
-
----
-
 ## Next Steps & Roadmap
 
 - **Final Model Fine-Tuning**: Continue to gather feedback to enhance model performance based on user interactions, with a focus on edge cases.
@@ -105,13 +89,13 @@ Following feedback and further analysis, we conducted the following model refine
 
 | Team Member            | Contributions |
 |------------------------|---------------|
-| **Nikita Menshikov**    | Led the ultra-fast MySQL indexing implementation, fine-tuned error handling, coordinated final testing and feedback integration |
-| **Nikita Zagainov**     | Optimized the OCR pipeline, improved dataset parsing and augmented data, enhanced model accuracy with real-world feedback |
-| **Dmitry Tetkin**       | Optimized unwrapper model code, enhanced speed and preprocessing pipeline for faster image processing |
-| **Vladislav Strelkov**  | Ensured CI/CD pipeline integration, optimized deployment for large datasets, implemented automatic rollback mechanisms |
-| **Sergey Aitov**        | Led backend testing efforts, verified bug fixes related to image processing, ensured smooth system interactions with the backend |
-| **Ekaterina Petrova**   | Led frontend testing, UX/UI improvements, and ensured seamless data flow between frontend and backend |
-| **Darya Stepanova**     | Refined frontend components, implemented polar indexing in MySQL, worked on final usability improvements |
+| **Nikita Menshikov**    | Wrote the report, fine-tuned error handling, coordinated final testing and feedback integration |
+| **Nikita Zagainov**     | Led the development of OCR pipeline, researched and finalized model and architecture. Also researched methods for boosting accuracy on tread depth and spikes estimators |
+| **Dmitry Tetkin**       | Ported visual on different platforms, enhanced tg bot with logging and more user-friendly responces |
+| **Vladislav Strelkov**  | Implemented database service and [indexing](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/b38378afe3333155470e763b1cac4e28cf791c70) on MySQL and PostgreSQL |
+| **Sergey Aitov**        | Tested OCR pipeline, [fine-tuned](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/a15fffbef9abd559965434e18bea7df9f6ab05c2) models and builded the pipeline |
+| **Ekaterina Petrova**   | Added tire [preprocessing](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/44f79471d8e90e090c899c0df13c0c1c2252fb37) for OCR |
+| **Darya Stepanova**     | Implemented [site](https://github.com/IU-Capstone-Project-2025/Kolobok/tree/my-frontend-update) MVP version, enhanced UX based on user feedback|
 
 ---
 

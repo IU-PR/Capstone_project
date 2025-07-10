@@ -372,4 +372,43 @@ Where α is the decay parameter.
 
 ## Weekly Commitments
 
-Goal: Finalize the project, prepare all deliverables, and craft a compelling presentation.
+### Plan for Next Week
+
+#### Sprint Goal
+
+Finalize the project, prepare all deliverables, and craft a compelling presentation.
+
+#### Frontend
+
+- Ensure design documents (Figma) are up to date and reflect the final product - Karina, Egor A
+- Add a disclaimer stating that the model may be wrong and the accuracy of the model is 0.69 - Karina, Egor A
+- Add a representation of list with features of model - Karin, Egor A
+- Cleaning the code (removing unused parts) - Karina, Egor A
+- Comments on the code - Karina, Egor A
+
+#### Backend
+
+- Cleaning the code (removing unused parts) - Arina
+- Comments on the code - Arina
+- Filling the DB with new data - Arina
+- API docs - Arina
+
+#### ML
+
+- Creating new, more relevant data from the dataset API for training - Arina
+- Cleaning the code (removing unused parts) - Artem
+- Comments on the code - Artem
+- Description of further improvements - Artem
+- Training a model on new data - Artem
+- Adding time scales for all model features - Artem
+
+#### Presentation
+
+- Create a draft presentation - Egor S
+
+#### Sprint acceptance criteria
+
+- A fully completed project
+- Comprehensive final documentation (README, API docs, Figma)
+- Draft of presentation slides
+- Plan for the live demo

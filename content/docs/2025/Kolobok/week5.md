@@ -91,7 +91,7 @@ Following feedback and further analysis, we conducted the following model refine
 |------------------------|---------------|
 | **Nikita Menshikov**    | Wrote the report, fine-tuned error handling, coordinated final testing and feedback integration |
 | **Nikita Zagainov**     | Led the development of OCR pipeline, researched and finalized model and architecture. Also researched methods for boosting accuracy on tread depth and spikes estimators |
-| **Dmitry Tetkin**       | Ported visual on different platforms, enhanced tg bot with logging and more user-friendly responces |
+| **Dmitry Tetkin**       | Ported visual on various platforms ([1](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/b2c6eae741c17c76fc84a45efc37b6539fbd7373), [2](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/581ca2464e562c8ae9fb63ce0dd20ba2720c2c77), [3](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/24875bc94d4807c6c35f9d88badd3a13fce8f457)), enhanced tg bot with logging and more user-friendly responces |
 | **Vladislav Strelkov**  | Implemented database service and [indexing](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/b38378afe3333155470e763b1cac4e28cf791c70) on MySQL and PostgreSQL |
 | **Sergey Aitov**        | Tested OCR pipeline, [fine-tuned](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/a15fffbef9abd559965434e18bea7df9f6ab05c2) models and builded the pipeline |
 | **Ekaterina Petrova**   | Added tire [preprocessing](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/44f79471d8e90e090c899c0df13c0c1c2252fb37) for OCR |

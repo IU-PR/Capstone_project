@@ -166,3 +166,123 @@ The following is a list of measurable clearly defined metrics demonstrating perf
 > 4. Compare the graph, the correlation coefficients, and the overall statistics to the previous week measurements
 > 5. Make contextually-informed conclusions about the actual progress based on these metrics
 > 6. Use these conclusions and context gained from metrics to decide next actions
+
+### Documentation
+
+**Internal Documentation**
+- [Project Layer](https://strategic-control.kaiten.ru/documents/g/712fc661-6763-48dd-bd71-b40953de200a)
+	- **Contents:**
+		- Strategy (Hypothesis Map)
+		- Target User Experience (Process-Experience Map)
+		- Key Design Decisions (Story Implementation Map)
+		- Project Design Flow (Requirements Engineering Backlog)
+	- **Purpose:** defines project goals, strategy, user experience, and scope, sets the tone and setting for the entire project
+- [Product Layer](https://strategic-control.kaiten.ru/documents/g/f3f0b50a-94b2-4811-8f85-a37e9a399b00)
+	- **Contents:**
+		- Feedback Quality Requirements
+			- A detailed document with acceptance criteria and quality attributes for LLM-generated feedback
+		- Feedback Metrics Distribution
+			- A document detailing methods of measuring compliance with given metrics
+		- Product Backlog
+			- Dynamic tasks board detailing the incremental feature implementation plans from the product perspective
+	- **Purpose:** defines product progression rules
+- [Engineering Layer](https://strategic-control.kaiten.ru/documents/g/0ce62c64-1394-4c12-af8a-93ea39d793a9)
+	- **Contents:**
+		- Documents about endpoints
+			- Specify endpoint signatures for internal team coordination and technical tasks decomposition
+		- LLM Inference Optimization
+			- Describes reproducible procedures to optimize LLM inference speed
+		- Security Specifications
+			- Documents describing security decisions critical to the project requirements
+		- LLM inference speed measurements
+			- Details inference speed test results for various LLMs deployed on our GPUs
+		- System Design document
+	- **Purpose:** describes important implementation decisions made by engineers for reproducibility and context awareness within the team
+- [Development Layer](https://strategic-control.kaiten.ru/documents/g/9f08154e-5b3d-43e9-9906-aa9df964ebcb)
+	- **Contents:**
+		- Deployments
+			- Specifies the deployment types (`dev` for developers, `beta` as staging, `uat` as pre-production), their target addresses and details
+		- Servers
+			- Specifies how to use the project server
+		- Technical Backlog
+			- Dynamic tasks board detailing technical tasks and their current states
+	- **Purpose:** supports development process by synchronizing the team understanding of the technical details of the project
+- **API Endpoints Documentation**
+	- **Contents:**
+		- Swagger API documentation for FastAPI endpoints of all microservices
+	- **Purpose:** simplifies development, enables asynchronous development cycles and more straightforward developers onboarding
+
+### ML Model Refinement
+
+We validate semi-formal quality attributes of the generated LLM feedback using an evaluation script that approximates statistical performance metrics based on natural language definitions of acceptance criteria and quality attributes.
+
+Afterwards, we make informed decisions from these metrics to iterate on the model setup, see "Performance & Stability" section.
+
+# Weekly commitments
+
+## Individual contribution of each participant
+
+### Dmitriy Prokopyev
+
+- Added new increments, existing ones advanced and validated, see [Product Backlog](https://strategic-control.kaiten.ru/space/606257/boards) for details
+- Conducted Sprint Planning and other meetings required to orchestrate project development
+- Invalidated some increments due to misalignments with acceptance criteria (["Reopened" status](https://strategic-control.kaiten.ru/space/606257/boards)), ensured that they are fixed and deployed
+- Participated in designing architectural changes for multi-user support
+
+### Egor Torshin
+
+- Migrated parsing tools from real-time to the syntactic analysis microservice side
+- Cleaned up the GitHub branches of the deployment stages in PR, see [comparison](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/compare/dev...main)
+- Participated in the design of Multi-User Access architecture
+- Updating the user documentation, see [pull request](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/pull/26)
+- Rented a VM for JupyterHub hosting to solve an intermediate technical issue
+- Coordinated backend development, held responsibility for all backend increments
+
+### Aziz Vundirov
+
+- Replaced `Bandit` and `Vulture` with ruff configuration, see [commit](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/commit/f4149ed9f59c31b3e670fe7f5e23c8b0e14c4a94)
+- Updated `ruff` config to match updated project requirements, see [commit](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/commit/b436651fd8eae8a335a46e2bdf53798d45c06538)
+- Migrated real-time analysis into a separate microservice, see [commit](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/commit/cea5ebb0268b564b195669254ded365ec05466dd#diff-969989fab9ec34405a292d925caa243e33fe465fb4a41f5b7cf0bd179f617b17)
+- Progressed significantly in resolving cgroupv2 process spawning issue on the server
+
+### Nikita Tiurkov
+
+- Implemented case-aware feedback generation logic, see [pull request](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/pull/22)
+- Conducted various tests to optimize LLM inference speed, see [commit](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/commit/5e43f8d2348151e72ed0e2fe71bb8e89a40a9ed4)
+- Migrated from vLLM to SGLang for LLM inference speed optimization
+- Fixed newly encountered bugs in semantic feedback microservice, see [commit](https://github.com/IU-Capstone-Project-2025/Data-Sculptor/commit/ae887dd5418118e002192f6ddc41e6aebbce2615)
+
+### Oleg Shchendrigin
+
+- Prepared data samples for LLM feedback generation validation
+- Implemented automated evaluation of LLM feedback quality via guided LLM-as-a-judge
+- Designed metrics distribution logic, see [document](https://strategic-control.kaiten.ru/documents/d/3ae29a77-cfa5-4cd4-93d4-32794d0d4534)
+
+### Marsel Fayzullin
+
+- Contributed significantly to debugging intermediate deployment issues
+- Setup and deployed HiashiCorp Vault
+
+### Dmitriy Yashin
+
+- Setup and deployed integration of JupyterHub and Keycloak
+- Implemented security measures for JupyterHub protection planned during the earlier weeks
+- Implemented dynamic subdomain generation and redirection of users via their own subdomains for security purposes and integrated this logic with JupyterHub
+- Managed to identify the key technical issue hindering the development process so far and suggest a working solution
+
+## Plan for Next Week
+
+- [ ] Finalize secure microservices communication over mTLS (until the end of the project)
+- [ ] Finalize internal TLS certificates generation, distribution, and rotation
+- [ ] Ensure test coverage for key code areas
+- [ ] Implement progress permanence between user sessions
+- [ ] Finalize custom UI integration
+- [ ] Ensure quality via CI/CD pipeline results
+- [ ] Start to prepare the final presentation
+
+## Confirmation of the code’s operability
+
+We confirm that the code in the main branch:
+
+- [x]  In working condition.
+- [x]  Run via docker-compose (or another alternative described in the `README.md`).

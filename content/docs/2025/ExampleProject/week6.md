@@ -35,3 +35,19 @@ title: "Week #6"
 ## Presentation draft
 
 *Add here a link to the presentation draft.*
+
+# Weekly commitments
+
+## Individual contribution of each participant
+
+*...*
+
+## Plan for Next Week
+
+*...*
+
+## Confirmation of the code's operability
+
+We confirm that the code in the main branch:
+- [ ] In working condition.
+- [ ] Run via docker-compose (or another alternative described in the `README.md`).

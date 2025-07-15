@@ -65,18 +65,18 @@ title: "Week #2"
 - *Then*: a clear error message is displayed.
 
 ## Prioritized backlog
-![Backlog](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/main/course-metadata/week2-images/backlog.png)
+![Backlog](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/course-metadata/course-metadata/week2-images/backlog.png)
 
 ### Sprint analysis
-![Sprint-2](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/main/course-metadata/week2-images/sprint-2-analysis.png)
+![Sprint-2](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/course-metadata/course-metadata/week2-images/sprint-2-analysis.png)
 
 ### Tasks for the next week
-![Sprint-3](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/main/course-metadata/week2-images/sprint-3.png)
+![Sprint-3](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/course-metadata/course-metadata/week2-images/sprint-3.png)
 
 ## Project specific progress
 
 ### User flow diagram
-![User flow diagram](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/main/course-metadata/week2-images/userflow.png)
+![User flow diagram](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/course-metadata/course-metadata/week2-images/userflow.png)
 
 ### Design
 The platform provides a complete web interface with three main screens:
@@ -92,11 +92,11 @@ The platform provides a complete web interface with three main screens:
     - A comprehensive results screen with detailed analysis.
 - **Architecture**: The frontend is a Vue.js Single Page Application (SPA) running on port 8080.
 
-![pic3](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/main/course-metadata/week2-images/pic3.png)
+![pic3](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/course-metadata/course-metadata/week2-images/pic3.png)
 
-![pic4](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/main/course-metadata/week2-images/pic4.png)
+![pic4](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/course-metadata/course-metadata/week2-images/pic4.png)
 
-![pic5](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/main/course-metadata/week2-images/pic5.png)
+![pic5](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/course-metadata/course-metadata/week2-images/pic5.png)
 
 ### Backend
 - **Technology**: Spring Boot, PostgreSQL with pgvector, and Docker Compose.

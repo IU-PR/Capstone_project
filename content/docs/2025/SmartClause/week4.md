@@ -34,7 +34,7 @@ title: "Week #4"
 - Response structure: Validation of response formats for all endpoints
 - Database integration: Basic setup with SQLite test DB
 
-![cicd](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/main/course-metadata/week4/cicd.png?raw=true)
+![cicd](https://github.com/IU-Capstone-Project-2025/SmartClause/blob/course-metadata/course-metadata/week4/cicd.png?raw=true)
 
 ## CI/CD
 

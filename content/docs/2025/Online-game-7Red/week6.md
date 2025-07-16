@@ -125,8 +125,9 @@ Configure the following environment variables in .env:
 - `BRANCH_ID`: Branch identifier
 - `DATABASE_URL`: Complete database connection string
 - `WS_URL`: WebSocket URL (`ws://localhost:8080/api` for local development)
+- `SERVER_PW`: Server password
 
-#### 4. **Quick Start with Docker **
+#### 4. Quick Start with Docker
 
 **Option A**: Using Pre-built Images from DockerHub spalkkina/7red. Build and start all services with  `docker-compose up --build`
 
@@ -141,16 +142,20 @@ Configure the following environment variables in .env:
 
 #### 6. **Testing the Application**
 
-**For Local Multiplayer Testing:**
-1. Open 2-4 browser tabs at [http://localhost:8080](http://localhost:8080)
+**For Local testing** - Open browser at [http://localhost:8080](http://localhost:8080)
+
+**For Application testing** - Open browser at [http://7red.ru](http://7red.ru)
+
+**For Multiplayer Testing:**
+1. Open 2-4 browser tabs 
 2. Create different accounts in each tab (Sign In/Sign Up)
 3. From one account: Create private room (Start new game → Create private room)
 4. From other accounts: Join using room ID and password (Start new game → Connect private room)
 5. Click "Get Ready" button in each tab
 6. Start playing by dragging cards and submitting moves
 
-**For local Bot Testing:**
-1. Open browser at [http://localhost:8080](http://localhost:8080)
+**For  Bot Testing:**
+1. Open browser
 2. Log in to your account
 3. Select "Start new game → Vs Bot"
 4. Play against the AI opponent
@@ -169,7 +174,7 @@ Configure the following environment variables in .env:
 
 ### Frontend
 
-*...*
+Made an animated window for online search. Added the ability to change the name, mail and login using terminal windows. Added a button to confirm the exit from the account. Changed the display of data in the online room. Added time before the player to view the damage definition. Fixed the display of the animated timer in GameRoom. Changed the size of widgets in GameRoom. Started creating a localization (ready to change the language in the settings and MainMenuPage)
 
 ### Backend
 The following work was done:
@@ -218,7 +223,17 @@ https://trello.com/c/Jwrj9iNb
 
 https://trello.com/c/EmA1iBku
 
-**Amir Bairamov** – 
+**Amir Bairamov** – Made a window for online search of opponents, finished the settings, confirmation of exit from the account, debug, started creating localization
+
+https://trello.com/c/EmA1iBku
+
+https://trello.com/c/Q55XSzep
+
+https://trello.com/c/l8tFeh88
+
+https://trello.com/c/ATG9PXsJ
+
+https://trello.com/c/oK65JMcS
 
 ## Plan for Next Week
 

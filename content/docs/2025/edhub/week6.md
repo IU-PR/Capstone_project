@@ -115,10 +115,16 @@ The frontend team focused on expanding user management features, improving assig
 
 ## Plan for the Week 7
 
-During week 7, we plan to finilize the developing our project as follows:
-- the backend team plans to develop an API commands to support the Grades page;
-- the frontend team plans to ;
-<!-- TODO: планы фронтенда (можно перечислить незакрытые issues из гитхаба) -->
+During week 7, we plan to finilize the developing our project.
+
+The backend team plans to develop an API commands to support the Grades page.
+
+The frontend team plans to 
+- improve UI/UX design across course and assignment pages;
+- create a Grades page with student scores;
+- implement support for admin users;
+- enhance course management by fixing the Add Course button and improving session persistence;
+- refine course feed by distinguishing materials and assignments, adding auto-refresh after grading, and updating design of submission buttons.
 
 # Individual contribution
 

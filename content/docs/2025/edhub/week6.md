@@ -22,7 +22,7 @@ July 2025
 
 ## Project overview
 
-EdHub is a Learning Management System for interaction between teachers, students, and parents. It aims to improve the quality of an educational process, simplify the interaction between stakeholders, and improve student engagement in learning.
+EdHub is a Learning Management System for interaction between teachers, students, and parents. It aims to improve the quality of educational process, simplify the interaction between stakeholders, and improve student engagement in learning.
 
 Any user can create a course becoming a **Teacher**, invite students and their parents, upload materials, create assignments, see student submissions, and grade them based on criteria. User can also join the course as a **Student** to see the study materials and submit their homework or as a **Parent** to track the academic performance of their children.
 
@@ -82,33 +82,47 @@ The presentation draft is available via the [*link*](https://docs.google.com/pre
 
 # Weekly achievements
 
+## Management
+
+We formed the final set of features in the project, highlighted the key features that set our project apart from other products on the market and created a draft for the final presentation.
+
+We also added the Built With block to the README to meet the requirements of the project.
+
 ## Backend
+
+Since the backend team has been productive for the first 5 weeks and outpaced the frontend team in terms of functionality, this week, in anticipation of the deadline, we decided to slow down and not develop any new functionality.
+
+We decided to refactor our project to create a more rigorous architecture and develop rules for writing code within the team. At the moment we have a draft of the new architecture, which is in the process of being reviewed. We don't want to apply it this week as we are not sure that the system will work without errors, which is crucial in the run-up to the project handover.
+
+We also noticed that every time we access the database, the system initializes a new connection, which is inefficient. We decided to start using connections from the connection pool instead of creating a new one each time.
+
+Frontenders reported issues when attaching a file to a course element, we found a typo in the file storage connection code and fixed it.
 
 ## Frontend
 
-## DevOps
+<!-- описание от Алины -->
 
 ## Plan for the Week 7
 
-During week 7, we plan to continue developing our project as follows:
+During week 7, we plan to finilize the developing our project as follows:
 - the frontend team plans to ;
 - the backend team plans to ;
 
 # Individual contribution
 
 ### Gleb Popov
-- [`management`]: A meeting with the administrator of the Sberclass platform have been organized;
-- [`backend`]: The separate database for the attachments has been developed ([*PR #83*](https://github.com/IU-Capstone-Project-2025/edhub/pull/83));
-- [`backend`]: The concept of admin account has been developed ([*PR #88*](https://github.com/IU-Capstone-Project-2025/edhub/pull/88));
-- [`devops`]: README.md has been improved ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/86f79530e454658dc327a077093e93f2bffce13b));
-- [`management`]: Weekly report has been written ([*PR #663*](https://github.com/IU-PR/Capstone_project/pull/663));
-- [`backend`]: Careful review of pull request has been conducted ([*PR #84*](https://github.com/IU-Capstone-Project-2025/edhub/pull/84), [*PR #92*](https://github.com/IU-Capstone-Project-2025/edhub/pull/92), [*PR #94*](https://github.com/IU-Capstone-Project-2025/edhub/pull/94), [*PR #95*](https://github.com/IU-Capstone-Project-2025/edhub/pull/95), [*PR #97*](https://github.com/IU-Capstone-Project-2025/edhub/pull/97)).
+- [`management`]: presentation draft has been created ([*Google Slides*](https://docs.google.com/presentation/d/1j8XrIkxvNVK3x4jq78MH5Uz0QWQk2-JSRoj6kuIVDDY/edit?usp=sharing));
+- [`devops`]: Built With block has been added to README.md ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/7cd4b9a6b891343f52de67a22aac12a43385932e), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/53ea6d1be1c629060218c8e5ca0fafeefdacc9aa));
+- [`backend`]: Careful review of pull request has been conducted ([*PR #132*](https://github.com/IU-Capstone-Project-2025/edhub/pull/132)).
 
 ### Timur Usmanov
-- [`backend`]: 
+- [`backend`]: backend architecture refactoring has been conducted ([*PR #130*](https://github.com/IU-Capstone-Project-2025/edhub/pull/130));
+- [`backend`]: typo in the file storage connection code has been found and fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b4f3d3e3242f72cc69469c5cab6a3cabd3901e64));
+- [`backend`]: Careful review of pull request has been conducted ([*PR #132*](https://github.com/IU-Capstone-Project-2025/edhub/pull/132)).
 
 ### Askar Dinikeev
-- [`devops`]: 
+- [`backend`]: backend architecture refactoring has been conducted ([*PR #130*](https://github.com/IU-Capstone-Project-2025/edhub/pull/130));
+- [`backend`]: database connection creation has been replaced with connection pooling ([*PR #132*](https://github.com/IU-Capstone-Project-2025/edhub/pull/132)).
 
 ### Alina Suhoverkova
 

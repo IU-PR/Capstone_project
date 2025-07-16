@@ -14,8 +14,7 @@ July 2025
 
 - Deployment: [*edhub.space*](http://edhub.space/)
 - API Docs: [*edhub.space/api/docs*](https://edhub.space/api/docs)
-- Design: 
-<!-- TODO: design -->
+- Design: [*Figma*](https://www.figma.com/design/dZsl8QQ8ZdJAXhzhCROajk/EdHub?node-id=0-1&p=f&t=lpPrzlTOAAF9SWLW-0)
 - Demo: …
 <!-- TODO: demo -->
 
@@ -23,15 +22,63 @@ July 2025
 
 ## Project overview
 
-## Features
+EdHub is a Learning Management System for interaction between teachers, students, and parents. It aims to improve the quality of an educational process, simplify the interaction between stakeholders, and improve student engagement in learning.
+
+Any user can create a course becoming a **Teacher**, invite students and their parents, upload materials, create assignments, see student submissions, and grade them based on criteria. User can also join the course as a **Student** to see the study materials and submit their homework or as a **Parent** to track the academic performance of their children.
+
+Most existing LMSs either have limited functionality or have awkward website design and cause difficulties in everyday use. EdHub combines a self-contained and clear design, supporting all the necessary features but not bogging the user down with complex customizations.
+
+## Key Features
+
+### Parental Access
+
+None of the LMSs we explored supports parental access to the course. Parents often want to keep abreast of their children's academic progress; since the child usually does not want to give them their account, parents start contacting the teacher and clarifying questions about each individual grade.
+
+EdHub supports a separate role for the parent to keep track of their student's grades.
+
+### Quick Setup
+
+Many of the LMSs we explored (e.g. Moodle or Stepik) require a long time to configure a large number of parameters before a course can be created.
+
+To start using EdHub, one need to register and create a course by entering a title.
+
+### Open Source
+
+Many LMSs store data on company servers, including foreign ones, and do not support local hosting because the LMS is commercial.
+
+EdHub is an open source project and any school can run their own version of EdHub and store their student and staff data locally.
 
 ## Tech stack
 
+- React framework was chosen as the main **frontend stack** for its component-based architecture, rich ecosystem, and strong community support, enabling rapid UI development.
+- FastAPI Python framework was chosen as the main **backend stack** for its high development speed and extensive documentation
+- PostgreSQL was chosen as the main **database** for its reliability and extensibility.
+- Docker Compose is chosen for the **deployment process** as it is the industry standard for service deployment using containers.
+
 ## Setup instructions
+
+Since our project consist of Docker containers and does not require complex instructions, to download a copy of the project and run it on your local machine, you can type:
+```bash
+# Clone repository
+git clone https://github.com/IU-Capstone-Project-2025/edhub.git
+cd edhub
+
+# Build and start containers
+docker compose up --build
+
+# To run in detached mode:
+# docker compose up --build -d
+
+# To stop all services
+# docker compose down
+
+# To stop and remove volumes
+# docker compose down -v
+```
 
 ## Presentation draft
 
-https://docs.google.com/presentation/d/1j8XrIkxvNVK3x4jq78MH5Uz0QWQk2-JSRoj6kuIVDDY/edit?usp=sharing
+The presentation draft is available via the [*link*](https://docs.google.com/presentation/d/1j8XrIkxvNVK3x4jq78MH5Uz0QWQk2-JSRoj6kuIVDDY/edit?usp=sharing).
 
 # Weekly achievements
 
@@ -54,34 +101,22 @@ During week 7, we plan to continue developing our project as follows:
 - [`backend`]: The separate database for the attachments has been developed ([*PR #83*](https://github.com/IU-Capstone-Project-2025/edhub/pull/83));
 - [`backend`]: The concept of admin account has been developed ([*PR #88*](https://github.com/IU-Capstone-Project-2025/edhub/pull/88));
 - [`devops`]: README.md has been improved ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/86f79530e454658dc327a077093e93f2bffce13b));
-- [`management`]: Weekly report has been written ([*PR #620*](https://github.com/IU-PR/Capstone_project/pull/620));
+- [`management`]: Weekly report has been written ([*PR #663*](https://github.com/IU-PR/Capstone_project/pull/663));
 - [`backend`]: Careful review of pull request has been conducted ([*PR #84*](https://github.com/IU-Capstone-Project-2025/edhub/pull/84), [*PR #92*](https://github.com/IU-Capstone-Project-2025/edhub/pull/92), [*PR #94*](https://github.com/IU-Capstone-Project-2025/edhub/pull/94), [*PR #95*](https://github.com/IU-Capstone-Project-2025/edhub/pull/95), [*PR #97*](https://github.com/IU-Capstone-Project-2025/edhub/pull/97)).
 
 ### Timur Usmanov
-- [`backend`]: The separate database for the attachments has been developed ([*PR #83*](https://github.com/IU-Capstone-Project-2025/edhub/pull/83));
-- [`backend`]: An option to export course grade as `csv` file has been developed ([*PR #94*](https://github.com/IU-Capstone-Project-2025/edhub/pull/94));
-- [`devops`]:  Docker Compose file has been spliited on two files for debug and production ([*PR #84*](https://github.com/IU-Capstone-Project-2025/edhub/pull/84));
-- [`devops`]: The frontend Dockerfile has been optimized ([*PR #85*](https://github.com/IU-Capstone-Project-2025/edhub/pull/85));
-- [`backend`]: Careful review of pull request has been conducted ([*PR #83*](https://github.com/IU-Capstone-Project-2025/edhub/pull/83), [*PR #88*](https://github.com/IU-Capstone-Project-2025/edhub/pull/88), [*PR #92*](https://github.com/IU-Capstone-Project-2025/edhub/pull/92), [*PR #95*](https://github.com/IU-Capstone-Project-2025/edhub/pull/95), [*PR #97*](https://github.com/IU-Capstone-Project-2025/edhub/pull/97)).
+- [`backend`]: 
 
 ### Askar Dinikeev
-- [`devops`]: GitHub Action to check the code for TODO comments has been set up ([*PR #92*](https://github.com/IU-Capstone-Project-2025/edhub/pull/92));
-- [`devops`]: TTL mechanism to remove old logs has been developed ([*PR #95*](https://github.com/IU-Capstone-Project-2025/edhub/pull/95));
-- [`devops`]: Curl tests for the admin account have been developed ([*PR #97*](https://github.com/IU-Capstone-Project-2025/edhub/pull/97)).
+- [`devops`]: 
 
 ### Alina Suhoverkova
 
-- [`frontend`]: Detailed validation messages for email and password fields has been added to improve authentication feedback ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/5d433b566b50fde9bf557e621531e922cb0feb58));
-- [`frontend`]: UI/UX design on the Course page has been improved, including styling updates for Materials and Assignments sections ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4b449d77ba80c31c7e414cc3238c3c8efa593ea9));
-- [`frontend`]: Real-time refreshing for Materials and Assignments after creation has been fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/627b43b8860a8c26cc3feab2ac09b8f21760afc3));
-- [`frontend`]: CourseFeed layout has been updated to match dual-section (Materials & Assignments) style ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/422c10c6404b551581b7d7d8a5ffb5306e5d73b5)).
+- [`frontend`]: 
 
 ### Timur Struchkov
 
-- [`frontend`]: Ability to grade and view results has been added ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/4ccb7c23a183cae5e96bc2fb03564686e2cbe657));
-- [`frontend`]: Ability to logout has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/c0b939436c60c982e6f9e27ade3376fee3dc654f));
-- [`frontend`]: A check for grade number validity has been added ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/5bf3ac1a71424374420530d37e4a956599690ae6));
-- [`frontend`]: An ability to switch between single and double column feeds has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/a0b4c1b4f13344f9bead30e74098da11b37818a1), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/8d2ed6f7c81cffef6cdcf95e316461d74d29f4be)).
+- [`frontend`]: 
 
 # Repository
 

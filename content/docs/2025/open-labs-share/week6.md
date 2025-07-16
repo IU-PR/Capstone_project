@@ -46,7 +46,6 @@ The platform solves critical problems in modern education: students struggling t
 
 **Backend Microservices**
 
-*Grouped by primary technology to showcase the polyglot architecture.*
 
 - **Java (Spring Boot) Services:**
   - **API Gateway:**

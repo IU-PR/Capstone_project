@@ -12,11 +12,12 @@ July 2025
 
 ## Links
 
+Since surrently we are continue the development process, the final demo video is not ready yet.
+
 - Deployment: [*edhub.space*](http://edhub.space/)
 - API Docs: [*edhub.space/api/docs*](https://edhub.space/api/docs)
 - Design: [*Figma*](https://www.figma.com/design/dZsl8QQ8ZdJAXhzhCROajk/EdHub?node-id=0-1&p=f&t=lpPrzlTOAAF9SWLW-0)
-- Demo: …
-<!-- TODO: demo -->
+- Demo: will be availabe at the [*disk*](https://drive.google.com/drive/folders/13HipbNm6YiM1MQjhS-CCmZ_m2YvtPHlp?usp=sharing) later this week
 
 # Final Deliverables
 

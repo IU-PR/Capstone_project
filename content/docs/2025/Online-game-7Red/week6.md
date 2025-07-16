@@ -108,7 +108,7 @@ The application includes the following core components:
 
 ### Frontend
 
-
+*...*
 
 ### Backend
 The following work was done:
@@ -128,6 +128,7 @@ The following work was done:
 
 ### AI
 
+The development of the model for mvp2 (bot difficulty level 2) has begun. Various parameters of the model have been studied, the increase of layers has been tested, the change of existing parameters has not resulted in a significant increase in the level of the game, in connection with which it was decided to try another approach, some parameters have been removed and some new ones have been added.
 
 
 # Weekly commitments
@@ -138,7 +139,6 @@ The following work was done:
 
 https://trello.com/c/qLlTQjXo
 
-
 **Polina Kostikova** – debugged online player search, fixed integration tests, wrote a file for localization, studied websockets
 
 https://trello.com/c/EmA1iBku
@@ -147,9 +147,15 @@ https://trello.com/c/oK65JMcS
 
 https://trello.com/c/7gQis62u
 
-**Lev Permiakov** – 
+**Lev Permiakov** – start the development of the model for mvp2 (bot difficulty level 2)
 
-**Arina Petuhova** – 
+https://trello.com/c/EhzsXR2N
+
+**Arina Petuhova** – centralized the bot for several games, rewrote logs on the server, updated database documentation, fixed bugs
+
+https://trello.com/c/Jwrj9iNb
+
+https://trello.com/c/EmA1iBku
 
 **Amir Bairamov** – 
 
@@ -159,7 +165,9 @@ https://trello.com/c/7gQis62u
 
 2. Finalize language mod
 
-3. Rehearse the presentation and demo multiple times.
+3. Add the ability to change avatars
+
+4. Rehearse the presentation and demo multiple times.
 
 ## Confirmation of the code's operability
 

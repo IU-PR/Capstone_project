@@ -103,7 +103,15 @@ Frontenders reported issues when attaching a file to a course element, we found 
 
 ## Frontend
 
-<!-- TODO: достижения фронтенда от Алины -->
+The frontend team focused on expanding user management features, improving assignment interaction for all roles, and unifying design across the platform:
+
+- **Participants Page**: A new page was added displaying all students enrolled in the course. Teachers also see the students’ parents listed next to each student.
+- **Role-Specific Views**: While teachers see full participant data (including parents), students and parents only see a basic student list, ensuring privacy and clarity.
+- **User Removal**: Teachers can now remove students and parents directly from the participant page via cross icons next to each name. This functionality is hidden from students and parents.
+- **File Submission UI**: The submission interface for assignments has been fully redesigned. Students can now upload their solutions with clear visual feedback and see grades after evaluation.
+- **Teacher Grading**: Teachers can view and grade submissions in a clean, structured layout. All student submissions are displayed with a consistent component design.
+- **Parent Access**: Parents can now view their child’s assignments and grades, promoting better engagement and transparency.
+- **Unified Styling**: Assignment and Material pages now follow the same styling guidelines, providing a consistent user experience across roles and sections.
 
 ## Plan for the Week 7
 

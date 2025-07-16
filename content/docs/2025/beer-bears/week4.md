@@ -91,6 +91,7 @@ As deployment we do not need any deployment now, but in near future we will crea
 - **Week 4 Report**  
   Compiling weekly progress metrics and findings
 
+
 ## Confirmation of the code's operability
 
 We confirm that the code in the main branch:

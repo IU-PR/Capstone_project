@@ -20,7 +20,7 @@ title: "Week #6"
 
 ### Features
 
-- two playable levels (the third is on the way)
+- playable levels 
 - original art design 
 - interaction with light bulbs and NPCs, basic movement, jump pad, idle animation, in-level door/teleporter
 - two original soundtracks and dialogues (will be added ASAP)
@@ -82,7 +82,7 @@ title: "Week #6"
 ### Things to code
 
 - add sounds to the game
-- put the 3rd level together
+- put the 2nd and 3rd levels together
 
 ### Narrative and level design
 

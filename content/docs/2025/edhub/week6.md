@@ -136,8 +136,12 @@ During week 7, we plan to finilize the developing our project as follows:
 
 ### Timur Struchkov
 
-- [`frontend`]: 
-<!-- TODO: достижения Тимура -->
+- [`frontend`]: Dynamic Page Title has been added ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/8075751c5e5cde2d87bf94be2d2a1e59d2e6fc7d));
+- [`frontend`]: admin support has been added for current pages ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/13762ec93e107e658191dd40b5b9dea650b5a189));
+- [`frontend`]: An ability for a parent to view several children's submissions has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/41ba7c4fc3955aa97dac36d6b824ff0f315ce7bf)).
+- [`frontend`]: An ability to submit an answer with a file attachment  as a student has been developed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b40e5ea667f2789d8972c7f2a0426780c5e82a04), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/3da42e4cef789a3559db7e34489b494bbc3926cc));
+- [`frontend`]: Service information has been removed from the website ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/bb219777d442c207a80da13dca60bb6333a15c1d));
+- [`frontend`]: Several visual and functional bugs have been fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/5c2c6433c05eba56912fbe7c53eac6f8510ede9d), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/581fd3a4295b1cc9770d40f03daf353d81328214), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/cd8c9efaaef75020763422862004141d0da937b8), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/7e0e245e48fcdb8f7a611654364762a89575b7c9), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/e7497f231f484f6e8e6818624cace669a96412a8)).
 
 # Repository
 

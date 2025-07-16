@@ -131,8 +131,11 @@ During week 7, we plan to finilize the developing our project as follows:
 
 ### Alina Suhoverkova
 
-- [`frontend`]: 
-<!-- TODO: достижения Алины -->
+- [`frontend`]: Participants page has been implemented with role-based visibility — teachers see parents, others don’t; removal buttons have been added for teachers;
+- [`frontend`]: Assignment submission interface has been redesigned for students — now includes grade display and stylized file upload;
+- [`frontend`]: Parent view has been updated — now displays child’s assignments and grades in a clean, minimal format;
+- [`frontend`]: Grading interface has been refined — all submissions now appear as consistent UI blocks with improved styling;
+- [`frontend`]: Material and Assignment pages have been visually aligned for unified course experience.
 
 ### Timur Struchkov
 

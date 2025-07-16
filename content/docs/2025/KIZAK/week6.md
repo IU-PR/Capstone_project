@@ -21,6 +21,8 @@ title: "Week #6"
   - [Here](https://github.com/IU-Capstone-Project-2025/KIZAK) you can find all source codes
 - **Kanban Board**:
   - [Here](https://github.com/orgs/IU-Capstone-Project-2025/projects/11) you can find our backlog with all tasks
+- **Final Presentation**L
+  - [Here](https://docs.google.com/presentation/d/1f-YpWAxS1KFvssm4z3-SoOicyxynLU4HUSK-ntVu4fI/edit?usp=sharing) you can find our final presentaion
 
 ## 🏁 **Final deliverables**
 
@@ -123,7 +125,8 @@ Visit [localhost:8000/docs](http://localhost:8000/docs) to access KIZAK API docs
 
 ## Presentation draft
 
-*Add here a link to the presentation draft.*
+Our oresentation draft can be found [here](https://docs.google.com/presentation/d/1f-YpWAxS1KFvssm4z3-SoOicyxynLU4HUSK-ntVu4fI/edit?usp=sharing)
+
 # 📝 **Weekly commitments**
 
 ## 📊 **Individual contribution of each participant**

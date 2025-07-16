@@ -8,7 +8,7 @@ title: "Week #6"
 
 
 - **Deployment**: [website](https://search.innohassle.ru/search)
-- **API Docs**: [swagger](https://api.innohassle.ru/search/staging-v0/docshttps://api.innohassle.ru/search/staging-v0/docs)
+- **API Docs**: [swagger](https://api.innohassle.ru/search/staging-v0/docs)
 - **Design**:
   - Desktop version [pages](https://www.figma.com/design/yZIK0jneKe3qTf4HLIkTFb/Search--updated-design-?node-id=4-134&t=hyCEQmhXjvecMk8R-1), [prototype](https://www.figma.com/proto/yZIK0jneKe3qTf4HLIkTFb/Search--updated-design-?node-id=4-234&t=IajzMsdfFwffe7Zg-1&starting-point-node-id=4%3A234)
   - Mobile version [pages](https://www.figma.com/design/yZIK0jneKe3qTf4HLIkTFb/Search--updated-design-?node-id=4-134&t=hyCEQmhXjvecMk8R-1), [prototype](https://www.figma.com/proto/yZIK0jneKe3qTf4HLIkTFb/Search--updated-design-?node-id=4-1545&p=f&t=ewaQYCzvfeAA7ENJ-1&scaling=min-zoom&content-scaling=fixed&page-id=4%3A134&starting-point-node-id=4%3A1545&show-proto-sidebar=1)

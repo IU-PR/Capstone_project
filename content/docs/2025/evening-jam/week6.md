@@ -6,13 +6,9 @@ title: "Week #6"
 
 ## Links
 
-- **Main repository**: [github.com/evolutionleo/Capstone-2025](https://github.com/evolutionleo/Capstone-2025)
+- **Deployment**: [github.com/evolutionleo/Capstone-2025](https://github.com/evolutionleo/Capstone-2025)
 - **Demo**: 
 - **Game design document**: [visual, narrative, sound, mechanics, level design](https://docs.google.com/document/d/1Vo9ULr0iiDlRrvzsPDKi_QGgH3iBMy6o6v2Kx9lyGMw/edit?tab=t.407f55wcjizh)
-
-
-- **Deployment**: ...
-
 
 ## Final deliverables
 
@@ -26,24 +22,37 @@ title: "Week #6"
 
 - two playable levels (the third is on the way)
 - original art design 
-- 
-- two original soundtracks (will be added ASAP)
-
+- interaction with light bulbs and NPCs, basic movement, jump pad, idle animation, in-level door/teleporter
+- two original soundtracks and dialogues (will be added ASAP)
 
 ### Tech stack
 
-Code/engine: Gamemaker
-Art: Krita, Figma
-Docs: Google Docs
-Music: FL Studio
-Presentations: Google Slides
-Version control: git
-Narrative: Google Docs
-Team communication: Telegram
+- Code/engine: Gamemaker
+- Art: Krita, Figma
+- Docs: Google Docs
+- Music: FL Studio
+- Presentations: Google Slides
+- Version control: git
+- Narrative: Google Docs
+- Team communication: Telegram
 
 ### Setup instructions
 
-*Describe the sequence of actions to launch your project, starting with cloning repositories.*
+- Option 1 (if you want to launch a game directly)
+    - Run the Automatically Built Executable (.exe)
+    1. Go to the Actions tab on the Github page
+    2. Select the latest successful workflow run
+    3. Scroll down to the Artifacts section at the bottom of the workflow summary
+    4. Download the .zip file containing the executable
+    5. Extract the archive
+    6. Inside the extracted folder, double-click the .exe file to launch the game
+
+- Option 2 (if you want to explore/modify the source code)
+    - Run the game directly from the GameMaker 
+    1. Download or clone the project folder to your local machine
+    2. Inside the folder, locate the file with the .yyp extension
+    3. Open the .yyp file using the GameMaker IDE
+    4. Press the Run button or use the shortcut (F5) to build and launch the game
 
 ## Presentation draft
 
@@ -57,9 +66,10 @@ Team communication: Telegram
     - team organization
     - [updated and animated sprites](https://github.com/evolutionleo/Capstone-2025/commit/a57f59ab08474b2b6bb11413af61b4c011aaccb4)
 - Lev Ivanov: 
+    - [implemented idle animation](https://github.com/evolutionleo/Capstone-2025/commit/39f144082b594976987dcfef6c5b8a97f30e76bd)
     - [implemented an in-level door/teleporter](https://github.com/evolutionleo/Capstone-2025/commit/5cfb9b14e54208b9e96312e4198ba7d4aa988029)
 - Ulyana Yanovitskaya: 
-    - finalised all the dialogues for the game
+    - [finalised and partially rewrote all the dialogues so they match the level design](https://docs.google.com/document/d/1Ul-d97mPKF-ZTrO-CHl08b0JdEY6rSsgcE8PJKCeIiA/edit?tab=t.5t03903ai246)
 - Veronika Levasheva:
     - wrote the report and made the presentation draft
     - [made the soundtrack for the second level (LL 2.mp3)](https://drive.google.com/drive/folders/1aE_A1JB7jDdhLytZXt-pR0goCnN93krT?usp=sharing)
@@ -91,4 +101,4 @@ Team communication: Telegram
 
 We confirm that the code in the main branch:
 - [x] In working condition.
-- [ ] Run via docker-compose (or another alternative described in the `README.md`).
+- [x] Run via docker-compose (or another alternative described in the [`README.md`](https://github.com/evolutionleo/Capstone-2025/blob/main/README.md)).

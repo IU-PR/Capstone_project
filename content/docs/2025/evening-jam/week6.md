@@ -7,7 +7,7 @@ title: "Week #6"
 ## Links
 
 - **Deployment**: [github.com/evolutionleo/Capstone-2025](https://github.com/evolutionleo/Capstone-2025)
-- **Demo**: [video demo](https://youtu.be/HfcIS501ZTU)
+- **Demo**: [video demo](https://drive.google.com/file/d/1pJyap33_p9IebNH2VpRc2-0mvwq9ICya/view?usp=sharing)
 - **Game design document**: [visual, narrative, sound, mechanics, level design](https://docs.google.com/document/d/1Vo9ULr0iiDlRrvzsPDKi_QGgH3iBMy6o6v2Kx9lyGMw/edit?tab=t.407f55wcjizh)
 
 ## Final deliverables

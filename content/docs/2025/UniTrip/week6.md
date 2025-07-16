@@ -26,7 +26,7 @@ It is designed to help students, parents, and tourists explore university life e
 
 The player explores detailed 2.5D university locations, interacts with NPCs (students and professors), and participates in mini-quests and dialogues to learn more about student life, infrastructure, and feel the atmosphere of the university.
 
-At the current stage, two locations are fully implemented — including quests, navigation, and NPC interactions.
+At the current stage, two locations are fully implemented — including quests, walking, and NPC interactions.
 
 ### Features
 

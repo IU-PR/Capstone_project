@@ -19,7 +19,8 @@ title: "Week #6"
 
 **SkillsNavigator.ai** is a platform designed to help users build a personalized learning journey, tailored to their current skills, career goals, and budget. Whether you're aiming to become a developer or pursuing a different path, SkillsNavigator.ai recommends the most effective and affordable online courses to achieve your objectives. The platform provides step-by-step guidance, cost-aware resources, and a clear view of your progress at every stage.
 
-### Problems Solved
+
+## Problems Solved
 
 **1. Too Many Courses, Not Enough Guidance**
 
@@ -28,8 +29,6 @@ Users often struggle to choose the best courses from a vast sea of online option
 
 **Solution:**
 SkillsNavigator.ai uses advanced vector search and AI-powered recommendations to match you with the most relevant and effective courses, eliminating the guesswork.
-
----
 
 **2. Lack of Personalized Learning Paths**
 
@@ -76,9 +75,9 @@ SkillsNavigator.ai provides a clear, interactive roadmap and real-time progress 
 * **Persistent history:** View your chat and roadmap history at any time.
 * **Progress synchronization:** See your progress on each roadmap and course, updated in real time.
 
----
 
-### Tech stack
+
+## Tech stack
 
 - React - Frontend;
 - FastAPI - Backend;
@@ -87,7 +86,9 @@ SkillsNavigator.ai provides a clear, interactive roadmap and real-time progress 
 - Docker - Deploy.
 - PostgreSQL - DataBase for users, chats, roadmaps. 
 
-### Setup instructions
+
+
+## Setup instructions
 
 #### 1. **Clone the Repository**
 
@@ -125,9 +126,12 @@ docker compose -f docker-compose.local.yml up --build
 * Open the application in your web browser.
 
 
+
 ## Presentation draft
 
 [Link to GitHub](https://github.com/IU-Capstone-Project-2025/SkillsNavigator.ai/blob/master/assets/Presentation_draft.pdf)
+
+
 
 # Weekly commitments
 

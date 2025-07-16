@@ -100,13 +100,14 @@ Frontenders reported issues when attaching a file to a course element, we found 
 
 ## Frontend
 
-<!-- описание от Алины -->
+<!-- TODO: достижения фронтенда от Алины -->
 
 ## Plan for the Week 7
 
 During week 7, we plan to finilize the developing our project as follows:
+- the backend team plans to develop an API commands to support the Grades page;
 - the frontend team plans to ;
-- the backend team plans to ;
+<!-- TODO: планы фронтенда (можно перечислить незакрытые issues из гитхаба) -->
 
 # Individual contribution
 
@@ -127,10 +128,12 @@ During week 7, we plan to finilize the developing our project as follows:
 ### Alina Suhoverkova
 
 - [`frontend`]: 
+<!-- TODO: достижения Алины -->
 
 ### Timur Struchkov
 
 - [`frontend`]: 
+<!-- TODO: достижения Тимура -->
 
 # Repository
 

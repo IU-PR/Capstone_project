@@ -94,6 +94,8 @@ Since the backend team has been productive for the first 5 weeks and outpaced th
 
 We decided to refactor our project to create a more rigorous architecture and develop rules for writing code within the team. At the moment we have a draft of the new architecture, which is in the process of being reviewed. We don't want to apply it this week as we are not sure that the system will work without errors, which is crucial in the run-up to the project handover.
 
+During the development of the admin account, at system startup we created a default admin user with a random password that was displayed on the screen. However, when the production server was restarted, this password was erased and the admin account was lost forever. We decided to create a default admin account with `admin` password.
+
 We also noticed that every time we access the database, the system initializes a new connection, which is inefficient. We decided to start using connections from the connection pool instead of creating a new one each time.
 
 Frontenders reported issues when attaching a file to a course element, we found a typo in the file storage connection code and fixed it.
@@ -113,13 +115,14 @@ During week 7, we plan to finilize the developing our project as follows:
 
 ### Gleb Popov
 - [`management`]: presentation draft has been created ([*Google Slides*](https://docs.google.com/presentation/d/1j8XrIkxvNVK3x4jq78MH5Uz0QWQk2-JSRoj6kuIVDDY/edit?usp=sharing));
-- [`devops`]: Built With block has been added to README.md ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/7cd4b9a6b891343f52de67a22aac12a43385932e), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/53ea6d1be1c629060218c8e5ca0fafeefdacc9aa));
+- [`management`]: Built With block has been added to README.md ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/7cd4b9a6b891343f52de67a22aac12a43385932e), [*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/53ea6d1be1c629060218c8e5ca0fafeefdacc9aa));
+- [`backend`]: Default password for admin account has been changed ([*PR #133*](https://github.com/IU-Capstone-Project-2025/edhub/pull/133));
 - [`backend`]: Careful review of pull request has been conducted ([*PR #132*](https://github.com/IU-Capstone-Project-2025/edhub/pull/132)).
 
 ### Timur Usmanov
 - [`backend`]: backend architecture refactoring has been conducted ([*PR #130*](https://github.com/IU-Capstone-Project-2025/edhub/pull/130));
 - [`backend`]: typo in the file storage connection code has been found and fixed ([*commit*](https://github.com/IU-Capstone-Project-2025/edhub/commit/b4f3d3e3242f72cc69469c5cab6a3cabd3901e64));
-- [`backend`]: Careful review of pull request has been conducted ([*PR #132*](https://github.com/IU-Capstone-Project-2025/edhub/pull/132)).
+- [`backend`]: Careful review of pull request has been conducted ([*PR #132*](https://github.com/IU-Capstone-Project-2025/edhub/pull/132), [*PR #133*](https://github.com/IU-Capstone-Project-2025/edhub/pull/133)).
 
 ### Askar Dinikeev
 - [`backend`]: backend architecture refactoring has been conducted ([*PR #130*](https://github.com/IU-Capstone-Project-2025/edhub/pull/130));

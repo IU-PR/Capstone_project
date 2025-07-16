@@ -16,7 +16,7 @@ title: "Week #6"
 - **Design**:
   - Our design could be found on [figma](https://www.figma.com/design/Ew8Vmgzn739HYN2aAaVb1s/Untitled?node-id=0-1&t=PmAtopxNZMf728gX-1)
 - **Demo**:
-  - Here you can find demo video of our project
+  - [Here](https://youtu.be/OahfLI8mL7E) you can find demo video of our project
 - **GitHub Repository**:
   - [Here](https://github.com/IU-Capstone-Project-2025/KIZAK) you can find all source codes
 - **Kanban Board**:

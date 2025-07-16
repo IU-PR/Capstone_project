@@ -6,8 +6,6 @@ title: "Week #6"
 
 ## 🌐 **Links**
 
-*Specify here all the necessary links to your website, application installer, final demo, etc.*
-
 - **Deployment**:
   - [kizak.ru](https://kizak.ru/)
 - **API Docs**:
@@ -21,8 +19,10 @@ title: "Week #6"
   - [Here](https://github.com/IU-Capstone-Project-2025/KIZAK) you can find all source codes
 - **Kanban Board**:
   - [Here](https://github.com/orgs/IU-Capstone-Project-2025/projects/11) you can find our backlog with all tasks
-- **Final Presentation**L
+- **Final Presentation Preview**:
   - [Here](https://docs.google.com/presentation/d/1f-YpWAxS1KFvssm4z3-SoOicyxynLU4HUSK-ntVu4fI/edit?usp=sharing) you can find our final presentaion
+- **Final Presentation Plan**:
+  - [Here](https://docs.google.com/document/d/1hR4DLrVlalvpKOJ_cdbv7ykV1taozR3tFScrN3r3x8Y/edit?usp=sharing) you can find our script
 
 ## 🏁 **Final deliverables**
 

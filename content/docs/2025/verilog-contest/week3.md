@@ -56,8 +56,8 @@ title: "Week #3"
 | **Mikhail Panteleev**  | UI refactoring, submission flow and runner diagrams, Runner implementation, starting Runner-manager prototype.                        |
 | **Vladislav Merkulov** | CRUD for submissions and contests, authentication and  authorization middleware, gRPC client in API.                       |
 | **Aleksei Fominykh**   | Runner prototype, submission flow and runner diagrams, to start Kubernetes deployment.                                         |
-| **Sofia Kulagina**     | Lint in frontend checks, staticcheks and gotest in backend chechs in CI/CD , runner research             |
-| **Diana Yakupova**     | Meeting organization, update kanban-board, assist with blockers, to define sprint goals for the next weeks, research devops responsobilities, report|
+| **Sofia Kulagina**     | Lint in frontend checks, staticcheks and gotest in backend checks, Docker Hub in CI/CD, runner research.             |
+| **Diana Yakupova**     | Meeting organization, update kanban-board, assist with blockers, to define sprint goals for the next weeks, research devops responsobilities, report.|
 
 ## Plan for Next Week
 

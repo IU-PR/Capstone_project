@@ -129,6 +129,8 @@ Visit [localhost:8000/docs](http://localhost:8000/docs) to access KIZAK API docs
 
 Our oresentation draft can be found [here](https://docs.google.com/presentation/d/1f-YpWAxS1KFvssm4z3-SoOicyxynLU4HUSK-ntVu4fI/edit?usp=sharing)
 
+[Here](https://docs.google.com/document/d/1hR4DLrVlalvpKOJ_cdbv7ykV1taozR3tFScrN3r3x8Y/edit?usp=sharing) you can find our script
+
 # 📝 **Weekly commitments**
 
 ## 📊 **Individual contribution of each participant**

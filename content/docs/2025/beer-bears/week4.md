@@ -56,8 +56,10 @@ As deployment we do not need any deployment now, but in near future we will crea
 
 ## Vibe Check
 <img title="Team vibe picture" alt="Team vibe picture" src="https://i.pinimg.com/736x/51/e7/5e/51e75e2b5cbe03cbdc5abf1b0f097765.jpg">
+<img title="Team vibe picture" alt="Team vibe picture" src="https://i.pinimg.com/736x/92/63/c2/9263c2aa91a1440a7a62557e80898b48.jpg">
+<img title="Team vibe picture" alt="Team vibe picture" src="https://i.pinimg.com/736x/71/e4/f1/71e4f17c3ee3d02e46c8da1132479437.jpg">
 
-> Now we are feeling exited by project, by implementing more and more complex features in project, but feeling a bit tired and overwhelmed with a lot of tasks and deals we need to implement in near future.
+> Now we are feeling exited by project, we are currently adding more and more complex features into project, but feeling a bit tired and overwhelmed with a lot of tasks and deals we need to implement in near future.
  
 # Weekly commitments
 
@@ -65,7 +67,7 @@ As deployment we do not need any deployment now, but in near future we will crea
 
 #### Trunn5
 - **Add Pytest**  
-  Implemented pytest framework for testing infrastructure
+  Add pytest framework for testing infrastructure
 - **Parse Async Functions**  
   Added support for asynchronous function parsing
 - **[Generator] Connect Files to Folders nodes**  
@@ -87,7 +89,8 @@ As deployment we do not need any deployment now, but in near future we will crea
 
 ### mashfeii
 - **Week 4 Report**  
-  Compiling weekly progress metrics and findings## Plan for Next Week
+  Compiling weekly progress metrics and findings
+
 
 ## Confirmation of the code's operability
 

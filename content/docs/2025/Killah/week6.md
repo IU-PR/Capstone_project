@@ -79,10 +79,10 @@ Using the English-language encoder BAAI/bge-base-en-v1.5 — as in the original 
 
   Using the internal text encoder of Gemma itself, assuming that the embedded representation may be more consistent with the generation model. [Commit](https://github.com/vladkalinichencko/Killah-Prototype/commit/e7fcdd04ab0fdce7575468978c784459cf5dbe2d)
 
-  Unfortunately, training projectors for the first two encoders was unsuccessful — the loss remained high or grew, and the generation did not improve. An attempt to use the Gemma encoder also failed, which confirmed our assumption about the insufficient suitability of the embedded layers for the tasks of style embedding extraction.
-Nevertheless, I performed the full cycle of preparation, preprocessing, integration and training of projectors. Although I haven't yet achieved a consistent improvement, I'm confident that I can identify the source of the problems and continue to work on personalizing the model.
+I performed the full cycle of preparation, preprocessing, integration and training of projectors. Although I haven't yet achieved a consistent improvement, I'm confident that I can identify the source of the problems and continue to work on personalizing the model. Initially, training projectors for the first two encoders was unsuccessful — the loss remained high or grew, and the generation did not improve. An attempt to use the Gemma encoder also failed, which confirmed our assumption about the insufficient suitability of the embedded layers for the tasks of style embedding extraction. But finally, the first progress to merge embeddings has been achieved and now we start to see progress in training convervence and hope it'll become into the final version.
+
 - **Vlad**: Completed App Development Tasks
-      Most important – Added a Welcome window with a file explorer
+  Most important – Added a Welcome window with a file explorer
 
  • Fixed theme switching in settings - Resolved issues with theme changes not properly applying or persisting in the application settings
  
@@ -121,7 +121,7 @@ Nevertheless, I performed the full cycle of preparation, preprocessing, integrat
    
  • Fine-tuned model for instruction following - Additional training needed for better instruction adherence when editing text
  
- • Conducted an interpretability research on what's been going on with projector embeddings. Currently investigating the outcomes
+ • Conducted an interpretability research on what's been going on with projector embeddings. Currently investigating the outcomes: added the Sinkhorn loss that dramatically improved convergence and finally got it off the ground our efforts.
    [Commit](https://github.com/vladkalinichencko/Killah-Prototype/commit/6b04fef6b72aacf2a574030c8983898fec3dd240)
 - **Polina**:Implemented local server llama-cpp to handle problem with asynchrony and model downloading multiple times which drastically increased memory usage. Now all models functionality is going through APIs and model is on the server. [Commit](https://github.com/vladkalinichencko/Killah-Prototype/commit/5a3df3a3fbfabdc3fe3a585d6e2107d81e5b0289)
     Implemented LoRA functionality for autocomplete and created pipeline for LoRAs for other functions [Commit](https://github.com/vladkalinichencko/Killah-Prototype/commit/0e03f681fa8ac38e7cddfff9be971ae06d08a9d0)
@@ -153,8 +153,8 @@ Nevertheless, I performed the full cycle of preparation, preprocessing, integrat
 - **Vlad**:
 
   - Oversee and contribute to the training of personalization features, focusing on resolving challenges with adapters.
-  - Trying to pack the app for the final release on Mac, for delivering it to the final users.
-  - Web-server for generating pass keys for access in the app and trying to make payment system
+  - Trying to pack the app for the final release on Mac, for delivering it to final users.
+  - Web-server for generating pass keys for access in the app and trying to make payment system.
 
 - **Entire Team**:
 

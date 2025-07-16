@@ -12,7 +12,7 @@ title: "Week #6"
 
 - **Design**: [https://www.figma.com](https://www.figma.com/design/ttrFjZlaz8jyuKQAzcHHkm/Untitled?node-id=0-1&p=f&t=c6lLIGjvjL40mOyM-0)
 
-- **Demo**: ...
+- **Demo**: [https://drive.google.com](https://drive.google.com/drive/folders/19T_W_HOcX-3KzbpjSRU0x3DtEXiVTfmK?usp=sharing)
 
 - **Github** - [https://github.com](https://github.com/IU-Capstone-Project-2025/Online-game-7Red/tree/main)
 
@@ -98,7 +98,68 @@ The application includes the following core components:
 
 ### Setup instructions
 
-*Describe the sequence of actions to launch your project, starting with cloning repositories.*
+#### 1. **Clone the Repository**
+
+https://github.com/IU-Capstone-Project-2025/Online-game-7Red.git
+
+#### 2. **Prerequisites Installation**
+
+Ensure you have the following installed on your system:
+
+- **Docker** and **Docker Compose** (required for containerized deployment)
+
+- **Python 3.8+** (for local backend development)
+
+- **Flutter SDK** (for local frontend development)
+
+- **Git** (for version control)
+
+#### 3. **Environment Configuration**
+
+ Copy the environment template and edit .env file with your configuration
+
+Configure the following environment variables in .env:
+- `PROJECT_ID`: Your project identifier
+- `DB_USER`: Database username
+- `DB_PASS`: Database password
+- `BRANCH_ID`: Branch identifier
+- `DATABASE_URL`: Complete database connection string
+- `WS_URL`: WebSocket URL (`ws://localhost:8080/api` for local development)
+
+#### 4. **Quick Start with Docker **
+
+**Option A**: Using Pre-built Images from DockerHub spalkkina/7red. Build and start all services with  `docker-compose up --build`
+
+**Option B**: Local Development Build. Use the local development configuration
+`docker-compose -f docker-compose.local.yml up --build`
+
+
+#### 5. **Quick Start with access the Application (Recommended)**
+- **Frontend**: [http://7red.ru](http://7red.ru)
+- **Backend API Documentation**: [http://7red.ru/api/docs](http://7red.ru/api/docs)
+- **Alternative API Documentation**: [http://7red.ru/api/redoc](http://7red.ru/api/redoc)
+
+#### 6. **Testing the Application**
+
+**For Local Multiplayer Testing:**
+1. Open 2-4 browser tabs at [http://localhost:8080](http://localhost:8080)
+2. Create different accounts in each tab (Sign In/Sign Up)
+3. From one account: Create private room (Start new game → Create private room)
+4. From other accounts: Join using room ID and password (Start new game → Connect private room)
+5. Click "Get Ready" button in each tab
+6. Start playing by dragging cards and submitting moves
+
+**For local Bot Testing:**
+1. Open browser at [http://localhost:8080](http://localhost:8080)
+2. Log in to your account
+3. Select "Start new game → Vs Bot"
+4. Play against the AI opponent
+
+#### 9. **Development Tools**
+- **Logs**: Monitor Docker logs with `docker-compose logs -f`
+
+#### 10. **Stopping the Application**
+ Stop Docker containers `docker-compose down -v`
 
 ## Presentation draft
 

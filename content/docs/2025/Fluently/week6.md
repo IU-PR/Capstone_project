@@ -9,7 +9,7 @@ title: "Week #6"
 <!-- _Specify here all the necessary links to your website, application installer, final demo, etc._ -->
 
 - **Deployment**: [fluently-app.ru](https://fluently-app.ru/)
-- **API Docs**: [fluently-app.ru/swagger/index.htm](https://fluently-app.ru/swagger/index.html)
+- **API Docs**: [fluently-app.ru/swagger/ (Private)](https://fluently-app.ru/swagger/index.html)
 - **Design**:
   - Lofi: [Figma-Lofi](https://www.figma.com/design/CcvdlGTayqnZPemfehfZjj/Fluently-Lofi?node-id=0-1&p=f&t=ge0Wpe0RCLRRmT72-0)
   - UI/UX: [Figma-UI/UX](https://www.figma.com/design/fB7aZCbTyFek5OA1CTzJGw/Untitled?node-id=0-1&p=f&t=LEFSUjFFhlMM0QNq-0)

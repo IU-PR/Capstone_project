@@ -3,8 +3,6 @@ title: "Week 6"
 ---
 
 # Week 6 Progress Report – Final Touches & Presentation Preparation  
-*(capstone project “Kolobok”)  
-
 ---
 
 ## 1 Executive Summary  
@@ -61,7 +59,7 @@ The improved mask regularity produces tighter ellipse-fitting, which in turn sha
 
 1. Vectorise a 2-D tread-pattern image;  
 2. Extrude along normal to form height field;  
-3. Parameterise depth δ ∈ [1 mm, 8 mm];  
+3. Parameterise depth δ ∈ [1 mm, 10 mm];  
 4. Render colour pass (1024 × 1024) plus Z-buffer;  
 5. Export depth in millimetres via normalised EXR.  
 
@@ -89,19 +87,6 @@ No critical defects surfaced; minor UI mis-alignment in Safari patched before ta
 
 ---
 
-## 4 Documentation Status  
-
-| Artifact                       | Location / Status                               |
-|--------------------------------|-------------------------------------------------|
-| **README.md**                  | Repository root – expanded *Setup* and *Troubleshooting*. |
-| **API Markdown**               | `docs/api.md` – matches Swagger; added code-examples.      |
-| **Design (Figma)**             | Frame group “v1.0 Final” – all screens linked.  |
-| **Blender pipeline write-up**  | `docs/synthetic/blender_pipeline.md`.           |
-| **ONNX export guide**          | `docs/models/onnx_export.md`.                   |
-| **Demo script**                | `docs/demo_script.md` – step-by-step, 8 min run-time. |
-
----
-
 ## 5 Presentation Preparation  
 
 *Slide deck.* Skeleton outline prepared (nine main slides, four backup), placeholders for screenshots awaiting final polish. Located at `docs/presentation/kolobok_final.pptx`.
@@ -112,22 +97,7 @@ No critical defects surfaced; minor UI mis-alignment in Safari patched before ta
 
 ---
 
-## 6 Deliverables  
-
-| Deliverable                                    | Link / Hash                                               |
-|------------------------------------------------|-----------------------------------------------------------|
-| Final deployed system (staging)                | https://kolobok-staging.tech                             |
-| Site mirror on Vercel                          | https://kolobok.vercel.app                               |
-| Release tag (`main`)                           | `v1.0.0-release` (commit `8f3c21b`)                      |
-| ONNX model artefacts                           | `artifacts/onnx/` in repository                          |
-| Synthetic-data first batch (Blender)           | `data/synthetic_blender_v0.1/` (50 images, EXR depths)   |
-| Documentation bundle (html, pdf)               | `docs/build/kolobok_docs_v1.zip`                         |
-| Presentation draft (pptx)                      | `docs/presentation/kolobok_final.pptx`                   |
-| Demo script & rehearsal notes                  | `docs/demo_script.md`                                    |
-
----
-
-## 7 Team Contributions – Week 6 Only  
+## 7 Team Contributions  
 
 | Member                   | Contribution Highlights                                                                      |
 |--------------------------|----------------------------------------------------------------------------------------------|
@@ -142,15 +112,5 @@ No critical defects surfaced; minor UI mis-alignment in Safari patched before ta
 ---
 
 ## 8 Project Readiness Checklist  
-
-| Item                                    | Status | Evidence                                       |
-|-----------------------------------------|--------|------------------------------------------------|
-| Feature-complete codebase               | Yes    | Release tag `v1.0.0-release`.                 |
-| Documentation finalised                 | Yes    | README / API / Figma locked.                  |
-| Test suite green                        | Yes    | CI pipeline `#287` passed 23 July.            |
-| Code-freeze enforced                    | Scheduled | 28 July 18:00 UTC+3 – branch rules active.     |
-| Slide deck draft                        | In-progress | Outline stored; screenshots pending.          |
-| Live demo environment operational       | Yes    | Staging uptime monitor 100 % past 72 h.       |
-| Backup demo artefacts                   | Yes    | Screencast `demo_fallback.mp4`.               |
 
 The project is therefore ready for final rehearsal, stakeholder review, and subsequent public defence. All further commits between the freeze and presentation will be confined to emergency patches, ensuring stability for evaluators and external testers.

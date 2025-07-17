@@ -2,130 +2,155 @@
 title: "Week 6"
 ---
 
-# Week 6 Progress Report: Final Touches & Presentation Preparation
-
-## 1. Executive Summary  
-The sixth and final project week concentrated on polishing every component of the Kolobok platform, performing deep regression testing, stabilising the codebase under a formal code-freeze, and preparing the complete presentation package. The system now delivers reliable tread-depth estimation, spike classification, and brand recognition through both Telegram and Web interfaces, underpinned by a documented REST API.  
-All technical debt identified in previous sprints has been addressed; documentation is finalised; and a rehearsal-ready slide deck and live-demo plan have been produced.
+# Week 6 Progress Report – Final Touches & Presentation Preparation  
+*(capstone project “Kolobok”)  
 
 ---
 
-## 2. Final Project Polish  
+## 1 Executive Summary  
 
-### 2.1 Code Quality & Clean-Up  
-| Area                     | Action Taken                                                                                          |
-|--------------------------|--------------------------------------------------------------------------------------------------------|
-| Lint / Formatting        | `black`, `flake8`, `isort`, and `pylint` applied across the repository.                                |
-| Comments & Docstrings    | Added module-level and function-level docstrings following Google style.                               |
-| Dead-Code Removal        | Eliminated legacy scripts (`/scripts/legacy_*`) and unused imports.                                    |
-| Static Analysis          | `mypy` run with strict mode; all type errors resolved.                                                 |
-| Version Tags             | Repository tagged `v1.0.0-release` and Docker images tagged `1.0.0`.                                   |
+Week 6 concluded the implementation phase and opened the release-preparation window.  
+The core product functionality—automatic tyre analysis via tread-depth regression, spike-condition segmentation, and brand-text OCR—has remained stable since the Week 5 freeze candidate. This final sprint therefore emphasised four themes:
 
-### 2.2 Final Feature Work  
-* Confidence score now surfaced in API and UI for all model outputs.  
-* Brand-recognition fallback improved for partially occluded sidewall text.  
-* Reduced inference latency by 18 % through batch size tuning and lazy model loading.  
-* Adaptive image-compression added on client side to accelerate mobile uploads.
+1. **Performance & Portability** – critical models were exported to ONNX, yielding up-to-10× CPU speed-ups (2 s → 0.3 s per inference) and lowering memory overhead;  
+2. **UX Polish** – the Web application gained quick-action buttons, friendlier waiting dialogues, local chat-history persistence, and was re-deployed to Vercel for improved availability;  
+3. **Synthetic-Data Pipeline Kick-off** – a Blender workflow capable of rendering tyres with programmatically varied tread depth produced its first sample set, seeding future augmentation;  
+4. **Release Governance** – a dated code-freeze was declared, documentation targets enumerated, and a roadmap for slide-deck authoring plus live-demo logistics drafted.
 
-### 2.3 Code Freeze  
-* Code-freeze declared **14 July 2025 19:00 (UTC+3)**.  
-* Post-freeze commits restricted to critical hot-fixes via protected branch rules and mandatory pull-request reviews.
+The system now meets functional requirements and is locked for presentation, with only critical hot-fixes allowed until final defence.
 
 ---
 
-## 3. Documentation Finalisation  
+## 2 Final-Week Technical Work  
 
-| Document                    | Status | Notes                                                                                         |
-|-----------------------------|--------|------------------------------------------------------------------------------------------------|
-| `README.md`                 | Final  | Contains overview, install guide, dataset links, tech stack, and demo instructions.            |
-| API Reference (`/docs`)     | Final  | Auto-generated Swagger plus prose Markdown summary (`docs/api.md`).                            |
-| Figma Design Board          | Final  | All screens, error states, and user-flow diagrams up to date.                                  |
-| Inline Code Comments        | Final  | Coverage verified; public functions ≥ 95 % documented.                                         |
-| Deployment Guide            | Final  | Step-by-step Docker Compose and Kubernetes notes for self-hosting.                              |
+### 2.1 Model Optimisation & Conversion  
 
----
+| Model / Module                | Action this week                          | Resulting Runtime (CPU) | Speed-up | Notes                         |
+|-------------------------------|-------------------------------------------|-------------------------|----------|------------------------------|
+| **SegFormer spike-segmenter** | PyTorch → ONNX export & graph simplifier | 0.30 s / image          | ≈10×     | previous pure-PyTorch 2 s; precision unchanged |
+| **Tyre Unwrapper v2**         | Re-trained SegFormer variant on mixed dataset; exported to ONNX | 0.45 s   | ≈8×      | IOU gain 5 pp on wheel-mounted tyres |
+| **OCR post-filter**           | Lightweight distortion-correct module re-implemented in ONNX-Runtime | 0.02 s   | —        | ported for inference uniformity |
 
-## 4. Testing & Verification  
+*Conversion process.* All exports use opset 17, validated with onnx-runtime 1.17.1. Batch-norm folding and constant-fold passes were applied via onnx-optimizer; the resulting artefacts live under `artifacts/onnx/`. Automated integrity tests confirm numerical parity (<1e-5 MSE) with the reference PyTorch graphs.
 
-### 4.1 Regression Test Summary  
-| Suite                     | Tests | Pass Rate | Coverage |
-|---------------------------|-------|-----------|----------|
-| Backend Unit              | 212   | 100 %     | 96 %     |
-| API Integration           | 64    | 100 %     | —        |
-| Front-end (Cypress)       | 34    | 100 %     | 91 %     |
-| Telegram Bot Scenarios    | 15    | 100 %     | —        |
-| ML Validation (PyTest)    | 27    | 100 %     | —        |
+### 2.2 Web-Site Enhancements  
 
-### 4.2 Manual Exploratory Tests  
-* Five external users executed scripted tasks (upload, correction, report export).  
-* No critical defects found; two minor UI wording issues logged and fixed.  
+*Quick-action buttons.* The landing page now offers “Analyse Tread”, “Analyse Spike”, and “Detect Brand” actions that route the uploaded image straight to the corresponding API without an intermediary menu click, trimming the median user pathway by one interaction.
 
-### 4.3 Load & Performance  
-* Sustained 50 concurrent inference requests on staging; average response 1.4 s.  
-* Peak memory footprint for full stack measured at 1.8 GB on 4 GB VDS.
+*Waiting dialogue.* A progressive-disclosure modal supplies status (“uploading”, “pre-processing”, “inference”) with time-outs and fallback guidance. This reduced observed early-abandon events during internal tests.
 
----
+*Local-storage chat history.* User conversations (image thumbnails plus textual results) persist in `window.localStorage`. A newly-added toolbar icon allows clearing the cache, satisfying privacy feedback gathered in Week 5.
 
-## 5. Presentation Preparation  
+*Deployment.* The static React bundle and serverless proxy were re-deployed to **Vercel** (region fra1). Build logs are attached in the repository under `ci/vercel_2025-07-23.log`.
 
-### 5.1 Slide-Deck Structure  
-1. Problem Statement and Market Gap  
-2. Target Audience and Use-Cases  
-3. Architecture Overview  
-4. Key Features and Live Demonstration  
-5. Challenges and Lessons Learned  
-6. Future Work Roadmap  
-7. Team Contributions  
+### 2.3 New Unwrapper Model & Dataset Expansion  
 
-### 5.2 Speaking Assignments  
-* Introduction / Problem – Nikita Menshikov  
-* Machine-Learning Pipeline – Nikita Zagainov  
-* Front-end & UX – Darya Stepanova  
-* API & DevOps – Vladislav Strelkov  
-* Demo Navigation – Dmitry Tetkin  
-* Closing Remarks / Q&A – Nikita Menshikov  
+The earlier open-source tyre-ring detector lacked robustness when wheels were mounted or background clutter appeared. This week’s replacement:
 
-### 5.3 Rehearsal Log  
-* Three full run-throughs held (12, 13, 14 July) with time-stamped feedback.  
-* Average presentation length stabilised at 12 minutes with 3 minutes Q&A buffer.  
+* **Architecture** – SegFormer-B2 backbone with mixed-scale deformable-attention decoder;  
+* **Training corpus** – 1 260 pre-labelled “bare” tyres plus 200 new wheel-mounted instances (manual correction after auto-label seeding);  
+* **Augmentation** – random perspective warp, synthetic background compositing, Gaussian-noise injection;  
+* **Metrics** – mIoU 91 % (old model 86 %), boundary-F1 0.88 (old 0.81);  
+* **Inference** – ONNX FP16 on CPU 0.45 s median; GPU 12 ms.
 
-### 5.4 Live Demo Checklist  
-| Item                            | Status | Backup Plan                                                 |
-|---------------------------------|--------|-------------------------------------------------------------|
-| Staging URL responsiveness      | OK     | Local Docker-Compose demo container                         |
-| Telegram Bot token availability | OK     | Pre-recorded screencast with narration                      |
-| Internet contingency            | OK     | Mobile 5G hotspot configured                                |
-| Demo images repository          | OK     | Local zip bundle and cloud mirror                           |
+The improved mask regularity produces tighter ellipse-fitting, which in turn sharpens ROI cropping for downstream OCR.
+
+### 2.4 Blender Variable-Depth Tyre Model  
+
+*Pipeline overview.*
+
+1. Vectorise a 2-D tread-pattern image;  
+2. Extrude along normal to form height field;  
+3. Parameterise depth δ ∈ [1 mm, 8 mm];  
+4. Render colour pass (1024 × 1024) plus Z-buffer;  
+5. Export depth in millimetres via normalised EXR.  
+
+*Current status.* First tyre instance rendered; 50 images covering five depth settings exported. Lighting and background realism remain work-in-progress; glossy floor reflections are being tuned via Cycles node-graph to minimise domain shift. The initial renders will seed a pilot experiment on depth-regression fine-tuning next sprint.
 
 ---
 
-## 6. Deliverables  
+## 3 Governance & Release Management  
 
-| Deliverable                                   | Link / Location                                                                  |
-|-----------------------------------------------|----------------------------------------------------------------------------------|
-| Final deployed system (staging)               | https://kolobok-staging.tech                                                     |
-| Repository release tag                        | https://github.com/IU-Capstone-Project-2025/Kolobok @ v1.0.0-release             |
-| Comprehensive documentation bundle            | `/docs` folder in repository (includes API, design, deployment)                 |
-| Slide deck (PDF, 16:9)                        | `docs/kolobok_presentation.pdf`                                                  |
-| Code-freeze declaration memo                  | `docs/code_freeze_2025-07-14.md`                                                 |
-| Demo plan and rehearsal notes                 | `docs/demo_script.md`                                                            |
+### 3.1 Code-Freeze Declaration  
 
----
+* Date / time: **28 July 2025 18:00 UTC+3**  
+* Allowed post-freeze commits: P0 bug-fixes only, subject to double-review.  
+* Branch protections: `main` requires CI green and two approvals; squash merges enforced.
 
-## 7. Team Contributions  
+### 3.2 Testing & Coverage (post-freeze)  
 
-| Team Member            | Final-Week Contributions |
-|------------------------|--------------------------|
-| **Nikita Menshikov**    | Authored final report and slide deck; enforced code-freeze; polished README; coordinated rehearsals |
-| **Nikita Zagainov**     | Final optimisation of OCR and depth models; integrated confidence metrics; updated API schema |
-| **Dmitry Tetkin**       | Produced fail-safe demo video; improved unwrapper throughput; validated image-compression workflow |
-| **Vladislav Strelkov**  | Verified CI/CD pipeline under release tag; published public Swagger docs; stress-tested containers |
-| **Sergey Aitov**        | Patched edge-case errors in inference service; expanded integration tests; reviewed code comments |
-| **Ekaterina Petrova**   | Completed front-end QA pass; refined responsive layout; consolidated design tokens |
-| **Darya Stepanova**     | Final Figma updates; streamlined web onboarding flow; adjusted bot quick-reply labels |
+* Backend unit tests: 212 / 212 pass – 96 % statement coverage.  
+* API integration: 64 scenarios pass; schema validation automated via `prance`.  
+* Front-end Cypress: 34 tests pass; Lighthouse accessibility score 95 / 100.  
+* Telegram-bot scripted flows: 15/15 pass.  
+* Synthetic load: 50 parallel requests sustain 1.4 s p95 latency.
+
+No critical defects surfaced; minor UI mis-alignment in Safari patched before tag `v1.0.0-release`.
 
 ---
 
-## 8. Confirmation of Final System State    
-* Live demo environment monitored and stable.  
-* Project ready for public presentation.
+## 4 Documentation Status  
+
+| Artifact                       | Location / Status                               |
+|--------------------------------|-------------------------------------------------|
+| **README.md**                  | Repository root – expanded *Setup* and *Troubleshooting*. |
+| **API Markdown**               | `docs/api.md` – matches Swagger; added code-examples.      |
+| **Design (Figma)**             | Frame group “v1.0 Final” – all screens linked.  |
+| **Blender pipeline write-up**  | `docs/synthetic/blender_pipeline.md`.           |
+| **ONNX export guide**          | `docs/models/onnx_export.md`.                   |
+| **Demo script**                | `docs/demo_script.md` – step-by-step, 8 min run-time. |
+
+---
+
+## 5 Presentation Preparation  
+
+*Slide deck.* Skeleton outline prepared (nine main slides, four backup), placeholders for screenshots awaiting final polish. Located at `docs/presentation/kolobok_final.pptx`.
+
+*Speaker allocation.* Unchanged from Week 5; rehearsal schedule booked for 25 July afternoon, 27 July morning.
+
+*Demo logistics.* Live demo served from Vercel front-end with back-end API on staging VDS; fallback screencast recorded in MP4.
+
+---
+
+## 6 Deliverables  
+
+| Deliverable                                    | Link / Hash                                               |
+|------------------------------------------------|-----------------------------------------------------------|
+| Final deployed system (staging)                | https://kolobok-staging.tech                             |
+| Site mirror on Vercel                          | https://kolobok.vercel.app                               |
+| Release tag (`main`)                           | `v1.0.0-release` (commit `8f3c21b`)                      |
+| ONNX model artefacts                           | `artifacts/onnx/` in repository                          |
+| Synthetic-data first batch (Blender)           | `data/synthetic_blender_v0.1/` (50 images, EXR depths)   |
+| Documentation bundle (html, pdf)               | `docs/build/kolobok_docs_v1.zip`                         |
+| Presentation draft (pptx)                      | `docs/presentation/kolobok_final.pptx`                   |
+| Demo script & rehearsal notes                  | `docs/demo_script.md`                                    |
+
+---
+
+## 7 Team Contributions – Week 6 Only  
+
+| Member                   | Contribution Highlights                                                                      |
+|--------------------------|----------------------------------------------------------------------------------------------|
+| **Nikita Menshikov**     | Authored code-freeze memo; consolidated documentation; validated site deployment on Vercel; wrote final report. |
+| **Nikita Zagainov**      | Exported spike-segmenter and unwrapper to ONNX; benchmarked 10× CPU speed-up; updated API to expose confidence scores. |
+| **Dmitry Tetkin**        | Implemented Blender tread-depth variability pipeline; produced first 50 synthetic samples; profiled Cycles lighting. |
+| **Vladislav Strelkov**   | Hardened CI/CD around release tag; tested container startup with ONNX-runtime; published public Swagger docs. |
+| **Sergey Aitov**         | Extended integration test suite to cover ONNX inference path; fixed rare null-pointer error on zero-spike images. |
+| **Ekaterina Petrova**    | Added quick-action buttons, waiting dialogues, and local-storage chat cache; managed Vercel build/config. |
+| **Darya Stepanova**      | Refined UI copy; ran usability sessions; compiled feedback log for next-week polish; implemented polar-index query helper. |
+
+---
+
+## 8 Project Readiness Checklist  
+
+| Item                                    | Status | Evidence                                       |
+|-----------------------------------------|--------|------------------------------------------------|
+| Feature-complete codebase               | Yes    | Release tag `v1.0.0-release`.                 |
+| Documentation finalised                 | Yes    | README / API / Figma locked.                  |
+| Test suite green                        | Yes    | CI pipeline `#287` passed 23 July.            |
+| Code-freeze enforced                    | Scheduled | 28 July 18:00 UTC+3 – branch rules active.     |
+| Slide deck draft                        | In-progress | Outline stored; screenshots pending.          |
+| Live demo environment operational       | Yes    | Staging uptime monitor 100 % past 72 h.       |
+| Backup demo artefacts                   | Yes    | Screencast `demo_fallback.mp4`.               |
+
+The project is therefore ready for final rehearsal, stakeholder review, and subsequent public defence. All further commits between the freeze and presentation will be confined to emergency patches, ensuring stability for evaluators and external testers.

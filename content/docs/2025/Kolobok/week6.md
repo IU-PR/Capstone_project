@@ -101,13 +101,13 @@ No critical defects surfaced; minor UI mis-alignment in Safari patched before ta
 
 | Member                   | Contribution Highlights                                                                      |
 |--------------------------|----------------------------------------------------------------------------------------------|
-| **Nikita Menshikov**     | Authored code-freeze memo; consolidated documentation; validated site deployment on Vercel; wrote final report. |
+| **Nikita Menshikov**     | Managed pipeline enhancement research; created advanced version of tire model; validated site deployment on Vercel; wrote report. |
 | **Nikita Zagainov**      | Exported spike-segmenter and unwrapper to ONNX; benchmarked 10× CPU speed-up; updated API to expose confidence scores. |
 | **Dmitry Tetkin**        | Implemented Blender tread-depth variability pipeline; produced first 50 synthetic samples; profiled Cycles lighting. |
 | **Vladislav Strelkov**   | Hardened CI/CD around release tag; tested container startup with ONNX-runtime; published public Swagger docs. |
 | **Sergey Aitov**         | Extended integration test suite to cover ONNX inference path; fixed rare null-pointer error on zero-spike images. |
 | **Ekaterina Petrova**    | Added quick-action buttons, waiting dialogues, and local-storage chat cache; managed Vercel build/config. |
-| **Darya Stepanova**      | Refined UI copy; ran usability sessions; compiled feedback log for next-week polish; implemented polar-index query helper. |
+| **Darya Stepanova**      | Refined UI, enhanced usability through interactive elements and engagement management ([1](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/5033bf3d6e9960f1d50a952f69dbc3256fc16055), [2](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/e22026b9614cc735c30740e6ee7c6d6545249032)) |
 
 ---
 

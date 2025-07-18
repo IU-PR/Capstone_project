@@ -103,8 +103,8 @@ The improved mask regularity produces tighter ellipse-fitting, which in turn sha
 |--------------------------|----------------------------------------------------------------------------------------------|
 | **Nikita Menshikov**     | Managed pipeline enhancement research; created advanced version of tire model; validated site deployment on Vercel; wrote report. |
 | **Nikita Zagainov**      | Led improvement patches development; added TOR [proxy](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/0b6b9538800ad3b4595997795f36cf7267539ad3) to access foreign models |
-| **Dmitry Tetkin**        | Implemented Blender tread-depth variability pipeline; produced first 50 synthetic samples; profiled Cycles lighting. |
-| **Vladislav Strelkov**   | Converted the most usage-intensive checkpoints to ONNX format; tested container startup with ONNX-runtime |
+| **Dmitry Tetkin**        | [Implemented](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/25758a45a172de0de706a9664d87fb59698a20ed) new scene with more real light; produced 10k synthetic samples |
+| **Vladislav Strelkov**   | [Converted](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/09f0072ccbf5ed6ac163d6a08ed3a56de5a0ef04) the most usage-intensive checkpoints to ONNX format; tested container startup with ONNX-runtime |
 | **Sergey Aitov**         | Trained and incorporated new tire segmentation [model](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/7655888c94ee5fc4913c63e68abcb8feafbffe92) into pipeline |
 | **Ekaterina Petrova**    | Trained and incorporated new tire unwrapper [model](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/d00e393b06f7373c2348ebd7d1eb1fcdb1419c83) into pipeline |
 | **Darya Stepanova**      | Refined UI, enhanced usability through interactive elements and engagement management ([1](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/5033bf3d6e9960f1d50a952f69dbc3256fc16055), [2](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/e22026b9614cc735c30740e6ee7c6d6545249032)) |

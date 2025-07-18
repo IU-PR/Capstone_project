@@ -89,7 +89,7 @@ No critical defects surfaced; minor UI mis-alignment in Safari patched before ta
 
 ## 5 Presentation Preparation  
 
-*Slide deck.* Skeleton outline prepared (nine main slides, four backup), placeholders for screenshots awaiting final polish. Located at `docs/presentation/kolobok_final.pptx`.
+*Slide deck.* Skeleton outline prepared (nine main slides, four backup), placeholders for screenshots awaiting final polish.
 
 *Speaker allocation.* Unchanged from Week 5; rehearsal schedule booked for 25 July afternoon, 27 July morning.
 

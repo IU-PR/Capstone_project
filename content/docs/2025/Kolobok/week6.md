@@ -27,7 +27,7 @@ The system now meets functional requirements and is locked for presentation, wit
 |-------------------------------|-------------------------------------------|-------------------------|----------|------------------------------|
 | **SegFormer spike-segmenter** | PyTorch → ONNX export & graph simplifier | 0.30 s / image          | ≈10×     | previous pure-PyTorch 2 s; precision unchanged |
 | **Tyre Unwrapper v2**         | Re-trained SegFormer variant on mixed dataset; exported to ONNX | 0.45 s   | ≈8×      | IOU gain 5 pp on wheel-mounted tyres |
-| **OCR post-filter**           | Lightweight distortion-correct module re-implemented in ONNX-Runtime | 0.02 s   | —        | ported for inference uniformity |
+
 
 *Conversion process.* All exports use opset 17, validated with onnx-runtime 1.17.1. Batch-norm folding and constant-fold passes were applied via onnx-optimizer; the resulting artefacts live under `artifacts/onnx/`. Automated integrity tests confirm numerical parity (<1e-5 MSE) with the reference PyTorch graphs.
 

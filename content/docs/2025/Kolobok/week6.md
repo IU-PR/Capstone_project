@@ -39,7 +39,7 @@ The system now meets functional requirements and is locked for presentation, wit
 
 *Local-storage chat history.* User conversations (image thumbnails plus textual results) persist in `window.localStorage`. A newly-added toolbar icon allows clearing the cache, satisfying privacy feedback gathered in Week 5.
 
-*Deployment.* The static React bundle and serverless proxy were re-deployed to **Vercel** (region fra1). Build logs are attached in the repository under `ci/vercel_2025-07-23.log`.
+*Deployment.* The static React bundle and serverless proxy were re-deployed to **Vercel** (region fra1).
 
 ### 2.3 New Unwrapper Model & Dataset Expansion  
 

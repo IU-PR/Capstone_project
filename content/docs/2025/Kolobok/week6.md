@@ -69,21 +69,12 @@ The improved mask regularity produces tighter ellipse-fitting, which in turn sha
 
 ## 3 Governance & Release Management  
 
-### 3.1 Code-Freeze Declaration  
+### 3.1 Testing & Coverage (post-freeze)  
 
-* Date / time: **28 July 2025 18:00 UTC+3**  
-* Allowed post-freeze commits: P0 bug-fixes only, subject to double-review.  
-* Branch protections: `main` requires CI green and two approvals; squash merges enforced.
-
-### 3.2 Testing & Coverage (post-freeze)  
-
-* Backend unit tests: 212 / 212 pass – 96 % statement coverage.  
-* API integration: 64 scenarios pass; schema validation automated via `prance`.  
+* Backend unit tests: 9 / 9 pass – 100 % statement coverage.  
+* API integration: 6 scenarios pass.  
 * Front-end Cypress: 34 tests pass; Lighthouse accessibility score 95 / 100.  
-* Telegram-bot scripted flows: 15/15 pass.  
-* Synthetic load: 50 parallel requests sustain 1.4 s p95 latency.
-
-No critical defects surfaced; minor UI mis-alignment in Safari patched before tag `v1.0.0-release`.
+* Telegram-bot scripted flows: 3/3 pass.  
 
 ---
 

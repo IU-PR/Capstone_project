@@ -13,7 +13,7 @@ The core product functionality—automatic tyre analysis via tread-depth regress
 1. **Performance & Portability** – critical models were exported to ONNX, yielding up-to-10× CPU speed-ups (2 s → 0.3 s per inference) and lowering memory overhead;  
 2. **UX Polish** – the Web application gained quick-action buttons, friendlier waiting dialogues, local chat-history persistence, and was re-deployed to Vercel for improved availability;  
 3. **Synthetic-Data Pipeline Kick-off** – a Blender workflow capable of rendering tyres with programmatically varied tread depth produced its first sample set, seeding future augmentation;  
-4. **Release Governance** – a dated code-freeze was declared, documentation targets enumerated, and a roadmap for slide-deck authoring plus live-demo logistics drafted.
+4. **Proxy Integration** – All outgoing requests are routed through TOR proxy network to avoid country-level blocks
 
 The system now meets functional requirements and is locked for presentation, with only critical hot-fixes allowed until final defence.
 
@@ -74,7 +74,16 @@ The improved mask regularity produces tighter ellipse-fitting, which in turn sha
 * Backend unit tests: 9 / 9 pass – 100 % statement coverage.  
 * API integration: 6 scenarios pass.  
 * Front-end Cypress: 34 tests pass; Lighthouse accessibility score 95 / 100.  
-* Telegram-bot scripted flows: 3/3 pass.  
+* Telegram-bot scripted flows: 3/3 pass.
+
+--- 
+
+## 4 TOR integration
+
+* Added open-source `dperson/torproxy` container to docker-compose as a proxy
+* Enabled routing all outgoing requests through proxy
+
+*Result:* all VLM models from `openrouter.ai` are now available: no country-level blockages
 
 ---
 
@@ -96,7 +105,7 @@ The improved mask regularity produces tighter ellipse-fitting, which in turn sha
 | **Nikita Zagainov**      | Exported spike-segmenter and unwrapper to ONNX; benchmarked 10× CPU speed-up; updated API to expose confidence scores. |
 | **Dmitry Tetkin**        | Implemented Blender tread-depth variability pipeline; produced first 50 synthetic samples; profiled Cycles lighting. |
 | **Vladislav Strelkov**   | Hardened CI/CD around release tag; tested container startup with ONNX-runtime; published public Swagger docs. |
-| **Sergey Aitov**         | Extended integration test suite to cover ONNX inference path; fixed rare null-pointer error on zero-spike images. |
+| **Sergey Aitov**         | Integrated TOR container to our service; enabled automatic request routing through new container |
 | **Ekaterina Petrova**    | Added quick-action buttons, waiting dialogues, and local-storage chat cache; managed Vercel build/config. |
 | **Darya Stepanova**      | Refined UI, enhanced usability through interactive elements and engagement management ([1](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/5033bf3d6e9960f1d50a952f69dbc3256fc16055), [2](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/e22026b9614cc735c30740e6ee7c6d6545249032)) |
 

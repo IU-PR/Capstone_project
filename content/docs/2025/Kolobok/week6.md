@@ -49,7 +49,7 @@ The earlier open-source tyre-ring detector lacked robustness when wheels were mo
 * **Training corpus** – 1 260 pre-labelled “bare” tyres plus 200 new wheel-mounted instances (manual correction after auto-label seeding);  
 * **Augmentation** – random perspective warp, synthetic background compositing, Gaussian-noise injection;  
 * **Metrics** – mIoU 91 % (old model 86 %);  
-* **Inference** – ONNX FP16 on CPU 0.45 s median; GPU 12 ms.
+* **Inference** – ONNX FP32 on CPU 0.45 s median.
 
 The improved mask regularity produces tighter ellipse-fitting, which in turn sharpens ROI cropping for downstream OCR.
 

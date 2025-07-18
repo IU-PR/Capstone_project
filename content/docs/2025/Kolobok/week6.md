@@ -102,11 +102,11 @@ The improved mask regularity produces tighter ellipse-fitting, which in turn sha
 | Member                   | Contribution Highlights                                                                      |
 |--------------------------|----------------------------------------------------------------------------------------------|
 | **Nikita Menshikov**     | Managed pipeline enhancement research; created advanced version of tire model; validated site deployment on Vercel; wrote report. |
-| **Nikita Zagainov**      | Exported spike-segmenter and unwrapper to ONNX; benchmarked 10× CPU speed-up; updated API to expose confidence scores. |
+| **Nikita Zagainov**      | Led improvement patches development; added TOR [proxy](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/0b6b9538800ad3b4595997795f36cf7267539ad3) to access foreign models |
 | **Dmitry Tetkin**        | Implemented Blender tread-depth variability pipeline; produced first 50 synthetic samples; profiled Cycles lighting. |
-| **Vladislav Strelkov**   | Hardened CI/CD around release tag; tested container startup with ONNX-runtime; published public Swagger docs. |
-| **Sergey Aitov**         | Integrated TOR container to our service; enabled automatic request routing through new container |
-| **Ekaterina Petrova**    | Added quick-action buttons, waiting dialogues, and local-storage chat cache; managed Vercel build/config. |
+| **Vladislav Strelkov**   | Converted the most usage-intensive checkpoints to ONNX format; tested container startup with ONNX-runtime |
+| **Sergey Aitov**         | Trained and incorporated new tire segmentation [model](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/7655888c94ee5fc4913c63e68abcb8feafbffe92) into pipeline |
+| **Ekaterina Petrova**    | Trained and incorporated new tire unwrapper [model](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/d00e393b06f7373c2348ebd7d1eb1fcdb1419c83) into pipeline |
 | **Darya Stepanova**      | Refined UI, enhanced usability through interactive elements and engagement management ([1](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/5033bf3d6e9960f1d50a952f69dbc3256fc16055), [2](https://github.com/IU-Capstone-Project-2025/Kolobok/commit/e22026b9614cc735c30740e6ee7c6d6545249032)) |
 
 ---
